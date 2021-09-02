@@ -98,7 +98,7 @@ Programs operate on an unbounded set of memory cells. To compute integer sequenc
 
 <a name="mov"/>
 
-## `mov` (Assignment)
+## _mov_ (Assignment)
 
 Assign the value of the source to the target operand.
 
@@ -114,7 +114,7 @@ mov $$1,7 ; $26 = $$1 := 7
 
 <a name="add"/>
 
-## `add` (Addition)
+## **add** (Addition)
 
 Add the value of the source to the target operand.
 
