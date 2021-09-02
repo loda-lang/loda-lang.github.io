@@ -16,7 +16,7 @@ To get started, you can check out these resources:
 * [Online Editor](edit/?oeis=45){: .btn } to try it out yourself.
 * [Mined Programs](https://github.com/loda-lang/loda-programs) of OEIS integer sequences.
 
-If you want to receive updates on new miner findings, you can follow the [commits in loda-programs](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or join us on [loda-lang workspace](https://loda-lang.slack.com/) on Slack.
+If you want to receive updates on new miner findings, you can follow the [commits in loda-programs](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or join us in the [loda-lang workspace](https://loda-lang.slack.com/) on Slack.
 
 ## Details
 
@@ -28,14 +28,8 @@ The source code of LODA is hosted in the [loda-lang organization](https://github
 
 There are currently more than 35k programs available! You can find lists with descriptions and links here:
 
-* [A000001-A050000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list0.md)
-* [A050001-A100000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list1.md)
-* [A100001-A150000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list2.md)
-* [A150001-A200000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list3.md) 
-* [A200001-A250000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list4.md)
-* [A250001-A300000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list5.md)
-* [A300001-A350000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list6.md)
-* [A350001-A400000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list7.md)
+* [A000001-A050000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list0.md), [A050001-A100000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list1.md), [A100001-A150000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list2.md), [A150001-A200000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list3.md)
+* [A200001-A250000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list4.md), [A250001-A300000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list5.md), [A300001-A350000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list6.md), [A350001-A400000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list7.md)
 
 ## Example
 
