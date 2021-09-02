@@ -25,6 +25,7 @@ The source code of LODA is hosted in the [loda-lang organization](https://github
 * [loda-programs](https://github.com/loda-lang/loda-programs): Mined LODA programs. This repository contains programs that generate integer sequences from the OEIS. The vast majority of these programs has been automatically generated using [loda-cpp](https://github.com/loda-lang/loda-cpp), but there are also a few hand-written programs.
 * [loda-cpp](https://github.com/loda-lang/loda-cpp): Interpreter and miner written in C++.
 * [loda-rust](https://github.com/loda-lang/loda-rust): Interpreter and web interface written in Rust.
+* [Monitoring Interface](http://loda.ckrause.org/grafana): Grafana dashboard for the miners.
 
 There are currently more than 35k programs available! You can find lists with descriptions and links here:
 
