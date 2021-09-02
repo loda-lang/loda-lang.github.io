@@ -31,10 +31,7 @@ twitter_username: lodaminer
 # Build settings
 theme: minima
 
-
 search_enabled: false
 
-keep_files:
-    - edit
-
-
+exclude:
+ - "edit/web/codemirror/CHANGELOG.md"
