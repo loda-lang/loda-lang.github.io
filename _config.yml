@@ -34,9 +34,6 @@ theme: minima
 
 search_enabled: false
 
-exclude:
-    - edit
-
 keep_files:
     - edit
 
