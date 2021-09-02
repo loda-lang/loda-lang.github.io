@@ -2,10 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+title: The LODA Language
 layout: home
 ---
-
-# The LODA Language
 
 The LODA language is an assembly language with focus on arithmetic and number-theoretic operations. It supports an unbounded set of memory cells storing integer, arithmetic operations and a loop based on a lexicographical order descent on memory regions.
 
