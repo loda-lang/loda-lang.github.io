@@ -14,7 +14,7 @@ The source code of LODA is hosted in the [loda-lang organization](https://github
 * [loda-cpp](https://github.com/loda-lang/loda-cpp): Interpreter and miner written in C++.
 * [loda-rust](https://github.com/loda-lang/loda-rust): Interpreter and web interface written in Rust.
 
-The LODA language is defined in this [specification](https://loda-lang.github.com/spec).
+The LODA language is defined in this [specification](https://loda-lang.github.io/spec).
 
 There are currently more than 35k programs available! You can find lists with descriptions and links here:
 
