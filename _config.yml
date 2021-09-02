@@ -33,5 +33,7 @@ theme: minima
 
 search_enabled: false
 
-exclude:
- - "edit/web/codemirror/CHANGELOG.md"
+collections:
+    edit: # This makes sure the "_edit" dir gets copy as it is, without any Jekyll processing.
+        output: true
+
