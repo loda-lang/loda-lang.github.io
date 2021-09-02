@@ -6,9 +6,13 @@ title: The LODA Language
 layout: home
 ---
 
-The LODA language is an assembly language with focus on arithmetic and number-theoretic operations. It supports an unbounded set of memory cells storing integer, arithmetic operations and a loop based on a lexicographical order descent on memory regions.
+LODA is an assembly language, a computational model and a tool for mining integer sequences. You can use it to search programs that calculate integer sequences from the [On-Line Encyclopedia of Integer Sequences®](http://oeis.org/) (OEIS®).
 
-## A000045
+* [loda-programs](https://github.com/loda-lang/loda-programs): Mined LODA programs for OEIS sequences
+* [loda-rust](https://github.com/loda-lang/loda-rust): Interpreter and web interface written in Rust
+* [loda-lang](https://github.com/loda-lang/loda-lang): LODA language specification
+
+## Example
 
 [Edit](edit/?oeis=45){: .btn }
 
