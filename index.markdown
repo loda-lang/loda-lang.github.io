@@ -6,7 +6,7 @@ title: Overview
 layout: home
 ---
 
-LODA is an assembly language, a computational model and a tool for mining integer sequences. You can use it to search programs that calculate integer sequences from the [On-Line Encyclopedia of Integer Sequences®](http://oeis.org/) (OEIS®).
+LODA is an assembly language, a computational model and a tool for mining integer sequences. You can use it to search programs that calculate integer sequences from the [On-Line Encyclopedia of Integer Sequences®](https://oeis.org/) (OEIS®).
 
 ## Getting Started
 
