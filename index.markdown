@@ -46,7 +46,7 @@ lpe
 mov $0,$1
 ```
 
-<iframe src="http://loda.ckrause.org/grafana/?orgId=1&refresh=1m&theme=light&panelId=16" width="450" height="200" frameborder="0"></iframe>
+<iframe src="http://loda.ckrause.org/grafana/?orgId=1&refresh=1m&theme=light&viewPanel=20" width="100" height="100" frameborder="1">Test</iframe>
 
 ## Contributors
 
