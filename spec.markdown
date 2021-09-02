@@ -98,7 +98,7 @@ Programs operate on an unbounded set of memory cells. To compute integer sequenc
 
 <a name="mov"/>
 
-## _mov_ (Assignment)
+## **mov** (Assignment)
 
 Assign the value of the source to the target operand.
 
@@ -131,7 +131,7 @@ add $0,$1 ; $0 := 7 + 3 = 10
 
 <a name="sub"/>
 
-## `sub` (Subtraction)
+## **sub** (Subtraction)
 
 Subtract the source from the target operand.
 
@@ -148,7 +148,7 @@ sub $0,$1 ; $0 := -2 - (-3) = 1
 
 <a name="trn"/>
 
-## `trn` (Truncation)
+## **trn** (Truncation)
 
 Subtract the source from the target operand and ensure non-negative result.
 
@@ -165,7 +165,7 @@ trn $1,5 ; $1 := 0
 
 <a name="mul"/>
 
-## `mul` (Multiplication)
+## **mul** (Multiplication)
 
 Multiply the target with the source value: `a:=a*b`.
 
@@ -182,7 +182,7 @@ mul $0,$1 ; $0 := 35 * (-3) = -105
 
 <a name="div"/>
 
-## `div` (Division)
+## **div** (Division)
 
 Divide the target by the source value. This is the normal integer division where the fractional part is discarded.
 
@@ -198,7 +198,7 @@ div $0,-4 ; $0 := -3
 
 <a name="dif"/>
 
-## `dif` (Conditional Division)
+## **dif** (Conditional Division)
 
 Divide the target by the source value if it is a divisor. If the source is not a divisor, the target is unchanged.
 
@@ -214,7 +214,7 @@ dif $0,4  ; $0 := 13
 
 <a name="mod"/>
 
-## `mod` (Modulus)
+## **mod** (Modulus)
 
 Remainder of division of target by source.
 
@@ -235,7 +235,7 @@ mod $0,-3  ; $0 := -1
 
 <a name="pow"/>
 
-## `pow` (Power)
+## **pow** (Power)
 
 Raise target to the power of source.
 
@@ -250,7 +250,7 @@ pow $0,3  ; $0 := 27
 
 <a name="gcd"/>
 
-## `gcd` (Greatest Common Divisor)
+## **gcd** (Greatest Common Divisor)
 
 Greatest common divisor of target and source.
 
@@ -267,7 +267,7 @@ gcd $0,5   ; $0 := 1
 
 <a name="bin"/>
 
-## `bin` (Binomial Coefficient)
+## **bin** (Binomial Coefficient)
 
 Binomial coefficient (source choose target).
 
@@ -284,7 +284,7 @@ bin $0,0 ; $0 := 1
 
 <a name="cmp"/>
 
-## `cmp` (Comparison)
+## **cmp** (Comparison)
 
 Compare target and source values. The result is 1 if the target and source are equal. Otherwise, the result is 0.
 
@@ -301,7 +301,7 @@ cmp $0,9 ; $0 := 0
 
 <a name="min"/>
 
-## `min` (Minimum)
+## **min** (Minimum)
 
 Minimum of the target and source values.
 
@@ -317,7 +317,7 @@ min $0,6 ; $0 := 5
 
 <a name="max"/>
 
-## `max` (Maximum)
+## **max** (Maximum)
 
 Maximum of the target and source values.
 
@@ -333,7 +333,7 @@ max $0,8 ; $0 := 8
 
 <a name="lpb"/>
 
-## `lpb..lpe` (Loop / Conditional)
+## **lpb..lpe** (Loop / Conditional)
 
 Loops are implemented as code blocks between `lpb` and `lpe` operations. The block is executed as long as a variable is decreasing and non-negative. For example, consider the following program:
 
@@ -358,13 +358,13 @@ The `lpb` can also have a second (optional) argument. In that case, the loop cou
 
 <a name="clr"/>
 
-## `clr` (Clear)
+## **clr** (Clear)
 
 The `clr` (clear) operation resets a memory region to zero. The target operand marks the start of the memory region. The second argument is interpreter as length of the memory region. For example `clr $2,3` sets the memory cells `$2`,`$3``$4` to zero.
 
 <a name="seq"/>
 
-## `seq` (Call Sequence)
+## **seq** (Call Sequence)
 
 Calling another LODA program for an OEIS sequence is supported using the `seq` operation. This assumes you are evaluating the program as a sequence (see below). This operation takes two arguments. The first one is the parameter of the called program. The second argument is the number of the OEIS program to be called (see below). The result is stored in the first argument. For example, the operation `seq $2,45` evaluates the program A000045 (Fibonacci numbers) using the argument value in `$2` and overrides it with the result.
 
