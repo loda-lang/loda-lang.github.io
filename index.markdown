@@ -14,7 +14,8 @@ To get started, you can check out these resources:
 
 * [Specification](spec) of the LODA language.
 * [Online Editor](edit/?oeis=45){: .btn } to try it out yourself.
-* [Mined Programs](https://github.com/loda-lang/loda-programs) of OEIS integer sequences. This repository contains programs that generate integer sequences from the OEIS. The vast majority of these programs has been automatically generated using [loda-cpp](https://github.com/loda-lang/loda-cpp), but there are also a few hand-written programs.
+* [Mined Programs](https://github.com/loda-lang/loda-programs) of OEIS integer sequences.
+* [Dashboard](http://loda.ckrause.org/grafana): Grafana dashboard for the miners.
 
 There are currently more than 35k programs available! You can find lists with descriptions and links here:
 
@@ -23,16 +24,12 @@ There are currently more than 35k programs available! You can find lists with de
 
 If you want to receive updates on new miner findings, you can follow the [commits in loda-programs](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or join us in the [loda-lang workspace](https://loda-lang.slack.com/) on Slack.
 
-## Coding
+## Development
 
 The source code of LODA is hosted in the [loda-lang organization](https://github.com/loda-lang) on GitHub. These are some of its main repositories:
 
 * [loda-cpp](https://github.com/loda-lang/loda-cpp): Interpreter and miner written in C++.
 * [loda-rust](https://github.com/loda-lang/loda-rust): Interpreter and web interface written in Rust.
-
-## Operations
-
-* [Monitoring Interface](http://loda.ckrause.org/grafana): Grafana dashboard for the miners.
 
 ## Contributors
 
