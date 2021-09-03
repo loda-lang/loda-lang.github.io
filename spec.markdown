@@ -2,6 +2,7 @@
 layout: page
 title: Specification
 permalink: /spec/
+nav_order: 1
 ---
 
 # LODA Language Specification
