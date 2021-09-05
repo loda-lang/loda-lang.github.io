@@ -15,7 +15,7 @@ To get started, you can check out these resources:
 * [Specification](spec) of the LODA language.
 * [Online Editor](edit/?oeis=45){: .btn } to try it out yourself.
 * [Mined Programs](https://github.com/loda-lang/loda-programs) of OEIS integer sequences.
-* [Dashboard](http://loda.ckrause.org/grafana): Grafana dashboard for the miners.
+* [Dashboard](http://dashboard.loda-lang.org/grafana): Grafana dashboard for the miners.
 
 There are currently more than 35k programs available! You can find lists with descriptions and links here:
 
