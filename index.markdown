@@ -19,8 +19,13 @@ To get started, you can check out these resources:
 
 There are currently more than 35k programs available! You can find lists with descriptions and links here:
 
-* [A000001-A050000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list0.md), [A050001-A100000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list1.md), [A100001-A150000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list2.md), [A150001-A200000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list3.md)
-* [A200001-A250000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list4.md), [A250001-A300000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list5.md), [A300001-A350000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list6.md), [A350001-A400000](https://github.com/loda-lang/loda-programs/blob/main/oeis/list7.md)
+* [A000001-A049999](list0)
+* [A050000-A099999](list1)
+* [A100000-A149999](list2)
+* [A150000-A199999](list3)
+* [A200000-A249999](list4)
+* [A250000-A299999](list5)
+* [A300000-A349999](list6)
 
 If you want to receive updates on new miner findings, you can follow the [commits in loda-programs](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or join us in the [loda-lang workspace](https://loda-lang.slack.com/) on Slack.
 
