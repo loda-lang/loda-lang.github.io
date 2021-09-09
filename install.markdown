@@ -9,8 +9,26 @@ To install the LODA command-line tool, follow the instuctions for your operating
 
 # Ubuntu 18.04 (Bionic Beaver)
 
-Open a terminal and execute the following command:
+Open a terminal and execute the following commands:
 
-```
+```bash
 curl -fsSLo loda https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-ubuntu-18 && chmod u+x loda
 ```
+
+# Ubuntu 20.04 (Focal Fossa)
+
+Open a terminal and execute the following commands:
+
+```bash
+curl -fsSLo loda https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-ubuntu-20 && chmod u+x loda
+```
+
+# MacOS 11 (Big Sur)
+
+Open a terminal and execute the following commands:
+
+```bash
+curl -fsSLo loda https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-macos-11 && chmod u+x loda && open .
+```
+
+This opens a Finder window. Right-click on the `loda` executable and select `Open`. After you agreed to open this file for the first time, you can run `loda` on the command-line.
