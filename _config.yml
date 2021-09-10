@@ -34,6 +34,6 @@ theme: minima
 search_enabled: false
 
 collections:
-    edit: # This makes sure the "_edit" dir gets copy as it is, without any Jekyll processing.
+    edit: # This makes sure the "_edit" dir gets copied as it is, without any Jekyll processing.
         output: true
 
