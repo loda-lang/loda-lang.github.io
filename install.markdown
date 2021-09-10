@@ -2,7 +2,7 @@
 layout: page
 title: Installation
 permalink: /install/
-nav_order: 1
+nav_order: 2
 ---
 
 To install the LODA command-line tool, follow the instuctions for your operating system below.

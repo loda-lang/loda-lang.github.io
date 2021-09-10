@@ -2,7 +2,7 @@
 layout: page
 title: Editor
 permalink: /editor/
-nav_order: 2
+nav_order: 3
 ---
 
 Run LODA programs in your browser. Examples to try out:
