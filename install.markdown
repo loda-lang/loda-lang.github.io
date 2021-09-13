@@ -9,18 +9,15 @@ To install the LODA command-line tool, follow the instuctions for your operating
 
 # Ubuntu 18.04 (Bionic Beaver)
 
-Open a terminal and execute the following commands:
+The following instructions install LODA in your home directory at `$HOME/loda`.
+If you want to install it somewhere else, please update the commands accordingly.
 
 ```bash
-curl -fsSLo loda https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-ubuntu-18 && chmod u+x loda
-```
-
-# Ubuntu 20.04 (Focal Fossa)
-
-Open a terminal and execute the following commands:
-
-```bash
-curl -fsSLo loda https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-ubuntu-20 && chmod u+x loda
+curl -fsSL https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-ubuntu-18
+chmod u+x loda-ubuntu-18
+mkdir -p $HOME/loda/bin
+mv loda-ubuntu-18 $HOME/loda/bin
+$HOME/loda/bin/loda setup
 ```
 
 # MacOS 11 (Big Sur)
