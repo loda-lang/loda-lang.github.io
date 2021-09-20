@@ -29,6 +29,7 @@ The source code of LODA is hosted in the [loda-lang organization](https://github
 
 * [loda-cpp](https://github.com/loda-lang/loda-cpp): Interpreter and miner written in C++.
 * [loda-rust](https://github.com/loda-lang/loda-rust): Interpreter and web interface written in Rust.
+* [loda-programs](https://github.com/loda-lang/loda-programs): Mined programs for OEIS sequences.
 
 ## Contributors
 
