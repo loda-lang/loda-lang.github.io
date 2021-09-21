@@ -41,9 +41,10 @@ chmod u+x loda
 ./loda setup
 ```
 
-This will start the interactive setup on the command line. Follow the instructions to finish the installation.
+This will start the interactive setup on the command line. On macOS, you may need to follow the guidelines for 
+[Safely opening apps](https://support.apple.com/en-us/HT202491).
 
-If macOS does not allow you to execute the binary, open a Finder window and right-click on the `loda` executable and select `Open`. After you agreed to open this file for the first time, you can run `loda` on the command line.
+Follow the instructions to finish the installation. After that, you can try `loda eval A000045` as a Hello World example or directly start mining using `loda mine`! 
 
 # Windows
 
@@ -51,6 +52,6 @@ Windows is currently not supported, but planned for future releases.
 
 ## Updating LODA
 
-Currently you need to manually download the latest `loda` executable, replace your existing onw and rerun `loda setup`.
+Currently you need to manually download the latest `loda` executable, replace your existing one and rerun `loda setup`.
 
 In the future, we will support updating LODA directly using the `loda setup` command.
