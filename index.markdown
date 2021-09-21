@@ -12,6 +12,8 @@ LODA is an assembly language, a computational model and a tool for mining intege
 
 To get an overview of the LODA language, you can take a look at its [Specification](spec). It includes a reference of its operations with examples. You can use the [Online Editor](edit/?oeis=45){: .btn } to try it out yourself!
 
+<a href="https://loda-lang.org/edit/?oeis=2994"><img src="https://github.com/loda-lang/loda-lang.github.io/raw/master/loda-editor.png" width=300></a>
+
 If you want to see more programs, you can browse through the lists of mined programs for OEIS sequences. There are currently more than 38,000 programs available! You can find lists with descriptions and links here:
 
 * [A000001-A049999](list0), [A050000-A099999](list1), [A100000-A149999](list2), [A150000-A199999](list3)
