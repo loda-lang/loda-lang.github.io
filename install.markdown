@@ -34,3 +34,11 @@ chmod u+x loda
 ```
 
 If MacOS does not allow you to execute the binary, open a Finder window and right-click on the `loda` executable and select `Open`. After you agreed to open this file for the first time, you can run `loda` on the command-line.
+
+### Overview of Binaries
+
+| Operating System             | LODA Binary    |
+|------------------------------|----------------|
+| Ubuntu 18.04 (Bionic Beaver) | loda-ubuntu-18 |
+| Ubuntu 20.04 (Focal Fossa)   | loda-ubuntu-20 |
+| macOS 11 (Big Sur)           | loda-macos-11  |
