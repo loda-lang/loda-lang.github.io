@@ -21,7 +21,11 @@ If you want to see more programs, you can browse through the lists of mined prog
 
 There are miners continously running. You can take a look at the [Mining Dashboard](http://dashboard.loda-lang.org/grafana) to see the current activity of the miners.
 
+<a href="http://dashboard.loda-lang.org/grafana"><img src="https://github.com/loda-lang/loda-lang.github.io/raw/master/loda-dashboard.png" width=300></a>
+
 If you want mine programs yourself, you can [install the LODA command-line tool](install) and start mining using the `loda mine` command. Find out more about the tool at [loda-cpp](https://github.com/loda-lang/loda-cpp).
+
+<a href="http://loda-lang.org/install"><img src="https://github.com/loda-lang/loda-lang.github.io/raw/master/loda-cpp.png" width=300></a>
 
 If you want to receive updates on new miner findings, you can follow the [commits in loda-programs](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or join us in the [loda-lang workspace](https://loda-lang.slack.com/) on Slack.
 
@@ -38,3 +42,5 @@ The source code of LODA is hosted in the [loda-lang organization](https://github
 * [Christian Krause](https://github.com/ckrause)
 * [Simon Strandgaard](https://github.com/neoneye)
 * [Antti Karttunen](https://github.com/karttu)
+* [Jon Maiga](https://github.com/jonmaiga)
+* [Jamie Morken](https://github.com/jmorken)
