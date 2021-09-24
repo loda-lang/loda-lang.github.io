@@ -6,7 +6,9 @@ title: Overview
 layout: home
 ---
 
-LODA is an assembly language, a computational model and a tool for mining integer sequences. You can use it to generate and search programs that calculate integer sequences from the [On-Line Encyclopedia of Integer Sequences®](https://oeis.org/) (OEIS®). There are continuously running miners that generate [new programs every day](http://dashboard.loda-lang.org/grafana)!
+LODA is an assembly language, a computational model and a tool for mining integer sequences. You can use it to generate and search programs that calculate integer sequences from the [On-Line Encyclopedia of Integer Sequences®](https://oeis.org/) (OEIS®).
+
+There are continuously running miners that generate [new programs every day](http://dashboard.loda-lang.org/grafana)!
 
 ## Getting Started
 
@@ -19,15 +21,15 @@ If you want to see more programs, you can browse through the lists of mined prog
 * [A000001-A049999](list0), [A050000-A099999](list1), [A100000-A149999](list2), [A150000-A199999](list3)
 * [A200000-A249999](list4), [A250000-A299999](list5), [A300000-A349999](list6)
 
-There are miners continously running. You can take a look at the [Mining Dashboard](http://dashboard.loda-lang.org/grafana) to see the current activity of the miners.
+Except for a few hand-witten ones, these programs have been generated using distributed miners. These miners are continously running and generate new or improved programs every day. You can take a look at the [Mining Dashboard](http://dashboard.loda-lang.org/grafana) to get overview of the latest findings of the miners.
 
 <a href="http://dashboard.loda-lang.org/grafana"><img src="https://github.com/loda-lang/loda-lang.github.io/raw/master/loda-dashboard.png" width=300></a>
 
-If you want mine programs yourself, you can [install the LODA command-line tool](install) and start mining using the `loda mine` command. Find out more about the tool at [loda-cpp](https://github.com/loda-lang/loda-cpp).
+If you want mine programs yourself, you can [install the LODA command-line tool](install) and start mining using the `loda mine` command (single-core) or the `mine_parallel.sh` script (multi-core). Find out more about the tool at [loda-cpp](https://github.com/loda-lang/loda-cpp).
 
 <a href="http://loda-lang.org/install"><img src="https://github.com/loda-lang/loda-lang.github.io/raw/master/loda-cpp.png" width=300></a>
 
-If you want to receive updates on new miner findings, you can follow the [commits in loda-programs](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or join us in the [loda-lang workspace](https://loda-lang.slack.com/) on Slack.
+If you want to receive updates on new miner findings, you can check out the commits in [loda-programs](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or join other LODA enthusiasts in the [loda-lang workspace](https://loda-lang.slack.com/) on Slack.
 
 ## Development
 
