@@ -6,13 +6,13 @@ title: Overview
 layout: home
 ---
 
-LODA is an assembly language, a computational model and a tool for mining integer sequences. You can use it to generate and search programs that calculate integer sequences from the [On-Line Encyclopedia of Integer Sequences®](https://oeis.org/) (OEIS®).
+LODA is an assembly language, a computational model and a distributed tool for mining integer sequences. You can use it to generate and search programs that calculate integer sequences from the [On-Line Encyclopedia of Integer Sequences®](https://oeis.org/) (OEIS®).
 
 There are continuously running miners that generate [new programs every day](http://dashboard.loda-lang.org/grafana)!
 
 ## Getting Started
 
-To get an overview of the LODA language, you can take a look at its [Specification](spec). It includes a reference of its operations with examples. You can use the [Online Editor](edit/?oeis=45){: .btn } to try it out yourself!
+LODA means "Lexicographical Order Descent Assembly." To get an overview of the language, you can take a look at its [Specification](spec). It includes a reference of its operations with examples. You can use the [Online Editor](edit/?oeis=45){: .btn } to try it out yourself.
 
 <a href="https://loda-lang.org/edit/?oeis=2994"><img src="https://github.com/loda-lang/loda-lang.github.io/raw/master/loda-editor.png" width=300></a>
 
