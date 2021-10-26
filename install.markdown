@@ -52,6 +52,4 @@ Windows is currently not supported, but planned for future releases.
 
 ## Updating LODA
 
-Currently, you can follow the exact same steps as for the installation. This will overwrite the `loda` executable with the latest version and start `loda setup`.
-
-In the future, we plan to support updating LODA directly using the `loda setup` command.
+To install updates, run `loda setup`. This command will check if updates are available and ask you whether to install them.
