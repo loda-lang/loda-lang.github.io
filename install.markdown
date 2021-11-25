@@ -31,7 +31,7 @@ by LODA. The default is in your home directory at `$HOME/loda`.
 export LODA_HOME=$HOME/loda
 ```
 
-Now, you are ready to install LODA by running the following commands (copy & paste should work):
+Now, you are ready to install LODA by running the following commands (you can use copy & paste):
 
 ```bash
 mkdir -p $LODA_HOME/bin
@@ -49,7 +49,7 @@ Follow the instructions to finish the installation. After that, you can try `lod
 
 Before installing LODA, you need to install [Git for Windows](https://git-scm.com/download/win). This is needed because LODA manages its programs repository using Git. Please download and install it. After that you can install LODA as follows.
 
-Click on the start menu and type **Command Prompt**. Open the prompt and execute the following commands:
+Click on the start menu and type **Git CMD**. Open this app and execute the following commands (you can use copy & paste):
 
 ```
 md %USERPROFILE%\loda\bin
@@ -58,7 +58,7 @@ curl -fsSLo loda.exe https://github.com/loda-lang/loda-cpp/releases/latest/downl
 loda setup
 ```
 
-This will start the interactive setup in the command prompt.
+This will start the interactive setup in the command line.
 Follow the instructions to finish the installation. After that, you can try `loda eval A000045` as a Hello World example or directly start mining using `loda mine`! 
 
 ## Updating LODA
