@@ -52,8 +52,8 @@ Before installing LODA, you need to install [Git for Windows](https://git-scm.co
 Click on the start menu and type **Git CMD**. Open this app and execute the following commands (you can use copy & paste):
 
 ```
-md %USERPROFILE%\loda\bin
-cd %USERPROFILE%\loda\bin
+md "%USERPROFILE%\loda\bin"
+cd "%USERPROFILE%\loda\bin"
 curl -fsSLo loda.exe https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-windows-19
 loda setup
 ```
