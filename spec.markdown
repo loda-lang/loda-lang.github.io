@@ -203,7 +203,7 @@ div $0,-4 ; $0 := -3
 
 Divide the target by the source value if it is a divisor. If the source is not a divisor, the target is unchanged.
 
-An operation `div a,b` corresponds to the assignment `a := a/b` if `b` divides `a`. Otherwise, the target is unchanged. This operation yields a runtime error if `b` is zero.
+An operation `dif a,b` corresponds to the assignment `a := a/b` if `b` divides `a`. The target is unchanged if `b` does not divide `a`. It is also unchanged whenever `b` is zero. 
 
 Examples:
 
@@ -211,6 +211,7 @@ Examples:
 mov $0,26 ; $0 := 26
 dif $0,2  ; $0 := 13
 dif $0,4  ; $0 := 13
+dif $0,0  ; $0 := 13
 ```
 
 <a name="mod"/>
