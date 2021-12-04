@@ -59,7 +59,7 @@ lpe          ; end of loop
 mov $0,$1    ; store result in $0
 ```
 
-The first line is a comment and ignored during execution. LODA does not support names variables, but a sequence of memory cells denoted by `$0`,`$1`,`$2`,... each storing an integer. Programs that calculate integer sequences use the memory cell `$0` to pass the argument and store the result. The main part of the program is a sequence of operations. This particular example program calculate an integer sequence for the initial digit of cubes ([A002994](https://oeis.org/A002994) in the OEIS). The details of the language are explained in the following sections.
+The first line is a comment and ignored during execution. LODA does not support named variables, but an unbounded set of memory cells denoted by `$0`,`$1`,`$2`,... each storing an integer. Programs that calculate integer sequences use the memory cell `$0` to pass the argument and store the result. The main part of the program is a sequence of operations. This particular example program calculate an integer sequence for the initial digit of cubes ([A002994](https://oeis.org/A002994) in the OEIS). The details of the language are explained in the following sections.
 
 <a name="language-overview"/>
 
@@ -203,7 +203,7 @@ div $0,-4 ; $0 := -3
 
 Divide the target by the source value if it is a divisor. If the source is not a divisor, the target is unchanged.
 
-An operation `div a,b` corresponds to the assignment `a := a/b` if `b` divides `a`. Otherwise, the target is unchanged. This operation yields a runtime error if `b` is zero.
+An operation `dif a,b` corresponds to the assignment `a := a/b` if `b` divides `a`. The target is unchanged if `b` does not divide `a`. It is also unchanged whenever `b` is zero. 
 
 Examples:
 
@@ -211,6 +211,7 @@ Examples:
 mov $0,26 ; $0 := 26
 dif $0,2  ; $0 := 13
 dif $0,4  ; $0 := 13
+dif $0,0  ; $0 := 13
 ```
 
 <a name="mod"/>
@@ -255,7 +256,7 @@ pow $0,3  ; $0 := 27
 
 Greatest common divisor of target and source.
 
-An operation `gcd a,b` assigns the greatest common divisor of `a` and `b` to `a`. This operation yields a runtime error if `a` and `b` are both zero. Otherwise, the result is always positive (greater or equal to one).
+An operation `gcd a,b` assigns the greatest common divisor of `a` and `b` to `a`. The result is zero if `a` and `b` are both zero. Otherwise, the result is always positive (greater or equal to one).
 
 Examples:
 
