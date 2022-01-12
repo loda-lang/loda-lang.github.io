@@ -48,7 +48,7 @@ Run LODA programs in your browser. Examples to try out:
 |[A065620](https://oeis.org/A065620)|[a\(0\)=0; thereafter a\(2n\) = 2a\(n\), a\(2n+1\) = -2a\(n\) + 1.](/edit/?oeis=65620)|
 |[A066520](https://oeis.org/A066520)|[Number of primes of the form 4m+3 <= n minus number of primes of the form 4m+1 <= n.](/edit/?oeis=66520)|
 |[A073138](https://oeis.org/A073138)|[Largest number having in its binary representation the same number of 0's and 1's as n.](/edit/?oeis=73138)|
-|[A087909](https://oeis.org/A087909)|[a\(n\) = Sum_{d|n} \(n/d\)^\(d-1\).](/edit/?oeis=87909)|
+|[A087909](https://oeis.org/A087909)|[a\(n\) = Sum_{d\|n} \(n/d\)^\(d-1\).](/edit/?oeis=87909)|
 |[A093873](https://oeis.org/A093873)|[Numerators in Kepler's tree of harmonic fractions.](/edit/?oeis=93873)|
 |[A129594](https://oeis.org/A129594)|[Involution of nonnegative integers induced by the conjugation of the partition encoded in the run lengths of binary expansion of n.](/edit/?oeis=129594)|
 |[A151949](https://oeis.org/A151949)|[a\(n\) = image of n under the Kaprekar map n -> \(n with digits sorted into descending order\) - \(n with digits sorted into ascending order\).](/edit/?oeis=151949)|
