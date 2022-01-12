@@ -19,7 +19,7 @@ LODA means "Lexicographical Order Descent Assembly." To get an overview of the l
 If you want to see more programs, you can browse through the lists of mined programs for OEIS sequences. There are currently more than 45,000 programs available! You can find lists with descriptions and links here:
 
 * [A000001-A049999](list0), [A050000-A099999](list1), [A100000-A149999](list2), [A150000-A199999](list3)
-* [A200000-A249999](list4), [A250000-A299999](list5), [A300000-A349999](list6)
+* [A200000-A249999](list4), [A250000-A299999](list5), [A300000-A349999](list6), [A350000-A399999](list7)
 
 Except for a few hand-witten ones, these programs have been generated using distributed miners. These miners are continously running and generate new or improved programs every day. You can take a look at the [Mining Dashboard](http://dashboard.loda-lang.org/grafana) to get overview of the latest findings of the miners.
 
