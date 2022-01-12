@@ -23,7 +23,7 @@ Run LODA programs in your browser. Examples to try out:
 |[A002487](https://oeis.org/A002487)|[Stern's diatomic series.](/edit/?oeis=2487)|
 |[A002708](https://oeis.org/A002708)|[a(n) = Fibonacci(n) mod n. ](/edit/?oeis=2708)|
 |[A003132](https://oeis.org/A003132)|[Sum of squares of digits of n.](/edit/?oeis=3132)|
-|[A003991](https://oeis.org/A003991)|[Multiplication table read by antidiagonals: T\(i,j\) = i*j, i>=1, j>=1.](/edit/?oeis=3991)|
+|[A003991](https://oeis.org/A003991)|[Multiplication table read by antidiagonals: T\(i,j\) = i\*j, i>=1, j>=1.](/edit/?oeis=3991)|
 |[A004185](https://oeis.org/A004185)|[Arrange digits of n in increasing order, then \(for n>0\) omit the zeros.](/edit/?oeis=4185)|
 |[A004186](https://oeis.org/A004186)|[Arrange digits of n in decreasing order.](/edit/?oeis=4186)|
 |[A005590](https://oeis.org/A005590)|[a\(0\) = 0, a\(1\) = 1, a\(2n\) = a\(n\), a\(2n+1\) = a\(n+1\) - a\(n\).](/edit/?oeis=5590)|
@@ -56,7 +56,7 @@ Run LODA programs in your browser. Examples to try out:
 |[A160595](https://oeis.org/A160595)|[Numerator of resilience R\(n\) = phi\(n\)/\(n-1\), with a\(1\) = 1 by convention.](/edit/?oeis=160595)|
 |[A175851](https://oeis.org/A175851)|[a\(n\) = 1 for noncomposite n, a\(n\) = n - previousprime\(n\) + 1 for composite n.](/edit/?oeis=175851)|
 |[A186690](https://oeis.org/A186690)|[Expansion of - \(1/8\) theta_3''\(0, q\) / theta_3\(0, q\) in powers of q.](/edit/?oeis=186690)|
-|[A220466](https://oeis.org/A220466)|[a\(\(2*n-1\)*2^p\) = 4^p*\(n-1\) + 2^\(p-1\)*\(1+2^p\), p >= 0 and n >= 1.](/edit/?oeis=220466)|
+|[A220466](https://oeis.org/A220466)|[a\(\(2\*n-1\)\*2^p\) = 4^p\*\(n-1\) + 2^\(p-1\)\*\(1+2^p\), p >= 0 and n >= 1.](/edit/?oeis=220466)|
 |[A227183](https://oeis.org/A227183)|[a\(n\) is the sum of parts of the unique unordered partition encoded in the run lengths of the binary expansion of n; row sums of A227739 for n >= 1.](/edit/?oeis=227183)|
 |[A243499](https://oeis.org/A243499)|[Product of parts of integer partitions as enumerated in the table A125106.](/edit/?oeis=243499)|
 |[A276086](https://oeis.org/A276086)|[Prime product form of primorial base expansion of n: digits in primorial base representation of n become the exponents of successive prime factors whose product a\(n\) is.](/edit/?oeis=276086)|
@@ -66,6 +66,6 @@ Run LODA programs in your browser. Examples to try out:
 |[A306367](https://oeis.org/A306367)|[a\(n\) = numerator of \(n^2 + 2\)/\(n + 2\).](/edit/?oeis=306367)|
 |[A328572](https://oeis.org/A328572)|[Primorial base expansion of n converted into its prime product form, but with 1 subtracted from all nonzero digits: a\(n\) = A003557\(A276086\(n\)\).](/edit/?oeis=328572)|
 |[A336466](https://oeis.org/A336466)|[Fully multiplicative with a\(p\) = A000265\(p-1\) for any prime p, where A000265\(k\) gives the odd part of k.](/edit/?oeis=336466)|
-|[A340649](https://oeis.org/A340649)|[a\(n\) = \(n*prime\(n+1\)\) mod prime\(n\).](/edit/?oeis=340649)|
-|[A342730](https://oeis.org/A342730)|[a\(n\) = floor\(\(frac\(e*n\) + 1\) * prime\(n+1\)\).](/edit/?oeis=342730)|
+|[A340649](https://oeis.org/A340649)|[a\(n\) = \(n\*prime\(n+1\)\) mod prime\(n\).](/edit/?oeis=340649)|
+|[A342730](https://oeis.org/A342730)|[a\(n\) = floor\(\(frac\(e\*n\) + 1\) \* prime\(n+1\)\).](/edit/?oeis=342730)|
 
