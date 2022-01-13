@@ -23,11 +23,15 @@ Run LODA programs in your browser. Examples to try out:
 |[A002487](https://oeis.org/A002487)|[Stern's diatomic series.](/edit/?oeis=2487)|
 |[A002708](https://oeis.org/A002708)|[a(n) = Fibonacci(n) mod n. ](/edit/?oeis=2708)|
 |[A003132](https://oeis.org/A003132)|[Sum of squares of digits of n.](/edit/?oeis=3132)|
+|[A003986](https://oeis.org/A003986)|[Table of x OR y, where \(x,y\) = \(0,0\), \(0,1\), \(1,0\), \(0,2\), \(1,1\), \(2,0\), ...](/edit/?oeis=3986)|
+|[A003987](https://oeis.org/A003987)|[Table of n XOR m \(or Nim-sum of n and m\) read by antidiagonals, i.e., with entries in the order \(n,m\) = \(0,0\), \(0,1\), \(1,0\), \(0,2\), \(1,1\), \(2,0\), ...](/edit/?oeis=3987)|
 |[A003991](https://oeis.org/A003991)|[Multiplication table read by antidiagonals: T\(i,j\) = i\*j, i>=1, j>=1.](/edit/?oeis=3991)|
 |[A004185](https://oeis.org/A004185)|[Arrange digits of n in increasing order, then \(for n>0\) omit the zeros.](/edit/?oeis=4185)|
 |[A004186](https://oeis.org/A004186)|[Arrange digits of n in decreasing order.](/edit/?oeis=4186)|
+|[A004198](https://oeis.org/A004198)|[Table of x AND y, where \(x,y\) = \(0,0\),\(0,1\),\(1,0\),\(0,2\),\(1,1\),\(2,0\),...](/edit/?oeis=4198)|
 |[A005590](https://oeis.org/A005590)|[a\(0\) = 0, a\(1\) = 1, a\(2n\) = a\(n\), a\(2n+1\) = a\(n+1\) - a\(n\).](/edit/?oeis=5590)|
 |[A006577](https://oeis.org/A006577)|[Number of halving and tripling steps to reach 1 in '3x+1' problem, or -1 if 1 is never reached.](/edit/?oeis=6577)|
+|[A007305](https://oeis.org/A007305)|[Numerators of Farey \(or Stern-Brocot\) tree fractions.](/edit/?oeis=7305)|
 |[A007434](https://oeis.org/A007434)|[Jordan function J_2\(n\) \(a generalization of phi\(n\)\).](/edit/?oeis=7434)|
 |[A008330](https://oeis.org/A008330)|[phi\(p-1\), as p runs through the primes.](/edit/?oeis=8330)|
 |[A030101](https://oeis.org/A030101)|[a\(n\) is the number produced when n is converted to binary digits, the binary digits are reversed and then converted back into a decimal number.](/edit/?oeis=30101)|
@@ -64,6 +68,7 @@ Run LODA programs in your browser. Examples to try out:
 |[A289813](https://oeis.org/A289813)|[A binary encoding of the ones in ternary representation of n.](/edit/?oeis=289813)|
 |[A289814](https://oeis.org/A289814)|[A binary encoding of the twos in ternary representation of n.](/edit/?oeis=289814)|
 |[A306367](https://oeis.org/A306367)|[a\(n\) = numerator of \(n^2 + 2\)/\(n + 2\).](/edit/?oeis=306367)|
+|[A318458](https://oeis.org/A318458)|[a\(n\) = n AND A001065\(n\), where AND is bitwise-and \(A004198\) & A001065 = sum of proper divisors.](/edit/?oeis=318458)|
 |[A328572](https://oeis.org/A328572)|[Primorial base expansion of n converted into its prime product form, but with 1 subtracted from all nonzero digits: a\(n\) = A003557\(A276086\(n\)\).](/edit/?oeis=328572)|
 |[A336466](https://oeis.org/A336466)|[Fully multiplicative with a\(p\) = A000265\(p-1\) for any prime p, where A000265\(k\) gives the odd part of k.](/edit/?oeis=336466)|
 |[A340649](https://oeis.org/A340649)|[a\(n\) = \(n\*prime\(n+1\)\) mod prime\(n\).](/edit/?oeis=340649)|
