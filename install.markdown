@@ -9,7 +9,7 @@ The LODA command-line tool is available for Ubuntu, macOS and Windows. To instal
 
 # Ubuntu and macOS
 
-To install LODA in Ubuntu or macOS, please make sure you have [git](https://git-scm.com/) installed.
+Before installing LODA on Ubuntu or macOS, please make sure you have [git](https://git-scm.com/) installed.
 
 Then map your operating system version to a LODA executable using the following table:
 
@@ -42,10 +42,9 @@ chmod u+x loda
 ./loda setup
 ```
 
-This will start the interactive setup on the command line. On macOS, you may need to follow the guidelines for 
-[Safely opening apps](https://support.apple.com/en-us/HT202491).
+This will start the interactive setup on the command line.
 Follow the instructions to finish the installation. After that, you can try `loda eval A000045` as a Hello World
-example, or start mining using `loda mine` (single core) or `loda mine -p` (multi-core). 
+example, or start mining programs using `loda mine` (single core) or `loda mine -p` (multi-core). 
 
 # Windows
 
