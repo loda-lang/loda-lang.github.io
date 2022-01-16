@@ -12,7 +12,7 @@ There are continuously running miners that generate [new programs every day](htt
 
 *The LODA project is looking for additional mining resources. If you have spare capacity and you like the project, please consider running miners. You can include your name in mined programs! See below for more information.*
 
-## Getting Started
+## The LODA Language
 
 LODA means _Lexicographical Order Descent Assembly_. To get an overview of the language, you can take a look at its [Specification](spec). It includes a reference of its operations with examples. You can use the [Online Editor](edit/?oeis=45){: .btn } to try it out yourself.
 
@@ -25,7 +25,7 @@ If you want to see more programs, you can browse through the lists of mined prog
 
 Except for a few hand-witten ones, these programs have been generated using distributed miners.
 
-## Mining: Call for Compute Resources
+## Mining Programs for Integer Sequences
 
 There are continuously running miners generating new or improved programs every day. You can take a look at the [mining dashboard](http://dashboard.loda-lang.org/grafana) to get an overview of the currently running miners and their latest findings.
 
