@@ -9,14 +9,15 @@ The LODA command-line tool is available for Ubuntu, macOS and Windows. To instal
 
 # Ubuntu and macOS
 
-To install LODA in Ubuntu or macOS, you first need to map your operating system version
-to a LODA executable using the following table:
+To install LODA in Ubuntu or macOS, please make sure you have [git](https://git-scm.com/) installed.
 
-| Operating System              | LODA Executable  |
-|-------------------------------|------------------|
-| Ubuntu 18.04 (Bionic Beaver)  | `loda-ubuntu-18` |
-| Ubuntu 20.04 (Focal Fossa)    | `loda-ubuntu-20` |
-| macOS 11 (Big Sur / Monterey) | `loda-macos-11`  |
+Then map your operating system version to a LODA executable using the following table:
+
+| Operating System                   | LODA Executable  |
+|------------------------------------|------------------|
+| Ubuntu 18.04 (Bionic Beaver)       | `loda-ubuntu-18` |
+| Ubuntu 20.04 (Focal Fossa)         | `loda-ubuntu-20` |
+| macOS 11 / 12 (Big Sur / Monterey) | `loda-macos-11`  |
 
 Open a terminal and set a temporary environment variable:
 
@@ -43,11 +44,12 @@ chmod u+x loda
 
 This will start the interactive setup on the command line. On macOS, you may need to follow the guidelines for 
 [Safely opening apps](https://support.apple.com/en-us/HT202491).
-Follow the instructions to finish the installation. After that, you can try `loda eval A000045` as a Hello World example or directly start mining using `loda mine`! 
+Follow the instructions to finish the installation. After that, you can try `loda eval A000045` as a Hello World
+example, or start mining using `loda mine` (single core) or `loda mine -p` (multi-core). 
 
 # Windows
 
-Before installing LODA, you need to install [Git for Windows](https://git-scm.com/download/win). This is needed because LODA manages its programs repository using Git. Please download and install it. After that you can install LODA as follows.
+Before installing LODA, you need to install [Git for Windows](https://git-scm.com/download/win). After that you can install LODA as follows.
 
 Click on the start menu and type **Git CMD**. Open this app and execute the following commands (you can use copy & paste):
 
