@@ -33,7 +33,7 @@ To mine programs, you need to [install the LODA command-line tool](install). The
 
 _If you contribute mining resources, LODA allows you to specify your name to be included in the mined programs! All mined programs are stored in the [loda-programs](https://github.com/loda-lang/loda-programs) repository._
 
-<a href="http://loda-lang.org/install"><img src="https://github.com/loda-lang/loda-lang.github.io/raw/master/loda-cpp.png" width=300></a>
+<a href="http://loda-lang.org/install"><img src="https://github.com/loda-lang/loda-lang.github.io/raw/master/loda-mine.png" width=300></a>
 
 You can find an overview of the current resources and result on the [mining dashboard](http://dashboard.loda-lang.org/grafana). To receive updates on new miner findings, you can check out the commits in [loda-programs](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or join other LODA followers in the [loda-lang workspace](https://loda-lang.slack.com/) on Slack.
 It includes a channel that posts new programs in real-time.
