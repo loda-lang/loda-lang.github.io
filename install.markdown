@@ -5,18 +5,18 @@ permalink: /install/
 nav_order: 2
 ---
 
-The LODA command-line tool is available for Ubuntu, macOS and Windows. To install it, follow the instuctions for your operating system below.
+The LODA command-line tool is available for Linux, macOS and Windows. To install it, follow the instuctions for your operating system below.
 
-# Ubuntu and macOS
+# Linux and macOS
 
-Before installing LODA on Ubuntu or macOS, please make sure you have [git](https://git-scm.com/) installed.
+Before installing LODA on Linux or macOS, please make sure you have [git](https://git-scm.com/) installed.
 
 Then map your operating system version to a LODA executable using the following table:
 
 | Operating System                   | LODA Executable  |
 |------------------------------------|------------------|
-| Ubuntu 18.04 (Bionic Beaver)       | `loda-ubuntu-18` |
-| Ubuntu 20.04 (Focal Fossa)         | `loda-ubuntu-20` |
+| Linux x86-64 (Intel/AMD64)         | `loda-linux-x86` |
+| Linux ARM64 (compatible with Raspberry Pi OS (64-bit) | `loda-linux-arm64` |
 | macOS 11 / 12 (Big Sur / Monterey) | `loda-macos-11`  |
 
 Open a terminal and set a temporary environment variable:
