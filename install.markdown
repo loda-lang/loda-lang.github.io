@@ -17,7 +17,7 @@ Then map your operating system version to a LODA executable using the following 
 |------------------------------------|------------------|
 | Linux x86-64 (Intel/AMD64)         | `loda-linux-x86` |
 | Linux ARM64 (compatible with Raspberry Pi OS (64-bit) | `loda-linux-arm64` |
-| macOS 11 / 12 (Big Sur / Monterey) | `loda-macos-11`  |
+| macOS (universal binary for Intel/Apple processors) | `loda-macos`  |
 
 Open a terminal and set a temporary environment variable:
 
