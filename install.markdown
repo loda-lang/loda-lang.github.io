@@ -55,7 +55,7 @@ Click on the start menu and type **Git CMD**. Open this app and execute the foll
 ```
 md "%USERPROFILE%\loda\bin"
 cd "%USERPROFILE%\loda\bin"
-curl -fsSLo loda.exe https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-windows-19
+curl -fsSLo loda.exe https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-windows
 loda setup
 ```
 
