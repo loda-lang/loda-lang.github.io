@@ -27,7 +27,9 @@ Except for a few hand-witten ones, these programs have been generated using dist
 
 ## Mining Programs for Integer Sequences
 
-There are continuously running miners generating new or improved programs every day. You can take a look at the [mining dashboard](http://dashboard.loda-lang.org/grafana) to get an overview of the currently running miners and their latest findings.
+There are continuously running miners generating new or improved programs every day. You can take a look at the [mining dashboard](http://dashboard.loda-lang.org/grafana) to get an overview of the currently running miners and their latest findings. Below you see a chart of the number of programs since the start of the project.
+
+<img src="https://raw.githubusercontent.com/loda-lang/loda-programs/main/program_counts.png" width=400 />
 
 To mine programs, you need to [install the LODA command-line tool](install). Then you can start mining using the `loda mine` command (single-core) or the `loda mine -p` (multi-core).
 
@@ -35,7 +37,7 @@ _If you contribute mining resources, LODA allows you to specify your name to be 
 
 <a href="https://github.com/loda-lang/loda-lang.github.io/raw/master/loda-mine.png"><img src="https://github.com/loda-lang/loda-lang.github.io/raw/master/loda-mine.png" width=300></a>
 
-You can find an overview of the current resources and result on the [mining dashboard](http://dashboard.loda-lang.org/grafana). To receive updates on new miner findings, you can check out the commits in [loda-programs](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or join other LODA followers in the [loda-lang workspace](https://loda-lang.slack.com/) on Slack.
+To receive updates on new miner findings, you can check out the commits in [loda-programs](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or join other LODA followers in the [loda-lang workspace](https://loda-lang.slack.com/) on Slack.
 It includes a channel that posts new programs in real-time.
 
 ## Development
@@ -50,6 +52,6 @@ The source code of LODA is hosted in the [loda-lang organization](https://github
 
 * [Christian Krause](https://github.com/ckrause)
 * [Simon Strandgaard](https://github.com/neoneye)
+* [Jamie Morken](https://github.com/jmorken)
 * [Antti Karttunen](https://github.com/karttu)
 * [Jon Maiga](https://github.com/jonmaiga)
-* [Jamie Morken](https://github.com/jmorken)
