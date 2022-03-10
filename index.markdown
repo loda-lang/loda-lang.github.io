@@ -42,3 +42,10 @@ The source code of LODA is hosted in the [loda-lang organization](https://github
 * [Jamie Morken](https://github.com/jmorken)
 * [Antti Karttunen](https://github.com/karttu)
 * [Jon Maiga](https://github.com/jonmaiga)
+
+## Related Projects
+
+* [Sequence Database](http://sequencedb.net) by [Jon Maiga](http://www.jonkagstrom.com/) is a database with machine generated integer and decimal sequences.
+* [jOEIS](https://github.com/archmageirvine/joeis) by Sean A. Irvine and Georg Fischer is a collection of pure Java programs implementing sequences from the OEIS.
+* [The Ramanujan Machine](https://github.com/ShaharGottlieb/MasseyRamanujan) by Shahar Gottlieb is an algorithmic approach to discover new mathematical conjectures.
+* [QSynt](http://grid01.ciirc.cvut.cz/~thibault/synt.html) by Thibault Gauthier is a program synthesis tool for OEIS integer sequences.
