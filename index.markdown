@@ -23,7 +23,12 @@ LODA includes a tool for mining new and more efficient programs for integer sequ
 
 <img src="https://raw.githubusercontent.com/loda-lang/loda-programs/main/program_counts.png" width=400 />
 
-If you want to mine programs, you need to [install the LODA command-line tool](install) first. After the installation you can start mining using the command `loda mine` (single-core) or the command `loda mine -p` (multi-core). The tool allows you to **include your name in mined programs**. All mined programs are stored in the [loda-programs](https://github.com/loda-lang/loda-programs) repository.
+You have two options for mining programs:
+
+1. Join the [LODA project on BOINC](https://boinc.loda-lang.org/loda/).
+2. Use the [LODA command-line tool](install).
+
+We honor your contributions: you can **include your name in mined programs**! All mined programs are stored in the [loda-programs](https://github.com/loda-lang/loda-programs) repository.
 
 To receive updates on new miner findings, you can check out the commits in [loda-programs](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or join other LODA followers in the [loda-lang workspace](https://loda-lang.slack.com/) on Slack. It includes a channel that posts new programs in real-time.
 
@@ -45,8 +50,8 @@ The source code of LODA is hosted in the [loda-lang organization](https://github
 
 ## Related Projects
 
-* [Sequence Machine](http://sequencedb.net) by [Jon Maiga](http://www.jonkagstrom.com/) is a database of mathematical conjectures on many machine-generated integer and decimal sequences.
+* [Sequence Machine](http://sequencedb.net) is a database of mathematical conjectures on many machine-generated integer and decimal sequences.
 * [Superseeker](https://oeis.org/ol.html) from the OEIS is an automatic email server for identifying integer sequences.
-* [jOEIS](https://github.com/archmageirvine/joeis) by Sean A. Irvine and Georg Fischer is a collection of pure Java programs implementing sequences from the OEIS.
-* [The Ramanujan Machine](https://www.ramanujanmachine.com/) by [Shahar Gottlieb](https://github.com/ShaharGottlieb) is an algorithmic approach to discover new mathematical conjectures.
-* [QSynt](http://grid01.ciirc.cvut.cz/~thibault/synt.html) by [Thibault Gauthier](https://github.com/barakeel) is a program synthesis tool for OEIS integer sequences.
+* [jOEIS](https://github.com/archmageirvine/joeis) is a collection of pure Java programs implementing sequences from the OEIS.
+* [The Ramanujan Machine](https://www.ramanujanmachine.com/) is an algorithmic approach to discover new mathematical conjectures.
+* [QSynt](http://grid01.ciirc.cvut.cz/~thibault/synt.html) is a program synthesis tool for OEIS integer sequences.
