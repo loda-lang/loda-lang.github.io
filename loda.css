@@ -1,3 +1,14 @@
 a.page-link.is-active {
     font-weight: bold;
 }
+.site-title {
+    display: flex;
+    gap: 0.5em;
+}
+.site-title picture {
+    width: 32px;
+    height: 32px;
+}
+.site-title picture img {
+    vertical-align: text-top;
+}
