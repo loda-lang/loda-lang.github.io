@@ -44,7 +44,7 @@ The source code of LODA is hosted in the [loda-lang organization](https://github
 
 LODA is a community project and is very thankful for the many community contributions it receives.
 
-* [List of top contributers](https://boinc.loda-lang.org/loda/top_users.php)
+* [List of top contributors](https://boinc.loda-lang.org/loda/top_users.php)
 * [Christian Krause](https://github.com/ckrause)
 * [Simon Strandgaard](https://github.com/neoneye)
 * [Jamie Morken](https://github.com/jmorken)
