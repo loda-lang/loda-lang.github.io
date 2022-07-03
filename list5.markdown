@@ -18,6 +18,9 @@ List of integer sequences with links to LODA programs.
 * [A250098](https://oeis.org/A250098) ([program](/edit/?oeis=250098)): Number of triangles in minimal triangulation of the orientable closed surface of genus n (S\_n).
 * [A250102](https://oeis.org/A250102) ([program](/edit/?oeis=250102)): a(n) = 2\*5^n - (1+2i)^(2n) - (1-2i)^(2n) where i = sqrt(-1).
 * [A250103](https://oeis.org/A250103) ([program](/edit/?oeis=250103)): Expansion of (1+x)/(1+x-2\*x^2-3\*x^3).
+* [A250105](https://oeis.org/A250105) ([program](/edit/?oeis=250105)): Column 1 of triangle in A250104 (or A124323).
+* [A250106](https://oeis.org/A250106) ([program](/edit/?oeis=250106)): Column 2 of triangle in A250104 (or A124323).
+* [A250107](https://oeis.org/A250107) ([program](/edit/?oeis=250107)): Column 3 of triangle in A250104 (or A124323).
 * [A250108](https://oeis.org/A250108) ([program](/edit/?oeis=250108)): n\*(n-1)/2 mod 2 + n\*(n-1)/2 - n\*( (n-1) mod 2 ).
 * [A250111](https://oeis.org/A250111) ([program](/edit/?oeis=250111)): Number of orbits of size 2 in vertices of Fibonacci cube Gamma\_n under the action of its automorphism group.
 * [A250120](https://oeis.org/A250120) ([program](/edit/?oeis=250120)): Coordination sequence for planar net 3.3.3.3.6 (also called the fsz net).
@@ -32,6 +35,7 @@ List of integer sequences with links to LODA programs.
 * [A250230](https://oeis.org/A250230) ([program](/edit/?oeis=250230)): Number of length 3+1 0..n arrays with the sum of the cubes of adjacent differences multiplied by some arrangement of +-1 equal to zero.
 * [A250256](https://oeis.org/A250256) ([program](/edit/?oeis=250256)): Least positive integer whose decimal digits divide the plane into n regions (A249572 variant).
 * [A250257](https://oeis.org/A250257) ([program](/edit/?oeis=250257)): Least nonnegative integer whose decimal digits divide the plane into n regions.
+* [A250258](https://oeis.org/A250258) ([program](/edit/?oeis=250258)): Least nonnegative integer whose decimal digits divide the plane into n regions (A250257 variant).
 * [A250271](https://oeis.org/A250271) ([program](/edit/?oeis=250271)): Number of length n+1 0..2 arrays with the sum of the squares of adjacent differences multiplied by some arrangement of +-1 equal to zero.
 * [A250309](https://oeis.org/A250309) ([program](/edit/?oeis=250309)): a(n) = a(n-1)\*(1 + a(n-1)/a(n-3)), with a(0) = a(1) = a(2) = 1.
 * [A250313](https://oeis.org/A250313) ([program](/edit/?oeis=250313)): Number of length n+2 0..1 arrays with the sum of second differences squared multiplied by some arrangement of +-1 equal to zero.
@@ -39,6 +43,7 @@ List of integer sequences with links to LODA programs.
 * [A250328](https://oeis.org/A250328) ([program](/edit/?oeis=250328)): Denominator of the harmonic mean of the first n pentagonal numbers.
 * [A250337](https://oeis.org/A250337) ([program](/edit/?oeis=250337)): Number of length 1+5 0..n arrays with every six consecutive terms having the maximum of some three terms equal to the minimum of the remaining three terms.
 * [A250344](https://oeis.org/A250344) ([program](/edit/?oeis=250344)): Numerator of the harmonic mean of the first n hexagonal numbers.
+* [A250345](https://oeis.org/A250345) ([program](/edit/?oeis=250345)): Numerator of the harmonic mean of the first n heptagonal numbers.
 * [A250352](https://oeis.org/A250352) ([program](/edit/?oeis=250352)): Number of length 3 arrays x(i), i=1..3 with x(i) in i..i+n and no value appearing more than 2 times.
 * [A250353](https://oeis.org/A250353) ([program](/edit/?oeis=250353)): Number of length 4 arrays x(i), i=1..4 with x(i) in i..i+n and no value appearing more than 2 times.
 * [A250354](https://oeis.org/A250354) ([program](/edit/?oeis=250354)): Number of length 5 arrays x(i), i=1..5 with x(i) in i..i+n and no value appearing more than 2 times.
@@ -56,12 +61,16 @@ List of integer sequences with links to LODA programs.
 * [A250431](https://oeis.org/A250431) ([program](/edit/?oeis=250431)): Number of (n+1)X(7+1) 0..1 arrays with nondecreasing sum of every two consecutive values in every row and column
 * [A250437](https://oeis.org/A250437) ([program](/edit/?oeis=250437)): Number of (n+1)X(2+1) 0..2 arrays with nondecreasing sum of every two consecutive values in every row and column
 * [A250438](https://oeis.org/A250438) ([program](/edit/?oeis=250438)): Number of (n+1)X(3+1) 0..2 arrays with nondecreasing sum of every two consecutive values in every row and column
+* [A250439](https://oeis.org/A250439) ([program](/edit/?oeis=250439)): Number of (n+1)X(4+1) 0..2 arrays with nondecreasing sum of every two consecutive values in every row and column
 * [A250440](https://oeis.org/A250440) ([program](/edit/?oeis=250440)): Number of (n+1)X(5+1) 0..2 arrays with nondecreasing sum of every two consecutive values in every row and column
+* [A250441](https://oeis.org/A250441) ([program](/edit/?oeis=250441)): Number of (n+1)X(6+1) 0..2 arrays with nondecreasing sum of every two consecutive values in every row and column
 * [A250442](https://oeis.org/A250442) ([program](/edit/?oeis=250442)): Number of (n+1)X(7+1) 0..2 arrays with nondecreasing sum of every two consecutive values in every row and column
 * [A250461](https://oeis.org/A250461) ([program](/edit/?oeis=250461)): Number of (n+1)X(1+1) 0..1 arrays with nondecreasing min(x(i,j),x(i,j-1)) in the i direction and nondecreasing min(x(i,j),x(i-1,j)) in the j direction.
 * [A250480](https://oeis.org/A250480) ([program](/edit/?oeis=250480)): a(1) = 0, and for n > 1: if n is a prime, a(n) = n, otherwise a(n) = A020639(n) - 1, where A020639(n) gives the least prime dividing n.
 * [A250486](https://oeis.org/A250486) ([program](/edit/?oeis=250486)): A(n,k) is the n^k-th Fibonacci number; square array A(n,k), n>=0, k>=0, read by antidiagonals.
 * [A250497](https://oeis.org/A250497) ([program](/edit/?oeis=250497)): Number of (n+2)X(1+2) 0..1 arrays with nondecreasing medians of every three consecutive values in every row and column
+* [A250548](https://oeis.org/A250548) ([program](/edit/?oeis=250548)): Numerator of the harmonic mean of the first n 9-gonal numbers.
+* [A250549](https://oeis.org/A250549) ([program](/edit/?oeis=250549)): Denominator of the harmonic mean of the first n 9-gonal numbers.
 * [A250550](https://oeis.org/A250550) ([program](/edit/?oeis=250550)): Numerator of the harmonic mean of the first n 10-gonal numbers.
 * [A250551](https://oeis.org/A250551) ([program](/edit/?oeis=250551)): Denominator of the harmonic mean of the first n positive 10-gonal numbers.
 * [A250554](https://oeis.org/A250554) ([program](/edit/?oeis=250554)): Number of length n+2 0..1 arrays with the sum of second differences multiplied by some arrangement of +-1 equal to zero.
@@ -89,6 +98,7 @@ List of integer sequences with links to LODA programs.
 * [A250740](https://oeis.org/A250740) ([program](/edit/?oeis=250740)): Number of (n+1) X (6+1) 0..1 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nonincreasing x(i,j)-x(i-1,j) in the j direction.
 * [A250741](https://oeis.org/A250741) ([program](/edit/?oeis=250741)): Number of (n+1) X (7+1) 0..1 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nonincreasing x(i,j)-x(i-1,j) in the j direction.
 * [A250742](https://oeis.org/A250742) ([program](/edit/?oeis=250742)): T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nonincreasing x(i,j)-x(i-1,j) in the j direction
+* [A250744](https://oeis.org/A250744) ([program](/edit/?oeis=250744)): Denominator of the harmonic mean of the first n positive Fibonacci numbers.
 * [A250749](https://oeis.org/A250749) ([program](/edit/?oeis=250749)): Number of (n+1) X (2+1) 0..2 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing x(i,j)+x(i-1,j) in the j direction.
 * [A250750](https://oeis.org/A250750) ([program](/edit/?oeis=250750)): Number of (n+1) X (3+1) 0..2 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing x(i,j)+x(i-1,j) in the j direction.
 * [A250751](https://oeis.org/A250751) ([program](/edit/?oeis=250751)): Number of (n+1) X (4+1) 0..2 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing x(i,j)+x(i-1,j) in the j direction.
@@ -137,6 +147,8 @@ List of integer sequences with links to LODA programs.
 * [A250888](https://oeis.org/A250888) ([program](/edit/?oeis=250888)): G.f. A(x) satisfies: x = A(x) \* (1 + A(x)) \* (1 - 4\*A(x)).
 * [A250889](https://oeis.org/A250889) ([program](/edit/?oeis=250889)): G.f. A(x) satisfies: x = A(x) \* (1 + 2\*A(x)) \* (1 - 3\*A(x)).
 * [A250899](https://oeis.org/A250899) ([program](/edit/?oeis=250899)): Number of (1+1) X (n+1) 0..2 arrays with nondecreasing x(i,j)-x(i,j-1) in the i direction and nondecreasing absolute value of x(i,j)-x(i-1,j) in the j direction.
+* [A250914](https://oeis.org/A250914) ([program](/edit/?oeis=250914)): E.g.f.: (18 - 17\*cosh(x)) / (25 - 24\*cosh(x)).
+* [A250915](https://oeis.org/A250915) ([program](/edit/?oeis=250915)): E.g.f.: (32 - 31\*cosh(x)) / (41 - 40\*cosh(x)).
 * [A251091](https://oeis.org/A251091) ([program](/edit/?oeis=251091)): a(n) = n^2 / gcd(n+2, 4).
 * [A251092](https://oeis.org/A251092) ([program](/edit/?oeis=251092)): a(n) is the number of primes in the n-th group of consecutive primes among the odd numbers.
 * [A251122](https://oeis.org/A251122) ([program](/edit/?oeis=251122)): Number of (n+1) X (2+1) 0..1 arrays with no 2 X 2 subblock having the sum of its diagonal elements greater than the maximum of its antidiagonal elements.
@@ -174,6 +186,7 @@ List of integer sequences with links to LODA programs.
 * [A251517](https://oeis.org/A251517) ([program](/edit/?oeis=251517)): Number of (n+1) X (1+1) 0..3 arrays with every 2 X 2 subblock summing to 2 3 4 5 6 7 8 9 or 10.
 * [A251561](https://oeis.org/A251561) ([program](/edit/?oeis=251561)): A permutation of the natural numbers: interchange p and 2p for every prime p.
 * [A251568](https://oeis.org/A251568) ([program](/edit/?oeis=251568)): E.g.f.: exp(x\*C(x)^2) where C(x) = 1 + x\*C(x)^2 is the g.f. of the Catalan numbers, A000108.
+* [A251569](https://oeis.org/A251569) ([program](/edit/?oeis=251569)): E.g.f.: exp(x\*G(x)) where G(x) = 1 + x\*G(x)^3 is the g.f. of A001764.
 * [A251573](https://oeis.org/A251573) ([program](/edit/?oeis=251573)): E.g.f.: exp(3\*x\*G(x)^2) / G(x)^2 where G(x) = 1 + x\*G(x)^3 is the g.f. of A001764.
 * [A251574](https://oeis.org/A251574) ([program](/edit/?oeis=251574)): E.g.f.: exp(4\*x\*G(x)^3) / G(x)^3 where G(x) = 1 + x\*G(x)^4 is the g.f. of A002293.
 * [A251575](https://oeis.org/A251575) ([program](/edit/?oeis=251575)): E.g.f.: exp(5\*x\*G(x)^4) / G(x)^4 where G(x) = 1 + x\*G(x)^5 is the g.f. of A002294.
@@ -182,6 +195,14 @@ List of integer sequences with links to LODA programs.
 * [A251578](https://oeis.org/A251578) ([program](/edit/?oeis=251578)): E.g.f.: exp(8\*x\*G(x)^7) / G(x)^7 where G(x) = 1 + x\*G(x)^8 is the g.f. of A007556.
 * [A251579](https://oeis.org/A251579) ([program](/edit/?oeis=251579)): E.g.f.: exp(9\*x\*G(x)^8) / G(x)^8 where G(x) = 1 + x\*G(x)^9 is the g.f. of A062994.
 * [A251580](https://oeis.org/A251580) ([program](/edit/?oeis=251580)): E.g.f.: exp(10\*x\*G(x)^9) / G(x)^9 where G(x) = 1 + x\*G(x)^10 is the g.f. of A059968.
+* [A251583](https://oeis.org/A251583) ([program](/edit/?oeis=251583)): a(n) = 3^(n-1) \* (n+1)^(n-3) \* (n+3).
+* [A251584](https://oeis.org/A251584) ([program](/edit/?oeis=251584)): a(n) = 4^(n-2) \* (n+1)^(n-4) \* (3\*n^2 + 13\*n + 16).
+* [A251585](https://oeis.org/A251585) ([program](/edit/?oeis=251585)): a(n) = 5^(n-3) \* (n+1)^(n-5) \* (16\*n^3 + 87\*n^2 + 172\*n + 125).
+* [A251586](https://oeis.org/A251586) ([program](/edit/?oeis=251586)): a(n) = 6^(n-4) \* (n+1)^(n-6) \* (125\*n^4 + 810\*n^3 + 2095\*n^2 + 2586\*n + 1296).
+* [A251587](https://oeis.org/A251587) ([program](/edit/?oeis=251587)): a(n) = 7^(n-5) \* (n+1)^(n-7) \* (1296\*n^5 + 9720\*n^4 + 30555\*n^3 + 50665\*n^2 + 44621\*n + 16807).
+* [A251588](https://oeis.org/A251588) ([program](/edit/?oeis=251588)): a(n) = 8^(n-6) \* (n+1)^(n-8) \* (16807\*n^6 + 143031\*n^5 + 525875\*n^4 + 1074745\*n^3 + 1294846\*n^2 + 876856\*n + 262144).
+* [A251589](https://oeis.org/A251589) ([program](/edit/?oeis=251589)): a(n) = 9^(n-7) \* (n+1)^(n-9) \* (262144\*n^7 + 2494464\*n^6 + 10470208\*n^5 + 25229505\*n^4 + 37857568\*n^3 + 35537670\*n^2 + 19414368\*n + 4782969).
+* [A251590](https://oeis.org/A251590) ([program](/edit/?oeis=251590)): a(n) = 10^(n-8) \* (n+1)^(n-10) \* (4782969\*n^8 + 50309748\*n^7 + 237013938\*n^6 + 655232760\*n^5 + 1166624361\*n^4 + 1374998212\*n^3 + 1051760172\*n^2 + 479277840\*n + 100000000).
 * [A251599](https://oeis.org/A251599) ([program](/edit/?oeis=251599)): Centers of rows of the triangular array formed by the natural numbers.
 * [A251601](https://oeis.org/A251601) ([program](/edit/?oeis=251601)): Numbers n such that hexagonal numbers H(n) and H(n+1) sum to another hexagonal number.
 * [A251602](https://oeis.org/A251602) ([program](/edit/?oeis=251602)): Numbers n such that hexagonal number H(n) is the sum of two consecutive hexagonal numbers.
@@ -222,6 +243,8 @@ List of integer sequences with links to LODA programs.
 * [A251713](https://oeis.org/A251713) ([program](/edit/?oeis=251713)): 7-step Fibonacci sequence starting with (0,0,1,0,0,0,0).
 * [A251714](https://oeis.org/A251714) ([program](/edit/?oeis=251714)): 7-step Fibonacci sequence starting with (0,1,0,0,0,0,0).
 * [A251720](https://oeis.org/A251720) ([program](/edit/?oeis=251720)): a(n) = (p\_n)^2 \* p\_\{n+1\}, where p\_n is the n-th prime, A000040(n).
+* [A251726](https://oeis.org/A251726) ([program](/edit/?oeis=251726)): Numbers n > 1 for which gpf(n) < lpf(n)^2, where lpf and gpf (least and greatest prime factor of n) are given by A020639(n) and A006530(n).
+* [A251727](https://oeis.org/A251727) ([program](/edit/?oeis=251727)): Numbers n > 1 for which gpf(n) > spf(n)^2, where spf and gpf (smallest and greatest prime factor of n) are given by A020639(n) and A006530(n).
 * [A251728](https://oeis.org/A251728) ([program](/edit/?oeis=251728)): Semiprimes p\*q for which p <= q < p^2.
 * [A251730](https://oeis.org/A251730) ([program](/edit/?oeis=251730)): Numbers n such that the sum of the triangular numbers T(n) and T(n+1) is equal to the sum of two pentagonal numbers P(m) and P(m+1) for some m.
 * [A251732](https://oeis.org/A251732) ([program](/edit/?oeis=251732)): a(n) = 3^n\*A123335(n). Rational parts of the integers in Q(sqrt(2)) giving the length of a Lévy C-curve variant at iteration step n.
@@ -239,6 +262,7 @@ List of integer sequences with links to LODA programs.
 * [A251793](https://oeis.org/A251793) ([program](/edit/?oeis=251793)): Numbers n such that the sum of the triangular numbers T(n) and T(n+1) is equal to the sum of the octagonal numbers N(m) and N(m+1) for some m.
 * [A251861](https://oeis.org/A251861) ([program](/edit/?oeis=251861)): Number of non-palindromic words (length n>0) over the alphabet of 26 letters.
 * [A251863](https://oeis.org/A251863) ([program](/edit/?oeis=251863)): Numbers n such that the sum of the octagonal numbers N(n), N(n+1) and N(n+2) is equal to the sum of the pentagonal numbers P(m), P(m+1), P(m+2) for some m.
+* [A251864](https://oeis.org/A251864) ([program](/edit/?oeis=251864)): Numbers n such that the sum of the pentagonal numbers P(n), P(n+1) and P(n+2) is equal to the sum of the octagonal numbers N(m), N(m+1) and N(m+2) for some m.
 * [A251867](https://oeis.org/A251867) ([program](/edit/?oeis=251867)): Numbers n such that n^2 + (n+1)^2 is equal to the sum of the hexagonal numbers H(m) and H(m+1) for some m.
 * [A251895](https://oeis.org/A251895) ([program](/edit/?oeis=251895)): Numbers n such that the sum of the octagonal numbers N(n) and N(n+1) is equal to another octagonal number.
 * [A251896](https://oeis.org/A251896) ([program](/edit/?oeis=251896)): Numbers n such that the octagonal number N(n) is equal to the sum of the octagonal numbers N(m) and N(m+1) for some m.
@@ -248,12 +272,14 @@ List of integer sequences with links to LODA programs.
 * [A251928](https://oeis.org/A251928) ([program](/edit/?oeis=251928)): Number of length n+2 0..1 arrays with the sum of the maximum minus the median of adjacent triples multiplied by some arrangement of +-1 equal to zero.
 * [A251936](https://oeis.org/A251936) ([program](/edit/?oeis=251936)): Number of length 2+2 0..n arrays with the sum of the maximum minus the median of adjacent triples multiplied by some arrangement of +-1 equal to zero.
 * [A251963](https://oeis.org/A251963) ([program](/edit/?oeis=251963)): Numbers n such that the sum of the triangular numbers T(n) and T(n+1) is equal to an octagonal number N(m) for some m.
+* [A251984](https://oeis.org/A251984) ([program](/edit/?oeis=251984)): Smallest number such that a carry occurs when adding it to n in decimal representation.
 * [A251990](https://oeis.org/A251990) ([program](/edit/?oeis=251990)): Numbers n such that the sum of the hexagonal numbers H(n) and H(n+1) is equal to the sum of the pentagonal numbers P(m) and P(m+1) for some m.
 * [A251991](https://oeis.org/A251991) ([program](/edit/?oeis=251991)): Numbers n such that the sum of the pentagonal numbers P(n) and P(n+1) is equal to the sum of the hexagonal numbers H(m) and H(m+1) for some m.
 * [A252003](https://oeis.org/A252003) ([program](/edit/?oeis=252003)): Numbers n such that the sum of the octagonal numbers N(n) and N(n+1) is equal to the sum of the pentagonal numbers P(m) and P(m+1) for some m.
 * [A252004](https://oeis.org/A252004) ([program](/edit/?oeis=252004)): Numbers n such that the sum of the pentagonal numbers P(n) and P(n+1) is equal to the sum of the octagonal numbers N(m) and N(m+1) for some m.
 * [A252076](https://oeis.org/A252076) ([program](/edit/?oeis=252076)): Numbers n such that the sum of the heptagonal numbers H(n) and H(n+1) is equal to the hexagonal number X(m) for some m.
 * [A252077](https://oeis.org/A252077) ([program](/edit/?oeis=252077)): Numbers n such that the hexagonal number X(n) is equal to the sum of the heptagonal number H(m) and H(m+1) for some m.
+* [A252089](https://oeis.org/A252089) ([program](/edit/?oeis=252089)): Primes p such that p + 26 is prime.
 * [A252096](https://oeis.org/A252096) ([program](/edit/?oeis=252096)): Largest prime divisor of n^2+1 - smallest prime divisor of n^2+1.
 * [A252158](https://oeis.org/A252158) ([program](/edit/?oeis=252158)): Triangle read by rows, 1 <= k <= n, T(n,k) = number of arrangements of n circles in the affine plane having k solid regions in which the union of solid circles is connected.
 * [A252178](https://oeis.org/A252178) ([program](/edit/?oeis=252178)): Number of length 2+2 0..n arrays with the sum of the maximum minus the minimum of adjacent triples multiplied by some arrangement of +-1 equal to zero.
@@ -262,7 +288,12 @@ List of integer sequences with links to LODA programs.
 * [A252355](https://oeis.org/A252355) ([program](/edit/?oeis=252355)): a(n) = sum\_\{k = 0..n-1\} (-1)^k\*C(2\*n-1,k)\*C(n-1,k), n>0.
 * [A252359](https://oeis.org/A252359) ([program](/edit/?oeis=252359)): Numbers n such that the sum of the heptagonal numbers H(n) and H(n+1) is equal to the pentagonal number P(m) for some m.
 * [A252360](https://oeis.org/A252360) ([program](/edit/?oeis=252360)): Numbers n such that the pentagonal number P(n) is equal to the sum of the heptagonal numbers H(m) and H(m+1) for some m.
+* [A252372](https://oeis.org/A252372) ([program](/edit/?oeis=252372)): Characteristic function for A251726: a(n) = 1 if n > 1 and gpf(n) < spf(n)^2, otherwise 0; here spf(n) and gpf(n) (smallest and greatest prime factor of n) are sequences A020639(n) and A006530(n).
+* [A252373](https://oeis.org/A252373) ([program](/edit/?oeis=252373)): Partial sums of A252372, inverse function for A251726.
 * [A252424](https://oeis.org/A252424) ([program](/edit/?oeis=252424)): Numbers n such that sum of odd divisors of n equals sum of squares of primes dividing n.
+* [A252462](https://oeis.org/A252462) ([program](/edit/?oeis=252462)): Shift one instance of the largest prime one step towards smaller primes: a(1) = 1, a(2^n) = 2^(n-1), and for other numbers: a(n) = (n / prime(g)) \* prime(g-1), where g = A061395(n), index of the greatest prime dividing n.
+* [A252463](https://oeis.org/A252463) ([program](/edit/?oeis=252463)): Hybrid shift: a(1) = 1, a(2n) = n, a(2n+1) = A064989(2n+1); shift the even numbers one bit right, shift the prime factorization of odd numbers one step towards smaller primes.
+* [A252464](https://oeis.org/A252464) ([program](/edit/?oeis=252464)): a(1) = 0, a(2n) = 1 + a(n), a(2n+1) = 1 + a(A064989(2n+1)); also binary width of terms of A156552 and A243071.
 * [A252482](https://oeis.org/A252482) ([program](/edit/?oeis=252482)): Exponents n such that the decimal expansion of the power 12^n contains no zeros.
 * [A252488](https://oeis.org/A252488) ([program](/edit/?oeis=252488)): Binary sequence starting with 1 and with run lengths given by the ruler sequence A001511.
 * [A252489](https://oeis.org/A252489) ([program](/edit/?oeis=252489)): Index of the largest prime which divides n(n+1).
@@ -272,8 +303,11 @@ List of integer sequences with links to LODA programs.
 * [A252630](https://oeis.org/A252630) ([program](/edit/?oeis=252630)): Numbers n such that the sum of the hexagonal numbers X(n), X(n+1), X(n+2) and X(n+3) is equal to the heptagonal number H(m) for some m.
 * [A252631](https://oeis.org/A252631) ([program](/edit/?oeis=252631)): Numbers n such that the heptagonal number H(n) is equal to the sum of the hexagonal numbers X(m), X(m+1), X(m+2) and X(m+3) for some m.
 * [A252649](https://oeis.org/A252649) ([program](/edit/?oeis=252649)): The number of positive integers that are less than or equal to n that have a primitive root.
+* [A252651](https://oeis.org/A252651) ([program](/edit/?oeis=252651)): Expansion of q^(-1/2) \* (eta(q) \* eta(q^2) \* eta(q^6) / eta(q^3))^2 in powers of q.
 * [A252669](https://oeis.org/A252669) ([program](/edit/?oeis=252669)): a(n) is the smallest integer k such that n\*k mod (n+k) = 1, or -1 if no such k exists.
+* [A252709](https://oeis.org/A252709) ([program](/edit/?oeis=252709)): Sum\_\{k=0..n\} k^(n+k)\*(n-k)^k.
 * [A252710](https://oeis.org/A252710) ([program](/edit/?oeis=252710)): Sum\_\{k=0..n\} k^(n-k)\*(n+k)^k.
+* [A252722](https://oeis.org/A252722) ([program](/edit/?oeis=252722)): Number of (3+2) X (n+2) 0..3 arrays with every consecutive three elements in every row and diagonal having exactly two distinct values, and in every column and antidiagonal not having exactly two distinct values, and new values 0 upwards introduced in row major order.
 * [A252727](https://oeis.org/A252727) ([program](/edit/?oeis=252727)): a(n) = n-th number of the n-th iteration of the hyperbinomial transform on sequence A001858 (number of forests of trees on n labeled nodes).
 * [A252735](https://oeis.org/A252735) ([program](/edit/?oeis=252735)): a(1) = 0; for n > 1: a(2n) = a(n), a(2n+1) =  1 + a(A064989(n)).
 * [A252736](https://oeis.org/A252736) ([program](/edit/?oeis=252736)): a(1) = a(2) = 0; for n > 2: a(2n) = 1 + a(n), a(2n+1) = a(A064989(2n+1)).
@@ -295,6 +329,7 @@ List of integer sequences with links to LODA programs.
 * [A252870](https://oeis.org/A252870) ([program](/edit/?oeis=252870)): Number of n X 2 nonnegative integer arrays with upper left 0 and lower right n+2-4 and value increasing by 0 or 1 with every step right or down.
 * [A252893](https://oeis.org/A252893) ([program](/edit/?oeis=252893)): Primes congruent to 11 mod 111.
 * [A252895](https://oeis.org/A252895) ([program](/edit/?oeis=252895)): Numbers with an odd number of square divisors.
+* [A252922](https://oeis.org/A252922) ([program](/edit/?oeis=252922)): a(n) = sigma(n-1) + sigma(n-2) + sigma(n-3), with a(1)=0, a(2)=1, a(3)=4.
 * [A252924](https://oeis.org/A252924) ([program](/edit/?oeis=252924)): Number of n X 2 nonnegative integer arrays with upper left 0 and lower right n+2-6 and value increasing by 0 or 1 with every step right or down.
 * [A252932](https://oeis.org/A252932) ([program](/edit/?oeis=252932)): Number of n X 2 nonnegative integer arrays with upper left 0 and every value within 3 of its king move distance from the upper left and every value increasing by 0 or 1 with every step right, diagonally se or down.
 * [A252970](https://oeis.org/A252970) ([program](/edit/?oeis=252970)): Number of nX2 nonnegative integer arrays with upper left 0 and lower right n+2-5 and value increasing by 0 or 1 with every step right or down
@@ -305,6 +340,7 @@ List of integer sequences with links to LODA programs.
 * [A253062](https://oeis.org/A253062) ([program](/edit/?oeis=253062)): Largest order of a rooted tree that does not contain a rooted caterpillar subtree of order n.
 * [A253064](https://oeis.org/A253064) ([program](/edit/?oeis=253064)): Number of odd terms in f^n, where f = 1/x+1+x+y.
 * [A253068](https://oeis.org/A253068) ([program](/edit/?oeis=253068)): The subsequence A253066(2^n-1).
+* [A253081](https://oeis.org/A253081) ([program](/edit/?oeis=253081)): Partial sums of A246029.
 * [A253082](https://oeis.org/A253082) ([program](/edit/?oeis=253082)): Partial sums of A246595.
 * [A253083](https://oeis.org/A253083) ([program](/edit/?oeis=253083)): Partial sums of A227349.
 * [A253084](https://oeis.org/A253084) ([program](/edit/?oeis=253084)): Triangle read by rows: T(n,k) = \{binomial(n+k,n-k)\*binomial(n,k)\} mod 2, 0 <= k <= n.
@@ -313,6 +349,7 @@ List of integer sequences with links to LODA programs.
 * [A253101](https://oeis.org/A253101) ([program](/edit/?oeis=253101)): a(n) = A253100(2^n-1).
 * [A253102](https://oeis.org/A253102) ([program](/edit/?oeis=253102)): a(n) = A071053(n)^3.
 * [A253103](https://oeis.org/A253103) ([program](/edit/?oeis=253103)): A001045(n)^3.
+* [A253106](https://oeis.org/A253106) ([program](/edit/?oeis=253106)): Semiprimes with smallest factor <= 3.
 * [A253109](https://oeis.org/A253109) ([program](/edit/?oeis=253109)): a(n) = n ^ (Fibonacci(n) mod n).
 * [A253120](https://oeis.org/A253120) ([program](/edit/?oeis=253120)): Numbers n such that the sum of the octagonal numbers O(n), O(n+1), O(n+2) and O(n+3) is equal to the hexagonal number H(m) for some m.
 * [A253121](https://oeis.org/A253121) ([program](/edit/?oeis=253121)): Numbers n such that the hexagonal number H(n) is equal to the sum of the octagonal numbers O(m), O(m+1), O(m+2) and O(m+3) for some m.
@@ -329,6 +366,7 @@ List of integer sequences with links to LODA programs.
 * [A253156](https://oeis.org/A253156) ([program](/edit/?oeis=253156)): Number of (n+1) X (5+1) 0..1 arrays with every 2 X 2 subblock diagonal minus antidiagonal sum nondecreasing horizontally and vertically.
 * [A253157](https://oeis.org/A253157) ([program](/edit/?oeis=253157)): Number of (n+1) X (6+1) 0..1 arrays with every 2 X 2 subblock diagonal minus antidiagonal sum nondecreasing horizontally and vertically.
 * [A253158](https://oeis.org/A253158) ([program](/edit/?oeis=253158)): Number of (n+1) X (7+1) 0..1 arrays with every 2 X 2 subblock diagonal minus antidiagonal sum nondecreasing horizontally and vertically.
+* [A253165](https://oeis.org/A253165) ([program](/edit/?oeis=253165)): a(n) = (-1)^n\*2^(6\*n+3)\*(zeta(-2\*n-1,1/2) - zeta(-2\*n-1,1)), where zeta(a,z) is the generalized Riemann zeta function.
 * [A253169](https://oeis.org/A253169) ([program](/edit/?oeis=253169)): Smallest m such that A256188(m) = n.
 * [A253171](https://oeis.org/A253171) ([program](/edit/?oeis=253171)): a(n) = number of permutations of (1,2,...,n) producible by an ordered triple of distinct transpositions.
 * [A253175](https://oeis.org/A253175) ([program](/edit/?oeis=253175)): Indices of hexagonal numbers (A000384) which are also centered hexagonal numbers (A003215).
@@ -349,6 +387,7 @@ List of integer sequences with links to LODA programs.
 * [A253243](https://oeis.org/A253243) ([program](/edit/?oeis=253243)): Expansion of phi(-x^2) \* psi(x^3) \* chi(x^3) in powers of x where phi(), psi(), chi() are Ramanujan theta functions.
 * [A253251](https://oeis.org/A253251) ([program](/edit/?oeis=253251)): a(1) = 1, and for n > 0, a(n+1) = a(n) + floor(10^k/a(n)), where k is the least integer such that 10^k >= a(n).
 * [A253262](https://oeis.org/A253262) ([program](/edit/?oeis=253262)): Expansion of (x + x^2 + x^3) / (1 - x + x^2 - x^3 + x^4) in powers of x.
+* [A253265](https://oeis.org/A253265) ([program](/edit/?oeis=253265)): The number of tilings of 2 X n boards with squares of 2 colors and dominoes of 3 colors.
 * [A253268](https://oeis.org/A253268) ([program](/edit/?oeis=253268)): Product\_\{k=1..n\} Fibonacci(k)^k.
 * [A253275](https://oeis.org/A253275) ([program](/edit/?oeis=253275)): a(n) = Sum\_\{i=1..floor(n/2)\} d( i\*(n-i) ), where d(n) = the number of divisors of n.
 * [A253283](https://oeis.org/A253283) ([program](/edit/?oeis=253283)): Triangle read by rows: coefficients of the partial fraction decomposition of [d^n/dx^n] (x/(1-x))^n/n!.
@@ -356,6 +395,8 @@ List of integer sequences with links to LODA programs.
 * [A253285](https://oeis.org/A253285) ([program](/edit/?oeis=253285)): a(n) = RF(n+1,3)\*C(n+2,n-1), where RF(a,n) is the rising factorial.
 * [A253298](https://oeis.org/A253298) ([program](/edit/?oeis=253298)): Digital root for the following sequences, F(4\*n)/F(4); F(12\*n)/F(12); F(20\*n)/F(20), where the pattern increases by 8, ad infinitum, with the Fibonacci numbers F = A000045.
 * [A253301](https://oeis.org/A253301) ([program](/edit/?oeis=253301)): Complement of the Beatty sequence for sqrt(Pi\*phi), where phi is the golden ratio.
+* [A253304](https://oeis.org/A253304) ([program](/edit/?oeis=253304)): Numbers n such that the sum of the heptagonal numbers H(n) and H(n+1) is equal to the octagonal number O(m) for some m.
+* [A253305](https://oeis.org/A253305) ([program](/edit/?oeis=253305)): Numbers n such that the octagonal number O(n) is equal to the sum of the heptagonal numbers H(m) and H(m+1) for some m.
 * [A253317](https://oeis.org/A253317) ([program](/edit/?oeis=253317)): Indices in A253315 where records occur.
 * [A253368](https://oeis.org/A253368) ([program](/edit/?oeis=253368)): a(n) = F(12\*n)/(12^2) with the Fibonacci numbers F = A000045.
 * [A253388](https://oeis.org/A253388) ([program](/edit/?oeis=253388)): Numbers n such that the number of divisors of n is the product of two distinct primes.
@@ -364,6 +405,7 @@ List of integer sequences with links to LODA programs.
 * [A253411](https://oeis.org/A253411) ([program](/edit/?oeis=253411)): Indices of centered octagonal numbers (A016754) which are also centered pentagonal numbers (A005891).
 * [A253412](https://oeis.org/A253412) ([program](/edit/?oeis=253412)): Number of n-bit legal binary words with maximal set of 1s.
 * [A253414](https://oeis.org/A253414) ([program](/edit/?oeis=253414)): G.f. satisfies (1+x^2)\*g(x) = 1 + x\*g(x^2).
+* [A253428](https://oeis.org/A253428) ([program](/edit/?oeis=253428)): Number of (n+1)X(n+1) 0..1 arrays with every 2X2 subblock diagonal minus antidiagonal sum nondecreasing horizontally, vertically and ne-to-sw antidiagonally
 * [A253429](https://oeis.org/A253429) ([program](/edit/?oeis=253429)): Number of (n+1) X (2+1) 0..1 arrays with every 2 X 2 subblock diagonal minus antidiagonal sum nondecreasing horizontally, vertically and ne-to-sw antidiagonally.
 * [A253430](https://oeis.org/A253430) ([program](/edit/?oeis=253430)): Number of (n+1) X (3+1) 0..1 arrays with every 2 X 2 subblock diagonal minus antidiagonal sum nondecreasing horizontally, vertically and ne-to-sw antidiagonally.
 * [A253431](https://oeis.org/A253431) ([program](/edit/?oeis=253431)): Number of (n+1) X (4+1) 0..1 arrays with every 2 X 2 subblock diagonal minus antidiagonal sum nondecreasing horizontally, vertically and ne-to-sw antidiagonally.
@@ -398,6 +440,9 @@ List of integer sequences with links to LODA programs.
 * [A253546](https://oeis.org/A253546) ([program](/edit/?oeis=253546)): Centered hexagonal numbers (A003215) which are also centered heptagonal numbers (A069099).
 * [A253547](https://oeis.org/A253547) ([program](/edit/?oeis=253547)): The total number of star-shaped dodecagons appearing in a variant of hexagon expansion after n iterations.
 * [A253560](https://oeis.org/A253560) ([program](/edit/?oeis=253560)): Multiply n by its largest prime factor: a(n) = A006530(n) \* n.
+* [A253563](https://oeis.org/A253563) ([program](/edit/?oeis=253563)): Permutation of natural numbers: a(0) = 1, a(1) = 2; after which, a(2n) = A253560(a(n)), a(2n+1) = A253550(a(n)).
+* [A253565](https://oeis.org/A253565) ([program](/edit/?oeis=253565)): Permutation of natural numbers: a(0) = 1, a(1) = 2; after which, a(2n) = A253550(a(n)), a(2n+1) = A253560(a(n)).
+* [A253568](https://oeis.org/A253568) ([program](/edit/?oeis=253568)): Even bisection of A122111: a(n) = A122111(2\*n).
 * [A253570](https://oeis.org/A253570) ([program](/edit/?oeis=253570)): Maximum number of circles of radius 1 that can be packed into a regular n-gon with side length 2 (conjectured).
 * [A253571](https://oeis.org/A253571) ([program](/edit/?oeis=253571)): Total number of even outdegree nodes among all labeled rooted trees on n nodes.
 * [A253579](https://oeis.org/A253579) ([program](/edit/?oeis=253579)): Centered pentagonal numbers (A005891) which are also centered octagonal numbers (A016754).
@@ -461,6 +506,8 @@ List of integer sequences with links to LODA programs.
 * [A253878](https://oeis.org/A253878) ([program](/edit/?oeis=253878)): Indices of triangular numbers (A000217) which are also centered heptagonal numbers (A069099).
 * [A253879](https://oeis.org/A253879) ([program](/edit/?oeis=253879)): Indices of centered heptagonal numbers (A069099) which are also triangular numbers (A000217).
 * [A253880](https://oeis.org/A253880) ([program](/edit/?oeis=253880)): Triangular numbers (A000217) that are also centered heptagonal numbers (A069099).
+* [A253883](https://oeis.org/A253883) ([program](/edit/?oeis=253883)): Permutation of natural numbers: a(n) = A243505(A122111(n)).
+* [A253884](https://oeis.org/A253884) ([program](/edit/?oeis=253884)): Permutation of natural numbers: a(n) = A122111(A243506(n)).
 * [A253885](https://oeis.org/A253885) ([program](/edit/?oeis=253885)): Permutation of even numbers: a(n) = A003961(n+1) - 1.
 * [A253887](https://oeis.org/A253887) ([program](/edit/?oeis=253887)): Row index of n in A191450: a(3n) = 2n, a(3n+1) = 2n+1, a(3n+2) = a(n+1).
 * [A253893](https://oeis.org/A253893) ([program](/edit/?oeis=253893)): a(1) = 0, for n > 1, a(n) = 1 + a(A253889(n)).
@@ -471,6 +518,7 @@ List of integer sequences with links to LODA programs.
 * [A253908](https://oeis.org/A253908) ([program](/edit/?oeis=253908)): Partial sums of A072272.
 * [A253909](https://oeis.org/A253909) ([program](/edit/?oeis=253909)): 1 together with the positive squares.
 * [A253920](https://oeis.org/A253920) ([program](/edit/?oeis=253920)): Indices of centered octagonal numbers (A016754) which are also heptagonal numbers (A000566).
+* [A253926](https://oeis.org/A253926) ([program](/edit/?oeis=253926)): a(n) is the excess of the number of Collatz permutations of length n (with first index 15) over the n-th Fibonacci number.
 * [A253936](https://oeis.org/A253936) ([program](/edit/?oeis=253936)): a(n) = prime(n + (prime(n) mod 10)).
 * [A253942](https://oeis.org/A253942) ([program](/edit/?oeis=253942)): a(n) = 3\*binomial(n+1, 5).
 * [A253943](https://oeis.org/A253943) ([program](/edit/?oeis=253943)): a(n) = 3\*binomial(n+1,6).
@@ -479,6 +527,7 @@ List of integer sequences with links to LODA programs.
 * [A253946](https://oeis.org/A253946) ([program](/edit/?oeis=253946)): a(n) = 6\*binomial(n+1, 6).
 * [A253947](https://oeis.org/A253947) ([program](/edit/?oeis=253947)): a(n) = 6\*binomial(n+1,7).
 * [A254006](https://oeis.org/A254006) ([program](/edit/?oeis=254006)): a(0) = 1, a(n) = 3\*a(n-2) if n mod 2 = 0, otherwise a(n) = 0.
+* [A254010](https://oeis.org/A254010) ([program](/edit/?oeis=254010)): Numbers n such that 4n+1 and 4(n+1)+1 are primes.
 * [A254011](https://oeis.org/A254011) ([program](/edit/?oeis=254011)): Expansion of (1 - x^18) / ((1 - x^5) \* (1 - x^6) \* (1 - x^9)) in powers of x.
 * [A254027](https://oeis.org/A254027) ([program](/edit/?oeis=254027)): Table T(n,k) = 3^n - 2^k read by antidiagonals.
 * [A254028](https://oeis.org/A254028) ([program](/edit/?oeis=254028)): a(n) = 2^(n+1) + 3^n + 3.
@@ -491,11 +540,16 @@ List of integer sequences with links to LODA programs.
 * [A254048](https://oeis.org/A254048) ([program](/edit/?oeis=254048)): a(n) = A126760(A007494(n)).
 * [A254049](https://oeis.org/A254049) ([program](/edit/?oeis=254049)): Odd bisection of A048673: a(n) = A048673(2\*n-1).
 * [A254050](https://oeis.org/A254050) ([program](/edit/?oeis=254050)): Permutation of odd numbers: a(n) = (2\*(A249745(n))) - 1 = A064989(A007310(n)).
+* [A254051](https://oeis.org/A254051) ([program](/edit/?oeis=254051)): Square array A by downward antidiagonals: A(n,k) = (3 + 3^n\*(2\*floor(3\*k/2) - 1))/6, n,k >= 1; read as A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), ...
+* [A254053](https://oeis.org/A254053) ([program](/edit/?oeis=254053)): Square array: A(row,col) = 2^(row-1) \* ((2\*A249745(col))-1) = A064216(A254051(row,col)), read by antidiagonals A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), ...
+* [A254055](https://oeis.org/A254055) ([program](/edit/?oeis=254055)): Square array: A(row,col) = A003602(A254051(row,col)), read by antidiagonals A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), ...
 * [A254056](https://oeis.org/A254056) ([program](/edit/?oeis=254056)): Sum two last digits of the sequence to get next term, starting with 1,2.
 * [A254064](https://oeis.org/A254064) ([program](/edit/?oeis=254064)): Positive integers whose square is expressible in exactly one way as x^2 + 6xy + y^2, with 0 < x < y.
 * [A254065](https://oeis.org/A254065) ([program](/edit/?oeis=254065)): Vulgar fractions whose denominators are numbers ending with nine, the case 1/19.
 * [A254076](https://oeis.org/A254076) ([program](/edit/?oeis=254076)): a(n) = 2\*a(n-1) + a(n-2) - 2\*a(n-3) for n>2, a(0)=-1, a(1)=-2, a(2)=-4.
 * [A254078](https://oeis.org/A254078) ([program](/edit/?oeis=254078)): a(n) is the number of steps after which n variables with increasing value ranges all have equal values when the values of all variables are decreased by 1 at each step and the value is set to the maximum value again when the resulting value would be 0.
+* [A254101](https://oeis.org/A254101) ([program](/edit/?oeis=254101)): Square array A(row,col) = A000265(A254051(row,col)).
+* [A254102](https://oeis.org/A254102) ([program](/edit/?oeis=254102)): Square array A(row,col) = A253887(A254055(row,col)) = A126760(A254101(row,col)).
 * [A254104](https://oeis.org/A254104) ([program](/edit/?oeis=254104)): Permutation of natural numbers: a(0) = 0, a(3n) = 1 + 2\*a(2n - 1), a(3n+1) = 1 + 2\*a(2n), a(3n+2) = 2\*a(n+1).
 * [A254110](https://oeis.org/A254110) ([program](/edit/?oeis=254110)): Zero-based column index of n in A254105: if A234017(n) = 0, then a(n) = 0, otherwise a(n) = 1 + a(A234017(n)).
 * [A254111](https://oeis.org/A254111) ([program](/edit/?oeis=254111)): One-based column index of n in A254105: If A234017(n) = 0, then a(n) = 1, otherwise a(n) = 1 + a(A234017(n)).
@@ -503,12 +557,15 @@ List of integer sequences with links to LODA programs.
 * [A254117](https://oeis.org/A254117) ([program](/edit/?oeis=254117)): Permutation of natural numbers: a(n) = A254104(A249746(1+n)-1).
 * [A254124](https://oeis.org/A254124) ([program](/edit/?oeis=254124)): The number of tilings of a 3 X n rectangle using integer length rectangles with at least one side of length 1, i.e., tiles are 1X1, 1X2, ..., 1Xn, 2X1, 3X1.
 * [A254132](https://oeis.org/A254132) ([program](/edit/?oeis=254132)): a(0)=1 and a(1)=2, then each term is x + y + x\*y where x and y are the 2 last terms.
+* [A254137](https://oeis.org/A254137) ([program](/edit/?oeis=254137)): Indices of centered hexagonal numbers (A003215) which are also pentagonal numbers (A000326).
+* [A254138](https://oeis.org/A254138) ([program](/edit/?oeis=254138)): Pentagonal numbers (A000326) which are also centered hexagonal numbers (A003215).
 * [A254142](https://oeis.org/A254142) ([program](/edit/?oeis=254142)): a(n) = (9\*n+10)\*binomial(n+9,9)/10.
 * [A254144](https://oeis.org/A254144) ([program](/edit/?oeis=254144)): a(n) = 1\*6^n + 2\*5^n + 3\*4^n + 4\*3^n + 5\*2^n + 6\*1^n.
 * [A254145](https://oeis.org/A254145) ([program](/edit/?oeis=254145)): a(n) = 1\*7^n + 2\*6^n + 3\*5^n + 4\*4^n + 5\*3^n + 6\*2^n + 7\*1^n.
 * [A254146](https://oeis.org/A254146) ([program](/edit/?oeis=254146)): a(n) = 1\*8^n + 2\*7^n + 3\*6^n + 4\*5^n + 5\*4^n + 6\*3^n + 7\*2^n + 8\*1^n.
 * [A254147](https://oeis.org/A254147) ([program](/edit/?oeis=254147)): a(n) = 1\*9^n + 2\*8^n + 3\*7^n + 4\*6^n + 5\*5^n + 6\*4^n + 7\*3^n + 8\*2^n + 9\*1^n.
 * [A254148](https://oeis.org/A254148) ([program](/edit/?oeis=254148)): a(n) = 9\*2^n + 7\*4^n + 3\*8^n + 8\*3^n + 2\*9^n + 6\*5^n + 5\*6^n + 4\*7^n + 10^n + 10.
+* [A254150](https://oeis.org/A254150) ([program](/edit/?oeis=254150)): Number of independent sets in the generalized Aztec diamond E(L\_5,L\_\{2n-1\}).
 * [A254156](https://oeis.org/A254156) ([program](/edit/?oeis=254156)): Decimal expansion of alpha particle mass in u.
 * [A254157](https://oeis.org/A254157) ([program](/edit/?oeis=254157)): a(n) = binomial(3\*n,n)^n.
 * [A254179](https://oeis.org/A254179) ([program](/edit/?oeis=254179)): Decimal expansion of atomic unit of time in s.
@@ -602,6 +659,8 @@ List of integer sequences with links to LODA programs.
 * [A254667](https://oeis.org/A254667) ([program](/edit/?oeis=254667)): The nonnegative numbers with 2 instead of 1.
 * [A254671](https://oeis.org/A254671) ([program](/edit/?oeis=254671)): Numbers that can be represented as x \* y + x + y, where x >= y > 1.
 * [A254674](https://oeis.org/A254674) ([program](/edit/?oeis=254674)): Indices of heptagonal numbers (A000566) which are also centered triangular numbers (A005448).
+* [A254675](https://oeis.org/A254675) ([program](/edit/?oeis=254675)): Indices of centered triangular numbers (A005448) which are also heptagonal numbers (A000566).
+* [A254676](https://oeis.org/A254676) ([program](/edit/?oeis=254676)): Heptagonal numbers (A000566) which are also centered triangular numbers (A005448).
 * [A254681](https://oeis.org/A254681) ([program](/edit/?oeis=254681)): Fifth partial sums of fourth powers (A000583).
 * [A254682](https://oeis.org/A254682) ([program](/edit/?oeis=254682)): Fifth partial sums of fifth powers (A000584).
 * [A254683](https://oeis.org/A254683) ([program](/edit/?oeis=254683)): Fifth partial sums of sixth powers (A001014).
@@ -628,6 +687,7 @@ List of integer sequences with links to LODA programs.
 * [A254795](https://oeis.org/A254795) ([program](/edit/?oeis=254795)): Numerators of the convergents of the generalized continued fraction 2 + 1^2/(4 + 3^2/(4 + 5^2/(4 + ... ))).
 * [A254796](https://oeis.org/A254796) ([program](/edit/?oeis=254796)): Denominators of the convergents of the generalized continued fraction 2 + 1^2/(4 + 3^2/(4 + 5^2/(4 + ... ))).
 * [A254828](https://oeis.org/A254828) ([program](/edit/?oeis=254828)): Number of length 1 1..(n+1) arrays with every leading partial sum divisible by 2, 3 or 5.
+* [A254847](https://oeis.org/A254847) ([program](/edit/?oeis=254847)): Number of (n+2) X (1+2) 0..1 arrays with no 3 x 3 subblock diagonal sum one and no antidiagonal sum two.
 * [A254855](https://oeis.org/A254855) ([program](/edit/?oeis=254855)): Indices of octagonal numbers (A000567) that are also centered heptagonal numbers (A069099).
 * [A254856](https://oeis.org/A254856) ([program](/edit/?oeis=254856)): Indices of centered heptagonal numbers (A069099) that are also octagonal numbers (A000567).
 * [A254857](https://oeis.org/A254857) ([program](/edit/?oeis=254857)): Octagonal numbers (A000567) that are also centered heptagonal numbers (A069099).
@@ -640,6 +700,7 @@ List of integer sequences with links to LODA programs.
 * [A254874](https://oeis.org/A254874) ([program](/edit/?oeis=254874)): a(n) = floor((10\*n^3 + 63\*n^2 + 126\*n + 89) / 72).
 * [A254875](https://oeis.org/A254875) ([program](/edit/?oeis=254875)): a(n) = floor((10\*n^3 + 57\*n^2 + 102\*n + 72) / 72).
 * [A254877](https://oeis.org/A254877) ([program](/edit/?oeis=254877)): Expansion of (1 - x^5) / ((1 - x) \* (1 - x^2)^2 \* (1 - x^3) \* (1 - x^4)) in powers of x.
+* [A254883](https://oeis.org/A254883) ([program](/edit/?oeis=254883)): Triangle read by rows, T(n,k) = sum(j=0..2\*(n-k), A254882(n-k,j)\*k^j /(n-k)!), n>=0, 0<=k<=n.
 * [A254884](https://oeis.org/A254884) ([program](/edit/?oeis=254884)): a(n) = Fibonacci(2\*n) + ((-1)^n-1)\*Fibonacci(n).
 * [A254895](https://oeis.org/A254895) ([program](/edit/?oeis=254895)): Indices of octagonal numbers (A000567) that are also centered square numbers (A001844).
 * [A254896](https://oeis.org/A254896) ([program](/edit/?oeis=254896)): Octagonal numbers (A000567) that are also centered square numbers (A001844).
@@ -654,6 +715,8 @@ List of integer sequences with links to LODA programs.
 * [A254966](https://oeis.org/A254966) ([program](/edit/?oeis=254966)): Heptagonal numbers (A000566) that are also centered hexagonal numbers (A003215).
 * [A254981](https://oeis.org/A254981) ([program](/edit/?oeis=254981)): a(n) is the sum of the divisors d of n such that n/d is cubefree.
 * [A255000](https://oeis.org/A255000) ([program](/edit/?oeis=255000)): Prime(n + d(n)), with d(n) = prime(n+1) - prime(n), for n >= 1.
+* [A255005](https://oeis.org/A255005) ([program](/edit/?oeis=255005)): a(n) = the digit sum of prime(n) + the digit product of prime(n).
+* [A255006](https://oeis.org/A255006) ([program](/edit/?oeis=255006)): a(n) is the numerator of polygamma(2n+1, 1) / Pi^(2n+2).
 * [A255007](https://oeis.org/A255007) ([program](/edit/?oeis=255007)): a(n) is the denominator of polygamma(2n+1, 1) / Pi^(2n+2).
 * [A255043](https://oeis.org/A255043) ([program](/edit/?oeis=255043)): a(n) = (5\*9^n - 1)/2.
 * [A255044](https://oeis.org/A255044) ([program](/edit/?oeis=255044)): Array A read by upward antidiagonals: A(n,k) = ((2\*n+1)\*9^k-1)/2, n,k >= 0.
@@ -663,6 +726,7 @@ List of integer sequences with links to LODA programs.
 * [A255070](https://oeis.org/A255070) ([program](/edit/?oeis=255070)): (1/2)\*(n minus number of runs in the binary expansion of n): a(n) = (n - A005811(n)) / 2 = A236840(n)/2.
 * [A255072](https://oeis.org/A255072) ([program](/edit/?oeis=255072)): Number of steps to reach 0 starting with n and using the iterated process: x -> x - (number of runs in binary representation of x).
 * [A255108](https://oeis.org/A255108) ([program](/edit/?oeis=255108)): Number of length n+1 0..2 arrays with at most one downstep in every n consecutive neighbor pairs.
+* [A255109](https://oeis.org/A255109) ([program](/edit/?oeis=255109)): Number of length n+2 0..2 arrays with at most one downstep in every n consecutive neighbor pairs.
 * [A255115](https://oeis.org/A255115) ([program](/edit/?oeis=255115)): Number of n-length words on \{0,1,2\} in which 0 appears only in runs of length 2.
 * [A255116](https://oeis.org/A255116) ([program](/edit/?oeis=255116)): Number of n-length words on \{0,1,2,3\} in which 0 appears only in runs of length 2.
 * [A255117](https://oeis.org/A255117) ([program](/edit/?oeis=255117)): Number of n-length words on \{0,1,2,3,4\} in which 0 appears only in runs of length 2.
@@ -700,9 +764,12 @@ List of integer sequences with links to LODA programs.
 * [A255226](https://oeis.org/A255226) ([program](/edit/?oeis=255226)): Number of (n+2)X(6+2) 0..1 arrays with no 3x3 subblock diagonal sum 0 and no antidiagonal sum 0 and no row sum 2 and no column sum 2
 * [A255227](https://oeis.org/A255227) ([program](/edit/?oeis=255227)): Number of (n+2)X(7+2) 0..1 arrays with no 3x3 subblock diagonal sum 0 and no antidiagonal sum 0 and no row sum 2 and no column sum 2
 * [A255236](https://oeis.org/A255236) ([program](/edit/?oeis=255236)): All positive solutions x of the second class of the Pell equation x^2 - 2\*y^2 = -7.
+* [A255238](https://oeis.org/A255238) ([program](/edit/?oeis=255238)): Triangle T(n, m) of numbers of points of a square lattice covered by a circular disk of radius n (centered at any lattice point taken as origin)  with ordinate y = m in the first quadrant.
+* [A255239](https://oeis.org/A255239) ([program](/edit/?oeis=255239)): Alternating row sums of triangle A255238.
 * [A255240](https://oeis.org/A255240) ([program](/edit/?oeis=255240)): Decimal expansion of 1/(2\*cos(Pi/7)).
 * [A255241](https://oeis.org/A255241) ([program](/edit/?oeis=255241)): Decimal expansion of 2 cos(3\*Pi/7).
 * [A255249](https://oeis.org/A255249) ([program](/edit/?oeis=255249)): Decimal expansion of -2\*cos(5\*Pi/7).
+* [A255252](https://oeis.org/A255252) ([program](/edit/?oeis=255252)): Expansion of psi(x) \* psi(-x)^2 in powers of x where psi() is a Ramanujan theta function.
 * [A255258](https://oeis.org/A255258) ([program](/edit/?oeis=255258)): Expansion of q^2 \* phi(q) \* psi(q^16) in powers of q where phi(), psi() are Ramanujan theta functions.
 * [A255260](https://oeis.org/A255260) ([program](/edit/?oeis=255260)): a(n) = a(n-1) + sum of the pentagonal numbers which are among the first (n-1) terms of the sequence, with a(1)=1.
 * [A255261](https://oeis.org/A255261) ([program](/edit/?oeis=255261)): a(n) = a(n-1) + sum of the hexagonal numbers which are among the first (n-1) terms of the sequence, with a(1)=1.
@@ -756,9 +823,11 @@ List of integer sequences with links to LODA programs.
 * [A255467](https://oeis.org/A255467) ([program](/edit/?oeis=255467)): a(n) = A255466(2^n-1).
 * [A255471](https://oeis.org/A255471) ([program](/edit/?oeis=255471)): a(n) = A255470(2^n-1).
 * [A255474](https://oeis.org/A255474) ([program](/edit/?oeis=255474)): a(n) = A255473(2^n-1).
+* [A255484](https://oeis.org/A255484) ([program](/edit/?oeis=255484)): a(n) = Product\_\{k=0..n\} (prime(k+1)\*(binomial(n,k) mod 2).
 * [A255490](https://oeis.org/A255490) ([program](/edit/?oeis=255490)): The subsequence A247649(2^n-1).
 * [A255491](https://oeis.org/A255491) ([program](/edit/?oeis=255491)): Numbers k such that 90\*k+1 is composite.
 * [A255499](https://oeis.org/A255499) ([program](/edit/?oeis=255499)): a(n) = (n^4 + 2\*n^3 - n^2)/2.
+* [A255505](https://oeis.org/A255505) ([program](/edit/?oeis=255505)): Numerator of Bernoulli(2n)/(2n!).
 * [A255527](https://oeis.org/A255527) ([program](/edit/?oeis=255527)): Where records occur in A255437.
 * [A255559](https://oeis.org/A255559) ([program](/edit/?oeis=255559)): One-based column index of n in array A255555.
 * [A255563](https://oeis.org/A255563) ([program](/edit/?oeis=255563)): a(n) = -3 \* n/4 if n divisible by 4, a(n) = -(-1)^n \* n otherwise.
@@ -776,6 +845,7 @@ List of integer sequences with links to LODA programs.
 * [A255634](https://oeis.org/A255634) ([program](/edit/?oeis=255634)): Numbers n such that 1 + 16n^2 is prime.
 * [A255645](https://oeis.org/A255645) ([program](/edit/?oeis=255645)): Partial sums of A134660.
 * [A255646](https://oeis.org/A255646) ([program](/edit/?oeis=255646)): Odd triprimes modulo 10.
+* [A255648](https://oeis.org/A255648) ([program](/edit/?oeis=255648)): Expansion of (a(q) + a(q^2) + a(q^3) + a(q^6) - 4) / 6 in powers of q where a() is a cubic AGM theta function.
 * [A255655](https://oeis.org/A255655) ([program](/edit/?oeis=255655)): The sum of the odd terms in row n of A050873.
 * [A255670](https://oeis.org/A255670) ([program](/edit/?oeis=255670)): Number of the column of the Wythoff array (A035513) that contains L(n), where L = A000201, the lower Wythoff sequence.
 * [A255671](https://oeis.org/A255671) ([program](/edit/?oeis=255671)): Number of the column of the Wythoff array (A035513) that contains U(n), where U = A001950, the upper Wythoff sequence.
@@ -831,10 +901,12 @@ List of integer sequences with links to LODA programs.
 * [A255908](https://oeis.org/A255908) ([program](/edit/?oeis=255908)): Triangle read by rows: T(n,L) = number of rho-labeled graphs with n edges whose labeling is bipartite with boundary value L.
 * [A255910](https://oeis.org/A255910) ([program](/edit/?oeis=255910)): Decimal expansion of 16/9.
 * [A255919](https://oeis.org/A255919) ([program](/edit/?oeis=255919)): Gray code of Fibonacci(n).
+* [A255927](https://oeis.org/A255927) ([program](/edit/?oeis=255927)): a(n) = (3/4) \* Sum\_\{k>=0\} (3\*k)^n/4^k.
 * [A255931](https://oeis.org/A255931) ([program](/edit/?oeis=255931)): a(n) is the numerator of Gamma(n+1/2)^2/(2\*n\*Pi), the value of an integral with sinh in the denominator.
 * [A255932](https://oeis.org/A255932) ([program](/edit/?oeis=255932)): a(n) is the denominator of Gamma(n+1/2)^2/(2\*n\*Pi), the value of an integral with sinh in the denominator.
 * [A255935](https://oeis.org/A255935) ([program](/edit/?oeis=255935)): Triangle read by rows: a(n) = Pascal's triangle A007318(n) + A197870(n+1).
 * [A255941](https://oeis.org/A255941) ([program](/edit/?oeis=255941)): Decimal expansion of A such that y = A\*x^2 cuts the triangle with vertices (0,0), (1,0), (0,1) into two equal areas.
+* [A255951](https://oeis.org/A255951) ([program](/edit/?oeis=255951)): Number of collections of nonempty multisets with a total of n+1 objects of exactly n colors.
 * [A255977](https://oeis.org/A255977) ([program](/edit/?oeis=255977)): The number of numbers j+k\*r <= n, where r = golden ratio and j and k are nonnegative integers.
 * [A255978](https://oeis.org/A255978) ([program](/edit/?oeis=255978)): a(n) = a(n-1) + a(n-2) + (1 + (-1)^(a(n-1) + a(n-2))) with a(0)=0, a(1)=1.
 * [A255988](https://oeis.org/A255988) ([program](/edit/?oeis=255988)): Number of length n+4 0..1 arrays with at most one downstep in every 4 consecutive neighbor pairs.
@@ -844,6 +916,7 @@ List of integer sequences with links to LODA programs.
 * [A255996](https://oeis.org/A255996) ([program](/edit/?oeis=255996)): Number of length n+5 0..1 arrays with at most one downstep in every n consecutive neighbor pairs.
 * [A256007](https://oeis.org/A256007) ([program](/edit/?oeis=256007)): Numbers k satisfying \|k + 1 - 2F\| <= 1 for some positive Fibonacci number F.
 * [A256008](https://oeis.org/A256008) ([program](/edit/?oeis=256008)): Self-inverse permutation of positive integers: 4k+1 is swapped with 4k+3, and 4k+2 with 4k+4.
+* [A256014](https://oeis.org/A256014) ([program](/edit/?oeis=256014)): Expansion of phi(-q^3)^4 / (phi(-q) \* phi(-q^9)) in powers of q where phi() is a Ramanujan theta function.
 * [A256016](https://oeis.org/A256016) ([program](/edit/?oeis=256016)): a(n) = n! \* Sum\_\{k=0..n\} k^n/k!.
 * [A256019](https://oeis.org/A256019) ([program](/edit/?oeis=256019)): a(n) = Sum\_\{i=1..n-1\} (i^3 \* a(i)), a(1)=1.
 * [A256020](https://oeis.org/A256020) ([program](/edit/?oeis=256020)): a(n) = Sum\_\{i=1..n-1\} (i^4 \* a(i)), a(1)=1.
@@ -858,6 +931,7 @@ List of integer sequences with links to LODA programs.
 * [A256099](https://oeis.org/A256099) ([program](/edit/?oeis=256099)): Decimal expansion of the real root of a cubic used by Omar Khayyám in a geometrical problem.
 * [A256101](https://oeis.org/A256101) ([program](/edit/?oeis=256101)): The broken eggs problem.
 * [A256108](https://oeis.org/A256108) ([program](/edit/?oeis=256108)): Positions of nonzero digits in binary expansion of Pi.
+* [A256122](https://oeis.org/A256122) ([program](/edit/?oeis=256122)): Number of iterations needed to reach 0 or 1 under the map n-> n-sopf(n), where sopf(n) is the sum of the distinct primes dividing n (A008472).
 * [A256135](https://oeis.org/A256135) ([program](/edit/?oeis=256135)): a(n) = 5^A000120(n).
 * [A256136](https://oeis.org/A256136) ([program](/edit/?oeis=256136)): a(n) = 6^A000120(n).
 * [A256137](https://oeis.org/A256137) ([program](/edit/?oeis=256137)): a(2) = 1; a(3) = 4; for n >= 4, a(n) = 2 + Sum\_\{i=4..n\} d(i), where d(i) = i for even i, d(i) = i-3 for odd i.
@@ -871,11 +945,9 @@ List of integer sequences with links to LODA programs.
 * [A256216](https://oeis.org/A256216) ([program](/edit/?oeis=256216)): a(n) = A053656(n) - A000011(n).
 * [A256217](https://oeis.org/A256217) ([program](/edit/?oeis=256217)): a(n) = A000011(n) - A256216(n).
 * [A256225](https://oeis.org/A256225) ([program](/edit/?oeis=256225)): Number of partitions of 5n into 5 parts.
-* [A256226](https://oeis.org/A256226) ([program](/edit/?oeis=256226)): Number of partitions of 6n into 6 parts.
 * [A256232](https://oeis.org/A256232) ([program](/edit/?oeis=256232)): Multiplicative with a(2^e) = 1-e, a(3^e) = 1, a(p^e) = e+1 if p>3.
 * [A256233](https://oeis.org/A256233) ([program](/edit/?oeis=256233)): a(n) = L(2\*n+1) - 2, where L is A000032.
 * [A256235](https://oeis.org/A256235) ([program](/edit/?oeis=256235)): Sum of all the parts in the partitions of 5n into 5 parts.
-* [A256239](https://oeis.org/A256239) ([program](/edit/?oeis=256239)): Sum of all the parts in the partitions of 6n into 6 parts.
 * [A256243](https://oeis.org/A256243) ([program](/edit/?oeis=256243)): Smallest positive integer m such that n + 2m is a square.
 * [A256244](https://oeis.org/A256244) ([program](/edit/?oeis=256244)): a(n) = sqrt(n + 2\*A256243(n)).
 * [A256249](https://oeis.org/A256249) ([program](/edit/?oeis=256249)): Partial sums of A006257 (Josephus problem).
@@ -889,14 +961,17 @@ List of integer sequences with links to LODA programs.
 * [A256258](https://oeis.org/A256258) ([program](/edit/?oeis=256258)): Triangle read by rows in which the row lengths are the terms of A011782 and row n lists the terms of A016969 except for the right border which gives the positive terms of A000225.
 * [A256266](https://oeis.org/A256266) ([program](/edit/?oeis=256266)): Total number of ON states after n generations of cellular automaton based on triangles (see Comments lines for definition).
 * [A256268](https://oeis.org/A256268) ([program](/edit/?oeis=256268)): Table of k-fold factorials, read by antidiagonals.
+* [A256269](https://oeis.org/A256269) ([program](/edit/?oeis=256269)): Expansion of psi(-q) \* chi(q^3) \* phi(q^9) in powers of q where phi(), psi(), chi() are Ramanujan theta functions.
 * [A256272](https://oeis.org/A256272) ([program](/edit/?oeis=256272)): G.f.: Sum\_\{n>=1\} Pell(n+1) \* x^n / (1 - x^n), where Pell(n) = A000129(n).
 * [A256275](https://oeis.org/A256275) ([program](/edit/?oeis=256275)): Decimal equivalent of the binary string generated by the negation of the n X n identity matrix.
 * [A256276](https://oeis.org/A256276) ([program](/edit/?oeis=256276)): Expansion of q \* phi(q) \* chi(q^3) \* psi(-q^9) in powers of q where phi(), psi(), chi() are Ramanujan theta functions.
 * [A256277](https://oeis.org/A256277) ([program](/edit/?oeis=256277)): C(2\*n,n) mod 2\*n+1.
 * [A256278](https://oeis.org/A256278) ([program](/edit/?oeis=256278)): a(0)=1, a(1)=2, a(n)=31a(n-1)-29a(n-2).
+* [A256279](https://oeis.org/A256279) ([program](/edit/?oeis=256279)): Expansion of psi(q) \* chi(-q^3) \* phi(-q^9) in powers of q where phi(), psi(), chi() are Ramanujan theta functions.
+* [A256280](https://oeis.org/A256280) ([program](/edit/?oeis=256280)): Expansion of phi(q^3)^4 / (phi(q) \* phi(q^9)) in powers of q where phi() is a Ramanujan theta function.
 * [A256281](https://oeis.org/A256281) ([program](/edit/?oeis=256281)): Inverse Moebius transform of Pell numbers.
+* [A256282](https://oeis.org/A256282) ([program](/edit/?oeis=256282)): Expansion of f(-q^3) \* psi(q^3)^3 / (psi(q) \* psi(q^9)) in powers of q where psi(), f() are Ramanujan theta functions.
 * [A256287](https://oeis.org/A256287) ([program](/edit/?oeis=256287)): Number of partitions of 7n into 7 parts.
-* [A256288](https://oeis.org/A256288) ([program](/edit/?oeis=256288)): Sum of all the parts in the partitions of 7n into 7 parts.
 * [A256289](https://oeis.org/A256289) ([program](/edit/?oeis=256289)): Apply the transformation 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 0 to the digits of n written in base 9; do not convert back to base 10.
 * [A256290](https://oeis.org/A256290) ([program](/edit/?oeis=256290)): Numbers which have only digits 4 and 5 in base 10.
 * [A256291](https://oeis.org/A256291) ([program](/edit/?oeis=256291)): Numbers which have only digits 5 and 6 in base 10.
@@ -919,9 +994,7 @@ List of integer sequences with links to LODA programs.
 * [A256310](https://oeis.org/A256310) ([program](/edit/?oeis=256310)): Number of partitions of 2n into exactly 6 parts.
 * [A256313](https://oeis.org/A256313) ([program](/edit/?oeis=256313)): Number of partitions of 3n into exactly 4 parts.
 * [A256314](https://oeis.org/A256314) ([program](/edit/?oeis=256314)): Number of partitions of 3n into exactly 5 parts.
-* [A256315](https://oeis.org/A256315) ([program](/edit/?oeis=256315)): Number of partitions of 3n into exactly 6 parts.
 * [A256316](https://oeis.org/A256316) ([program](/edit/?oeis=256316)): Number of partitions of 4n into exactly 5 parts.
-* [A256317](https://oeis.org/A256317) ([program](/edit/?oeis=256317)): Number of partitions of 4n into exactly 6 parts.
 * [A256320](https://oeis.org/A256320) ([program](/edit/?oeis=256320)): Number of partitions of 4n into exactly 3 parts.
 * [A256321](https://oeis.org/A256321) ([program](/edit/?oeis=256321)): Number of partitions of 5n into exactly 3 parts.
 * [A256322](https://oeis.org/A256322) ([program](/edit/?oeis=256322)): Number of partitions of 7n into exactly 3 parts.
@@ -942,6 +1015,7 @@ List of integer sequences with links to LODA programs.
 * [A256435](https://oeis.org/A256435) ([program](/edit/?oeis=256435)): First differences of sums of two squares.
 * [A256436](https://oeis.org/A256436) ([program](/edit/?oeis=256436)): Characteristic function of pentatope numbers.
 * [A256442](https://oeis.org/A256442) ([program](/edit/?oeis=256442)): Denominators of sqrt(2) \* Integral\_\{x=0..sqrt(1/3)\} 1/(1-x^2)^(n+3/2) dx.
+* [A256450](https://oeis.org/A256450) ([program](/edit/?oeis=256450)): Numbers that have at least one 1-digit in their factorial base representation (A007623).
 * [A256452](https://oeis.org/A256452) ([program](/edit/?oeis=256452)): Number of integer solutions to n^2 = x^2 + y^2 with x>0, y>=0.
 * [A256455](https://oeis.org/A256455) ([program](/edit/?oeis=256455)): Numbers that appear at least once in a Pythagorean triple (a, b, b+1).
 * [A256462](https://oeis.org/A256462) ([program](/edit/?oeis=256462)): Double sum of the product of two binomials with even arguments.
@@ -965,7 +1039,6 @@ List of integer sequences with links to LODA programs.
 * [A256534](https://oeis.org/A256534) ([program](/edit/?oeis=256534)): Number of ON cells at n-th stage in simple 2-dimensional cellular automaton (see Comments lines for definition).
 * [A256535](https://oeis.org/A256535) ([program](/edit/?oeis=256535)): The largest number of T-tetrominoes that fit within an n X n square.
 * [A256539](https://oeis.org/A256539) ([program](/edit/?oeis=256539)): Number of partitions of 4n into at most 5 parts.
-* [A256540](https://oeis.org/A256540) ([program](/edit/?oeis=256540)): Number of partitions of 4n into at most 6 parts.
 * [A256562](https://oeis.org/A256562) ([program](/edit/?oeis=256562)): Number of deficient numbers <= n.
 * [A256585](https://oeis.org/A256585) ([program](/edit/?oeis=256585)): Primes of the form 3n^2 + 39n + 37.
 * [A256593](https://oeis.org/A256593) ([program](/edit/?oeis=256593)): Decimal expansion of 1/Pi\*Integral\_\{0..Pi\} x^2\*log(2\*cos(x/2))^2 dx, one of the log-cosine integrals related to zeta(4).
@@ -982,12 +1055,14 @@ List of integer sequences with links to LODA programs.
 * [A256666](https://oeis.org/A256666) ([program](/edit/?oeis=256666)): a(n) = ( 2\*n\*(2\*n^2 + 11\*n + 26) - (-1)^n + 1 )/16.
 * [A256676](https://oeis.org/A256676) ([program](/edit/?oeis=256676)): Digital roots of centered 11-gonal numbers (A069125).
 * [A256680](https://oeis.org/A256680) ([program](/edit/?oeis=256680)): Minimal most likely sum for a roll of n 4-sided dice.
+* [A256689](https://oeis.org/A256689) ([program](/edit/?oeis=256689)): From third root of Riemann zeta function: form Dirichlet series Sum b(n)/n^x whose cube is zeta function; sequence gives denominator of b(n).
 * [A256691](https://oeis.org/A256691) ([program](/edit/?oeis=256691)): From fourth root of Riemann zeta function: form Dirichlet series Sum b(n)/n^x whose fourth power is zeta function; sequence gives denominator of b(n).
 * [A256698](https://oeis.org/A256698) ([program](/edit/?oeis=256698)): Numbers with positive triangular trace.
 * [A256699](https://oeis.org/A256699) ([program](/edit/?oeis=256699)): Numbers with negative triangular trace.
 * [A256700](https://oeis.org/A256700) ([program](/edit/?oeis=256700)): Positive part of the minimal alternating triangular-number representation of n (defined at A255974).
 * [A256701](https://oeis.org/A256701) ([program](/edit/?oeis=256701)): Positive part of the minimal alternating binary representation of n (defined at A245596).
 * [A256702](https://oeis.org/A256702) ([program](/edit/?oeis=256702)): Nonpositive part of the minimal alternating binary representation of n (defined at A256696).
+* [A256704](https://oeis.org/A256704) ([program](/edit/?oeis=256704)): Palindromes of the form 4n + 1 that are divisible by 5.
 * [A256710](https://oeis.org/A256710) ([program](/edit/?oeis=256710)): a(n) = (2\*n-3)\*a(n-1) - 2\*a(n-2), a(0)=0, a(1)=1.
 * [A256716](https://oeis.org/A256716) ([program](/edit/?oeis=256716)): a(n) = n\*(n+1)\*(22\*n-19)/6.
 * [A256718](https://oeis.org/A256718) ([program](/edit/?oeis=256718)): a(n) = n\*(n+1)\*(7\*n-6)/2.
@@ -996,7 +1071,10 @@ List of integer sequences with links to LODA programs.
 * [A256736](https://oeis.org/A256736) ([program](/edit/?oeis=256736)): Number of composites lying between successive pairs of primes, beginning with pair (3,5). Bisection of A046933.
 * [A256737](https://oeis.org/A256737) ([program](/edit/?oeis=256737)): Number of composites lying between successive pairs of primes, beginning with pair (2,3). Bisection of A046933.
 * [A256756](https://oeis.org/A256756) ([program](/edit/?oeis=256756)): a(n) = bitwise XOR of n and the reverse of n.
+* [A256757](https://oeis.org/A256757) ([program](/edit/?oeis=256757)): Number of iterations of A007733 required to reach 1.
 * [A256759](https://oeis.org/A256759) ([program](/edit/?oeis=256759)): Nonpositive part of the minimal alternating triangular-number representation of n (defined at A255974).
+* [A256764](https://oeis.org/A256764) ([program](/edit/?oeis=256764)): Number of (n+2)X(1+2) 0..1 arrays with no 3x3 subblock diagonal sum less than the antidiagonal sum
+* [A256765](https://oeis.org/A256765) ([program](/edit/?oeis=256765)): Number of (n+2)X(2+2) 0..1 arrays with no 3x3 subblock diagonal sum less than the antidiagonal sum
 * [A256775](https://oeis.org/A256775) ([program](/edit/?oeis=256775)): Primes of the form n^2 + 81.
 * [A256776](https://oeis.org/A256776) ([program](/edit/?oeis=256776)): Primes of form n^2 + 256.
 * [A256777](https://oeis.org/A256777) ([program](/edit/?oeis=256777)): Primes of form n^2 + 625.
@@ -1043,12 +1121,14 @@ List of integer sequences with links to LODA programs.
 * [A256984](https://oeis.org/A256984) ([program](/edit/?oeis=256984)): Maximal number of joints that can be formed by n lines in space.
 * [A256989](https://oeis.org/A256989) ([program](/edit/?oeis=256989)): One-based column index of n in array A256995.
 * [A256994](https://oeis.org/A256994) ([program](/edit/?oeis=256994)): a(n) = n + 1 when n <= 3, otherwise a(n) = 2^(n-2) + 3; also iterates of A005187 starting from a(1) = 2.
+* [A257007](https://oeis.org/A257007) ([program](/edit/?oeis=257007)): Number of Zagier-reduced binary quadratic forms of discriminant n^2-4.
 * [A257008](https://oeis.org/A257008) ([program](/edit/?oeis=257008)): Number of Zagier-reduced binary quadratic forms of discriminant n^2+4.
 * [A257019](https://oeis.org/A257019) ([program](/edit/?oeis=257019)): Numbers whose quarter-square representation consists of two terms.
 * [A257020](https://oeis.org/A257020) ([program](/edit/?oeis=257020)): Numbers whose quarter-square representation consists of three terms.
 * [A257021](https://oeis.org/A257021) ([program](/edit/?oeis=257021)): Numbers whose quarter-square representation consists of four terms.
 * [A257022](https://oeis.org/A257022) ([program](/edit/?oeis=257022)): Trace of n in the quarter-sum representation of n.
 * [A257023](https://oeis.org/A257023) ([program](/edit/?oeis=257023)): Number of terms in the quarter-sum representation of n.
+* [A257024](https://oeis.org/A257024) ([program](/edit/?oeis=257024)): Number of squares in the quarter-sum representation of n.
 * [A257042](https://oeis.org/A257042) ([program](/edit/?oeis=257042)): a(n) = (3\*n+7)\*n^2.
 * [A257051](https://oeis.org/A257051) ([program](/edit/?oeis=257051)): a(n) = cpg(n, 3) + cpg(n, 4) + ... + cpg(n, n) where cpg(n, m) is the m-th n-th-order centered polygonal number.
 * [A257052](https://oeis.org/A257052) ([program](/edit/?oeis=257052)): a(n) = cpg(3, n) + cpg(4, n) + ... + cpg(n, n) where cpg(m, n) is the n-th m-th-order centered polygonal number.
@@ -1058,12 +1138,16 @@ List of integer sequences with links to LODA programs.
 * [A257075](https://oeis.org/A257075) ([program](/edit/?oeis=257075)): a(n) = (-1)^(n mod 3).
 * [A257076](https://oeis.org/A257076) ([program](/edit/?oeis=257076)): Expansion of (1 - x^3) / (1 - x + x^2) in powers of x.
 * [A257077](https://oeis.org/A257077) ([program](/edit/?oeis=257077)): a(n) = prime(n)-prime(1)-prime(2)-...-prime(k), while the result > 0.
+* [A257079](https://oeis.org/A257079) ([program](/edit/?oeis=257079)): The least nonzero digit missing from the factorial representation (A007623) of n.
+* [A257080](https://oeis.org/A257080) ([program](/edit/?oeis=257080)): n multiplied by the least nonzero digit missing from its factorial base representation: a(n) = n \* A257079(n).
 * [A257083](https://oeis.org/A257083) ([program](/edit/?oeis=257083)): Partial sums of A257088.
 * [A257088](https://oeis.org/A257088) ([program](/edit/?oeis=257088)): a(2\*n) = 4\*n if n>0, a(2\*n + 1) = 2\*n + 1, a(0) = 1.
 * [A257089](https://oeis.org/A257089) ([program](/edit/?oeis=257089)): a(n) = log\_3 (A256689(n)).
 * [A257090](https://oeis.org/A257090) ([program](/edit/?oeis=257090)): a(n) = log\_2 (A256691(n)).
 * [A257113](https://oeis.org/A257113) ([program](/edit/?oeis=257113)): a(1) = 2, a(2) = 3; thereafter a(n) is the sum of all the previous terms.
 * [A257126](https://oeis.org/A257126) ([program](/edit/?oeis=257126)): a(n) = A055938(n) - A005187(n).
+* [A257132](https://oeis.org/A257132) ([program](/edit/?oeis=257132)): a(n) = cpg(n, 3) \* cpg(n, 4) \* ... \* cpg(n, n) where cpg(n, m) is the m-th n-th-order centered polygonal number.
+* [A257133](https://oeis.org/A257133) ([program](/edit/?oeis=257133)): a(n) = cpg(3, n) \* cpg(4, n) \* ... \* cpg(n, n) where cpg(m, n) is the n-th m-th-order centered polygonal number.
 * [A257134](https://oeis.org/A257134) ([program](/edit/?oeis=257134)): Decimal expansion of Pi^4/45.
 * [A257143](https://oeis.org/A257143) ([program](/edit/?oeis=257143)): a(2\*n) = 3\*n if n>0, a(2\*n + 1) = 2\*n + 1, a(0) = 1.
 * [A257145](https://oeis.org/A257145) ([program](/edit/?oeis=257145)): a(n) = 5 \* floor( (n+2) / 5) - n with a(0) = 1.
@@ -1093,6 +1177,8 @@ List of integer sequences with links to LODA programs.
 * [A257241](https://oeis.org/A257241) ([program](/edit/?oeis=257241)): Irregular triangle read by rows: Stifel's version of the arithmetical triangle.
 * [A257260](https://oeis.org/A257260) ([program](/edit/?oeis=257260)): One-based position of the rightmost zero in the factorial base representation of n (A007623), 0 if no nonleading zeros present.
 * [A257261](https://oeis.org/A257261) ([program](/edit/?oeis=257261)): One-based position of the rightmost one in the factorial base representation (A007623) of n, 0 if no one is present.
+* [A257262](https://oeis.org/A257262) ([program](/edit/?oeis=257262)): Numbers such that the least missing nonzero digit (A257079) in their factorial base representation is 2.
+* [A257263](https://oeis.org/A257263) ([program](/edit/?oeis=257263)): Numbers such that the least missing nonzero digit (A257079) in their factorial base representation is 3.
 * [A257272](https://oeis.org/A257272) ([program](/edit/?oeis=257272)): a(n) = 2^(n-1)\*(2^n+7).
 * [A257273](https://oeis.org/A257273) ([program](/edit/?oeis=257273)): a(n) = 2^(n-1)\*(2^n+3).
 * [A257282](https://oeis.org/A257282) ([program](/edit/?oeis=257282)): Numbers whose square is not the sum of two consecutive nonsquares.
@@ -1111,6 +1197,10 @@ List of integer sequences with links to LODA programs.
 * [A257402](https://oeis.org/A257402) ([program](/edit/?oeis=257402)): Expansion of chi(x) \* psi(-x^3) \* psi(x^12) in powers of x where psi(), chi() are Ramanujan theta functions.
 * [A257408](https://oeis.org/A257408) ([program](/edit/?oeis=257408)): Values of n such that there is exactly 1 solution to x^2 - y^2 = n with x > y >= 0.
 * [A257409](https://oeis.org/A257409) ([program](/edit/?oeis=257409)): Values of n such that there are exactly 2 solutions to x^2 - y^2 = n, with x > y >= 0.
+* [A257410](https://oeis.org/A257410) ([program](/edit/?oeis=257410)): Values of n such that there are exactly 3 solutions to x^2 - y^2 = n with x > y >= 0.
+* [A257411](https://oeis.org/A257411) ([program](/edit/?oeis=257411)): Values of n such that there are exactly 4 solutions to x^2 - y^2 = n with x > y >= 0.
+* [A257413](https://oeis.org/A257413) ([program](/edit/?oeis=257413)): Values of n such that there are exactly 6 solutions to x^2 - y^2 = n with x > y >= 0.
+* [A257415](https://oeis.org/A257415) ([program](/edit/?oeis=257415)): Values of n such that there are exactly 8 solutions to x^2 - y^2 = n with x > y >= 0.
 * [A257418](https://oeis.org/A257418) ([program](/edit/?oeis=257418)): Number of pieces after a sheet of paper is folded n times and cut diagonally.
 * [A257436](https://oeis.org/A257436) ([program](/edit/?oeis=257436)): Decimal expansion of G(1/3), a generalized Catalan constant.
 * [A257439](https://oeis.org/A257439) ([program](/edit/?oeis=257439)): Number of (n+2)X(n+2) 0..1 arrays with no 3x3 subblock diagonal sum 0 and no antidiagonal sum 3 and no row sum 1 and no column sum 1
@@ -1123,8 +1213,10 @@ List of integer sequences with links to LODA programs.
 * [A257449](https://oeis.org/A257449) ([program](/edit/?oeis=257449)): a(n) = 75\*(2^n - 1) - 4\*n^3 - 18\*n^2 - 52\*n.
 * [A257450](https://oeis.org/A257450) ([program](/edit/?oeis=257450)): a(n) = 541\*(2^n - 1) - 5\*n^4 - 30\*n^3 - 130\*n^2 - 375\*n.
 * [A257464](https://oeis.org/A257464) ([program](/edit/?oeis=257464)): Number of factorizations of m^n into 3 factors, where m is a product of exactly 3 distinct primes and each factor is a product of n primes (counted with multiplicity).
+* [A257469](https://oeis.org/A257469) ([program](/edit/?oeis=257469)): Expansion of f(-x) \* psi(x^6) in powers of x where psi(), f() are Ramanujan theta functions.
 * [A257481](https://oeis.org/A257481) ([program](/edit/?oeis=257481)): Consider a hole-less cluster of n circles in the hexagonal lattice packing of circles; a(n) is the maximal number of circles that touch 6 circles.
 * [A257487](https://oeis.org/A257487) ([program](/edit/?oeis=257487)): Expansion of ( -4+15\*x-8\*x^2 ) / ( (x-1)\*(x^2-4\*x+1) ).
+* [A257499](https://oeis.org/A257499) ([program](/edit/?oeis=257499)): Array A read by upward antidiagonals in which the entry in row n and column k is defined by A(n,k) = (1 + 2^n\*(6\*k-3+2\*(-1)^n))/3, n,k >= 1.
 * [A257501](https://oeis.org/A257501) ([program](/edit/?oeis=257501)): Triangle, read by rows, T(n,k) = 2\*k\*C(2\*(n+k),n-k)/(n+k).
 * [A257507](https://oeis.org/A257507) ([program](/edit/?oeis=257507)): Row 2 of A257264: a(n) = A011371(A055938(n)).
 * [A257510](https://oeis.org/A257510) ([program](/edit/?oeis=257510)): Number of nonleading zeros in factorial base representation of n (A007623).
@@ -1134,6 +1226,7 @@ List of integer sequences with links to LODA programs.
 * [A257522](https://oeis.org/A257522) ([program](/edit/?oeis=257522)): Table T(i,j) = denominator of (1/i + 1/j) = i\*j/gcd(i\*j,i+j) read by antidiagonals (i >= 1, j >= 1).
 * [A257531](https://oeis.org/A257531) ([program](/edit/?oeis=257531)): If 2^(n-1) mod n = 1, then 1 else 0.
 * [A257533](https://oeis.org/A257533) ([program](/edit/?oeis=257533)): Sum of the proper divisors of the n-th semiprime.
+* [A257541](https://oeis.org/A257541) ([program](/edit/?oeis=257541)): The rank of the partition with Heinz number n.
 * [A257542](https://oeis.org/A257542) ([program](/edit/?oeis=257542)): Square-sum pairs: Numbers n such that 0,1, ..., 2n-1 can be partitioned into n pairs, where each pair adds up to a perfect square.
 * [A257543](https://oeis.org/A257543) ([program](/edit/?oeis=257543)): Expansion of 1 / (1 - x^5 - x^8 + x^9) in powers of x.
 * [A257546](https://oeis.org/A257546) ([program](/edit/?oeis=257546)): Number of permutations of length n such that numbers at odd positions are monotone and numbers at even positions are also monotone.
@@ -1155,10 +1248,13 @@ List of integer sequences with links to LODA programs.
 * [A257644](https://oeis.org/A257644) ([program](/edit/?oeis=257644)): First differences of A264100.
 * [A257645](https://oeis.org/A257645) ([program](/edit/?oeis=257645)): a(n) = 15\*n + 14.
 * [A257656](https://oeis.org/A257656) ([program](/edit/?oeis=257656)): Expansion of f(x) \* f(x^3) \* f(-x^4)^2 \* chi(-x^6)^2 in powers of x where chi(), f() are Ramanujan theta functions.
+* [A257679](https://oeis.org/A257679) ([program](/edit/?oeis=257679)): The smallest nonzero digit present in the factorial base representation (A007623) of n, 0 if no nonzero digits present.
 * [A257680](https://oeis.org/A257680) ([program](/edit/?oeis=257680)): Characteristic function for A256450: 1 if there is at least one 1-digit present in the factorial representation of n (A007623), otherwise 0.
 * [A257682](https://oeis.org/A257682) ([program](/edit/?oeis=257682)): Partial sums of A257680: a(0) = 0; for n >= 1, a(n) = A257680(n) + a(n-1).
 * [A257686](https://oeis.org/A257686) ([program](/edit/?oeis=257686)): a(0) = 0, for n >= 1: a(n) = A099563(n) \* A048764(n).
 * [A257687](https://oeis.org/A257687) ([program](/edit/?oeis=257687)): Discard the most significant digit from factorial base representation of n, then convert back to decimal: a(n) = n - A257686(n).
+* [A257694](https://oeis.org/A257694) ([program](/edit/?oeis=257694)): a(0) = 1; for n >= 1, a(n) = A060130(n) \* a(A257684(n)).
+* [A257696](https://oeis.org/A257696) ([program](/edit/?oeis=257696)): a(0) = 0; for n >= 1, a(n) = gcd(A060130(n), a(A257684(n))).
 * [A257708](https://oeis.org/A257708) ([program](/edit/?oeis=257708)): Numbers n such that T(n) + T(n+1) + ... + T(n+24) is a square, where T = A000217 (triangular numbers).
 * [A257721](https://oeis.org/A257721) ([program](/edit/?oeis=257721)): Hexagonal numbers (A000384) that are the sum of two consecutive hexagonal numbers.
 * [A257772](https://oeis.org/A257772) ([program](/edit/?oeis=257772)): Numbers n>=0 such that (n+1)^3 - n^3 = 3\*n^2+3\*n+1 is not prime.
@@ -1180,6 +1276,7 @@ List of integer sequences with links to LODA programs.
 * [A257848](https://oeis.org/A257848) ([program](/edit/?oeis=257848)): a(n) = floor(n/8) \* (n mod 8).
 * [A257849](https://oeis.org/A257849) ([program](/edit/?oeis=257849)): a(n) = floor(n/9) \* (n mod 9).
 * [A257850](https://oeis.org/A257850) ([program](/edit/?oeis=257850)): a(n) = floor(n/10) \* (n mod 10).
+* [A257852](https://oeis.org/A257852) ([program](/edit/?oeis=257852)): Array A read by upward antidiagonals in which the entry A(n,k) in row n and column k is defined by A(n,k) = (2^n\*(6\*k - 3 - 2\*(-1)^n) - 1)/3, n,k >= 1.
 * [A257853](https://oeis.org/A257853) ([program](/edit/?oeis=257853)): a(n) = 2\*n^3 - floor(2^(1/3)\*n)^3.
 * [A257857](https://oeis.org/A257857) ([program](/edit/?oeis=257857)): Sequentially filled binary triangle rotated 180 degrees and then superimposed and added to the original triangle.
 * [A257859](https://oeis.org/A257859) ([program](/edit/?oeis=257859)): a(n) = (2\*n-1)\*a(n-1) - a(n-2) with a(0)=2, a(1)=1.
@@ -1187,6 +1284,7 @@ List of integer sequences with links to LODA programs.
 * [A257872](https://oeis.org/A257872) ([program](/edit/?oeis=257872)): Decimal expansion of the Madelung type constant C(4\|1) (negated).
 * [A257888](https://oeis.org/A257888) ([program](/edit/?oeis=257888)): Number of nonintersecting (or self-avoiding) rook paths of length 2n+2 joining opposite corners of an n X n grid.
 * [A257890](https://oeis.org/A257890) ([program](/edit/?oeis=257890)): Expansion of the g.f. (x^2-x+1)\*(x^2-3\*x+3)/(x-1)^6.
+* [A257900](https://oeis.org/A257900) ([program](/edit/?oeis=257900)): Expansion of 1/2 - (phi(-q)^2 + phi(-q^9)^2) / 4 in powers of q where phi() is a Ramanujan theta function.
 * [A257923](https://oeis.org/A257923) ([program](/edit/?oeis=257923)): Number of prime factors of the n-th Giuga number A007850(n).
 * [A257925](https://oeis.org/A257925) ([program](/edit/?oeis=257925)): a(n) = (n^2 - n + 1)\*(n^2 + n - 1).
 * [A257932](https://oeis.org/A257932) ([program](/edit/?oeis=257932)): Expansion of 1/(1-x-x^2-x^3+x^5+x^7).
@@ -1208,17 +1306,18 @@ List of integer sequences with links to LODA programs.
 * [A258011](https://oeis.org/A258011) ([program](/edit/?oeis=258011)): Numbers remaining after the third stage of Lucky sieve.
 * [A258016](https://oeis.org/A258016) ([program](/edit/?oeis=258016)): Unlucky numbers removed at the stage three of Lucky sieve.
 * [A258022](https://oeis.org/A258022) ([program](/edit/?oeis=258022)): Nonnegative integers n with property that when starting from x=n, the map x -> floor(tan(x)) reaches [the fixed point] 0 (or any other integer less than 1 if such negative fixed points exist).
+* [A258034](https://oeis.org/A258034) ([program](/edit/?oeis=258034)): Expansion of phi(q) \* phi(q^9) in powers of q where phi() is a Ramanujan theta function.
 * [A258048](https://oeis.org/A258048) ([program](/edit/?oeis=258048)): Nonhomogeneous Beatty sequence: ceiling((n + 1/2)\*Pi/(Pi- 1))
 * [A258054](https://oeis.org/A258054) ([program](/edit/?oeis=258054)): Circle of fifths cycle (counterclockwise).
 * [A258055](https://oeis.org/A258055) ([program](/edit/?oeis=258055)): Concatenation of the decimal representations of the lengths (increased by 1) of the runs of zeros between successive ones in the binary representation of n.
 * [A258056](https://oeis.org/A258056) ([program](/edit/?oeis=258056)): 3x + 1 sequence starting at 75.
 * [A258057](https://oeis.org/A258057) ([program](/edit/?oeis=258057)): First differences of the arithmetic derivative sequence A003415.
 * [A258059](https://oeis.org/A258059) ([program](/edit/?oeis=258059)): Let n = Sum\_\{i=0..k\} d\_i\*4^i be the base-4 expansion of n, with 0 <= d\_i < 4. Then a(n) = minimal i such that d\_i is not 1, or k+1 if there is no such i.
-* [A258070](https://oeis.org/A258070) ([program](/edit/?oeis=258070)): Nonnegative integers that can be computed using exactly nine 9's and the four basic arithmetic operations \{+, -, \*, /\}.
 * [A258071](https://oeis.org/A258071) ([program](/edit/?oeis=258071)): Nonnegative integers that can be computed using exactly ten 10's and the four basic arithmetic operations \{+, -, \*, /\}.
 * [A258073](https://oeis.org/A258073) ([program](/edit/?oeis=258073)): a(n) = 1 + 78557\*2^n.
 * [A258085](https://oeis.org/A258085) ([program](/edit/?oeis=258085)): Strictly increasing list of F and F - 1, where F = A000045, the Fibonacci numbers.
 * [A258087](https://oeis.org/A258087) ([program](/edit/?oeis=258087)): Start with all terms set to 0. Then add n to the next n+2 terms for n=0,1,2,... .
+* [A258089](https://oeis.org/A258089) ([program](/edit/?oeis=258089)): a(n) = n for n = 0..3; for n>3, a(n) = 4\*a(n-1) + 3\*a(n-2) + 2\*a(n-3) + a(n-4).
 * [A258091](https://oeis.org/A258091) ([program](/edit/?oeis=258091)): Smallest prime factor of 1+78557\*2^n, cf. A258073.
 * [A258096](https://oeis.org/A258096) ([program](/edit/?oeis=258096)): Expansion of psi(x^4) \* phi(-x^4)^4 / phi(-x) in powers of x where phi(), psi() are Ramanujan theta function.
 * [A258098](https://oeis.org/A258098) ([program](/edit/?oeis=258098)): 3x + 1 sequence starting at 79.
@@ -1239,21 +1338,30 @@ List of integer sequences with links to LODA programs.
 * [A258150](https://oeis.org/A258150) ([program](/edit/?oeis=258150)): Triangle of Fibonacci's congruum (congruous) numbers divided by 24 based on primitive Pythagorean triangles. Areas divided by 6 of these triangles.
 * [A258155](https://oeis.org/A258155) ([program](/edit/?oeis=258155)): Products of squares of three successive primes.
 * [A258160](https://oeis.org/A258160) ([program](/edit/?oeis=258160)): a(n) = 8\*Lucas(n).
+* [A258171](https://oeis.org/A258171) ([program](/edit/?oeis=258171)): a(n) = Sum\_\{d\|n\} phi(d)\*Bell(n/d) for n>0, a(0) = 0.
 * [A258172](https://oeis.org/A258172) ([program](/edit/?oeis=258172)): Sum over all Dyck paths of semilength n of products over all peaks p of x\_p, where x\_p is the x-coordinate of peak p.
 * [A258187](https://oeis.org/A258187) ([program](/edit/?oeis=258187)): Numbers n such that either n^k - 1 or n^k - 2 is prime for some positive k, but not both.
+* [A258196](https://oeis.org/A258196) ([program](/edit/?oeis=258196)): Expansion of f(-x^2) \* phi(-x^3) in powers of x where phi(), f() are Ramanujan theta functions.
 * [A258197](https://oeis.org/A258197) ([program](/edit/?oeis=258197)): Arithmetic derivative of Pascal's triangle.
 * [A258198](https://oeis.org/A258198) ([program](/edit/?oeis=258198)): a(n) = largest k for which A001563(k) = k\*k! <= n.
+* [A258210](https://oeis.org/A258210) ([program](/edit/?oeis=258210)): Expansion of f(-q) \* f(-q^2) \* chi(-q^3) in powers of q where chi(), f() are Ramanujan theta functions.
 * [A258211](https://oeis.org/A258211) ([program](/edit/?oeis=258211)): Nonsquarefree numbers of the form 4\*k + 2.
 * [A258213](https://oeis.org/A258213) ([program](/edit/?oeis=258213)): Number of permutations of \{1,2,3,...,n\} such that no even numbers are adjacent.
 * [A258216](https://oeis.org/A258216) ([program](/edit/?oeis=258216)): Number of permutations of \{1,2,3,...,n\} such that no multiples of 3 are adjacent.
+* [A258228](https://oeis.org/A258228) ([program](/edit/?oeis=258228)): Expansion of f(q) \* f(-q^2) \* chi(q^3) in powers of q where chi(), f() are Ramanujan theta functions.
 * [A258256](https://oeis.org/A258256) ([program](/edit/?oeis=258256)): Expansion of f(q^3) \* psi(-q^3)^3 / (psi(-q) \* psi(-q^9)) in powers of q where psi(), f() are Ramanujan theta functions.
 * [A258261](https://oeis.org/A258261) ([program](/edit/?oeis=258261)): Primes p such that 3p - 4 is also prime.
 * [A258277](https://oeis.org/A258277) ([program](/edit/?oeis=258277)): Expansion of chi(-q) \* phi(-q^3) \* psi(q^3) in powers of q where chi(), phi(), psi() are Ramanujan theta functions.
 * [A258278](https://oeis.org/A258278) ([program](/edit/?oeis=258278)): Expansion of f(-x, -x^5)^2 in powers of x where f(,) is Ramanujan's general theta function.
+* [A258279](https://oeis.org/A258279) ([program](/edit/?oeis=258279)): Expansion of psi(q)^2 \* chi(-q^3)^2 in powers of q where psi(), chi() are Ramanujan theta functions.
 * [A258290](https://oeis.org/A258290) ([program](/edit/?oeis=258290)): Arithmetic derivative of central binomial coefficients, cf. A000984.
+* [A258291](https://oeis.org/A258291) ([program](/edit/?oeis=258291)): Expansion of q^(-1/4) \* eta(q) \* eta(q^2) \* eta(q^6) / eta(q^3) in powers of q.
+* [A258292](https://oeis.org/A258292) ([program](/edit/?oeis=258292)): Expansion of psi(-q)^2 \* chi(q^3)^2 in powers of q where psi(), f() are Ramanujan theta functions.
 * [A258314](https://oeis.org/A258314) ([program](/edit/?oeis=258314)): G.f. B(x) satisfies: B(x) = 1 + x\*A(x)\*C(x) where A(x) = B(x)\*C(x) and C(x) = 1 + 2\*x\*A(x)\*B(x).
+* [A258315](https://oeis.org/A258315) ([program](/edit/?oeis=258315)): G.f. C(x) satisfies: C(x) = 1 + 2\*x\*A(x)\*B(x) where A(x) = B(x)\*C(x) and  B(x) = 1 + x\*A(x)\*C(x).
 * [A258317](https://oeis.org/A258317) ([program](/edit/?oeis=258317)): Row sums of triangle A258197.
 * [A258321](https://oeis.org/A258321) ([program](/edit/?oeis=258321)): a(n) = Fibonacci(n) + n\*Lucas(n).
+* [A258322](https://oeis.org/A258322) ([program](/edit/?oeis=258322)): Expansion of phi(-q) \* phi(-q^9) in powers of q where phi() is a Ramanujan theta function.
 * [A258326](https://oeis.org/A258326) ([program](/edit/?oeis=258326)): a(1) = 3; for n > 1, a(n) = a(n-1) + prime(n+2) - 2\*prime(n+1) + 2\*prime(n) - prime(n-1).
 * [A258331](https://oeis.org/A258331) ([program](/edit/?oeis=258331)): Sum of the cubes of the divisors of n^3.
 * [A258340](https://oeis.org/A258340) ([program](/edit/?oeis=258340)): a(n) = (7^n + 3^n - 2)/8.
@@ -1265,10 +1373,13 @@ List of integer sequences with links to LODA programs.
 * [A258388](https://oeis.org/A258388) ([program](/edit/?oeis=258388)): a(n) = n^(n+1) + (n-1)^n.
 * [A258389](https://oeis.org/A258389) ([program](/edit/?oeis=258389)): a(n) = (n^(n+1)-(n-1)^n) + ((n+1)^n-n^(n-1)).
 * [A258390](https://oeis.org/A258390) ([program](/edit/?oeis=258390)): Number of 2n-length strings of balanced parentheses of exactly 2 different types that are introduced in ascending order.
+* [A258391](https://oeis.org/A258391) ([program](/edit/?oeis=258391)): Number of 2n-length strings of balanced parentheses of exactly 3 different types that are introduced in ascending order.
+* [A258399](https://oeis.org/A258399) ([program](/edit/?oeis=258399)): Number of 4n-length strings of balanced parentheses of exactly n different types that are introduced in ascending order.
 * [A258402](https://oeis.org/A258402) ([program](/edit/?oeis=258402)): a(n) = (n^2 + 4\*n + 6) \* n^2.
 * [A258403](https://oeis.org/A258403) ([program](/edit/?oeis=258403)): Decimal expansion of the area of the regular 10-gon (decagon) of circumradius = 1.
 * [A258409](https://oeis.org/A258409) ([program](/edit/?oeis=258409)): Greatest common divisor of all (d-1)'s, where the d's are the positive divisors of n.
 * [A258410](https://oeis.org/A258410) ([program](/edit/?oeis=258410)): Nonnegative integers with an equal number of occurrences of all digits in bijective base-2 numeration.
+* [A258415](https://oeis.org/A258415) ([program](/edit/?oeis=258415)): Array A read by upward antidiagonals in which the entry in row n and column k is defined by A(n,k) = (2 + 2^(n-1)\*(6\*k - 3 + 2\*(-1)^n))/3, n,k >= 1.
 * [A258430](https://oeis.org/A258430) ([program](/edit/?oeis=258430)): Primes in A088580.
 * [A258431](https://oeis.org/A258431) ([program](/edit/?oeis=258431)): Sum over all peaks of Dyck paths of semilength n of the arithmetic mean of the x and y coordinates.
 * [A258434](https://oeis.org/A258434) ([program](/edit/?oeis=258434)): n^2 - phi(n).
@@ -1276,7 +1387,6 @@ List of integer sequences with links to LODA programs.
 * [A258440](https://oeis.org/A258440) ([program](/edit/?oeis=258440)): Number of squares of all sizes in 3\*n\*(n+1)/2-ominoes in form of three-quarters of Aztec diamonds.
 * [A258451](https://oeis.org/A258451) ([program](/edit/?oeis=258451)): a(n) = 1 + a(n-1)/gcd(a(n-1),n) with a(0)=3.
 * [A258453](https://oeis.org/A258453) ([program](/edit/?oeis=258453)): G.f.: Sum\_\{k>0\} x^((k^2 + k)/2) / (1 + x^k).
-* [A258456](https://oeis.org/A258456) ([program](/edit/?oeis=258456)): Product of divisors of n is not a square.
 * [A258468](https://oeis.org/A258468) ([program](/edit/?oeis=258468)): a(n) = lcm(n, n - tau(n)).
 * [A258547](https://oeis.org/A258547) ([program](/edit/?oeis=258547)): Number of (n+1)X(1+1) 0..1 arrays with every 2X2 subblock ne-sw antidiagonal difference nondecreasing horizontally and nw+se diagonal sum nondecreasing vertically
 * [A258582](https://oeis.org/A258582) ([program](/edit/?oeis=258582)): a(n) = n\*(2\*n + 1)\*(4\*n + 1)/3.
@@ -1311,9 +1421,13 @@ List of integer sequences with links to LODA programs.
 * [A258745](https://oeis.org/A258745) ([program](/edit/?oeis=258745)): Order of general affine group AGL(n,2) (=A028365(n)) divided by (n+1).
 * [A258746](https://oeis.org/A258746) ([program](/edit/?oeis=258746)): Permutation of the positive integers: this permutation transforms the enumeration system of positive irreducible fractions A007305/A047679 (Stern-Brocot) into the enumeration system A162909/A162910 (Bird), and vice versa.
 * [A258747](https://oeis.org/A258747) ([program](/edit/?oeis=258747)): Expansion of chi(-x) \* f(x^3) \* f(-x^6) in powers of x where chi(), f() are Ramanujan theta functions.
+* [A258749](https://oeis.org/A258749) ([program](/edit/?oeis=258749)): Decimal expansion of Ls\_3(Pi), the value of the 3rd basic generalized log-sine integral at Pi (negated).
 * [A258758](https://oeis.org/A258758) ([program](/edit/?oeis=258758)): Triangle T(n,k) = C(n+k-1,k)\*C(2\*n-1,n-k).
+* [A258759](https://oeis.org/A258759) ([program](/edit/?oeis=258759)): Decimal expansion of Ls\_3(Pi/3), the value of the 3rd basic generalized log-sine integral at Pi/3 (negated).
 * [A258764](https://oeis.org/A258764) ([program](/edit/?oeis=258764)): Expansion of chi(-x^2) \* psi(-x^3)^2 in powers of x where psi(), chi() are Ramanujan theta functions.
 * [A258774](https://oeis.org/A258774) ([program](/edit/?oeis=258774)): a(n) = 1 + sigma(n) + sigma(n)^2.
+* [A258779](https://oeis.org/A258779) ([program](/edit/?oeis=258779)): Expansion of (f(-x) \* phi(x))^2 in powers of x where phi(), f() are Ramanujan theta functions.
+* [A258781](https://oeis.org/A258781) ([program](/edit/?oeis=258781)): a(n) is the greatest positive integer k such that lambda(k) <= n where lambda is the Carmichael lambda function (A002322).
 * [A258782](https://oeis.org/A258782) ([program](/edit/?oeis=258782)): Nearest integer to log\_2(n!).
 * [A258806](https://oeis.org/A258806) ([program](/edit/?oeis=258806)): a(n) = n^7 + 1.
 * [A258807](https://oeis.org/A258807) ([program](/edit/?oeis=258807)): a(n) = n^5 - 1.
@@ -1381,6 +1495,7 @@ List of integer sequences with links to LODA programs.
 * [A259207](https://oeis.org/A259207) ([program](/edit/?oeis=259207)): 5x + 1 sequence beginning at 5.
 * [A259210](https://oeis.org/A259210) ([program](/edit/?oeis=259210)): Positive hexagonal numbers (A000384) that are other hexagonal numbers divided by 3.
 * [A259212](https://oeis.org/A259212) ([program](/edit/?oeis=259212)): A total of n married couples, including a mathematician M and his wife W, are to be seated at the 2n chairs around a circular table. M and W are the first couple allowed to choose chairs, and they choose two chairs next to each other. The sequence gives the number of ways of seating the remaining couples so that women and men are in alternate chairs but M and W are the only couple seated next to each other.
+* [A259214](https://oeis.org/A259214) ([program](/edit/?oeis=259214)): Number of (n+1)X(n+1) 0..1 arrays with each 2X2 subblock having clockwise pattern 0000 0011 or 0101
 * [A259215](https://oeis.org/A259215) ([program](/edit/?oeis=259215)): Number of (n+1) X (1+1) 0..1 arrays with each 2 X 2 subblock having clockwise pattern 0000 0011 or 0101.
 * [A259216](https://oeis.org/A259216) ([program](/edit/?oeis=259216)): Number of (n+1) X (2+1) 0..1 arrays with each 2 X 2 subblock having clockwise pattern 0000 0011 or 0101.
 * [A259217](https://oeis.org/A259217) ([program](/edit/?oeis=259217)): Number of (n+1) X (3+1) 0..1 arrays with each 2 X 2 subblock having clockwise pattern 0000 0011 or 0101.
@@ -1410,6 +1525,7 @@ List of integer sequences with links to LODA programs.
 * [A259321](https://oeis.org/A259321) ([program](/edit/?oeis=259321)): a(n) = A259110(n)\*A259323(n) - A259319(n)^2.
 * [A259322](https://oeis.org/A259322) ([program](/edit/?oeis=259322)): Sum of sixth powers of odd numbers.
 * [A259323](https://oeis.org/A259323) ([program](/edit/?oeis=259323)): 2\*A259322(n).
+* [A259334](https://oeis.org/A259334) ([program](/edit/?oeis=259334)): Triangle read by rows: T(n,k) = k\*(n-1)!\*n^(n-k-1)/(n-k)!, 1 <= k <= n.
 * [A259335](https://oeis.org/A259335) ([program](/edit/?oeis=259335)): a(n) = Sum(b(2\*n, k)^2\*(b(2\*n, k + 1) - b(2\*n, k - 1)), k = 0 .. n)/(n\*b(2\*n, n)), where b denotes a binomial coefficient.
 * [A259343](https://oeis.org/A259343) ([program](/edit/?oeis=259343)): A001116(n) + 1.
 * [A259346](https://oeis.org/A259346) ([program](/edit/?oeis=259346)): If n = 2^k then a(n) = 3^k, otherwise a(n) = 0.
@@ -1438,6 +1554,7 @@ List of integer sequences with links to LODA programs.
 * [A259533](https://oeis.org/A259533) ([program](/edit/?oeis=259533)): Number of restricted barred preferential arrangements of an n-set having 3 bars in which 3 fixed sections are restricted sections and 1 section is a free section.
 * [A259546](https://oeis.org/A259546) ([program](/edit/?oeis=259546)): a(n) = n^3\*Fibonacci(n).
 * [A259547](https://oeis.org/A259547) ([program](/edit/?oeis=259547)): a(n) = n^4\*Fibonacci(n).
+* [A259548](https://oeis.org/A259548) ([program](/edit/?oeis=259548)): Numbers divisible only by primes of the form 6\*m-1.
 * [A259549](https://oeis.org/A259549) ([program](/edit/?oeis=259549)): Triangle T(n,k) with rows of length 2n-1 filled with consecutive integers, each appearing twice except for the last term, T(n,2n-1) = n(n+1)/2.
 * [A259550](https://oeis.org/A259550) ([program](/edit/?oeis=259550)): a(n) = C(5\*n-1,2\*n)/3, n > 0, a(0) = 1.
 * [A259552](https://oeis.org/A259552) ([program](/edit/?oeis=259552)): a(n) = (1/4)\*n^4 - (1/2)\*n^3 + (3/4)\*n^2 - (1/2)\*n + 41.
@@ -1469,14 +1586,17 @@ List of integer sequences with links to LODA programs.
 * [A259651](https://oeis.org/A259651) ([program](/edit/?oeis=259651)): Number of distinct prime factors of the n-th pentagonal number (A000326).
 * [A259652](https://oeis.org/A259652) ([program](/edit/?oeis=259652)): Number of prime factors, with multiplicity, of the n-th pentagonal number (A000326).
 * [A259653](https://oeis.org/A259653) ([program](/edit/?oeis=259653)): a(0)=0, a(1)=1, a(n) = min\{3 a(k) + (3^(n-k)-1)/2, k=0..(n-1)\} for n>=2.
+* [A259655](https://oeis.org/A259655) ([program](/edit/?oeis=259655)): Expansion of psi(x^2) \* f(-x^3)^3 / f(-x) in powers of x where psi(), f() are Ramanujan theta functions.
 * [A259661](https://oeis.org/A259661) ([program](/edit/?oeis=259661)): Binary representation of the middle column of the "Rule 54" elementary cellular automaton starting with a single ON cell.
 * [A259665](https://oeis.org/A259665) ([program](/edit/?oeis=259665)): a(0)=0, a(1)=1, a(n) = min\{4 a(k) + (4^(n-k)-1)/3, k=0..(n-1)\} for n>=2.
 * [A259667](https://oeis.org/A259667) ([program](/edit/?oeis=259667)): Catalan numbers mod 6.
 * [A259669](https://oeis.org/A259669) ([program](/edit/?oeis=259669)): a(0)=0, a(1)=1, a(n) = min\{5 a(k) + (5^(n-k)-1)/4, k=0..(n-1)\} for n>=2.
+* [A259676](https://oeis.org/A259676) ([program](/edit/?oeis=259676)): Heptagonal numbers (A000566) that are semiprimes (A001358).
 * [A259677](https://oeis.org/A259677) ([program](/edit/?oeis=259677)): Octagonal numbers (A000567) that are semiprimes (A001358).
 * [A259709](https://oeis.org/A259709) ([program](/edit/?oeis=259709)): a(n) = A259708(n,n-1).
 * [A259713](https://oeis.org/A259713) ([program](/edit/?oeis=259713)): a(n) = 3\*2^n - 2\*(-1)^n.
 * [A259736](https://oeis.org/A259736) ([program](/edit/?oeis=259736)): Number of (n+2) X (2+2) 0..1 arrays with each 3 X 3 subblock having clockwise perimeter pattern 00010101 or 01010101.
+* [A259743](https://oeis.org/A259743) ([program](/edit/?oeis=259743)): Expansion of f(-x)^3 \* psi(x^4) in powers of x where psi(), f() are Ramanujan theta functions.
 * [A259748](https://oeis.org/A259748) ([program](/edit/?oeis=259748)): a(n) = (Sum\_\{0<x<y<n\} x\*y) mod n.
 * [A259749](https://oeis.org/A259749) ([program](/edit/?oeis=259749)): Numbers that are congruent to \{1,2,5,7,10,11,13,17,19,23\} mod 24.
 * [A259750](https://oeis.org/A259750) ([program](/edit/?oeis=259750)): Numbers that are congruent to \{14, 22\} mod 24.
@@ -1488,6 +1608,8 @@ List of integer sequences with links to LODA programs.
 * [A259761](https://oeis.org/A259761) ([program](/edit/?oeis=259761)): Expansion of (phi(x)^2 + phi(x^9)^2) / 2 in powers of x where phi() is a Ramanujan theta function.
 * [A259773](https://oeis.org/A259773) ([program](/edit/?oeis=259773)): Product of the digits of the n-th Lucas number.
 * [A259775](https://oeis.org/A259775) ([program](/edit/?oeis=259775)): Stepped path in P(k,n) array of k-th partial sums of squares (A000290).
+* [A259790](https://oeis.org/A259790) ([program](/edit/?oeis=259790)): Expansion of f(-x)^3 \* phi(x^2) in powers of x where phi(), f() are Ramanujan theta functions.
+* [A259791](https://oeis.org/A259791) ([program](/edit/?oeis=259791)): Number of connected D-integral graphs on n vertices.
 * [A259796](https://oeis.org/A259796) ([program](/edit/?oeis=259796)): Number of partitions of 3^n into n-th powers.
 * [A259821](https://oeis.org/A259821) ([program](/edit/?oeis=259821)): a(n) = floor( (3^n+1)^2/3^n ).
 * [A259823](https://oeis.org/A259823) ([program](/edit/?oeis=259823)): a(0)=0, a(1)=1, a(n)=min\{3 a(k) + 2^(n-k)-1, k=0..(n-1)\} for n>=2.
@@ -1502,6 +1624,8 @@ List of integer sequences with links to LODA programs.
 * [A259860](https://oeis.org/A259860) ([program](/edit/?oeis=259860)): a(n+8)+34\*a(n+4)+a(n)=0 with a(0)-a(7) as shown.
 * [A259861](https://oeis.org/A259861) ([program](/edit/?oeis=259861)): a(n+8)+34\*a(n+4)+a(n)=0 with a(0)-a(7) as shown.
 * [A259877](https://oeis.org/A259877) ([program](/edit/?oeis=259877)): If n is even then a(n) = n!/( 2^(n/2)\*(n/2)! ), otherwise a(n) = n!/( 3\*2^((n-1)/2)\*((n-3)/2)! ).
+* [A259895](https://oeis.org/A259895) ([program](/edit/?oeis=259895)): Expansion of psi(x^2) \* psi(x^3) in powers of x where psi() is a Ramanujan theta function.
+* [A259896](https://oeis.org/A259896) ([program](/edit/?oeis=259896)): Expansion of psi(x) \* psi(x^6) in powers of x where phi() is a Ramanujan theta function.
 * [A259900](https://oeis.org/A259900) ([program](/edit/?oeis=259900)): n\*a(n+1) = (2\*n^2 + 3\*n + 2)\*a(n) - (n^2 - n - 2)\*a(n-1) with n>1, a(0)=0, a(1)=1.
 * [A259901](https://oeis.org/A259901) ([program](/edit/?oeis=259901)): n\*a(n+1) = (2\*n^2+3\*n+2)\*a(n)-(n^2-n-2)\*a(n-1); a(0)=1, a(1)=0.
 * [A259902](https://oeis.org/A259902) ([program](/edit/?oeis=259902)): n\*a(n+1) = (2\*n^2+3n-1)\*a(n)-(n^2-n-2)\*a(n-1); a(0)=0, a(1)=1.
@@ -1518,6 +1642,7 @@ List of integer sequences with links to LODA programs.
 * [A259925](https://oeis.org/A259925) ([program](/edit/?oeis=259925)): a(n) = (n^2 - n - 1)^n.
 * [A259926](https://oeis.org/A259926) ([program](/edit/?oeis=259926)): a(n) = n^(2\*n) - n^(2\*n - 1).
 * [A259936](https://oeis.org/A259936) ([program](/edit/?oeis=259936)): Number of ways to express the integer n as a product of its unitary divisors (A034444).
+* [A259937](https://oeis.org/A259937) ([program](/edit/?oeis=259937)): Concatenation of the numbers from 1 to n with numbers from n down to 1.
 * [A259966](https://oeis.org/A259966) ([program](/edit/?oeis=259966)): Total binary weight (cf. A000120) of all A005251(n) binary sequences of length n not containing any isolated 1's.
 * [A259967](https://oeis.org/A259967) ([program](/edit/?oeis=259967)): a(n) = a(n-1) + a(n-2) + a(n-4).
 * [A259968](https://oeis.org/A259968) ([program](/edit/?oeis=259968)): a(n) = a(n-1) + a(n-2) + a(n-4), with a(1)=1, a(2)=1, a(3)=3, a(4)=6.
@@ -1535,11 +1660,13 @@ List of integer sequences with links to LODA programs.
 * [A260033](https://oeis.org/A260033) ([program](/edit/?oeis=260033)): Number of configurations of the general monomer-dimer model for a 2 X 2n square lattice.
 * [A260076](https://oeis.org/A260076) ([program](/edit/?oeis=260076)): Cyclotomic polynomial value Phi(9,n!).
 * [A260077](https://oeis.org/A260077) ([program](/edit/?oeis=260077)): Cyclotomic polynomial value Phi(10,n!).
+* [A260089](https://oeis.org/A260089) ([program](/edit/?oeis=260089)): Expansion of psi(x^2) \* f(x, x^2) in powers of x where psi(), f() are Ramanujan theta functions.
 * [A260090](https://oeis.org/A260090) ([program](/edit/?oeis=260090)): Maximum number of kings on an n X n chessboard such that no king attacks more than one other king.
 * [A260109](https://oeis.org/A260109) ([program](/edit/?oeis=260109)): Expansion of f(x^3) \* f(-x^3)^2 \* psi(x)^2 / psi(-x) in powers of x where psi(), f() are Ramanujan theta functions.
 * [A260112](https://oeis.org/A260112) ([program](/edit/?oeis=260112)): Minimal number of steps to get from 0 to n by (a) adding 1 or (b) multiplying by 4.
 * [A260113](https://oeis.org/A260113) ([program](/edit/?oeis=260113)): Maximum number of queens on an n X n chessboard such that no queen attacks more than one other queen.
 * [A260114](https://oeis.org/A260114) ([program](/edit/?oeis=260114)): Expansion of f(x)^4 \* phi(-x^3) / phi(-x) in powers of x where phi(), f() are Ramanujan theta functions.
+* [A260118](https://oeis.org/A260118) ([program](/edit/?oeis=260118)): Expansion of f(-x, -x^5) \* psi(x^4) in powers of x where psi(), f() are Ramanujan theta functions.
 * [A260158](https://oeis.org/A260158) ([program](/edit/?oeis=260158)): Expansion of psi(x)^4 \* psi(-x^3) / f(x) in powers of x where psi, f() are Ramanujan theta functions.
 * [A260160](https://oeis.org/A260160) ([program](/edit/?oeis=260160)): a(n) = a(n-2) + a(n-6) - a(n-8) with n>8, the first eight terms are 0 except that for a(5) = a(7) = 1.
 * [A260165](https://oeis.org/A260165) ([program](/edit/?oeis=260165)): Expansion of f(x, x^2) \* f(x, x^3)^3 in powers of x where f(, ) is Ramanujan's general theta function.
@@ -1580,11 +1707,12 @@ List of integer sequences with links to LODA programs.
 * [A260304](https://oeis.org/A260304) ([program](/edit/?oeis=260304)): a(n) = 5\*a(n-1) - 5\*a(n-2) for n>1, a(0)=2, a(1)=3.
 * [A260307](https://oeis.org/A260307) ([program](/edit/?oeis=260307)): a(n) = a(n-1) + a(n-2) - a(n-3) + a(n-6) - a(n-7) - a(n-8) + a(n-9) with a(0) - a(8) as shown below.
 * [A260316](https://oeis.org/A260316) ([program](/edit/?oeis=260316)): n/3 if 3 divides n, else n-1.
+* [A260326](https://oeis.org/A260326) ([program](/edit/?oeis=260326)): Common denominator of coefficients in Nörlund's polynomial D\_\{2n\}(x).
 * [A260331](https://oeis.org/A260331) ([program](/edit/?oeis=260331)): Labelings of n diamond-shaped posets with 4 vertices per diamond where the labels follow the poset relations.
+* [A260360](https://oeis.org/A260360) ([program](/edit/?oeis=260360)): The absolute difference between the largest prime factors of prime(n)-1 and prime(n+1)-1.
 * [A260373](https://oeis.org/A260373) ([program](/edit/?oeis=260373)): The nearest perfect square to n!
 * [A260375](https://oeis.org/A260375) ([program](/edit/?oeis=260375)): Numbers k such that A260374(k) is a perfect square.
 * [A260390](https://oeis.org/A260390) ([program](/edit/?oeis=260390)): Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = (1,0) and midword sequence (a(n)); see Comments.
-* [A260391](https://oeis.org/A260391) ([program](/edit/?oeis=260391)): Positions of 0 in the infinite palindromic word at A260390.
 * [A260392](https://oeis.org/A260392) ([program](/edit/?oeis=260392)): Positions of 1 in the infinite palindromic word at A260390.
 * [A260393](https://oeis.org/A260393) ([program](/edit/?oeis=260393)): Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = (0,1) and midword sequence (a(n)); see Comments.
 * [A260394](https://oeis.org/A260394) ([program](/edit/?oeis=260394)): Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = (0,1,1) and midword sequence (a(n)); see Comments.
@@ -1608,6 +1736,7 @@ List of integer sequences with links to LODA programs.
 * [A260454](https://oeis.org/A260454) ([program](/edit/?oeis=260454)): Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = (3,2,1) and midword sequence (a(n)); see Comments.
 * [A260455](https://oeis.org/A260455) ([program](/edit/?oeis=260455)): Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = 0 and midword sequence (1,null,1,null,1,null,...); see Comments.
 * [A260456](https://oeis.org/A260456) ([program](/edit/?oeis=260456)): Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = 1 and midword sequence (0,null,0,null,0,null,...); see Comments.
+* [A260458](https://oeis.org/A260458) ([program](/edit/?oeis=260458)): Limit of gcd(PP(n) - k, PP(n) + k) as k -> oo, where PP(n) is the product of the first n primes.
 * [A260478](https://oeis.org/A260478) ([program](/edit/?oeis=260478)): Cyclotomic polynomial value Phi(8,n!).
 * [A260479](https://oeis.org/A260479) ([program](/edit/?oeis=260479)): Positions of 0 in the infinite palindromic word at A260455.
 * [A260480](https://oeis.org/A260480) ([program](/edit/?oeis=260480)): Positions of 0 in the infinite palindromic word at A260455.
@@ -1620,6 +1749,8 @@ List of integer sequences with links to LODA programs.
 * [A260513](https://oeis.org/A260513) ([program](/edit/?oeis=260513)): a(n) = (8\*n+13\*n^3+3\*n^5)/24; also the sum of triangular numbers taken in successive groups of increasing size (see Example).
 * [A260516](https://oeis.org/A260516) ([program](/edit/?oeis=260516)): Expansion of f(x, x^2) \* f(x^2, x^10) in powers of x where f(,) is Ramanujan's general theta function.
 * [A260518](https://oeis.org/A260518) ([program](/edit/?oeis=260518)): Expansion of psi(x)^2 \* f(-x^3)^3 / f(-x) in powers of x where psi(), f() are Ramanujan theta functions.
+* [A260552](https://oeis.org/A260552) ([program](/edit/?oeis=260552)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 17" initiated with a single ON (black) cell.
+* [A260596](https://oeis.org/A260596) ([program](/edit/?oeis=260596)): Array A read by upward antidiagonals in which the entry A(n,k) in row n and column k is defined by A(n,k) = (8 + (3\*floor((4\*n + 1)/3) - 2)\*4^k)/12, n,k >= 1.
 * [A260610](https://oeis.org/A260610) ([program](/edit/?oeis=260610)): Suprafactorials: Product of first n hyperfactorials divided by the product of the first n superfactorials.
 * [A260611](https://oeis.org/A260611) ([program](/edit/?oeis=260611)): a(n) = superfactorial(prime(n)-1) mod prime(n).
 * [A260619](https://oeis.org/A260619) ([program](/edit/?oeis=260619)): Arithmetic derivative of hyperfactorial(n).
@@ -1630,6 +1761,7 @@ List of integer sequences with links to LODA programs.
 * [A260637](https://oeis.org/A260637) ([program](/edit/?oeis=260637)): Sums of seven consecutive squares: a(n) = n^2 + (n+1)^2 + (n+2)^2 + (n+3)^2 + (n+4)^2 + (n+5)^2 + (n+6)^2.
 * [A260640](https://oeis.org/A260640) ([program](/edit/?oeis=260640)): Numbers n such that binomial(3\*n,n) == 0 (mod n).
 * [A260644](https://oeis.org/A260644) ([program](/edit/?oeis=260644)): Four steps forward, three steps back.
+* [A260647](https://oeis.org/A260647) ([program](/edit/?oeis=260647)): Numbers that are the sum of two distinct nonzero triangular numbers.
 * [A260655](https://oeis.org/A260655) ([program](/edit/?oeis=260655)): a(n) = 4\*36^n\*Gamma(n+3/2)/(sqrt(Pi)\*(n+2)!).
 * [A260679](https://oeis.org/A260679) ([program](/edit/?oeis=260679)): a(n) = n+(17-n)^2.
 * [A260682](https://oeis.org/A260682) ([program](/edit/?oeis=260682)): Löschian numbers (A003136) of the form 6\*k+1.
@@ -1646,9 +1778,15 @@ List of integer sequences with links to LODA programs.
 * [A260740](https://oeis.org/A260740) ([program](/edit/?oeis=260740)): a(n) = n minus the number of positive squares needed to sum to n using the greedy algorithm: a(n) = n - A053610(n).
 * [A260751](https://oeis.org/A260751) ([program](/edit/?oeis=260751)): 25 primes in arithmetic progression: a(n) = 6171054912832631 + (n-1)\*81737658082080 for n = 1, 2, ..., 25.
 * [A260754](https://oeis.org/A260754) ([program](/edit/?oeis=260754)): a(n) = prime(n+1)! / prime(n).
+* [A260769](https://oeis.org/A260769) ([program](/edit/?oeis=260769)): Certain directed lattice paths.
+* [A260770](https://oeis.org/A260770) ([program](/edit/?oeis=260770)): Certain directed lattice paths.
+* [A260771](https://oeis.org/A260771) ([program](/edit/?oeis=260771)): Certain directed lattice paths.
+* [A260772](https://oeis.org/A260772) ([program](/edit/?oeis=260772)): Certain directed lattice paths.
+* [A260773](https://oeis.org/A260773) ([program](/edit/?oeis=260773)): Certain directed lattice paths.
 * [A260774](https://oeis.org/A260774) ([program](/edit/?oeis=260774)): Certain directed lattice paths.
 * [A260775](https://oeis.org/A260775) ([program](/edit/?oeis=260775)): Certain directed lattice paths.
 * [A260776](https://oeis.org/A260776) ([program](/edit/?oeis=260776)): Certain directed lattice paths.
+* [A260786](https://oeis.org/A260786) ([program](/edit/?oeis=260786)): Twice the Euler or up/down numbers A000111.
 * [A260794](https://oeis.org/A260794) ([program](/edit/?oeis=260794)): Number of steps required by R. L. Graham's generalized binary merging algorithm.
 * [A260810](https://oeis.org/A260810) ([program](/edit/?oeis=260810)): a(n) = n^2\*(3\*n^2 - 1)/2.
 * [A260812](https://oeis.org/A260812) ([program](/edit/?oeis=260812)): a(n) is the number of edges in a rooted 2-ary tree built from the binary representation of n: each vertex at level i (i=0,...,floor(log\_2(n))) has two children if the i-th most significant bit is 1 and one child if the i-th bit is 0.
@@ -1656,17 +1794,27 @@ List of integer sequences with links to LODA programs.
 * [A260820](https://oeis.org/A260820) ([program](/edit/?oeis=260820)): Nonnegative integers n such that n^3-3 is divisible by n-3.
 * [A260832](https://oeis.org/A260832) ([program](/edit/?oeis=260832)): a(n) = numerator(Jtilde2(n)).
 * [A260846](https://oeis.org/A260846) ([program](/edit/?oeis=260846)): a(n) = (-3 - 28\*3^n + 73\*15^n)/21.
+* [A260854](https://oeis.org/A260854) ([program](/edit/?oeis=260854)): Base-4 representation of a(n) is the concatenation of the base-4 representations of 1, 2, ..., n, n-1, ..., 1.
+* [A260855](https://oeis.org/A260855) ([program](/edit/?oeis=260855)): Base-5 representation of a(n) is the concatenation of the base-5 representations of 1, 2, ..., n, n-1, ..., 1.
+* [A260856](https://oeis.org/A260856) ([program](/edit/?oeis=260856)): Base-6 representation is the concatenation of the base-6 representations of 1, 2, ..., n, n-1, ..., 1.
+* [A260857](https://oeis.org/A260857) ([program](/edit/?oeis=260857)): Base-7 representation of a(n) is the concatenation of the base-7 representations of 1, 2, ..., n, n-1, ..., 1.
+* [A260858](https://oeis.org/A260858) ([program](/edit/?oeis=260858)): Base-8 representation of a(n) is the concatenation of the base-8 representations of 1, 2, ..., n, n-1, ..., 1.
+* [A260859](https://oeis.org/A260859) ([program](/edit/?oeis=260859)): Base-9 representation of a(n) is the concatenation of the base-9 representations of 1, 2, ..., n, n-1, ..., 1.
 * [A260860](https://oeis.org/A260860) ([program](/edit/?oeis=260860)): Base-60 representation of a(n) is the concatenation of the base-60 representations of 1, 2, ..., n, n-1, ..., 1.
+* [A260864](https://oeis.org/A260864) ([program](/edit/?oeis=260864)): Base-14 representation of a(n) is the concatenation of the base-14 representations of 1, 2, ..., n, n-1, ..., 1.
 * [A260865](https://oeis.org/A260865) ([program](/edit/?oeis=260865)): Base-15 representation of a(n) is the concatenation of the base-15 representations of 1, 2, ..., n, n-1, ..., 1.
 * [A260866](https://oeis.org/A260866) ([program](/edit/?oeis=260866)): Base-16 representation of a(n) is the concatenation of the base-16 representations of 1, 2, ..., n, n-1, ..., 1.
 * [A260878](https://oeis.org/A260878) ([program](/edit/?oeis=260878)): Number of set partitions of \{1, 2, ..., 2\*n\} with sizes in \{[n, n], [2n]\}.
 * [A260905](https://oeis.org/A260905) ([program](/edit/?oeis=260905)): Totients of the Blum integers.
 * [A260917](https://oeis.org/A260917) ([program](/edit/?oeis=260917)): Expansion of 1/(1 - x - x^2 - x^3 + x^6 + x^7).
 * [A260918](https://oeis.org/A260918) ([program](/edit/?oeis=260918)): Number of squares of all sizes in polyominoes obtained by union of two pyramidal figures (A092498) with intersection equals A002623.
-* [A260931](https://oeis.org/A260931) ([program](/edit/?oeis=260931)): a(n) = A260930(n)/6 for n > 2.
 * [A260939](https://oeis.org/A260939) ([program](/edit/?oeis=260939)): Thirteen primes in arithmetic progression with difference 60060 and minimal initial term.
 * [A260940](https://oeis.org/A260940) ([program](/edit/?oeis=260940)): a(n) is the smallest index j>n such that g(j)=0 for the sequence g defined (for indices > n) by g(n+1)=n and g(i) = g(i-1) - gcd(i,g(i-1)).
+* [A260941](https://oeis.org/A260941) ([program](/edit/?oeis=260941)): Expansion of phi(-x) \* phi(x^6) / chi(-x^3) in powers of x where phi(), chi() are Ramanujan theta functions.
+* [A260942](https://oeis.org/A260942) ([program](/edit/?oeis=260942)): Expansion of x \* phi(-x) \* psi(x^12) / chi(-x^3) in powers of x where phi(), psi(), chi() are Ramanujan theta functions.
 * [A260943](https://oeis.org/A260943) ([program](/edit/?oeis=260943)): Expansion of psi(-x^2) \* chi(x^3) \* f(x^6) in powers of x where psi(), chi(), f() are Ramanujan theta functions.
+* [A260944](https://oeis.org/A260944) ([program](/edit/?oeis=260944)): Expansion of phi(-x^4) \* psi(-x^6) / chi(-x^3) in powers of q where phi(), psi(), chi() are Ramanujan theta functions.
+* [A260945](https://oeis.org/A260945) ([program](/edit/?oeis=260945)): Expansion of (2\*b(q^4) - b(q) - b(q^2)) / 3 in powers of q where b() is a cubic AGM theta function.
 * [A260955](https://oeis.org/A260955) ([program](/edit/?oeis=260955)): Differences of the increasing arithmetic progression a^2+a, b^2+b, c^2+c, where b = 5\*a+2, c = 7\*a+3 and a >= 0.
 * [A260963](https://oeis.org/A260963) ([program](/edit/?oeis=260963)): Numbers n such that gcd(sigma(n), n\*(n+1)/2 - sigma(n)) = 1, where sigma(n) is sum of positive divisors of n.
 * [A261004](https://oeis.org/A261004) ([program](/edit/?oeis=261004)): Expansion of (-3-164\*x-x^2)/(1-99\*x+99\*x^2-x^3).
@@ -1677,13 +1825,16 @@ List of integer sequences with links to LODA programs.
 * [A261032](https://oeis.org/A261032) ([program](/edit/?oeis=261032)): a(n) = (-1)^n\*(n^8 + 4\*n^7 - 14\*n^5 + 28\*n^3 - 17\*n)/2.
 * [A261034](https://oeis.org/A261034) ([program](/edit/?oeis=261034)): Numbers k such that 3k is squarefree.
 * [A261040](https://oeis.org/A261040) ([program](/edit/?oeis=261040)): Values of c such that the Diophantine equation 5\*a + 3\*b = c has no solutions in positive integers.
+* [A261042](https://oeis.org/A261042) ([program](/edit/?oeis=261042)): Generating function g(0) where g(k) = 1 - x\*2\*(k+1)\*(k+2)/(x\*2\*(k+1)\*(k+2) - 1/g(k+1)).
 * [A261046](https://oeis.org/A261046) ([program](/edit/?oeis=261046)): Irregular triangle read by rows: the first column consists of the odd numbers repeated but without the first 1. Row n (n>=0) contains floor(n/2)=1 terms. Every row contains successive odd numbers.
+* [A261054](https://oeis.org/A261054) ([program](/edit/?oeis=261054)): Expansion of ( 2+x-x^2+x^3 ) / (1-x^2-x)^3 .
 * [A261055](https://oeis.org/A261055) ([program](/edit/?oeis=261055)): Expansion of ( -1-2\*x+x^2+x^3 ) / (x^2+x-1)^3 .
 * [A261056](https://oeis.org/A261056) ([program](/edit/?oeis=261056)): Expansion of  ( 2-x^2 ) / (x^2+2\*x-1)^2 .
 * [A261058](https://oeis.org/A261058) ([program](/edit/?oeis=261058)): Column k=1 of A213221.
 * [A261064](https://oeis.org/A261064) ([program](/edit/?oeis=261064)): a(n) = (3^n-1)\*(n+1)/4.
 * [A261065](https://oeis.org/A261065) ([program](/edit/?oeis=261065)): Second column of A086872.
 * [A261085](https://oeis.org/A261085) ([program](/edit/?oeis=261085)): Number of steps needed to reach zero when starting from the n-th prime [i.e., setting k to A000040(n)] and repeatedly applying the map that replaces k with k - d(k), where d(k) is the number of divisors of k (A000005).
+* [A261088](https://oeis.org/A261088) ([program](/edit/?oeis=261088)): Number of steps needed to reach zero when starting from k = n^2 and repeatedly applying the map that replaces k with k - d(k), where d(k) is the number of divisors of k (A000005).
 * [A261092](https://oeis.org/A261092) ([program](/edit/?oeis=261092)): First differences of A261093; characteristic function for A219640.
 * [A261093](https://oeis.org/A261093) ([program](/edit/?oeis=261093)): a(n) = number of nonzero terms of A219640 <= n.
 * [A261094](https://oeis.org/A261094) ([program](/edit/?oeis=261094)): Left inverse of A219640: If n = A219640(k) for some k, then a(n) = k, otherwise zero.
@@ -1701,6 +1852,8 @@ List of integer sequences with links to LODA programs.
 * [A261179](https://oeis.org/A261179) ([program](/edit/?oeis=261179)): Take the list of positive rationals \{R(n): n>=1\} in the order defined by Calkin and Wilf (Recounting the Rationals, 1999); a(n) = numerator of R(prime(n)).
 * [A261185](https://oeis.org/A261185) ([program](/edit/?oeis=261185)): Flowsnake parity pattern: a(n) = (A261180(n) mod 2).
 * [A261186](https://oeis.org/A261186) ([program](/edit/?oeis=261186)): binomial(3\*n-2,n+1).
+* [A261188](https://oeis.org/A261188) ([program](/edit/?oeis=261188)): Integers such that no subsequence of decimal representation is divisible by 3.
+* [A261189](https://oeis.org/A261189) ([program](/edit/?oeis=261189)): Integers such that no subsequence of decimal representation is divisible by 5.
 * [A261190](https://oeis.org/A261190) ([program](/edit/?oeis=261190)): Leap years in Symmetry454 calendar, starting year AD 1.
 * [A261191](https://oeis.org/A261191) ([program](/edit/?oeis=261191)): 40-gonal numbers: a(n) = 38\*n\*(n-1)/2 + n.
 * [A261193](https://oeis.org/A261193) ([program](/edit/?oeis=261193)): a(n) = n! - 2.
@@ -1727,6 +1880,7 @@ List of integer sequences with links to LODA programs.
 * [A261304](https://oeis.org/A261304) ([program](/edit/?oeis=261304)): a(n+1) = abs(a(n) - gcd(a(n), 4n+3)), a(1) = 1.
 * [A261305](https://oeis.org/A261305) ([program](/edit/?oeis=261305)): a(n+1) = abs(a(n) - gcd(a(n), 5\*n+4)), u(1) = 1.
 * [A261306](https://oeis.org/A261306) ([program](/edit/?oeis=261306)): a(n+1) = abs((n) - gcd(a(n), 6\*n+5)), a(1) = 1.
+* [A261307](https://oeis.org/A261307) ([program](/edit/?oeis=261307)): a(n+1) = abs(a(n) - gcd(a(n), 7\*n+6)), a(1) = 1.
 * [A261308](https://oeis.org/A261308) ([program](/edit/?oeis=261308)): a(n+1) = abs(a(n) - gcd(a(n), 8n+7)), a(1) = 1.
 * [A261309](https://oeis.org/A261309) ([program](/edit/?oeis=261309)): a(n+1) = abs(a(n) - gcd(a(n), 9n+8)), u(1) = 1.
 * [A261310](https://oeis.org/A261310) ([program](/edit/?oeis=261310)): a(n+1) = abs(a(n) - gcd(a(n), 10n+9)), a(1) = 1.
@@ -1761,12 +1915,15 @@ List of integer sequences with links to LODA programs.
 * [A261547](https://oeis.org/A261547) ([program](/edit/?oeis=261547)): The 3 X 3 X ... X 3 dots problem (3, n times): minimal number of straight lines (connected at their endpoints) required to pass through 3^n dots arranged in a 3 X 3 X ... X 3 grid.
 * [A261557](https://oeis.org/A261557) ([program](/edit/?oeis=261557)): a(0) = a(1) = 0; for n>1, a(n) = 2\*n - a(n-1) - a(n-2).
 * [A261574](https://oeis.org/A261574) ([program](/edit/?oeis=261574)): a(n) = n\*(n^2 + 3)\*(n^6 + 6\*n^4 + 9\*n^2 + 3).
+* [A261589](https://oeis.org/A261589) ([program](/edit/?oeis=261589)): 6-Modular Catalan Numbers C\_\{n,6\}.
+* [A261591](https://oeis.org/A261591) ([program](/edit/?oeis=261591)): 8-Modular Catalan Numbers C\_\{n,8\}.
 * [A261606](https://oeis.org/A261606) ([program](/edit/?oeis=261606)): a(n) = Fibonacci(n) mod 60.
 * [A261607](https://oeis.org/A261607) ([program](/edit/?oeis=261607)): Initial digit of Fibonacci number F(n) in base 60.
 * [A261609](https://oeis.org/A261609) ([program](/edit/?oeis=261609)): Number of composite divisors of n^2+1.
 * [A261618](https://oeis.org/A261618) ([program](/edit/?oeis=261618)): Concatenation of n, n+1 and n.
 * [A261642](https://oeis.org/A261642) ([program](/edit/?oeis=261642)):  Triangle, read by rows, where T(n,k) = (k^2 + k)^(n-k) for k=1..n and n>=1.
 * [A261643](https://oeis.org/A261643) ([program](/edit/?oeis=261643)): a(n) = Sum\_\{k=1..n\} (k^2 + k)^(n-k).
+* [A261663](https://oeis.org/A261663) ([program](/edit/?oeis=261663)): Number of equivalence classes of permutations avoiding the pattern \{123\}.
 * [A261664](https://oeis.org/A261664) ([program](/edit/?oeis=261664)): Number of equivalence classes of permutations avoiding the pattern \{231\}.
 * [A261667](https://oeis.org/A261667) ([program](/edit/?oeis=261667)): Dimension of a certain space of duality relations arising in study of q-analogs of multiple zeta values.
 * [A261668](https://oeis.org/A261668) ([program](/edit/?oeis=261668)): Number of admissible words of Type G arising in study of q-analogs of multiple zeta values.
@@ -1785,6 +1942,13 @@ List of integer sequences with links to LODA programs.
 * [A261726](https://oeis.org/A261726) ([program](/edit/?oeis=261726)): a(n) = binomial(prime(n+1)-1, prime(n)-1).
 * [A261766](https://oeis.org/A261766) ([program](/edit/?oeis=261766)): a(n) is the number of partial derangements of an n-set with at least one orbit of size exactly n.
 * [A261779](https://oeis.org/A261779) ([program](/edit/?oeis=261779)): a(n) = ceiling((n-1)! / n).
+* [A261783](https://oeis.org/A261783) ([program](/edit/?oeis=261783)): Number of compositions of n where each part i is marked with a word of length i over an n-ary alphabet whose letters appear in alphabetical order.
+* [A261791](https://oeis.org/A261791) ([program](/edit/?oeis=261791)): The integer part of the surface area of the 4-dimensional sphere of radius n.
+* [A261793](https://oeis.org/A261793) ([program](/edit/?oeis=261793)): Successively add the smallest number that is not a substring in decimal representation.
+* [A261794](https://oeis.org/A261794) ([program](/edit/?oeis=261794)): a(n) is the smallest nonzero number that is not a substring of n in decimal representation.
+* [A261795](https://oeis.org/A261795) ([program](/edit/?oeis=261795)): First differences of A261793.
+* [A261799](https://oeis.org/A261799) ([program](/edit/?oeis=261799)): Number of 7-compositions of n: matrices with 7 rows of nonnegative integers with positive column sums and total element sum n.
+* [A261800](https://oeis.org/A261800) ([program](/edit/?oeis=261800)): Number of 8-compositions of n: matrices with 8 rows of nonnegative integers with positive column sums and total element sum n.
 * [A261807](https://oeis.org/A261807) ([program](/edit/?oeis=261807)): a(n) = n XOR n^3.
 * [A261809](https://oeis.org/A261809) ([program](/edit/?oeis=261809)): a(n) = n! - prime(n).
 * [A261812](https://oeis.org/A261812) ([program](/edit/?oeis=261812)): First differences of A098842.
@@ -1802,6 +1966,7 @@ List of integer sequences with links to LODA programs.
 * [A261928](https://oeis.org/A261928) ([program](/edit/?oeis=261928)): a(n) is the number of different pairs (x\*y,x+y) mod n.
 * [A261929](https://oeis.org/A261929) ([program](/edit/?oeis=261929)): a(n) is the number of different pairs (p,q) mod n not of the form (x\*y,x+y) mod n for any (x,y).
 * [A261953](https://oeis.org/A261953) ([program](/edit/?oeis=261953)): Start with a single equilateral triangle for n=0; for the odd n-th generation add a triangle at each expandable side of the triangles of the (n-1)-th generation (this is the "side to side" version); for the even n-th generation use the "vertex to vertex" version; a(n) is the number of triangles added in the n-th generation.
+* [A261954](https://oeis.org/A261954) ([program](/edit/?oeis=261954)): Start with a single equilateral triangle for n=0; for the odd n-th generation add a triangle at each expandable side of the triangles of the (n-1)-th generation (this is the "side to side" version); for the even n-th generation use the "side to vertex" version; a(n) is the number of triangles added in the n-th generation.
 * [A261969](https://oeis.org/A261969) ([program](/edit/?oeis=261969)): Product of primes dividing n with maximum multiplicity.
 * [A261971](https://oeis.org/A261971) ([program](/edit/?oeis=261971)): Number of unit cubes that have a side on the surface of a p X p X p cube composed of p^3 unit cubes, where p is the n-th prime.
 * [A261972](https://oeis.org/A261972) ([program](/edit/?oeis=261972)): The first of three consecutive positive integers the sum of the squares of which is equal to the sum of the squares of four consecutive positive integers.
@@ -1819,6 +1984,7 @@ List of integer sequences with links to LODA programs.
 * [A262034](https://oeis.org/A262034) ([program](/edit/?oeis=262034)): Number of permutations of [n] beginning with at least ceiling(n/2) ascents.
 * [A262035](https://oeis.org/A262035) ([program](/edit/?oeis=262035)): Number of permutations of [2n+1] beginning with exactly n ascents.
 * [A262037](https://oeis.org/A262037) ([program](/edit/?oeis=262037)): Replace the second half of digits of n with the first half in reverse order.
+* [A262041](https://oeis.org/A262041) ([program](/edit/?oeis=262041)): Decimal expansion of 3/(8 - 6\*sqrt(3)/Pi).
 * [A262044](https://oeis.org/A262044) ([program](/edit/?oeis=262044)): Partial sum of the first n odd composite numbers.
 * [A262049](https://oeis.org/A262049) ([program](/edit/?oeis=262049)): Sum of the palindromic primes dividing n (with repetition).
 * [A262062](https://oeis.org/A262062) ([program](/edit/?oeis=262062)): The first of six consecutive positive integers the sum of the squares of which is equal to the sum of the squares of seven consecutive positive integers.
@@ -1831,6 +1997,7 @@ List of integer sequences with links to LODA programs.
 * [A262088](https://oeis.org/A262088) ([program](/edit/?oeis=262088)): a(0)=0, a(1)=1, a(n) = -a(n-2)^2 - a(n-1)^3.
 * [A262095](https://oeis.org/A262095) ([program](/edit/?oeis=262095)): Number of non-semiprime divisors of n.
 * [A262123](https://oeis.org/A262123) ([program](/edit/?oeis=262123)): a(1) + a(2) + ... + a(n) is the representation as a sum of n squares of the smallest integer needing n squares (using the greedy algorithm).
+* [A262138](https://oeis.org/A262138) ([program](/edit/?oeis=262138)): Interleaved first and second differences of the prime numbers.
 * [A262139](https://oeis.org/A262139) ([program](/edit/?oeis=262139)): The first of eight consecutive positive integers the sum of the squares of which is equal to the sum of the squares of nine consecutive positive integers.
 * [A262140](https://oeis.org/A262140) ([program](/edit/?oeis=262140)): The first of nine consecutive positive integers the sum of the squares of which is equal to the sum of the squares of eight consecutive positive integers.
 * [A262141](https://oeis.org/A262141) ([program](/edit/?oeis=262141)): The first of nine consecutive positive integers the sum of the squares of which is equal to the sum of the squares of ten consecutive positive integers.
@@ -1855,6 +2022,7 @@ List of integer sequences with links to LODA programs.
 * [A262267](https://oeis.org/A262267) ([program](/edit/?oeis=262267)): Number of (n+2) X (1+2) 0..1 arrays with each row and column divisible by 5, read as a binary number with top and left being the most significant bits.
 * [A262268](https://oeis.org/A262268) ([program](/edit/?oeis=262268)): Number of (n+2) X (2+2) 0..1 arrays with each row and column divisible by 5, read as a binary number with top and left being the most significant bits.
 * [A262275](https://oeis.org/A262275) ([program](/edit/?oeis=262275)): Prime numbers with an even number of steps in their prime index chain.
+* [A262288](https://oeis.org/A262288) ([program](/edit/?oeis=262288)): a(0)=0; thereafter add the smallest positive number that is not a substring.
 * [A262302](https://oeis.org/A262302) ([program](/edit/?oeis=262302)): Rainbow index for n-th odd prime.
 * [A262303](https://oeis.org/A262303) ([program](/edit/?oeis=262303)): Length of sequence of lower halves of n: repeatedly apply x->floor(x/2) starting at n; a(n) = number of steps until reach one of 2,3,4.
 * [A262304](https://oeis.org/A262304) ([program](/edit/?oeis=262304)): Tail of sequence of lower halves of n: repeatedly apply x->floor(x/2) starting at n until reach one of 2,3,4; a(n) = whichever of 2,3,4 is reached.
@@ -1868,6 +2036,7 @@ List of integer sequences with links to LODA programs.
 * [A262353](https://oeis.org/A262353) ([program](/edit/?oeis=262353)): a(n) = ceiling((3-sqrt(5))\*10^(2\*n+1)).
 * [A262354](https://oeis.org/A262354) ([program](/edit/?oeis=262354)): a(n) is the number of 2 X 2 matrices over Z\_p with determinant in \{1,-1\} where p = prime(n).
 * [A262355](https://oeis.org/A262355) ([program](/edit/?oeis=262355)): Minimal number of circles needed to intersect all the points of an n X n grid.
+* [A262368](https://oeis.org/A262368) ([program](/edit/?oeis=262368)): Expansion of f(x^2, x^2) \* f(x, x^2)^2 in powers of x where f(, ) is Ramanujan's general theta function.
 * [A262376](https://oeis.org/A262376) ([program](/edit/?oeis=262376)): a(n) = Sum\_\{k=0..n\} (k! - k).
 * [A262389](https://oeis.org/A262389) ([program](/edit/?oeis=262389)): Numbers whose last digit is composite.
 * [A262392](https://oeis.org/A262392) ([program](/edit/?oeis=262392)): a(n) = A007504(n) + A010693(n).
@@ -1930,6 +2099,7 @@ List of integer sequences with links to LODA programs.
 * [A262617](https://oeis.org/A262617) ([program](/edit/?oeis=262617)): First differences of A256266.
 * [A262620](https://oeis.org/A262620) ([program](/edit/?oeis=262620)): Number of "ON" cells at n-th stage in simple 2-dimensional cellular automaton on the square grid (see Comments lines for definition).
 * [A262621](https://oeis.org/A262621) ([program](/edit/?oeis=262621)): First differences of A262620.
+* [A262664](https://oeis.org/A262664) ([program](/edit/?oeis=262664)): Expansion of (1-2\*x)/((2-x)\*sqrt(5\*x^2-6\*x+1))+1/(2-x).
 * [A262672](https://oeis.org/A262672) ([program](/edit/?oeis=262672)): Expansion of (3-x-x^3) / ((x-1)^2\*(1+x+x^2+x^3)).
 * [A262674](https://oeis.org/A262674) ([program](/edit/?oeis=262674)): Decimal expansion of the real root of x^3 - 6x^2 + 4x - 2.
 * [A262683](https://oeis.org/A262683) ([program](/edit/?oeis=262683)): Characteristic function for A182859.
@@ -1951,7 +2121,12 @@ List of integer sequences with links to LODA programs.
 * [A262733](https://oeis.org/A262733) ([program](/edit/?oeis=262733)): a(n) = (1/n!) \* (7\*n)!/(7\*n/2)! \* (5\*n/2)!/(5\*n)!.
 * [A262734](https://oeis.org/A262734) ([program](/edit/?oeis=262734)): Period 16: repeat (1, 2, 3, 4, 5, 6, 7, 8, 9, 8, 7, 6, 5, 4, 3, 2).
 * [A262735](https://oeis.org/A262735) ([program](/edit/?oeis=262735)): Expansion of x\*(1-x-x^2)/((1-x)\*(1-x-2\*x^2-x^3)).
+* [A262737](https://oeis.org/A262737) ([program](/edit/?oeis=262737)): O.g.f. exp( Sum\_\{n >= 1\} A262732(n)\*x^n/n ).
+* [A262738](https://oeis.org/A262738) ([program](/edit/?oeis=262738)): O.g.f. exp( Sum\_\{n >= 1\} A211419(n)\*x^n/n ).
+* [A262739](https://oeis.org/A262739) ([program](/edit/?oeis=262739)): O.g.f. exp( Sum\_\{n >= 1\} A262733(n)\*x^n/n ).
+* [A262740](https://oeis.org/A262740) ([program](/edit/?oeis=262740)): O.g.f. exp( Sum\_\{n >= 1\} A211421(n)\*x^n/n ).
 * [A262744](https://oeis.org/A262744) ([program](/edit/?oeis=262744)): Remainder when sum of first n primes is divided by n-th triangular number.
+* [A262745](https://oeis.org/A262745) ([program](/edit/?oeis=262745)): Number of permutations of [n] with an odd number of rises.
 * [A262753](https://oeis.org/A262753) ([program](/edit/?oeis=262753)): Number of (n+2) X (2+2) 0..1 arrays with each row divisible by 5 and each column divisible by 7, read as a binary number with top and left being the most significant bits.
 * [A262767](https://oeis.org/A262767) ([program](/edit/?oeis=262767)): Minimum perimeter of a rectangle with area n and integer sides.
 * [A262768](https://oeis.org/A262768) ([program](/edit/?oeis=262768)): a(n) = binomial(2\*n+2,n)-2\*binomial(2\*n,n)+binomial(2\*n-2,n).
@@ -1970,6 +2145,7 @@ List of integer sequences with links to LODA programs.
 * [A262807](https://oeis.org/A262807) ([program](/edit/?oeis=262807)): a(n) = (Product\_\{k=1..n\} prime(k+1)) mod (Sum\_\{k=1..n\} prime(k+1)) where prime(k) is the k-th prime number.
 * [A262808](https://oeis.org/A262808) ([program](/edit/?oeis=262808)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 147" initiated with a single ON (black) cell.
 * [A262817](https://oeis.org/A262817) ([program](/edit/?oeis=262817)): Number of (n+3)X(3+3) 0..1 arrays with each row divisible by 9 and column not divisible by 9, read as a binary number with top and left being the most significant bits.
+* [A262826](https://oeis.org/A262826) ([program](/edit/?oeis=262826)): a(n) = Sum\_\{d\|n\} -(-1)^d \* 2^(n^2/d) \* d.
 * [A262843](https://oeis.org/A262843) ([program](/edit/?oeis=262843)): Inverse Moebius transform of n^(n-1).
 * [A262855](https://oeis.org/A262855) ([program](/edit/?oeis=262855)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 153" initiated with a single ON (black) cell.
 * [A262861](https://oeis.org/A262861) ([program](/edit/?oeis=262861)): Binary representation of the n-th iteration of the "Rule 147" elementary cellular automaton starting with a single ON (black) cell.
@@ -1982,6 +2158,7 @@ List of integer sequences with links to LODA programs.
 * [A262868](https://oeis.org/A262868) ([program](/edit/?oeis=262868)): Number of squarefree numbers appearing among the larger parts of the partitions of n into two parts.
 * [A262869](https://oeis.org/A262869) ([program](/edit/?oeis=262869)): Number of squarefree numbers appearing among the smaller parts of the partitions of n into two parts.
 * [A262870](https://oeis.org/A262870) ([program](/edit/?oeis=262870)): Sum of the squarefree numbers appearing among the larger parts of the partitions of n into two parts.
+* [A262871](https://oeis.org/A262871) ([program](/edit/?oeis=262871)): Sum of the squarefree numbers appearing among the smaller parts of the partitions of n into two parts.
 * [A262882](https://oeis.org/A262882) ([program](/edit/?oeis=262882)): Right diagonal of A262881.
 * [A262910](https://oeis.org/A262910) ([program](/edit/?oeis=262910)): a(n) = Sum\_\{k=0..n\} binomial(k+n-1,k)\*binomial(k+n,2\*k).
 * [A262922](https://oeis.org/A262922) ([program](/edit/?oeis=262922)): a(1)=1; for n>1, a(n) = a(n-1) + n + 2 if a(n-1) and n are coprime, otherwise a(n) = a(n-1)/gcd(a(n-1),n).
@@ -2001,6 +2178,9 @@ List of integer sequences with links to LODA programs.
 * [A263045](https://oeis.org/A263045) ([program](/edit/?oeis=263045)): a(1)=a(2)=1, a(3)=2; for n>3, a(n) = (a(n-1) + a(n-2))\*a(n-3) - a(n-1).
 * [A263047](https://oeis.org/A263047) ([program](/edit/?oeis=263047)): a(1)=0, a(2)=1, a(3)=2; for n>3, a(n) = a(n-3)\*a(n-1) - a(n-2).
 * [A263053](https://oeis.org/A263053) ([program](/edit/?oeis=263053)): Number of (n+1) X 2 0..1 arrays with each row and column not divisible by 3, read as a binary number with top and left being the most significant bits.
+* [A263064](https://oeis.org/A263064) ([program](/edit/?oeis=263064)): Number of lattice paths from (n,n,n,n) to (0,0,0,0) using steps that decrement one or more components by one.
+* [A263065](https://oeis.org/A263065) ([program](/edit/?oeis=263065)): Number of lattice paths from \{n\}^5 to \{0\}^5 using steps that decrement one or more components by one.
+* [A263066](https://oeis.org/A263066) ([program](/edit/?oeis=263066)): Number of lattice paths from \{n\}^6 to \{0\}^6 using steps that decrement one or more components by one.
 * [A263084](https://oeis.org/A263084) ([program](/edit/?oeis=263084)): a(n) = A263086(n) - A263085(n).
 * [A263085](https://oeis.org/A263085) ([program](/edit/?oeis=263085)): Partial sums of A099774 (A099774(n) = number of divisors of n-th odd number).
 * [A263086](https://oeis.org/A263086) ([program](/edit/?oeis=263086)): Partial sums of A099777, where A099777(n) gives the number of divisors of n-th even number.
@@ -2021,8 +2201,10 @@ List of integer sequences with links to LODA programs.
 * [A263244](https://oeis.org/A263244) ([program](/edit/?oeis=263244)): Binary representation of the n-th iteration of the "Rule 155" elementary cellular automaton starting with a single ON (black) cell.
 * [A263245](https://oeis.org/A263245) ([program](/edit/?oeis=263245)): Decimal representation of the n-th iteration of the "Rule 155" elementary cellular automaton starting with a single ON (black) cell.
 * [A263295](https://oeis.org/A263295) ([program](/edit/?oeis=263295)): Denominators of the n-th iteration of the alternating continued fraction formed from the positive integers, starting with (1 - ...).
+* [A263297](https://oeis.org/A263297) ([program](/edit/?oeis=263297)): The greater of bigomega(n) and maximal prime index in the prime factorization of n.
 * [A263313](https://oeis.org/A263313) ([program](/edit/?oeis=263313)): Permutation of the nonnegative integers: [4k+3, 4k, 4k+1, 4k+2, ...].
 * [A263319](https://oeis.org/A263319) ([program](/edit/?oeis=263319)): a(n) = pi(n^2)\*phi(n)/2, where pi(x) denotes the number of primes not exceeding x, and phi(.) is Euler's totient function given by A000010.
+* [A263323](https://oeis.org/A263323) ([program](/edit/?oeis=263323)): The greater of maximal exponent and maximal prime index in the prime factorization of n.
 * [A263325](https://oeis.org/A263325) ([program](/edit/?oeis=263325)): a(n) = sigma(n)\*pi(n^2), where sigma(n) is the sum of all (positive) divisors of n, and pi(x) is the number of primes not exceeding x.
 * [A263334](https://oeis.org/A263334) ([program](/edit/?oeis=263334)): Number of (n+2) X (1+2) 0..2 arrays with each row and column divisible by 13, read as a base-3 number with top and left being the most significant digits.
 * [A263366](https://oeis.org/A263366) ([program](/edit/?oeis=263366)): Number of (n+1) X (1+1) 0..2 arrays with each row and column divisible by 7, read as a base-3 number with top and left being the most significant digits.
@@ -2036,9 +2218,12 @@ List of integer sequences with links to LODA programs.
 * [A263419](https://oeis.org/A263419) ([program](/edit/?oeis=263419)): a(n) is the total number of pentagrams in a variant of pentagram fractal after n iterations.
 * [A263420](https://oeis.org/A263420) ([program](/edit/?oeis=263420)): Number of nX2 arrays of permutations of 0..n\*2-1 with each element moved a city block distance of 0 or 2.
 * [A263426](https://oeis.org/A263426) ([program](/edit/?oeis=263426)): Permutation of the nonnegative integers: [4k+2, 4k+1, 4k, 4k+3, ...].
+* [A263428](https://oeis.org/A263428) ([program](/edit/?oeis=263428)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 3" initiated with a single ON (black) cell.
 * [A263430](https://oeis.org/A263430) ([program](/edit/?oeis=263430)): a(n) = Product\_\{k=0..n\} (4\*k+1)^(n-k).
+* [A263433](https://oeis.org/A263433) ([program](/edit/?oeis=263433)): Expansion of f(x, x) \* f(x^2, x^4)^2 in powers of x where f(, ) is Ramanujan's general theta function.
 * [A263449](https://oeis.org/A263449) ([program](/edit/?oeis=263449)): Permutation of the natural numbers: [4k+1, 4k+4, 4k+3, 4k+2, ...].
 * [A263451](https://oeis.org/A263451) ([program](/edit/?oeis=263451)): a(n) is the largest anagram of 2\*a(n-1), a(1)=1.
+* [A263452](https://oeis.org/A263452) ([program](/edit/?oeis=263452)): Expansion of f(-q^3)^3 \* psi(q^12) / f(-q) in powers of q where ps(), f() are Ramanujan theta functions.
 * [A263458](https://oeis.org/A263458) ([program](/edit/?oeis=263458)): Deal a pack of n cards into two piles and gather them up, n/2 times. All n such that this reverses the order of the deck.
 * [A263459](https://oeis.org/A263459) ([program](/edit/?oeis=263459)): Number of (n+1) X (1+1) 0..4 arrays with each row and column divisible by 11, read as a base-5 number with top and left being the most significant digits.
 * [A263483](https://oeis.org/A263483) ([program](/edit/?oeis=263483)): a(n) = prime(n)+(prime(n) modulo 6).
@@ -2079,6 +2264,7 @@ List of integer sequences with links to LODA programs.
 * [A263769](https://oeis.org/A263769) ([program](/edit/?oeis=263769)): Smallest prime q such that q == -1 (mod prime(n)-1).
 * [A263770](https://oeis.org/A263770) ([program](/edit/?oeis=263770)): Smallest prime q such that ((prime(n)^2 + q\*prime(n))/(prime(n) + 1) is an integer.
 * [A263772](https://oeis.org/A263772) ([program](/edit/?oeis=263772)): Perimeters of integer-sided scalene triangles.
+* [A263773](https://oeis.org/A263773) ([program](/edit/?oeis=263773)): Expansion of b(-q)^2 in powers of q where b() is a cubic AGM theta function.
 * [A263790](https://oeis.org/A263790) ([program](/edit/?oeis=263790)): The number of length-n permutations avoiding the patterns 1234, 1324 and 2143.
 * [A263794](https://oeis.org/A263794) ([program](/edit/?oeis=263794)): Number of (n+1) X (3+1) 0..1 arrays with each row and column divisible by 3, read as a binary number with top and left being the most significant bits, and rows and columns lexicographically nonincreasing.
 * [A263801](https://oeis.org/A263801) ([program](/edit/?oeis=263801)): Partial sums of odd double factorials (A001147) with alternating signs.
@@ -2091,6 +2277,7 @@ List of integer sequences with links to LODA programs.
 * [A263827](https://oeis.org/A263827) ([program](/edit/?oeis=263827)): The number c\_\{Cc pi\_1(B\_1)\}(2n) of the second amphicosm 2n-coverings over the first amphicosm.
 * [A263828](https://oeis.org/A263828) ([program](/edit/?oeis=263828)): The number c\_\{P c pi\_1(B\_1)\}(n) of the first amphicosm n-coverings over the first amphicosm.
 * [A263841](https://oeis.org/A263841) ([program](/edit/?oeis=263841)): Expansion of (1-2\*x-x^2)/(sqrt(1+x)\*(1-3\*x)^(3/2)\*2\*x)-1/(2\*x).
+* [A263843](https://oeis.org/A263843) ([program](/edit/?oeis=263843)): Reversion of g.f. for A162395 (squares with signs).
 * [A263844](https://oeis.org/A263844) ([program](/edit/?oeis=263844)): Constant term in expansion of n in Fraenkel's exotic ternary representation.
 * [A263845](https://oeis.org/A263845) ([program](/edit/?oeis=263845)): A258059(n)+1.
 * [A263846](https://oeis.org/A263846) ([program](/edit/?oeis=263846)): Floor of cube root of n-th prime.
@@ -2101,6 +2288,7 @@ List of integer sequences with links to LODA programs.
 * [A263907](https://oeis.org/A263907) ([program](/edit/?oeis=263907)): Number of (2n+2) X (2+2) 0..1 arrays with each row and column modulo 3 equal to 1, read as a binary number with top and left being the most significant bits.
 * [A263919](https://oeis.org/A263919) ([program](/edit/?oeis=263919)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 163" initiated with a single ON (black) cell.
 * [A263922](https://oeis.org/A263922) ([program](/edit/?oeis=263922)): Highest exponent in prime factorization of n-th central binomial coefficient.
+* [A263923](https://oeis.org/A263923) ([program](/edit/?oeis=263923)): Expansion of psi(-x^3)^2 \* f(-x^2)^3 / f(-x)^2 in powers of x where psi(), f() are Ramanujan theta functions.
 * [A263931](https://oeis.org/A263931) ([program](/edit/?oeis=263931)): a(n) = binomial(2\*n, n) / Product(p prime \| n < p <= 2\*n).
 * [A263941](https://oeis.org/A263941) ([program](/edit/?oeis=263941)): Minimal most likely sum for a roll of n 8-sided dice.
 * [A263942](https://oeis.org/A263942) ([program](/edit/?oeis=263942)): Positive integers n such that (n+4)^3 - n^3 is a square.
@@ -2110,11 +2298,13 @@ List of integer sequences with links to LODA programs.
 * [A263946](https://oeis.org/A263946) ([program](/edit/?oeis=263946)): Positive integers n such that (n+52)^3 - n^3 is a square.
 * [A263948](https://oeis.org/A263948) ([program](/edit/?oeis=263948)): Positive integers n such that (n+61)^3 - n^3 is a square.
 * [A263949](https://oeis.org/A263949) ([program](/edit/?oeis=263949)): Positive integers n such that (n+84)^3 - n^3 is a square.
+* [A263977](https://oeis.org/A263977) ([program](/edit/?oeis=263977)): Integers k > 0 such that k^2 + p^2 is prime for some prime p.
 * [A263981](https://oeis.org/A263981) ([program](/edit/?oeis=263981)): Least even k such that phi(k) >= n.
 * [A263986](https://oeis.org/A263986) ([program](/edit/?oeis=263986)): Difference between Catalan numbers and Fibonacci numbers: a(n) = C(n) - F(n).
 * [A263991](https://oeis.org/A263991) ([program](/edit/?oeis=263991)): a(n) is the number of uniform consecutive subintervals of the unit interval each of size 2^(-ceiling(log\_2(n))) that are completely covered by one of the n uniform consecutive subintervals (of size 1/n each) of the unit interval.
 * [A263997](https://oeis.org/A263997) ([program](/edit/?oeis=263997)): Sequence of block lengths in a block spiral of width 1.
 * [A264000](https://oeis.org/A264000) ([program](/edit/?oeis=264000)): Number of (n+1) X (3+1) arrays of permutations of 0..n\*4+3 with each element having index change (+-,+-) 0,0 1,2 or 1,0.
+* [A264004](https://oeis.org/A264004) ([program](/edit/?oeis=264004)): Number of (1+1) X (n+1) arrays of permutations of 0..n\*2+1 with each element having index change (+-,+-) 0,0 1,2 or 1,0.
 * [A264018](https://oeis.org/A264018) ([program](/edit/?oeis=264018)): Number of (2+1) X (n+1) arrays of permutations of 0..n\*3+2 with each element having index change +-(.,.) 0,0 1,2 or 2,2.
 * [A264027](https://oeis.org/A264027) ([program](/edit/?oeis=264027)): Triangle read by rows: T(n, k) = Sum\_\{t=k..n-2\} (-1)^(t-k)\*(n-t)!\*binomial(t,k)\*binomial(n-2,t).
 * [A264028](https://oeis.org/A264028) ([program](/edit/?oeis=264028)): Triangle read by rows: T(n, k) = Sum\_\{t=k..n-3\} (-1)^(t-k)\*(n-t)!\*binomial(t,k)\*binomial(n-3,t).
@@ -2136,6 +2326,7 @@ List of integer sequences with links to LODA programs.
 * [A264152](https://oeis.org/A264152) ([program](/edit/?oeis=264152)): a(n) = (2^floor(n+n/2)/sqrt(Pi)^mod(n+1,2))\*Gamma(n+1/2)/Gamma(n/2+1).
 * [A264153](https://oeis.org/A264153) ([program](/edit/?oeis=264153)): a(n) = ((2\*n)!)^2 / 2^n.
 * [A264166](https://oeis.org/A264166) ([program](/edit/?oeis=264166)): Number of (n+1) X (1+1) arrays of permutations of 0..n\*2+1 with each element having directed index change 0,0 0,1 1,0 -2,-1 or -1,-2.
+* [A264184](https://oeis.org/A264184) ([program](/edit/?oeis=264184)): Number of (n+1)X(2+1) arrays of permutations of 0..n\*3+2 with each element having index change +-(.,.) 0,0 1,-1 or 2,2.
 * [A264200](https://oeis.org/A264200) ([program](/edit/?oeis=264200)): Numerator of sum of numbers in set g(n) generated as in Comments
 * [A264203](https://oeis.org/A264203) ([program](/edit/?oeis=264203)): Number of (n+1) X (3+1) arrays of permutations of 0..n\*4+3 with each element having index change +-(.,.) 0,0 0,2 or 1,0.
 * [A264234](https://oeis.org/A264234) ([program](/edit/?oeis=264234)): Numerators of the coefficients in the expansion of 1/W(x) - 1/x where W(x) is the Lambert W function.
@@ -2179,6 +2370,8 @@ List of integer sequences with links to LODA programs.
 * [A264557](https://oeis.org/A264557) ([program](/edit/?oeis=264557)): Number of n X 1 arrays of permutations of 0..n\*1-1 with rows nondecreasing modulo 2 and columns nondecreasing modulo 3.
 * [A264570](https://oeis.org/A264570) ([program](/edit/?oeis=264570)): Number of (2+1) X (n+1) arrays of permutations of 0..n\*3+2 with each element having directed index change 1,0 1,1 0,-1 or -1,1.
 * [A264596](https://oeis.org/A264596) ([program](/edit/?oeis=264596)): Let S\_n be the list of the first n nonnegative numbers written in binary, with least significant bits on the left, and sorted into lexicographic order; a(n) = position of n in S\_n, starting indexing at 0.
+* [A264598](https://oeis.org/A264598) ([program](/edit/?oeis=264598)): Row sums of triangle in A264597.
+* [A264599](https://oeis.org/A264599) ([program](/edit/?oeis=264599)): Partial sums of A257007.
 * [A264613](https://oeis.org/A264613) ([program](/edit/?oeis=264613)): Numbers n such that the Shevelev polynomial \{m, n\} has a root at m = -1.
 * [A264618](https://oeis.org/A264618) ([program](/edit/?oeis=264618)): Working in binary, write n followed by 0 then n-reversed (including leading zeros); show result in base 10.
 * [A264619](https://oeis.org/A264619) ([program](/edit/?oeis=264619)): a(0) = 1; for n>0, working in binary, write n followed by 1 then n-reversed (including leading zeros); show result in base 10.
@@ -2236,10 +2429,12 @@ List of integer sequences with links to LODA programs.
 * [A264893](https://oeis.org/A264893) ([program](/edit/?oeis=264893)): First differences of A155043.
 * [A264894](https://oeis.org/A264894) ([program](/edit/?oeis=264894)): a(n) = n\*(7\*n - 5)\*(49\*n^2 - 35\*n - 10)/8.
 * [A264895](https://oeis.org/A264895) ([program](/edit/?oeis=264895)): a(n) = n\*(4\*n - 3)\*(16\*n^2 - 12\*n - 3).
+* [A264906](https://oeis.org/A264906) ([program](/edit/?oeis=264906)): a(n) is the denominator of the 2nd term of the power series which is the loop length in a regular n-gon. (See comment.)
 * [A264938](https://oeis.org/A264938) ([program](/edit/?oeis=264938)): a(n) = n\*(2\*n-1) + floor(n/3).
 * [A264960](https://oeis.org/A264960) ([program](/edit/?oeis=264960)): Half-convolution of the central binomial coefficients A000984 with itself.
 * [A264980](https://oeis.org/A264980) ([program](/edit/?oeis=264980)): Base-3 reversal of 2^n: a(n) = A030102(A000079(n)).
 * [A264981](https://oeis.org/A264981) ([program](/edit/?oeis=264981)): Highest power of 9 dividing n.
+* [A264990](https://oeis.org/A264990) ([program](/edit/?oeis=264990)): a(n) = number of occurrences of a most frequent nonzero digit in factorial base representation (A007623) of n.
 * [A265014](https://oeis.org/A265014) ([program](/edit/?oeis=265014)): Triangle read by rows: T(n,k) = number of neighbors in n-dimensional lattice for generalized neighborhood given with parameter k.
 * [A265021](https://oeis.org/A265021) ([program](/edit/?oeis=265021)): Sum of fifth powers of the first n even numbers.
 * [A265024](https://oeis.org/A265024) ([program](/edit/?oeis=265024)): a(n) = n! \* Sum\_\{d in D(n+1)\} (-1)^(d+1)\*(n+1)/d, D(n) the divisors of n.
@@ -2251,12 +2446,17 @@ List of integer sequences with links to LODA programs.
 * [A265037](https://oeis.org/A265037) ([program](/edit/?oeis=265037)): G.f.: (1 + 22\*x - 34\*x^2 + 14\*x^3)/((1 - x)^2\*(1 - 6\*x + 8\*x^2)).
 * [A265045](https://oeis.org/A265045) ([program](/edit/?oeis=265045)): Coordination sequence for a 6.6.6 point in the 3-transitive tiling \{4.6.6, 6.6.6, 6.6.6.6\} of the plane by squares and dominoes (hexagons).
 * [A265046](https://oeis.org/A265046) ([program](/edit/?oeis=265046)): Coordination sequence for a 4.6.6 point in the 3-transitive tiling \{4.6.6, 6.6.6, 6.6.6.6\} of the plane by squares and dominoes (hexagons).
+* [A265050](https://oeis.org/A265050) ([program](/edit/?oeis=265050)): Poincaré series for hyperbolic reflection group with Coxeter diagram shown in Comments.
+* [A265051](https://oeis.org/A265051) ([program](/edit/?oeis=265051)): Poincaré series for hyperbolic reflection group with Coxeter diagram shown in Comments.
 * [A265056](https://oeis.org/A265056) ([program](/edit/?oeis=265056)): Partial sums of A234275.
 * [A265068](https://oeis.org/A265068) ([program](/edit/?oeis=265068)): Coordination sequence for (2,5,infinity) tiling of hyperbolic plane.
 * [A265070](https://oeis.org/A265070) ([program](/edit/?oeis=265070)): Coordination sequence for (2,6,infinity) tiling of hyperbolic plane.
 * [A265071](https://oeis.org/A265071) ([program](/edit/?oeis=265071)): Coordination sequence for (3,3,4) tiling of hyperbolic plane.
 * [A265072](https://oeis.org/A265072) ([program](/edit/?oeis=265072)): Coordination sequence for (3,3,5) tiling of hyperbolic plane.
+* [A265073](https://oeis.org/A265073) ([program](/edit/?oeis=265073)): Coordination sequence for (3,3,6) tiling of hyperbolic plane.
+* [A265075](https://oeis.org/A265075) ([program](/edit/?oeis=265075)): Coordination sequence for (3,4,4) tiling of hyperbolic plane.
 * [A265076](https://oeis.org/A265076) ([program](/edit/?oeis=265076)): Coordination sequence for (3,5,5) tiling of hyperbolic plane.
+* [A265077](https://oeis.org/A265077) ([program](/edit/?oeis=265077)): Coordination sequence for (3,6,8) tiling of hyperbolic plane.
 * [A265078](https://oeis.org/A265078) ([program](/edit/?oeis=265078)): Partial sums of A072154.
 * [A265100](https://oeis.org/A265100) ([program](/edit/?oeis=265100)): a(n) = 9\*A005836(n) + 5, n >= 1.
 * [A265101](https://oeis.org/A265101) ([program](/edit/?oeis=265101)): a(n) = binomial(6\*n + 5, 3\*n + 1)/(6\*n + 5).
@@ -2285,6 +2485,7 @@ List of integer sequences with links to LODA programs.
 * [A265188](https://oeis.org/A265188) ([program](/edit/?oeis=265188)): Nonnegative m for which 3\*floor(m^2/11) = floor(3\*m^2/11).
 * [A265204](https://oeis.org/A265204) ([program](/edit/?oeis=265204)): Sum of phi(i) over squarefree numbers i <= n.
 * [A265207](https://oeis.org/A265207) ([program](/edit/?oeis=265207)): Draw a square and follow these steps: Take a square and place at its edges isosceles right triangles with the edge as hypotenuse. Draw a square at every new edge of the triangles. Repeat for all the new squares of the same size. New figures are only placed on empty space. The structure is symmetric about the first square. The sequence gives the numbers of squares of equal size in successive rings around the center.
+* [A265211](https://oeis.org/A265211) ([program](/edit/?oeis=265211)): Squares that become prime when their rightmost digit is removed.
 * [A265223](https://oeis.org/A265223) ([program](/edit/?oeis=265223)): Total number of OFF (white) cells after n iterations of the "Rule 150" elementary cellular automaton starting with a single ON (black) cell.
 * [A265224](https://oeis.org/A265224) ([program](/edit/?oeis=265224)): Total number of OFF (white) cells after n iterations of the "Rule 30" elementary cellular automaton starting with a single ON (black) cell.
 * [A265225](https://oeis.org/A265225) ([program](/edit/?oeis=265225)): Total number of ON (black) cells after n iterations of the "Rule 54" elementary cellular automaton starting with a single ON (black) cell.
@@ -2309,6 +2510,8 @@ List of integer sequences with links to LODA programs.
 * [A265331](https://oeis.org/A265331) ([program](/edit/?oeis=265331)): One-based row index to A265345.
 * [A265333](https://oeis.org/A265333) ([program](/edit/?oeis=265333)): Characteristic function for A265334: a(n) = 1 if n >= k! but < 2\*k! for some k, 0 otherwise.
 * [A265334](https://oeis.org/A265334) ([program](/edit/?oeis=265334)): Numbers that are >= k! but < 2\*k! for some k; numbers whose factorial base representation (A007623) begins with digit "1".
+* [A265349](https://oeis.org/A265349) ([program](/edit/?oeis=265349)): Numbers in whose factorial base representation (A007623) no digit > 0 occurs more than once.
+* [A265350](https://oeis.org/A265350) ([program](/edit/?oeis=265350)): Numbers in whose factorial base representation (A007623) at least one of the nonzero digits occurs more than once (although not necessarily in adjacent positions).
 * [A265359](https://oeis.org/A265359) ([program](/edit/?oeis=265359)): Spiralwise distance to the nearest inner neighbor in Ulam-style square-spirals using zero-based indexing: a(0) = 0, for n >= 1, a(n) = n - A265409(n).
 * [A265376](https://oeis.org/A265376) ([program](/edit/?oeis=265376)): a(1) = 1 and a(n) = Sum\_\{i=1..n-1\} (-1)^i\*i\*a(i).
 * [A265379](https://oeis.org/A265379) ([program](/edit/?oeis=265379)): Binary representation of the n-th iteration of the "Rule 158" elementary cellular automaton starting with a single ON (black) cell.
@@ -2320,6 +2523,7 @@ List of integer sequences with links to LODA programs.
 * [A265387](https://oeis.org/A265387) ([program](/edit/?oeis=265387)): Sequence defined by a(1)=a(2)=1 and a(n) = gray(a(n-1)) + gray(a(n-2)), with gray(m) = A003188(m).
 * [A265388](https://oeis.org/A265388) ([program](/edit/?oeis=265388)): a(n) = gcd\{k=1..n-1\} binomial(2\*n, 2\*k), a(1) = 0.
 * [A265401](https://oeis.org/A265401) ([program](/edit/?oeis=265401)): Numbers n for which gcd\{k=1..n-1\} binomial(2\*n, 2\*k) = 1.
+* [A265402](https://oeis.org/A265402) ([program](/edit/?oeis=265402)): Fixed points of A265388: numbers n for which gcd\{k=1..n-1\} binomial(2\*n, 2\*k) = n.
 * [A265409](https://oeis.org/A265409) ([program](/edit/?oeis=265409)): a(n) = index to the nearest inner neighbor in Ulam-style square-spirals using zero-based indexing.
 * [A265410](https://oeis.org/A265410) ([program](/edit/?oeis=265410)): a(n) = one-based index to the nearest horizontally or vertically adjacent inner neighbor in square-grid spirals, and to the nearest diagonally adjacent inner neighbor when n is one of the corner cases A033638.
 * [A265411](https://oeis.org/A265411) ([program](/edit/?oeis=265411)): a(0) = 1, a(1) = 7, otherwise, if A240025(n-1) = 1 [when n is in A033638] a(n) = 3, otherwise a(n) = 1.
@@ -2341,6 +2545,7 @@ List of integer sequences with links to LODA programs.
 * [A265531](https://oeis.org/A265531) ([program](/edit/?oeis=265531)): Largest base-4 palindrome m <= n, written in base 10.
 * [A265532](https://oeis.org/A265532) ([program](/edit/?oeis=265532)): Largest base-4 palindrome m <= n, written in base 4.
 * [A265533](https://oeis.org/A265533) ([program](/edit/?oeis=265533)): Largest base-5 palindrome m <= n, written in base 10.
+* [A265534](https://oeis.org/A265534) ([program](/edit/?oeis=265534)): Largest base-5 palindrome m <= n, written in base 5.
 * [A265535](https://oeis.org/A265535) ([program](/edit/?oeis=265535)): Largest base-6 palindrome m <= n, written in base 10.
 * [A265536](https://oeis.org/A265536) ([program](/edit/?oeis=265536)): Largest base-6 palindrome m <= n, written in base 6.
 * [A265537](https://oeis.org/A265537) ([program](/edit/?oeis=265537)): Largest base-7 palindrome m <= n, written in base 10.
@@ -2361,6 +2566,7 @@ List of integer sequences with links to LODA programs.
 * [A265568](https://oeis.org/A265568) ([program](/edit/?oeis=265568)): Smallest base-7 palindrome m >= n, written in base 10.
 * [A265569](https://oeis.org/A265569) ([program](/edit/?oeis=265569)): Smallest base-7 palindrome m >= n, written in base 7.
 * [A265570](https://oeis.org/A265570) ([program](/edit/?oeis=265570)): Smallest base-8 palindrome m >= n, written in base 10.
+* [A265571](https://oeis.org/A265571) ([program](/edit/?oeis=265571)): Smallest base-8 palindrome m >= n, written in base 8.
 * [A265572](https://oeis.org/A265572) ([program](/edit/?oeis=265572)): Smallest base-9 palindrome m >= n, written in base 10.
 * [A265573](https://oeis.org/A265573) ([program](/edit/?oeis=265573)): Smallest base-9 palindrome m >= n, written in base 9.
 * [A265574](https://oeis.org/A265574) ([program](/edit/?oeis=265574)): LCM-transform of triangular numbers.
@@ -2371,6 +2577,7 @@ List of integer sequences with links to LODA programs.
 * [A265612](https://oeis.org/A265612) ([program](/edit/?oeis=265612)): a(n) = CatalanNumber(n+1)\*n\*(1+3\*n)/(6+2\*n).
 * [A265613](https://oeis.org/A265613) ([program](/edit/?oeis=265613)): a(n) = CatalanNumber(n+1)\*n\*(3\*n^2+5\*n+2)/((4+n)\*(3+n)).
 * [A265640](https://oeis.org/A265640) ([program](/edit/?oeis=265640)): Prime factorization palindromes (see comments for definition).
+* [A265643](https://oeis.org/A265643) ([program](/edit/?oeis=265643)): a(n) = +-1 == ((p - 1)/2)! (mod p), where p is the n-th prime number == 3 (mod 4).
 * [A265645](https://oeis.org/A265645) ([program](/edit/?oeis=265645)): a(n) = n^2 \* floor(n/2).
 * [A265647](https://oeis.org/A265647) ([program](/edit/?oeis=265647)): Smallest k such that n divides k\*(k+1)\*(k+2)/6.
 * [A265667](https://oeis.org/A265667) ([program](/edit/?oeis=265667)): Permutation of nonnegative integers: a(n) = n + floor(n/3)\*(-1)^(n mod 3).
@@ -2383,6 +2590,7 @@ List of integer sequences with links to LODA programs.
 * [A265703](https://oeis.org/A265703) ([program](/edit/?oeis=265703)): Number of OFF (white) cells in the n-th iteration of the "Rule 135" elementary cellular automaton starting with a single ON (black) cell.
 * [A265704](https://oeis.org/A265704) ([program](/edit/?oeis=265704)): Total number of OFF (white) cells after n iterations of the "Rule 135" elementary cellular automaton starting with a single ON (black) cell.
 * [A265716](https://oeis.org/A265716) ([program](/edit/?oeis=265716)): a(n) = n IMPL (2\*n), where IMPL is the bitwise logical implication.
+* [A265718](https://oeis.org/A265718) ([program](/edit/?oeis=265718)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 1" initiated with a single ON (black) cell.
 * [A265720](https://oeis.org/A265720) ([program](/edit/?oeis=265720)): Binary representation of the n-th iteration of the "Rule 1" elementary cellular automaton starting with a single ON (black) cell.
 * [A265721](https://oeis.org/A265721) ([program](/edit/?oeis=265721)): Decimal representation of the n-th iteration of the "Rule 1" elementary cellular automaton starting with a single ON (black) cell.
 * [A265722](https://oeis.org/A265722) ([program](/edit/?oeis=265722)): Number of ON (black) cells in the n-th iteration of the "Rule 1" elementary cellular automaton starting with a single ON (black) cell.
@@ -2392,12 +2600,17 @@ List of integer sequences with links to LODA programs.
 * [A265729](https://oeis.org/A265729) ([program](/edit/?oeis=265729)): Decimal expansion of 32\*Pi.
 * [A265734](https://oeis.org/A265734) ([program](/edit/?oeis=265734)): Permutation of nonnegative integers: a(n) = n + floor(n/5)\*(-1)^(n mod 5).
 * [A265743](https://oeis.org/A265743) ([program](/edit/?oeis=265743)): a(n) = number of terms of A005187 needed to sum to n using the greedy algorithm.
+* [A265744](https://oeis.org/A265744) ([program](/edit/?oeis=265744)): a(n) is the number of Pell numbers (A000129) needed to sum to n using the greedy algorithm (A317204).
+* [A265745](https://oeis.org/A265745) ([program](/edit/?oeis=265745)): a(n) is the number of Jacobsthal numbers (A001045) needed to sum to n using the greedy algorithm.
+* [A265746](https://oeis.org/A265746) ([program](/edit/?oeis=265746)): Jacobsthal greedy base (A265747) interpreted as base-3 numbers, then shown in decimal.
+* [A265747](https://oeis.org/A265747) ([program](/edit/?oeis=265747)): Numbers written in Jacobsthal greedy base.
 * [A265755](https://oeis.org/A265755) ([program](/edit/?oeis=265755)): a(n) = a(n-1) + a(n-2) if n is even and a(n) = a(n-3) + a(n-4) if n is odd, with a(0) = a(1) = a(2) = 0 and a(3) = 1.
 * [A265760](https://oeis.org/A265760) ([program](/edit/?oeis=265760)): Denominators of primes-only best approximates (POBAs) to 1; see Comments.
 * [A265762](https://oeis.org/A265762) ([program](/edit/?oeis=265762)): Coefficient of x in minimal polynomial of the continued fraction [1^n,2,1,1,1,...], where 1^n means n ones.
 * [A265802](https://oeis.org/A265802) ([program](/edit/?oeis=265802)): Coefficient of x^2 in minimal polynomial of the continued fraction [1^n,4,1,1,1,...], where 1^n means n ones.
 * [A265803](https://oeis.org/A265803) ([program](/edit/?oeis=265803)): Coefficient of x in minimal polynomial of the continued fraction [1^n,4,1,1,1,...], where 1^n means n ones.
 * [A265804](https://oeis.org/A265804) ([program](/edit/?oeis=265804)): Coefficient of x^2 in minimal polynomial of the continued fraction [1^n,5,1,1,1,...], where 1^n means n ones.
+* [A265805](https://oeis.org/A265805) ([program](/edit/?oeis=265805)): Coefficient of x in minimal polynomial of the continued fraction [1^n,5,1,1,1,...], where 1^n means n ones.
 * [A265888](https://oeis.org/A265888) ([program](/edit/?oeis=265888)): a(n) = n + floor(n/4)\*(-1)^(n mod 4).
 * [A265893](https://oeis.org/A265893) ([program](/edit/?oeis=265893)): a(n) = A084558(n) - A230403(n); the length of factorial base representation of n without its trailing zeros.
 * [A265905](https://oeis.org/A265905) ([program](/edit/?oeis=265905)): a(1) = 1; for n > 1, a(n) = a(n-1) + A153880(a(n-1)).
@@ -2427,11 +2640,13 @@ List of integer sequences with links to LODA programs.
 * [A266087](https://oeis.org/A266087) ([program](/edit/?oeis=266087)): Alternating sum of 11-gonal (or hendecagonal) numbers.
 * [A266088](https://oeis.org/A266088) ([program](/edit/?oeis=266088)): Alternating sum of 12-gonal (or dodecagonal) numbers.
 * [A266155](https://oeis.org/A266155) ([program](/edit/?oeis=266155)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 19" initiated with a single ON (black) cell.
+* [A266174](https://oeis.org/A266174) ([program](/edit/?oeis=266174)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 5" initiated with a single ON (black) cell.
 * [A266175](https://oeis.org/A266175) ([program](/edit/?oeis=266175)): Binary representation of the n-th iteration of the "Rule 5" elementary cellular automaton starting with a single ON (black) cell.
 * [A266176](https://oeis.org/A266176) ([program](/edit/?oeis=266176)): Decimal representation of the n-th iteration of the "Rule 5" elementary cellular automaton starting with a single ON (black) cell.
 * [A266178](https://oeis.org/A266178) ([program](/edit/?oeis=266178)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 6" initiated with a single ON (black) cell.
 * [A266179](https://oeis.org/A266179) ([program](/edit/?oeis=266179)): Binary representation of the n-th iteration of the "Rule 6" elementary cellular automaton starting with a single ON (black) cell.
 * [A266180](https://oeis.org/A266180) ([program](/edit/?oeis=266180)): Decimal representation of the n-th iteration of the "Rule 6" elementary cellular automaton starting with a single ON (black) cell.
+* [A266213](https://oeis.org/A266213) ([program](/edit/?oeis=266213)): Square array A(n,r), the number of neighbors at a sharp Manhattan distance r in a finite n-hypercube lattice, read by upwards antidiagonals; A(n,r) = Sum\_\{k=0..min(n,r)\} binomial(r-1,k-1)\*binomial(n,k)\* 2^k.
 * [A266214](https://oeis.org/A266214) ([program](/edit/?oeis=266214)): Numbers n that are not coprime to the numerator of zeta(2\*n)/(Pi^(2\*n)).
 * [A266216](https://oeis.org/A266216) ([program](/edit/?oeis=266216)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 7" initiated with a single ON (black) cell.
 * [A266217](https://oeis.org/A266217) ([program](/edit/?oeis=266217)): Binary representation of the n-th iteration of the "Rule 7" elementary cellular automaton starting with a single ON (black) cell.
@@ -2459,11 +2674,13 @@ List of integer sequences with links to LODA programs.
 * [A266257](https://oeis.org/A266257) ([program](/edit/?oeis=266257)): Total number of ON (black) cells after n iterations of the "Rule 11" elementary cellular automaton starting with a single ON (black) cell.
 * [A266258](https://oeis.org/A266258) ([program](/edit/?oeis=266258)): Number of OFF (white) cells in the n-th iteration of the "Rule 11" elementary cellular automaton starting with a single ON (black) cell.
 * [A266259](https://oeis.org/A266259) ([program](/edit/?oeis=266259)): Total number of OFF (white) cells after n iterations of the "Rule 11" elementary cellular automaton starting with a single ON (black) cell.
-* [A266279](https://oeis.org/A266279) ([program](/edit/?oeis=266279)): Nonnegative integers where all occurring digits occur with equal frequency.
 * [A266282](https://oeis.org/A266282) ([program](/edit/?oeis=266282)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 13" initiated with a single ON (black) cell.
+* [A266283](https://oeis.org/A266283) ([program](/edit/?oeis=266283)): Binary representation of the n-th iteration of the "Rule 13" elementary cellular automaton starting with a single ON (black) cell.
+* [A266284](https://oeis.org/A266284) ([program](/edit/?oeis=266284)): Decimal representation of the n-th iteration of the "Rule 13" elementary cellular automaton starting with a single ON (black) cell.
 * [A266285](https://oeis.org/A266285) ([program](/edit/?oeis=266285)): Number of ON (black) cells in the n-th iteration of the "Rule 13" elementary cellular automaton starting with a single ON (black) cell.
 * [A266286](https://oeis.org/A266286) ([program](/edit/?oeis=266286)): Number of OFF (white) cells in the n-th iteration of the "Rule 13" elementary cellular automaton starting with a single ON (black) cell.
 * [A266287](https://oeis.org/A266287) ([program](/edit/?oeis=266287)): Total number of OFF (white) cells after n iterations of the "Rule 13" elementary cellular automaton starting with a single ON (black) cell.
+* [A266288](https://oeis.org/A266288) ([program](/edit/?oeis=266288)): Expansion of a(q)^2 \* (c(q)/3)^3 in powers of q where a(), c() are cubic AGM theta functions.
 * [A266297](https://oeis.org/A266297) ([program](/edit/?oeis=266297)): Numbers whose last digit is a square.
 * [A266298](https://oeis.org/A266298) ([program](/edit/?oeis=266298)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 14" initiated with a single ON (black) cell.
 * [A266299](https://oeis.org/A266299) ([program](/edit/?oeis=266299)): Binary representation of the n-th iteration of the "Rule 14" elementary cellular automaton starting with a single ON (black) cell.
@@ -2481,10 +2698,12 @@ List of integer sequences with links to LODA programs.
 * [A266336](https://oeis.org/A266336) ([program](/edit/?oeis=266336)): G.f. = b(2)\*b(6)/(x^6-x^4+x^2-2\*x+1), where b(k) = (1-x^k)/(1-x).
 * [A266337](https://oeis.org/A266337) ([program](/edit/?oeis=266337)): Expansion of b(3)\*b(4)/(1 - 2\*x + x^5), where b(k) = (1-x^k)/(1-x).
 * [A266339](https://oeis.org/A266339) ([program](/edit/?oeis=266339)): G.f. = b(2)^2\*b(4)/(x^5+x^4-x^3-x^2-x+1), where b(k) = (1-x^k)/(1-x).
+* [A266340](https://oeis.org/A266340) ([program](/edit/?oeis=266340)): G.f. = b(2)\*b(4)\*b(6)/(x^8+x^6-x^5+x^4-2\*x^3-x+1), where b(k) = (1-x^k)/(1-x).
 * [A266341](https://oeis.org/A266341) ([program](/edit/?oeis=266341)): If A036987(n) = 1, a(n) = n - A053644(n), otherwise a(n) = n - A053644(n) + 2^(A063250(n)-1).
 * [A266353](https://oeis.org/A266353) ([program](/edit/?oeis=266353)): Expansion of b(3)\*b(4)/(1 - 2\*x + x^2 - x^3 + x^4), where b(k) = (1-x^k)/(1-x).
 * [A266365](https://oeis.org/A266365) ([program](/edit/?oeis=266365)): Number of possible plugboard settings for a WWII German Enigma Cipher Machine with n cables.
 * [A266367](https://oeis.org/A266367) ([program](/edit/?oeis=266367)): Expansion of b(2)\*b(4)/(1 - 2\*x - 2\*x^3 + 3\*x^4), where b(k) = (1-x^k)/(1-x).
+* [A266370](https://oeis.org/A266370) ([program](/edit/?oeis=266370)): G.f. = b(2)^2\*b(4)/(2\*x^5+x^4-2\*x^3-x^2-x+1), where b(k) = (1-x^k)/(1-x).
 * [A266372](https://oeis.org/A266372) ([program](/edit/?oeis=266372)): G.f. = b(2)\*b(4)\*b(6)/(x^9+x^8+x^7+x^6-x^5-x^4-x^3-x^2-x+1), where b(k) = (1-x^k)/(1-x).
 * [A266375](https://oeis.org/A266375) ([program](/edit/?oeis=266375)): G.f. = b(2)\*b(4)\*b(6)/(x^8+x^7-x^3-x^2-x+1), where b(k) = (1-x^k)/(1-x).
 * [A266376](https://oeis.org/A266376) ([program](/edit/?oeis=266376)): G.f. = b(2)\*b(4)\*b(6)/(x^9+x^8+x^7-2\*x^3-x^2-x+1), where b(k) = (1-x^k)/(1-x).
@@ -2515,6 +2734,7 @@ List of integer sequences with links to LODA programs.
 * [A266448](https://oeis.org/A266448) ([program](/edit/?oeis=266448)): Total number of ON (black) cells after n iterations of the "Rule 25" elementary cellular automaton starting with a single ON (black) cell.
 * [A266449](https://oeis.org/A266449) ([program](/edit/?oeis=266449)): Number of OFF (white) cells in the n-th iteration of the "Rule 25" elementary cellular automaton starting with a single ON (black) cell.
 * [A266450](https://oeis.org/A266450) ([program](/edit/?oeis=266450)): Total number of OFF (white) cells after n iterations of the "Rule 25" elementary cellular automaton starting with a single ON (black) cell.
+* [A266459](https://oeis.org/A266459) ([program](/edit/?oeis=266459)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 27" initiated with a single ON (black) cell.
 * [A266464](https://oeis.org/A266464) ([program](/edit/?oeis=266464)): Number of n X 2 binary arrays with rows and columns lexicographically nondecreasing and column sums nonincreasing.
 * [A266471](https://oeis.org/A266471) ([program](/edit/?oeis=266471)): Number of 4 X n binary arrays with rows and columns lexicographically nondecreasing and column sums nonincreasing.
 * [A266475](https://oeis.org/A266475) ([program](/edit/?oeis=266475)): Sum of the parts i\_1 + i\_2 + ... + i\_\{A001222(n)\} of the unique strict partition with encoding n = Product\_\{j=1..A001222(n)\} prime(i\_j-j+1).
@@ -2523,8 +2743,10 @@ List of integer sequences with links to LODA programs.
 * [A266502](https://oeis.org/A266502) ([program](/edit/?oeis=266502)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 28" initiated with a single ON (black) cell.
 * [A266504](https://oeis.org/A266504) ([program](/edit/?oeis=266504)): a(n) = 2\*a(n - 2) + a(n - 4) with a(0) = a(1) = 2, a(2) = 1, a(3) = 3.
 * [A266505](https://oeis.org/A266505) ([program](/edit/?oeis=266505)): a(n) = 2\*a(n - 2) + a(n - 4) with a(0) = -1, a(1) = 1, a(2) = 3, a(3) = 5.
+* [A266506](https://oeis.org/A266506) ([program](/edit/?oeis=266506)): a(2n) =  a(2n - 4) + a(2n - 3) and a(2n + 1) = 2\*a(2n - 4) + a(2n - 3), with a(0) = 2, a(1) = -1, a(2) = 2, a(3) = 1. Alternatively, interleave denominators (A266504) and numerators (A266505) of convergents to sqrt(2).
 * [A266507](https://oeis.org/A266507) ([program](/edit/?oeis=266507)): a(n) = 6\*a(n - 1) - a(n - 2) with a(0) = 2, a(1) = 8.
 * [A266508](https://oeis.org/A266508) ([program](/edit/?oeis=266508)): Binary representation of the n-th iteration of the "Rule 28" elementary cellular automaton starting with a single ON (black) cell.
+* [A266514](https://oeis.org/A266514) ([program](/edit/?oeis=266514)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 29" initiated with a single ON (black) cell.
 * [A266515](https://oeis.org/A266515) ([program](/edit/?oeis=266515)): Binary representation of the n-th iteration of the "Rule 29" elementary cellular automaton starting with a single ON (black) cell.
 * [A266516](https://oeis.org/A266516) ([program](/edit/?oeis=266516)): Decimal representation of the n-th iteration of the "Rule 29" elementary cellular automaton starting with a single ON (black) cell.
 * [A266532](https://oeis.org/A266532) ([program](/edit/?oeis=266532)): Total number of Y-toothpicks after n-th stage in the "outward" version of the cellular automaton of A160120.
@@ -2537,6 +2759,7 @@ List of integer sequences with links to LODA programs.
 * [A266550](https://oeis.org/A266550) ([program](/edit/?oeis=266550)): Independence number of the n-Mycielski graph.
 * [A266551](https://oeis.org/A266551) ([program](/edit/?oeis=266551)): Image of n under the 3p+1 map, which is a variation of the 3x+1 (Collatz) map.
 * [A266561](https://oeis.org/A266561) ([program](/edit/?oeis=266561)): 12-dimensional square numbers.
+* [A266575](https://oeis.org/A266575) ([program](/edit/?oeis=266575)): Expansion of q \* f(-q^4)^6 / phi(-q) in powers of q where phi(), f() are Ramanujan theta functions.
 * [A266577](https://oeis.org/A266577) ([program](/edit/?oeis=266577)): Square array read by descending antidiagonals: T(n,k) = ((2^(n+1) + 1)^(k-1) + 1)/2.
 * [A266591](https://oeis.org/A266591) ([program](/edit/?oeis=266591)): Middle column of the "Rule 37" elementary cellular automaton starting with a single ON (black) cell.
 * [A266592](https://oeis.org/A266592) ([program](/edit/?oeis=266592)): Binary representation of the middle column of the "Rule 37" elementary cellular automaton starting with a single ON (black) cell.
@@ -2544,6 +2767,7 @@ List of integer sequences with links to LODA programs.
 * [A266594](https://oeis.org/A266594) ([program](/edit/?oeis=266594)): Total number of ON (black) cells after n iterations of the "Rule 37" elementary cellular automaton starting with a single ON (black) cell.
 * [A266595](https://oeis.org/A266595) ([program](/edit/?oeis=266595)): Number of OFF (white) cells in the n-th iteration of the "Rule 37" elementary cellular automaton starting with a single ON (black) cell.
 * [A266596](https://oeis.org/A266596) ([program](/edit/?oeis=266596)): Total number of OFF (white) cells after n iterations of the "Rule 37" elementary cellular automaton starting with a single ON (black) cell.
+* [A266605](https://oeis.org/A266605) ([program](/edit/?oeis=266605)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 39" initiated with a single ON (black) cell.
 * [A266611](https://oeis.org/A266611) ([program](/edit/?oeis=266611)): Middle column of the "Rule 41" elementary cellular automaton starting with a single ON (black) cell.
 * [A266612](https://oeis.org/A266612) ([program](/edit/?oeis=266612)): Binary representation of the middle column of the "Rule 41" elementary cellular automaton starting with a single ON (black) cell.
 * [A266613](https://oeis.org/A266613) ([program](/edit/?oeis=266613)): Decimal representation of the middle column of the "Rule 41" elementary cellular automaton starting with a single ON (black) cell.
@@ -2553,6 +2777,8 @@ List of integer sequences with links to LODA programs.
 * [A266617](https://oeis.org/A266617) ([program](/edit/?oeis=266617)): Total number of OFF (white) cells after n iterations of the "Rule 41" elementary cellular automaton starting with a single ON (black) cell.
 * [A266620](https://oeis.org/A266620) ([program](/edit/?oeis=266620)): a(n) = least non-divisor of n!.
 * [A266659](https://oeis.org/A266659) ([program](/edit/?oeis=266659)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 47" initiated with a single ON (black) cell.
+* [A266660](https://oeis.org/A266660) ([program](/edit/?oeis=266660)): Binary representation of the n-th iteration of the "Rule 47" elementary cellular automaton starting with a single ON (black) cell.
+* [A266661](https://oeis.org/A266661) ([program](/edit/?oeis=266661)): Decimal representation of the n-th iteration of the "Rule 47" elementary cellular automaton starting with a single ON (black) cell.
 * [A266662](https://oeis.org/A266662) ([program](/edit/?oeis=266662)): Number of ON (black) cells in the n-th iteration of the "Rule 47" elementary cellular automaton starting with a single ON (black) cell.
 * [A266663](https://oeis.org/A266663) ([program](/edit/?oeis=266663)): Total number of ON (black) cells after n iterations of the "Rule 47" elementary cellular automaton starting with a single ON (black) cell.
 * [A266664](https://oeis.org/A266664) ([program](/edit/?oeis=266664)): Number of OFF (white) cells in the n-th iteration of the "Rule 47" elementary cellular automaton starting with a single ON (black) cell.
@@ -2560,6 +2786,7 @@ List of integer sequences with links to LODA programs.
 * [A266666](https://oeis.org/A266666) ([program](/edit/?oeis=266666)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 51" initiated with a single ON (black) cell.
 * [A266667](https://oeis.org/A266667) ([program](/edit/?oeis=266667)): Binary representation of the n-th iteration of the "Rule 51" elementary cellular automaton starting with a single ON (black) cell.
 * [A266668](https://oeis.org/A266668) ([program](/edit/?oeis=266668)): Decimal representation of the n-th iteration of the "Rule 51" elementary cellular automaton starting with a single ON (black) cell.
+* [A266669](https://oeis.org/A266669) ([program](/edit/?oeis=266669)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 53" initiated with a single ON (black) cell.
 * [A266677](https://oeis.org/A266677) ([program](/edit/?oeis=266677)): Alternating sum of hexagonal pyramidal numbers.
 * [A266678](https://oeis.org/A266678) ([program](/edit/?oeis=266678)): Middle column of the "Rule 175" elementary cellular automaton starting with a single ON (black) cell.
 * [A266680](https://oeis.org/A266680) ([program](/edit/?oeis=266680)): Binary representation of the middle column of the "Rule 175" elementary cellular automaton starting with a single ON (black) cell.
@@ -2570,9 +2797,11 @@ List of integer sequences with links to LODA programs.
 * [A266700](https://oeis.org/A266700) ([program](/edit/?oeis=266700)): Coefficient of x in minimal polynomial of the continued fraction [1^n,1/2,1,1,1,...], where 1^n means n ones.
 * [A266701](https://oeis.org/A266701) ([program](/edit/?oeis=266701)): Coefficient of x^2 in minimal polynomial of the continued fraction [1^n,1/3,1,1,1,...], where 1^n means n ones.
 * [A266705](https://oeis.org/A266705) ([program](/edit/?oeis=266705)): Coefficient of x^2 in minimal polynomial of the continued fraction [1^n,sqrt(5),1,1,1,...], where 1^n means n ones.
+* [A266706](https://oeis.org/A266706) ([program](/edit/?oeis=266706)): Coefficient of x in minimal polynomial of the continued fraction [1^n,sqrt(5),1,1,1,...], where 1^n means n ones.
 * [A266707](https://oeis.org/A266707) ([program](/edit/?oeis=266707)): Coefficient of x^2 in minimal polynomial of the continued fraction [1^n,tau,1,1,1,...], where 1^n means n ones and tau = golden ratio = (1 + sqrt(5))/2.
 * [A266708](https://oeis.org/A266708) ([program](/edit/?oeis=266708)): Coefficient of x in minimal polynomial of the continued fraction [1^n,tau,1,1,1,...], where 1^n means n ones and tau = golden ratio = (1 + sqrt(5))/2.
 * [A266709](https://oeis.org/A266709) ([program](/edit/?oeis=266709)): Coefficient of x in minimal polynomial of the continued fraction [2,1^n,2,1,1,...], where 1^n means n ones.
+* [A266716](https://oeis.org/A266716) ([program](/edit/?oeis=266716)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 59" initiated with a single ON (black) cell.
 * [A266719](https://oeis.org/A266719) ([program](/edit/?oeis=266719)): Middle column of the "Rule 59" elementary cellular automaton starting with a single ON (black) cell.
 * [A266720](https://oeis.org/A266720) ([program](/edit/?oeis=266720)): Binary representation of the middle column of the "Rule 59" elementary cellular automaton starting with a single ON (black) cell.
 * [A266721](https://oeis.org/A266721) ([program](/edit/?oeis=266721)): Decimal representation of the middle column of the "Rule 59" elementary cellular automaton starting with a single ON (black) cell.
@@ -2584,15 +2813,15 @@ List of integer sequences with links to LODA programs.
 * [A266733](https://oeis.org/A266733) ([program](/edit/?oeis=266733)): a(n) = 21\*binomial(n+6,7).
 * [A266744](https://oeis.org/A266744) ([program](/edit/?oeis=266744)): G.f.: 1/((1-t^4)\*(1-t)\*(1-t^3)\*(1-t^5)\*(1-t^7)).
 * [A266745](https://oeis.org/A266745) ([program](/edit/?oeis=266745)): Expansion of 1/((1-t^5)^2\*(1-t)\*(1-t^3)\*(1-t^7)\*(1-t^9)).
+* [A266746](https://oeis.org/A266746) ([program](/edit/?oeis=266746)): G.f.: 1/((1-t^6)\*(1-t)\*(1-t^3)\*(1-t^5)\*(1-t^7)\*(1-t^9)\*(1-t^11)).
 * [A266752](https://oeis.org/A266752) ([program](/edit/?oeis=266752)): Binary representation of the n-th iteration of the "Rule 163" elementary cellular automaton starting with a single ON (black) cell.
 * [A266753](https://oeis.org/A266753) ([program](/edit/?oeis=266753)): Decimal representation of the n-th iteration of the "Rule 163" elementary cellular automaton starting with a single ON (black) cell.
 * [A266754](https://oeis.org/A266754) ([program](/edit/?oeis=266754)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 165" initiated with a single ON (black) cell.
 * [A266755](https://oeis.org/A266755) ([program](/edit/?oeis=266755)): Expansion of 1/((1-x^2)\*(1-x^3)\*(1-x^4)).
+* [A266758](https://oeis.org/A266758) ([program](/edit/?oeis=266758)): E.g.f.: x\*(1+x-(x^2-6\*x+1)^(1/2))/8 + x^2/2.
 * [A266768](https://oeis.org/A266768) ([program](/edit/?oeis=266768)): Molien series for invariants of finite Coxeter group D\_5.
 * [A266769](https://oeis.org/A266769) ([program](/edit/?oeis=266769)): Expansion of 1/((1-x)\*(1-x^2)^2\*(1-x^3)).
-* [A266771](https://oeis.org/A266771) ([program](/edit/?oeis=266771)): Molien series for invariants of finite Coxeter group D\_8 (bisected).
 * [A266776](https://oeis.org/A266776) ([program](/edit/?oeis=266776)): Molien series for invariants of finite Coxeter group A\_7.
-* [A266777](https://oeis.org/A266777) ([program](/edit/?oeis=266777)): Molien series for invariants of finite Coxeter group A\_8.
 * [A266778](https://oeis.org/A266778) ([program](/edit/?oeis=266778)): Molien series for invariants of finite Coxeter group A\_9.
 * [A266789](https://oeis.org/A266789) ([program](/edit/?oeis=266789)): Middle column of the "Rule 61" elementary cellular automaton starting with a single ON (black) cell.
 * [A266790](https://oeis.org/A266790) ([program](/edit/?oeis=266790)): Binary representation of the middle column of the "Rule 61" elementary cellular automaton starting with a single ON (black) cell.
@@ -2612,6 +2841,7 @@ List of integer sequences with links to LODA programs.
 * [A266843](https://oeis.org/A266843) ([program](/edit/?oeis=266843)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 70" initiated with a single ON (black) cell.
 * [A266844](https://oeis.org/A266844) ([program](/edit/?oeis=266844)): Binary representation of the n-th iteration of the "Rule 70" elementary cellular automaton starting with a single ON (black) cell.
 * [A266846](https://oeis.org/A266846) ([program](/edit/?oeis=266846)): Decimal representation of the n-th iteration of the "Rule 70" elementary cellular automaton starting with a single ON (black) cell.
+* [A266848](https://oeis.org/A266848) ([program](/edit/?oeis=266848)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 71" initiated with a single ON (black) cell.
 * [A266849](https://oeis.org/A266849) ([program](/edit/?oeis=266849)): Binary representation of the n-th iteration of the "Rule 71" elementary cellular automaton starting with a single ON (black) cell.
 * [A266850](https://oeis.org/A266850) ([program](/edit/?oeis=266850)): Decimal representation of the n-th iteration of the "Rule 71" elementary cellular automaton starting with a single ON (black) cell.
 * [A266872](https://oeis.org/A266872) ([program](/edit/?oeis=266872)): Binary representation of the n-th iteration of the "Rule 77" elementary cellular automaton starting with a single ON (black) cell.
@@ -2630,10 +2860,13 @@ List of integer sequences with links to LODA programs.
 * [A266976](https://oeis.org/A266976) ([program](/edit/?oeis=266976)): Decimal representation of the n-th iteration of the "Rule 78" elementary cellular automaton starting with a single ON (black) cell.
 * [A266977](https://oeis.org/A266977) ([program](/edit/?oeis=266977)): Number of ON (black) cells in the n-th iteration of the "Rule 78" elementary cellular automaton starting with a single ON (black) cell.
 * [A266978](https://oeis.org/A266978) ([program](/edit/?oeis=266978)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 79" initiated with a single ON (black) cell.
+* [A266979](https://oeis.org/A266979) ([program](/edit/?oeis=266979)): Binary representation of the n-th iteration of the "Rule 79" elementary cellular automaton starting with a single ON (black) cell.
+* [A266980](https://oeis.org/A266980) ([program](/edit/?oeis=266980)): Decimal representation of the n-th iteration of the "Rule 79" elementary cellular automaton starting with a single ON (black) cell.
 * [A266981](https://oeis.org/A266981) ([program](/edit/?oeis=266981)): Number of ON (black) cells in the n-th iteration of the "Rule 79" elementary cellular automaton starting with a single ON (black) cell.
 * [A266982](https://oeis.org/A266982) ([program](/edit/?oeis=266982)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 81" initiated with a single ON (black) cell.
 * [A266983](https://oeis.org/A266983) ([program](/edit/?oeis=266983)): Binary representation of the n-th iteration of the "Rule 81" elementary cellular automaton starting with a single ON (black) cell.
 * [A266984](https://oeis.org/A266984) ([program](/edit/?oeis=266984)): Decimal representation of the n-th iteration of the "Rule 81" elementary cellular automaton starting with a single ON (black) cell.
+* [A267001](https://oeis.org/A267001) ([program](/edit/?oeis=267001)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 83" initiated with a single ON (black) cell.
 * [A267006](https://oeis.org/A267006) ([program](/edit/?oeis=267006)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 84" initiated with a single ON (black) cell.
 * [A267017](https://oeis.org/A267017) ([program](/edit/?oeis=267017)): Digital roots of the stella octangula numbers.
 * [A267027](https://oeis.org/A267027) ([program](/edit/?oeis=267027)): "Polyrhythmic sequence" P(3,4): numbers congruent to 1 mod 3 (A016777) or 1 mod 4 (A016813).
@@ -2654,9 +2887,11 @@ List of integer sequences with links to LODA programs.
 * [A267054](https://oeis.org/A267054) ([program](/edit/?oeis=267054)): Binary representation of the n-th iteration of the "Rule 93" elementary cellular automaton starting with a single ON (black) cell.
 * [A267055](https://oeis.org/A267055) ([program](/edit/?oeis=267055)): Decimal representation of the n-th iteration of the "Rule 93" elementary cellular automaton starting with a single ON (black) cell.
 * [A267068](https://oeis.org/A267068) ([program](/edit/?oeis=267068)): a(n) = (n+1) / A189733(n).
+* [A267089](https://oeis.org/A267089) ([program](/edit/?oeis=267089)): T(n,k) is decimal conversion of 1's in an n X n table that lie on its principal diagonals.
 * [A267092](https://oeis.org/A267092) ([program](/edit/?oeis=267092)): a(n) is the number of P-positions for n-modular Nim with 2 piles.
 * [A267097](https://oeis.org/A267097) ([program](/edit/?oeis=267097)): a(n) = number of 4k+1 primes among first n primes; least monotonic left inverse of A080147.
 * [A267098](https://oeis.org/A267098) ([program](/edit/?oeis=267098)): a(n) = number of 4k+3 primes among first n primes; least monotonic left inverse of A080148.
+* [A267113](https://oeis.org/A267113) ([program](/edit/?oeis=267113)): Bitwise-OR of the exponents of all 4k+1 primes in the prime factorization of n.
 * [A267114](https://oeis.org/A267114) ([program](/edit/?oeis=267114)): Numbers n for which A001222(n) = A267115(n) + A267116(n).
 * [A267133](https://oeis.org/A267133) ([program](/edit/?oeis=267133)): a(n) = (1/n)(2/n)(3/n)...((n-1)/n) where (k/n) is the Kronecker symbol, n >= 1.
 * [A267134](https://oeis.org/A267134) ([program](/edit/?oeis=267134)): a(n) = n minus the number of primes of form 6m + 1 that are less than n-th prime of form 6m - 1.
@@ -2697,6 +2932,7 @@ List of integer sequences with links to LODA programs.
 * [A267261](https://oeis.org/A267261) ([program](/edit/?oeis=267261)): Number of OFF (white) cells in the n-th iteration of the "Rule 111" elementary cellular automaton starting with a single ON (black) cell.
 * [A267262](https://oeis.org/A267262) ([program](/edit/?oeis=267262)): Total number of OFF (white) cells after n iterations of the "Rule 111" elementary cellular automaton starting with a single ON (black) cell.
 * [A267263](https://oeis.org/A267263) ([program](/edit/?oeis=267263)): Number of nonzero digits in representation of n in primorial base.
+* [A267269](https://oeis.org/A267269) ([program](/edit/?oeis=267269)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 115" initiated with a single ON (black) cell.
 * [A267272](https://oeis.org/A267272) ([program](/edit/?oeis=267272)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 117" initiated with a single ON (black) cell.
 * [A267273](https://oeis.org/A267273) ([program](/edit/?oeis=267273)): Binary representation of the n-th iteration of the "Rule 117" elementary cellular automaton starting with a single ON (black) cell.
 * [A267274](https://oeis.org/A267274) ([program](/edit/?oeis=267274)): Decimal representation of the n-th iteration of the "Rule 117" elementary cellular automaton starting with a single ON (black) cell.
@@ -2714,6 +2950,7 @@ List of integer sequences with links to LODA programs.
 * [A267326](https://oeis.org/A267326) ([program](/edit/?oeis=267326)): Number of ways writing n^2 as a sum of four squares: a(n) = A000118(n^2).
 * [A267329](https://oeis.org/A267329) ([program](/edit/?oeis=267329)): Number of nX(n+1) arrays of permutations of n+1 copies of 0..n-1 with every element equal to or 1 greater than any southwest or northwest neighbors modulo n and the upper left element equal to 0.
 * [A267348](https://oeis.org/A267348) ([program](/edit/?oeis=267348)): Decimal equivalents of terms of A266926 interpreted as binary numbers.
+* [A267349](https://oeis.org/A267349) ([program](/edit/?oeis=267349)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 123" initiated with a single ON (black) cell.
 * [A267352](https://oeis.org/A267352) ([program](/edit/?oeis=267352)): Number of ON (black) cells in the n-th iteration of the "Rule 123" elementary cellular automaton starting with a single ON (black) cell.
 * [A267353](https://oeis.org/A267353) ([program](/edit/?oeis=267353)): Total number of ON (black) cells after n iterations of the "Rule 123" elementary cellular automaton starting with a single ON (black) cell.
 * [A267354](https://oeis.org/A267354) ([program](/edit/?oeis=267354)): Number of OFF (white) cells in the n-th iteration of the "Rule 123" elementary cellular automaton starting with a single ON (black) cell.
@@ -2751,6 +2988,8 @@ List of integer sequences with links to LODA programs.
 * [A267465](https://oeis.org/A267465) ([program](/edit/?oeis=267465)): Number of length-n 0..2 arrays with no following elements larger than the first repeated value.
 * [A267472](https://oeis.org/A267472) ([program](/edit/?oeis=267472)): Number of length-4 0..n arrays with no following elements larger than the first repeated value.
 * [A267482](https://oeis.org/A267482) ([program](/edit/?oeis=267482)): Triangle of coefficients of Gaussian polynomials [2n+1,1]\_q represented as finite sum of terms (1+q^2)^k\*q^(g-k), where k = 0,1,...,g with g=n.
+* [A267483](https://oeis.org/A267483) ([program](/edit/?oeis=267483)): Triangle of coefficients of Gaussian polynomials [2n+3,2]\_q represented as finite sum of terms (1+q^2)^k\*q^(g-k), where k = 0,1,...,g with g=2n+1.
+* [A267488](https://oeis.org/A267488) ([program](/edit/?oeis=267488)): Smallest b > 1 such that there exists an odd prime p with p < b such that b^(p-1) == 1 (mod p^n).
 * [A267489](https://oeis.org/A267489) ([program](/edit/?oeis=267489)): a(n) = n^2 - 4\*floor(n^2/6).
 * [A267499](https://oeis.org/A267499) ([program](/edit/?oeis=267499)): Number of fixed points of autobiographical numbers (A267491 ... A267498) in base n.
 * [A267516](https://oeis.org/A267516) ([program](/edit/?oeis=267516)): Number of ON (black) cells in the n-th iteration of the "Rule 137" elementary cellular automaton starting with a single ON (black) cell.
@@ -2823,6 +3062,7 @@ List of integer sequences with links to LODA programs.
 * [A267673](https://oeis.org/A267673) ([program](/edit/?oeis=267673)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 195" initiated with a single ON (black) cell.
 * [A267674](https://oeis.org/A267674) ([program](/edit/?oeis=267674)): Binary representation of the n-th iteration of the "Rule 195" elementary cellular automaton starting with a single ON (black) cell.
 * [A267675](https://oeis.org/A267675) ([program](/edit/?oeis=267675)): Decimal representation of the n-th iteration of the "Rule 195" elementary cellular automaton starting with a single ON (black) cell.
+* [A267679](https://oeis.org/A267679) ([program](/edit/?oeis=267679)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 201" initiated with a single ON (black) cell.
 * [A267682](https://oeis.org/A267682) ([program](/edit/?oeis=267682)): a(n) = 2\*a(n-1) - 2\*a(n-3) + a(n-4) for n > 3, with initial terms 1, 1, 4, 8.
 * [A267683](https://oeis.org/A267683) ([program](/edit/?oeis=267683)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 203" initiated with a single ON (black) cell.
 * [A267684](https://oeis.org/A267684) ([program](/edit/?oeis=267684)): Binary representation of the n-th iteration of the "Rule 203" elementary cellular automaton starting with a single ON (black) cell.
@@ -2870,6 +3110,7 @@ List of integer sequences with links to LODA programs.
 * [A267814](https://oeis.org/A267814) ([program](/edit/?oeis=267814)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 221" initiated with a single ON (black) cell.
 * [A267815](https://oeis.org/A267815) ([program](/edit/?oeis=267815)): Binary representation of the n-th iteration of the "Rule 221" elementary cellular automaton starting with a single ON (black) cell.
 * [A267816](https://oeis.org/A267816) ([program](/edit/?oeis=267816)): Decimal representation of the n-th iteration of the "Rule 221" elementary cellular automaton starting with a single ON (black) cell.
+* [A267825](https://oeis.org/A267825) ([program](/edit/?oeis=267825)): Index of largest primorial factor of binomial(2n,n).
 * [A267831](https://oeis.org/A267831) ([program](/edit/?oeis=267831)): Expansion of (1 + 5\*x - 7\*x^2 - 3\*x^3)/((1 - x)\*(1 + x^2)^2).
 * [A267832](https://oeis.org/A267832) ([program](/edit/?oeis=267832)): Number of nX2 arrays containing 2 copies of 0..n-1 with every element equal to or 1 greater than any northeast neighbor modulo n and the upper left element equal to 0.
 * [A267844](https://oeis.org/A267844) ([program](/edit/?oeis=267844)): a(n) = Catalan(n)^2\*(4n + 3).
@@ -2959,6 +3200,8 @@ List of integer sequences with links to LODA programs.
 * [A268094](https://oeis.org/A268094) ([program](/edit/?oeis=268094)): Number of 2 X n 0..2 arrays with every repeated value in every row not one larger and in every column one larger mod 3 than the previous repeated value, and upper left element zero.
 * [A268099](https://oeis.org/A268099) ([program](/edit/?oeis=268099)): a(n) = 2^(n mod 2)\*5\*10^floor(n/2) - 1.
 * [A268100](https://oeis.org/A268100) ([program](/edit/?oeis=268100)): a(n) = 2^((n-1) mod 2)\*5\*10^floor((n-1)/2).
+* [A268145](https://oeis.org/A268145) ([program](/edit/?oeis=268145)): Twin prime pairs concatenated to their average in decimal representation (with the lesser twin prepended and the greater twin appended).
+* [A268146](https://oeis.org/A268146) ([program](/edit/?oeis=268146)): Twin prime pairs concatenated to their average in decimal representation (the greater twin prepended, the lesser appended).
 * [A268147](https://oeis.org/A268147) ([program](/edit/?oeis=268147)): A double binomial sum involving absolute values.
 * [A268148](https://oeis.org/A268148) ([program](/edit/?oeis=268148)): A double binomial sum involving absolute values.
 * [A268149](https://oeis.org/A268149) ([program](/edit/?oeis=268149)): A double binomial sum involving absolute values.
@@ -2989,6 +3232,7 @@ List of integer sequences with links to LODA programs.
 * [A268264](https://oeis.org/A268264) ([program](/edit/?oeis=268264)): Number of length-(5+1) 0..n arrays with new repeated values introduced in sequential order starting with zero.
 * [A268272](https://oeis.org/A268272) ([program](/edit/?oeis=268272)): Negabinary evil numbers (see comment).
 * [A268273](https://oeis.org/A268273) ([program](/edit/?oeis=268273)): Negabinary odious numbers (see comment).
+* [A268286](https://oeis.org/A268286) ([program](/edit/?oeis=268286)): a(n) = Bell(prime(n)).
 * [A268289](https://oeis.org/A268289) ([program](/edit/?oeis=268289)): a(0)=0; thereafter a(n) = a(n-1) - A037861(n).
 * [A268291](https://oeis.org/A268291) ([program](/edit/?oeis=268291)): a(n) = Sum\_\{k = 0..n\} (k mod 13).
 * [A268292](https://oeis.org/A268292) ([program](/edit/?oeis=268292)): a(n) is the total number of isolated 1's at the boundary between n-th and (n-1)-th iterations in the pattern of A267489.
@@ -2997,6 +3241,7 @@ List of integer sequences with links to LODA programs.
 * [A268315](https://oeis.org/A268315) ([program](/edit/?oeis=268315)): Decimal expansion of 256/27.
 * [A268329](https://oeis.org/A268329) ([program](/edit/?oeis=268329)): Expansion of (1 - sqrt(1 - 4\*x))^5/16.
 * [A268335](https://oeis.org/A268335) ([program](/edit/?oeis=268335)): Exponentially odd numbers.
+* [A268336](https://oeis.org/A268336) ([program](/edit/?oeis=268336)): a(n) = A174824(n)/n, where A174824(n) = lcm(A002322(n), n) and A002322(n) is the Carmichael lambda function (also known as the reduced totient function or the universal exponent of n).
 * [A268340](https://oeis.org/A268340) ([program](/edit/?oeis=268340)): Characteristic function of the prime powers p^k, k >= 2.
 * [A268342](https://oeis.org/A268342) ([program](/edit/?oeis=268342)): Number of edges in the unitary addition Cayley graph Gn.
 * [A268344](https://oeis.org/A268344) ([program](/edit/?oeis=268344)): a(n) = 11\*a(n - 1) - 3\*a(n - 2) for n>1, a(0)=0, a(1)=1.
@@ -3010,6 +3255,8 @@ List of integer sequences with links to LODA programs.
 * [A268363](https://oeis.org/A268363) ([program](/edit/?oeis=268363)): Number of n X 2 arrays containing 2 copies of 0..n-1 with row sums equal.
 * [A268370](https://oeis.org/A268370) ([program](/edit/?oeis=268370)): Number of North-East lattice paths from (0,0) to (n,n) that have exactly three east steps below the subdiagonal y = x-1.
 * [A268377](https://oeis.org/A268377) ([program](/edit/?oeis=268377)): Numbers n such that any prime factor of the form 4k+1 has even multiplicity.
+* [A268380](https://oeis.org/A268380) ([program](/edit/?oeis=268380)): Numbers having fewer prime factors of the form 4\*k+1 than of the form 4\*k+3, when counted with multiplicity.
+* [A268381](https://oeis.org/A268381) ([program](/edit/?oeis=268381)): Numbers having at least the same number of prime factors of the form 4\*k+1 than of the form 4\*k+3, when counted with multiplicity.
 * [A268382](https://oeis.org/A268382) ([program](/edit/?oeis=268382)): Partial sums of A268411; the least monotonic left inverse of A268415.
 * [A268383](https://oeis.org/A268383) ([program](/edit/?oeis=268383)): Least monotonic left inverse of A268412.
 * [A268384](https://oeis.org/A268384) ([program](/edit/?oeis=268384)): Characteristic function of A001317.
@@ -3040,6 +3287,7 @@ List of integer sequences with links to LODA programs.
 * [A268488](https://oeis.org/A268488) ([program](/edit/?oeis=268488)): Least number k of the form k = n\*(k % 10) + [k / 10], where k % 10 = last digit of k, [k / 10] = k without its last digit.
 * [A268508](https://oeis.org/A268508) ([program](/edit/?oeis=268508)): Decimal expansion of Pi\*sqrt(3)/8.
 * [A268514](https://oeis.org/A268514) ([program](/edit/?oeis=268514)): a(0)=0; thereafter a(2n+1)=3\*a(n)+1, a(2n)=2\*a(n)+a(n-1)+1.
+* [A268519](https://oeis.org/A268519) ([program](/edit/?oeis=268519)): Odd powers of 2 written between a pair of 1's.
 * [A268524](https://oeis.org/A268524) ([program](/edit/?oeis=268524)): a(n) = r\*a(ceiling(n/2))+s\*a(floor(n/2)) with a(1)=1 and (r,s)=(3,1).
 * [A268525](https://oeis.org/A268525) ([program](/edit/?oeis=268525)): a(n) = r\*a(ceiling(n/2))+s\*a(floor(n/2)) with a(1)=1 and (r,s)=(2,3).
 * [A268526](https://oeis.org/A268526) ([program](/edit/?oeis=268526)): a(n) = r\*a(ceiling(n/2))+s\*a(floor(n/2)) with a(1)=1 and (r,s)=(3,2).
@@ -3047,6 +3295,7 @@ List of integer sequences with links to LODA programs.
 * [A268539](https://oeis.org/A268539) ([program](/edit/?oeis=268539)): Numbers k such that 48\*k+25 is a perfect square.
 * [A268543](https://oeis.org/A268543) ([program](/edit/?oeis=268543)): The diagonal of 1/(1 - (y + z + x z + x w + x y w)).
 * [A268545](https://oeis.org/A268545) ([program](/edit/?oeis=268545)): From the diagonal of 1/(1 - (y + z + x w + x z w + x y w)).
+* [A268552](https://oeis.org/A268552) ([program](/edit/?oeis=268552)): Diagonal of the rational function 1/((1 - u v - u w - v w - u v w) \* (1 - x y - x z - y z)).
 * [A268553](https://oeis.org/A268553) ([program](/edit/?oeis=268553)): Diagonal of the rational function 1/((1 - u v - u w - v w) \* (1 - x y - x z - y z)).
 * [A268554](https://oeis.org/A268554) ([program](/edit/?oeis=268554)): Diagonal of the rational function 1/((1 - w - u v) \* (1 - x y - x z - y z)).
 * [A268555](https://oeis.org/A268555) ([program](/edit/?oeis=268555)): Diagonal of the rational function of six variables 1/((1 - w - u v - u v w) \* (1 - z - x y)).
@@ -3056,6 +3305,8 @@ List of integer sequences with links to LODA programs.
 * [A268586](https://oeis.org/A268586) ([program](/edit/?oeis=268586)): Expansion of (x^3\*(3\*x - 2))/(2\*x - 1)^3.
 * [A268587](https://oeis.org/A268587) ([program](/edit/?oeis=268587)): Expansion of x^4\*(5 - 16\*x + 13\*x^2)/(1 - 2\*x)^4.
 * [A268598](https://oeis.org/A268598) ([program](/edit/?oeis=268598)): Expansion of x^5\*(4 - 5\*x)/(1 - 2\*x)^4.
+* [A268600](https://oeis.org/A268600) ([program](/edit/?oeis=268600)): Expansion of 1/(2\*f(x)) + 1/(4 - 2\*g(x)), where f(x) = sqrt(1 - 4\*x) and g(x) = sqrt(1 + 4\*x).
+* [A268601](https://oeis.org/A268601) ([program](/edit/?oeis=268601)): Expansion of 1/(2\*f(x)) - 1/(4 - 2\*g(x)), where f(x) = sqrt(1 - 4\*x) and g(x) = sqrt(1 + 4\*x).
 * [A268604](https://oeis.org/A268604) ([program](/edit/?oeis=268604)): Decimal expansion of 6/sqrt(sqrt(3)).
 * [A268605](https://oeis.org/A268605) ([program](/edit/?oeis=268605)): a(1) = 0; a(n+1) is the smallest integer in which the difference between its digits sum and the a(n) digits sum is equal to the n-th prime.
 * [A268613](https://oeis.org/A268613) ([program](/edit/?oeis=268613)): Lucas numbers mod 20.
@@ -3114,6 +3365,7 @@ List of integer sequences with links to LODA programs.
 * [A268898](https://oeis.org/A268898) ([program](/edit/?oeis=268898)): Number of n X 2 0..2 arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two exactly once.
 * [A268899](https://oeis.org/A268899) ([program](/edit/?oeis=268899)): Number of n X 3 0..2 arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two exactly once.
 * [A268900](https://oeis.org/A268900) ([program](/edit/?oeis=268900)): Number of n X 4 0..2 arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two exactly once.
+* [A268901](https://oeis.org/A268901) ([program](/edit/?oeis=268901)): Number of n X 5 0..2 arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two exactly once.
 * [A268905](https://oeis.org/A268905) ([program](/edit/?oeis=268905)): Number of 2 X n 0..2 arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two exactly once.
 * [A268933](https://oeis.org/A268933) ([program](/edit/?oeis=268933)): Permutation of nonnegative integers: a(0) = 0, for n >= 1, a(n) = A268717(1 + A268831(n-1)).
 * [A268938](https://oeis.org/A268938) ([program](/edit/?oeis=268938)): Number of length-n 0..2 arrays with no repeated value unequal to the previous repeated value plus one mod 2+1.
@@ -3127,6 +3379,7 @@ List of integer sequences with links to LODA programs.
 * [A268965](https://oeis.org/A268965) ([program](/edit/?oeis=268965)): Number of n X 2 0..2 arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two not more than once.
 * [A268966](https://oeis.org/A268966) ([program](/edit/?oeis=268966)): Number of n X 3 0..2 arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two not more than once.
 * [A268967](https://oeis.org/A268967) ([program](/edit/?oeis=268967)): Number of n X 4 0..2 arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two not more than once.
+* [A268968](https://oeis.org/A268968) ([program](/edit/?oeis=268968)): Number of n X 5 0..2 arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two not more than once.
 * [A268972](https://oeis.org/A268972) ([program](/edit/?oeis=268972)): Number of 2 X n 0..2 arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two not more than once.
 * [A268989](https://oeis.org/A268989) ([program](/edit/?oeis=268989)): Number of n X 2 binary arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two not more than once.
 * [A268996](https://oeis.org/A268996) ([program](/edit/?oeis=268996)): Number of 2 X n binary arrays with some element plus some horizontally or antidiagonally adjacent neighbor totalling two not more than once.
@@ -3141,6 +3394,7 @@ List of integer sequences with links to LODA programs.
 * [A269044](https://oeis.org/A269044) ([program](/edit/?oeis=269044)): a(n) = 13\*n + 7.
 * [A269059](https://oeis.org/A269059) ([program](/edit/?oeis=269059)): Construct a hollow square of 1's of side n and fill its interior with 0's to create a stack of n binary numbers. Express the sum of the stack in decimal.
 * [A269068](https://oeis.org/A269068) ([program](/edit/?oeis=269068)): a(n+2) = a(n+1) + L(n+1)\*a(n), where L = Lucas number (A000032) and a(0) = a(1) = 1.
+* [A269083](https://oeis.org/A269083) ([program](/edit/?oeis=269083)): Number of n X 2 binary arrays with some element plus some horizontally, vertically or antidiagonally adjacent neighbor totalling two not more than once.
 * [A269091](https://oeis.org/A269091) ([program](/edit/?oeis=269091)): Number of n X 2 0..3 arrays with some element plus some horizontally or vertically adjacent neighbor totalling three exactly once.
 * [A269098](https://oeis.org/A269098) ([program](/edit/?oeis=269098)): Expansion of (1 + 2\*x + 3\*x^2 + x^3 + x^5)/(1 - x^3)^2.
 * [A269100](https://oeis.org/A269100) ([program](/edit/?oeis=269100)): a(n) = 13\*n + 11.
@@ -3282,16 +3536,19 @@ List of integer sequences with links to LODA programs.
 * [A269705](https://oeis.org/A269705) ([program](/edit/?oeis=269705)): Numbers k such that prime(k) == 1 (mod 9).
 * [A269707](https://oeis.org/A269707) ([program](/edit/?oeis=269707)): Decimal expansion of x = 3\*Sum\_\{n in E\} 1/10^n where E is the set of numbers whose base-4 representation consists of only 0's and 1's.
 * [A269708](https://oeis.org/A269708) ([program](/edit/?oeis=269708)): Number of active (ON,black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 14", based on the 5-celled von Neumann neighborhood.
+* [A269709](https://oeis.org/A269709) ([program](/edit/?oeis=269709)): Partial sums of the number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 14", based on the 5-celled von Neumann neighborhood.
 * [A269712](https://oeis.org/A269712) ([program](/edit/?oeis=269712)): Number of active (ON,black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 20", based on the 5-celled von Neumann neighborhood.
 * [A269716](https://oeis.org/A269716) ([program](/edit/?oeis=269716)): Number of active (ON,black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 22", based on the 5-celled von Neumann neighborhood.
 * [A269723](https://oeis.org/A269723) ([program](/edit/?oeis=269723)): Start with A\_0 = 0, then extend by setting B\_k = complement of A\_k and A\_\{k+1\} = A\_k A\_k B\_k B\_k; sequence is limit of A\_k as k -> infinity.
 * [A269725](https://oeis.org/A269725) ([program](/edit/?oeis=269725)): a(n) = row number of extended Wythoff array (see A035513) which contains the sequence n times the Fibonacci numbers 1,2,3,5,8,13,21,... .
+* [A269726](https://oeis.org/A269726) ([program](/edit/?oeis=269726)): a(n) = row number of extended Wythoff array (see A035513) which contains the sequence n times the Lucas numbers 1,3,4,7,11,18,... (A000204).
 * [A269730](https://oeis.org/A269730) ([program](/edit/?oeis=269730)): Dimensions of the 2-polytridendriform operad TDendr\_2.
 * [A269731](https://oeis.org/A269731) ([program](/edit/?oeis=269731)): Dimensions of the 3-polytridendriform operad TDendr\_3.
 * [A269732](https://oeis.org/A269732) ([program](/edit/?oeis=269732)): Dimensions of the 4-polytridendriform operad TDendr\_4.
 * [A269735](https://oeis.org/A269735) ([program](/edit/?oeis=269735)): G.f.: Sum\_\{k >= 0\} x^(2^k)\*(1-x^(2^k))/(1+x^(2^k)).
 * [A269745](https://oeis.org/A269745) ([program](/edit/?oeis=269745)): Maximal number of 1's in an n X n \{0,1\} Toeplitz matrix with property that no four 1's form a square with sides parallel to the edges of the matrix.
 * [A269746](https://oeis.org/A269746) ([program](/edit/?oeis=269746)): Maximal number of 1's in an equilateral triangle of 0's and 1's with n points on each side, the entries being constant on vertical lines, with property that no three 1's form a triangle with sides parallel to the edges of the triangle.
+* [A269752](https://oeis.org/A269752) ([program](/edit/?oeis=269752)): Table of inverse permutations of the rows of A131987: Position of numbers inserted in "storage order" into a perfect binary table of 2^k-1 nodes.
 * [A269760](https://oeis.org/A269760) ([program](/edit/?oeis=269760)): Number of n X 1 0..5 arrays with some element plus some horizontally or vertically adjacent neighbor totalling five exactly once.
 * [A269771](https://oeis.org/A269771) ([program](/edit/?oeis=269771)): Number of length-n 0..3 arrays with every repeated value unequal to the previous repeated value plus one mod 3+1.
 * [A269772](https://oeis.org/A269772) ([program](/edit/?oeis=269772)): Number of length-n 0..4 arrays with every repeated value unequal to the previous repeated value plus one mod 4+1.
@@ -3325,6 +3582,7 @@ List of integer sequences with links to LODA programs.
 * [A269878](https://oeis.org/A269878) ([program](/edit/?oeis=269878)): Partial sums of the number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 43", based on the 5-celled von Neumann neighborhood.
 * [A269879](https://oeis.org/A269879) ([program](/edit/?oeis=269879)): First differences of number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 43", based on the 5-celled von Neumann neighborhood.
 * [A269880](https://oeis.org/A269880) ([program](/edit/?oeis=269880)): First differences of number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 4", based on the 5-celled von Neumann neighborhood.
+* [A269889](https://oeis.org/A269889) ([program](/edit/?oeis=269889)): The number of permutations of 1, 2,..., n such that none of 123, 132, 213, 231, 312, 321 appear in the permutation.
 * [A269895](https://oeis.org/A269895) ([program](/edit/?oeis=269895)): Number of n X 1 0..6 arrays with some element plus some horizontally or vertically adjacent neighbor totalling six exactly once.
 * [A269906](https://oeis.org/A269906) ([program](/edit/?oeis=269906)): Number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 1", based on the 5-celled von Neumann neighborhood.
 * [A269907](https://oeis.org/A269907) ([program](/edit/?oeis=269907)): Number of active (ON,black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 1", based on the 5-celled von Neumann neighborhood.
@@ -3335,6 +3593,7 @@ List of integer sequences with links to LODA programs.
 * [A269912](https://oeis.org/A269912) ([program](/edit/?oeis=269912)): Partial sums of the number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 3", based on the 5-celled von Neumann neighborhood.
 * [A269913](https://oeis.org/A269913) ([program](/edit/?oeis=269913)): First differences of number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 3", based on the 5-celled von Neumann neighborhood.
 * [A269949](https://oeis.org/A269949) ([program](/edit/?oeis=269949)): Triangle read by rows, T(n,k) = denominator(binomial(-1/2, n-k))\*binomial(n-1/2, k-1/2), for n>=0 and 0<=k<=n.
+* [A269950](https://oeis.org/A269950) ([program](/edit/?oeis=269950)): Triangle read by rows, T(n,k) = denominator(binomial(1/2,n-k))\*binomial(n+1/2, k+1/2), for n>=0 and 0<=k<=n.
 * [A269956](https://oeis.org/A269956) ([program](/edit/?oeis=269956)): Triangle read by rows, T(n,k) = binomial(3\*n,n+k) for n>=0 and 0<=k<=n.
 * [A269962](https://oeis.org/A269962) ([program](/edit/?oeis=269962)): Start with a square; at each stage add a square at each expandable vertex so that the ratio of the side of the squares at stage n+1 and at stage n is the golden ratio phi=0.618...; a(n) is the number of squares at n-th stage.
 * [A269963](https://oeis.org/A269963) ([program](/edit/?oeis=269963)): Start with a square; at each stage add a square at each expandable vertex so that the ratio of the side of the squares at stage n+1 and at stage n is the golden ratio phi=0.618...; a(n) is the number of squares in a portion of the n-th stage (see below).
@@ -3392,6 +3651,7 @@ List of integer sequences with links to LODA programs.
 * [A270300](https://oeis.org/A270300) ([program](/edit/?oeis=270300)): Numbers which are representable as a sum of thirteen but no fewer consecutive nonnegative integers.
 * [A270301](https://oeis.org/A270301) ([program](/edit/?oeis=270301)): Numbers which are representable as a sum of sixteen but no fewer consecutive nonnegative integers.
 * [A270302](https://oeis.org/A270302) ([program](/edit/?oeis=270302)): Numbers which are representable as a sum of seventeen but no fewer consecutive nonnegative integers.
+* [A270303](https://oeis.org/A270303) ([program](/edit/?oeis=270303)): Numbers which are representable as a sum of nineteen but no fewer consecutive nonnegative integers.
 * [A270307](https://oeis.org/A270307) ([program](/edit/?oeis=270307)): Expansion of -(4\*x^3+8\*x^2+4\*x+1)/(2\*x^4+4\*x^3+2\*x^2-x-1).
 * [A270312](https://oeis.org/A270312) ([program](/edit/?oeis=270312)): Numerator of Fibonacci(n)/n.
 * [A270313](https://oeis.org/A270313) ([program](/edit/?oeis=270313)): Denominator of Fibonacci(n)/n.
@@ -3405,6 +3665,7 @@ List of integer sequences with links to LODA programs.
 * [A270388](https://oeis.org/A270388) ([program](/edit/?oeis=270388)): a(n) = A048739(n-2) mod n.
 * [A270390](https://oeis.org/A270390) ([program](/edit/?oeis=270390)): Greatest common divisor of 2^n-1 and 5^n-1.
 * [A270438](https://oeis.org/A270438) ([program](/edit/?oeis=270438)): a(n) is the number of entries == 1 mod 4 in row n of Pascal's triangle.
+* [A270439](https://oeis.org/A270439) ([program](/edit/?oeis=270439)): Alternating sum of nonsquares (A000037).
 * [A270440](https://oeis.org/A270440) ([program](/edit/?oeis=270440)): Least k such that binomial(k, 2) >= binomial(2\*n, n).
 * [A270444](https://oeis.org/A270444) ([program](/edit/?oeis=270444)): Expansion of 2\*(1+2\*x) / (1-8\*x+4\*x^2).
 * [A270445](https://oeis.org/A270445) ([program](/edit/?oeis=270445)): Expansion of 2\*x\*(1+4\*x) / (1-12\*x+16\*x^2).
@@ -3417,7 +3678,9 @@ List of integer sequences with links to LODA programs.
 * [A270473](https://oeis.org/A270473) ([program](/edit/?oeis=270473)): Expansion of (1-5\*x)/(1-9\*x).
 * [A270489](https://oeis.org/A270489) ([program](/edit/?oeis=270489)): Sum\_\{k=0..n\} ((binomial(3\*k,k)\*binomial(2\*n-k,n))/(2\*k+1)).
 * [A270490](https://oeis.org/A270490) ([program](/edit/?oeis=270490)): a(n) = Sum\_\{i=0..(n+1)/2\} binomial(2\*i+1,i)\*binomial(2\*n-2\*i,n)/(2\*i+1).
+* [A270494](https://oeis.org/A270494) ([program](/edit/?oeis=270494)): Sum of the sizes of the second blocks in all set partitions of \{1,2,...,n\}.
 * [A270510](https://oeis.org/A270510) ([program](/edit/?oeis=270510)): Number of 2X2X2 triangular 0..n arrays with some element plus some adjacent element totalling n+1 exactly once.
+* [A270528](https://oeis.org/A270528) ([program](/edit/?oeis=270528)): Sum of divisors of the products of the smaller and larger parts of the partitions of n into two parts.
 * [A270530](https://oeis.org/A270530) ([program](/edit/?oeis=270530)): a(n) = Sum\_\{k=0..n\}((binomial(2\*k,k)/(k+1)\*binomial(2\*n+2,n-k))).
 * [A270531](https://oeis.org/A270531) ([program](/edit/?oeis=270531)): a(n) = Sum\_\{i=1..floor(n/2)\} (i\*(n-i))!.
 * [A270541](https://oeis.org/A270541) ([program](/edit/?oeis=270541)): a(n) = A001359(n) - A001359(n+1) - A001359(n+2) + A001359(n+3).
@@ -3459,6 +3722,13 @@ List of integer sequences with links to LODA programs.
 * [A270740](https://oeis.org/A270740) ([program](/edit/?oeis=270740)): Period 9: repeat 0,1,2,2,0,1,1,2,0.
 * [A270742](https://oeis.org/A270742) ([program](/edit/?oeis=270742)): Binary expansion of C = (1/2)\*(3/4)\*(7/8)\*(15/16)... .
 * [A270743](https://oeis.org/A270743) ([program](/edit/?oeis=270743)): Runlength sequence of the zero-one sequence A270742.
+* [A270756](https://oeis.org/A270756) ([program](/edit/?oeis=270756)): Total sum of the sizes of all blocks with maximal element 2 in all set partitions of \{1,2,...,n\}.
+* [A270757](https://oeis.org/A270757) ([program](/edit/?oeis=270757)): Total sum of the sizes of all blocks with maximal element 3 in all set partitions of \{1,2,...,n\}.
+* [A270765](https://oeis.org/A270765) ([program](/edit/?oeis=270765)): Total sum of the sizes of all blocks with minimal element 2 in all set partitions of \{1,2,...,n\}.
+* [A270766](https://oeis.org/A270766) ([program](/edit/?oeis=270766)): Total sum of the sizes of all blocks with minimal element 3 in all set partitions of \{1,2,...,n\}.
+* [A270767](https://oeis.org/A270767) ([program](/edit/?oeis=270767)): Total sum of the sizes of all blocks with minimal element 4 in all set partitions of \{1,2,...,n\}.
+* [A270768](https://oeis.org/A270768) ([program](/edit/?oeis=270768)): Total sum of the sizes of all blocks with minimal element 5 in all set partitions of \{1,2,...,n\}.
+* [A270769](https://oeis.org/A270769) ([program](/edit/?oeis=270769)): Total sum of the sizes of all blocks with minimal element 6 in all set partitions of \{1,2,...,n\}.
 * [A270775](https://oeis.org/A270775) ([program](/edit/?oeis=270775)): a(n) is the number of invertible 2 X 2 upper triangular matrices over Z\_p where p = prime(n).
 * [A270784](https://oeis.org/A270784) ([program](/edit/?oeis=270784)): Expansion of (1-sqrt(1-4\*x^4/(1-x)^4))/(2\*x^4\*(1-x)).
 * [A270788](https://oeis.org/A270788) ([program](/edit/?oeis=270788)): Unique fixed point of the 3-symbol Fibonacci morphism phi-hat\_2.
@@ -3473,8 +3743,8 @@ List of integer sequences with links to LODA programs.
 * [A270808](https://oeis.org/A270808) ([program](/edit/?oeis=270808)): First differences of A270807, divided by 2.
 * [A270809](https://oeis.org/A270809) ([program](/edit/?oeis=270809)): a(n) = n^3/3 - 7\*n/3 + 4.
 * [A270810](https://oeis.org/A270810) ([program](/edit/?oeis=270810)): Expansion of (x - x^2 + 2\*x^3 + 2\*x^4)/(1 - 3\*x + 2\*x^2).
-* [A270814](https://oeis.org/A270814) ([program](/edit/?oeis=270814)): a(1)=0; thereafter a(2k)=k+a(k), a(2k+1)=6k+4+a(6k+4).
 * [A270819](https://oeis.org/A270819) ([program](/edit/?oeis=270819)): a(n) is the number of arithmetic progressions of length 3 among the quadratic residues modulo prime(n).
+* [A270822](https://oeis.org/A270822) ([program](/edit/?oeis=270822)): Expansion of 1/((1-4\*x^2)^(3/2)-2\*x\*(1-4\*x^2)).
 * [A270824](https://oeis.org/A270824) ([program](/edit/?oeis=270824)): Period 16: repeat [0, 1, 1, 0, 2, 3, 3, 2, 3, 2, 2, 3, 1, 0, 0, 1].
 * [A270826](https://oeis.org/A270826) ([program](/edit/?oeis=270826)): Maximum number of iterations needed in the Euclid algorithm for gcd(x,y) in [1..n].
 * [A270828](https://oeis.org/A270828) ([program](/edit/?oeis=270828)): a(n) = (Sum\_\{k=1..2n-1\} prime(k)) mod prime(n).
@@ -3522,14 +3792,18 @@ List of integer sequences with links to LODA programs.
 * [A271211](https://oeis.org/A271211) ([program](/edit/?oeis=271211)): Composite integers sandwiched between primes p, q with q-p = 4.
 * [A271212](https://oeis.org/A271212) ([program](/edit/?oeis=271212)): a(n) = (2n-1)\*a(n-1) + 2\*(n-2)\*a(n-2).
 * [A271216](https://oeis.org/A271216) ([program](/edit/?oeis=271216)): a(n) = 2^n floor(n/2)!
+* [A271218](https://oeis.org/A271218) ([program](/edit/?oeis=271218)): Number of symmetric linked diagrams with n links and no simple link.
 * [A271220](https://oeis.org/A271220) ([program](/edit/?oeis=271220)): Concatenate sum of digits of previous term and product of digits of previous term, starting with 6.
+* [A271234](https://oeis.org/A271234) ([program](/edit/?oeis=271234)): 2^(p-1) modulo p^3, where p = prime(n).
 * [A271254](https://oeis.org/A271254) ([program](/edit/?oeis=271254)): Number of active (ON,black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 323", based on the 5-celled von Neumann neighborhood.
 * [A271266](https://oeis.org/A271266) ([program](/edit/?oeis=271266)): a(n) = Product\_\{k=1..n\} (k^2 + 21).
 * [A271286](https://oeis.org/A271286) ([program](/edit/?oeis=271286)): Number of active (ON,black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 337", based on the 5-celled von Neumann neighborhood.
 * [A271315](https://oeis.org/A271315) ([program](/edit/?oeis=271315)): Array T(n,k) read by diagonals: T(n,k) = T(n,k-1) + T(n,k-2) where  T(n,0) = F(n+1), T(n,1) = F(n); F(n) = Fibonacci(n) = A000045(n).
 * [A271317](https://oeis.org/A271317) ([program](/edit/?oeis=271317)): Fibonacci(n) divides the n-th primorial.
+* [A271318](https://oeis.org/A271318) ([program](/edit/?oeis=271318)): Expansion of 1/(-x\*sqrt(4\*x^2+1)-x^2+1).
 * [A271319](https://oeis.org/A271319) ([program](/edit/?oeis=271319)): Number of distinct prime factors of the n-th n-gonal number (A060354).
 * [A271320](https://oeis.org/A271320) ([program](/edit/?oeis=271320)): Number of prime factors, with multiplicity, of the n-th n-gonal number (A060354).
+* [A271321](https://oeis.org/A271321) ([program](/edit/?oeis=271321)): Smallest prime factor of the n-th n-gonal number (A060354).
 * [A271322](https://oeis.org/A271322) ([program](/edit/?oeis=271322)): Largest prime factor of the n-th n-gonal number (A060354).
 * [A271324](https://oeis.org/A271324) ([program](/edit/?oeis=271324)): a(n) = n + floor(n/4) + (n mod 4).
 * [A271329](https://oeis.org/A271329) ([program](/edit/?oeis=271329)): a(n) is the sum of the divisors of the n-th sphenic number (A007304).
@@ -3556,6 +3830,7 @@ List of integer sequences with links to LODA programs.
 * [A271427](https://oeis.org/A271427) ([program](/edit/?oeis=271427)): a(n) = 7^n - a(n-1) for n>0, a(0)=0.
 * [A271439](https://oeis.org/A271439) ([program](/edit/?oeis=271439)): If n is a triangular number, a(n) = 0, otherwise a(n) = n - A002024(n) + 1
 * [A271440](https://oeis.org/A271440) ([program](/edit/?oeis=271440)): a(n) = sigma(prime(n)^n) - phi(prime(n)^n).
+* [A271460](https://oeis.org/A271460) ([program](/edit/?oeis=271460)): Triangle read by rows: T(n,m) = (m/(n-m))\*Sum\_\{k=1..n-m\}((-1)^k\*binomial(m-1,k-1)\*binomial(3\*(n-m)-k-1,n-m-k)), T(n,n)=1.
 * [A271469](https://oeis.org/A271469) ([program](/edit/?oeis=271469)): G.f. satisfies: A(x) = 1 + x\*(A(x)^3 - A(x)^4 + A(x)^5).
 * [A271473](https://oeis.org/A271473) ([program](/edit/?oeis=271473)): a(1)=0; thereafter a(2k)=k+a(k), a(2k+1)=k+a(6k+4).
 * [A271475](https://oeis.org/A271475) ([program](/edit/?oeis=271475)): Total number of burnt pancakes flipped using the Max(n) greedy algorithm.
@@ -3600,11 +3875,13 @@ List of integer sequences with links to LODA programs.
 * [A271675](https://oeis.org/A271675) ([program](/edit/?oeis=271675)): Numbers m such that 3\*m + 4 is a square.
 * [A271703](https://oeis.org/A271703) ([program](/edit/?oeis=271703)): Triangle read by rows: the unsigned Lah numbers T(n,k) = binomial(n-1, k-1)\*n!/k! if n > 0 and k > 0, T(n,0) = 0^n and otherwise 0, for n >= 0 and 0 <= k <= n.
 * [A271709](https://oeis.org/A271709) ([program](/edit/?oeis=271709)): Table T(n,k) = 2^n + 2^k read by antidiagonals.
+* [A271710](https://oeis.org/A271710) ([program](/edit/?oeis=271710)): Table T(n,k) = 2^n XOR 2^k read by antidiagonals, where XOR is the binary exclusive or operator.
 * [A271713](https://oeis.org/A271713) ([program](/edit/?oeis=271713)): Numbers n such that 3\*n - 5 is a square.
 * [A271723](https://oeis.org/A271723) ([program](/edit/?oeis=271723)): Numbers k such that 3\*k - 8 is a square.
 * [A271740](https://oeis.org/A271740) ([program](/edit/?oeis=271740)): a(n) = 3\*n^2 - 2\*n + 2.
 * [A271743](https://oeis.org/A271743) ([program](/edit/?oeis=271743)): Number of set partitions of [n] such that 4 is the largest element of the last block.
 * [A271751](https://oeis.org/A271751) ([program](/edit/?oeis=271751)): Period 10 zigzag sequence; repeat: [0, 1, 2, 3, 4, 5, 4, 3, 2, 1].
+* [A271752](https://oeis.org/A271752) ([program](/edit/?oeis=271752)): Number of set partitions of [n+1] such that n is the largest element of the last block.
 * [A271771](https://oeis.org/A271771) ([program](/edit/?oeis=271771)): Maximum total Hamming distance between pairs of consecutive elements in any permutation of all 2^n binary words of length n.
 * [A271777](https://oeis.org/A271777) ([program](/edit/?oeis=271777)): a(n) = Sum\_\{k=1..n\} ((-1)^(n-k) \* k / ((n+1)^2 + (k-1)\*(n+1))) \* binomial(n+1, k+1) \* binomial(n+k, k)^2.
 * [A271779](https://oeis.org/A271779) ([program](/edit/?oeis=271779)): a(n) = n^3 + 2\*n^2 + 5\*n + 11.
@@ -3650,6 +3927,8 @@ List of integer sequences with links to LODA programs.
 * [A271970](https://oeis.org/A271970) ([program](/edit/?oeis=271970)): Linear recurrence, with both signature and original terms = 1,0,1,0,1
 * [A271972](https://oeis.org/A271972) ([program](/edit/?oeis=271972)): Expansion of (1 + 3\*x)/(1 - 4\*x + 7\*x^2).
 * [A271974](https://oeis.org/A271974) ([program](/edit/?oeis=271974)): Let p = prime(n): if p mod 4 == 1 then a(n) = (1+p)/2 otherwise if p mod 4 == 3 then a(n) = (1-p)/2.
+* [A271981](https://oeis.org/A271981) ([program](/edit/?oeis=271981)): Primes p such that p + 40 is also prime.
+* [A271982](https://oeis.org/A271982) ([program](/edit/?oeis=271982)): Primes p such that p + 42 is also prime.
 * [A271994](https://oeis.org/A271994) ([program](/edit/?oeis=271994)): The chalcogen sequence (a(n) = A018227(n)-2).
 * [A271995](https://oeis.org/A271995) ([program](/edit/?oeis=271995)): The Pnictogen sequence: a(n) = A018227(n)-3.
 * [A271996](https://oeis.org/A271996) ([program](/edit/?oeis=271996)): The crystallogen sequence (a(n) = A018227(n)-4).
@@ -3670,13 +3949,13 @@ List of integer sequences with links to LODA programs.
 * [A272068](https://oeis.org/A272068) ([program](/edit/?oeis=272068)): a(n) = (10^n-1)^5.
 * [A272071](https://oeis.org/A272071) ([program](/edit/?oeis=272071)): Expansion of x\*(3 - 2\*x + x^2)/((1 - x)^2\*(1 + x + x^2)).
 * [A272073](https://oeis.org/A272073) ([program](/edit/?oeis=272073)): Exponents of x in the numerator of cluster variables of rank 2 cluster algebras.
+* [A272078](https://oeis.org/A272078) ([program](/edit/?oeis=272078)): Numbers k such that k^2 + 1 is product of 3 distinct primes.
 * [A272093](https://oeis.org/A272093) ([program](/edit/?oeis=272093)): a(n) = Product\_\{k=0..n\} binomial(k\*n,k).
 * [A272094](https://oeis.org/A272094) ([program](/edit/?oeis=272094)): a(n) = Product\_\{k=0..n\} binomial(k^2,k).
 * [A272095](https://oeis.org/A272095) ([program](/edit/?oeis=272095)): a(n) = Product\_\{k=0..n\} binomial(n^2,k).
 * [A272100](https://oeis.org/A272100) ([program](/edit/?oeis=272100)): Integers n that are the sum of three nonzero squares while n\*(n+1) is not.
 * [A272103](https://oeis.org/A272103) ([program](/edit/?oeis=272103)): Convolution of nonzero heptagonal numbers (A000566) with themselves.
 * [A272104](https://oeis.org/A272104) ([program](/edit/?oeis=272104)): Sum of the even numbers among the larger parts of the partitions of n into two parts.
-* [A272122](https://oeis.org/A272122) ([program](/edit/?oeis=272122)): Number of positive divisors of A003266(n).
 * [A272123](https://oeis.org/A272123) ([program](/edit/?oeis=272123)): a(n) = Fibonacci(3n) - Fibonacci(2n).
 * [A272124](https://oeis.org/A272124) ([program](/edit/?oeis=272124)): a(n) = 12\*n^4 + 16\*n^3 + 10\*n^2 + 4\*n + 1.
 * [A272125](https://oeis.org/A272125) ([program](/edit/?oeis=272125)): a(n) = n^3\*(2\*n^2+1)/3.
@@ -3697,10 +3976,12 @@ List of integer sequences with links to LODA programs.
 * [A272199](https://oeis.org/A272199) ([program](/edit/?oeis=272199)): Expansion of 1/(1 - 2\*x + 13\*x^2).
 * [A272211](https://oeis.org/A272211) ([program](/edit/?oeis=272211)): Product of n-th prime and the sum of the divisors of n.
 * [A272212](https://oeis.org/A272212) ([program](/edit/?oeis=272212)): Sum of the odd numbers among the larger parts of the partitions of n into two parts.
+* [A272214](https://oeis.org/A272214) ([program](/edit/?oeis=272214)): Square array read by antidiagonals upwards in which T(n,k) is the product of the n-th prime and the sum of the divisors of k, n >= 1, k >= 1.
 * [A272244](https://oeis.org/A272244) ([program](/edit/?oeis=272244)): a(n) = Product\_\{k=0..n\} (n^2 + k^2).
 * [A272261](https://oeis.org/A272261) ([program](/edit/?oeis=272261)): Number of one-to-one functions f from [n] to [2n] where f(x) may not be equal to x or to 2n+1-x.
 * [A272263](https://oeis.org/A272263) ([program](/edit/?oeis=272263)): a(n) = numerator of A000032(n) - 1/2^n.
 * [A272266](https://oeis.org/A272266) ([program](/edit/?oeis=272266)): The union of squares (A000290) and 10-gonal numbers (A001107).
+* [A272270](https://oeis.org/A272270) ([program](/edit/?oeis=272270)): Positive integers n where the number of parts function on the set of 4-ary partitions of n is equidistributed mod 4.
 * [A272297](https://oeis.org/A272297) ([program](/edit/?oeis=272297)): a(n) = n^4 + 64.
 * [A272298](https://oeis.org/A272298) ([program](/edit/?oeis=272298)): a(n) = n^4 + 324.
 * [A272299](https://oeis.org/A272299) ([program](/edit/?oeis=272299)): a(n) = n + 2\*floor(n/2) + 3\*floor(n/3).
@@ -3729,6 +4010,7 @@ List of integer sequences with links to LODA programs.
 * [A272525](https://oeis.org/A272525) ([program](/edit/?oeis=272525)): Convolution of nonzero repunits (A002275) with themselves.
 * [A272532](https://oeis.org/A272532) ([program](/edit/?oeis=272532)): Single bit representation of the sum of two sinusoids with periods 2 and 2\*sqrt(2).
 * [A272549](https://oeis.org/A272549) ([program](/edit/?oeis=272549)): Expansion of x\*(1 + 5\*x - 3\*x^2 + 7\*x^3 + 3\*x^4 + 3 \*x^5 - x^6 + x^7)/((1 - x)^3\*(1 + x + x^2 + x^3)^2).
+* [A272550](https://oeis.org/A272550) ([program](/edit/?oeis=272550)): Lexicographically earliest increasing sequence of primes such that odd-indexed terms have final digit 1 and even-indexed terms have final digit 9.
 * [A272569](https://oeis.org/A272569) ([program](/edit/?oeis=272569)): A variation on Stern's diatomic sequence.
 * [A272574](https://oeis.org/A272574) ([program](/edit/?oeis=272574)): a(n) = f(9, f(8, n)), where f(k,m) = floor(m\*k/(k-1)).
 * [A272576](https://oeis.org/A272576) ([program](/edit/?oeis=272576)): a(n) = f(10, f(9, n)), where f(k,m) = floor(m\*k/(k-1)).
@@ -3773,6 +4055,8 @@ List of integer sequences with links to LODA programs.
 * [A272832](https://oeis.org/A272832) ([program](/edit/?oeis=272832)): Number of active (ON,black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 694", based on the 5-celled von Neumann neighborhood.
 * [A272850](https://oeis.org/A272850) ([program](/edit/?oeis=272850)): a(n) = (n^2 + (n+1)^2)\*(n^2 + (n+1)^2 + 2\*n\*(n+1)).
 * [A272863](https://oeis.org/A272863) ([program](/edit/?oeis=272863)): Numerator of the ratio of consecutive prime gaps.
+* [A272867](https://oeis.org/A272867) ([program](/edit/?oeis=272867)): Triangle read by rows, T(n,k) = GegenbauerC(m,-n,-2) where m = k if k<n else 2\*n-k, for n>=0 and 0<=k<=2n.
+* [A272868](https://oeis.org/A272868) ([program](/edit/?oeis=272868)): Triangle read by rows, T(n,k) = 2^k\*GegenbauerC(k,-n,-1/4), for n>=0 and 0<=k<=n.
 * [A272870](https://oeis.org/A272870) ([program](/edit/?oeis=272870)): Real part of (n + i)^4.
 * [A272871](https://oeis.org/A272871) ([program](/edit/?oeis=272871)): Imaginary part of (n + i)^4.
 * [A272874](https://oeis.org/A272874) ([program](/edit/?oeis=272874)): Decimal expansion of the infinite nested radical sqrt(-1+sqrt(1+sqrt(-1+sqrt(1+ ... ))).
@@ -3784,7 +4068,10 @@ List of integer sequences with links to LODA programs.
 * [A272914](https://oeis.org/A272914) ([program](/edit/?oeis=272914)): Sixth powers ending in digit 6.
 * [A272915](https://oeis.org/A272915) ([program](/edit/?oeis=272915)): a(n) = n + floor(5\*n/6).
 * [A272918](https://oeis.org/A272918) ([program](/edit/?oeis=272918)): Fibonacci numbers with the base 10 digits sorted into increasing order.
+* [A272920](https://oeis.org/A272920) ([program](/edit/?oeis=272920)): Number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 555", based on the 5-celled von Neumann neighborhood.
 * [A272921](https://oeis.org/A272921) ([program](/edit/?oeis=272921)): Number of active (ON,black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 555", based on the 5-celled von Neumann neighborhood.
+* [A272922](https://oeis.org/A272922) ([program](/edit/?oeis=272922)): Partial sums of the number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 555", based on the 5-celled von Neumann neighborhood.
+* [A272923](https://oeis.org/A272923) ([program](/edit/?oeis=272923)): First differences of number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 555", based on the 5-celled von Neumann neighborhood.
 * [A272928](https://oeis.org/A272928) ([program](/edit/?oeis=272928)): Partial sums of A147562.
 * [A272931](https://oeis.org/A272931) ([program](/edit/?oeis=272931)): a(n) = 2^(n+1)\*cos(n\*arctan(sqrt(15))).
 * [A272952](https://oeis.org/A272952) ([program](/edit/?oeis=272952)): Number of n X 2 0..1 arrays with exactly n+2-2 having value 1 and no three 1s forming an isosceles right triangle.
@@ -3797,17 +4084,20 @@ List of integer sequences with links to LODA programs.
 * [A273012](https://oeis.org/A273012) ([program](/edit/?oeis=273012)): Totient of the n-th semiprime.
 * [A273015](https://oeis.org/A273015) ([program](/edit/?oeis=273015)): Ramanujan's largely composite numbers having 3 as the greatest prime divisor.
 * [A273019](https://oeis.org/A273019) ([program](/edit/?oeis=273019)): a(n) = hypergeom([-2\*n-1, 1/2], [2], 4) + (2\*n+1)\*hypergeom([-n+1/2, -n], [2], 4).
+* [A273020](https://oeis.org/A273020) ([program](/edit/?oeis=273020)): a(n) = Sum\_\{k=0..n\} C(n,k)\*((-1)^n\*(C(k,n-k)-C(k,n-k-1))+C(n-k,k+1)).
 * [A273045](https://oeis.org/A273045) ([program](/edit/?oeis=273045)): Fibonacci numbers with digits in nondecreasing order.
 * [A273050](https://oeis.org/A273050) ([program](/edit/?oeis=273050)): Numbers k such that ror(k) XOR rol(k) = k, where ror(x)=A038572(x) is x rotated one binary place to the right, rol(x)=A006257(x) is x rotated one binary place to the left, and XOR is the binary exclusive-or operator.
 * [A273052](https://oeis.org/A273052) ([program](/edit/?oeis=273052)): Numbers n such that 7\*n^2 + 8 is a square.
 * [A273053](https://oeis.org/A273053) ([program](/edit/?oeis=273053)): Numbers n such that 15\*n^2 + 16 is a square.
 * [A273054](https://oeis.org/A273054) ([program](/edit/?oeis=273054)): Numbers n such that 19\*n^2 + 20 is a square.
 * [A273055](https://oeis.org/A273055) ([program](/edit/?oeis=273055)): a(n) = Sum\_\{k=0..n\} binomial(2\*k, k) \* binomial(2\*n+1, 2\*k).
+* [A273060](https://oeis.org/A273060) ([program](/edit/?oeis=273060)): a(n) = phi(n!)/phi(n).
 * [A273065](https://oeis.org/A273065) ([program](/edit/?oeis=273065)): Decimal expansion of the negative reciprocal of the real root of x^3 - 2x + 2.
 * [A273066](https://oeis.org/A273066) ([program](/edit/?oeis=273066)): Decimal expansion of the real root of x^3 - 2x + 2, negated.
 * [A273067](https://oeis.org/A273067) ([program](/edit/?oeis=273067)): Decimal expansion of the constant term, which is also a root, of the cubic polynomial below.
 * [A273088](https://oeis.org/A273088) ([program](/edit/?oeis=273088)): a(n) is a multiple of 6 and a(n)-1 or a(n)+1 is an isolated (non-twin) prime number.
 * [A273092](https://oeis.org/A273092) ([program](/edit/?oeis=273092)): a(n) = 2^n - 1 written backwards.
+* [A273105](https://oeis.org/A273105) ([program](/edit/?oeis=273105)): a(n) = A038572(n) + A006257(n), sum of the two numbers obtained by rotating the binary representation of n by one place to the right and to the left.
 * [A273109](https://oeis.org/A273109) ([program](/edit/?oeis=273109)): Numbers n such that in the difference triangle of the divisors of n (including the divisors of n) the diagonal from the bottom entry to n gives the divisors of n.
 * [A273123](https://oeis.org/A273123) ([program](/edit/?oeis=273123)): Values of A007692(n) that are not of the form x^2 + y^2 + z^2 where x, y, z are nonzero integers.
 * [A273129](https://oeis.org/A273129) ([program](/edit/?oeis=273129)): The Rote-Fibonacci infinite sequence.
@@ -3850,6 +4140,7 @@ List of integer sequences with links to LODA programs.
 * [A273336](https://oeis.org/A273336) ([program](/edit/?oeis=273336)): Partial sums of the number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 657", based on the 5-celled von Neumann neighborhood.
 * [A273337](https://oeis.org/A273337) ([program](/edit/?oeis=273337)): First differences of number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 657", based on the 5-celled von Neumann neighborhood.
 * [A273348](https://oeis.org/A273348) ([program](/edit/?oeis=273348)): The sum of the semiperimeters of the bargraphs of area n (n>=1).
+* [A273352](https://oeis.org/A273352) ([program](/edit/?oeis=273352)): a(n) = 2^(2n+2) F(n) where F(n) is Ramanujan's F(n) = Sum\_\{k>=1\} k^(4n-1)/(e^(Pi\*k)-1) - 16^n\* Sum\_\{k>=1\} k^(4n-1)/(e^(4\*Pi\*k)-1).
 * [A273365](https://oeis.org/A273365) ([program](/edit/?oeis=273365)): Numbers k such that 10\*k+4 is a perfect square.
 * [A273366](https://oeis.org/A273366) ([program](/edit/?oeis=273366)): a(n) = 10\*n^2 + 10\*n + 2.
 * [A273367](https://oeis.org/A273367) ([program](/edit/?oeis=273367)): Numbers k such that 10\*k+6 is a perfect square.
@@ -3882,6 +4173,7 @@ List of integer sequences with links to LODA programs.
 * [A273493](https://oeis.org/A273493) ([program](/edit/?oeis=273493)): a(n) =  A245327(n) + A245328(n).
 * [A273494](https://oeis.org/A273494) ([program](/edit/?oeis=273494)): a(n) =  A245325(n) +  A245326(n).
 * [A273495](https://oeis.org/A273495) ([program](/edit/?oeis=273495)): Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 20", based on the 5-celled von Neumann neighborhood.
+* [A273496](https://oeis.org/A273496) ([program](/edit/?oeis=273496)): Triangle read by rows: coefficients in the expansion cos(x)^n = (1/2)^n \* Sum\_\{k=0..n\} T(n,k) \* cos(k\*x).
 * [A273499](https://oeis.org/A273499) ([program](/edit/?oeis=273499)): Number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 771", based on the 5-celled von Neumann neighborhood.
 * [A273500](https://oeis.org/A273500) ([program](/edit/?oeis=273500)): Partial sums of the number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 771", based on the 5-celled von Neumann neighborhood.
 * [A273501](https://oeis.org/A273501) ([program](/edit/?oeis=273501)): First differences of number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 771", based on the 5-celled von Neumann neighborhood.
@@ -3896,6 +4188,9 @@ List of integer sequences with links to LODA programs.
 * [A273563](https://oeis.org/A273563) ([program](/edit/?oeis=273563)): First differences of number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 790", based on the 5-celled von Neumann neighborhood.
 * [A273565](https://oeis.org/A273565) ([program](/edit/?oeis=273565)): Number of active (ON,black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 793", based on the 5-celled von Neumann neighborhood.
 * [A273570](https://oeis.org/A273570) ([program](/edit/?oeis=273570)): Number of active (ON,black) cells at stage 2^n-1 of the two-dimensional cellular automaton defined by "Rule 798", based on the 5-celled von Neumann neighborhood.
+* [A273577](https://oeis.org/A273577) ([program](/edit/?oeis=273577)): Number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 803", based on the 5-celled von Neumann neighborhood.
+* [A273578](https://oeis.org/A273578) ([program](/edit/?oeis=273578)): Partial sums of the number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 803", based on the 5-celled von Neumann neighborhood.
+* [A273579](https://oeis.org/A273579) ([program](/edit/?oeis=273579)): First differences of number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 803", based on the 5-celled von Neumann neighborhood.
 * [A273596](https://oeis.org/A273596) ([program](/edit/?oeis=273596)): For n >= 2, a(n) is the number of slim rectangular diagrams of length n.
 * [A273618](https://oeis.org/A273618) ([program](/edit/?oeis=273618)): Numbers n = 2\*k+1 where k is odd with the property that 3^k mod n == 1 and k^k mod n == 1.
 * [A273619](https://oeis.org/A273619) ([program](/edit/?oeis=273619)): Table read by antidiagonals (n>1, k>0): A(n,k) = leading digit of k in base n.
@@ -3956,6 +4251,7 @@ List of integer sequences with links to LODA programs.
 * [A273889](https://oeis.org/A273889) ([program](/edit/?oeis=273889)): a(n) = ((4n-3)!! + (4n-2)!!) / (4n-1).
 * [A273892](https://oeis.org/A273892) ([program](/edit/?oeis=273892)): Numbers starting with an even (decimal) digit.
 * [A273893](https://oeis.org/A273893) ([program](/edit/?oeis=273893)): Denominator of n/3^n.
+* [A273898](https://oeis.org/A273898) ([program](/edit/?oeis=273898)): Sum of the abscissae of the first descents of all bargraphs of semiperimeter n (n>=2).
 * [A273900](https://oeis.org/A273900) ([program](/edit/?oeis=273900)): Number of columns of length 1 in all bargraphs of semiperimeter n (n>=2).
 * [A273909](https://oeis.org/A273909) ([program](/edit/?oeis=273909)): Let p = prime(n) and q = prime(n+1), then a(n) = p\*q - p^2 - 2\*q.
 * [A273910](https://oeis.org/A273910) ([program](/edit/?oeis=273910)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 614", based on the 5-celled von Neumann neighborhood.
@@ -4003,6 +4299,7 @@ List of integer sequences with links to LODA programs.
 * [A274136](https://oeis.org/A274136) ([program](/edit/?oeis=274136)): a(n) = (n+1)\*(2\*n+2)!/(n+2).
 * [A274139](https://oeis.org/A274139) ([program](/edit/?oeis=274139)): a(n) = 2^A000265(n) = 2^numerator(n/2^n), a sequence related to Oresme numbers.
 * [A274140](https://oeis.org/A274140) ([program](/edit/?oeis=274140)): Sum of primes dividing n-th triangular number, counted with multiplicity.
+* [A274141](https://oeis.org/A274141) ([program](/edit/?oeis=274141)): Positive numbers divisible by 3^3 or by the square of some other prime.
 * [A274179](https://oeis.org/A274179) ([program](/edit/?oeis=274179)): Expansion of f(x^1, x^6) in powers of x where f() is Ramanujan's general theta function.
 * [A274202](https://oeis.org/A274202) ([program](/edit/?oeis=274202)): Primes congruent to 31 mod 65.
 * [A274203](https://oeis.org/A274203) ([program](/edit/?oeis=274203)): Expansion of x\*(1 - x - x^3)/((1 - x)\*(1 - 2\*x - 3\*x^2 - 2\*x^3 - x^4)).
@@ -4034,6 +4331,8 @@ List of integer sequences with links to LODA programs.
 * [A274294](https://oeis.org/A274294) ([program](/edit/?oeis=274294)): a(n) = 1+(n+1)^2+n!+Sum\_\{k=1..n-1\} binomial(n,k)\*n!/(n-k)!.
 * [A274298](https://oeis.org/A274298) ([program](/edit/?oeis=274298)): A bisection of A002326.
 * [A274299](https://oeis.org/A274299) ([program](/edit/?oeis=274299)): A bisection of A002326.
+* [A274300](https://oeis.org/A274300) ([program](/edit/?oeis=274300)): Arises in study of A000587.
+* [A274301](https://oeis.org/A274301) ([program](/edit/?oeis=274301)): a(n) = 24\*A274300(n) + 14.
 * [A274304](https://oeis.org/A274304) ([program](/edit/?oeis=274304)): A bisection of A002866.
 * [A274306](https://oeis.org/A274306) ([program](/edit/?oeis=274306)): a(n) = Product\_\{k=1..n\} (4\*k^4+1).
 * [A274308](https://oeis.org/A274308) ([program](/edit/?oeis=274308)): Number of n-tuples of singular vectors of a 3 X 3 X 3 X ... X 3 n-dimensional tensor.
@@ -4126,6 +4425,7 @@ List of integer sequences with links to LODA programs.
 * [A274789](https://oeis.org/A274789) ([program](/edit/?oeis=274789)): Diagonal of the rational function 1/(1-(wxyz + wxy + wxz + wy + wz + xy + xz + y + z)).
 * [A274798](https://oeis.org/A274798) ([program](/edit/?oeis=274798)): Number of n X 3 0..2 arrays with no element equal to any value at offset (-1,-2) (-2,-1) (0,-1) or (-1,0) and new values introduced in order 0..2.
 * [A274817](https://oeis.org/A274817) ([program](/edit/?oeis=274817)): a(n) = 2\*a(n-1) - a(n-3) + 2\*a(n-4) for n>3, a(0)=1, a(1)=-1, a(2)=4, a(3)=8.
+* [A274824](https://oeis.org/A274824) ([program](/edit/?oeis=274824)): Triangle read by rows: T(n,k) = (n-k+1)\*sigma(k), n>=1, 1<=k<=n.
 * [A274830](https://oeis.org/A274830) ([program](/edit/?oeis=274830)): Numbers n such that 7\*n+1 is a triangular number (A000217).
 * [A274832](https://oeis.org/A274832) ([program](/edit/?oeis=274832)): Values of n such that 2\*n+1 and 7\*n+1 are both triangular numbers (A000217).
 * [A274845](https://oeis.org/A274845) ([program](/edit/?oeis=274845)): a(0)=1, a(1)=0, a(4n+2) = a(4n+3) = a(4n+5) = (4^(n+1) +(-1)^n)/5, a(4n+4) = (2\*4^(n+1) -3\*(-1)^n)/5.
@@ -4155,12 +4455,15 @@ List of integer sequences with links to LODA programs.
 * [A275016](https://oeis.org/A275016) ([program](/edit/?oeis=275016)): a(n) = (2^n - (-1+i)^n - (-1-i)^n)/4 - 1 where i is the imaginary unit.
 * [A275017](https://oeis.org/A275017) ([program](/edit/?oeis=275017)): a(1)=1, a(2)=2, a(n) = prime(n-2) - a(n-2) for n > 2.
 * [A275019](https://oeis.org/A275019) ([program](/edit/?oeis=275019)): 2-adic valuation of tetrahedral numbers C(n+2,3) = n(n+1)(n+2)/6 = A000292.
+* [A275024](https://oeis.org/A275024) ([program](/edit/?oeis=275024)): Total weight of the n-th twice-prime-factored multiset partition.
 * [A275027](https://oeis.org/A275027) ([program](/edit/?oeis=275027)): a(n) = Sum\_\{k=0..n\} C(n,k)^2\*C(n-k,k), where C(n,k) denotes the binomial coefficient n!/(k!\*(n-k)!).
 * [A275030](https://oeis.org/A275030) ([program](/edit/?oeis=275030)): a(1) = 2. a(n) is the smallest prime such that a(n) - a(n-1) is a triangular number.
 * [A275047](https://oeis.org/A275047) ([program](/edit/?oeis=275047)): Diagonal of the rational function 1/(1-(1+w)(xy + xz + yz)) [even-indexed terms only].
 * [A275060](https://oeis.org/A275060) ([program](/edit/?oeis=275060)): Numbers n such that there exists x in N : (x+1)^3 - x^3 = 61\*n^2.
 * [A275063](https://oeis.org/A275063) ([program](/edit/?oeis=275063)): Number of permutations p of [n] such that p(i)-i is a multiple of eight for all i in [n].
+* [A275071](https://oeis.org/A275071) ([program](/edit/?oeis=275071)): Number of set partitions of [n] such that i-j is a multiple of four for all i,j belonging to the same block.
 * [A275100](https://oeis.org/A275100) ([program](/edit/?oeis=275100)): Number of set partitions of [3\*n] such that within each block the numbers of elements from all residue classes modulo n are equal for n>0, a(0)=1.
+* [A275106](https://oeis.org/A275106) ([program](/edit/?oeis=275106)): Limiting sequence of the least significant digits of the even-indexed terms of A027878 in reverse order.
 * [A275107](https://oeis.org/A275107) ([program](/edit/?oeis=275107)): Limiting sequence of the least significant digits of the odd-indexed terms of A027878 in reverse order.
 * [A275110](https://oeis.org/A275110) ([program](/edit/?oeis=275110)): Decimal expansion of the sum of the alternating series of reciprocals of composite numbers with distinct prime factors.
 * [A275112](https://oeis.org/A275112) ([program](/edit/?oeis=275112)): Zero together with the partial sums of A064412.
@@ -4258,17 +4561,26 @@ List of integer sequences with links to LODA programs.
 * [A275704](https://oeis.org/A275704) ([program](/edit/?oeis=275704)): Digital root of n + (n+1)^2.
 * [A275707](https://oeis.org/A275707) ([program](/edit/?oeis=275707)): Number of partial functions f:\{1,2,...,n\}->\{1,2,...,n\} such that every element in the domain of definition of f is mapped to a fixed point or to an element that is undefined by f.
 * [A275709](https://oeis.org/A275709) ([program](/edit/?oeis=275709)): a(n) = 2\*n^3 + 3\*n^2.
+* [A275716](https://oeis.org/A275716) ([program](/edit/?oeis=275716)): Permutation of natural numbers: a(0) = 1, a(1) = 2, a(2n) = A273669(a(n)), a(2n+1) = A273664(a(n)).
 * [A275727](https://oeis.org/A275727) ([program](/edit/?oeis=275727)): a(0) = 0, for n >= 1, a(n) = A275736(n) + 2\*a(A257684(n)).
+* [A275729](https://oeis.org/A275729) ([program](/edit/?oeis=275729)): A275735-polynomials evaluated at x=2: a(n) = A048675(A275735(n)).
+* [A275732](https://oeis.org/A275732) ([program](/edit/?oeis=275732)): One-based positions of 1-digits in the factorial base representation of n are converted to primes with those indices, then multiplied together.
+* [A275733](https://oeis.org/A275733) ([program](/edit/?oeis=275733)): a(0) = 1; for n >= 1, a(n) = A275732(n) \* A003961(a(A257684(n))).
+* [A275735](https://oeis.org/A275735) ([program](/edit/?oeis=275735)): Prime-factorization representations of "factorial base level polynomials": a(0) = 1; for n >= 1, a(n) = 2^A257511(n) \* A003961(a(A257684(n))).
+* [A275736](https://oeis.org/A275736) ([program](/edit/?oeis=275736)): a(n) has base-2 representation with ones in those digit-positions where n contains ones in its factorial base representation, and zeros in all the other positions.
+* [A275740](https://oeis.org/A275740) ([program](/edit/?oeis=275740)): Sums of n consecutive nonsquare integers.
 * [A275766](https://oeis.org/A275766) ([program](/edit/?oeis=275766)): a(n) = (5^(2\*(n + 1)) - 1)/4.
 * [A275770](https://oeis.org/A275770) ([program](/edit/?oeis=275770)): Primes p == 5 (mod 6) that are not Sophie Germain primes.
 * [A275778](https://oeis.org/A275778) ([program](/edit/?oeis=275778)): Tribonacci-like sequence a(n) = a(n-1) + a(n-2) + a(n-3) for n >= 3, with a(0) = 1, a(1) = 2, a(2) = 1.
 * [A275779](https://oeis.org/A275779) ([program](/edit/?oeis=275779)): a(n) = (2^(n^2) - 1)/(1 - 1/2^n).
+* [A275786](https://oeis.org/A275786) ([program](/edit/?oeis=275786)): a(n) = Product\_\{d\|n\} T(d) where T(x) = x\*(x+1)/2 = A000217(x) = x-th triangular number.
 * [A275788](https://oeis.org/A275788) ([program](/edit/?oeis=275788)): a(0) = 0, a(n+1) = 2\*a(n) + (-1)^floor(n/3).
 * [A275793](https://oeis.org/A275793) ([program](/edit/?oeis=275793)): The x members of the positive proper solutions (x = x1(n), y = y1(n)) of the first class for the Pell equation x^2 - 2\*y^2 = +7^2.
 * [A275794](https://oeis.org/A275794) ([program](/edit/?oeis=275794)): One half of the y members of the positive proper solutions (x = x1(n), y = y1(n)) of the first class for the Pell equation x^2 - 2\*y^2 = +7^2.
 * [A275795](https://oeis.org/A275795) ([program](/edit/?oeis=275795)): The x members of the positive proper solutions (x = x2(n), y = y2(n)) of the second class for the Pell equation x^2 - 2\*y^2 = +7^2.
 * [A275796](https://oeis.org/A275796) ([program](/edit/?oeis=275796)): One half of the y members of the positive proper solutions (x = x2(n), y = y2(n)) of the second class for the Pell equation x^2 - 2\*y^2 = +7^2.
 * [A275799](https://oeis.org/A275799) ([program](/edit/?oeis=275799)): Number of inequivalent (modulo C\_4 rotations) square n X n grids with squares coming in two colors and three squares have one of the colors.
+* [A275806](https://oeis.org/A275806) ([program](/edit/?oeis=275806)): a(n) = number of distinct nonzero digits in factorial base representation of n.
 * [A275812](https://oeis.org/A275812) ([program](/edit/?oeis=275812)): Sum of exponents larger than one in the prime factorization of n: A001222(n) - A056169(n).
 * [A275822](https://oeis.org/A275822) ([program](/edit/?oeis=275822)): Alternating sums of the cubes of the central binomial coefficients.
 * [A275825](https://oeis.org/A275825) ([program](/edit/?oeis=275825)): Third-order sequence with non-constant coefficients: a(n) = (n-3)\*a(n-1) + (n-1)\*a(n-3); a(0) = a(1) = a(2) = 1.
@@ -4301,8 +4613,10 @@ List of integer sequences with links to LODA programs.
 * [A275932](https://oeis.org/A275932) ([program](/edit/?oeis=275932)): a(n) = F(2\*n+6)\*F(2\*n+2)^3, where F = Fibonacci (A000045).
 * [A275937](https://oeis.org/A275937) ([program](/edit/?oeis=275937)): The number of distinct patterns of the smallest number of unit squares required to enclose n units of area, where corner contact is allowed.
 * [A275944](https://oeis.org/A275944) ([program](/edit/?oeis=275944)): Gaussian binomial coefficient [n,3] for q = 10.
+* [A275948](https://oeis.org/A275948) ([program](/edit/?oeis=275948)): Number of nonzero digits that occur only once in factorial base representation of n: a(n) = A056169(A275735(n)).
 * [A275953](https://oeis.org/A275953) ([program](/edit/?oeis=275953)): First differences of A265906; second differences of A265905.
 * [A275959](https://oeis.org/A275959) ([program](/edit/?oeis=275959)): Sum of distinct terms of A002674: a(0) = 0, a(2n) = A255411(A153880(a(n))), a(2n+1) = 1+A255411(A153880(a(n))).
+* [A275964](https://oeis.org/A275964) ([program](/edit/?oeis=275964)): Total number of nonzero digits with multiple occurrences in factorial base representation of n (counted with multiplicity): a(n) = A275812(A275735(n)).
 * [A275970](https://oeis.org/A275970) ([program](/edit/?oeis=275970)): a(n) = 3\*2^n + n - 1.
 * [A275973](https://oeis.org/A275973) ([program](/edit/?oeis=275973)): A binary sequence due to Harold Jeffreys.
 * [A275974](https://oeis.org/A275974) ([program](/edit/?oeis=275974)): Partial sums of the Jeffreys binary sequence A275973.
@@ -4310,6 +4624,8 @@ List of integer sequences with links to LODA programs.
 * [A275989](https://oeis.org/A275989) ([program](/edit/?oeis=275989)): a(n) = prime(prime(n)+1) - prime(n).
 * [A275990](https://oeis.org/A275990) ([program](/edit/?oeis=275990)): a(n) = prime(prime(n)-1) - prime(n).
 * [A275991](https://oeis.org/A275991) ([program](/edit/?oeis=275991)): a(n) = prime(composite(n)) - prime(n).
+* [A275994](https://oeis.org/A275994) ([program](/edit/?oeis=275994)): Numerators of coefficients in the asymptotic expansion of the logarithm of the central binomial coefficient
+* [A275995](https://oeis.org/A275995) ([program](/edit/?oeis=275995)): Denominators of coefficients in the asymptotic expansion of the logarithm of the central binomial coefficient.
 * [A276000](https://oeis.org/A276000) ([program](/edit/?oeis=276000)): Least k such that n! divides phi(k!) (k > 0).
 * [A276008](https://oeis.org/A276008) ([program](/edit/?oeis=276008)): Substitute ones for all nonzero digits in factorial base representation of n: a(n) = A059590(A275727(n)).
 * [A276009](https://oeis.org/A276009) ([program](/edit/?oeis=276009)): Decrement each nonzero digit by one in factorial base representation of n: a(n) = n - A276008(n).
@@ -4317,6 +4633,7 @@ List of integer sequences with links to LODA programs.
 * [A276026](https://oeis.org/A276026) ([program](/edit/?oeis=276026)): a(n) = Sum\_\{k=0..7\} (n + k)^2.
 * [A276031](https://oeis.org/A276031) ([program](/edit/?oeis=276031)): Number of edges in the graded poset of the partitions of n taken modulo 3, where a partition into k parts is joined to a partition into k+1 parts if the latter is a refinement of the former.
 * [A276032](https://oeis.org/A276032) ([program](/edit/?oeis=276032)): Number of refinements of the partition n^1 with all numbers taken modulo 2.
+* [A276033](https://oeis.org/A276033) ([program](/edit/?oeis=276033)): Number of generalizations of the partition 1^n with all elements taken modulo 2.
 * [A276037](https://oeis.org/A276037) ([program](/edit/?oeis=276037)): Numbers using only digits 1 and 5.
 * [A276039](https://oeis.org/A276039) ([program](/edit/?oeis=276039)): Numbers using only digits 1 and 7.
 * [A276040](https://oeis.org/A276040) ([program](/edit/?oeis=276040)): Least k such that n^n divides phi(k^k) (k > 0).
@@ -4326,12 +4643,19 @@ List of integer sequences with links to LODA programs.
 * [A276055](https://oeis.org/A276055) ([program](/edit/?oeis=276055)): Number of palindromic compositions of n with parts in \{1,2,4,6,8,10,...\}.
 * [A276057](https://oeis.org/A276057) ([program](/edit/?oeis=276057)): Sum of the asymmetry degrees of all compositions of n with parts in \{1,3\}.
 * [A276063](https://oeis.org/A276063) ([program](/edit/?oeis=276063)): Sum of the asymmetry degrees of all compositions of n with parts in \{1,4\}.
+* [A276065](https://oeis.org/A276065) ([program](/edit/?oeis=276065)): Sum of the asymmetry degrees of all compositions of n with parts in \{1,5\}.
 * [A276068](https://oeis.org/A276068) ([program](/edit/?oeis=276068)): Sum of the lengths of the first descents in all bargraphs having semiperimeter n (n>=2). A descent is a maximal sequence of consecutive down steps.
+* [A276071](https://oeis.org/A276071) ([program](/edit/?oeis=276071)): n^3 followed by n^2 followed by n^4 followed by n.
 * [A276073](https://oeis.org/A276073) ([program](/edit/?oeis=276073)): A276076-polynomials evaluated at x=2: a(n) = A048675(A276076(n)).
+* [A276074](https://oeis.org/A276074) ([program](/edit/?oeis=276074)): A276076-polynomials evaluated at X=2 over the field GF(2): a(n) = A248663(A276076(n)).
+* [A276075](https://oeis.org/A276075) ([program](/edit/?oeis=276075)): a(1) = 0, a(n) = (e1\*i1! + e2\*i2! + ... + ez\*iz!) for n = prime(i1)^e1 \* prime(i2)^e2 \* ... \* prime(iz)^ez, where prime(k) is the k-th prime, A000040(k).
+* [A276076](https://oeis.org/A276076) ([program](/edit/?oeis=276076)): Factorial base exp-function: digits in factorial base representation of n become the exponents of successive prime factors whose product a(n) is.
 * [A276077](https://oeis.org/A276077) ([program](/edit/?oeis=276077)): Number of distinct prime factors p of n such that p^(1+A000720(p)) is a divisor of n, where A000720(p) gives the index of prime p, 1 for 2, 2 for 3, 3 for 5, and so on.
 * [A276078](https://oeis.org/A276078) ([program](/edit/?oeis=276078)): Numbers n in whose prime factorization no exponent of any prime(k) exceeds k.
 * [A276079](https://oeis.org/A276079) ([program](/edit/?oeis=276079)): Numbers n such that prime(k)^(k+1) divides n for some k.
 * [A276080](https://oeis.org/A276080) ([program](/edit/?oeis=276080)): a(n) = A276075(A206296(n)).
+* [A276082](https://oeis.org/A276082) ([program](/edit/?oeis=276082)): a(0) = 0, a(2n) = A153880(a(n)), a(2n+1) = 1+A255411(a(n)).
+* [A276083](https://oeis.org/A276083) ([program](/edit/?oeis=276083)): a(0) = 0, a(2n) = A255411(a(n)), a(2n+1) = 1+A153880(a(n)).
 * [A276084](https://oeis.org/A276084) ([program](/edit/?oeis=276084)): a(n) = Number of trailing zeros in primorial base representation of n (A049345); largest k such that A002110(k) divides n.
 * [A276086](https://oeis.org/A276086) ([program](/edit/?oeis=276086)): Primorial base exp-function: digits in primorial base representation of n become the exponents of successive prime factors whose product a(n) is.
 * [A276087](https://oeis.org/A276087) ([program](/edit/?oeis=276087)): a(n) = A276086(A276086(n)).
@@ -4354,6 +4678,7 @@ List of integer sequences with links to LODA programs.
 * [A276137](https://oeis.org/A276137) ([program](/edit/?oeis=276137)): Numbers without the decimal digits 2, 4, 6 and 8.
 * [A276138](https://oeis.org/A276138) ([program](/edit/?oeis=276138)): Numbers without the decimal digits 1, 3, 5 and 7.
 * [A276139](https://oeis.org/A276139) ([program](/edit/?oeis=276139)): Series expansion of (1 + 2x + 4x^2)/(1 - 3x - 5x^2).
+* [A276146](https://oeis.org/A276146) ([program](/edit/?oeis=276146)): a(n) = A034968(A225901(n)).
 * [A276149](https://oeis.org/A276149) ([program](/edit/?oeis=276149)): a(0) = 0; for n >= 1, a(n) = A048764(n) \* (1+(A084558(n)-A099563(n))).
 * [A276150](https://oeis.org/A276150) ([program](/edit/?oeis=276150)): Sum of digits when n is written in primorial base (A049345); minimal number of primorials (A002110) that add to n.
 * [A276151](https://oeis.org/A276151) ([program](/edit/?oeis=276151)): n minus the greatest primorial number (A002110) which divides n: a(n) = n - A053589(n).
@@ -4362,6 +4687,7 @@ List of integer sequences with links to LODA programs.
 * [A276154](https://oeis.org/A276154) ([program](/edit/?oeis=276154)): a(n) = Shift primorial base representation (A049345) of n left by one digit (append one zero to the right, then convert back to decimal).
 * [A276158](https://oeis.org/A276158) ([program](/edit/?oeis=276158)): Triangle read by rows: T(n,k) = 6\*k\*(n + 1 - k) for 0 < k <= n; for k = 0, T(n,0) = n + 1.
 * [A276159](https://oeis.org/A276159) ([program](/edit/?oeis=276159)): Convolution of nonzero octagonal numbers (A000567) with themselves.
+* [A276160](https://oeis.org/A276160) ([program](/edit/?oeis=276160)): A recurrence of order 3 : a(0)=a(1)=a(2)=1 ; a(n) = (a(n-1)^2 + a(n-2)^2 + a(n-1) + a(n-2) + 1)/a(n-3).
 * [A276163](https://oeis.org/A276163) ([program](/edit/?oeis=276163)): a(n) is the maximum first-player score difference of a "Coins in a Row" game over all permutations of coins 1..n with both players using a minimax strategy.
 * [A276164](https://oeis.org/A276164) ([program](/edit/?oeis=276164)): a(n) is the maximum first-player score of a "Coins in a Row" game over all permutations of coins 1..n with both players using a minimax strategy.
 * [A276168](https://oeis.org/A276168) ([program](/edit/?oeis=276168)): a(n) is the minimum first-player score difference of a "Coins in a Row" game over all permutations of coins 1..n with both players using a minimax strategy.
@@ -4405,9 +4731,11 @@ List of integer sequences with links to LODA programs.
 * [A276349](https://oeis.org/A276349) ([program](/edit/?oeis=276349)): Numbers consisting of a nonempty string of 1's followed by a nonempty string of 0's.
 * [A276351](https://oeis.org/A276351) ([program](/edit/?oeis=276351)): a(n) = 2\*(3 + 2 n + 3 n^2 + 3 n^3 + 3 n^4 + n^5 + n^6).
 * [A276352](https://oeis.org/A276352) ([program](/edit/?oeis=276352)): a(n) = 100^n - 10^n.
+* [A276356](https://oeis.org/A276356) ([program](/edit/?oeis=276356)): Number of Hamiltonian cycles in the Cartesian product graph K\_2 times K\_n.
 * [A276368](https://oeis.org/A276368) ([program](/edit/?oeis=276368)): G.f. A(x) satisfies: A(x - 3\*x^3) = 1/(1 - 3\*x).
 * [A276376](https://oeis.org/A276376) ([program](/edit/?oeis=276376)): Exponent of highest power of 3 dividing product of composite numbers between n-th prime and (n+1)-st prime.
 * [A276378](https://oeis.org/A276378) ([program](/edit/?oeis=276378)): Numbers n such that 6\*n is squarefree.
+* [A276379](https://oeis.org/A276379) ([program](/edit/?oeis=276379)): Write a "1" for each distinct prime divisor p of n in the (pi(p) - 1)-th place, ignoring multiplicity.
 * [A276382](https://oeis.org/A276382) ([program](/edit/?oeis=276382)): a(1) = 1, and a(n) = a(n-1) + floor(3\*n/2) + 1 for n >= 2.
 * [A276383](https://oeis.org/A276383) ([program](/edit/?oeis=276383)): Complement of A158919: complementary Beatty sequence to the Beatty sequence defined by the tribonacci constant tau = A058265.
 * [A276384](https://oeis.org/A276384) ([program](/edit/?oeis=276384)): Defined by the properties that it starts with 0, and when you successively apply DIFF, RUNS, BISECT, RUNS you get (4,1,3,1) repeated infinitely often.
@@ -4424,6 +4752,8 @@ List of integer sequences with links to LODA programs.
 * [A276410](https://oeis.org/A276410) ([program](/edit/?oeis=276410)): Largest determinant of a (real) \{0,1\}-matrix of order n subject to the restriction that the corresponding 0,1 simplex is acute.
 * [A276416](https://oeis.org/A276416) ([program](/edit/?oeis=276416)): a(n) = a(n-1)\*(1 + a(n-1)/a(n-4)), with a(0) = a(1) = a(2) = a(3) = 1.
 * [A276418](https://oeis.org/A276418) ([program](/edit/?oeis=276418)): Starting a random walk on Z at 0 triangle T(j,k) gives the number of paths of length 2\*j returning to 0 exactly k times.
+* [A276419](https://oeis.org/A276419) ([program](/edit/?oeis=276419)): Non-Fibonacci numbers n such that A129761(n) = 1.
+* [A276449](https://oeis.org/A276449) ([program](/edit/?oeis=276449)): Number of 1-orbits of the cyclic group C\_4 for a bi-colored square n X n grid with n squares of one color.
 * [A276453](https://oeis.org/A276453) ([program](/edit/?oeis=276453)): a(n) = (a(n-1)+1)\*(a(n-2)+1)\*(a(n-3)+1)/a(n-4) with a(0) = a(1) = 1, a(2) = 2, a(3) = 6.
 * [A276477](https://oeis.org/A276477) ([program](/edit/?oeis=276477)): a(n) = a(n-2) + a(n-3) for n >= 3, with a(0) = a(1) = 2, a(2) = 1.
 * [A276482](https://oeis.org/A276482) ([program](/edit/?oeis=276482)): a(n) = 5^n\*Gamma(n+1/5)\*Gamma(n+1)/Gamma(1/5).
@@ -4432,6 +4762,7 @@ List of integer sequences with links to LODA programs.
 * [A276489](https://oeis.org/A276489) ([program](/edit/?oeis=276489)): a(n) = 25^(n+1)\*Gamma(n+8/5)/Gamma(3/5).
 * [A276508](https://oeis.org/A276508) ([program](/edit/?oeis=276508)): a(n) = (2\*5^n + 3\*(-1)^(floor((n-1)/3)) + (-1)^n)/6.
 * [A276509](https://oeis.org/A276509) ([program](/edit/?oeis=276509)): Numbers n in base 10 such that the digits of 2 + n are the digits of 2n written in reverse order.
+* [A276528](https://oeis.org/A276528) ([program](/edit/?oeis=276528)): Least number with same prime signature as sigma(n), the sum of the divisors of n: a(n) = A046523(A000203(n)).
 * [A276529](https://oeis.org/A276529) ([program](/edit/?oeis=276529)): a(n) = (a(n-1) \* a(n-5) + 1) / a(n-6), a(0) = a(1) = ... = a(5) = 1.
 * [A276530](https://oeis.org/A276530) ([program](/edit/?oeis=276530)): a(n) = (a(n-1) \* a(n-5) + a(n-3)^3) / a(n-6), a(0) = a(1) = ... = a(5) = 1.
 * [A276531](https://oeis.org/A276531) ([program](/edit/?oeis=276531)): a(n) = (a(n-1) \* a(n-5) + a(n-2) \* a(n-3) \* a(n-4)) / a(n-6), with a(0) = a(1) = a(2) = a(3) = a(4) = a(5) = 1.
@@ -4443,10 +4774,16 @@ List of integer sequences with links to LODA programs.
 * [A276555](https://oeis.org/A276555) ([program](/edit/?oeis=276555)): Number of steps to reach 1 when starting from n and iterating the map x -> x - A061395(x).
 * [A276561](https://oeis.org/A276561) ([program](/edit/?oeis=276561)): For n-th odd prime prime(n) in binary form, a(n) is the decimal value of the bits in between the most significant and least significant bits which are both 1. Since there are no middle bits for odd\_prime(1) = 3 = (11)\_2, a(1) = 0.
 * [A276577](https://oeis.org/A276577) ([program](/edit/?oeis=276577)): Row 5 of A276580: a(n) = A255415(n) modulo 11.
+* [A276578](https://oeis.org/A276578) ([program](/edit/?oeis=276578)): Transpose of square array A255483.
+* [A276581](https://oeis.org/A276581) ([program](/edit/?oeis=276581)): After a(0)=0, each n occurs A261224(n) times.
+* [A276592](https://oeis.org/A276592) ([program](/edit/?oeis=276592)): Numerator of the rational part of the sum of reciprocals of even powers of odd numbers, i.e., Sum\_\{k>=1\} 1/(2\*k-1)^(2\*n).
+* [A276593](https://oeis.org/A276593) ([program](/edit/?oeis=276593)): Denominator of the rational part of the sum of reciprocals of even powers of odd numbers, i.e., Sum\_\{k>=1\} 1/(2\*k-1)^(2\*n).
+* [A276594](https://oeis.org/A276594) ([program](/edit/?oeis=276594)): Numerator of the rational part of the sum of reciprocals of even powers of even numbers, i.e., Sum\_\{k>=1\} 1/(2\*k)^(2\*n).
 * [A276598](https://oeis.org/A276598) ([program](/edit/?oeis=276598)): Values of m such that m^2 + 3 is a triangular number (A000217).
 * [A276599](https://oeis.org/A276599) ([program](/edit/?oeis=276599)): Values of n such that n^2 + 5 is a triangular number (A000217).
 * [A276601](https://oeis.org/A276601) ([program](/edit/?oeis=276601)): Values of k such that k^2 + 9 is a triangular number (A000217).
 * [A276602](https://oeis.org/A276602) ([program](/edit/?oeis=276602)): Values of k such that k^2 + 10 is a triangular number (A000217).
+* [A276618](https://oeis.org/A276618) ([program](/edit/?oeis=276618)): Transpose of table A099884.
 * [A276634](https://oeis.org/A276634) ([program](/edit/?oeis=276634)): Sum of cubes of proper divisors of n.
 * [A276647](https://oeis.org/A276647) ([program](/edit/?oeis=276647)): Number of squares after the n-th generation in a symmetric (with 45 degree angles) non-overlapping Pythagoras tree.
 * [A276658](https://oeis.org/A276658) ([program](/edit/?oeis=276658)): Tribonacci-like sequence a(n) = a(n-1) + a(n-2) + a(n-3) for n >= 3, with a(0) = 1, a(1) = 2, a(2) = 0.
@@ -4469,6 +4806,7 @@ List of integer sequences with links to LODA programs.
 * [A276757](https://oeis.org/A276757) ([program](/edit/?oeis=276757)): Infinite Fibonacci word on the alphabet \{1,2,3,4,5\}.
 * [A276764](https://oeis.org/A276764) ([program](/edit/?oeis=276764)): 1^2 + 3^2, 2^2 + 4^2, 5^2 + 7^2, 6^2 + 8^2, ...
 * [A276770](https://oeis.org/A276770) ([program](/edit/?oeis=276770)): a(n) is the number of runs of an algorithm. Set b\_0 = n, if prime, stop; else, set c\_0 = largest divisor of n (!=n); set b\_1 = c\_0 + b\_0/c\_0. Run with b\_1.
+* [A276771](https://oeis.org/A276771) ([program](/edit/?oeis=276771)): a(n) is the number of runs of an algorithm. Set b\_0 = n, if prime or 1 or 0, stop; else, set c\_0 = largest divisor of n (!=n); set b\_1 = c\_0 - b\_0/c\_0. Run with b\_1.
 * [A276781](https://oeis.org/A276781) ([program](/edit/?oeis=276781)): a(n) = 1+n-(nearest power of prime <= n); for n > 1, a(n) = minimal b such that the numbers binomial(n,k) for b <= k <= n-b have a common divisor greater than 1.
 * [A276785](https://oeis.org/A276785) ([program](/edit/?oeis=276785)): Number of binary strings of length n containing the substring 11011.
 * [A276788](https://oeis.org/A276788) ([program](/edit/?oeis=276788)): First differences of A003144.
@@ -4484,12 +4822,14 @@ List of integer sequences with links to LODA programs.
 * [A276798](https://oeis.org/A276798) ([program](/edit/?oeis=276798)): Partial sums of A276791.
 * [A276800](https://oeis.org/A276800) ([program](/edit/?oeis=276800)): Decimal expansion of t^2, where t is the tribonacci constant A058265.
 * [A276801](https://oeis.org/A276801) ([program](/edit/?oeis=276801)): Decimal expansion of t^3, where t is the tribonacci constant A058265.
+* [A276804](https://oeis.org/A276804) ([program](/edit/?oeis=276804)): Second column T[.,2] of array T = A255483: T[0,j] = prime(j), T[i+1,j] = T[i,j]\*T[i,j+1]/gcd(T[i,j],T[i,j+1])^2, i >= 0, j >= 1.
 * [A276805](https://oeis.org/A276805) ([program](/edit/?oeis=276805)): a(n) = numerator((n^2 + 3\*n + 2)/n^3).
 * [A276806](https://oeis.org/A276806) ([program](/edit/?oeis=276806)): Height of the shortest binary factorization tree of n.
 * [A276812](https://oeis.org/A276812) ([program](/edit/?oeis=276812)): Prime gap residues mod previous prime gap.
 * [A276819](https://oeis.org/A276819) ([program](/edit/?oeis=276819)): a(n) = a(n-1) + 9\*n - 5 with a(0) = 1.
 * [A276833](https://oeis.org/A276833) ([program](/edit/?oeis=276833)): Sum of mu(d)\*phi(d) over divisors d of n.
 * [A276849](https://oeis.org/A276849) ([program](/edit/?oeis=276849)): a(0) = 5, a(1) = 2; for n>1, a(n) = 2\*a(n-1) + a(n-2).
+* [A276853](https://oeis.org/A276853) ([program](/edit/?oeis=276853)): Beatty sequence for 2\*e.
 * [A276854](https://oeis.org/A276854) ([program](/edit/?oeis=276854)): Beatty sequence for 1 + sqrt(5).
 * [A276855](https://oeis.org/A276855) ([program](/edit/?oeis=276855)): Beatty sequence for (3 + golden ratio).
 * [A276856](https://oeis.org/A276856) ([program](/edit/?oeis=276856)): First differences of the Beatty sequence A022840 for sqrt(6).
@@ -4501,6 +4841,7 @@ List of integer sequences with links to LODA programs.
 * [A276863](https://oeis.org/A276863) ([program](/edit/?oeis=276863)): First differences of the Beatty sequence A276854 for 1 + sqrt(5).
 * [A276864](https://oeis.org/A276864) ([program](/edit/?oeis=276864)): First differences of the Beatty sequence A001952 for 2 + sqrt(2).
 * [A276865](https://oeis.org/A276865) ([program](/edit/?oeis=276865)): First differences of the Beatty sequence A003512 for 2 + sqrt(3).
+* [A276866](https://oeis.org/A276866) ([program](/edit/?oeis=276866)): First differences of the Beatty sequence A004976 for 2 + sqrt(5).
 * [A276867](https://oeis.org/A276867) ([program](/edit/?oeis=276867)): First differences of the Beatty sequence A003231 for 2 + tau, where tau = golden ratio = (1 + sqrt(5))/2.
 * [A276868](https://oeis.org/A276868) ([program](/edit/?oeis=276868)): First differences of the Beatty sequence A276855 for 3 + tau, where tau = golden ratio = (1 + sqrt(5))/2.
 * [A276869](https://oeis.org/A276869) ([program](/edit/?oeis=276869)): First differences of the Beatty sequence A182769 for 2 + sqrt(1/2).
@@ -4531,10 +4872,12 @@ List of integer sequences with links to LODA programs.
 * [A276918](https://oeis.org/A276918) ([program](/edit/?oeis=276918)): a(2n) = A060867(n+1), a(2n+1) = A092440(n+1).
 * [A276939](https://oeis.org/A276939) ([program](/edit/?oeis=276939)): Row 2 of A276945: a(n) = A002110(n) + A002110(n+1).
 * [A276940](https://oeis.org/A276940) ([program](/edit/?oeis=276940)): a(1) = 2; for n > 1, a(n) = (n-2)! \* n^3.
+* [A276947](https://oeis.org/A276947) ([program](/edit/?oeis=276947)): First differences of A256450: a(n) = A256450(n) - A256450(n-1).
 * [A276948](https://oeis.org/A276948) ([program](/edit/?oeis=276948)): First differences of A273670: a(n) = A273670(n) - A273670(n-1).
 * [A276950](https://oeis.org/A276950) ([program](/edit/?oeis=276950)): Characteristic function for A273670: 1 if there is at least one maximal digit present in the factorial representation of n (A007623), otherwise 0.
 * [A276952](https://oeis.org/A276952) ([program](/edit/?oeis=276952)): Partial sums of A276950.
 * [A276960](https://oeis.org/A276960) ([program](/edit/?oeis=276960)): a(n) = A000262(n)^2.
+* [A276961](https://oeis.org/A276961) ([program](/edit/?oeis=276961)): Number of set partitions of [2n] with largest set of size n.
 * [A276963](https://oeis.org/A276963) ([program](/edit/?oeis=276963)): a(n) = prime(n+1)^4 - prime(n)^4.
 * [A276964](https://oeis.org/A276964) ([program](/edit/?oeis=276964)): a(n) = A000262(n)\*A000262(n+1).
 * [A276965](https://oeis.org/A276965) ([program](/edit/?oeis=276965)): Square row sums of the triangle of Lah numbers (A105278).
@@ -4544,6 +4887,10 @@ List of integer sequences with links to LODA programs.
 * [A276984](https://oeis.org/A276984) ([program](/edit/?oeis=276984)): Sum of squares of numbers less than n that do not divide n.
 * [A276985](https://oeis.org/A276985) ([program](/edit/?oeis=276985)): Triangle read by rows: T(n,k) = number of k-dimensional elements in an n-dimensional cross-polytope, n>=1, 0<=k<n.
 * [A276986](https://oeis.org/A276986) ([program](/edit/?oeis=276986)): Numbers n for which there is a permutation p of (1,2,3,...,n) such that k+p(k) is a Catalan number for 1<=k<=n.
+* [A276989](https://oeis.org/A276989) ([program](/edit/?oeis=276989)): Reversion of x - x^2 - x^6.
+* [A277001](https://oeis.org/A277001) ([program](/edit/?oeis=277001)): Denominators of an asymptotic series for the Gamma function (even power series).
+* [A277006](https://oeis.org/A277006) ([program](/edit/?oeis=277006)): a(n) = A005940(1+A003714(n)); permutation of squarefree numbers.
+* [A277010](https://oeis.org/A277010) ([program](/edit/?oeis=277010)): a(n) = A156552(A005117(n)); permutation of Fibbinary numbers.
 * [A277011](https://oeis.org/A277011) ([program](/edit/?oeis=277011)): Left inverse of A277012.
 * [A277012](https://oeis.org/A277012) ([program](/edit/?oeis=277012)): Factorial base representation of n is rewritten as a base-2 number with each nonzero digit k replaced by a run of k 1's (followed by one extra zero if not the rightmost run of 1's) and with each 0 kept as 0.
 * [A277046](https://oeis.org/A277046) ([program](/edit/?oeis=277046)): Triangle read by rows: T(n,k) = 2^n - n + k - 1 for n >= 1, with 1 <= k <= 2n-1.
@@ -4578,9 +4925,13 @@ List of integer sequences with links to LODA programs.
 * [A277176](https://oeis.org/A277176) ([program](/edit/?oeis=277176)): Exponential convolution of Catalan numbers and factorial numbers.
 * [A277178](https://oeis.org/A277178) ([program](/edit/?oeis=277178)): a(n) = Sum\_\{k=0..n\} k\*binomial(2\*k,k)/2.
 * [A277184](https://oeis.org/A277184) ([program](/edit/?oeis=277184)): E.g.f.: A(x) = x\*exp(A(x) - A(x)^2) +  A(x)^2.
+* [A277188](https://oeis.org/A277188) ([program](/edit/?oeis=277188)): The binomial sum a(n) = Sum\_\{k=0..n\}(binomial(n,k)\*binomial(n+1,k+1)\*binomial(n+2,k+2)).
+* [A277195](https://oeis.org/A277195) ([program](/edit/?oeis=277195)): Permutation of nonnegative integers: a(n) = A022290(A277010(n)).
+* [A277196](https://oeis.org/A277196) ([program](/edit/?oeis=277196)): Permutation of natural numbers: a(n) = A107079(A277006(n)).
 * [A277209](https://oeis.org/A277209) ([program](/edit/?oeis=277209)): Partial sums of repdigit numbers (A010785).
 * [A277216](https://oeis.org/A277216) ([program](/edit/?oeis=277216)): Product of decimal digits of sum of divisors of n.
 * [A277219](https://oeis.org/A277219) ([program](/edit/?oeis=277219)): Triangle read by rows: T(n,k) is the number of independent sets of size k over all simple labeled graphs on n nodes, n>=0, 0<=k<=n.
+* [A277220](https://oeis.org/A277220) ([program](/edit/?oeis=277220)): Exponential convolution of Fibonacci (A000045) and Catalan (A000108) numbers.
 * [A277221](https://oeis.org/A277221) ([program](/edit/?oeis=277221)): Number of permutations of length n which avoid the patterns 4123, 1324, and 3124.
 * [A277226](https://oeis.org/A277226) ([program](/edit/?oeis=277226)): Number of inequivalent (modulo C\_4 rotations) square n X n grids with squares coming in two colors and four squares have one of the colors.
 * [A277227](https://oeis.org/A277227) ([program](/edit/?oeis=277227)): Triangular array T read by rows: T(n,k) gives the additive orders k modulo n, for k = 0,1, ..., n-1.
@@ -4595,11 +4946,14 @@ List of integer sequences with links to LODA programs.
 * [A277253](https://oeis.org/A277253) ([program](/edit/?oeis=277253)): a(n) = a(n-2) + a(n-3) + a(n-4) for n>3, a(0)=1, a(1)=a(2)=0, a(3)=2.
 * [A277267](https://oeis.org/A277267) ([program](/edit/?oeis=277267)): Minimum number of single-direction edges in leveled binary trees with n nodes.
 * [A277279](https://oeis.org/A277279) ([program](/edit/?oeis=277279)): Somos-4 sequence variant: a(n) = (a(n-1) \* a(n-3) - a(n-2)^2) / a(n-4), a(0) = 1, a(1) = 1, a(2) = 2, a(3) = -1.
+* [A277280](https://oeis.org/A277280) ([program](/edit/?oeis=277280)): Maximal coefficient in Hermite polynomial of order n.
+* [A277281](https://oeis.org/A277281) ([program](/edit/?oeis=277281)): Maximal coefficient (ignoring signs) in Hermite polynomial of order n.
 * [A277287](https://oeis.org/A277287) ([program](/edit/?oeis=277287)): a(n) = binomial(2\*n,n) + Sum\_\{k=1..n\} binomial(2\*n-k,n-k)\*Fibonacci(k).
 * [A277297](https://oeis.org/A277297) ([program](/edit/?oeis=277297)): Diagonal of triangle A277295; a(n) = A277295(n+2,n).
 * [A277314](https://oeis.org/A277314) ([program](/edit/?oeis=277314)): Number of nonzero coefficients in Stern polynomial B(n,t).
 * [A277329](https://oeis.org/A277329) ([program](/edit/?oeis=277329)): a(0)=0, for n >= 1, a(2n) = a(n)+1, a(4n-1) = a(n)+1, a(4n+1) = a(n)+1.
 * [A277331](https://oeis.org/A277331) ([program](/edit/?oeis=277331)): a(n) = A253563(A003714(n)).
+* [A277332](https://oeis.org/A277332) ([program](/edit/?oeis=277332)): a(n) = A253565(A003714(n)).
 * [A277335](https://oeis.org/A277335) ([program](/edit/?oeis=277335)): Fibbinary numbers multiplied by three: a(n) = 3\*A003714(n); Numbers where all 1-bits occur in runs of even length.
 * [A277337](https://oeis.org/A277337) ([program](/edit/?oeis=277337)): Number of pairs of functions (f,g) from a set of n elements into itself that are generalized reflexive inverses of each other.
 * [A277338](https://oeis.org/A277338) ([program](/edit/?oeis=277338)): Reverse and Add! sequence starting with 295.
@@ -4616,12 +4970,15 @@ List of integer sequences with links to LODA programs.
 * [A277359](https://oeis.org/A277359) ([program](/edit/?oeis=277359)): Number of self-avoiding planar walks starting at (0,0), ending at (n,n), remaining in the first quadrant and using steps (0,1) and (1,0) on or below the diagonal and using steps (1,1), (-1,1), and (1,-1) on or above the diagonal.
 * [A277360](https://oeis.org/A277360) ([program](/edit/?oeis=277360)): Number of self-avoiding planar walks starting at (0,0), ending at (n,n), remaining in the first quadrant and using steps (0,1), (1,0), (1,1), (-1,1), and (1,-1).
 * [A277361](https://oeis.org/A277361) ([program](/edit/?oeis=277361)): a(n) = Sum\_\{k=0..n\} k^3 \* binomial(n-k, k).
+* [A277367](https://oeis.org/A277367) ([program](/edit/?oeis=277367)): a(n) = gcd(A006666(n), A006667(n)) where A006666 and A006667 are respectively the number of halving and tripling steps in the '3x+1' problem.
 * [A277368](https://oeis.org/A277368) ([program](/edit/?oeis=277368)): Numbers such that the number of their divisors divide the sum of their aliquot parts.
 * [A277369](https://oeis.org/A277369) ([program](/edit/?oeis=277369)): a(0) = 5, a(1) = 8; for n>1, a(n) = 2\*a(n-1) + a(n-2).
 * [A277372](https://oeis.org/A277372) ([program](/edit/?oeis=277372)): a(n) = Sum\_\{k=1..n\} binomial(n,n-k)\*n^(n-k)\*n!/(n-k)!.
 * [A277373](https://oeis.org/A277373) ([program](/edit/?oeis=277373)): a(n) = Sum\_\{k=0..n\} binomial(n,n-k)\*n^(n-k)\*n!/(n-k)!.
-* [A277378](https://oeis.org/A277378) ([program](/edit/?oeis=277378)): E.g.f.: exp(2\*x/(1-x))/sqrt(1-x^2).
+* [A277377](https://oeis.org/A277377) ([program](/edit/?oeis=277377)): Each odd integer k is followed by k even integers.
+* [A277378](https://oeis.org/A277378) ([program](/edit/?oeis=277378)): Expansion of e.g.f. exp(2\*x/(1-x))/sqrt(1-x^2).
 * [A277382](https://oeis.org/A277382) ([program](/edit/?oeis=277382)): a(n) = n!\*LaguerreL(n, -3).
+* [A277383](https://oeis.org/A277383) ([program](/edit/?oeis=277383)): Each even integer k is followed by k odd integers.
 * [A277385](https://oeis.org/A277385) ([program](/edit/?oeis=277385)): Records in A277384.
 * [A277386](https://oeis.org/A277386) ([program](/edit/?oeis=277386)): a(n) = Sum\_\{k=0..n\} binomial(n, k)^3 \* 3^(n-k) \* k!.
 * [A277391](https://oeis.org/A277391) ([program](/edit/?oeis=277391)): a(n) = n!\*LaguerreL(n, -2\*n).
@@ -4713,6 +5070,7 @@ List of integer sequences with links to LODA programs.
 * [A277599](https://oeis.org/A277599) ([program](/edit/?oeis=277599)): (1/5)\*A277592.
 * [A277600](https://oeis.org/A277600) ([program](/edit/?oeis=277600)): (1/2)\*A277593.
 * [A277601](https://oeis.org/A277601) ([program](/edit/?oeis=277601)): (1/2)\*A277595.
+* [A277604](https://oeis.org/A277604) ([program](/edit/?oeis=277604)): Array of coefficients T(k,n) of the formal power series A(k,x) read by upwards antidiagonals, where A(k,x) = sqrt(1 + 2\*x\*A(k,x) + (4\*k+1)\*x^2\*(A(k,x))^2), k >= 0.
 * [A277609](https://oeis.org/A277609) ([program](/edit/?oeis=277609)): Fourth column of Euler's difference table in A068106. It is 6 times the sequence A000261.
 * [A277614](https://oeis.org/A277614) ([program](/edit/?oeis=277614)): a(n) is the coefficient of x^n/n! in  exp(x + n\*x^2/2).
 * [A277618](https://oeis.org/A277618) ([program](/edit/?oeis=277618)): Lexicographically earliest nonnegative sequence such that \|a(n+1)-a(n)\| is a prime number, and no number occurs twice; a(0) = 0.
@@ -4729,6 +5087,7 @@ List of integer sequences with links to LODA programs.
 * [A277660](https://oeis.org/A277660) ([program](/edit/?oeis=277660)): 2nd-order coefficients of the 1/N-expansion of traces of negative powers of complex Wishart matrices with parameter c=2.
 * [A277667](https://oeis.org/A277667) ([program](/edit/?oeis=277667)): Number of n-length words over a quaternary alphabet \{a\_1,a\_2,...,a\_4\} avoiding consecutive letters a\_i, a\_\{i+1\}.
 * [A277668](https://oeis.org/A277668) ([program](/edit/?oeis=277668)): Number of n-length words over a 5-ary alphabet \{a\_1,a\_2,...,a\_5\} avoiding consecutive letters a\_i, a\_\{i+1\}.
+* [A277669](https://oeis.org/A277669) ([program](/edit/?oeis=277669)): Number of n-length words over a 6-ary alphabet \{a\_1,a\_2,...,a\_6\} avoiding consecutive letters a\_i, a\_\{i+1\}.
 * [A277673](https://oeis.org/A277673) ([program](/edit/?oeis=277673)): Number of n-length words over an n-ary alphabet \{a\_1,a\_2,...,a\_n\} avoiding consecutive letters a\_i, a\_\{i+1\}.
 * [A277674](https://oeis.org/A277674) ([program](/edit/?oeis=277674)): a(n) = d(n+1) - d(n), where d(k) is the number of digits in the base-k representation of k!.
 * [A277676](https://oeis.org/A277676) ([program](/edit/?oeis=277676)): Numbers k such that d(k+2) > d(k+1), where d(m) is the number of digits in the base-m representation of m!.
@@ -4738,6 +5097,8 @@ List of integer sequences with links to LODA programs.
 * [A277698](https://oeis.org/A277698) ([program](/edit/?oeis=277698)): a(n) = Least unitary prime divisor of n or 1 if no such prime-divisor exists.
 * [A277707](https://oeis.org/A277707) ([program](/edit/?oeis=277707)): a(n) = index of the least prime divisor of n which has an odd exponent, or 0 if n is a perfect square.
 * [A277708](https://oeis.org/A277708) ([program](/edit/?oeis=277708)): a(n) = Least prime divisor of n with an odd exponent, or 1 if n is a perfect square.
+* [A277733](https://oeis.org/A277733) ([program](/edit/?oeis=277733)): Positions of 1's in A277731.
+* [A277734](https://oeis.org/A277734) ([program](/edit/?oeis=277734)): Positions of 2's in A277731.
 * [A277735](https://oeis.org/A277735) ([program](/edit/?oeis=277735)): Unique fixed point of the morphism 0 -> 01, 1 -> 20, 2 -> 0.
 * [A277736](https://oeis.org/A277736) ([program](/edit/?oeis=277736)): Positions of 0's in A277735.
 * [A277737](https://oeis.org/A277737) ([program](/edit/?oeis=277737)): Positions of 1's in A277735.
@@ -4757,6 +5118,7 @@ List of integer sequences with links to LODA programs.
 * [A277800](https://oeis.org/A277800) ([program](/edit/?oeis=277800)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 1", based on the 5-celled von Neumann neighborhood.
 * [A277801](https://oeis.org/A277801) ([program](/edit/?oeis=277801)): a(n) = 2^(n - 1) - prime(n).
 * [A277808](https://oeis.org/A277808) ([program](/edit/?oeis=277808)): a(n) = number of iterations of map k -> A003188(A006068(k)/2) that are required (when starting from k = n) until k is an odious number.
+* [A277811](https://oeis.org/A277811) ([program](/edit/?oeis=277811)): Column 1 of A277810: a(n) = A019565(A065621(n)).
 * [A277812](https://oeis.org/A277812) ([program](/edit/?oeis=277812)): a(n) = the first odious number encountered when starting from k = n and iterating the map k -> A003188(A006068(k)/2).
 * [A277813](https://oeis.org/A277813) ([program](/edit/?oeis=277813)): a(n) = A115384(A277812(n)) = index of the row where n is located in array A277880.
 * [A277818](https://oeis.org/A277818) ([program](/edit/?oeis=277818)): Index of the column where n is located in array A277820: a(n) = 1 + A268389(n).
@@ -4829,10 +5191,12 @@ List of integer sequences with links to LODA programs.
 * [A278069](https://oeis.org/A278069) ([program](/edit/?oeis=278069)): a(n) = hypergeometric([n, -n], [], 1).
 * [A278070](https://oeis.org/A278070) ([program](/edit/?oeis=278070)): a(n) = hypergeometric([n, -n], [], -1).
 * [A278078](https://oeis.org/A278078) ([program](/edit/?oeis=278078)): a(n) is the number of composite numbers prime(n) dominates.
+* [A278079](https://oeis.org/A278079) ([program](/edit/?oeis=278079)): E.g.f. 1/3!\*sin^3(x)/cos(x) (coefficients of odd powers only).
 * [A278088](https://oeis.org/A278088) ([program](/edit/?oeis=278088)): Number of n X 2 0..1 arrays with every element both equal and not equal to some elements at offset (-1,0) (-1,1) (0,-1) (0,1) or (1,0), with upper left element zero.
 * [A278105](https://oeis.org/A278105) ([program](/edit/?oeis=278105)): a(n) = floor(3/n).
 * [A278110](https://oeis.org/A278110) ([program](/edit/?oeis=278110)): a(n) = Product\_\{k=1..A056811(n)\} A000040(k)^A278109(n,k).
 * [A278111](https://oeis.org/A278111) ([program](/edit/?oeis=278111)): Triangle T(n,k) = floor(2n^2/k) for 1 <= k <= 2n^2, read by rows.
+* [A278114](https://oeis.org/A278114) ([program](/edit/?oeis=278114)): Number of primes <= 2n^2.
 * [A278122](https://oeis.org/A278122) ([program](/edit/?oeis=278122)): a(n) = 204\*2^n - 248.
 * [A278123](https://oeis.org/A278123) ([program](/edit/?oeis=278123)): a(n) = 247\*2^n - 300.
 * [A278124](https://oeis.org/A278124) ([program](/edit/?oeis=278124)): a(n) = 172\*2^n - 176.
@@ -4847,10 +5211,37 @@ List of integer sequences with links to LODA programs.
 * [A278142](https://oeis.org/A278142) ([program](/edit/?oeis=278142)): Denominators of partial sums of a Ramanujan series converging to 2^(3/2)/(sqrt(Pi)\*Gamma(3/4)^2) given in A278146.
 * [A278145](https://oeis.org/A278145) ([program](/edit/?oeis=278145)): Denominator of partial sums of the m=1 member of an m-family of series considered by Hardy with value 4/Pi (see A088538).
 * [A278151](https://oeis.org/A278151) ([program](/edit/?oeis=278151)): Number of n X 2 0..1 arrays with every element both equal and not equal to some elements at offset (-1,-1) (-1,0) (-1,1) (0,-1) (0,1) (1,-1) or (1,0), with upper left element zero.
+* [A278159](https://oeis.org/A278159) ([program](/edit/?oeis=278159)): Run length transform of primorials, A002110.
+* [A278160](https://oeis.org/A278160) ([program](/edit/?oeis=278160)): Least number with the prime signature of ((n+1)^2 - 1).
 * [A278161](https://oeis.org/A278161) ([program](/edit/?oeis=278161)): Run length transform of A008619 (floor(n/2)+1).
+* [A278162](https://oeis.org/A278162) ([program](/edit/?oeis=278162)): Least number with the prime signature of n^2 + 1.
+* [A278163](https://oeis.org/A278163) ([program](/edit/?oeis=278163)): a(n) = the least k such that A131205(1+k) >= n; each n occurs A000123(n) times.
 * [A278164](https://oeis.org/A278164) ([program](/edit/?oeis=278164)): Irregular triangle read by rows: row n (n >= 0) is obtained by listing numbers 0 .. A000123(n)-1.
 * [A278169](https://oeis.org/A278169) ([program](/edit/?oeis=278169)): Characteristic function for A000960.
 * [A278182](https://oeis.org/A278182) ([program](/edit/?oeis=278182)): Number of dots in Maya numeral representation of n.
+* [A278217](https://oeis.org/A278217) ([program](/edit/?oeis=278217)): Filter-sequence related to base-2 run-length encoding: a(n) = A046523(A075159(1+n)) = A046523(1+A075157(n)).
+* [A278219](https://oeis.org/A278219) ([program](/edit/?oeis=278219)): Filter-sequence related to base-2 run-length encoding: a(n) = A046523(A243353(n)).
+* [A278221](https://oeis.org/A278221) ([program](/edit/?oeis=278221)): Filtering sequence (related to prime factorization): a(n) = A046523(A122111(n)).
+* [A278222](https://oeis.org/A278222) ([program](/edit/?oeis=278222)): The least number with the same prime signature as A005940(n+1).
+* [A278223](https://oeis.org/A278223) ([program](/edit/?oeis=278223)): Least number with the same prime signature as the n-th odd number: a(n) = A046523(2n-1).
+* [A278224](https://oeis.org/A278224) ([program](/edit/?oeis=278224)): a(n) = A046523(A048673(n)).
+* [A278226](https://oeis.org/A278226) ([program](/edit/?oeis=278226)): Filter-sequence for primorial base: least number with the same prime signature as A276086(n).
+* [A278227](https://oeis.org/A278227) ([program](/edit/?oeis=278227)): Least number with the prime signature of prime(n)-1.
+* [A278228](https://oeis.org/A278228) ([program](/edit/?oeis=278228)): Least number with the prime signature of prime(n)+1.
+* [A278229](https://oeis.org/A278229) ([program](/edit/?oeis=278229)): Least number with the prime signature of 2\*prime(n) - 1.
+* [A278230](https://oeis.org/A278230) ([program](/edit/?oeis=278230)): Least number with the prime signature of 2\*prime(n) + 1.
+* [A278235](https://oeis.org/A278235) ([program](/edit/?oeis=278235)): Filter-sequence for factorial base (digit levels): Least number with the same prime signature as A275735(n).
+* [A278236](https://oeis.org/A278236) ([program](/edit/?oeis=278236)): Filter-sequence for factorial base (digit values): least number with the same prime signature as A276076(n).
+* [A278244](https://oeis.org/A278244) ([program](/edit/?oeis=278244)): Least number with the prime signature of the n-th centered square number (A001844(n)).
+* [A278246](https://oeis.org/A278246) ([program](/edit/?oeis=278246)): a(n) = least number with the same prime signature as n\*(n+3)/2.
+* [A278247](https://oeis.org/A278247) ([program](/edit/?oeis=278247)): a(n) = least number with the same prime signature as n + (n+1)^2.
+* [A278251](https://oeis.org/A278251) ([program](/edit/?oeis=278251)): Least number with the prime signature of the n-th central polygonal number.
+* [A278252](https://oeis.org/A278252) ([program](/edit/?oeis=278252)): Least number with the prime signature of the n-th tetrahedral number, binomial(n+2,3).
+* [A278253](https://oeis.org/A278253) ([program](/edit/?oeis=278253)): Least number with the prime signature of the n-th triangular number.
+* [A278254](https://oeis.org/A278254) ([program](/edit/?oeis=278254)): Least number with the prime signature of n^2; square of the least number with the prime signature of n.
+* [A278255](https://oeis.org/A278255) ([program](/edit/?oeis=278255)): Least number with the prime signature of the n-th pentagonal number.
+* [A278256](https://oeis.org/A278256) ([program](/edit/?oeis=278256)): Least number with the same prime signature as the n-th oblong number (A002378).
+* [A278257](https://oeis.org/A278257) ([program](/edit/?oeis=278257)): Least number with the prime signature of A005187(n).
 * [A278274](https://oeis.org/A278274) ([program](/edit/?oeis=278274)): Number of n X 2 0..1 arrays with every element both equal and not equal to some elements at offset (-1,-1) (-1,0) (-1,1) (0,-1) (0,1) or (1,0), with upper left element zero.
 * [A278281](https://oeis.org/A278281) ([program](/edit/?oeis=278281)): Number of 2 X n 0..1 arrays with every element both equal and not equal to some elements at offset (-1,-1) (-1,0) (-1,1) (0,-1) (0,1) or (1,0), with upper left element zero.
 * [A278290](https://oeis.org/A278290) ([program](/edit/?oeis=278290)): Number of neighbors of each new term in a square array read by antidiagonals.
@@ -4861,10 +5252,12 @@ List of integer sequences with links to LODA programs.
 * [A278312](https://oeis.org/A278312) ([program](/edit/?oeis=278312)): a(n) = denominator of n/(2^(2\*n+1)).
 * [A278313](https://oeis.org/A278313) ([program](/edit/?oeis=278313)): Number of letters "I" in Roman numeral representation of n.
 * [A278317](https://oeis.org/A278317) ([program](/edit/?oeis=278317)): Number of neighbors of each new term in a right triangle read by rows.
+* [A278327](https://oeis.org/A278327) ([program](/edit/?oeis=278327)): Decimal expansion of 1/e - 1/e^2.
 * [A278348](https://oeis.org/A278348) ([program](/edit/?oeis=278348)): Number of 2 X 2 singular integer matrices with elements from \{0,...,n\} with no elements repeated.
 * [A278364](https://oeis.org/A278364) ([program](/edit/?oeis=278364)): A sequence showing denominators in ratios tending to the constant Pi/4 = 0.785398163397448... .
 * [A278365](https://oeis.org/A278365) ([program](/edit/?oeis=278365)): Number of n X 1 0..2 arrays with rows and columns in lexicographic nondecreasing order but with exactly three mistakes.
 * [A278375](https://oeis.org/A278375) ([program](/edit/?oeis=278375)): Edge-distinguishing chromatic number of ladder graph with 2n vertices.
+* [A278394](https://oeis.org/A278394) ([program](/edit/?oeis=278394)): Number of positive meanders (walks starting at the origin and ending at any altitude > 0 that never touch or go below the x-axis in between) with n steps from \{-2,-1,1,2\}.
 * [A278403](https://oeis.org/A278403) ([program](/edit/?oeis=278403)): a(n) = Sum\_\{d\|n\} d^2 \* (d+1)/2.
 * [A278405](https://oeis.org/A278405) ([program](/edit/?oeis=278405)): a(n) = Sum\_\{k=0..n\} binomial(n,2k)^2\*binomial(n-k,k).
 * [A278415](https://oeis.org/A278415) ([program](/edit/?oeis=278415)): a(n) = Sum\_\{k=0..n\} binomial(n, 2k)\*binomial(n-k, k)\*(-1)^k.
@@ -4879,12 +5272,19 @@ List of integer sequences with links to LODA programs.
 * [A278484](https://oeis.org/A278484) ([program](/edit/?oeis=278484)): Main diagonal of A278482.
 * [A278509](https://oeis.org/A278509) ([program](/edit/?oeis=278509)): a(n) = 3^\{number of primes congruent to 3 modulo 4 dividing n (with multiplicity)\}.
 * [A278528](https://oeis.org/A278528) ([program](/edit/?oeis=278528)): a(n) = number of the round in which n is removed in the Flavius sieve, 0 if it is never removed (when n is one of the terms of A000960).
+* [A278529](https://oeis.org/A278529) ([program](/edit/?oeis=278529)): a(n) = one-based position in the round in which n is removed in the Flavius sieve, 0 if n is never removed (when n is one of the terms of A000960).
 * [A278530](https://oeis.org/A278530) ([program](/edit/?oeis=278530)): a(n) = A056239(A260443(n)).
+* [A278531](https://oeis.org/A278531) ([program](/edit/?oeis=278531)): a(n) = A046523(A163511(n)).
+* [A278533](https://oeis.org/A278533) ([program](/edit/?oeis=278533)): a(n) = A046523(A253563(n)).
+* [A278535](https://oeis.org/A278535) ([program](/edit/?oeis=278535)): a(n) = A046523(A253565(n)).
 * [A278536](https://oeis.org/A278536) ([program](/edit/?oeis=278536)): First differences of A273324.
+* [A278537](https://oeis.org/A278537) ([program](/edit/?oeis=278537)): a(n) = index of the column where n is located in array A278511, a(1) = 0.
 * [A278538](https://oeis.org/A278538) ([program](/edit/?oeis=278538)): a(n) = index of the row where n is located in array A278505.
+* [A278539](https://oeis.org/A278539) ([program](/edit/?oeis=278539)): a(n) = index of the column where n is located in array A278505.
 * [A278541](https://oeis.org/A278541) ([program](/edit/?oeis=278541)): a(n) = A046523(A209636(n)).
 * [A278542](https://oeis.org/A278542) ([program](/edit/?oeis=278542)): a(n) = A046523(A209637(n)).
 * [A278545](https://oeis.org/A278545) ([program](/edit/?oeis=278545)): Number of neighbors of the n-th term in a full square array read by antidiagonals.
+* [A278547](https://oeis.org/A278547) ([program](/edit/?oeis=278547)): Number of n X 1 0..3 arrays with rows and columns in lexicographic nondecreasing order but with exactly two mistakes.
 * [A278554](https://oeis.org/A278554) ([program](/edit/?oeis=278554)): Number of distinct blocks of length n (a.k.a. subword complexity) of the characteristic sequence of the squarefree numbers A008966.
 * [A278565](https://oeis.org/A278565) ([program](/edit/?oeis=278565)): a(n) = Sum\_\{t=1..n\} binomial(n,t)\*t^(1+(n-t)^2).
 * [A278568](https://oeis.org/A278568) ([program](/edit/?oeis=278568)): Twice odd prime powers.
@@ -4894,6 +5294,7 @@ List of integer sequences with links to LODA programs.
 * [A278596](https://oeis.org/A278596) ([program](/edit/?oeis=278596)): a(n) = Sum\_\{k=0..n\} binomial(k+n+3,k)\*binomial(2\*n+1,n-k).
 * [A278597](https://oeis.org/A278597) ([program](/edit/?oeis=278597)): One half of A278481.
 * [A278603](https://oeis.org/A278603) ([program](/edit/?oeis=278603)): A prime mountain: peaks and valleys beyond the origin correspond to prime abscissa (see Comments for precise definition).
+* [A278604](https://oeis.org/A278604) ([program](/edit/?oeis=278604)): Number of nX1 0..3 arrays with rows and columns in lexicographic nondecreasing order but with exactly three mistakes.
 * [A278612](https://oeis.org/A278612) ([program](/edit/?oeis=278612)): Sum of terms in level n of TRIP - Stern sequence associated with permutation triple (e, e, e).
 * [A278613](https://oeis.org/A278613) ([program](/edit/?oeis=278613)): Sum of terms in level n of TRIP -  Stern sequence associated with permutation triple (e,e,132).
 * [A278614](https://oeis.org/A278614) ([program](/edit/?oeis=278614)): Sum of terms in level n of TRIP -  Stern sequence associated with permutation triple (e,12,12).
@@ -4906,6 +5307,8 @@ List of integer sequences with links to LODA programs.
 * [A278647](https://oeis.org/A278647) ([program](/edit/?oeis=278647)): First differences of Hypotenuse numbers A009003.
 * [A278648](https://oeis.org/A278648) ([program](/edit/?oeis=278648)): Consider the set S of integers 1 through n. a(n) is the number of unordered ways in which three distinct elements \{a, b, c\} of S satisfy a\*b = c\*n.
 * [A278670](https://oeis.org/A278670) ([program](/edit/?oeis=278670)): Number of n X 2 0..1 arrays with rows in nondecreasing lexicographic order and columns in nonincreasing lexicographic order, but with exactly one mistake.
+* [A278678](https://oeis.org/A278678) ([program](/edit/?oeis=278678)): Popularity of left children in treeshelves avoiding pattern T321.
+* [A278679](https://oeis.org/A278679) ([program](/edit/?oeis=278679)): Popularity of left children in treeshelves avoiding pattern T213.
 * [A278681](https://oeis.org/A278681) ([program](/edit/?oeis=278681)): Pisot sequence T(3,16).
 * [A278689](https://oeis.org/A278689) ([program](/edit/?oeis=278689)): a(n) = Sum\_\{k=0..n\} binomial(n+k,n)\*binomial(2\*n-3,n-k-1) for n>1, a(n) = n for n<=1.
 * [A278692](https://oeis.org/A278692) ([program](/edit/?oeis=278692)): Pisot sequence T(4,14).
@@ -4924,12 +5327,18 @@ List of integer sequences with links to LODA programs.
 * [A278754](https://oeis.org/A278754) ([program](/edit/?oeis=278754)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 65", based on the 5-celled von Neumann neighborhood.
 * [A278755](https://oeis.org/A278755) ([program](/edit/?oeis=278755)): Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 65", based on the 5-celled von Neumann neighborhood.
 * [A278756](https://oeis.org/A278756) ([program](/edit/?oeis=278756)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 65", based on the 5-celled von Neumann neighborhood.
+* [A278757](https://oeis.org/A278757) ([program](/edit/?oeis=278757)): Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 73", based on the 5-celled von Neumann neighborhood.
+* [A278758](https://oeis.org/A278758) ([program](/edit/?oeis=278758)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 73", based on the 5-celled von Neumann neighborhood.
+* [A278759](https://oeis.org/A278759) ([program](/edit/?oeis=278759)): Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 73", based on the 5-celled von Neumann neighborhood.
+* [A278760](https://oeis.org/A278760) ([program](/edit/?oeis=278760)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 73", based on the 5-celled von Neumann neighborhood.
 * [A278764](https://oeis.org/A278764) ([program](/edit/?oeis=278764)): Pisot sequence T(5,13).
 * [A278814](https://oeis.org/A278814) ([program](/edit/?oeis=278814)): a(n) = ceiling(sqrt(3n+1)).
 * [A278816](https://oeis.org/A278816) ([program](/edit/?oeis=278816)): Numbers that can be produced from their own digits by applying one or more of the eight operations \{+, -, \*, /, sqrt(), ^, !, concat11()\}, with no operation used more than once, where "concat11()" means the operation of concatenating two single digits.
 * [A278818](https://oeis.org/A278818) ([program](/edit/?oeis=278818)): a(n) is the least k > n such that k + n is square.
 * [A278831](https://oeis.org/A278831) ([program](/edit/?oeis=278831)): Minimal number of possible moves at the n-th ply of a chess game, excluding positions where no move is possible.
 * [A278832](https://oeis.org/A278832) ([program](/edit/?oeis=278832)): Maximal material difference at the end of the n-th ply of a chess game.
+* [A278881](https://oeis.org/A278881) ([program](/edit/?oeis=278881)): Triangle where g.f. C = C(x,m) and related series S = S(x,m) and D = D(x,m) satisfy S = x\*C\*D, C = 1 + x\*S\*D, and D = 1 + m\*x\*S\*C, as read by rows of coefficients T(n,k) of x^(2\*n)\*m^k in C(x,m) for n>=0, k=0..n.
+* [A278882](https://oeis.org/A278882) ([program](/edit/?oeis=278882)): Triangle where g.f. D = D(x,m) and related series S = S(x,m) and C = C(x,m) satisfy S = x\*C\*D, C = 1 + x\*S\*D, and D = 1 + m\*x\*S\*C, as read by rows of coefficients T(n,k) of x^(2\*n)\*m^k in C(x,m) for n>=1, k=0..n.
 * [A278883](https://oeis.org/A278883) ([program](/edit/?oeis=278883)): a(n) = (4\*n+1) \* ( binomial(3\*n,n)/(2\*n+1) )^2.
 * [A278884](https://oeis.org/A278884) ([program](/edit/?oeis=278884)): a(n) = binomial(3\*n-1,n) \* binomial(3\*n,n)/(2\*n+1).
 * [A278907](https://oeis.org/A278907) ([program](/edit/?oeis=278907)): a(n) = floor((n\*2^(n+1)+2)/(2\*n-(-1)^n+3)) - floor((n\*2^(n+1)-2)/(2\*n-(-1)^n+3)).
@@ -4948,6 +5357,9 @@ List of integer sequences with links to LODA programs.
 * [A278999](https://oeis.org/A278999) ([program](/edit/?oeis=278999)): Numbers of the form (5h+2)\*5^k-1 or (5h+3)\*5^k-1 for h,k in N.
 * [A279004](https://oeis.org/A279004) ([program](/edit/?oeis=279004)): Irregular triangle read by rows: generalized Catalan triangle C\_3(n,k).
 * [A279006](https://oeis.org/A279006) ([program](/edit/?oeis=279006)): Alternating Jacobsthal triangle read by rows (second version).
+* [A279008](https://oeis.org/A279008) ([program](/edit/?oeis=279008)): Triangle read by rows: 2-analog of triangle A112468.
+* [A279009](https://oeis.org/A279009) ([program](/edit/?oeis=279009)): Alternating Jacobsthal triangle A\_\{-2\}(n,k) read by rows.
+* [A279010](https://oeis.org/A279010) ([program](/edit/?oeis=279010)): Alternating Jacobsthal triangle A\_3(n,k) read by rows.
 * [A279013](https://oeis.org/A279013) ([program](/edit/?oeis=279013)): a(n) = Sum\_\{k=0..n\} binomial(2\*k,k)/(k+1)\*binomial(2\*n-1,n-k).
 * [A279014](https://oeis.org/A279014) ([program](/edit/?oeis=279014)): a(n) = Sum\_\{k=0..n\} fibonacci(k+1)\*binomial(2\*n-1,n-k).
 * [A279017](https://oeis.org/A279017) ([program](/edit/?oeis=279017)): a(n) = unreduced numerator in Sum\_\{k=1..n\}(1/k^k).
@@ -4966,6 +5378,7 @@ List of integer sequences with links to LODA programs.
 * [A279060](https://oeis.org/A279060) ([program](/edit/?oeis=279060)): Number of divisors of n of the form 6\*k + 1.
 * [A279061](https://oeis.org/A279061) ([program](/edit/?oeis=279061)): Number of divisors of n of the form 7\*k + 1.
 * [A279064](https://oeis.org/A279064) ([program](/edit/?oeis=279064)): Numbers n such that the sum of numbers less than n that do not divide n is even.
+* [A279071](https://oeis.org/A279071) ([program](/edit/?oeis=279071)): Numbers k such that Fibonacci(k) == +-1 (mod k).
 * [A279075](https://oeis.org/A279075) ([program](/edit/?oeis=279075)): Maximum starting value of X such that repeated replacement of X with X-ceiling(X/5) requires n steps to reach 0.
 * [A279076](https://oeis.org/A279076) ([program](/edit/?oeis=279076)): Maximum starting value of X such that repeated replacement of X with X-ceiling(X/6) requires n steps to reach 0.
 * [A279077](https://oeis.org/A279077) ([program](/edit/?oeis=279077)): Maximum starting value of X such that repeated replacement of X with X-ceiling(X/7) requires n steps to reach 0.
@@ -4976,27 +5389,42 @@ List of integer sequences with links to LODA programs.
 * [A279083](https://oeis.org/A279083) ([program](/edit/?oeis=279083)): Numbers k such that there exists at least one tetrahedral number with exactly k divisors.
 * [A279100](https://oeis.org/A279100) ([program](/edit/?oeis=279100)): a(n) = Sum\_\{k=0..n\} ceiling(phi^k), where phi is the golden ratio (A001622).
 * [A279101](https://oeis.org/A279101) ([program](/edit/?oeis=279101)): a(n) = Sum\_\{k=0..n\} ceiling((1 + sqrt(2))^k).
+* [A279105](https://oeis.org/A279105) ([program](/edit/?oeis=279105)): a(n), n>1, is the smallest number k whose symmetric representation of sigma(k) has two parts and has a larger number of legs in its two parts than a(n-1); a(1)=3.
+* [A279106](https://oeis.org/A279106) ([program](/edit/?oeis=279106)): a(n) = number of legs in each part of the symmetric representation of sigma(A279105(n)).
+* [A279107](https://oeis.org/A279107) ([program](/edit/?oeis=279107)): Denominators of coefficients in expansion of 1/(1 - sin x).
+* [A279109](https://oeis.org/A279109) ([program](/edit/?oeis=279109)): Denominators of coefficients in expansion of 1/(1 + cos(sqrt(x))).
+* [A279110](https://oeis.org/A279110) ([program](/edit/?oeis=279110)): Denominators of coefficients in expansion of 2/(1 + cos(sqrt(x))).
 * [A279111](https://oeis.org/A279111) ([program](/edit/?oeis=279111)): Number of non-equivalent ways to place 2 non-attacking kings on an n X n board.
 * [A279118](https://oeis.org/A279118) ([program](/edit/?oeis=279118)): Binary representation of the x-axis, from the left edge to the origin, (and also from the origin to the right edge) of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 209", based on the 5-celled von Neumann neighborhood.
+* [A279120](https://oeis.org/A279120) ([program](/edit/?oeis=279120)): Numerators of coefficients in expansion of 1/(1 + 2 cos(sqrt(x))).
+* [A279121](https://oeis.org/A279121) ([program](/edit/?oeis=279121)): Denominators of coefficients in expansion of 1/(1 + 2 cos(sqrt(x))).
+* [A279122](https://oeis.org/A279122) ([program](/edit/?oeis=279122)): Denominators of coefficients in expansion of 3/(1 + 2 cos(sqrt(x))).
 * [A279124](https://oeis.org/A279124) ([program](/edit/?oeis=279124)): Number of Hangul letters (initials, medials and finals of syllables) in Sino-Korean name of n. If there are several different spellings, use the shorter one.
 * [A279127](https://oeis.org/A279127) ([program](/edit/?oeis=279127)): a(n) = Sum\_\{0<=m<n\} Product\_\{-m<=j<=m\} (n-j).
 * [A279136](https://oeis.org/A279136) ([program](/edit/?oeis=279136)): a(n) = n\*Sum\_\{i=0..n-1\} binomial(n,i)\*binomial(i-1,n-i-1)/(n-i).
 * [A279159](https://oeis.org/A279159) ([program](/edit/?oeis=279159)): a(n) = Sum\_\{k=0..n\} (k+1)\*binomial(3\*n-4\*k+1,n-k)/(n-k+1).
 * [A279169](https://oeis.org/A279169) ([program](/edit/?oeis=279169)): a(n) = floor( 4\*n^2/5 ).
+* [A279181](https://oeis.org/A279181) ([program](/edit/?oeis=279181)): Numerators of coefficients in expansion of 1/(-1 + 2 cos(sqrt(x))).
+* [A279182](https://oeis.org/A279182) ([program](/edit/?oeis=279182)): Denominators of coefficients in expansion of 1/(-1 + 2 cos(sqrt(x))).
 * [A279188](https://oeis.org/A279188) ([program](/edit/?oeis=279188)): Maximal entry in row c of triangle in A279185, where c = prime(n)^2 = A001248(n).
 * [A279193](https://oeis.org/A279193) ([program](/edit/?oeis=279193)): Least positive integer whose decimal digits divide the plane into n regions (version for people who write 2 with a curlicue).
+* [A279204](https://oeis.org/A279204) ([program](/edit/?oeis=279204)): Numbers whose decimal expansion is a concatenation of 4 consecutive increasing nonnegative numbers.
 * [A279206](https://oeis.org/A279206) ([program](/edit/?oeis=279206)): Length of first run of 0's in binary representation of Catalan(n).
 * [A279209](https://oeis.org/A279209) ([program](/edit/?oeis=279209)): Length of first run of 0's in binary expansion of n.
+* [A279210](https://oeis.org/A279210) ([program](/edit/?oeis=279210)): Length of second run of 1's in binary expansion of n.
 * [A279211](https://oeis.org/A279211) ([program](/edit/?oeis=279211)): Fill an array by antidiagonals upwards; in the n-th cell, enter the number of earlier cells that can be seen from that cell.
 * [A279230](https://oeis.org/A279230) ([program](/edit/?oeis=279230)): Expansion of 1/((1-x)^2\*(1-2\*x+2\*x^2)).
 * [A279231](https://oeis.org/A279231) ([program](/edit/?oeis=279231)): Expansion of 1/((1-x)^2\*(1-3\*x+3\*x^2)).
 * [A279241](https://oeis.org/A279241) ([program](/edit/?oeis=279241)): Let f(n) = 4\*n^2 + 2\*n + 41. The values \|f(n)\| are primes for all n in the range -20 to 19 (but not for n=-21 or 20). The sequence lists this maximal run of primes in the order in which they appear.
 * [A279245](https://oeis.org/A279245) ([program](/edit/?oeis=279245)): Number of subsets of \{1, 2, 3, ..., n\} that include no consecutive odd integers.
+* [A279257](https://oeis.org/A279257) ([program](/edit/?oeis=279257)): Numerators of coefficients in expansion of 1/(cos x - sin x).
+* [A279258](https://oeis.org/A279258) ([program](/edit/?oeis=279258)): Denominators of coefficients in expansion of 1/(cos x - sin x).
 * [A279260](https://oeis.org/A279260) ([program](/edit/?oeis=279260)): Numbers which are cyclops palindromic in their binary reflected Gray code representation.
 * [A279262](https://oeis.org/A279262) ([program](/edit/?oeis=279262)): Number of n X 2 0..1 arrays with no element equal to a strict majority of its horizontal and vertical neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.
 * [A279269](https://oeis.org/A279269) ([program](/edit/?oeis=279269)): a(n) = floor( (4 + sqrt(11))^n ).
 * [A279275](https://oeis.org/A279275) ([program](/edit/?oeis=279275)): Numbers k such that 2\*k+1 and 5\*k+1 are both pentagonal numbers (A000326).
 * [A279277](https://oeis.org/A279277) ([program](/edit/?oeis=279277)): Composition of Lucas numbers A000032 with Fibonacci numbers A000045.
+* [A279283](https://oeis.org/A279283) ([program](/edit/?oeis=279283)): Self-composition of the tetrahedral (or triangular pyramidal) numbers; g.f.: A(x) = G(G(x)), where G(x) = g.f. of A000292.
 * [A279285](https://oeis.org/A279285) ([program](/edit/?oeis=279285)): Self-composition of the Pell numbers; g.f.: A(x) = G(G(x)), where G(x) = g.f. of A000129.
 * [A279287](https://oeis.org/A279287) ([program](/edit/?oeis=279287)): a(n) = numerator of (phi(n)/tau(n)).
 * [A279288](https://oeis.org/A279288) ([program](/edit/?oeis=279288)): a(n) = denominator of (phi(n)/tau(n)).
@@ -5008,9 +5436,12 @@ List of integer sequences with links to LODA programs.
 * [A279319](https://oeis.org/A279319) ([program](/edit/?oeis=279319)): Period 16 zigzag sequence: repeat [0,1,2,3,4,5,6,7,8,7,6,5,4,3,2,1].
 * [A279321](https://oeis.org/A279321) ([program](/edit/?oeis=279321)): Period 7: repeat [1, 3, 5, 7, 5, 3, 1].
 * [A279322](https://oeis.org/A279322) ([program](/edit/?oeis=279322)): Number of n X 1 0..2 arrays with no element equal to a strict majority of its king-move neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.
+* [A279334](https://oeis.org/A279334) ([program](/edit/?oeis=279334)): Numerators of coefficients in expansion of exp(x)/(1 - x - x^2).
+* [A279335](https://oeis.org/A279335) ([program](/edit/?oeis=279335)): Denominators of coefficients in expansion of exp(x)/(1 - x - x^2).
 * [A279340](https://oeis.org/A279340) ([program](/edit/?oeis=279340)): First differences of A055938.
 * [A279363](https://oeis.org/A279363) ([program](/edit/?oeis=279363)): Sum of 4th powers of proper divisors of n.
 * [A279364](https://oeis.org/A279364) ([program](/edit/?oeis=279364)): Sum of 5th powers of proper divisors of n.
+* [A279370](https://oeis.org/A279370) ([program](/edit/?oeis=279370)): Numerators of coefficients in expansion of (cos(sqrt(x)))/(1 + cos(sqrt(x))).
 * [A279378](https://oeis.org/A279378) ([program](/edit/?oeis=279378)): Number of n X 2 0..1 arrays with no element equal to a strict majority of its horizontal, vertical and antidiagonal neighbors, with new values introduced in order 0 sequentially upwards.
 * [A279395](https://oeis.org/A279395) ([program](/edit/?oeis=279395)): a(n) = Sum\_\{ d >= 1, d divides n\} (-1)^(n-d)\*d^4.
 * [A279402](https://oeis.org/A279402) ([program](/edit/?oeis=279402)): Domination number for queens' graph on an n X n toroidal board.
@@ -5030,7 +5461,6 @@ List of integer sequences with links to LODA programs.
 * [A279507](https://oeis.org/A279507) ([program](/edit/?oeis=279507)): a(n) = floor(phi(n)/tau(n)).
 * [A279511](https://oeis.org/A279511) ([program](/edit/?oeis=279511)): Sierpinski square-based pyramid numbers: a(n) = 5\*a(n-1) - (2^(n+1)+7).
 * [A279512](https://oeis.org/A279512) ([program](/edit/?oeis=279512)): Sierpinski octahedron numbers a(n) = 2\*6^n + 3\*2^n + 1.
-* [A279513](https://oeis.org/A279513) ([program](/edit/?oeis=279513)): Multiplicative with a(p^k) = p\*a(k) for any prime p and k>0.
 * [A279515](https://oeis.org/A279515) ([program](/edit/?oeis=279515)): Number of 0's in the binary expansion of the least common multiple of the first n integers.
 * [A279519](https://oeis.org/A279519) ([program](/edit/?oeis=279519)): a(n) = A049502(A003418(n)).
 * [A279521](https://oeis.org/A279521) ([program](/edit/?oeis=279521)): Maximum number of single-direction edges in leveled binary trees with n nodes.
@@ -5039,8 +5469,12 @@ List of integer sequences with links to LODA programs.
 * [A279557](https://oeis.org/A279557) ([program](/edit/?oeis=279557)): Number of length n inversion sequences avoiding the patterns 110, 120, and 021.
 * [A279560](https://oeis.org/A279560) ([program](/edit/?oeis=279560)): Number of length n inversion sequences avoiding the patterns 100, 210, 201, and 102.
 * [A279561](https://oeis.org/A279561) ([program](/edit/?oeis=279561)): Number of length n inversion sequences avoiding the patterns 101, 102, 201, and 210.
+* [A279563](https://oeis.org/A279563) ([program](/edit/?oeis=279563)): Number of length n inversion sequences avoiding the patterns 102, 201, and 210.
+* [A279565](https://oeis.org/A279565) ([program](/edit/?oeis=279565)): Number of length n inversion sequences avoiding the patterns 100, 110, 120, 201, and 210.
 * [A279574](https://oeis.org/A279574) ([program](/edit/?oeis=279574)): Number of n X 2 0..2 arrays with no element equal to a strict majority of its horizontal and antidiagonal neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.
+* [A279607](https://oeis.org/A279607) ([program](/edit/?oeis=279607)): Beatty sequence for e/2; i.e., a(n) = floor(n\*e/2).
 * [A279608](https://oeis.org/A279608) ([program](/edit/?oeis=279608)): Beatty sequence for e/(e - 2); i.e., a(n) = floor(n\*e/(e - 2)).
+* [A279610](https://oeis.org/A279610) ([program](/edit/?oeis=279610)): a(n) = concatenate n consecutive integers, starting with the last number of the previous batch.
 * [A279620](https://oeis.org/A279620) ([program](/edit/?oeis=279620)): Limit of the sequence of words defined by w(1) = 1, w(2) = 1221, and w(n) = w(n-1) 2 w(n-2) 2 w(n-1) for n >= 2. Also the fixed point of the map 1 -> 122, 2 -> 12.
 * [A279622](https://oeis.org/A279622) ([program](/edit/?oeis=279622)): Numbers with a prime factor greater than 5.
 * [A279634](https://oeis.org/A279634) ([program](/edit/?oeis=279634)): Coefficients in the expansion of 1/([r] + [2r]x + [3r]x^2 + ...); [ ] = floor, r = 3/2.
@@ -5052,6 +5486,8 @@ List of integer sequences with links to LODA programs.
 * [A279674](https://oeis.org/A279674) ([program](/edit/?oeis=279674)): The maximum number of coins that can be processed in n weighings that all are real except for one LHR-coin starting in the heavy state.
 * [A279675](https://oeis.org/A279675) ([program](/edit/?oeis=279675)): Coefficients in the expansion of 1/([r] + [2r]x + [3r]x^2 + ...); [ ] = floor, r = 4/3.
 * [A279676](https://oeis.org/A279676) ([program](/edit/?oeis=279676)): Coefficients in the expansion of 1/([r] + [2r]x + [3r]x^2 + ...); [ ] = floor, r = 5/3.
+* [A279677](https://oeis.org/A279677) ([program](/edit/?oeis=279677)): Coefficients in the expansion of 1/([r] + [2r]x + [3r]x^2 + ...); [ ] = floor, r = 5/4.
+* [A279678](https://oeis.org/A279678) ([program](/edit/?oeis=279678)): Coefficients in the expansion of 1/([r] + [2r]x + [3r]x^2 + ...); [ ] = floor, r = 7/4.
 * [A279683](https://oeis.org/A279683) ([program](/edit/?oeis=279683)): Number of move operations required to sort all permutations of [n] by MTF sort.
 * [A279704](https://oeis.org/A279704) ([program](/edit/?oeis=279704)): Number of n X 3 0..1 arrays with no element equal to a strict majority of its horizontal and antidiagonal neighbors and with new values introduced in order 0 sequentially upwards.
 * [A279724](https://oeis.org/A279724) ([program](/edit/?oeis=279724)): Transpose of array A257943.
@@ -5061,6 +5497,7 @@ List of integer sequences with links to LODA programs.
 * [A279758](https://oeis.org/A279758) ([program](/edit/?oeis=279758)): Expansion of Product\_\{k>=1\} 1/(1 - x^(k\*(5\*k^2-5\*k+2)/2)).
 * [A279766](https://oeis.org/A279766) ([program](/edit/?oeis=279766)): Number of odd digits in the decimal expansions of integers 1 to n.
 * [A279769](https://oeis.org/A279769) ([program](/edit/?oeis=279769)): Numbers n such that the sum of digits of 9n is 18.
+* [A279770](https://oeis.org/A279770) ([program](/edit/?oeis=279770)): Numbers n such that the sum of digits of 7n equals 14.
 * [A279772](https://oeis.org/A279772) ([program](/edit/?oeis=279772)): Numbers n such that the sum of digits of 2n equals 4.
 * [A279773](https://oeis.org/A279773) ([program](/edit/?oeis=279773)): Numbers n such that the sum of digits of 3n equals 6.
 * [A279774](https://oeis.org/A279774) ([program](/edit/?oeis=279774)): Numbers n such that the sum of digits of 4n equals 8.
@@ -5073,7 +5510,9 @@ List of integer sequences with links to LODA programs.
 * [A279851](https://oeis.org/A279851) ([program](/edit/?oeis=279851)): Number of n X 2 0..2 arrays with no element unequal to a strict majority of its horizontal and vertical neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.
 * [A279872](https://oeis.org/A279872) ([program](/edit/?oeis=279872)): Decimal representation of the x-axis, from the left edge to the origin, (and also from the origin to the right edge) of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 209", based on the 5-celled von Neumann neighborhood.
 * [A279877](https://oeis.org/A279877) ([program](/edit/?oeis=279877)): Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 213", based on the 5-celled von Neumann neighborhood.
+* [A279878](https://oeis.org/A279878) ([program](/edit/?oeis=279878)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 213", based on the 5-celled von Neumann neighborhood.
 * [A279879](https://oeis.org/A279879) ([program](/edit/?oeis=279879)): Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 213", based on the 5-celled von Neumann neighborhood.
+* [A279880](https://oeis.org/A279880) ([program](/edit/?oeis=279880)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 213", based on the 5-celled von Neumann neighborhood.
 * [A279882](https://oeis.org/A279882) ([program](/edit/?oeis=279882)): a(n) = 2^(prime(n) + 1) - 1.
 * [A279884](https://oeis.org/A279884) ([program](/edit/?oeis=279884)): a(n) = (prime(n)-1)^(prime(n)+1) + 1.
 * [A279886](https://oeis.org/A279886) ([program](/edit/?oeis=279886)): a(n) = A057863(n+1) \* Sum\_\{k=0..n\}(k! / (2\*k+1)!!).
@@ -5187,6 +5626,8 @@ List of integer sequences with links to LODA programs.
 * [A280435](https://oeis.org/A280435) ([program](/edit/?oeis=280435)): Number of nX3 0..1 arrays with no element equal to more than one of its horizontal and vertical neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.
 * [A280458](https://oeis.org/A280458) ([program](/edit/?oeis=280458)): Partial products of A023896.
 * [A280474](https://oeis.org/A280474) ([program](/edit/?oeis=280474)): Number of n X 2 0..2 arrays with no element unequal to a strict majority of its horizontal and antidiagonal neighbors, with the exception of exactly two elements, and with new values introduced in order 0 sequentially upwards.
+* [A280490](https://oeis.org/A280490) ([program](/edit/?oeis=280490)): a(n) = n / A280491(n) = n / gcd(n,A122111(n)).
+* [A280491](https://oeis.org/A280491) ([program](/edit/?oeis=280491)): a(n) = gcd(n,A122111(n)).
 * [A280510](https://oeis.org/A280510) ([program](/edit/?oeis=280510)): Index sequence of the Thue-Morse sequence (A010060) as a block-fractal sequence.
 * [A280511](https://oeis.org/A280511) ([program](/edit/?oeis=280511)): Index sequence of the block-fractal sequence A001468.
 * [A280512](https://oeis.org/A280512) ([program](/edit/?oeis=280512)): Index sequence of the Thue-Morse sequence (A010060, using offset 1) as a reverse block-fractal sequence.
@@ -5206,13 +5647,15 @@ List of integer sequences with links to LODA programs.
 * [A280582](https://oeis.org/A280582) ([program](/edit/?oeis=280582)): a(n) = the product of divisors of product of divisors of n.
 * [A280583](https://oeis.org/A280583) ([program](/edit/?oeis=280583)): a(n) = product of divisors of the number of divisors of n.
 * [A280585](https://oeis.org/A280585) ([program](/edit/?oeis=280585)): Decimal expansion of 8\*sin(Pi/8).
+* [A280598](https://oeis.org/A280598) ([program](/edit/?oeis=280598)): Number of nX2 0..1 arrays with no element equal to more than two of its horizontal, vertical and antidiagonal neighbors and with new values introduced in order 0 sequentially upwards.
+* [A280607](https://oeis.org/A280607) ([program](/edit/?oeis=280607)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 294", based on the 5-celled von Neumann neighborhood.
+* [A280610](https://oeis.org/A280610) ([program](/edit/?oeis=280610)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 294", based on the 5-celled von Neumann neighborhood.
 * [A280633](https://oeis.org/A280633) ([program](/edit/?oeis=280633)): Decimal expansion of 18\*sin(Pi/18).
 * [A280637](https://oeis.org/A280637) ([program](/edit/?oeis=280637)): Sum of the digits of n^2+1.
 * [A280656](https://oeis.org/A280656) ([program](/edit/?oeis=280656)): Denominator of Sum\_\{k=0..n^2-1\}((-1)^k\*sqrt(Pi)/(Gamma(1/2-k)\*Gamma(1+k)))-n).
 * [A280658](https://oeis.org/A280658) ([program](/edit/?oeis=280658)): Numbers ending with their digital root in decimal representation.
 * [A280668](https://oeis.org/A280668) ([program](/edit/?oeis=280668)): Number of n X 3 0..2 arrays with no element equal to more than one of its horizontal and antidiagonal neighbors and with new values introduced in order 0 sequentially upwards.
 * [A280682](https://oeis.org/A280682) ([program](/edit/?oeis=280682)): Integers m such that floor(sqrt(m)) is even.
-* [A280684](https://oeis.org/A280684) ([program](/edit/?oeis=280684)): a(n) = number of divisors of the product of the divisors of n.
 * [A280685](https://oeis.org/A280685) ([program](/edit/?oeis=280685)): a(n) = sum of the divisors of the product of the divisors of n.
 * [A280686](https://oeis.org/A280686) ([program](/edit/?oeis=280686)): Largest Fibonacci proper divisor of n, a(1) = 1.
 * [A280687](https://oeis.org/A280687) ([program](/edit/?oeis=280687)): a(n) = n / A280686(n); n divided by its largest Fibonacci proper divisor, a(1) = 1.
@@ -5221,6 +5664,7 @@ List of integer sequences with links to LODA programs.
 * [A280695](https://oeis.org/A280695) ([program](/edit/?oeis=280695)): a(n) = n / A280694(n); n divided by the largest Lucas number (A000032) dividing n.
 * [A280696](https://oeis.org/A280696) ([program](/edit/?oeis=280696)): Largest Lucas proper divisor of n, a(1) = a(2) = 1.
 * [A280697](https://oeis.org/A280697) ([program](/edit/?oeis=280697)): a(n) = n / A280696(n); n divided by its largest Lucas proper divisor, a(1) = 1.
+* [A280699](https://oeis.org/A280699) ([program](/edit/?oeis=280699)): Greatest Lucas number that is a divisor of the n-th Fibonacci number, a(1) = a(2) = 1.
 * [A280700](https://oeis.org/A280700) ([program](/edit/?oeis=280700)): Binary weight of terms of A005187: a(n) = A000120(A005187(n)).
 * [A280705](https://oeis.org/A280705) ([program](/edit/?oeis=280705)): a(n) = A002110(A280700(n)) = A046523(A283475(n)).
 * [A280710](https://oeis.org/A280710) ([program](/edit/?oeis=280710)): Characteristic function of squarefree semiprimes.
@@ -5228,6 +5672,7 @@ List of integer sequences with links to LODA programs.
 * [A280714](https://oeis.org/A280714) ([program](/edit/?oeis=280714)): Partial products of A055067.
 * [A280724](https://oeis.org/A280724) ([program](/edit/?oeis=280724)): Expansion of 1/(1 - x) + (1/(1 - x)^2)\*Sum\_\{k>=0\} x^(3^k).
 * [A280726](https://oeis.org/A280726) ([program](/edit/?oeis=280726)): a(n) = A049501(phi(n)).
+* [A280729](https://oeis.org/A280729) ([program](/edit/?oeis=280729)): (p-1)/2 + phi(p-1) as p runs through the odd primes.
 * [A280737](https://oeis.org/A280737) ([program](/edit/?oeis=280737)): a(n) = A007302(n)-1.
 * [A280756](https://oeis.org/A280756) ([program](/edit/?oeis=280756)): Expansion of (1 + 2\*x)/(1 - x - 4\*x^2 + x^4).
 * [A280757](https://oeis.org/A280757) ([program](/edit/?oeis=280757)): Expansion of x\*(2 + x)/(1 - 4\*x^2 - x^3 + x^4).
@@ -5236,6 +5681,7 @@ List of integer sequences with links to LODA programs.
 * [A280762](https://oeis.org/A280762) ([program](/edit/?oeis=280762)): a(n) = ceiling( log\_2( Catalan(n) ) ).
 * [A280797](https://oeis.org/A280797) ([program](/edit/?oeis=280797)): a(n) = (n^n - 1)(n^n + 1)/(n + 1).
 * [A280799](https://oeis.org/A280799) ([program](/edit/?oeis=280799)): a(n) = A049502(phi(n)).
+* [A280800](https://oeis.org/A280800) ([program](/edit/?oeis=280800)): a(n) = A049501(cototient(n)).
 * [A280814](https://oeis.org/A280814) ([program](/edit/?oeis=280814)): The maximum number of squares among the partial sums of any permutation of the integers [1..n].
 * [A280817](https://oeis.org/A280817) ([program](/edit/?oeis=280817)): a(n) = A049501(sigma(n)).
 * [A280818](https://oeis.org/A280818) ([program](/edit/?oeis=280818)): a(0)=1; for n > 0, if 4n+1 is prime, then a(n)=4n+1, otherwise a(n)=(4n+1)/LPF(4n+1).
@@ -5255,6 +5701,8 @@ List of integer sequences with links to LODA programs.
 * [A280945](https://oeis.org/A280945) ([program](/edit/?oeis=280945)): List of primitive triples (x, y, z) of positive integers for which xy - z, yz - x, and zx - y are powers of 2.
 * [A280955](https://oeis.org/A280955) ([program](/edit/?oeis=280955)): Number of n X 2 0..2 arrays with no element equal to more than one of its horizontal, vertical and antidiagonal neighbors and with new values introduced in order 0 sequentially upwards.
 * [A280968](https://oeis.org/A280968) ([program](/edit/?oeis=280968)): a(n) = A001097(n) + A001097(n+1).
+* [A280981](https://oeis.org/A280981) ([program](/edit/?oeis=280981)): Partial products of A049820; a(1) = a(2) = 1.
+* [A280982](https://oeis.org/A280982) ([program](/edit/?oeis=280982)): Partial products of A024816; a(1) = a(2) = 1.
 * [A280987](https://oeis.org/A280987) ([program](/edit/?oeis=280987)): \{Concatenation n, n-1, n-2, ...3,2,1\} mod sigma(n).
 * [A280995](https://oeis.org/A280995) ([program](/edit/?oeis=280995)): a(n) is the number produced when n is converted to binary reflected Gray code, the binary digits are reversed and the code is converted back to decimal.
 * [A281000](https://oeis.org/A281000) ([program](/edit/?oeis=281000)): Triangle read by rows: T(n,k) = binomial(2\*n+1, 2\*k+1)\*binomial(2\*n-2\*k, n-k)/(n+1-k) for 0 <= k <= n.
@@ -5276,8 +5724,10 @@ List of integer sequences with links to LODA programs.
 * [A281114](https://oeis.org/A281114) ([program](/edit/?oeis=281114)): Parity of the n-th squarefree triangular number.
 * [A281122](https://oeis.org/A281122) ([program](/edit/?oeis=281122)): Triangle T read by rows: n-th row (n>=0) gives the non-vanishing coefficients of the polynomial q(n,x) = ((x+1)^(2^n) - (x-1)^(2^n))/2.
 * [A281146](https://oeis.org/A281146) ([program](/edit/?oeis=281146)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 515", based on the 5-celled von Neumann neighborhood.
+* [A281149](https://oeis.org/A281149) ([program](/edit/?oeis=281149)): Elias gamma code (EGC) for n.
 * [A281151](https://oeis.org/A281151) ([program](/edit/?oeis=281151)): a(n) = floor(4\*n\*(n+1)/5).
 * [A281166](https://oeis.org/A281166) ([program](/edit/?oeis=281166)): a(n) = 3\*a(n-1) - 3\*a(n-2) + 2\*a(n-3) for n>2, a(0)=a(1)=1, a(2)=3.
+* [A281190](https://oeis.org/A281190) ([program](/edit/?oeis=281190)): Concatenation of the reversed digits of numbers from 1 to n, mod n.
 * [A281199](https://oeis.org/A281199) ([program](/edit/?oeis=281199)): Number of n X 2 0..1 arrays with no element equal to more than one of its horizontal and antidiagonal neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.
 * [A281200](https://oeis.org/A281200) ([program](/edit/?oeis=281200)): Number of n X 3 0..1 arrays with no element equal to more than one of its horizontal and antidiagonal neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.
 * [A281206](https://oeis.org/A281206) ([program](/edit/?oeis=281206)): Number of 2 X n 0..1 arrays with no element equal to more than one of its horizontal and antidiagonal neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.
@@ -5345,7 +5795,9 @@ List of integer sequences with links to LODA programs.
 * [A281699](https://oeis.org/A281699) ([program](/edit/?oeis=281699)): Sierpinski stellated octahedron numbers: a(n) = 2\*(-3\*2^(n+1) + 2^(2n+3) + 5).
 * [A281702](https://oeis.org/A281702) ([program](/edit/?oeis=281702)): Numbers k such that A001221(k) = A001221(A000326(k)).
 * [A281703](https://oeis.org/A281703) ([program](/edit/?oeis=281703)): Numbers k such that A000005(k) = A000005(A000326(k)).
+* [A281710](https://oeis.org/A281710) ([program](/edit/?oeis=281710)): Number of n X 3 0..1 arrays with no element unequal to a strict majority of its horizontal, diagonal and antidiagonal neighbors and with new values introduced in order 0 sequentially upwards.
 * [A281716](https://oeis.org/A281716) ([program](/edit/?oeis=281716)): Number of 2 X n 0..1 arrays with no element unequal to a strict majority of its horizontal, diagonal and antidiagonal neighbors and with new values introduced in order 0 sequentially upwards.
+* [A281722](https://oeis.org/A281722) ([program](/edit/?oeis=281722)): Expansion of r(q) \* s(q) in powers of q where r(), s() are cubic AGM functions.
 * [A281725](https://oeis.org/A281725) ([program](/edit/?oeis=281725)): Triangular array T(n,k) is the sum of elements in an n X k matrix that will be assigned the same value whether the integers from 1 to n\*k are assigned to elements in row-major order or column-major order.
 * [A281726](https://oeis.org/A281726) ([program](/edit/?oeis=281726)): Triangular array T(n,k) is the number of elements in an n X k matrix that will be assigned the same value whether the integers from 1 to n\*k are assigned to elements in row-major order or column-major order.
 * [A281727](https://oeis.org/A281727) ([program](/edit/?oeis=281727)): a(n) = (-1)^n \* 2 if n = 3\*k and n!=0, otherwise a(n) = (-1)^n.
@@ -5432,9 +5884,11 @@ List of integer sequences with links to LODA programs.
 * [A282235](https://oeis.org/A282235) ([program](/edit/?oeis=282235)): a(n) = Fibonacci(n) represented in bijective base-4 numeration.
 * [A282236](https://oeis.org/A282236) ([program](/edit/?oeis=282236)): a(n) = Fibonacci(n) represented in bijective base-5 numeration.
 * [A282237](https://oeis.org/A282237) ([program](/edit/?oeis=282237)): a(n) = Fibonacci(n) represented in bijective base-6 numeration.
+* [A282238](https://oeis.org/A282238) ([program](/edit/?oeis=282238)): a(n) = Fibonacci(n) represented in bijective base-7 numeration.
 * [A282239](https://oeis.org/A282239) ([program](/edit/?oeis=282239)): a(n) = Fibonacci(n) represented in bijective base-8 numeration.
 * [A282252](https://oeis.org/A282252) ([program](/edit/?oeis=282252)): Exponential Riordan array [Bessel\_I(0,2\*x)^2, x].
 * [A282254](https://oeis.org/A282254) ([program](/edit/?oeis=282254)): Coefficients in q-expansion of (3\*E\_4^3 + 2\*E\_6^2 - 5\*E\_2\*E\_4\*E\_6)/1584, where E\_2, E\_4, E\_6 are the Eisenstein series shown in A006352, A004009, A013973, respectively.
+* [A282282](https://oeis.org/A282282) ([program](/edit/?oeis=282282)): Remainder when sum of squares of the first n primes is divided by n-th square pyramidal number.
 * [A282284](https://oeis.org/A282284) ([program](/edit/?oeis=282284)): Least common multiple of 3\*n+1 and 3\*n-1.
 * [A282285](https://oeis.org/A282285) ([program](/edit/?oeis=282285)): Least common multiple of 5\*n+1 and 5\*n-1.
 * [A282286](https://oeis.org/A282286) ([program](/edit/?oeis=282286)): Least common multiple of 7\*n+1 and 7\*n-1.
@@ -5445,6 +5899,7 @@ List of integer sequences with links to LODA programs.
 * [A282324](https://oeis.org/A282324) ([program](/edit/?oeis=282324)): Greater of twin primes congruent to 19 (mod 30).
 * [A282326](https://oeis.org/A282326) ([program](/edit/?oeis=282326)): Greater of twin primes congruent to 1 (mod 30).
 * [A282329](https://oeis.org/A282329) ([program](/edit/?oeis=282329)): Start with 2, then successively subtract the primes 3, 5, 7, ...
+* [A282371](https://oeis.org/A282371) ([program](/edit/?oeis=282371)): Number of n X 2 0..1 arrays with no 1 equal to more than four of its king-move neighbors, with the exception of exactly two elements.
 * [A282385](https://oeis.org/A282385) ([program](/edit/?oeis=282385)): Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 462", based on the 5-celled von Neumann neighborhood.
 * [A282386](https://oeis.org/A282386) ([program](/edit/?oeis=282386)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 462", based on the 5-celled von Neumann neighborhood.
 * [A282387](https://oeis.org/A282387) ([program](/edit/?oeis=282387)): Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 462", based on the 5-celled von Neumann neighborhood.
@@ -5458,6 +5913,8 @@ List of integer sequences with links to LODA programs.
 * [A282417](https://oeis.org/A282417) ([program](/edit/?oeis=282417)): Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 469", based on the 5-celled von Neumann neighborhood.
 * [A282418](https://oeis.org/A282418) ([program](/edit/?oeis=282418)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 469", based on the 5-celled von Neumann neighborhood.
 * [A282429](https://oeis.org/A282429) ([program](/edit/?oeis=282429)): List of distinct terms of A282026.
+* [A282442](https://oeis.org/A282442) ([program](/edit/?oeis=282442)): a(n) is the smallest step size that does not occur on a staircase of n steps when following the following procedure: Take steps of length 1 up a staircase until you can't step any further, then take steps of length 2 down until you can't step any further, and so on.
+* [A282443](https://oeis.org/A282443) ([program](/edit/?oeis=282443)): a(n) is the largest step size that is taken on a staircase of n steps when following the following procedure: Take steps of length 1 up a staircase until you can't step any further, then take steps of length 2 down until you can't step any further, and so on.
 * [A282451](https://oeis.org/A282451) ([program](/edit/?oeis=282451)): Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 475", based on the 5-celled von Neumann neighborhood.
 * [A282452](https://oeis.org/A282452) ([program](/edit/?oeis=282452)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 475", based on the 5-celled von Neumann neighborhood.
 * [A282453](https://oeis.org/A282453) ([program](/edit/?oeis=282453)): Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 475", based on the 5-celled von Neumann neighborhood.
@@ -5468,11 +5925,13 @@ List of integer sequences with links to LODA programs.
 * [A282466](https://oeis.org/A282466) ([program](/edit/?oeis=282466)): a(n) = n\*a(n-1) + n!, with n>0, a(0)=5.
 * [A282473](https://oeis.org/A282473) ([program](/edit/?oeis=282473)): Multiples of 9 which cannot be expressed as the difference between a natural number k and its digit sum s(k).
 * [A282513](https://oeis.org/A282513) ([program](/edit/?oeis=282513)): a(n) = floor((3\*n + 2)^2/24 + 1/3).
+* [A282518](https://oeis.org/A282518) ([program](/edit/?oeis=282518)): Number of n-element subsets of [n+1] having a prime element sum.
 * [A282522](https://oeis.org/A282522) ([program](/edit/?oeis=282522)): Number of nX2 0..1 arrays with no 1 equal to more than two of its king-move neighbors.
 * [A282532](https://oeis.org/A282532) ([program](/edit/?oeis=282532)): Position where the discrete difference of the Poissonian probability distribution function with mean n takes its lowest value. In case of a tie, pick the smallest value.
 * [A282548](https://oeis.org/A282548) ([program](/edit/?oeis=282548)): Expansion of phi\_\{12, 1\}(x) where phi\_\{r, s\}(x) = Sum\_\{n, m>0\} m^r \* n^s \* x^\{m\*n\}.
 * [A282552](https://oeis.org/A282552) ([program](/edit/?oeis=282552)): Difference between the multiplicative orders of 2 modulo p^2 and 2 modulo p, where p = prime(n).
 * [A282563](https://oeis.org/A282563) ([program](/edit/?oeis=282563)): One third of the number of edges in the metrically regular triangulation of the n-th approximation of the Koch snowflake fractal.
+* [A282574](https://oeis.org/A282574) ([program](/edit/?oeis=282574)): The final position on a staircase of n steps during the following routine: Take steps of length 1 up a staircase until you can't step any further, then take steps of length 2 down until you can't step any further, and so on.
 * [A282577](https://oeis.org/A282577) ([program](/edit/?oeis=282577)): Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 553", based on the 5-celled von Neumann neighborhood.
 * [A282579](https://oeis.org/A282579) ([program](/edit/?oeis=282579)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 553", based on the 5-celled von Neumann neighborhood.
 * [A282597](https://oeis.org/A282597) ([program](/edit/?oeis=282597)): Expansion of phi\_\{14, 1\}(x) where phi\_\{r, s\}(x) = Sum\_\{n, m>0\} m^r \* n^s \* x^\{m\*n\}.
@@ -5488,6 +5947,7 @@ List of integer sequences with links to LODA programs.
 * [A282641](https://oeis.org/A282641) ([program](/edit/?oeis=282641)): Number of nX2 0..1 arrays with no 1 equal to more than one of its king-move neighbors.
 * [A282671](https://oeis.org/A282671) ([program](/edit/?oeis=282671)): Twice composite numbers.
 * [A282692](https://oeis.org/A282692) ([program](/edit/?oeis=282692)): a(n) = maximal number of nonzero real roots of any of the 3^(n+1) polynomials c\_0 + c\_1\*x + c\_2\*x^2 + ... + c\_n\*x^n where the coefficients c\_i are -1, 0, or 1.
+* [A282701](https://oeis.org/A282701) ([program](/edit/?oeis=282701)): a(n) = maximal number of real roots of any of the polynomials c\_0 + c\_1\*x + c\_2\*x^2 + ... + c\_n\*x^n where the coefficients c\_i are -1, 0, or 1, c\_0 != 0, and c\_n != 0.
 * [A282702](https://oeis.org/A282702) ([program](/edit/?oeis=282702)): a(n) = 3\*a(n-1) + a(n-2), with a(0)=4, a(1)=11.
 * [A282703](https://oeis.org/A282703) ([program](/edit/?oeis=282703)): a(n) = 3\*a(n-1) + a(n-2), with a(0)=7, a(1)=26.
 * [A282704](https://oeis.org/A282704) ([program](/edit/?oeis=282704)): (Twice product of first n primes) - 1.
@@ -5523,9 +5983,11 @@ List of integer sequences with links to LODA programs.
 * [A282807](https://oeis.org/A282807) ([program](/edit/?oeis=282807)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 513", based on the 5-celled von Neumann neighborhood.
 * [A282816](https://oeis.org/A282816) ([program](/edit/?oeis=282816)): Number of inequivalent ways to color the faces of a cube using at most n colors so that no two opposite sides have the same color.
 * [A282817](https://oeis.org/A282817) ([program](/edit/?oeis=282817)): Number of inequivalent ways to color the faces of a cube using at most n colors so that no color appears more than twice.
+* [A282818](https://oeis.org/A282818) ([program](/edit/?oeis=282818)): Number of inequivalent ways to color the edges of a tetrahedron using at most n colors so that no two adjacent edges have the same color.
 * [A282819](https://oeis.org/A282819) ([program](/edit/?oeis=282819)): Number of inequivalent ways to color the edges of a tetrahedron using at most n colors so that no two opposite edges have the same color.
 * [A282820](https://oeis.org/A282820) ([program](/edit/?oeis=282820)): Number of inequivalent ways to color the edges of a tetrahedron using at most n colors so that no color appears more than twice.
 * [A282822](https://oeis.org/A282822) ([program](/edit/?oeis=282822)): a(n) = (n - 4)\*n! for n>=0.
+* [A282844](https://oeis.org/A282844) ([program](/edit/?oeis=282844)): n-th even semiprime plus n-th odd semiprime.
 * [A282847](https://oeis.org/A282847) ([program](/edit/?oeis=282847)): Given n people seated at a table, a(n) gives the minimum number of swaps that must occur in order for everybody to have sat next to every other person.
 * [A282848](https://oeis.org/A282848) ([program](/edit/?oeis=282848)): a(n) = 2\*n + 1 + n mod 4.
 * [A282850](https://oeis.org/A282850) ([program](/edit/?oeis=282850)): 38-gonal numbers: a(n) = n\*(18\*n-17).
@@ -5534,6 +5996,7 @@ List of integer sequences with links to LODA programs.
 * [A282853](https://oeis.org/A282853) ([program](/edit/?oeis=282853)): 36-gonal numbers: a(n) = n\*(17\*n-16).
 * [A282854](https://oeis.org/A282854) ([program](/edit/?oeis=282854)): 34-gonal numbers: a(n) = n\*(32\*n-30)/2.
 * [A282856](https://oeis.org/A282856) ([program](/edit/?oeis=282856)): Number of nX2 0..1 arrays with no 1 equal to more than one of its horizontal, vertical and antidiagonal neighbors.
+* [A282876](https://oeis.org/A282876) ([program](/edit/?oeis=282876)): Expansion of ((1 + 4\*x + 8\*x^2)^(3/2) - (1 + 6\*x + 18\*x^2 + 20\*x^3)) / (2\*x^4) in powers of x.
 * [A282911](https://oeis.org/A282911) ([program](/edit/?oeis=282911)): Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 526", based on the 5-celled von Neumann neighborhood.
 * [A282912](https://oeis.org/A282912) ([program](/edit/?oeis=282912)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 526", based on the 5-celled von Neumann neighborhood.
 * [A282913](https://oeis.org/A282913) ([program](/edit/?oeis=282913)): Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 526", based on the 5-celled von Neumann neighborhood.
@@ -5548,8 +6011,10 @@ List of integer sequences with links to LODA programs.
 * [A283030](https://oeis.org/A283030) ([program](/edit/?oeis=283030)): Number of inequivalent 5 X 5 matrices with entries in \{1,2,3,...,n\} up to row permutations.
 * [A283049](https://oeis.org/A283049) ([program](/edit/?oeis=283049)): Numbers of configurations of A'Campo forests with co-dimension 1 and degree n>0.
 * [A283050](https://oeis.org/A283050) ([program](/edit/?oeis=283050)): Integers that are divisible by the square of their least prime factor.
+* [A283054](https://oeis.org/A283054) ([program](/edit/?oeis=283054)): Triangle read by rows: T(n,k) = T(n,k-1) + T(n-1,k), T(n,0)=1, T(n,n) = T(n,n-1) + 1.
 * [A283070](https://oeis.org/A283070) ([program](/edit/?oeis=283070)): Sierpinski tetrahedron or tetrix numbers: a(n) = 2\*4^n + 2.
 * [A283078](https://oeis.org/A283078) ([program](/edit/?oeis=283078)): a(n) = sigma(7\*n).
+* [A283104](https://oeis.org/A283104) ([program](/edit/?oeis=283104)): Second differences of Stern's diatomic sequence (A002487).
 * [A283107](https://oeis.org/A283107) ([program](/edit/?oeis=283107)): Numbers n such that tau(4\*(n - 1)) is prime.
 * [A283118](https://oeis.org/A283118) ([program](/edit/?oeis=283118)): a(n) = sigma(5\*n).
 * [A283122](https://oeis.org/A283122) ([program](/edit/?oeis=283122)): a(n) = sigma(8\*n).
@@ -5569,6 +6034,7 @@ List of integer sequences with links to LODA programs.
 * [A283237](https://oeis.org/A283237) ([program](/edit/?oeis=283237)): a(n) = sigma\_2(3\*n).
 * [A283262](https://oeis.org/A283262) ([program](/edit/?oeis=283262)): Numbers n such that tau(n^2) is a prime.
 * [A283298](https://oeis.org/A283298) ([program](/edit/?oeis=283298)): Diagonal of the Euler-Seidel matrix for the Catalan numbers.
+* [A283301](https://oeis.org/A283301) ([program](/edit/?oeis=283301)): Numerators of coefficients at even powers in Taylor series expansion of log(x/sin(x)).
 * [A283310](https://oeis.org/A283310) ([program](/edit/?oeis=283310)): Nim value of complete graph K\_n
 * [A283316](https://oeis.org/A283316) ([program](/edit/?oeis=283316)): Image of 0 under repeated applications of the morphism 0 -> 0,0,0,1, 1 -> 1,1,1,0.
 * [A283317](https://oeis.org/A283317) ([program](/edit/?oeis=283317)): Image of 0 under repeated applications of the morphism 0 -> 0,0,0,0,1, 1 -> 1,1,1,1,0.
@@ -5576,12 +6042,18 @@ List of integer sequences with links to LODA programs.
 * [A283321](https://oeis.org/A283321) ([program](/edit/?oeis=283321)): Triangle read by rows: T(n,k) (0 <= k <= n) = number of elements of alternating semigroup A\_n of height k.
 * [A283322](https://oeis.org/A283322) ([program](/edit/?oeis=283322)): Row sums of triangle in A283321.
 * [A283323](https://oeis.org/A283323) ([program](/edit/?oeis=283323)): a(n) = 4\*a(n-2)+1 with initial terms 1,3,7.
+* [A283324](https://oeis.org/A283324) ([program](/edit/?oeis=283324)): Number of ON cells at generation n in the reversible cellular automaton RCA(2) when started with a single ON cell at generation 0.
 * [A283325](https://oeis.org/A283325) ([program](/edit/?oeis=283325)): Lengths of runs of successive zeros in A283683.
 * [A283329](https://oeis.org/A283329) ([program](/edit/?oeis=283329)): a(n) = (1 + Sum\_\{j=1..K-1\} a(n-j) + a(n-1)\*a(n-K+1))/a(n-K) with a(1),...,a(K)=1, where K=4.
 * [A283330](https://oeis.org/A283330) ([program](/edit/?oeis=283330)): a(n) = (1 + Sum\_\{j=1..K-1\} a(n-j) + a(n-1)\*a(n-K+1))/a(n-K) with a(1),...,a(K)=1, where K=5.
+* [A283348](https://oeis.org/A283348) ([program](/edit/?oeis=283348)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 617", based on the 5-celled von Neumann neighborhood.
+* [A283350](https://oeis.org/A283350) ([program](/edit/?oeis=283350)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 617", based on the 5-celled von Neumann neighborhood.
 * [A283351](https://oeis.org/A283351) ([program](/edit/?oeis=283351)): Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 619", based on the 5-celled von Neumann neighborhood.
 * [A283352](https://oeis.org/A283352) ([program](/edit/?oeis=283352)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 619", based on the 5-celled von Neumann neighborhood.
 * [A283353](https://oeis.org/A283353) ([program](/edit/?oeis=283353)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 619", based on the 5-celled von Neumann neighborhood.
+* [A283356](https://oeis.org/A283356) ([program](/edit/?oeis=283356)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 621", based on the 5-celled von Neumann neighborhood.
+* [A283358](https://oeis.org/A283358) ([program](/edit/?oeis=283358)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 621", based on the 5-celled von Neumann neighborhood.
+* [A283362](https://oeis.org/A283362) ([program](/edit/?oeis=283362)): a(n) = (floor(2\*n/3))! mod (2n-1).
 * [A283369](https://oeis.org/A283369) ([program](/edit/?oeis=283369)): a(n) = Sum\_\{d\|n\} d^(4\*d + 1).
 * [A283393](https://oeis.org/A283393) ([program](/edit/?oeis=283393)): a(n) = gcd(n^2-1, n^2+9).
 * [A283394](https://oeis.org/A283394) ([program](/edit/?oeis=283394)): a(n) = 3\*n\*(3\*n + 7)/2 + 4.
@@ -5594,6 +6066,8 @@ List of integer sequences with links to LODA programs.
 * [A283444](https://oeis.org/A283444) ([program](/edit/?oeis=283444)): a(n) = lcm(n,7) / gcd(n,7).
 * [A283456](https://oeis.org/A283456) ([program](/edit/?oeis=283456)): Row n=4 of A144048.
 * [A283457](https://oeis.org/A283457) ([program](/edit/?oeis=283457)): Row n=5 of A144048.
+* [A283475](https://oeis.org/A283475) ([program](/edit/?oeis=283475)): a(n) = A019565(A005187(n)).
+* [A283477](https://oeis.org/A283477) ([program](/edit/?oeis=283477)): If 2n = 2^e1 + 2^e2 + ... + 2^ek [e1 .. ek distinct], then a(n) = A002110(e1) \* A002110(e2) \* ... \* A002110(ek).
 * [A283483](https://oeis.org/A283483) ([program](/edit/?oeis=283483)): Sums of distinct nonzero terms of A003462: a(n) = Sum\_\{k>=0\} A030308(n,k)\*A003462(1+k).
 * [A283486](https://oeis.org/A283486) ([program](/edit/?oeis=283486)): Number of k such that sigma(k) = 2n where sigma(m) = A000203(m) is the sum of the divisors of m.
 * [A283498](https://oeis.org/A283498) ([program](/edit/?oeis=283498)): a(n) = Sum\_\{d\|n\} d^(d+1).
@@ -5644,7 +6118,6 @@ List of integer sequences with links to LODA programs.
 * [A283771](https://oeis.org/A283771) ([program](/edit/?oeis=283771)): Numbers k such that L(k) = 2 mod 3, where L = A000201 = lower Wythoff sequence.
 * [A283772](https://oeis.org/A283772) ([program](/edit/?oeis=283772)): Numbers k such that U(k) = 0 mod 3, where U = A001950 = upper Wythoff sequence.
 * [A283773](https://oeis.org/A283773) ([program](/edit/?oeis=283773)): Numbers k such that U(k) = 1 mod 3, where U = A001950 = upper Wythoff sequence.
-* [A283774](https://oeis.org/A283774) ([program](/edit/?oeis=283774)): Numbers k such that U(k) == 2 mod 3, where U = A001950 = upper Wythoff sequence.
 * [A283775](https://oeis.org/A283775) ([program](/edit/?oeis=283775)): Numbers k such that floor(k\*sqrt(3)) is even.
 * [A283776](https://oeis.org/A283776) ([program](/edit/?oeis=283776)): Numbers k such that floor(k\*sqrt(3)) is odd.
 * [A283777](https://oeis.org/A283777) ([program](/edit/?oeis=283777)): Numbers k such that floor(k\*e) is even.
@@ -5655,11 +6128,13 @@ List of integer sequences with links to LODA programs.
 * [A283833](https://oeis.org/A283833) ([program](/edit/?oeis=283833)): For t >= 0, if 2^t + t - 3 <= n <= 2^t + t - 1 then a(n) = 2^t - 1, while if 2^t + t - 1 < n < 2^(t+1) + t - 3 then a(n) = 2^(t+1) + t - 2 - n.
 * [A283834](https://oeis.org/A283834) ([program](/edit/?oeis=283834)): Number of length-n binary vectors beginning with 0, ending with 1, and avoiding 4 consecutive 0's and 4 consecutive 1's.
 * [A283835](https://oeis.org/A283835) ([program](/edit/?oeis=283835)): Number of length-n binary vectors beginning with 0, ending with 1, and avoiding 5 consecutive 0's and 5 consecutive 1's.
+* [A283836](https://oeis.org/A283836) ([program](/edit/?oeis=283836)): Number of length-n binary vectors beginning with 0, ending with 1, and avoiding 6 consecutive 0's and 6 consecutive 1's.
 * [A283842](https://oeis.org/A283842) ([program](/edit/?oeis=283842)): Expansion of x^3\*(2-3\*x)/((1-x)^2\*(1-2\*x)\*(1-5\*x+5\*x^2)).
 * [A283843](https://oeis.org/A283843) ([program](/edit/?oeis=283843)): a(n) = A063776(n) + 1.
 * [A283844](https://oeis.org/A283844) ([program](/edit/?oeis=283844)): a(n) = A063776(2\*n) + 1.
 * [A283845](https://oeis.org/A283845) ([program](/edit/?oeis=283845)): Square array read by antidiagonals: T(1,1) = T(1,2) = T(2,1) = T(2,2) = 1; thereafter T(m,n) = min \{T(m,n-2) + T(m,n-1), T(m-2,n) + T(m-1,n), T(m-2,n-2) + T(m-1,n-1)\}.
 * [A283847](https://oeis.org/A283847) ([program](/edit/?oeis=283847)): Number of n-gonal inositol homologs with 2 kinds of achiral proligands.
+* [A283858](https://oeis.org/A283858) ([program](/edit/?oeis=283858)): Number of 2 X n 0..1 arrays with no 1 equal to more than three of its horizontal, diagonal and antidiagonal neighbors.
 * [A283874](https://oeis.org/A283874) ([program](/edit/?oeis=283874)): The Pierce expansion of the number Sum\_\{k>=1\} 1/3^((2^k) - 1).
 * [A283878](https://oeis.org/A283878) ([program](/edit/?oeis=283878)): An eventually quasilinear solution to Hofstadter's Q recurrence.
 * [A283906](https://oeis.org/A283906) ([program](/edit/?oeis=283906)): Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 771", based on the 5-celled von Neumann neighborhood.
@@ -5679,13 +6154,16 @@ List of integer sequences with links to LODA programs.
 * [A283971](https://oeis.org/A283971) ([program](/edit/?oeis=283971)): a(n) = n except a(4\*n + 2) = 2\*n + 1.
 * [A283972](https://oeis.org/A283972) ([program](/edit/?oeis=283972)): a(n) = n minus (product of lengths of 1-runs in binary representation of n) = n - A227349(n).
 * [A283980](https://oeis.org/A283980) ([program](/edit/?oeis=283980)): a(n) = A003961(n)\*A006519(n).
+* [A283981](https://oeis.org/A283981) ([program](/edit/?oeis=283981)): a(n) = A029931(n) - A280700(n).
 * [A283982](https://oeis.org/A283982) ([program](/edit/?oeis=283982)): a(0) = 0, and for n > 0, a(n) = A070939(n) - A280700(n).
 * [A283984](https://oeis.org/A283984) ([program](/edit/?oeis=283984)): Sums of distinct nonzero terms of A007489: a(n) = Sum\_\{k>=0\} A030308(n,k)\*A007489(1+k).
+* [A283995](https://oeis.org/A283995) ([program](/edit/?oeis=283995)): Least number with same prime signature as the n-th divisorial: a(n) = A046523(A007955(n)).
 * [A283996](https://oeis.org/A283996) ([program](/edit/?oeis=283996)): a(n) = n OR A005187(floor(n/2)), where OR is bitwise-or (A003986).
 * [A283997](https://oeis.org/A283997) ([program](/edit/?oeis=283997)): a(n) = n XOR A005187(floor(n/2)), where XOR is bitwise-xor (A003987).
 * [A283998](https://oeis.org/A283998) ([program](/edit/?oeis=283998)): a(n) = n AND A005187(floor(n/2)), where AND is bitwise-and (A004198).
 * [A284001](https://oeis.org/A284001) ([program](/edit/?oeis=284001)): a(n) = A005361(A283477(n)).
 * [A284002](https://oeis.org/A284002) ([program](/edit/?oeis=284002)): a(n) = A072411(A283477(n)).
+* [A284003](https://oeis.org/A284003) ([program](/edit/?oeis=284003)): a(n) = A007913(A283477(n)) = A019565(A006068(n)).
 * [A284004](https://oeis.org/A284004) ([program](/edit/?oeis=284004)): a(n) = A046523(A284003(n)).
 * [A284005](https://oeis.org/A284005) ([program](/edit/?oeis=284005)): a(0) = 1, and for n > 1, a(n) = (1 + A000120(n))\*a(floor(n/2)); also a(n) = A000005(A283477(n)).
 * [A284013](https://oeis.org/A284013) ([program](/edit/?oeis=284013)): a(n) = n - A002487(n).
@@ -5699,6 +6177,7 @@ List of integer sequences with links to LODA programs.
 * [A284029](https://oeis.org/A284029) ([program](/edit/?oeis=284029)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 790", based on the 5-celled von Neumann neighborhood.
 * [A284031](https://oeis.org/A284031) ([program](/edit/?oeis=284031)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 790", based on the 5-celled von Neumann neighborhood.
 * [A284059](https://oeis.org/A284059) ([program](/edit/?oeis=284059)): The absolute values of A275966.
+* [A284061](https://oeis.org/A284061) ([program](/edit/?oeis=284061)): Triangle read by rows: T(n,k) = pi(prime(k) \* prime(n+1)).
 * [A284062](https://oeis.org/A284062) ([program](/edit/?oeis=284062)): Numbers whose smallest decimal digit is 1.
 * [A284063](https://oeis.org/A284063) ([program](/edit/?oeis=284063)): Numbers whose smallest decimal digit is 2.
 * [A284064](https://oeis.org/A284064) ([program](/edit/?oeis=284064)): Numbers whose smallest decimal digit is 3.
@@ -5730,7 +6209,9 @@ List of integer sequences with links to LODA programs.
 * [A284205](https://oeis.org/A284205) ([program](/edit/?oeis=284205)): Ninth column of Euler's difference table in A068106.
 * [A284206](https://oeis.org/A284206) ([program](/edit/?oeis=284206)): Tenth column of Euler's difference table in A068106.
 * [A284230](https://oeis.org/A284230) ([program](/edit/?oeis=284230)): Number of self-avoiding planar walks starting at (0,0), ending at (n,0), remaining in the first quadrant and using steps (0,1), (1,0), (1,1), (-1,1), and (1,-1) with the restriction that (0,1) is never used below the diagonal and (1,0) is never used above the diagonal.
+* [A284232](https://oeis.org/A284232) ([program](/edit/?oeis=284232)): Binary representation of generation n in the reversible cellular automaton RCA(2) when started with a single ON cell at generation 0.
 * [A284233](https://oeis.org/A284233) ([program](/edit/?oeis=284233)): Sum of odd prime power divisors of n (not including 1).
+* [A284234](https://oeis.org/A284234) ([program](/edit/?oeis=284234)): Decimal representation of generation n in the reversible cellular automaton RCA(2) when started with a single ON cell at generation 0.
 * [A284235](https://oeis.org/A284235) ([program](/edit/?oeis=284235)): Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 833", based on the 5-celled von Neumann neighborhood.
 * [A284236](https://oeis.org/A284236) ([program](/edit/?oeis=284236)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 833", based on the 5-celled von Neumann neighborhood.
 * [A284237](https://oeis.org/A284237) ([program](/edit/?oeis=284237)): Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 833", based on the 5-celled von Neumann neighborhood.
@@ -5759,12 +6240,17 @@ List of integer sequences with links to LODA programs.
 * [A284361](https://oeis.org/A284361) ([program](/edit/?oeis=284361)): Sum\_\{d\|n, d = 0, 1, or 4 mod 5\} d.
 * [A284362](https://oeis.org/A284362) ([program](/edit/?oeis=284362)): Sum\_\{d\|n, d = 0, 1, or 5 mod 6\} d.
 * [A284364](https://oeis.org/A284364) ([program](/edit/?oeis=284364)): Fixed point of the morphism 0->1, 1->101010.
+* [A284365](https://oeis.org/A284365) ([program](/edit/?oeis=284365)): Positions of 0 in A284364; complement of A284366.
+* [A284366](https://oeis.org/A284366) ([program](/edit/?oeis=284366)): Positions of 1 in A284364; complement of A284365.
+* [A284368](https://oeis.org/A284368) ([program](/edit/?oeis=284368)): Fixed point of the morphism 0->1, 1->1011.
+* [A284369](https://oeis.org/A284369) ([program](/edit/?oeis=284369)): Fixed point of the morphism 0->1, 1->1001.
 * [A284370](https://oeis.org/A284370) ([program](/edit/?oeis=284370)): Positions of 0 in A284369; complement of A284371.
 * [A284371](https://oeis.org/A284371) ([program](/edit/?oeis=284371)): Positions of 1 in A284369; complement of A284370.
 * [A284379](https://oeis.org/A284379) ([program](/edit/?oeis=284379)): Numbers n with digits 3 and 5 only.
 * [A284380](https://oeis.org/A284380) ([program](/edit/?oeis=284380)): Numbers n with digits 5 and 7 only.
 * [A284381](https://oeis.org/A284381) ([program](/edit/?oeis=284381)): Numbers n with digits 5 and 8 only.
 * [A284382](https://oeis.org/A284382) ([program](/edit/?oeis=284382)): Numbers n with digits 5 and 9 only.
+* [A284386](https://oeis.org/A284386) ([program](/edit/?oeis=284386)): Fixed point of the morphism 0->1, 1->1101.
 * [A284387](https://oeis.org/A284387) ([program](/edit/?oeis=284387)): \{010->2\}-transform of the infinite Fibonacci word A003849.
 * [A284388](https://oeis.org/A284388) ([program](/edit/?oeis=284388)): 0-limiting word of the morphism 0 -> 1, 1 -> 001.
 * [A284389](https://oeis.org/A284389) ([program](/edit/?oeis=284389)): Positions of 0 in A284388; complement of A284390.
@@ -5791,13 +6277,24 @@ List of integer sequences with links to LODA programs.
 * [A284460](https://oeis.org/A284460) ([program](/edit/?oeis=284460)): Permutation of the positive integers: this permutation transforms the enumeration system of positive irreducible fractions A245327/A245328 into the enumeration system A002487/A002487' (Calkin-Wilf), and A020651/A020650 (Yu-Ting inverted) into A162911/A162912(Drib).
 * [A284461](https://oeis.org/A284461) ([program](/edit/?oeis=284461)): Number of self-avoiding planar walks starting at (0,0), ending at (n,n), remaining in the first quadrant and using steps (0,1), (1,0), (1,1), (-1,1), and (1,-1) with the restriction that (0,1) is never used below the diagonal and (1,0) is never used above the diagonal.
 * [A284475](https://oeis.org/A284475) ([program](/edit/?oeis=284475)): Total number of parts in all partitions of n into equal parts, minus the total number of parts in all partitions of n into consecutive parts.
+* [A284484](https://oeis.org/A284484) ([program](/edit/?oeis=284484)): Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 961", based on the 5-celled von Neumann neighborhood.
+* [A284485](https://oeis.org/A284485) ([program](/edit/?oeis=284485)): Decimal representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 961", based on the 5-celled von Neumann neighborhood.
+* [A284487](https://oeis.org/A284487) ([program](/edit/?oeis=284487)): 0-limiting word of the morphism 0->1, 1->0011.
+* [A284488](https://oeis.org/A284488) ([program](/edit/?oeis=284488)): Positions of 0 in A284487; complement of A284489.
 * [A284489](https://oeis.org/A284489) ([program](/edit/?oeis=284489)): Positions of 1 in A284487; complement of A284488.
+* [A284490](https://oeis.org/A284490) ([program](/edit/?oeis=284490)): 1-limiting word of the morphism 0->1, 1->0011.
+* [A284491](https://oeis.org/A284491) ([program](/edit/?oeis=284491)): Positions of 0 in A284490; complement of A284492.
+* [A284492](https://oeis.org/A284492) ([program](/edit/?oeis=284492)): Positions of 1 in A284490; complement of A284491.
 * [A284494](https://oeis.org/A284494) ([program](/edit/?oeis=284494)): a(n) = A284016(n)^2.
+* [A284505](https://oeis.org/A284505) ([program](/edit/?oeis=284505)): Fixed point of the morphism 0->1, 1->1100.
 * [A284506](https://oeis.org/A284506) ([program](/edit/?oeis=284506)): Positions of 0 in A284505; complement of A284507.
 * [A284507](https://oeis.org/A284507) ([program](/edit/?oeis=284507)): Positions of 1 in A284505; complement of A284506.
 * [A284517](https://oeis.org/A284517) ([program](/edit/?oeis=284517)): Periodic with period [1, 4, 3, 4, 1, 6] of length 6.
 * [A284518](https://oeis.org/A284518) ([program](/edit/?oeis=284518)): Periodic with period [1, 10, 9, 16, 1, 18, 1, 16, 9, 10, 1, 24] of length 12.
 * [A284521](https://oeis.org/A284521) ([program](/edit/?oeis=284521)): Sum of largest prime power factors of numbers <= n.
+* [A284533](https://oeis.org/A284533) ([program](/edit/?oeis=284533)): 0-limiting word of the morphism 0->1, 1->0101.
+* [A284534](https://oeis.org/A284534) ([program](/edit/?oeis=284534)): Positions of 0 in A284533; complement of A284535.
+* [A284535](https://oeis.org/A284535) ([program](/edit/?oeis=284535)): Positions of 1 in A284533; complement of A284534.
 * [A284551](https://oeis.org/A284551) ([program](/edit/?oeis=284551)): Triangular array read by rows, demonstrating that the difference between a pentagonal number (left edge of triangle) and a square (right edge) is a triangular number.
 * [A284552](https://oeis.org/A284552) ([program](/edit/?oeis=284552)): a(n) = A065621(n) modulo n.
 * [A284555](https://oeis.org/A284555) ([program](/edit/?oeis=284555)): Positions of zeros in A284557.
@@ -5808,8 +6305,8 @@ List of integer sequences with links to LODA programs.
 * [A284570](https://oeis.org/A284570) ([program](/edit/?oeis=284570)): a(n) = A000005((n+1)^2) - A000005(n^2).
 * [A284574](https://oeis.org/A284574) ([program](/edit/?oeis=284574)): a(n) = A048724(n) mod 3.
 * [A284575](https://oeis.org/A284575) ([program](/edit/?oeis=284575)): a(n) = A048725(n) mod 3.
-* [A284580](https://oeis.org/A284580) ([program](/edit/?oeis=284580)): Carryless base-2 product (A048720) of lengths of runs of 1-bits in binary representation of n.
 * [A284587](https://oeis.org/A284587) ([program](/edit/?oeis=284587)): Sum of the divisors of n that are not divisible by 13.
+* [A284588](https://oeis.org/A284588) ([program](/edit/?oeis=284588)): 1-limiting word of the morphism 0->1, 1->0101.
 * [A284589](https://oeis.org/A284589) ([program](/edit/?oeis=284589)): Positions of 0 in A284588; complement of A284590.
 * [A284590](https://oeis.org/A284590) ([program](/edit/?oeis=284590)): Positions of 1 in A284588; complement of A284589.
 * [A284600](https://oeis.org/A284600) ([program](/edit/?oeis=284600)): a(n) = n/(largest prime power dividing n).
@@ -5829,6 +6326,7 @@ List of integer sequences with links to LODA programs.
 * [A284674](https://oeis.org/A284674) ([program](/edit/?oeis=284674)): 0-limiting word of the morphism 0->1, 1-> 0111.
 * [A284675](https://oeis.org/A284675) ([program](/edit/?oeis=284675)): Positions of 0 in A284674; complement of A284676.
 * [A284676](https://oeis.org/A284676) ([program](/edit/?oeis=284676)): Positions of 1 in A284674; complement of A284675.
+* [A284677](https://oeis.org/A284677) ([program](/edit/?oeis=284677)): 1-limiting word of the morphism 0->1, 1-> 0111.
 * [A284678](https://oeis.org/A284678) ([program](/edit/?oeis=284678)): Positions of 0 in A284677; complement of A284679.
 * [A284679](https://oeis.org/A284679) ([program](/edit/?oeis=284679)): Positions of 1 in A284677; complement of A284678.
 * [A284680](https://oeis.org/A284680) ([program](/edit/?oeis=284680)): Fixed point of the morphism 0->1, 1->1000.
@@ -5838,6 +6336,7 @@ List of integer sequences with links to LODA programs.
 * [A284694](https://oeis.org/A284694) ([program](/edit/?oeis=284694)): Least prime number appearing in the prime tower factorization of n (when n > 1); a(1) = 1.
 * [A284695](https://oeis.org/A284695) ([program](/edit/?oeis=284695)): Greatest prime number appearing in the prime tower factorization of n (when n > 1); a(1) = 1.
 * [A284699](https://oeis.org/A284699) ([program](/edit/?oeis=284699)): Number of dominating sets in the n-antiprism graph.
+* [A284720](https://oeis.org/A284720) ([program](/edit/?oeis=284720)): Number of indecomposable permutations avoiding the vincular pattern 1 2\_ 3\_.
 * [A284721](https://oeis.org/A284721) ([program](/edit/?oeis=284721)): Smallest odd prime that is relatively prime to 2n+1.
 * [A284722](https://oeis.org/A284722) ([program](/edit/?oeis=284722)): (2n+1-A284721(n))/2.
 * [A284723](https://oeis.org/A284723) ([program](/edit/?oeis=284723)): Smallest odd prime that is relatively prime to n.
@@ -5850,7 +6349,6 @@ List of integer sequences with links to LODA programs.
 * [A284753](https://oeis.org/A284753) ([program](/edit/?oeis=284753)): Positions of 1 in A284751; complement of A284752.
 * [A284759](https://oeis.org/A284759) ([program](/edit/?oeis=284759)): a(n) = (Sum\_\{i=1..n-1\} i^(n-2)) mod n^3.
 * [A284760](https://oeis.org/A284760) ([program](/edit/?oeis=284760)): a(n) = Sum\_\{i=1..n-1\}(i^(n-2)) mod n^4.
-* [A284761](https://oeis.org/A284761) ([program](/edit/?oeis=284761)): a(n) = gcd(A279513(n), A279513(n+1)).
 * [A284772](https://oeis.org/A284772) ([program](/edit/?oeis=284772)): Fixed point of the morphism 0 -> 01, 1 -> 0010.
 * [A284773](https://oeis.org/A284773) ([program](/edit/?oeis=284773)): Positions of 0 in A284772; complement of A284774.
 * [A284774](https://oeis.org/A284774) ([program](/edit/?oeis=284774)): Positions of 1 in A284772; complement of A284773.
@@ -5858,6 +6356,7 @@ List of integer sequences with links to LODA programs.
 * [A284776](https://oeis.org/A284776) ([program](/edit/?oeis=284776)): Positions of 0 in A284775; complement of A284777.
 * [A284777](https://oeis.org/A284777) ([program](/edit/?oeis=284777)): Positions of 1 in A284775; complement of A284776.
 * [A284778](https://oeis.org/A284778) ([program](/edit/?oeis=284778)): Number of self-avoiding planar walks of length n+1 starting at (0,0), ending at (n,0), remaining in the first quadrant and using steps (0,1), (1,0), (1,1), (-1,1), and (1,-1) with the restriction that (0,1) is never used below the diagonal and (1,0) is never used above the diagonal.
+* [A284787](https://oeis.org/A284787) ([program](/edit/?oeis=284787)): Even numbers representable in at least two ways as the sum of two odd composites.
 * [A284791](https://oeis.org/A284791) ([program](/edit/?oeis=284791)): Positions of 1 in A284789; complement of A284790.
 * [A284793](https://oeis.org/A284793) ([program](/edit/?oeis=284793)): Difference sequence of A284775.
 * [A284794](https://oeis.org/A284794) ([program](/edit/?oeis=284794)): Positions of -1 in A284793.
@@ -5869,6 +6368,7 @@ List of integer sequences with links to LODA programs.
 * [A284801](https://oeis.org/A284801) ([program](/edit/?oeis=284801)): Write in base k, complement, reverse. Case k = 5.
 * [A284803](https://oeis.org/A284803) ([program](/edit/?oeis=284803)): Write in base k, complement, reverse. Case k = 6.
 * [A284804](https://oeis.org/A284804) ([program](/edit/?oeis=284804)): Fixed points of the transform A284803.
+* [A284807](https://oeis.org/A284807) ([program](/edit/?oeis=284807)): Write in base k, complement, reverse. Case k = 8.
 * [A284809](https://oeis.org/A284809) ([program](/edit/?oeis=284809)): Write in base k, complement, reverse. Case k = 9.
 * [A284811](https://oeis.org/A284811) ([program](/edit/?oeis=284811)): Fixed points of the transform A267193.
 * [A284816](https://oeis.org/A284816) ([program](/edit/?oeis=284816)): Sum of entries in the first cycles of all permutations of [n].
@@ -5884,6 +6384,7 @@ List of integer sequences with links to LODA programs.
 * [A284851](https://oeis.org/A284851) ([program](/edit/?oeis=284851)): Fixed point of the morphism 0 -> 01, 1 -> 0100.
 * [A284852](https://oeis.org/A284852) ([program](/edit/?oeis=284852)): Positions of 0 in A284851; complement of A284853.
 * [A284853](https://oeis.org/A284853) ([program](/edit/?oeis=284853)): Positions of 1 in A284851; complement of A284852.
+* [A284855](https://oeis.org/A284855) ([program](/edit/?oeis=284855)): Array read by antidiagonals: T(n,k) = number of necklaces with n beads and k colors that are the same when turned over.
 * [A284878](https://oeis.org/A284878) ([program](/edit/?oeis=284878)): Fixed point of the morphism 0 -> 01, 1 -> 0110.
 * [A284879](https://oeis.org/A284879) ([program](/edit/?oeis=284879)): Positions of 0 in A284878; complement of A284880.
 * [A284880](https://oeis.org/A284880) ([program](/edit/?oeis=284880)): Positions of 1 in A284878; complement of A284879.
@@ -5892,6 +6393,7 @@ List of integer sequences with links to LODA programs.
 * [A284883](https://oeis.org/A284883) ([program](/edit/?oeis=284883)): Positions of 0 in A284881.
 * [A284884](https://oeis.org/A284884) ([program](/edit/?oeis=284884)): Positions of 1's in A284881.
 * [A284885](https://oeis.org/A284885) ([program](/edit/?oeis=284885)): (A284883)/2.
+* [A284890](https://oeis.org/A284890) ([program](/edit/?oeis=284890)): a(1)=2, and then a(n+1) = a(n) + k where prime(k) is the least prime dividing a(n).
 * [A284891](https://oeis.org/A284891) ([program](/edit/?oeis=284891)): Concatenation of the numbers from 3 to n.
 * [A284892](https://oeis.org/A284892) ([program](/edit/?oeis=284892)): Numbers n > 1 such that all Hopf algebras of dimension n over algebraically closed fields of characteristic 0 are semisimple.
 * [A284893](https://oeis.org/A284893) ([program](/edit/?oeis=284893)): Fixed point of the morphism 0 -> 01, 1 -> 0111.
@@ -5916,10 +6418,14 @@ List of integer sequences with links to LODA programs.
 * [A284933](https://oeis.org/A284933) ([program](/edit/?oeis=284933)): Positions of 0 in A284792; complement of A284934.
 * [A284934](https://oeis.org/A284934) ([program](/edit/?oeis=284934)): Positions of 1 in A284792; complement of A284933.
 * [A284935](https://oeis.org/A284935) ([program](/edit/?oeis=284935)): Fixed point of the morphism 0 -> 01, 1 -> 1100.
+* [A284936](https://oeis.org/A284936) ([program](/edit/?oeis=284936)): Positions of 0 in A284935; complement of A284937.
+* [A284937](https://oeis.org/A284937) ([program](/edit/?oeis=284937)): Positions of 1 in A284935; complement of A284936.
 * [A284938](https://oeis.org/A284938) ([program](/edit/?oeis=284938)): Triangle read by rows: coefficients of the edge cover polynomial for the n-path graph P\_n.
 * [A284939](https://oeis.org/A284939) ([program](/edit/?oeis=284939)): Fixed point of the morphism 0 -> 01, 1 -> 1101, starting with 0.
 * [A284941](https://oeis.org/A284941) ([program](/edit/?oeis=284941)): Positions of 1 in A284939; complement of A080580.
 * [A284944](https://oeis.org/A284944) ([program](/edit/?oeis=284944)): Fixed point of the morphism 0 -> 01, 1 -> 1110.
+* [A284945](https://oeis.org/A284945) ([program](/edit/?oeis=284945)): Positions of 0 in A284944; complement of A284946.
+* [A284946](https://oeis.org/A284946) ([program](/edit/?oeis=284946)): Positions of 1 in A284944; complement of A284945.
 * [A284948](https://oeis.org/A284948) ([program](/edit/?oeis=284948)): 1-limiting word of the morphism 0 -> 10, 1 -> 00
 * [A284963](https://oeis.org/A284963) ([program](/edit/?oeis=284963)): Numbers with digits 3 and 8 only.
 * [A284964](https://oeis.org/A284964) ([program](/edit/?oeis=284964)): Numbers with digits 3 and 9 only.
@@ -5959,12 +6465,17 @@ List of integer sequences with links to LODA programs.
 * [A285122](https://oeis.org/A285122) ([program](/edit/?oeis=285122)): Min(\|d(k+1-i) - d(i)\|, for i = 1..k, where d(1),..,d(k) are the divisors of n^2+1.
 * [A285123](https://oeis.org/A285123) ([program](/edit/?oeis=285123)): Min(\|d(k+1-i) - d(i)\|, for i = 1..k, where d(1),..,d(k) are the divisors of prime(n) - 1.
 * [A285124](https://oeis.org/A285124) ([program](/edit/?oeis=285124)): Min(\|d(k+1-i) - d(i)\|, for i = 1..k, where d(1),..,d(k) are the divisors of prime(n) + 1.
+* [A285139](https://oeis.org/A285139) ([program](/edit/?oeis=285139)): 0-limiting word of the morphism 0->10, 1-> 0010.
+* [A285140](https://oeis.org/A285140) ([program](/edit/?oeis=285140)): Positions of 0 in A285139; complement of A285141.
 * [A285141](https://oeis.org/A285141) ([program](/edit/?oeis=285141)): Positions of 1 in A285139; complement of A285140.
+* [A285142](https://oeis.org/A285142) ([program](/edit/?oeis=285142)): 1-limiting word of the morphism 0->10, 1->0010.
+* [A285143](https://oeis.org/A285143) ([program](/edit/?oeis=285143)): Positions of 0 in A285142; complement of A285144.
 * [A285144](https://oeis.org/A285144) ([program](/edit/?oeis=285144)): Positions of 1 in A285142; complement of A285143.
 * [A285173](https://oeis.org/A285173) ([program](/edit/?oeis=285173)): Numbers n such that A002496(n+1) < A002496(n)^(1+1/n).
 * [A285184](https://oeis.org/A285184) ([program](/edit/?oeis=285184)): a(n) = 2\*a(n-1) + a(n-3) with initial terms 1,3,5.
 * [A285185](https://oeis.org/A285185) ([program](/edit/?oeis=285185)): Expansion of (2\*x+4\*x^2) / (1-2\*x-2\*x^2+2\*x^3).
 * [A285186](https://oeis.org/A285186) ([program](/edit/?oeis=285186)): Expansion of (x+2\*x^2) / (1-2\*x-2\*x^2+2\*x^3).
+* [A285187](https://oeis.org/A285187) ([program](/edit/?oeis=285187)): a(n) = Sum(psi(k-1)\*psi(n-k-1),k=0..n)+(1-(-1)^n)/2, where psi(k) = A000931(k+6).
 * [A285188](https://oeis.org/A285188) ([program](/edit/?oeis=285188)): a(n) = Sum\_\{k=1..n\} (k^2\*floor(k/2)).
 * [A285192](https://oeis.org/A285192) ([program](/edit/?oeis=285192)): Array read by antidiagonals: T(n,k) = n\*k\*(3+n\*k)/2 (n >= 0, k >= 0).
 * [A285193](https://oeis.org/A285193) ([program](/edit/?oeis=285193)): Expansion of 1/(1+x+2\*x^2) mod 3.
@@ -5976,21 +6487,29 @@ List of integer sequences with links to LODA programs.
 * [A285201](https://oeis.org/A285201) ([program](/edit/?oeis=285201)): Stage at which Ken Knowlton's elevator (version 1) reaches floor n for the first time.
 * [A285203](https://oeis.org/A285203) ([program](/edit/?oeis=285203)): Local high points in A285200.
 * [A285204](https://oeis.org/A285204) ([program](/edit/?oeis=285204)): Row lengths of triangle A285202.
+* [A285205](https://oeis.org/A285205) ([program](/edit/?oeis=285205)): 0-limiting word of the morphism 0->10, 1-> 0100.
+* [A285206](https://oeis.org/A285206) ([program](/edit/?oeis=285206)): Positions of 0 in A285205; complement of A285207.
 * [A285207](https://oeis.org/A285207) ([program](/edit/?oeis=285207)): Positions of 1 in A285205; complement of A285206.
+* [A285208](https://oeis.org/A285208) ([program](/edit/?oeis=285208)): 1-limiting word of the morphism 0->10, 1-> 0100.
+* [A285209](https://oeis.org/A285209) ([program](/edit/?oeis=285209)): Positions of 0 in A285208; complement of A285210.
+* [A285210](https://oeis.org/A285210) ([program](/edit/?oeis=285210)): Positions of 1 in A285208; complement of A285209.
 * [A285231](https://oeis.org/A285231) ([program](/edit/?oeis=285231)): Number of entries in the third cycles of all permutations of [n].
 * [A285232](https://oeis.org/A285232) ([program](/edit/?oeis=285232)): Number of entries in the fourth cycles of all permutations of [n].
 * [A285233](https://oeis.org/A285233) ([program](/edit/?oeis=285233)): Number of entries in the fifth cycles of all permutations of [n].
 * [A285259](https://oeis.org/A285259) ([program](/edit/?oeis=285259)): Positions of 0 in A285258; complement of A285260.
 * [A285260](https://oeis.org/A285260) ([program](/edit/?oeis=285260)): Positions of 1 in A285258; complement of A285259.
 * [A285268](https://oeis.org/A285268) ([program](/edit/?oeis=285268)): Triangle read by rows: T(m,n) = Sum\_\{i=1..n\} P(m,i) where P(m,n) = m!/(m-n)! is the number of permutations of m items taken n at a time, for 1 <= n <= m.
+* [A285269](https://oeis.org/A285269) ([program](/edit/?oeis=285269)): Number of (odd) primes between 2\*n^2 and 2\*(n+1)^2.
 * [A285270](https://oeis.org/A285270) ([program](/edit/?oeis=285270)): a(n) = H\_n(n), where H\_n is the physicist's n-th Hermite polynomial.
 * [A285301](https://oeis.org/A285301) ([program](/edit/?oeis=285301)): Fixed point of the morphism 0 -> 10, 1 -> 1000.
+* [A285302](https://oeis.org/A285302) ([program](/edit/?oeis=285302)): Positions of 0 in A285301, complement of A086398.
 * [A285305](https://oeis.org/A285305) ([program](/edit/?oeis=285305)): Fixed point of the morphism 0 -> 10, 1 -> 1001.
 * [A285306](https://oeis.org/A285306) ([program](/edit/?oeis=285306)): Positions of 0 in A285305; complement of A285307.
 * [A285307](https://oeis.org/A285307) ([program](/edit/?oeis=285307)): Positions of 1 in A285305; complement of A285306.
 * [A285309](https://oeis.org/A285309) ([program](/edit/?oeis=285309)): Sum of nonsquare divisors of n.
 * [A285326](https://oeis.org/A285326) ([program](/edit/?oeis=285326)): a(0) = 0, for n > 0, a(n) = n + A006519(n).
 * [A285329](https://oeis.org/A285329) ([program](/edit/?oeis=285329)): a(n) = A013928(A007947(n)).
+* [A285335](https://oeis.org/A285335) ([program](/edit/?oeis=285335)): Odd bisection of A048675 divided by two: a(n) = A048675((2\*n)-1)/2.
 * [A285341](https://oeis.org/A285341) ([program](/edit/?oeis=285341)): Fixed point of the morphism 0 -> 10, 1 -> 1011.
 * [A285342](https://oeis.org/A285342) ([program](/edit/?oeis=285342)): Positions of 0 in A285341; complement of A285343.
 * [A285343](https://oeis.org/A285343) ([program](/edit/?oeis=285343)): Positions of 1 in A285341; complement of A285342.
@@ -6022,9 +6541,12 @@ List of integer sequences with links to LODA programs.
 * [A285399](https://oeis.org/A285399) ([program](/edit/?oeis=285399)): Start with a single cell at coordinates (0, 0, 0), then iteratively subdivide the grid into 3 X 3 X 3 cells and remove the cells whose sum of modulo 2 coordinates is 0 or 2; a(n) is the number of cells after n iterations.
 * [A285400](https://oeis.org/A285400) ([program](/edit/?oeis=285400)): Start with a single cell at coordinates (0, 0, 0), then iteratively subdivide the grid into 3 X 3 X 3 cells and remove the cells whose sum of modulo 2 coordinates is 0 or 3; a(n) is the number of cells after n iterations.
 * [A285406](https://oeis.org/A285406) ([program](/edit/?oeis=285406)): Base-2 logarithm of denominator of Sum\_\{k=0..n^2-1\}((-1)^k\*sqrt(Pi)/(Gamma(1/2-k)\*Gamma(1+k)))/n).
+* [A285418](https://oeis.org/A285418) ([program](/edit/?oeis=285418)): 0-limiting word of the morphism 0->11, 1-> 011.
 * [A285419](https://oeis.org/A285419) ([program](/edit/?oeis=285419)): Positions of 0 in A285418; complement of A285420.
 * [A285420](https://oeis.org/A285420) ([program](/edit/?oeis=285420)): Positions of 1 in A285418; complement of A285419.
+* [A285421](https://oeis.org/A285421) ([program](/edit/?oeis=285421)): 1-limiting word of the morphism 0->11, 1-> 011.
 * [A285422](https://oeis.org/A285422) ([program](/edit/?oeis=285422)): Positions of 0 in A285421; complement of A285423.
+* [A285423](https://oeis.org/A285423) ([program](/edit/?oeis=285423)): Positions of 1 in A285421; complement of A285422.
 * [A285427](https://oeis.org/A285427) ([program](/edit/?oeis=285427)): Fixed point of the morphism 0->11, 1-> 100.
 * [A285428](https://oeis.org/A285428) ([program](/edit/?oeis=285428)): Positions of 0 in A285427; complement of A285429.
 * [A285429](https://oeis.org/A285429) ([program](/edit/?oeis=285429)): Positions of 1 in A285427; complement of A285428.
@@ -6040,6 +6562,7 @@ List of integer sequences with links to LODA programs.
 * [A285475](https://oeis.org/A285475) ([program](/edit/?oeis=285475)): Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 3", based on the 5-celled von Neumann neighborhood.
 * [A285476](https://oeis.org/A285476) ([program](/edit/?oeis=285476)): Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 6", based on the 5-celled von Neumann neighborhood.
 * [A285477](https://oeis.org/A285477) ([program](/edit/?oeis=285477)): Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 20", based on the 5-celled von Neumann neighborhood.
+* [A285478](https://oeis.org/A285478) ([program](/edit/?oeis=285478)): Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 20", based on the 5-celled von Neumann neighborhood.
 * [A285479](https://oeis.org/A285479) ([program](/edit/?oeis=285479)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 20", based on the 5-celled von Neumann neighborhood.
 * [A285480](https://oeis.org/A285480) ([program](/edit/?oeis=285480)): Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 20", based on the 5-celled von Neumann neighborhood.
 * [A285489](https://oeis.org/A285489) ([program](/edit/?oeis=285489)): Sum of entries in the second cycles of all permutations of [n].
@@ -6053,9 +6576,14 @@ List of integer sequences with links to LODA programs.
 * [A285542](https://oeis.org/A285542) ([program](/edit/?oeis=285542)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 35", based on the 5-celled von Neumann neighborhood.
 * [A285543](https://oeis.org/A285543) ([program](/edit/?oeis=285543)): Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 35", based on the 5-celled von Neumann neighborhood.
 * [A285551](https://oeis.org/A285551) ([program](/edit/?oeis=285551)): Volume of each square prism building the next 3-dimensional box in A100538 where side lengths form the Padovan spiral number sequence (A134816), starting with 1 X 1 X 1, 1 X 1 X 2, 2 X 2 X 2, 2 X 2 X 3, 4 X 4 X 5, ...
+* [A285597](https://oeis.org/A285597) ([program](/edit/?oeis=285597)): Positions of 0 in A285596; complement of A285598.
+* [A285598](https://oeis.org/A285598) ([program](/edit/?oeis=285598)): Positions of 1 in A285596; complement of A285597.
+* [A285600](https://oeis.org/A285600) ([program](/edit/?oeis=285600)): Positions of 0 in A285599; complement of A285601.
 * [A285601](https://oeis.org/A285601) ([program](/edit/?oeis=285601)): Positions of 1 in A285599; complement of A285600.
 * [A285612](https://oeis.org/A285612) ([program](/edit/?oeis=285612)): Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 62", based on the 5-celled von Neumann neighborhood.
+* [A285613](https://oeis.org/A285613) ([program](/edit/?oeis=285613)): Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 62", based on the 5-celled von Neumann neighborhood.
 * [A285617](https://oeis.org/A285617) ([program](/edit/?oeis=285617)): Fixed point of the morphism 0->11, 1->1000.
+* [A285618](https://oeis.org/A285618) ([program](/edit/?oeis=285618)): Positions of 0 in A285617; complement of A285619.
 * [A285619](https://oeis.org/A285619) ([program](/edit/?oeis=285619)): Positions of 1 in A285617; complement of A285618.
 * [A285621](https://oeis.org/A285621) ([program](/edit/?oeis=285621)): Fixed point of the morphism 0->11, 1->1001.
 * [A285622](https://oeis.org/A285622) ([program](/edit/?oeis=285622)): Positions of 0 in A285621; complement of A285623.
@@ -6063,17 +6591,24 @@ List of integer sequences with links to LODA programs.
 * [A285625](https://oeis.org/A285625) ([program](/edit/?oeis=285625)): Fixed point of the morphism 0->11, 1->1010.
 * [A285626](https://oeis.org/A285626) ([program](/edit/?oeis=285626)): Positions of 0 in A285625; complement of A285627.
 * [A285627](https://oeis.org/A285627) ([program](/edit/?oeis=285627)): Positions of 1 in A285625; complement of A285626.
+* [A285647](https://oeis.org/A285647) ([program](/edit/?oeis=285647)): Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 73", based on the 5-celled von Neumann neighborhood.
+* [A285648](https://oeis.org/A285648) ([program](/edit/?oeis=285648)): Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 73", based on the 5-celled von Neumann neighborhood.
+* [A285649](https://oeis.org/A285649) ([program](/edit/?oeis=285649)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 73", based on the 5-celled von Neumann neighborhood.
+* [A285650](https://oeis.org/A285650) ([program](/edit/?oeis=285650)): Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 73", based on the 5-celled von Neumann neighborhood.
 * [A285657](https://oeis.org/A285657) ([program](/edit/?oeis=285657)): Fixed point of the morphism 0->11, 1->1011.
 * [A285658](https://oeis.org/A285658) ([program](/edit/?oeis=285658)): Positions of 0 in A285657; complement of A285659.
 * [A285659](https://oeis.org/A285659) ([program](/edit/?oeis=285659)): Positions of 1 in A285657; complement of A285658.
 * [A285661](https://oeis.org/A285661) ([program](/edit/?oeis=285661)): Fixed point of the morphism 0->11, 1->1100.
 * [A285662](https://oeis.org/A285662) ([program](/edit/?oeis=285662)): Positions of 0 in A285661; complement of A285663.
 * [A285663](https://oeis.org/A285663) ([program](/edit/?oeis=285663)): Positions of 1 in A285661; complement of A285662.
+* [A285666](https://oeis.org/A285666) ([program](/edit/?oeis=285666)): Fixed point of the mapping 00->001, 1->010, starting with 00.
+* [A285667](https://oeis.org/A285667) ([program](/edit/?oeis=285667)): Positions of 0 in A285666; complement of A286058.
 * [A285668](https://oeis.org/A285668) ([program](/edit/?oeis=285668)): Fixed point of the morphism 0->11, 1->1101.
 * [A285669](https://oeis.org/A285669) ([program](/edit/?oeis=285669)): Positions of 0 in A285668; complement of A285670.
 * [A285670](https://oeis.org/A285670) ([program](/edit/?oeis=285670)): Positions of 1 in A285668; complement of A285669.
 * [A285671](https://oeis.org/A285671) ([program](/edit/?oeis=285671)): Fixed point of the morphism 0->11, 1->1110.
 * [A285676](https://oeis.org/A285676) ([program](/edit/?oeis=285676)): Beatty sequence of (7 + sqrt(7))/6; complement of A022841.
+* [A285678](https://oeis.org/A285678) ([program](/edit/?oeis=285678)): Positions of 0 in A285677.
 * [A285679](https://oeis.org/A285679) ([program](/edit/?oeis=285679)): Positions of 2 in A285677.
 * [A285681](https://oeis.org/A285681) ([program](/edit/?oeis=285681)): Positions of 0 in A285680.
 * [A285682](https://oeis.org/A285682) ([program](/edit/?oeis=285682)): Positions of 1 in A285680.
@@ -6088,7 +6623,8 @@ List of integer sequences with links to LODA programs.
 * [A285704](https://oeis.org/A285704) ([program](/edit/?oeis=285704)): a(n) = A285703(n) - n = A000203(A064216(n)) - n.
 * [A285705](https://oeis.org/A285705) ([program](/edit/?oeis=285705)): a(n) =  2\*n - A285703(n) = 2\*n - A000203(A064216(n)).
 * [A285707](https://oeis.org/A285707) ([program](/edit/?oeis=285707)): a(n) = gcd(n, A079277(n)), a(1) = 1.
-* [A285708](https://oeis.org/A285708) ([program](/edit/?oeis=285708)): a(n) = n / A285707(n).
+* [A285713](https://oeis.org/A285713) ([program](/edit/?oeis=285713)): a(n) = A046523(A245612(n)).
+* [A285714](https://oeis.org/A285714) ([program](/edit/?oeis=285714)): a(1) = 0; for n > 1, a(n) = 1 + a(A285712(n)).
 * [A285715](https://oeis.org/A285715) ([program](/edit/?oeis=285715)): a(n) = A000120(A245611(n)).
 * [A285716](https://oeis.org/A285716) ([program](/edit/?oeis=285716)): a(n) = A080791(A245611(n)).
 * [A285717](https://oeis.org/A285717) ([program](/edit/?oeis=285717)): a(n) = A007814(n) + A159918(n) = A007814(n) + A000120(n^2).
@@ -6101,8 +6637,12 @@ List of integer sequences with links to LODA programs.
 * [A285772](https://oeis.org/A285772) ([program](/edit/?oeis=285772)): Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 84", based on the 5-celled von Neumann neighborhood.
 * [A285773](https://oeis.org/A285773) ([program](/edit/?oeis=285773)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 84", based on the 5-celled von Neumann neighborhood.
 * [A285774](https://oeis.org/A285774) ([program](/edit/?oeis=285774)): Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 84", based on the 5-celled von Neumann neighborhood.
+* [A285775](https://oeis.org/A285775) ([program](/edit/?oeis=285775)): Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 89", based on the 5-celled von Neumann neighborhood.
+* [A285776](https://oeis.org/A285776) ([program](/edit/?oeis=285776)): Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 89", based on the 5-celled von Neumann neighborhood.
+* [A285777](https://oeis.org/A285777) ([program](/edit/?oeis=285777)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 89", based on the 5-celled von Neumann neighborhood.
 * [A285778](https://oeis.org/A285778) ([program](/edit/?oeis=285778)): Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 89", based on the 5-celled von Neumann neighborhood.
 * [A285779](https://oeis.org/A285779) ([program](/edit/?oeis=285779)): Parity index: number of integers z with 1 <= z <= n for which A010060(z) = A010060(n), negated if A010060(n) = 1.
+* [A285786](https://oeis.org/A285786) ([program](/edit/?oeis=285786)): Number of primes p with 2(n-1)^2 < p <= 2n^2.
 * [A285789](https://oeis.org/A285789) ([program](/edit/?oeis=285789)): Primes equal to a pentagonal number plus 1.
 * [A285790](https://oeis.org/A285790) ([program](/edit/?oeis=285790)): Primes equal to a hexagonal number plus 1.
 * [A285791](https://oeis.org/A285791) ([program](/edit/?oeis=285791)): Primes equal to a heptagonal number plus 1.
@@ -6114,7 +6654,9 @@ List of integer sequences with links to LODA programs.
 * [A285811](https://oeis.org/A285811) ([program](/edit/?oeis=285811)): Primes equal to a centered heptagonal number plus 1.
 * [A285812](https://oeis.org/A285812) ([program](/edit/?oeis=285812)): Primes equal to a centered 9-gonal number plus 1.
 * [A285850](https://oeis.org/A285850) ([program](/edit/?oeis=285850)): Number of ways n couples can sit in a row such that exactly one couple sits next to each other.
+* [A285851](https://oeis.org/A285851) ([program](/edit/?oeis=285851)): Denominator of the ratio of alternate consecutive prime gaps: Denominator((prime(n + 3) - prime(n + 2))/(prime(n + 1) - prime(n))).
 * [A285853](https://oeis.org/A285853) ([program](/edit/?oeis=285853)): Number of permutations of [n] with two ordered cycles such that equal-sized cycles are ordered with increasing least elements.
+* [A285868](https://oeis.org/A285868) ([program](/edit/?oeis=285868)): Row sums of triangle A285867.
 * [A285869](https://oeis.org/A285869) ([program](/edit/?oeis=285869)): a(n) is the number of zeros of the Chebyshev S(n, x) polynomial in the open interval (-sqrt(2), +sqrt(2)).
 * [A285870](https://oeis.org/A285870) ([program](/edit/?oeis=285870)): a(n) = floor(n/2) - floor((n+1)/6), n >= 0.
 * [A285871](https://oeis.org/A285871) ([program](/edit/?oeis=285871)): Decimal expansion of 1/sqrt(2 - sqrt(2)) (reciprocal of A101464).
@@ -6141,6 +6683,7 @@ List of integer sequences with links to LODA programs.
 * [A285960](https://oeis.org/A285960) ([program](/edit/?oeis=285960)): \{01->1\}-transform of the Thue-Morse word A010060.
 * [A285961](https://oeis.org/A285961) ([program](/edit/?oeis=285961)): Positions of 0 in A285960; complement of A285962.
 * [A285962](https://oeis.org/A285962) ([program](/edit/?oeis=285962)): Positions of 1 in A285960; complement of A285961.
+* [A285964](https://oeis.org/A285964) ([program](/edit/?oeis=285964)): Positions of 0 in A285963; complement of A285965.
 * [A285965](https://oeis.org/A285965) ([program](/edit/?oeis=285965)): Positions of 1 in A285963; complement of A285964.
 * [A285967](https://oeis.org/A285967) ([program](/edit/?oeis=285967)): Positions of 0 in A285966; complement of A285968.
 * [A285968](https://oeis.org/A285968) ([program](/edit/?oeis=285968)): Positions of 1 in A285966; complement of A285967.
@@ -6154,6 +6697,7 @@ List of integer sequences with links to LODA programs.
 * [A285977](https://oeis.org/A285977) ([program](/edit/?oeis=285977)): Positions of 1 in A285975; complement of A285976.
 * [A285978](https://oeis.org/A285978) ([program](/edit/?oeis=285978)): \{00->1\}-transform of the Thue-Morse word A010060.
 * [A285979](https://oeis.org/A285979) ([program](/edit/?oeis=285979)): Positions of 0 in A285978; complement of A285980.
+* [A285980](https://oeis.org/A285980) ([program](/edit/?oeis=285980)): Positions of 1 in A285978; complement of A285979.
 * [A285982](https://oeis.org/A285982) ([program](/edit/?oeis=285982)): a(n) = n! (mod n + 3).
 * [A285985](https://oeis.org/A285985) ([program](/edit/?oeis=285985)): Numbers a(n) = (T(b(n)))^2, where T(b(n)) is the triangular number of b(n)= A000217(b(n)) and b(n)=A006451(n). Also a(n) = parameters K of the Bachet Mordell equation y^2=x^3+K, where x= T(b(n)) = A006454(n) and y= T(b(n))\* sqrt(T(b(n))+1) = A285955(n)
 * [A285989](https://oeis.org/A285989) ([program](/edit/?oeis=285989)): a(0) = 0, a(n) = Sum\_\{0<d\|n, n/d odd\} d^4 for n > 0.
@@ -6173,11 +6717,15 @@ List of integer sequences with links to LODA programs.
 * [A286046](https://oeis.org/A286046) ([program](/edit/?oeis=286046)): \{011->1\}-transform of the Thue-Morse word A010060.
 * [A286047](https://oeis.org/A286047) ([program](/edit/?oeis=286047)): Positions of 0 in A286046; complement of A286048.
 * [A286048](https://oeis.org/A286048) ([program](/edit/?oeis=286048)): Positions of 1 in A286046; complement of A286047.
+* [A286049](https://oeis.org/A286049) ([program](/edit/?oeis=286049)): \{110->1\}-transform of the Thue-Morse word A010060.
 * [A286050](https://oeis.org/A286050) ([program](/edit/?oeis=286050)): Positions of 0 in A286049; complement of A286051.
 * [A286051](https://oeis.org/A286051) ([program](/edit/?oeis=286051)): Positions of 1 in A286049; complement of A286050.
 * [A286054](https://oeis.org/A286054) ([program](/edit/?oeis=286054)): Positions of 1 in A286052; complement of A286053.
 * [A286056](https://oeis.org/A286056) ([program](/edit/?oeis=286056)): Positions of 0 in A286055; complement of A286057.
+* [A286058](https://oeis.org/A286058) ([program](/edit/?oeis=286058)): Positions of 1 in A285666; complement of A285667.
 * [A286059](https://oeis.org/A286059) ([program](/edit/?oeis=286059)): Fixed point of the mapping 00->001, 1->011, starting with 00.
+* [A286060](https://oeis.org/A286060) ([program](/edit/?oeis=286060)): Positions of 0 in A286059; complement of A286061.
+* [A286061](https://oeis.org/A286061) ([program](/edit/?oeis=286061)): Positions of 1 in A286059; complement of A286060.
 * [A286062](https://oeis.org/A286062) ([program](/edit/?oeis=286062)): a(n) = 2\*a(n-1) + a(n-2) - a(n-3), where a(0) = 2, a(1) = 3, a(2) = 6.
 * [A286063](https://oeis.org/A286063) ([program](/edit/?oeis=286063)): Fixed point of the mapping 00->001, 1->100, starting with 00.
 * [A286065](https://oeis.org/A286065) ([program](/edit/?oeis=286065)): Positions of 0 in A286064; complement of A286066.
@@ -6192,6 +6740,8 @@ List of integer sequences with links to LODA programs.
 * [A286185](https://oeis.org/A286185) ([program](/edit/?oeis=286185)): Number of connected induced (non-null) subgraphs of the Möbius ladder graph with 2n nodes.
 * [A286186](https://oeis.org/A286186) ([program](/edit/?oeis=286186)): Number of connected induced (non-null) subgraphs of the friendship graph with 2n+1 nodes.
 * [A286191](https://oeis.org/A286191) ([program](/edit/?oeis=286191)): a(n) = (2^n-1)^2 + 2\*n.
+* [A286243](https://oeis.org/A286243) ([program](/edit/?oeis=286243)): Filter-sequence: a(n) = A278222(A064216(n)).
+* [A286250](https://oeis.org/A286250) ([program](/edit/?oeis=286250)): Filter-sequence: a(n) = A278223(A064216(n)) = A046523((2\*A064216(n))-1).
 * [A286264](https://oeis.org/A286264) ([program](/edit/?oeis=286264)): a(n) = 2\*(ceiling((n^2)/2)+1) - 1.
 * [A286282](https://oeis.org/A286282) ([program](/edit/?oeis=286282)): Stage at which Ken Knowlton's elevator (version 2) reaches floor n for the first time.
 * [A286283](https://oeis.org/A286283) ([program](/edit/?oeis=286283)): a(n) = floor(7\*n^2/48).
@@ -6203,18 +6753,26 @@ List of integer sequences with links to LODA programs.
 * [A286323](https://oeis.org/A286323) ([program](/edit/?oeis=286323)): Beatty sequence of (8 + sqrt(8))/7; complement of A022842.
 * [A286324](https://oeis.org/A286324) ([program](/edit/?oeis=286324)): a(n) is the number of bi-unitary divisors of n.
 * [A286350](https://oeis.org/A286350) ([program](/edit/?oeis=286350)): a(n) = 2\*a(n-1) - a(n-2) + a(n-4) for n>3, a(0)=0, a(1)=a(2)=2, a(3)=3.
+* [A286355](https://oeis.org/A286355) ([program](/edit/?oeis=286355)): Beatty sequence of (10 + sqrt(10))/9; complement of A177102.
 * [A286357](https://oeis.org/A286357) ([program](/edit/?oeis=286357)): One more than the exponent of the highest power of 2 dividing sigma(n): a(n) = A001511(A000203(n)).
+* [A286361](https://oeis.org/A286361) ([program](/edit/?oeis=286361)): Least number with the same prime signature as \{the largest divisor of n with only prime factors of the form 4k+1\} has: a(n) = A046523(A170818(n)).
+* [A286363](https://oeis.org/A286363) ([program](/edit/?oeis=286363)): Least number with the same prime signature as \{the largest divisor of n with only prime factors of the form 4k+3\} has: a(n) = A046523(A097706(n)).
+* [A286374](https://oeis.org/A286374) ([program](/edit/?oeis=286374)): a(n) = A278222(n^2).
 * [A286380](https://oeis.org/A286380) ([program](/edit/?oeis=286380)): a(n) = the minimum number of iterations of the reduced Collatz function R required to yield 1. The function R (A139391) is defined as R(k) = (3k+1)/2^r, with r as large as possible.
 * [A286385](https://oeis.org/A286385) ([program](/edit/?oeis=286385)): a(n) = A003961(n) - A000203(n).
 * [A286387](https://oeis.org/A286387) ([program](/edit/?oeis=286387)): a(n) = A002487(n^2).
 * [A286389](https://oeis.org/A286389) ([program](/edit/?oeis=286389)): a(0) = 0; a(n) = n - a(floor(a(n-1)/2)).
 * [A286390](https://oeis.org/A286390) ([program](/edit/?oeis=286390)): a(n) = a(n-2) - 2\*a(n-3) + a(n-4) for n>3, a(0)=0, a(1)=2, a(2)=-1, a(3)=3.
+* [A286398](https://oeis.org/A286398) ([program](/edit/?oeis=286398)): Denominator of A285388(n+1)/A285388(n).
 * [A286428](https://oeis.org/A286428) ([program](/edit/?oeis=286428)): Beatty sequence of (12 + sqrt(12))/11; complement of A194028.
 * [A286429](https://oeis.org/A286429) ([program](/edit/?oeis=286429)): Highest elevation of an island above sea level in a number square.
 * [A286430](https://oeis.org/A286430) ([program](/edit/?oeis=286430)): Least volume of water to surround the largest possible island in a number square.
+* [A286433](https://oeis.org/A286433) ([program](/edit/?oeis=286433)): Number of entries in the second last blocks of all set partitions of [n].
 * [A286437](https://oeis.org/A286437) ([program](/edit/?oeis=286437)): Number of ways to tile an n X n X n triangular area with two 2 X 2 X 2 triangular tiles and an appropriate number (= n^2-8) of 1 X 1 X 1 tiles.
 * [A286444](https://oeis.org/A286444) ([program](/edit/?oeis=286444)): Number of non-equivalent ways to tile an n X n X n triangular area with two 2 X 2 X 2 triangular tiles and an appropriate number (= n^2-8) of 1 X 1 X 1 tiles.
+* [A286469](https://oeis.org/A286469) ([program](/edit/?oeis=286469)): a(n) = maximum of \{the index of least prime dividing n\} and \{the maximal gap between indices of the successive primes in the prime factorization of n\}.
 * [A286477](https://oeis.org/A286477) ([program](/edit/?oeis=286477)): Ordinal transform of A032742, starting from its first term a(1) = 1.
+* [A286479](https://oeis.org/A286479) ([program](/edit/?oeis=286479)): a(n) = A046523(n+A000005(n)).
 * [A286496](https://oeis.org/A286496) ([program](/edit/?oeis=286496)): Renyi-Ulam liar numbers: for k=1,2,3,... this is the maximum n such that k questions "Is x in subset S of \{1,...,n\}?" are guaranteed to determine x when at most one answer can be a lie.
 * [A286507](https://oeis.org/A286507) ([program](/edit/?oeis=286507)): Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 190", based on the 5-celled von Neumann neighborhood.
 * [A286508](https://oeis.org/A286508) ([program](/edit/?oeis=286508)): Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 190", based on the 5-celled von Neumann neighborhood.
@@ -6224,6 +6782,7 @@ List of integer sequences with links to LODA programs.
 * [A286530](https://oeis.org/A286530) ([program](/edit/?oeis=286530)): a(n) = d(n+d(n)) - d(n), where d(n) is the number of divisors of n (A000005).
 * [A286546](https://oeis.org/A286546) ([program](/edit/?oeis=286546)): a(n) = A006068(n) - n.
 * [A286548](https://oeis.org/A286548) ([program](/edit/?oeis=286548)): a(n) = A003188(n) - n.
+* [A286574](https://oeis.org/A286574) ([program](/edit/?oeis=286574)): Sum of the binary weights of the lengths of 1-runs in base-2 representation of n: a(n) = A000523(A286575(n)).
 * [A286576](https://oeis.org/A286576) ([program](/edit/?oeis=286576)): a(n) = A132971(n) mod 3.
 * [A286577](https://oeis.org/A286577) ([program](/edit/?oeis=286577)): If n = 3k-1 then a(n) = a(k), otherwise a(n) = n.
 * [A286578](https://oeis.org/A286578) ([program](/edit/?oeis=286578)): a(n) = A285712(A286577(n)).
@@ -6232,11 +6791,19 @@ List of integer sequences with links to LODA programs.
 * [A286584](https://oeis.org/A286584) ([program](/edit/?oeis=286584)): a(n) = A048673(n) mod 4.
 * [A286585](https://oeis.org/A286585) ([program](/edit/?oeis=286585)): a(n) = A053735(A048673(n)).
 * [A286586](https://oeis.org/A286586) ([program](/edit/?oeis=286586)): a(n) = A006047(A048673(n)).
+* [A286587](https://oeis.org/A286587) ([program](/edit/?oeis=286587)): a(n) = A006047(A244154(n)).
+* [A286596](https://oeis.org/A286596) ([program](/edit/?oeis=286596)): a(n) = A278222(A153141(n)).
+* [A286598](https://oeis.org/A286598) ([program](/edit/?oeis=286598)): a(n) = A278222(A153142(n)).
+* [A286604](https://oeis.org/A286604) ([program](/edit/?oeis=286604)): a(n) = n mod sum of digits of n in factorial base.
+* [A286607](https://oeis.org/A286607) ([program](/edit/?oeis=286607)): Numbers that are not divisible by the sum of their factorial base digits (A034968).
+* [A286613](https://oeis.org/A286613) ([program](/edit/?oeis=286613)): a(n) = A046523(A244154(n)).
 * [A286624](https://oeis.org/A286624) ([program](/edit/?oeis=286624)): a(n) = (prime(1+n)\*prime(n)) + prime(n) + 1.
 * [A286629](https://oeis.org/A286629) ([program](/edit/?oeis=286629)): a(n) = (A000040(n)-1) \* A002110(n).
 * [A286630](https://oeis.org/A286630) ([program](/edit/?oeis=286630)): a(0) = 1; for n >= 1, a(n) = A000040(n) \* A002110(n).
+* [A286631](https://oeis.org/A286631) ([program](/edit/?oeis=286631)): a(n) = A278222(A254104(n)).
 * [A286634](https://oeis.org/A286634) ([program](/edit/?oeis=286634)): Numerator of the ratio of alternate consecutive prime gaps: Numerator ((prime(n + 3) - prime(n + 2))/(prime(n + 1) - prime(n))).
 * [A286636](https://oeis.org/A286636) ([program](/edit/?oeis=286636)): Even numbers that are a sum of two squares plus 1.
+* [A286654](https://oeis.org/A286654) ([program](/edit/?oeis=286654)): Characteristic sequence of the Beatty sequence, A022841, of sqrt(7).
 * [A286655](https://oeis.org/A286655) ([program](/edit/?oeis=286655)): Characteristic sequence of the Beatty sequence, A022842, of sqrt(8).
 * [A286665](https://oeis.org/A286665) ([program](/edit/?oeis=286665)): \{0->01\}-transform of the Pell word, A171588.
 * [A286666](https://oeis.org/A286666) ([program](/edit/?oeis=286666)): Positions of 0 in A286665; complement of A286667.
@@ -6248,6 +6815,7 @@ List of integer sequences with links to LODA programs.
 * [A286688](https://oeis.org/A286688) ([program](/edit/?oeis=286688)): \{0->00, 1->10\}-transform of the Pell word, A171588.
 * [A286689](https://oeis.org/A286689) ([program](/edit/?oeis=286689)): Positions of 0 in A286688; complement of A286690.
 * [A286690](https://oeis.org/A286690) ([program](/edit/?oeis=286690)): Positions of 1 in A286688; complement of A286689.
+* [A286691](https://oeis.org/A286691) ([program](/edit/?oeis=286691)): \{0->010, 1->110\}-transform of the Pell word, A171588.
 * [A286692](https://oeis.org/A286692) ([program](/edit/?oeis=286692)): Positions of 0 in A286691; complement of A286693.
 * [A286693](https://oeis.org/A286693) ([program](/edit/?oeis=286693)): Positions of 1 in A286691; complement of A286692.
 * [A286716](https://oeis.org/A286716) ([program](/edit/?oeis=286716)): a(n) = floor(n/2) - floor((n+1)/5), n >= 0.
@@ -6262,7 +6830,9 @@ List of integer sequences with links to LODA programs.
 * [A286727](https://oeis.org/A286727) ([program](/edit/?oeis=286727)): Positions of 0 in A286063; complement of A286728.
 * [A286728](https://oeis.org/A286728) ([program](/edit/?oeis=286728)): Positions of 1 in A286063; complement of A286727.
 * [A286746](https://oeis.org/A286746) ([program](/edit/?oeis=286746)): \{00->null\}-transform of the infinite Fibonacci word A003849.
+* [A286747](https://oeis.org/A286747) ([program](/edit/?oeis=286747)): Characteristic sequence of the Beatty sequence, A177102, of sqrt(10).
 * [A286748](https://oeis.org/A286748) ([program](/edit/?oeis=286748)): Characteristic sequence of the Beatty sequence, A194028, of sqrt(12).
+* [A286749](https://oeis.org/A286749) ([program](/edit/?oeis=286749)): \{0100->null\}-transform of the infinite Fibonacci word A003849.
 * [A286750](https://oeis.org/A286750) ([program](/edit/?oeis=286750)): Positions of 0 in A286749; complement of A286751.
 * [A286751](https://oeis.org/A286751) ([program](/edit/?oeis=286751)): Positions of 1 in A286749; complement of A286750.
 * [A286752](https://oeis.org/A286752) ([program](/edit/?oeis=286752)): \{010010->null\}-transform of the infinite Fibonacci word A003849.
@@ -6275,6 +6845,7 @@ List of integer sequences with links to LODA programs.
 * [A286778](https://oeis.org/A286778) ([program](/edit/?oeis=286778)): Sum of the common path length over all 2-tuples of nodes in a complete binary tree of height n.
 * [A286779](https://oeis.org/A286779) ([program](/edit/?oeis=286779)): Multiplicative with a(p^e) = 2e^2 + 2.
 * [A286784](https://oeis.org/A286784) ([program](/edit/?oeis=286784)): Triangle T(n,k) read by rows: coefficients of polynomials P\_n(t) defined in Formula section.
+* [A286801](https://oeis.org/A286801) ([program](/edit/?oeis=286801)): \{0->110, 1->010\}-transform of the Pell word, A171588.
 * [A286802](https://oeis.org/A286802) ([program](/edit/?oeis=286802)): Positions of 0 in A286801; complement of A286803.
 * [A286803](https://oeis.org/A286803) ([program](/edit/?oeis=286803)): Positions of 1 in A286801; complement of A286802.
 * [A286805](https://oeis.org/A286805) ([program](/edit/?oeis=286805)): Positions of 0 in A286804; complement of A286806.
@@ -6284,6 +6855,7 @@ List of integer sequences with links to LODA programs.
 * [A286809](https://oeis.org/A286809) ([program](/edit/?oeis=286809)): Positions of 1 in A286807; complement of A286808.
 * [A286810](https://oeis.org/A286810) ([program](/edit/?oeis=286810)): Number of non-attacking bishop positions on a cylindrical 2 X 2n chessboard.
 * [A286812](https://oeis.org/A286812) ([program](/edit/?oeis=286812)): a(n) = 105 - 2^n.
+* [A286813](https://oeis.org/A286813) ([program](/edit/?oeis=286813)): Number of positive odd solutions to equation x^2 + 8\*y^2 = 8\*n + 9.
 * [A286814](https://oeis.org/A286814) ([program](/edit/?oeis=286814)): Number of matchings in the n-helm graph.
 * [A286863](https://oeis.org/A286863) ([program](/edit/?oeis=286863)): Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 814", based on the 5-celled von Neumann neighborhood.
 * [A286865](https://oeis.org/A286865) ([program](/edit/?oeis=286865)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 814", based on the 5-celled von Neumann neighborhood.
@@ -6311,6 +6883,7 @@ List of integer sequences with links to LODA programs.
 * [A286945](https://oeis.org/A286945) ([program](/edit/?oeis=286945)): Number of maximal matchings in the ladder graph P\_2 X P\_n.
 * [A286956](https://oeis.org/A286956) ([program](/edit/?oeis=286956)): Main diagonal of A286950.
 * [A286983](https://oeis.org/A286983) ([program](/edit/?oeis=286983)): a(n) is the smallest integer that can appear as the n-th term of two distinct nondecreasing sequences of positive integers that satisfy the Fibonacci recurrence relation.
+* [A286984](https://oeis.org/A286984) ([program](/edit/?oeis=286984)): Decimal expansion of (2 + sqrt(5) + sqrt(15 - 6\*sqrt(5)))/2.
 * [A286985](https://oeis.org/A286985) ([program](/edit/?oeis=286985)): Number of connected dominating sets in the n-prism graph.
 * [A286986](https://oeis.org/A286986) ([program](/edit/?oeis=286986)): Number of connected dominating sets in the n-antiprism graph.
 * [A286988](https://oeis.org/A286988) ([program](/edit/?oeis=286988)): Positions of 0 in A286987; complement of A286989.
@@ -6325,17 +6898,30 @@ List of integer sequences with links to LODA programs.
 * [A286999](https://oeis.org/A286999) ([program](/edit/?oeis=286999)): Positions of 0 in A286998.
 * [A287000](https://oeis.org/A287000) ([program](/edit/?oeis=287000)): Positions of 1 in A286998.
 * [A287001](https://oeis.org/A287001) ([program](/edit/?oeis=287001)): Positions of 2 in A286998.
+* [A287002](https://oeis.org/A287002) ([program](/edit/?oeis=287002)): Start with 0 and repeatedly substitute 0->01, 1->20, 2->1.
+* [A287003](https://oeis.org/A287003) ([program](/edit/?oeis=287003)): Positions of 0 in A287002.
 * [A287004](https://oeis.org/A287004) ([program](/edit/?oeis=287004)): Positions of 1 in A287002.
 * [A287005](https://oeis.org/A287005) ([program](/edit/?oeis=287005)): Number of connected dominating sets on the n-Moebius ladder.
+* [A287014](https://oeis.org/A287014) ([program](/edit/?oeis=287014)): Bell numbers written in base 2.
 * [A287015](https://oeis.org/A287015) ([program](/edit/?oeis=287015)): Lucas numbers written in base 2.
 * [A287016](https://oeis.org/A287016) ([program](/edit/?oeis=287016)): a(n) = smallest number k such that A071904(n) + k^2 is a perfect square.
 * [A287028](https://oeis.org/A287028) ([program](/edit/?oeis=287028)): \{0->101, 1->010\}-transform of the Sturmian word A080764.
 * [A287057](https://oeis.org/A287057) ([program](/edit/?oeis=287057)): a(n) = 2\*n^2 + n - (n+1) mod 2.
 * [A287058](https://oeis.org/A287058) ([program](/edit/?oeis=287058)): Sum of decimal digits of 118^n.
 * [A287063](https://oeis.org/A287063) ([program](/edit/?oeis=287063)): Number of dominating sets in the n-crown graph (for n > 1).
+* [A287072](https://oeis.org/A287072) ([program](/edit/?oeis=287072)): Start with 0 and repeatedly substitute 0->01, 1->21, 2->0.
+* [A287073](https://oeis.org/A287073) ([program](/edit/?oeis=287073)): Positions of 0 in A287072.
+* [A287074](https://oeis.org/A287074) ([program](/edit/?oeis=287074)): Positions of 1 in A287072.
+* [A287075](https://oeis.org/A287075) ([program](/edit/?oeis=287075)): Positions of 2 in A287072.
 * [A287081](https://oeis.org/A287081) ([program](/edit/?oeis=287081)): Positions of 2 in A287002.
 * [A287082](https://oeis.org/A287082) ([program](/edit/?oeis=287082)): Number of edge covers on the n-web graph.
+* [A287087](https://oeis.org/A287087) ([program](/edit/?oeis=287087)): Positions of 0 in A287086.
 * [A287088](https://oeis.org/A287088) ([program](/edit/?oeis=287088)): Positions of 1 in A287086.
+* [A287089](https://oeis.org/A287089) ([program](/edit/?oeis=287089)): Positions of 2 in A287086.
+* [A287104](https://oeis.org/A287104) ([program](/edit/?oeis=287104)): Start with 0 and repeatedly substitute 0->10, 1->12, 2->0.
+* [A287105](https://oeis.org/A287105) ([program](/edit/?oeis=287105)): Positions of 0 in A287104.
+* [A287106](https://oeis.org/A287106) ([program](/edit/?oeis=287106)): Positions of 1 in A287104.
+* [A287107](https://oeis.org/A287107) ([program](/edit/?oeis=287107)): Positions of 2 in A287104.
 * [A287112](https://oeis.org/A287112) ([program](/edit/?oeis=287112)): 1-limiting word of the morphism 0->10, 1->20, 2->0.
 * [A287113](https://oeis.org/A287113) ([program](/edit/?oeis=287113)): Positions of 0 in A287112.
 * [A287114](https://oeis.org/A287114) ([program](/edit/?oeis=287114)): Positions of 1 in A287112.
@@ -6360,6 +6946,7 @@ List of integer sequences with links to LODA programs.
 * [A287209](https://oeis.org/A287209) ([program](/edit/?oeis=287209)): a(1)=4, a(2)=5, a(n) = sum of digits of a(n-1) + sum of digits of a(n-2), n>=3.
 * [A287272](https://oeis.org/A287272) ([program](/edit/?oeis=287272)): a(n) is the number of zeros of the Laguerre L(n, x) polynomial in the open interval (-1, +1).
 * [A287275](https://oeis.org/A287275) ([program](/edit/?oeis=287275)): Number of set partitions of [n] such that for each block all absolute differences between consecutive elements are <= three.
+* [A287295](https://oeis.org/A287295) ([program](/edit/?oeis=287295)): a(2n-1) is concatenation of sequence (1,3,..,2n-3,2n-1,2n-3,..3,1) and a(2n) is concatenation of sequence (1,3,..,2n-3,2n-1,2n-1,2n-3,..3,1).
 * [A287324](https://oeis.org/A287324) ([program](/edit/?oeis=287324)): a(n) = A008412(n-1) + A008412(n-2) for n>1, a(0)=0, a(1)=1.
 * [A287326](https://oeis.org/A287326) ([program](/edit/?oeis=287326)): Triangle read by rows: T(n, k) = 6\*k\*(n-k) + 1; n >= 0, 0 <= k <= n.
 * [A287327](https://oeis.org/A287327) ([program](/edit/?oeis=287327)): Number of independent vertex sets (and vertex covers) in the 2n-crossed prism graph.
@@ -6368,10 +6955,15 @@ List of integer sequences with links to LODA programs.
 * [A287349](https://oeis.org/A287349) ([program](/edit/?oeis=287349)): Number of matchings in the n-gear graph.
 * [A287350](https://oeis.org/A287350) ([program](/edit/?oeis=287350)): Number of independent vertex sets and vertex covers in the n-gear graph.
 * [A287353](https://oeis.org/A287353) ([program](/edit/?oeis=287353)): a(0)=0; for n>0, a(n) = 10\*a(n-1) + prime(n).
+* [A287356](https://oeis.org/A287356) ([program](/edit/?oeis=287356)): Start with 0 and repeatedly substitute 0->11, 1->12, 2->0.
+* [A287357](https://oeis.org/A287357) ([program](/edit/?oeis=287357)): Positions of 0 in A287356.
 * [A287358](https://oeis.org/A287358) ([program](/edit/?oeis=287358)): Positions of 1 in A287356.
+* [A287359](https://oeis.org/A287359) ([program](/edit/?oeis=287359)): Positions of 2 in A287356.
 * [A287373](https://oeis.org/A287373) ([program](/edit/?oeis=287373)): Positions of 0 in A101666.
 * [A287374](https://oeis.org/A287374) ([program](/edit/?oeis=287374)): Positions of 1 in A101666.
 * [A287375](https://oeis.org/A287375) ([program](/edit/?oeis=287375)): Positions of 2 in A101666.
+* [A287379](https://oeis.org/A287379) ([program](/edit/?oeis=287379)): Positions of 0 in A287931; complement of A287380.
+* [A287380](https://oeis.org/A287380) ([program](/edit/?oeis=287380)): Positions of 1 in A287931; complement of A287379.
 * [A287381](https://oeis.org/A287381) ([program](/edit/?oeis=287381)): a(n) = a(n-1) + 2\*a(n-2) - a(n-3), where a(0) = 2, a(1) = 4, a(2) = 7.
 * [A287392](https://oeis.org/A287392) ([program](/edit/?oeis=287392)): Domination number for lion's graph on an n X n board.
 * [A287393](https://oeis.org/A287393) ([program](/edit/?oeis=287393)): Domination number for knight's graph on a 2 X n board.
@@ -6410,18 +7002,23 @@ List of integer sequences with links to LODA programs.
 * [A287579](https://oeis.org/A287579) ([program](/edit/?oeis=287579)): Positions of 2 in A287576.
 * [A287580](https://oeis.org/A287580) ([program](/edit/?oeis=287580)): Positions of 3 in A287576.
 * [A287594](https://oeis.org/A287594) ([program](/edit/?oeis=287594)): Number of independent vertex sets in the n-helm graph.
+* [A287596](https://oeis.org/A287596) ([program](/edit/?oeis=287596)): a(n) is the denominator of r(n), where r(n) = r(n-1) + r(n-2)/(2\*(n-1)) with r(0) = 0, r(1) = 1.
 * [A287618](https://oeis.org/A287618) ([program](/edit/?oeis=287618)): Triangle read by rows: T(j,k) is the number of distinct edge segments in a j X k rectangular grid.
 * [A287655](https://oeis.org/A287655) ([program](/edit/?oeis=287655)): Seven steps forward, six steps back.
 * [A287657](https://oeis.org/A287657) ([program](/edit/?oeis=287657)): \{0->01, 1->10\}-transform of the infinite Fibonacci word A003849.
 * [A287658](https://oeis.org/A287658) ([program](/edit/?oeis=287658)): Positions of 0 in A287657; complement of A287659.
 * [A287659](https://oeis.org/A287659) ([program](/edit/?oeis=287659)): Positions of 1 in A287657; complement of A287658.
+* [A287663](https://oeis.org/A287663) ([program](/edit/?oeis=287663)): \{0->1, 1->000\}-transform of the infinite Fibonacci word A003849.
 * [A287664](https://oeis.org/A287664) ([program](/edit/?oeis=287664)): Positions of 0's in A287663; complement of A287665.
 * [A287665](https://oeis.org/A287665) ([program](/edit/?oeis=287665)): Positions of 1's in A287663; complement of A287664.
+* [A287674](https://oeis.org/A287674) ([program](/edit/?oeis=287674)): \{0->1, 1->001\}-transform of the infinite Fibonacci word A003849.
 * [A287675](https://oeis.org/A287675) ([program](/edit/?oeis=287675)): Positions of 0 in A287674; complement of A287676.
 * [A287676](https://oeis.org/A287676) ([program](/edit/?oeis=287676)): Positions of 1 in A287674; complement of A287675.
 * [A287702](https://oeis.org/A287702) ([program](/edit/?oeis=287702)): a(n) = (3!)^3 \* [z^3] hypergeom([], [1,1], z)^n.
+* [A287722](https://oeis.org/A287722) ([program](/edit/?oeis=287722)): \{0->1, 1->010\}-transform of the infinite Fibonacci word A003849.
 * [A287723](https://oeis.org/A287723) ([program](/edit/?oeis=287723)): Positions of 0 in A287722; complement of A287724.
 * [A287724](https://oeis.org/A287724) ([program](/edit/?oeis=287724)): Positions of 1 in A287722; complement of A287723.
+* [A287725](https://oeis.org/A287725) ([program](/edit/?oeis=287725)): \{0->1, 1->011\}-transform of the infinite Fibonacci word A003849.
 * [A287726](https://oeis.org/A287726) ([program](/edit/?oeis=287726)): Positions of 0 in A287725; complement of A287727.
 * [A287727](https://oeis.org/A287727) ([program](/edit/?oeis=287727)): Positions of 1 in A287725; complement of A287726.
 * [A287733](https://oeis.org/A287733) ([program](/edit/?oeis=287733)): First differences of A069497.
@@ -6430,7 +7027,9 @@ List of integer sequences with links to LODA programs.
 * [A287744](https://oeis.org/A287744) ([program](/edit/?oeis=287744)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 342", based on the 5-celled von Neumann neighborhood.
 * [A287745](https://oeis.org/A287745) ([program](/edit/?oeis=287745)): Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 342", based on the 5-celled von Neumann neighborhood.
 * [A287746](https://oeis.org/A287746) ([program](/edit/?oeis=287746)): First differences of A154293.
+* [A287747](https://oeis.org/A287747) ([program](/edit/?oeis=287747)): Concatenation \{n, n + 1,.., n + 9\}.
 * [A287765](https://oeis.org/A287765) ([program](/edit/?oeis=287765)): Period 4: repeat [1, 3, 5, 3].
+* [A287769](https://oeis.org/A287769) ([program](/edit/?oeis=287769)): \{0->1, 1->110\}-transform of the infinite Fibonacci word A003849.
 * [A287770](https://oeis.org/A287770) ([program](/edit/?oeis=287770)): Positions of 1 in A287769; complement of A276855.
 * [A287772](https://oeis.org/A287772) ([program](/edit/?oeis=287772)): \{0->1, 1->00\}-transform of the infinite Fibonacci word A003849.
 * [A287774](https://oeis.org/A287774) ([program](/edit/?oeis=287774)): Positions of 0 in A287773; complement of A287777.
@@ -6440,6 +7039,7 @@ List of integer sequences with links to LODA programs.
 * [A287791](https://oeis.org/A287791) ([program](/edit/?oeis=287791)): Positions of 0 in A287790; complement of A287792.
 * [A287792](https://oeis.org/A287792) ([program](/edit/?oeis=287792)): Positions of 1 in A287790; complement of A287791.
 * [A287793](https://oeis.org/A287793) ([program](/edit/?oeis=287793)): Eight steps forward, seven steps back.
+* [A287801](https://oeis.org/A287801) ([program](/edit/?oeis=287801)): \{0->100, 1->001\}-transform of the infinite Fibonacci word A003849.
 * [A287802](https://oeis.org/A287802) ([program](/edit/?oeis=287802)): Positions of 0 in A287801; complement of A287803.
 * [A287804](https://oeis.org/A287804) ([program](/edit/?oeis=287804)): Number of quinary sequences of length n such that no two consecutive terms have distance 1.
 * [A287805](https://oeis.org/A287805) ([program](/edit/?oeis=287805)): Number of quinary sequences of length n such that no two consecutive terms have distance 2.
@@ -6473,11 +7073,14 @@ List of integer sequences with links to LODA programs.
 * [A287893](https://oeis.org/A287893) ([program](/edit/?oeis=287893)): a(n) = floor(n\*(n+2)/9).
 * [A287896](https://oeis.org/A287896) ([program](/edit/?oeis=287896)): a(n) = A002487(n)\*A001511(n).
 * [A287898](https://oeis.org/A287898) ([program](/edit/?oeis=287898)): Number of ways to go up and down n stairs, with fewer than 4 stairs at a time, stepping on each stair at least once.
+* [A287920](https://oeis.org/A287920) ([program](/edit/?oeis=287920)): Triangle T(n,k) read by rows: T(n,k) = floor(prime(n)/prime(k)), n >= k >= 1.
 * [A287922](https://oeis.org/A287922) ([program](/edit/?oeis=287922)): a(n) = prime(1)^2 + prime(n)^2.
 * [A287925](https://oeis.org/A287925) ([program](/edit/?oeis=287925)): a(n) = prime(1)^4 + prime(n)^4
 * [A287960](https://oeis.org/A287960) ([program](/edit/?oeis=287960)): Numbers that are the sum of two centered triangular numbers (A005448).
 * [A287962](https://oeis.org/A287962) ([program](/edit/?oeis=287962)): Positive numbers that are the sum of the squares of distinct Fibonacci numbers (with a single type of 1).
 * [A287992](https://oeis.org/A287992) ([program](/edit/?oeis=287992)): Number of (undirected) paths in the prism graph Y\_n.
+* [A287996](https://oeis.org/A287996) ([program](/edit/?oeis=287996)): Position of second occurrence of first n terms in A287108.
+* [A287997](https://oeis.org/A287997) ([program](/edit/?oeis=287997)): Expansion of 1/((1-x)(1-x^3)(1-x^5) ... (1-x^13)).
 * [A288002](https://oeis.org/A288002) ([program](/edit/?oeis=288002)): L-fusc, sequence l of the mutual diatomic recurrence pair: l(1)=0, r(1)=1, l(2n) = l(n), r(2n) = r(n), l(2n+1) = l(n)+r(n), r(2n+1) = l(n+1)+r(n+1), where r(n) = A288003(n).
 * [A288003](https://oeis.org/A288003) ([program](/edit/?oeis=288003)): R-fusc, sequence r of the mutual diatomic recurrence pair: l(1)=0, r(1)=1, l(2n) = l(n), r(2n) = r(n), l(2n+1) = l(n)+r(n), r(2n+1) = l(n+1)+r(n+1), where l(n) = A288002(n).
 * [A288023](https://oeis.org/A288023) ([program](/edit/?oeis=288023)): Number of steps to reach 1 in the Collatz 3x+1 problem starting with the n-th triangular number, or -1 if 1 is never reached.
@@ -6485,6 +7088,7 @@ List of integer sequences with links to LODA programs.
 * [A288035](https://oeis.org/A288035) ([program](/edit/?oeis=288035)): Number of (undirected) paths in the complete bipartite graph K\_n,n.
 * [A288038](https://oeis.org/A288038) ([program](/edit/?oeis=288038)): Number of independent vertex sets in the n-Andrasfai graph.
 * [A288040](https://oeis.org/A288040) ([program](/edit/?oeis=288040)): Integers whose number of distinct decimal digits is prime.
+* [A288119](https://oeis.org/A288119) ([program](/edit/?oeis=288119)): Lexicographically earliest sequence of distinct nonnegative terms such that, for any i and j >= 0, a(i+j) != a(i) + a(j).
 * [A288122](https://oeis.org/A288122) ([program](/edit/?oeis=288122)): Number of partitions of n into prime Fibonacci numbers (A005478).
 * [A288132](https://oeis.org/A288132) ([program](/edit/?oeis=288132)): Fixed point of the mapping 00->0010, 1->11, starting with 00.
 * [A288133](https://oeis.org/A288133) ([program](/edit/?oeis=288133)): Positions of 0 in A288132; complement of A288134.
@@ -6508,12 +7112,15 @@ List of integer sequences with links to LODA programs.
 * [A288268](https://oeis.org/A288268) ([program](/edit/?oeis=288268)): Expansion of e.g.f.: exp(Sum\_\{k>=1\} (k-1)\*x^k/k).
 * [A288309](https://oeis.org/A288309) ([program](/edit/?oeis=288309)): a(n) = 2\*a(n-1) + 2\*a(n-2) - 3\*a(n-3), where a(0) = 2, a(1) = 4, a(2) = 8.
 * [A288311](https://oeis.org/A288311) ([program](/edit/?oeis=288311)): Number of steps, reduced mod n, to reach 1 in the Collatz 3x+1 problem, or -1 if 1 is never reached.
+* [A288312](https://oeis.org/A288312) ([program](/edit/?oeis=288312)): Number of endofunctions on [2n] such that the image size equals n.
 * [A288313](https://oeis.org/A288313) ([program](/edit/?oeis=288313)): Let b(k) denote A056240(k); the sequence lists numbers b(2n) where for all m > n, b(2m) > b(2n).
 * [A288317](https://oeis.org/A288317) ([program](/edit/?oeis=288317)): a(n) = a(n-1) + 3\*a(n-2) - 2\*a(n-3) - a(n-4) for n >= 4, where a(0) = 2, a(1) = 4, a(2) = 7, a(3) = 12.
 * [A288327](https://oeis.org/A288327) ([program](/edit/?oeis=288327)): Decuple factorial, 10-factorial, n!10, n!!!!!!!!!!.
 * [A288341](https://oeis.org/A288341) ([program](/edit/?oeis=288341)): Expansion of 1 / ((1-x)^2\*(1-x^2)\*(1-x^3)\*...\*(1-x^6)).
 * [A288342](https://oeis.org/A288342) ([program](/edit/?oeis=288342)): Expansion of 1 / ((1-x)^2\*(1-x^2)\*(1-x^3)\*...\*(1-x^7)).
 * [A288349](https://oeis.org/A288349) ([program](/edit/?oeis=288349)): Partial sums of A059268.
+* [A288373](https://oeis.org/A288373) ([program](/edit/?oeis=288373)): Positions of 0 in A288372; complement of A288316.
+* [A288374](https://oeis.org/A288374) ([program](/edit/?oeis=288374)): Positions of 1 in A288372; complement of A288316.
 * [A288380](https://oeis.org/A288380) ([program](/edit/?oeis=288380)): a(n) = 3\*a(n-1) - 3\*a(n-2) + 3\*a(n-3) - 3\*a(n-4) + a(n-5) for n >= 1, where a(0) = 2, a(1) = 4, a(2) = 7. a(3) = 11, a(4) = 20.
 * [A288381](https://oeis.org/A288381) ([program](/edit/?oeis=288381)): Fixed point of the mapping 00->0001, 1->11, starting with 00.
 * [A288382](https://oeis.org/A288382) ([program](/edit/?oeis=288382)): Positions of 0 in A288381; complement of A288383.
@@ -6525,6 +7132,8 @@ List of integer sequences with links to LODA programs.
 * [A288425](https://oeis.org/A288425) ([program](/edit/?oeis=288425)): Minimal number of vertices that must be selected from an n X n square grid so that any square of 4 vertices, regardless of orientation, will include at least one selected vertex.
 * [A288429](https://oeis.org/A288429) ([program](/edit/?oeis=288429)): a(n) = 2\*a(n-1) - a(n-2) + a(n-3) - a(n-4), where a(0) = 2, a(1) = 4, a(2) = 5, a(3) = 6.
 * [A288443](https://oeis.org/A288443) ([program](/edit/?oeis=288443)): a(n) = (2n + 1)\*2^(2n + 1); numbers k such that v(k)\*2^v(k) = k, where v(n) = A007814(n) is 2-adic valuation of n.
+* [A288462](https://oeis.org/A288462) ([program](/edit/?oeis=288462)): Fixed point of the mapping 00->0101, 1->10, starting with 00.
+* [A288464](https://oeis.org/A288464) ([program](/edit/?oeis=288464)): Positions of 1 in A288462; complement of A288463.
 * [A288465](https://oeis.org/A288465) ([program](/edit/?oeis=288465)): a(n) = 2\*a(n-1) - a(n-4), where a(0) = 2, a(1) = 4, a(2) = 6, a(3) = 10.
 * [A288469](https://oeis.org/A288469) ([program](/edit/?oeis=288469)): a(n) = n if n is a nonprime, otherwise take the prime index of n and repeat until you get a nonprime which is then a(n).
 * [A288470](https://oeis.org/A288470) ([program](/edit/?oeis=288470)): a(n) = Sum\_\{k=0..n\} binomial(n,k)\*binomial(2\*n,2\*k).
@@ -6537,7 +7146,10 @@ List of integer sequences with links to LODA programs.
 * [A288523](https://oeis.org/A288523) ([program](/edit/?oeis=288523)): a(n) = a(n-1) + a(n-2) + a(n-3) - 2\*a(n-4) for n >= 5, where a(0) = 2, a(1) = 4, a(2) = 5, a(3) = 8, a(4) = 11.
 * [A288529](https://oeis.org/A288529) ([program](/edit/?oeis=288529)): a(n) is the minimum number of rows from the table described in A286000 that are required to represent the partitions of n into consecutive parts.
 * [A288534](https://oeis.org/A288534) ([program](/edit/?oeis=288534)): a(n) = n\*(2\*n^2 + 3), n >= 1; a(0)=1.
+* [A288566](https://oeis.org/A288566) ([program](/edit/?oeis=288566)): Partial sums of A087207.
+* [A288570](https://oeis.org/A288570) ([program](/edit/?oeis=288570)): Partial sums of A019565.
 * [A288571](https://oeis.org/A288571) ([program](/edit/?oeis=288571)): a(n) = Sum\_\{d\|n\} (-1)^(n/d+1)\*tau(d), where tau = number of divisors (A000005).
+* [A288572](https://oeis.org/A288572) ([program](/edit/?oeis=288572)): a(n) = smallest positive integer k such that (n^3)^k == 1 mod (n+1)^3.
 * [A288575](https://oeis.org/A288575) ([program](/edit/?oeis=288575)): Partial sums of A104324.
 * [A288581](https://oeis.org/A288581) ([program](/edit/?oeis=288581)): a(0)=1, a(1)=0; thereafter a(n) = 2^Fibonacci(n-1)\*a(n-1) + a(n-2).
 * [A288582](https://oeis.org/A288582) ([program](/edit/?oeis=288582)): A288581(n) written in base 2.
@@ -6547,16 +7159,23 @@ List of integer sequences with links to LODA programs.
 * [A288603](https://oeis.org/A288603) ([program](/edit/?oeis=288603)): a(n) = 2\*a(n-1) - a(n-3) for n >= 3, where a(0) = 2, a(1) = 4, a(2) = 6, a(3) = 8.
 * [A288604](https://oeis.org/A288604) ([program](/edit/?oeis=288604)): a(n) = (n^9 - n)/10.
 * [A288625](https://oeis.org/A288625) ([program](/edit/?oeis=288625)): Positions of 0 in A288375; complement of A283794.
+* [A288633](https://oeis.org/A288633) ([program](/edit/?oeis=288633)): Fixed point of the mapping 00->0110, 1->10, starting with 00.
+* [A288634](https://oeis.org/A288634) ([program](/edit/?oeis=288634)): Positions of 0 in A288633; complement of A288635.
+* [A288635](https://oeis.org/A288635) ([program](/edit/?oeis=288635)): Positions of 1 in A288633; complement of A288634.
 * [A288636](https://oeis.org/A288636) ([program](/edit/?oeis=288636)): Height of power-tower factorization of n. Row lengths of A278028.
 * [A288657](https://oeis.org/A288657) ([program](/edit/?oeis=288657)): Numbers whose squares have an odd number of digits.
 * [A288658](https://oeis.org/A288658) ([program](/edit/?oeis=288658)): Numbers whose squares have an even number of digits.
+* [A288659](https://oeis.org/A288659) ([program](/edit/?oeis=288659)): Numbers whose cubes have an odd number of digits.
+* [A288660](https://oeis.org/A288660) ([program](/edit/?oeis=288660)): Numbers whose cubes have an even number of digits.
 * [A288661](https://oeis.org/A288661) ([program](/edit/?oeis=288661)): Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 493", based on the 5-celled von Neumann neighborhood.
 * [A288662](https://oeis.org/A288662) ([program](/edit/?oeis=288662)): Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 493", based on the 5-celled von Neumann neighborhood.
 * [A288663](https://oeis.org/A288663) ([program](/edit/?oeis=288663)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 493", based on the 5-celled von Neumann neighborhood.
 * [A288664](https://oeis.org/A288664) ([program](/edit/?oeis=288664)): Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 493", based on the 5-celled von Neumann neighborhood.
 * [A288668](https://oeis.org/A288668) ([program](/edit/?oeis=288668)): a(n) = a(n-2) + 2\*a(n-3) for n >= 3, where a(0) = 2, a(2) = 4, a(3) = 5.
 * [A288687](https://oeis.org/A288687) ([program](/edit/?oeis=288687)): Number of n-digit biquanimous strings using digits \{0,1,2,3\}.
+* [A288694](https://oeis.org/A288694) ([program](/edit/?oeis=288694)): Fixed point of the mapping 00->0110, 10->100, starting with 00.
 * [A288695](https://oeis.org/A288695) ([program](/edit/?oeis=288695)): Positions of 0 in A288694; complement of A288696.
+* [A288696](https://oeis.org/A288696) ([program](/edit/?oeis=288696)): Positions of 1 in A288694; complement of A288695.
 * [A288697](https://oeis.org/A288697) ([program](/edit/?oeis=288697)): Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 494", based on the 5-celled von Neumann neighborhood.
 * [A288698](https://oeis.org/A288698) ([program](/edit/?oeis=288698)): Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 494", based on the 5-celled von Neumann neighborhood.
 * [A288699](https://oeis.org/A288699) ([program](/edit/?oeis=288699)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 494", based on the 5-celled von Neumann neighborhood.
@@ -6567,12 +7186,12 @@ List of integer sequences with links to LODA programs.
 * [A288709](https://oeis.org/A288709) ([program](/edit/?oeis=288709)): Positions of 1's in A288707; complement of A288708.
 * [A288711](https://oeis.org/A288711) ([program](/edit/?oeis=288711)): 1-limiting word of the mapping 00->1000, 10->00, starting with 00.
 * [A288712](https://oeis.org/A288712) ([program](/edit/?oeis=288712)): Positions of 0 in A288711; complement of A288713.
-* [A288713](https://oeis.org/A288713) ([program](/edit/?oeis=288713)): Positions of 1 in A288711; complement of A288712.
 * [A288720](https://oeis.org/A288720) ([program](/edit/?oeis=288720)): Detour index of the n-hypercube graph.
 * [A288730](https://oeis.org/A288730) ([program](/edit/?oeis=288730)): Positions of 0 in A288729; complement of A288731.
 * [A288732](https://oeis.org/A288732) ([program](/edit/?oeis=288732)): a(n) = a(n-1) + 2\*a(n-4) - 2\*a(n-5) for n >= 5, where a(0) = 2, a(1) = 4, a(2) = 6, a(3) = 8, a(4) = 10.
 * [A288756](https://oeis.org/A288756) ([program](/edit/?oeis=288756)): Numerator of the volume of the "monic slice" of the d-th Chern-Vaaler star body.
 * [A288757](https://oeis.org/A288757) ([program](/edit/?oeis=288757)): Denominator of the volume of the "monic slice" of the d-th Chern-Vaaler star body.
+* [A288758](https://oeis.org/A288758) ([program](/edit/?oeis=288758)): Floor of the volume of the "monic slice" of the d-th Chern-Vaaler star body.
 * [A288772](https://oeis.org/A288772) ([program](/edit/?oeis=288772)): a(n) is the minimum number of rows from the table described in A286000 that are required to represent the partitions of all positive integers <= n into consecutive parts.
 * [A288773](https://oeis.org/A288773) ([program](/edit/?oeis=288773)): a(n) is the largest of all positive integers whose partitions into consecutive parts can be totally represented in the first n rows of the table described in A286000.
 * [A288774](https://oeis.org/A288774) ([program](/edit/?oeis=288774)): a(n) is the largest positive integers whose partitions into consecutive parts can be totally represented in the first n rows of the table described in A286000.
@@ -6637,6 +7256,7 @@ List of integer sequences with links to LODA programs.
 * [A289052](https://oeis.org/A289052) ([program](/edit/?oeis=289052)): a(1) = 1; a(n) = a(n-A006530(n-1)) + 1 for n > 1.
 * [A289055](https://oeis.org/A289055) ([program](/edit/?oeis=289055)): Triangle read by rows: T(n,k) = (k+1)\*A028815(n) for 0 <= k <= n.
 * [A289060](https://oeis.org/A289060) ([program](/edit/?oeis=289060)): a(n) = 3\*a(n-1) - 3\*a(n-2) + \*a(n-3) for n >= 8, where a(0) = 2, a(1) = 4, a(2) = 7, a(3) = 11, a(4) = 17, a(5) = 25, a(6) = 36, a(7) = 51.
+* [A289070](https://oeis.org/A289070) ([program](/edit/?oeis=289070)): a(n) = c(2n-1), where c(n+2) = Sum\_\{k=0..n\} binomial(n,k)c(k)c(n+1-k) with c(0)=0, c(1)=3.
 * [A289096](https://oeis.org/A289096) ([program](/edit/?oeis=289096)): Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 545", based on the 5-celled von Neumann neighborhood.
 * [A289097](https://oeis.org/A289097) ([program](/edit/?oeis=289097)): Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 545", based on the 5-celled von Neumann neighborhood.
 * [A289098](https://oeis.org/A289098) ([program](/edit/?oeis=289098)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 545", based on the 5-celled von Neumann neighborhood.
@@ -6652,6 +7272,7 @@ List of integer sequences with links to LODA programs.
 * [A289133](https://oeis.org/A289133) ([program](/edit/?oeis=289133)): a(n) is the number of odd integers divisible by 9 in ]2\*(n-1)^2, 2\*n^2[.
 * [A289134](https://oeis.org/A289134) ([program](/edit/?oeis=289134)): a(n) = 21\*n^2 - 33\*n + 13.
 * [A289139](https://oeis.org/A289139) ([program](/edit/?oeis=289139)): a(n) is the number of odd integers divisible by 7 in ]4\*(n-1)^2, 4\*n^2[.
+* [A289142](https://oeis.org/A289142) ([program](/edit/?oeis=289142)): Numbers such that the sum of prime factors (taken with multiplicity) is divisible by 3.
 * [A289144](https://oeis.org/A289144) ([program](/edit/?oeis=289144)): The difference between the second divisor of n and the penultimate divisor of n.
 * [A289147](https://oeis.org/A289147) ([program](/edit/?oeis=289147)): Number of (n+1) X (n+1) binary matrices M with at most one 1 in each of the first n rows and each of the first n columns and M[n+1,n+1] = 0.
 * [A289150](https://oeis.org/A289150) ([program](/edit/?oeis=289150)): Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 597", based on the 5-celled von Neumann neighborhood.
@@ -6683,6 +7304,7 @@ List of integer sequences with links to LODA programs.
 * [A289265](https://oeis.org/A289265) ([program](/edit/?oeis=289265)): Decimal expansion of the real root of x^3 - x^2 - 2 = 0.
 * [A289277](https://oeis.org/A289277) ([program](/edit/?oeis=289277)): a(n) = A005259(n) mod 2\*n+1.
 * [A289278](https://oeis.org/A289278) ([program](/edit/?oeis=289278)): a(n) = A005259(n) mod (2\*n+1)^2.
+* [A289279](https://oeis.org/A289279) ([program](/edit/?oeis=289279)): Number of odd composite numbers in ]2\*(n-1)^2, 2\*n^2[.
 * [A289280](https://oeis.org/A289280) ([program](/edit/?oeis=289280)): a(n) = least integer k > n such that any prime factor of k is also a prime factor of n.
 * [A289289](https://oeis.org/A289289) ([program](/edit/?oeis=289289)): a(n) = A005259(n) mod (n+1)^3.
 * [A289296](https://oeis.org/A289296) ([program](/edit/?oeis=289296)): a(n) = (n - 1)\*(2\*floor(n/2) + 1).
@@ -6716,6 +7338,8 @@ List of integer sequences with links to LODA programs.
 * [A289437](https://oeis.org/A289437) ([program](/edit/?oeis=289437)): The arithmetic function v\_2(n,4).
 * [A289438](https://oeis.org/A289438) ([program](/edit/?oeis=289438)): The arithmetic function v\_4(n,4).
 * [A289443](https://oeis.org/A289443) ([program](/edit/?oeis=289443)): a(0)=2, a(1)=6; thereafter a(n) = 3\*n^2.
+* [A289445](https://oeis.org/A289445) ([program](/edit/?oeis=289445)): a(n) = number of similarity classes of groups G with exactly n subgroups and such that G = G-tilde, where G-tilde is the unique subgroup of G left after factoring out the cyclic, central Sylow subgroups.
+* [A289446](https://oeis.org/A289446) ([program](/edit/?oeis=289446)): Related to number of mesh patterns of length 2 that avoid the pattern 231.
 * [A289447](https://oeis.org/A289447) ([program](/edit/?oeis=289447)): Related to number of mesh patterns of length 2 that avoid the pattern 231.
 * [A289448](https://oeis.org/A289448) ([program](/edit/?oeis=289448)): Related to number of mesh patterns of length 2 that avoid the pattern 231.
 * [A289449](https://oeis.org/A289449) ([program](/edit/?oeis=289449)): Related to number of mesh patterns of length 2 that avoid the pattern 231.
@@ -6734,19 +7358,25 @@ List of integer sequences with links to LODA programs.
 * [A289499](https://oeis.org/A289499) ([program](/edit/?oeis=289499)): Number of primes in the interval [8n, 9n].
 * [A289500](https://oeis.org/A289500) ([program](/edit/?oeis=289500)): Number of primes in the interval [9n, 10n].
 * [A289504](https://oeis.org/A289504) ([program](/edit/?oeis=289504)): Decimal expansion of 2\*(1+3^(3/2)/(2\*Pi)).
+* [A289506](https://oeis.org/A289506) ([program](/edit/?oeis=289506)): Write n as a product of primes p\_\{s\_1\}\*p\_\{s\_2\}\*p\_\{s\_3\}\*... where p\_i denotes the i-th prime; then a(n) = s\_1^2 + s\_2^2 + s\_3^2 + ...
+* [A289508](https://oeis.org/A289508) ([program](/edit/?oeis=289508)): a(n) is the GCD of the indices j for which the j-th prime p\_j divides n.
+* [A289509](https://oeis.org/A289509) ([program](/edit/?oeis=289509)): Numbers k such that the gcd of the indices j for which the j-th prime prime(j) divides k is 1.
 * [A289521](https://oeis.org/A289521) ([program](/edit/?oeis=289521)): Number of vertices in a planar Apollonian graph at iteration n.
 * [A289553](https://oeis.org/A289553) ([program](/edit/?oeis=289553)): Numbers that are not the product of two distinct noncomposite numbers (A008578).
+* [A289554](https://oeis.org/A289554) ([program](/edit/?oeis=289554)): Numbers that are the product of two distinct composite numbers (A002808).
 * [A289558](https://oeis.org/A289558) ([program](/edit/?oeis=289558)): Numbers with two distinct prime factors not divisible by a square larger than 4.
 * [A289586](https://oeis.org/A289586) ([program](/edit/?oeis=289586)): Numbers k whose smallest multiple that is a Fibonacci number is Fibonacci(k).
 * [A289588](https://oeis.org/A289588) ([program](/edit/?oeis=289588)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289589](https://oeis.org/A289589) ([program](/edit/?oeis=289589)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289590](https://oeis.org/A289590) ([program](/edit/?oeis=289590)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
+* [A289592](https://oeis.org/A289592) ([program](/edit/?oeis=289592)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289595](https://oeis.org/A289595) ([program](/edit/?oeis=289595)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289596](https://oeis.org/A289596) ([program](/edit/?oeis=289596)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289597](https://oeis.org/A289597) ([program](/edit/?oeis=289597)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289598](https://oeis.org/A289598) ([program](/edit/?oeis=289598)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289600](https://oeis.org/A289600) ([program](/edit/?oeis=289600)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289601](https://oeis.org/A289601) ([program](/edit/?oeis=289601)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
+* [A289607](https://oeis.org/A289607) ([program](/edit/?oeis=289607)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289609](https://oeis.org/A289609) ([program](/edit/?oeis=289609)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289610](https://oeis.org/A289610) ([program](/edit/?oeis=289610)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289611](https://oeis.org/A289611) ([program](/edit/?oeis=289611)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
@@ -6754,6 +7384,7 @@ List of integer sequences with links to LODA programs.
 * [A289615](https://oeis.org/A289615) ([program](/edit/?oeis=289615)): A246604 (Catalan(n)-n) with initial terms 1,0,0,2 changed to 1,1,1,3.
 * [A289616](https://oeis.org/A289616) ([program](/edit/?oeis=289616)): A246604 (Catalan(n)-n) with initial terms 1,0,0,2,10 changed to 1,1,1,2,11.
 * [A289617](https://oeis.org/A289617) ([program](/edit/?oeis=289617)): a(n) = A005187(A001222(n)).
+* [A289623](https://oeis.org/A289623) ([program](/edit/?oeis=289623)): a(n) = A055396(A048673(n)).
 * [A289641](https://oeis.org/A289641) ([program](/edit/?oeis=289641)): a(n) = bigomega(n) - mu(n).
 * [A289642](https://oeis.org/A289642) ([program](/edit/?oeis=289642)): Number of 2-digit numbers whose digits add up to n.
 * [A289643](https://oeis.org/A289643) ([program](/edit/?oeis=289643)): n\*(2\*n+1)\*binomial(n+2,n)/3.
@@ -6762,6 +7393,8 @@ List of integer sequences with links to LODA programs.
 * [A289654](https://oeis.org/A289654) ([program](/edit/?oeis=289654)): Related to number of mesh patterns of length 2 that avoid the pattern 321.
 * [A289659](https://oeis.org/A289659) ([program](/edit/?oeis=289659)): "n-Value" of Big Collatz matrix for 2n+1.
 * [A289666](https://oeis.org/A289666) ([program](/edit/?oeis=289666)): a(n) = number of weakly threshold graphs on n nodes.
+* [A289679](https://oeis.org/A289679) ([program](/edit/?oeis=289679)): a(n) = Catalan(n-1)\*Bell(n).
+* [A289680](https://oeis.org/A289680) ([program](/edit/?oeis=289680)): a(n) = Catalan(n+1)\*Bell(n).
 * [A289682](https://oeis.org/A289682) ([program](/edit/?oeis=289682)): Catalan numbers read modulo 16.
 * [A289683](https://oeis.org/A289683) ([program](/edit/?oeis=289683)): Mixing moments of the busy period of mean steady-state 1/2 in an M/M/1 waiting process.
 * [A289684](https://oeis.org/A289684) ([program](/edit/?oeis=289684)): Mixing moments for the waiting time in a M/G/1 waiting queue.
@@ -6770,6 +7403,7 @@ List of integer sequences with links to LODA programs.
 * [A289719](https://oeis.org/A289719) ([program](/edit/?oeis=289719)): a(n) = (n/2)\*binomial(2\*n, n) + 1.
 * [A289720](https://oeis.org/A289720) ([program](/edit/?oeis=289720)): a(n) = 1 + n\*binomial(2\*n,n) - n^2\*(n^2 - 2\*n + 3)/2.
 * [A289721](https://oeis.org/A289721) ([program](/edit/?oeis=289721)): Let a(0)=1. Then a(n) = sums of consecutive strings of positive integers of length 3\*n, starting with the integer 2.
+* [A289741](https://oeis.org/A289741) ([program](/edit/?oeis=289741)): a(n) = Kronecker symbol (-20/n).
 * [A289744](https://oeis.org/A289744) ([program](/edit/?oeis=289744)): Coefficients in expansion of q\*E'\_8 where E\_8 is the Eisenstein Series (A008410).
 * [A289745](https://oeis.org/A289745) ([program](/edit/?oeis=289745)): Coefficients in expansion of -q\*E'\_10 where E\_10 is the Eisenstein Series (A013974).
 * [A289746](https://oeis.org/A289746) ([program](/edit/?oeis=289746)): Coefficients in expansion of -q\*E'\_14 where E\_14 is the Eisenstein Series (A058550).
@@ -6815,6 +7449,7 @@ List of integer sequences with links to LODA programs.
 * [A289877](https://oeis.org/A289877) ([program](/edit/?oeis=289877)): Number of maximal cliques in the n-triangular honeycomb queen graph.
 * [A289896](https://oeis.org/A289896) ([program](/edit/?oeis=289896)): Number of (undirected) cycles in the n-triangular honeycomb rook graph.
 * [A289897](https://oeis.org/A289897) ([program](/edit/?oeis=289897)): Number of matchings in the n-triangular honeycomb rook graph.
+* [A289898](https://oeis.org/A289898) ([program](/edit/?oeis=289898)): a(n) = floor((2^prime(n+1))/Sum\_\{k=0\|n,2^prime(k)\}).
 * [A289900](https://oeis.org/A289900) ([program](/edit/?oeis=289900)): Number of maximal matchings in the n-triangular honeycomb rook graph.
 * [A289909](https://oeis.org/A289909) ([program](/edit/?oeis=289909)): Numerator of r(n), where r(n) = 1/r(n-2) + r(n-1); r(1)=r(2)=1/2.
 * [A289910](https://oeis.org/A289910) ([program](/edit/?oeis=289910)): The denominator of r(n), where r(n) = 1/r(n-2) + r(n-1); r(1)=r(2)=1/2.
@@ -6833,7 +7468,9 @@ List of integer sequences with links to LODA programs.
 * [A289976](https://oeis.org/A289976) ([program](/edit/?oeis=289976)): p-INVERT of (0,0,1,2,3,5,8,...), the Fibonacci numbers preceded by two zeros, where p(S) = 1 - S - S^2.
 * [A289999](https://oeis.org/A289999) ([program](/edit/?oeis=289999)): Sierpinski cuboctahedral numbers: a(n) = 16\*4^n - 12\*2^n + 9.
 * [A290000](https://oeis.org/A290000) ([program](/edit/?oeis=290000)): a(n) = Product\_\{k=1..n-1\} (3^k + 1).
+* [A290011](https://oeis.org/A290011) ([program](/edit/?oeis=290011)): Number of ways to connect n nodes with n+1 edges to form a 2-edge-connected graph.
 * [A290026](https://oeis.org/A290026) ([program](/edit/?oeis=290026)): Number of 3-cycles in the n-halved cube graph.
+* [A290030](https://oeis.org/A290030) ([program](/edit/?oeis=290030)): Leading coefficients of numerators of Norlund's B\_\{nu\}^(n) polynomials (Nørlund, Tafel 5, p. 459).
 * [A290031](https://oeis.org/A290031) ([program](/edit/?oeis=290031)): Number of 6-cycles in the n-hypercube graph.
 * [A290055](https://oeis.org/A290055) ([program](/edit/?oeis=290055)): Expansion of x\*(1 + 4\*x + x^2)/((1 - x)^5\*(1 + x)^4).
 * [A290056](https://oeis.org/A290056) ([program](/edit/?oeis=290056)): Number of cliques in the n-triangular graph.
@@ -6845,15 +7482,20 @@ List of integer sequences with links to LODA programs.
 * [A290073](https://oeis.org/A290073) ([program](/edit/?oeis=290073)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 641", based on the 5-celled von Neumann neighborhood.
 * [A290074](https://oeis.org/A290074) ([program](/edit/?oeis=290074)): Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 641", based on the 5-celled von Neumann neighborhood.
 * [A290075](https://oeis.org/A290075) ([program](/edit/?oeis=290075)): Number of monomials in c(n) where c(1) = x, c(2) = y, c(n+2) = c(n+1) + c(n)^2.
+* [A290077](https://oeis.org/A290077) ([program](/edit/?oeis=290077)): a(n) = A000010(A005940(1+n)).
 * [A290080](https://oeis.org/A290080) ([program](/edit/?oeis=290080)): a(1) = 0; for n > 1, a(n) = sigma(bigomega(n)).
+* [A290091](https://oeis.org/A290091) ([program](/edit/?oeis=290091)): Filter based on 1-digits of base-3 expansion: a(n) = A278222(A289813(n)).
+* [A290092](https://oeis.org/A290092) ([program](/edit/?oeis=290092)): Filter based on 2-digits of base-3 expansion: a(n) = A278222(A289814(n)).
 * [A290098](https://oeis.org/A290098) ([program](/edit/?oeis=290098)): Characteristic function for A003658 (fundamental discriminants of real quadratic fields).
 * [A290099](https://oeis.org/A290099) ([program](/edit/?oeis=290099)): Multiplicative with a(2^e) = (-1)^e and a(p^e) = prevprime(p)^e for odd primes p.
+* [A290107](https://oeis.org/A290107) ([program](/edit/?oeis=290107)): a(1) = 1; for n > 1, a(n) = product of distinct exponents in the prime factorization of n.
 * [A290111](https://oeis.org/A290111) ([program](/edit/?oeis=290111)): Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 643", based on the 5-celled von Neumann neighborhood.
 * [A290112](https://oeis.org/A290112) ([program](/edit/?oeis=290112)): Binary representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 643", based on the 5-celled von Neumann neighborhood.
 * [A290113](https://oeis.org/A290113) ([program](/edit/?oeis=290113)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 643", based on the 5-celled von Neumann neighborhood.
 * [A290114](https://oeis.org/A290114) ([program](/edit/?oeis=290114)): Decimal representation of the diagonal from the origin to the corner of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 643", based on the 5-celled von Neumann neighborhood.
 * [A290124](https://oeis.org/A290124) ([program](/edit/?oeis=290124)): a(n) = a(n-1) + 12\*a(n-2) with a(1) = 1 and a(2) = 2.
 * [A290140](https://oeis.org/A290140) ([program](/edit/?oeis=290140)): The number of maximal subsemigroups of the Jones monoid on the set [1..n].
+* [A290147](https://oeis.org/A290147) ([program](/edit/?oeis=290147)): Expansion of (1-sqrt(1-8\*x-8\*x^2))/(4\*x).
 * [A290148](https://oeis.org/A290148) ([program](/edit/?oeis=290148)): a(n) is the integer resulting from the concatenation of the unit digit of n-1 to the digits of n without its own unit digit.
 * [A290158](https://oeis.org/A290158) ([program](/edit/?oeis=290158)): a(n) = n! \* [x^n] exp(-n\*x)/(1 + LambertW(-x)).
 * [A290168](https://oeis.org/A290168) ([program](/edit/?oeis=290168)): If n is even then a(n) = n^2\*(n+2)/8, otherwise a(n) = (n-1)\*n\*(n+1)/8.
@@ -6883,7 +7525,7 @@ List of integer sequences with links to LODA programs.
 * [A290256](https://oeis.org/A290256) ([program](/edit/?oeis=290256)): a(n) is the number of parts equal to 1 in the integer partition having viabin number n.
 * [A290257](https://oeis.org/A290257) ([program](/edit/?oeis=290257)): a(n) is the size of the Durfee square of the integer partition having viabin number n.
 * [A290258](https://oeis.org/A290258) ([program](/edit/?oeis=290258)): Triangle read by rows: row n (>=2) contains in increasing order the integers for which the binary representation has length n and all runs of 1's have even length.
-* [A290259](https://oeis.org/A290259) ([program](/edit/?oeis=290259)): Triangle read by rows: row n (>=1) contains in increasing order the integers for which the binary representation has length n, the first run of 1s has odd length, and all the other runs of 1s have even length.
+* [A290259](https://oeis.org/A290259) ([program](/edit/?oeis=290259)): Triangle read by rows: row n (>=1) contains in increasing order the integers for which the binary representation has length n, the first run of 1's has odd length, and all the other runs of 1's have even length.
 * [A290260](https://oeis.org/A290260) ([program](/edit/?oeis=290260)): a(n) = number of isolated 0's in the binary representation of n.
 * [A290268](https://oeis.org/A290268) ([program](/edit/?oeis=290268)): Number of terms in the fully expanded n-th derivative of x^(x^2).
 * [A290273](https://oeis.org/A290273) ([program](/edit/?oeis=290273)): Number of minimal dominating sets in the n-pan graph.
@@ -6896,6 +7538,7 @@ List of integer sequences with links to LODA programs.
 * [A290313](https://oeis.org/A290313) ([program](/edit/?oeis=290313)): Fourth diagonal sequence of the Sheffer triangle A094816 (special Charlier).
 * [A290325](https://oeis.org/A290325) ([program](/edit/?oeis=290325)): Number of minimal dominating sets (and maximal irredundant sets) in the complete tripartite graph K\_\{n,n,n\}.
 * [A290344](https://oeis.org/A290344) ([program](/edit/?oeis=290344)): Denominators of the Kirchhoff (and Harary) index for the n-hypercube graph.
+* [A290348](https://oeis.org/A290348) ([program](/edit/?oeis=290348)): Denominators of the Harary index for the n-halved cube graph.
 * [A290360](https://oeis.org/A290360) ([program](/edit/?oeis=290360)): Number of 6-leaf rooted trees with n levels.
 * [A290380](https://oeis.org/A290380) ([program](/edit/?oeis=290380)): Analog of Motzkin sums for Coxeter type D.
 * [A290391](https://oeis.org/A290391) ([program](/edit/?oeis=290391)): Number of 5-cycles in the n-triangular honeycomb obtuse knight graph.
@@ -6908,9 +7551,13 @@ List of integer sequences with links to LODA programs.
 * [A290422](https://oeis.org/A290422) ([program](/edit/?oeis=290422)): Decimal representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by "Rule 798", based on the 5-celled von Neumann neighborhood.
 * [A290442](https://oeis.org/A290442) ([program](/edit/?oeis=290442)): a(n) = Catalan(n-1)\*Motzkin(n).
 * [A290443](https://oeis.org/A290443) ([program](/edit/?oeis=290443)): a(n) = Catalan(n)\*Motzkin(n-1).
+* [A290444](https://oeis.org/A290444) ([program](/edit/?oeis=290444)): a(n) = Bell(n)\*Motzkin(n).
+* [A290445](https://oeis.org/A290445) ([program](/edit/?oeis=290445)): a(n) = Bell(n-1)\*Motzkin(n).
+* [A290446](https://oeis.org/A290446) ([program](/edit/?oeis=290446)): a(n) = Bell(n)\*Motzkin(n-1).
 * [A290450](https://oeis.org/A290450) ([program](/edit/?oeis=290450)): Primes with property that the next prime has the same last digit.
 * [A290452](https://oeis.org/A290452) ([program](/edit/?oeis=290452)): Triangle formed by reading the triangle of Eulerian numbers (A173018) mod 2.
 * [A290466](https://oeis.org/A290466) ([program](/edit/?oeis=290466)): Unitary Zumkeller numbers: numbers k whose unitary divisors can be partitioned into two disjoint subsets whose sums are both usigma(k)/2.
+* [A290478](https://oeis.org/A290478) ([program](/edit/?oeis=290478)): Triangle read by rows in which row n lists the sum of the divisors of each divisor of n.
 * [A290479](https://oeis.org/A290479) ([program](/edit/?oeis=290479)): Product of nonprime squarefree divisors of n.
 * [A290480](https://oeis.org/A290480) ([program](/edit/?oeis=290480)): Product of proper unitary divisors of n.
 * [A290492](https://oeis.org/A290492) ([program](/edit/?oeis=290492)): Maximal number of binary vectors of length n such that the unions (or bitwise ORs) of any 3 distinct vectors are all distinct.
@@ -6963,6 +7610,7 @@ List of integer sequences with links to LODA programs.
 * [A290718](https://oeis.org/A290718) ([program](/edit/?oeis=290718)): a(n) = 2^(n + 1) + 4^(n - 1) - 2.
 * [A290720](https://oeis.org/A290720) ([program](/edit/?oeis=290720)): a(n) = 2\*3^n + 4^n + 3\*n.
 * [A290721](https://oeis.org/A290721) ([program](/edit/?oeis=290721)): a(n) = 4^n - n - 1.
+* [A290739](https://oeis.org/A290739) ([program](/edit/?oeis=290739)): a(n) = 0 unless n = 3j^2+2j or 3j^2+4j+1 for some j>=0, in which case a(n) = (-1)^(j+1).
 * [A290743](https://oeis.org/A290743) ([program](/edit/?oeis=290743)): Maximum number of distinct Lyndon factors that can appear in words of length n over an alphabet of size 2.
 * [A290744](https://oeis.org/A290744) ([program](/edit/?oeis=290744)): Maximum number of distinct Lyndon factors that can appear in words of length n over an alphabet of size 5.
 * [A290745](https://oeis.org/A290745) ([program](/edit/?oeis=290745)): Maximum number of distinct Lyndon factors that can appear in words of length n over an alphabet of size 10.
@@ -7029,6 +7677,7 @@ List of integer sequences with links to LODA programs.
 * [A290929](https://oeis.org/A290929) ([program](/edit/?oeis=290929)): p-INVERT of the positive integers, where p(S) = (1 - S)(1 - S^2).
 * [A290930](https://oeis.org/A290930) ([program](/edit/?oeis=290930)): p-INVERT of the positive integers, where p(S) = (1 - S^2)(1 - 2\*S^2).
 * [A290939](https://oeis.org/A290939) ([program](/edit/?oeis=290939)): Number of 5-cycles in the n-triangular graph.
+* [A290943](https://oeis.org/A290943) ([program](/edit/?oeis=290943)): Number of ways to write n as an ordered sum of 3 generalized pentagonal numbers (A001318).
 * [A290953](https://oeis.org/A290953) ([program](/edit/?oeis=290953)): The number of permutations in S\_n for which the number of reduced words is maximized with respect to the numbers of braid and commutation classes: \|R(w)\| = \|B(w)\| \* \|C(w)\|.
 * [A290959](https://oeis.org/A290959) ([program](/edit/?oeis=290959)): Matrix rank of the number of dots in the pairwise intersections of Ferrers diagrams.
 * [A290968](https://oeis.org/A290968) ([program](/edit/?oeis=290968)): a(n) = a(n-1) + a(n-2) - a(n-3) + a(n-4) + a(n-5), with a(0)=a(1)=a(2)=1, a(3)=-1 and a(4)=1, a linear recurrence related to Fibonacci numbers.
@@ -7063,6 +7712,7 @@ List of integer sequences with links to LODA programs.
 * [A291017](https://oeis.org/A291017) ([program](/edit/?oeis=291017)): p-INVERT of (1,1,1,1,1,...), where p(S) = 1 - 5 S + S^2.
 * [A291018](https://oeis.org/A291018) ([program](/edit/?oeis=291018)): p-INVERT of (1,1,1,1,1,...), where p(S) = 1 - 6 S + S^2.
 * [A291019](https://oeis.org/A291019) ([program](/edit/?oeis=291019)): p-INVERT of (1,1,1,1,1,...), where p(S) = 1 - S - S^2 - S^3 + S^4.
+* [A291020](https://oeis.org/A291020) ([program](/edit/?oeis=291020)): p-INVERT of (1,1,1,1,1,...), where p(S) = 1 - S - S^2 - S^3 - S^4 + S^5.
 * [A291021](https://oeis.org/A291021) ([program](/edit/?oeis=291021)): p-INVERT of (1,1,1,1,1,...), where p(S) = 1 - S - S^2 - S^3 + S^4 + S^5.
 * [A291023](https://oeis.org/A291023) ([program](/edit/?oeis=291023)): p-INVERT of (1,1,1,1,1,...), where p(S) = 1 - 3 S^2 + 2 S^3.
 * [A291024](https://oeis.org/A291024) ([program](/edit/?oeis=291024)): p-INVERT of (1,1,1,1,1,...), where p(S) = (1 - 2 S^2)^2.
@@ -7082,6 +7732,10 @@ List of integer sequences with links to LODA programs.
 * [A291050](https://oeis.org/A291050) ([program](/edit/?oeis=291050)): Decimal expansion of Pi^2 / 27.
 * [A291064](https://oeis.org/A291064) ([program](/edit/?oeis=291064)): a(n) = 2^n\*(n + 1) - 3\*(n - 1).
 * [A291066](https://oeis.org/A291066) ([program](/edit/?oeis=291066)): Number of edges in the n-Menger sponge graph.
+* [A291080](https://oeis.org/A291080) ([program](/edit/?oeis=291080)): Irregular triangle read by rows: T(n,m) = number of lattice paths of type \{A^H\}\_R terminating at point (n, m).
+* [A291081](https://oeis.org/A291081) ([program](/edit/?oeis=291081)): Irregular triangle read by rows: T(n,m) = number of lattice paths of type A^H terminating at point (n, m).
+* [A291082](https://oeis.org/A291082) ([program](/edit/?oeis=291082)): Irregular triangle read by rows: T(n,m) = number of lattice paths of type \{A^Q\}\_R terminating at point (n, m).
+* [A291083](https://oeis.org/A291083) ([program](/edit/?oeis=291083)): Irregular triangle read by rows: T(n,m) = number of lattice paths of type A^Q terminating at point (n, m).
 * [A291088](https://oeis.org/A291088) ([program](/edit/?oeis=291088)): a(n) = A026520(2n).
 * [A291089](https://oeis.org/A291089) ([program](/edit/?oeis=291089)): a(n) = A026520(2n+1).
 * [A291090](https://oeis.org/A291090) ([program](/edit/?oeis=291090)): a(n) = A214938(2n).
@@ -7116,7 +7770,9 @@ List of integer sequences with links to LODA programs.
 * [A291232](https://oeis.org/A291232) ([program](/edit/?oeis=291232)): p-INVERT of (0,1,0,1,0,1,...), where p(S) = (1 - 3 S)^2.
 * [A291233](https://oeis.org/A291233) ([program](/edit/?oeis=291233)): p-INVERT of (0,1,0,1,0,1,...), where p(S) = 1 - S - S^2 - S^3.
 * [A291236](https://oeis.org/A291236) ([program](/edit/?oeis=291236)): p-INVERT of (0,1,0,1,0,1,...), where p(S) = (1 - S)(1 - 3 S).
+* [A291239](https://oeis.org/A291239) ([program](/edit/?oeis=291239)): p-INVERT of (0,1,0,1,0,1,...), where p(S) = (1 - S^2) (1 - 2 S).
 * [A291241](https://oeis.org/A291241) ([program](/edit/?oeis=291241)): p-INVERT of (0,1,0,1,0,1,...), where p(S) = 1 - S - S^2 + S^3.
+* [A291242](https://oeis.org/A291242) ([program](/edit/?oeis=291242)): p-INVERT of (0,1,0,1,0,1,...), where p(S) = 1 - 2 S - S^2 + S^3.
 * [A291243](https://oeis.org/A291243) ([program](/edit/?oeis=291243)): p-INVERT of (0,1,0,1,0,1,...), where p(S) = 1 - 3 S + S^2.
 * [A291244](https://oeis.org/A291244) ([program](/edit/?oeis=291244)): p-INVERT of (0,1,0,1,0,1,...), where p(S) = 1 - 4 S + S^2.
 * [A291245](https://oeis.org/A291245) ([program](/edit/?oeis=291245)): p-INVERT of (0,1,0,1,0,1,...), where p(S) = 1 - 5 S + S^2.
@@ -7133,6 +7789,8 @@ List of integer sequences with links to LODA programs.
 * [A291287](https://oeis.org/A291287) ([program](/edit/?oeis=291287)): a(0)=a(1)=1, a(2)=3, thereafter a(n) = n\*a(n-1)+(n-1)\*(n-2)\*a(n-2).
 * [A291288](https://oeis.org/A291288) ([program](/edit/?oeis=291288)): a(n) = binomial(n+3, 3)\*(1 + binomial(n+2, 3)/4).
 * [A291289](https://oeis.org/A291289) ([program](/edit/?oeis=291289)): The Padovan sequence A000931 doubled.
+* [A291290](https://oeis.org/A291290) ([program](/edit/?oeis=291290)): a(n) = n/3 if n == 0 mod 3, floor((n+1)/2) if n == 1 mod 3, otherwise n-2.
+* [A291292](https://oeis.org/A291292) ([program](/edit/?oeis=291292)): Necklace Catalan numbers.
 * [A291294](https://oeis.org/A291294) ([program](/edit/?oeis=291294)): Total domination number of Fibonacci cube Gamma\_n.
 * [A291295](https://oeis.org/A291295) ([program](/edit/?oeis=291295)): Domination number of n-Fibonacci cube graph.
 * [A291296](https://oeis.org/A291296) ([program](/edit/?oeis=291296)): 2-packing number of Fibonacci cube Gamma\_n.
@@ -7178,6 +7836,7 @@ List of integer sequences with links to LODA programs.
 * [A291393](https://oeis.org/A291393) ([program](/edit/?oeis=291393)): p-INVERT of (1,1,0,0,0,0,...), where p(S) = (1 - S)(1 - 2 S).
 * [A291394](https://oeis.org/A291394) ([program](/edit/?oeis=291394)): p-INVERT of (1,1,0,0,0,0,...), where p(S) = (1 - S)(1 - 3 S).
 * [A291395](https://oeis.org/A291395) ([program](/edit/?oeis=291395)): p-INVERT of (1,1,0,0,0,0,...), where p(S) = (1 - 2 S)(1 - 3 S).
+* [A291396](https://oeis.org/A291396) ([program](/edit/?oeis=291396)): p-INVERT of (1,1,0,0,0,0,...), where p(S) = (1 - S)(1 - 2 S)(1 - 3 S).
 * [A291397](https://oeis.org/A291397) ([program](/edit/?oeis=291397)): p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - S - S^3.
 * [A291398](https://oeis.org/A291398) ([program](/edit/?oeis=291398)): p-INVERT of (1,1,0,0,0,0,...), where p(S) = 1 - S^2 - S^3.
 * [A291408](https://oeis.org/A291408) ([program](/edit/?oeis=291408)): p-INVERT of (1,1,0,0,0,0,...), where p(S) = (1 - S)(1 - S^2).
@@ -7273,7 +7932,9 @@ List of integer sequences with links to LODA programs.
 * [A291746](https://oeis.org/A291746) ([program](/edit/?oeis=291746)): Nonprimes of the form 5\*k + 1.
 * [A291747](https://oeis.org/A291747) ([program](/edit/?oeis=291747)): Nonprimes of the form 7\*k + 1.
 * [A291759](https://oeis.org/A291759) ([program](/edit/?oeis=291759)): Binary encoding of 2-digits in ternary representation of A048673(n).
+* [A291763](https://oeis.org/A291763) ([program](/edit/?oeis=291763)): Binary encoding of 2-digits in ternary representation of A245612(n).
 * [A291770](https://oeis.org/A291770) ([program](/edit/?oeis=291770)): A binary encoding of the zeros in ternary representation of n.
+* [A291771](https://oeis.org/A291771) ([program](/edit/?oeis=291771)): Filter based on runlengths of 0-digits in base-3 expansion of n: a(n) = A278222(A291770(n)).
 * [A291773](https://oeis.org/A291773) ([program](/edit/?oeis=291773)): Domination number of the n-Apollonian network.
 * [A291778](https://oeis.org/A291778) ([program](/edit/?oeis=291778)): a(n) = 2^floor(2\*n/3).
 * [A291779](https://oeis.org/A291779) ([program](/edit/?oeis=291779)): a(n) = 2^n - 2^floor(2n/3).
@@ -7281,6 +7942,7 @@ List of integer sequences with links to LODA programs.
 * [A291783](https://oeis.org/A291783) ([program](/edit/?oeis=291783)): Partial sums of A064415(k)^2.
 * [A291784](https://oeis.org/A291784) ([program](/edit/?oeis=291784)): a(n) = (psi(n) + phi(n))/2.
 * [A291822](https://oeis.org/A291822) ([program](/edit/?oeis=291822)): A diagonal of triangle A291820.
+* [A291824](https://oeis.org/A291824) ([program](/edit/?oeis=291824)): Number of ordered rooted trees with n non-root nodes and all outdegrees <= nine.
 * [A291832](https://oeis.org/A291832) ([program](/edit/?oeis=291832)): Numbers k such that k^6 is sum of two positive 7th powers.
 * [A291856](https://oeis.org/A291856) ([program](/edit/?oeis=291856)): a(0) = -1, a(1) = 1, a(n) = a(n-1) + (n-1)\*a(n-2) for n > 1.
 * [A291876](https://oeis.org/A291876) ([program](/edit/?oeis=291876)): Consider the graph with one central vertex connected to three outer vertices (a star graph). Then, a(n) is the minimum number of moves required to transfer a stack of n pegs from one outer vertex to another outer vertex, moving pegs to adjacent vertices, following the rules of the Towers of Hanoi.
@@ -7298,6 +7960,7 @@ List of integer sequences with links to LODA programs.
 * [A291962](https://oeis.org/A291962) ([program](/edit/?oeis=291962)): Decimal repunits written in base 2.
 * [A291983](https://oeis.org/A291983) ([program](/edit/?oeis=291983)): Expansion of 1/((1+x)\*(1+x^2)\*(1+x^3)).
 * [A291984](https://oeis.org/A291984) ([program](/edit/?oeis=291984)): Expansion of 1/((1+x)\*(1+x^2)\*(1+x^3)\*(1+x^4)).
+* [A291986](https://oeis.org/A291986) ([program](/edit/?oeis=291986)): Expansion of 1/((1-x)\*(1-2\*x^2)\*(1-3\*x^3)).
 * [A292000](https://oeis.org/A292000) ([program](/edit/?oeis=292000)): Number of (undirected) paths in the n-gear graph.
 * [A292001](https://oeis.org/A292001) ([program](/edit/?oeis=292001)): Number of (undirected) paths in the n-helm graph.
 * [A292018](https://oeis.org/A292018) ([program](/edit/?oeis=292018)): Wiener index for the n-Andrasfai graph.
@@ -7305,6 +7968,7 @@ List of integer sequences with links to LODA programs.
 * [A292029](https://oeis.org/A292029) ([program](/edit/?oeis=292029)): Wiener index of the n-folded cube graph.
 * [A292030](https://oeis.org/A292030) ([program](/edit/?oeis=292030)): Table read by ascending antidiagonals: T(n,k) = A000045(k+1)\*n + A000045(k).
 * [A292034](https://oeis.org/A292034) ([program](/edit/?oeis=292034)): Linear divisibility sequence based on Salem number of order 4 (case t=6, see formula).
+* [A292035](https://oeis.org/A292035) ([program](/edit/?oeis=292035)): Linear divisibility sequence based on Salem number of order 4 (case t=7, see formula).
 * [A292044](https://oeis.org/A292044) ([program](/edit/?oeis=292044)): Wiener index of the n-halved cube graph.
 * [A292045](https://oeis.org/A292045) ([program](/edit/?oeis=292045)): Wiener index of the n X n X n grid graph.
 * [A292046](https://oeis.org/A292046) ([program](/edit/?oeis=292046)): The list of distinct values of A072464.
@@ -7327,10 +7991,13 @@ List of integer sequences with links to LODA programs.
 * [A292219](https://oeis.org/A292219) ([program](/edit/?oeis=292219)): Triangle read by rows. A generalization of unsigned Lah numbers, called L[4,3].
 * [A292220](https://oeis.org/A292220) ([program](/edit/?oeis=292220)): Expansion of the exponential generating function (1/2)\*(1 + 4\*x)\*(1 - (1 + 4\*x)^(-1/2))/x.
 * [A292221](https://oeis.org/A292221) ([program](/edit/?oeis=292221)): Expansion of the exponential generating function (1/2)\*(1 + 4\*x)\*(1 - (1 + 4\*x)^(-3/2))/x.
+* [A292227](https://oeis.org/A292227) ([program](/edit/?oeis=292227)): Numerators of partial sums of the series  1 + 2\*Sum\_\{k >= 1\} 1/(4\*k^4 + 1).
 * [A292228](https://oeis.org/A292228) ([program](/edit/?oeis=292228)): Denominators of partial sums of the series 1 + 2\*Sum\_\{k >= 1\} 1/(4\*k^4 + 1).
 * [A292246](https://oeis.org/A292246) ([program](/edit/?oeis=292246)): Base-2 expansion of a(n) encodes the steps where numbers of the form 3k+2 are encountered when map x -> A253889(x) is iterated down to 1, starting from x=n.
 * [A292251](https://oeis.org/A292251) ([program](/edit/?oeis=292251)): The 3-adic valuation of A048673(n).
 * [A292252](https://oeis.org/A292252) ([program](/edit/?oeis=292252)): Number of trailing 2-digits in ternary representation of A048673(n).
+* [A292261](https://oeis.org/A292261) ([program](/edit/?oeis=292261)): The 3-adic valuation of A245612(n).
+* [A292262](https://oeis.org/A292262) ([program](/edit/?oeis=292262)): Number of trailing 2-digits in ternary representation of A245612(n).
 * [A292264](https://oeis.org/A292264) ([program](/edit/?oeis=292264)): a(n) = n - A292944(n).
 * [A292269](https://oeis.org/A292269) ([program](/edit/?oeis=292269)): If n is 1 or a prime, then a(n) = 1, otherwise a(n) = the third smallest divisor of n.
 * [A292272](https://oeis.org/A292272) ([program](/edit/?oeis=292272)): a(n) = n - A048735(n) = n - (n AND floor(n/2)).
@@ -7379,6 +8046,7 @@ List of integer sequences with links to LODA programs.
 * [A292411](https://oeis.org/A292411) ([program](/edit/?oeis=292411)): a(n) = ((prime(n) - 1)/2)^2 modulo prime(n).
 * [A292412](https://oeis.org/A292412) ([program](/edit/?oeis=292412)): Numbers of the form Fibonacci(2\*k-1) or Lucas(2\*k-1); i.e., union of sequences A001519 and A002878.
 * [A292423](https://oeis.org/A292423) ([program](/edit/?oeis=292423)): a(n) = 82\*a(n-1) + a(n-2), where a(0) = 0, a(1) = 1.
+* [A292425](https://oeis.org/A292425) ([program](/edit/?oeis=292425)): The smallest positive number of the form 3^n-2^a-2^b.
 * [A292432](https://oeis.org/A292432) ([program](/edit/?oeis=292432)): Number of normal multisets that cannot be expressed as the multiset-union of a set of sets.
 * [A292440](https://oeis.org/A292440) ([program](/edit/?oeis=292440)): Expansion of (1 - x + sqrt(1 - 2\*x - 3\*x^2))/2 in powers of x.
 * [A292443](https://oeis.org/A292443) ([program](/edit/?oeis=292443)): a(n) = (5/32)\*A000045(6\*n)^2.
@@ -7390,12 +8058,16 @@ List of integer sequences with links to LODA programs.
 * [A292479](https://oeis.org/A292479) ([program](/edit/?oeis=292479)): p-INVERT of the positive squares, where p(S) = 1 - S^2.
 * [A292480](https://oeis.org/A292480) ([program](/edit/?oeis=292480)): p-INVERT of the odd positive integers, where p(S) = 1 - S^2.
 * [A292482](https://oeis.org/A292482) ([program](/edit/?oeis=292482)): p-INVERT of the odd positive integers, where p(S) = (1 - S)^2.
+* [A292483](https://oeis.org/A292483) ([program](/edit/?oeis=292483)): p-INVERT of the odd positive integers, where p(S) = (1 - S)^3.
 * [A292484](https://oeis.org/A292484) ([program](/edit/?oeis=292484)): p-INVERT of the odd positive integers, where p(S) = 1 + S - S^2.
 * [A292485](https://oeis.org/A292485) ([program](/edit/?oeis=292485)): p-INVERT of the odd positive integers, where p(S) = 1 - S - 2 S^2.
 * [A292486](https://oeis.org/A292486) ([program](/edit/?oeis=292486)): p-INVERT of the odd positive integers, where p(S) = 1 - S - 3 S^2.
 * [A292487](https://oeis.org/A292487) ([program](/edit/?oeis=292487)): p-INVERT of the odd positive integers, where p(S) = 1 - S - 4 S^2.
 * [A292488](https://oeis.org/A292488) ([program](/edit/?oeis=292488)): p-INVERT of the odd positive integers, where p(S) = 1 - S - 5 S^2.
+* [A292489](https://oeis.org/A292489) ([program](/edit/?oeis=292489)): p-INVERT of the odd positive integers, where p(S) = 1 - S - 6 S^2.
+* [A292490](https://oeis.org/A292490) ([program](/edit/?oeis=292490)): p-INVERT of the odd positive integers, where p(S) = 1 - S - 7 S^2.
 * [A292491](https://oeis.org/A292491) ([program](/edit/?oeis=292491)): p-INVERT of the odd positive integers, where p(S) = 1 + S - 2 S^2.
+* [A292493](https://oeis.org/A292493) ([program](/edit/?oeis=292493)): p-INVERT of the odd positive integers, where p(S) = 1 + S - 3 S^2.
 * [A292499](https://oeis.org/A292499) ([program](/edit/?oeis=292499)): a(n) equals the sum of the Gaussian binomial coefficients [n,k] at q=n for n>=0.
 * [A292509](https://oeis.org/A292509) ([program](/edit/?oeis=292509)): Primes of the form n^2 + 23\*n + 23.
 * [A292510](https://oeis.org/A292510) ([program](/edit/?oeis=292510)): a(n) = smallest k >= 1 such that \{1, p(n,2), p(n,3), ..., p(n,k)\} can be partitioned into two sets with equal sums, where p(n,m) is m-th n-gonal number.
@@ -7413,9 +8085,12 @@ List of integer sequences with links to LODA programs.
 * [A292565](https://oeis.org/A292565) ([program](/edit/?oeis=292565)): Take 0, skip 3 \* 1 + 1, take 1, skip 3 \* 2 + 1, take 2, skip 3 \* 3 + 1, ...
 * [A292576](https://oeis.org/A292576) ([program](/edit/?oeis=292576)): Permutation of the natural numbers partitioned into quadruples [4k-1, 4k-3, 4k-2, 4k], k > 0.
 * [A292586](https://oeis.org/A292586) ([program](/edit/?oeis=292586)): a(n) = A002110(A001221(n)) = product of first omega(n) primes.
+* [A292589](https://oeis.org/A292589) ([program](/edit/?oeis=292589)): a(n) = A046523(A003557(n)) = A003557(A046523(n)); the least representative of the prime signature of \{n divided by largest squarefree divisor of n\}.
 * [A292598](https://oeis.org/A292598) ([program](/edit/?oeis=292598)): a(n) is the number of odd primes in the sequence [n, floor(n/2), floor(n/4), ..., 1].
 * [A292600](https://oeis.org/A292600) ([program](/edit/?oeis=292600)): a(n) = A006068(floor(n/2)); A006068 with every term duplicated, where A006068 is the inverse of binary gray code.
 * [A292601](https://oeis.org/A292601) ([program](/edit/?oeis=292601)): a(n) = n - A292600(n).
+* [A292602](https://oeis.org/A292602) ([program](/edit/?oeis=292602)): a(n) = floor(A005940(1+n)/4).
+* [A292603](https://oeis.org/A292603) ([program](/edit/?oeis=292603)): Doudna-tree reduced modulo 4: a(n) = A005940(1+n) mod 4.
 * [A292608](https://oeis.org/A292608) ([program](/edit/?oeis=292608)): a(n) = 2\*n + 1 + valuation(n, 2) with valuation(n, 2) = A007814(n).
 * [A292610](https://oeis.org/A292610) ([program](/edit/?oeis=292610)): Take 3 triangle numbers, skip 1 triangle number, take 4 triangle numbers, skip 2 triangle numbers, take 5 triangle numbers, skip 3 triangle numbers, ...
 * [A292611](https://oeis.org/A292611) ([program](/edit/?oeis=292611)): Skip 3 triangle numbers, take 1 triangle number, skip 4 triangle numbers, take 2 triangle numbers, skip 5 triangle numbers, take 3 triangle numbers, ...
@@ -7423,6 +8098,7 @@ List of integer sequences with links to LODA programs.
 * [A292616](https://oeis.org/A292616) ([program](/edit/?oeis=292616)): a(n) = 3\*a(n-2) - a(n-4) for n > 3, with a(0)=4, a(1)=3, a(2)=a(3)=6, a sequence related to bisections of Fibonacci numbers.
 * [A292621](https://oeis.org/A292621) ([program](/edit/?oeis=292621)): a(n) = a(n-1) + a(floor(log(n))) with a(1) = 1, a(2) = 2.
 * [A292629](https://oeis.org/A292629) ([program](/edit/?oeis=292629)): a(n) = n! \* [x^n] exp(n\*x)\*BesselI(1,2\*x).
+* [A292630](https://oeis.org/A292630) ([program](/edit/?oeis=292630)): Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of e.g.f. exp(k\*x)\*(BesselI(0,2\*x) + BesselI(1,2\*x)).
 * [A292631](https://oeis.org/A292631) ([program](/edit/?oeis=292631)): a(n) = n! \* [x^n] exp(n\*x)\*(BesselI(0,2\*x) + BesselI(1,2\*x)).
 * [A292632](https://oeis.org/A292632) ([program](/edit/?oeis=292632)): a(n) = n! \* [x^n] exp((n+2)\*x)\*(BesselI(0,2\*x) - BesselI(1,2\*x)).
 * [A292633](https://oeis.org/A292633) ([program](/edit/?oeis=292633)): a(n) = n! \* [x^n] -exp(n\*x)\*LambertW(-x).
@@ -7444,19 +8120,24 @@ List of integer sequences with links to LODA programs.
 * [A292653](https://oeis.org/A292653) ([program](/edit/?oeis=292653)): Rank of n\*sin(1) when all the numbers j\*cos(1) and k\*sin(1), for j>=1, k>=1, are jointly ranked.
 * [A292663](https://oeis.org/A292663) ([program](/edit/?oeis=292663)): Rank of n\*(e-1) when all the numbers j\*(e+1) and k\*e, for j>=1, k>=1, are jointly ranked.
 * [A292664](https://oeis.org/A292664) ([program](/edit/?oeis=292664)): Rank of n\*e when all the numbers j\*(e+1) and k\*e, for j>=1, k>=1, are jointly ranked.
+* [A292665](https://oeis.org/A292665) ([program](/edit/?oeis=292665)): Rank of n\*(e-1) when all the numbers j\*(e-1) and k\*(e+1), for j>=1, k>=1, are jointly ranked.
 * [A292666](https://oeis.org/A292666) ([program](/edit/?oeis=292666)): Rank of n\*(e+1) when all the numbers j\*(e-1) and k\*(e+1), for j>=1, k>=1, are jointly ranked.
 * [A292680](https://oeis.org/A292680) ([program](/edit/?oeis=292680)): Rule 6: 000, ..., 111 -> 0, 1, 1, 0, 0, 0, 0, 0.
 * [A292681](https://oeis.org/A292681) ([program](/edit/?oeis=292681)): Rule 6: (000, ..., 111) -> (0, 1, 1, 0, 0, 0, 0, 0), without extending to the right of input bit 0.
 * [A292682](https://oeis.org/A292682) ([program](/edit/?oeis=292682)): Rule 230: (000, ..., 111) -> (0, 1, 1, 0, 0, 1, 1, 1), without extending to the right of input bit 0.
+* [A292688](https://oeis.org/A292688) ([program](/edit/?oeis=292688)): Antidiagonals of the Sierpinski carpet (as binary numbers).
+* [A292689](https://oeis.org/A292689) ([program](/edit/?oeis=292689)): Decimal values of the antidiagonals of the Sierpinski carpet considered as binary numbers.
 * [A292696](https://oeis.org/A292696) ([program](/edit/?oeis=292696)): a(n) = L(n)^2 - 5\*(-1)^n = L(n+1)\*L(n-1), where L = A000032.
 * [A292706](https://oeis.org/A292706) ([program](/edit/?oeis=292706)): a(n) = 1/2\*((-1)^n\*E(2\*n-1,n) - E(2\*n-1,0)), where E(n,x) is the Euler polynomial.
 * [A292716](https://oeis.org/A292716) ([program](/edit/?oeis=292716)): a(n) = [x^n]  1/(1 - n\*x - n\*x^2/(1 - n\*x - n\*x^2/(1 - n\*x - n\*x^2/(1 - n\*x - n\*x^2/(1 - ...))))), a continued fraction.
 * [A292717](https://oeis.org/A292717) ([program](/edit/?oeis=292717)): Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f. -log(1 - x)/(1 - x)^k.
 * [A292751](https://oeis.org/A292751) ([program](/edit/?oeis=292751)): a(n) = n!\*A063019(n).
 * [A292752](https://oeis.org/A292752) ([program](/edit/?oeis=292752)): Dimensions of centralizer algebras of groups associated with Z\_4-codes.
-* [A292762](https://oeis.org/A292762) ([program](/edit/?oeis=292762)): Numbers of the form p^k or 2\*p^k, where p is a prime == 3 mod 4 and k is odd.
+* [A292758](https://oeis.org/A292758) ([program](/edit/?oeis=292758)): E.g.f.: (tan x + sec x)^3.
+* [A292763](https://oeis.org/A292763) ([program](/edit/?oeis=292763)): Numbers m such that sigma(m)+phi(m) == 2 mod 4.
 * [A292768](https://oeis.org/A292768) ([program](/edit/?oeis=292768)): Partial sums of A065387.
 * [A292769](https://oeis.org/A292769) ([program](/edit/?oeis=292769)): Partial sums of A051612.
+* [A292770](https://oeis.org/A292770) ([program](/edit/?oeis=292770)): If sigma(n)+phi(n) is even then (sigma(n)+phi(n))/2 otherwise -1.
 * [A292779](https://oeis.org/A292779) ([program](/edit/?oeis=292779)): Interpret the values of the Moebius function mu(k) for k = n to 1 as a balanced ternary number.
 * [A292782](https://oeis.org/A292782) ([program](/edit/?oeis=292782)): a(n) = E(2n,n)/2, where E(n,x) is the Euler polynomial.
 * [A292783](https://oeis.org/A292783) ([program](/edit/?oeis=292783)): Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of e.g.f. 1/sqrt(1 - 2\*k\*x).
@@ -7472,11 +8153,13 @@ List of integer sequences with links to LODA programs.
 * [A292880](https://oeis.org/A292880) ([program](/edit/?oeis=292880)): Number of sequences of balls colored with at most n colors such that exactly three balls are of a color seen earlier in the sequence.
 * [A292893](https://oeis.org/A292893) ([program](/edit/?oeis=292893)): E.g.f.: exp(x \* (1 - exp(x))).
 * [A292897](https://oeis.org/A292897) ([program](/edit/?oeis=292897)): a(n) = -Sum\_\{k=1..3\}(-1)^(n-k)\*hypergeom([k, k-n-3], [], 1).
+* [A292914](https://oeis.org/A292914) ([program](/edit/?oeis=292914)): a(n) = n! \* [x^n] exp(exp(n\*x)-1).
 * [A292916](https://oeis.org/A292916) ([program](/edit/?oeis=292916)): a(n) = n! \* [x^n] exp(n\*x)/(2 - exp(x)).
 * [A292918](https://oeis.org/A292918) ([program](/edit/?oeis=292918)): Let A\_n be a square n X n matrix with entries A\_n(i,j)=1 if i+j is prime, and A\_n(i,j)=0 otherwise. Then a(n) counts the 1's in A\_n.
 * [A292919](https://oeis.org/A292919) ([program](/edit/?oeis=292919)): Sum of n-th powers of odd divisors of n.
 * [A292926](https://oeis.org/A292926) ([program](/edit/?oeis=292926)): a(n) = prime(n)\*prime(n+1) + prime(n+2).
 * [A292930](https://oeis.org/A292930) ([program](/edit/?oeis=292930)): Triangle read by rows: T(n,k) (n>=1, 3<=k<=n+2) is the number of k-sequences of balls colored with at most n colors such that exactly three balls are the same color as some other ball in the sequence
+* [A292935](https://oeis.org/A292935) ([program](/edit/?oeis=292935)): E.g.f.: exp(exp(-x) - 1).
 * [A292936](https://oeis.org/A292936) ([program](/edit/?oeis=292936)): a(n) = the least k >= 0 such that floor(n/(2^k)) is a nonprime; a(n) is degree of the "safeness" of prime, 0 if n is not a prime, 1 for unsafe primes (A059456), and k >= 2 for primes that are (k-1)-safe but not k-safe.
 * [A292944](https://oeis.org/A292944) ([program](/edit/?oeis=292944)): a(n) = A292272(A004754(n)) - 2\*A053644(n).
 * [A292952](https://oeis.org/A292952) ([program](/edit/?oeis=292952)): E.g.f.: exp(-x \* exp(x)).
@@ -7527,7 +8210,9 @@ List of integer sequences with links to LODA programs.
 * [A293168](https://oeis.org/A293168) ([program](/edit/?oeis=293168)): Partial sums of A054868.
 * [A293169](https://oeis.org/A293169) ([program](/edit/?oeis=293169)): a(n) = Sum\_\{k=0..n\} binomial(k, 6\*(n-k)).
 * [A293170](https://oeis.org/A293170) ([program](/edit/?oeis=293170)): Number of distinct subsequences of the binary expansion of n.
+* [A293171](https://oeis.org/A293171) ([program](/edit/?oeis=293171)): Triangle read by rows: T(n,k) = number of colored weighted Motzkin paths ending at (n,k).
 * [A293172](https://oeis.org/A293172) ([program](/edit/?oeis=293172)): Triangle read by rows: T(n,k) = number of colored weighted Motzkin paths ending at (n,k).
+* [A293188](https://oeis.org/A293188) ([program](/edit/?oeis=293188)): Unitary pseudoperfect numbers: numbers that equal to the sum of a subset of their aliquot unitary divisors.
 * [A293191](https://oeis.org/A293191) ([program](/edit/?oeis=293191)): a(n) = n! \* [x^n] exp(n\*arcsin(x)).
 * [A293192](https://oeis.org/A293192) ([program](/edit/?oeis=293192)): a(n) = n! \* [x^n] exp(n\*arctan(x)).
 * [A293193](https://oeis.org/A293193) ([program](/edit/?oeis=293193)): a(n) = n! \* [x^n] exp(n\*arctanh(x)).
@@ -7587,6 +8272,7 @@ List of integer sequences with links to LODA programs.
 * [A293409](https://oeis.org/A293409) ([program](/edit/?oeis=293409)): Decimal expansion of the minimum ripple factor for a fifth-order, reflectionless, Chebyshev filter.
 * [A293410](https://oeis.org/A293410) ([program](/edit/?oeis=293410)): Least integer k such that k/n^2 > sqrt(3).
 * [A293411](https://oeis.org/A293411) ([program](/edit/?oeis=293411)): a(n) = a(n-1) + a(n-3) + a(n-4), where a(0) = 1, a(1) = 2, a(2) = 3, a(3) = 4.
+* [A293414](https://oeis.org/A293414) ([program](/edit/?oeis=293414)): The integer k that minimizes \|k/n^2 - e\|.
 * [A293431](https://oeis.org/A293431) ([program](/edit/?oeis=293431)): a(n) is the number of Jacobsthal numbers dividing n.
 * [A293432](https://oeis.org/A293432) ([program](/edit/?oeis=293432)): Sum of Jacobsthal numbers that divide n.
 * [A293433](https://oeis.org/A293433) ([program](/edit/?oeis=293433)): a(n) is the number of the proper divisors of n that are Jacobsthal numbers (A001045).
@@ -7601,7 +8287,6 @@ List of integer sequences with links to LODA programs.
 * [A293475](https://oeis.org/A293475) ([program](/edit/?oeis=293475)): a(n) = (3\*n + 4)\*Pochhammer(n, 4) / 4!.
 * [A293476](https://oeis.org/A293476) ([program](/edit/?oeis=293476)): a(n) = ((n + 1)/2)\*(n + 2)\*Pochhammer(n, 5) / 4!.
 * [A293481](https://oeis.org/A293481) ([program](/edit/?oeis=293481)): Numbers with last digit greater than or equal to 5 (in base 10).
-* [A293484](https://oeis.org/A293484) ([program](/edit/?oeis=293484)): The number of 7th powers in the multiplicative group modulo n.
 * [A293490](https://oeis.org/A293490) ([program](/edit/?oeis=293490)): a(n) = Sum\_\{k=0..n\} binomial(2\*k, k)\*binomial(2\*n-k, n).
 * [A293491](https://oeis.org/A293491) ([program](/edit/?oeis=293491)): a(n) = n! \* [x^n] exp((n+2)\*x)\*BesselI(0,2\*x).
 * [A293497](https://oeis.org/A293497) ([program](/edit/?oeis=293497)): Triangular array read by rows: row n >= 1 is the list of integers from 0 to 2n-1.
@@ -7612,6 +8297,7 @@ List of integer sequences with links to LODA programs.
 * [A293505](https://oeis.org/A293505) ([program](/edit/?oeis=293505)): a(n) is the integer k that minimizes \|k/Fibonacci(n) - 1/2\|.
 * [A293506](https://oeis.org/A293506) ([program](/edit/?oeis=293506)): Decimal expansion of real root of x^5 - x^4 - x^2 - 1.
 * [A293508](https://oeis.org/A293508) ([program](/edit/?oeis=293508)): Decimal expansion of the positive real root of x^6 - x^5 - x^4 + x^2 - 1.
+* [A293509](https://oeis.org/A293509) ([program](/edit/?oeis=293509)): Decimal expansion of real root of x^5 - x^3 - x^2 - x - 1.
 * [A293513](https://oeis.org/A293513) ([program](/edit/?oeis=293513)): Number of proper divisors of form 4k+3.
 * [A293516](https://oeis.org/A293516) ([program](/edit/?oeis=293516)): a(n) = phi(n) - 2\*phi(phi(n)), where phi = Euler totient function, A000010.
 * [A293532](https://oeis.org/A293532) ([program](/edit/?oeis=293532)): E.g.f.: exp(x/(x^2 - 1)).
@@ -7623,6 +8309,8 @@ List of integer sequences with links to LODA programs.
 * [A293550](https://oeis.org/A293550) ([program](/edit/?oeis=293550)): a(n) = Sum\_\{k=0..n\} k^3\*binomial(2\*n-k,n).
 * [A293552](https://oeis.org/A293552) ([program](/edit/?oeis=293552)): a(n) is the least integer k such that k/Fibonacci(n) > 1/4.
 * [A293553](https://oeis.org/A293553) ([program](/edit/?oeis=293553)): a(n) is the integer k that minimizes \|k/Fibonacci(n) - 1/4\|.
+* [A293557](https://oeis.org/A293557) ([program](/edit/?oeis=293557)): Decimal expansion of real root of x^7 - x^6 - x^5 + x^2 - 1.
+* [A293560](https://oeis.org/A293560) ([program](/edit/?oeis=293560)): Decimal expansion of real root of 1 - x - x^3 - x^5.
 * [A293561](https://oeis.org/A293561) ([program](/edit/?oeis=293561)): Column 3 of A142249.
 * [A293574](https://oeis.org/A293574) ([program](/edit/?oeis=293574)): a(n) = Sum\_\{k=0..n\} n^(n-k)\*binomial(n+k-1,k).
 * [A293575](https://oeis.org/A293575) ([program](/edit/?oeis=293575)): Difference between the number of proper divisors of n and the number of squares dividing n.
@@ -7665,11 +8353,15 @@ List of integer sequences with links to LODA programs.
 * [A293761](https://oeis.org/A293761) ([program](/edit/?oeis=293761)): Numbers k such that (d(k), d(k+1)) = (0,0) in the base-2 digits d(i) of sqrt(2).
 * [A293762](https://oeis.org/A293762) ([program](/edit/?oeis=293762)): Numbers k such that (d(k), d(k+1)) = (0,1) in the base-2 digits d(i) of sqrt(2).
 * [A293763](https://oeis.org/A293763) ([program](/edit/?oeis=293763)): Numbers k such that (d(k), d(k+1)) = (1,0) in the base-2 digits d(i) of sqrt(2).
+* [A293764](https://oeis.org/A293764) ([program](/edit/?oeis=293764)): Numbers k such that (d(k), d(k+1)) = (1,1) in the base-2 digits d(i) of sqrt(2).
 * [A293793](https://oeis.org/A293793) ([program](/edit/?oeis=293793)): Numbers k such that (d(k), d(k+1)) = (0,1) in the base-2 digits d(i) of e.
 * [A293794](https://oeis.org/A293794) ([program](/edit/?oeis=293794)): Numbers k such that (d(k), d(k+1)) = (1,0) in the base-2 digits d(i) of e.
 * [A293795](https://oeis.org/A293795) ([program](/edit/?oeis=293795)): Numbers k such that (d(k), d(k+1)) = (1,1) in the base-2 digits d(i) of e.
 * [A293810](https://oeis.org/A293810) ([program](/edit/?oeis=293810)): The truncated kernel function of n: the product of distinct primes dividing n, but excluding the largest prime divisor of n.
 * [A293821](https://oeis.org/A293821) ([program](/edit/?oeis=293821)): Number of integer-sided quadrilaterals having perimeter n, modulo rotations but not reflections.
+* [A293828](https://oeis.org/A293828) ([program](/edit/?oeis=293828)): Numbers k such that (d(k), d(k+1)) = (0,0) in the base-2 digits d(i) of Pi.
+* [A293829](https://oeis.org/A293829) ([program](/edit/?oeis=293829)): Numbers k such that (d(k), d(k+1)) = (0,1) in the base-2 digits d(i) of Pi.
+* [A293830](https://oeis.org/A293830) ([program](/edit/?oeis=293830)): Numbers k such that (d(k), d(k+1)) = (1,0) in the base-2 digits d(i) of Pi.
 * [A293838](https://oeis.org/A293838) ([program](/edit/?oeis=293838)): "Look once to the left" sequence starting with 1,2 (see comment).
 * [A293895](https://oeis.org/A293895) ([program](/edit/?oeis=293895)): Number of proper divisors of the form 3k+1.
 * [A293896](https://oeis.org/A293896) ([program](/edit/?oeis=293896)): Number of proper divisors of the form 3k+2.
@@ -7684,6 +8376,7 @@ List of integer sequences with links to LODA programs.
 * [A293956](https://oeis.org/A293956) ([program](/edit/?oeis=293956)): Maximum over all sets of n points in the plane of the number of second-smallest distances between the points.
 * [A293958](https://oeis.org/A293958) ([program](/edit/?oeis=293958)): Smallest odd prime divisor of (2n+1)^2 + 1.
 * [A293962](https://oeis.org/A293962) ([program](/edit/?oeis=293962)): Number of linear chord diagrams having n chords and maximal chord length n, a(0)=1.
+* [A293974](https://oeis.org/A293974) ([program](/edit/?oeis=293974)): Row sums of antidiagonals of the Sierpinski carpet A153490.
 * [A293975](https://oeis.org/A293975) ([program](/edit/?oeis=293975)): If n is even, divide by 2; otherwise, add the next larger prime.
 * [A293985](https://oeis.org/A293985) ([program](/edit/?oeis=293985)): Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f.: exp(x/(1-x))/(1-x)^k.
 * [A293990](https://oeis.org/A293990) ([program](/edit/?oeis=293990)): a(n) = (3\*n + ((n-2) mod 4))/2.
@@ -7734,6 +8427,7 @@ List of integer sequences with links to LODA programs.
 * [A294187](https://oeis.org/A294187) ([program](/edit/?oeis=294187)): Numbers k == 77 (mod 120) such that (2\*k-1)\*2^((k-1)/2), (2\*k-1)\*3^((k-1)/2) and (2\*k-1)\*5^((k-1)/2) are congruent to 1 (mod k).
 * [A294189](https://oeis.org/A294189) ([program](/edit/?oeis=294189)): E.g.f.: exp(2\*(1/(1-x)^2 - 1)).
 * [A294193](https://oeis.org/A294193) ([program](/edit/?oeis=294193)): a(n) = sum of integers between n!+1 and (n+1)!.
+* [A294198](https://oeis.org/A294198) ([program](/edit/?oeis=294198)): Labeled trees on n nodes with at least one node of degree two.
 * [A294234](https://oeis.org/A294234) ([program](/edit/?oeis=294234)): Number of partitions of n into two parts such that the smaller part is nonsquarefree.
 * [A294235](https://oeis.org/A294235) ([program](/edit/?oeis=294235)): Number of partitions of n into two parts such that the larger part is nonsquarefree.
 * [A294236](https://oeis.org/A294236) ([program](/edit/?oeis=294236)): Sum of the smaller parts of the partitions of n into two parts with larger part nonsquarefree.
@@ -7777,18 +8471,23 @@ List of integer sequences with links to LODA programs.
 * [A294352](https://oeis.org/A294352) ([program](/edit/?oeis=294352)): Product of first n terms of the binomial transform of the factorial.
 * [A294353](https://oeis.org/A294353) ([program](/edit/?oeis=294353)): Product of first n terms of the binomial transform of n^n (A086331).
 * [A294364](https://oeis.org/A294364) ([program](/edit/?oeis=294364)): Linear recurrence with signature (1,1,-1,1,1), where the first terms are powers of 2 (1,2,4,8,16).
+* [A294373](https://oeis.org/A294373) ([program](/edit/?oeis=294373)): Product of first n Bell numbers.
 * [A294389](https://oeis.org/A294389) ([program](/edit/?oeis=294389)): a(n) = 2^(n-3) mod n, for n >= 3.
 * [A294390](https://oeis.org/A294390) ([program](/edit/?oeis=294390)): a(n) = 2^(n-4) mod n, for n >= 4.
 * [A294397](https://oeis.org/A294397) ([program](/edit/?oeis=294397)): Solution of the complementary equation a(n) = a(n-1) + b(n-2) + 1, where a(0) = 1, a(1) = 3, b(0) = 2, b(1) = 4.
 * [A294398](https://oeis.org/A294398) ([program](/edit/?oeis=294398)): Solution of the complementary equation a(n) = a(n-1) + b(n-2) + 2, where a(0) = 1, a(1) = 3, b(0) = 2, b(1) = 4.
+* [A294405](https://oeis.org/A294405) ([program](/edit/?oeis=294405)): Number of connected weakly regular graphs on n nodes.
 * [A294406](https://oeis.org/A294406) ([program](/edit/?oeis=294406)): Positive odd numbers k such that both (sigma(m) - 2\*m) and (2\*m - sigma(m)) are never equal to k, where sigma(.) is the sum of divisors function A000203 (conjectured).
 * [A294409](https://oeis.org/A294409) ([program](/edit/?oeis=294409)): a(n) = n! \* [x^n] exp(n\*x)\*BesselI(0,2\*n\*x).
+* [A294431](https://oeis.org/A294431) ([program](/edit/?oeis=294431)): Rank of the inverse semigroup D\_n of all difunctional relations on an n-element set.
 * [A294433](https://oeis.org/A294433) ([program](/edit/?oeis=294433)): Expansion of (1+11\*x+24\*x^2+11\*x^3+x^4)/(1-x)^5.
 * [A294434](https://oeis.org/A294434) ([program](/edit/?oeis=294434)): a(0)=0; for n>0, a(n) = (A163778(n)-1)/2.
 * [A294435](https://oeis.org/A294435) ([program](/edit/?oeis=294435)): a(n) = Sum\_\{m=0..n\} (Sum\_\{k=0..m\} binomial(n,k))^4.
 * [A294436](https://oeis.org/A294436) ([program](/edit/?oeis=294436)): a(n) = Sum\_\{m=0..n\} (Sum\_\{k=0..m\} binomial(n,k))^5.
 * [A294442](https://oeis.org/A294442) ([program](/edit/?oeis=294442)): Kepler's tree of fractions, read across rows (the fraction i/j is represented as the pair i,j).
+* [A294445](https://oeis.org/A294445) ([program](/edit/?oeis=294445)): a(n) = (2\*n + 4)!\*(n^2 + 11\*n + 2)/(2\*(n-1)!\*(n+6)!).
 * [A294448](https://oeis.org/A294448) ([program](/edit/?oeis=294448)): Discrepancy of the Kolakoski sequence A000002.
+* [A294453](https://oeis.org/A294453) ([program](/edit/?oeis=294453)): Array read by antidiagonals: T(0,k) = A000045(k+1) for k >= 0. T(n,0) = 1 for n >= 0; thereafter T(n,k) = T(n-1,k-1)+T(n-1,k) for n, k >= 1.
 * [A294456](https://oeis.org/A294456) ([program](/edit/?oeis=294456)): a(1)=0, a(2)=1; thereafter a(n) = a(floor(n/2)) + a(ceiling(n/2)) + 2.
 * [A294473](https://oeis.org/A294473) ([program](/edit/?oeis=294473)): Sum of the areas of the squares on the sides of the distinct rectangles that can be made with positive integer sides such that L + W = n, W < L.
 * [A294486](https://oeis.org/A294486) ([program](/edit/?oeis=294486)): a(n) = binomial(2n,n) \* (2n+1)^2.
@@ -7819,10 +8518,12 @@ List of integer sequences with links to LODA programs.
 * [A294629](https://oeis.org/A294629) ([program](/edit/?oeis=294629)): Partial sums of A294628.
 * [A294630](https://oeis.org/A294630) ([program](/edit/?oeis=294630)): Partial sums of A294629.
 * [A294640](https://oeis.org/A294640) ([program](/edit/?oeis=294640)): G.f. A(x) = Sum\_\{n>=0\} x^n/a(n) satisfies: A(x) = A(x^2) + Integral A(x^2) dx.
+* [A294642](https://oeis.org/A294642) ([program](/edit/?oeis=294642)): a(n) = n! \* [x^n] exp(n\*x)\*BesselI(1,2\*sqrt(2)\*x)/(sqrt(2)\*x).
 * [A294643](https://oeis.org/A294643) ([program](/edit/?oeis=294643)): Length (= size) of the orbit of n under the "3x+1" map A006370: x -> x/2 if even, 3x+1 if odd. a(n) = -1 in case the orbit would be infinite.
 * [A294644](https://oeis.org/A294644) ([program](/edit/?oeis=294644)): Decimal expansion of the real positive solution to x^3 = x + 3.
 * [A294645](https://oeis.org/A294645) ([program](/edit/?oeis=294645)): a(n) = Sum\_\{d\|n\} d^(n+1).
 * [A294646](https://oeis.org/A294646) ([program](/edit/?oeis=294646)): a(n) = (1/2)^(2\*n) mod (2\*n+1).
+* [A294647](https://oeis.org/A294647) ([program](/edit/?oeis=294647)): Differential variant of the Kolakoski sequence, with initial terms 1, 1.
 * [A294649](https://oeis.org/A294649) ([program](/edit/?oeis=294649)): a(n) = numerator(A206369(n))/n.
 * [A294650](https://oeis.org/A294650) ([program](/edit/?oeis=294650)): a(n) = denominator(A206369(n))/n.
 * [A294665](https://oeis.org/A294665) ([program](/edit/?oeis=294665)): Numbers n such that the largest digit of n^3 is 5.
@@ -7839,6 +8540,7 @@ List of integer sequences with links to LODA programs.
 * [A294764](https://oeis.org/A294764) ([program](/edit/?oeis=294764)): Number of permutations of [n] avoiding \{2143, 3142, 1234\}.
 * [A294767](https://oeis.org/A294767) ([program](/edit/?oeis=294767)): Number of permutations of [n] avoiding \{4213, 1432, 1324\}.
 * [A294769](https://oeis.org/A294769) ([program](/edit/?oeis=294769)): Number of permutations of [n] avoiding \{2143, 1423, 1234\}.
+* [A294772](https://oeis.org/A294772) ([program](/edit/?oeis=294772)): Number of permutations of [n] avoiding \{4132, 4123, 1243\}.
 * [A294773](https://oeis.org/A294773) ([program](/edit/?oeis=294773)): a(n) = Sum\_\{d\|n\} d^(d+n+1).
 * [A294774](https://oeis.org/A294774) ([program](/edit/?oeis=294774)): a(n) = 2\*n^2 + 2\*n + 5.
 * [A294790](https://oeis.org/A294790) ([program](/edit/?oeis=294790)): Subtract n from partial sums of partial sums of Catalan numbers.
@@ -7851,6 +8553,7 @@ List of integer sequences with links to LODA programs.
 * [A294810](https://oeis.org/A294810) ([program](/edit/?oeis=294810)): a(n) = Sum\_\{d\|n\} d^(n+2).
 * [A294814](https://oeis.org/A294814) ([program](/edit/?oeis=294814)): Number of permutations of [n] avoiding \{1324, 1342, 3412\}.
 * [A294817](https://oeis.org/A294817) ([program](/edit/?oeis=294817)): Number of permutations of [n] avoiding \{1324, 2431, 3241\}.
+* [A294818](https://oeis.org/A294818) ([program](/edit/?oeis=294818)): Number of permutations of [n] avoiding \{1324, 2314, 2431\}.
 * [A294824](https://oeis.org/A294824) ([program](/edit/?oeis=294824)): Number of permutations of [n] avoiding \{1324, 2413, 2431\}.
 * [A294826](https://oeis.org/A294826) ([program](/edit/?oeis=294826)): Numerators of the partial sums of the reciprocals of twice the heptagonal numbers (k + 1)\*(5\*k + 2) = A135706(k+1) = 2\*A000566(k+1), for k >= 0.
 * [A294827](https://oeis.org/A294827) ([program](/edit/?oeis=294827)): Denominators of the partial sums of the reciprocals of twice the heptagonal numbers (k + 1)\*(5\*k + 2) = A135706(k+1) = 2\*A000566(k+1), for k >= 0.
@@ -7880,6 +8583,7 @@ List of integer sequences with links to LODA programs.
 * [A294971](https://oeis.org/A294971) ([program](/edit/?oeis=294971)): Denominators of the partial sums for the Catalan constant A006752: Sum\_\{k=0..n\} ((-1)^k)/(2\*k+1)^2, n >= 0.
 * [A294972](https://oeis.org/A294972) ([program](/edit/?oeis=294972)): Numerators of continued fraction convergents to sqrt(7)/2.
 * [A294973](https://oeis.org/A294973) ([program](/edit/?oeis=294973)): Denominators of the continued fraction convergents to sqrt(7)/2.
+* [A294980](https://oeis.org/A294980) ([program](/edit/?oeis=294980)): a(n) is the total number of elements after n-th stage in a hybrid cellular automaton formed by Y-toothpicks and V-toothpicks (see Comments lines for precise definition).
 * [A294991](https://oeis.org/A294991) ([program](/edit/?oeis=294991)): Let S be the sequence of integer sets defined by the following rules: S(0) = \{0\}, S(1) = \{1\} and for any k > 0, S(2\*k) = \{2\*k\} U S(k) and S(2\*k+1) = \{2\*k+1\} U S(k) U S(k+1) (where X U Y denotes the union of the sets X and Y); a(n) = the number of elements of S(n).
 * [A294993](https://oeis.org/A294993) ([program](/edit/?oeis=294993)): Numbers n > 1 such that all of 2^(n-1), 3^(n-1), 5^(n-1), (2\*n-1)\*(2^((n-1)/2)), 4\*ceiling((3/4)\*n)-2, and (2^((n+1)/2) + floor(n/4)\*2^((n+3)/2)) are congruent to 1 (mod n).
 * [A294996](https://oeis.org/A294996) ([program](/edit/?oeis=294996)): Numbers n such that the largest digit of n^3 is 6.
@@ -7901,6 +8605,7 @@ List of integer sequences with links to LODA programs.
 * [A295022](https://oeis.org/A295022) ([program](/edit/?oeis=295022)): Cubes whose largest digit is 7.
 * [A295023](https://oeis.org/A295023) ([program](/edit/?oeis=295023)): Cubes whose largest digit is 8.
 * [A295024](https://oeis.org/A295024) ([program](/edit/?oeis=295024)): Cubes whose largest digit is 9.
+* [A295025](https://oeis.org/A295025) ([program](/edit/?oeis=295025)): Cubes whose largest digit is 5.
 * [A295041](https://oeis.org/A295041) ([program](/edit/?oeis=295041)): The Grundy number of restricted Nim with a pass move.
 * [A295045](https://oeis.org/A295045) ([program](/edit/?oeis=295045)): Number of n X 2 0..1 arrays with each 1 horizontally or vertically adjacent to 0 or 2 1s.
 * [A295076](https://oeis.org/A295076) ([program](/edit/?oeis=295076)): Numbers n > 1 such that n and sigma(n) have the same smallest prime factor.
@@ -7926,6 +8631,7 @@ List of integer sequences with links to LODA programs.
 * [A295183](https://oeis.org/A295183) ([program](/edit/?oeis=295183)): a(n) = n! \* [x^n] exp(n\*x)/(1 - x)^n.
 * [A295200](https://oeis.org/A295200) ([program](/edit/?oeis=295200)): Number of nX3 0..1 arrays with each 1 horizontally or vertically adjacent to 2 or 4 1s.
 * [A295220](https://oeis.org/A295220) ([program](/edit/?oeis=295220)): a(n) = Sum\_\{i=1..floor(n/2)\} floor((n+i)/i) - floor((n-i-1)/i).
+* [A295232](https://oeis.org/A295232) ([program](/edit/?oeis=295232)): Denominator of (-1)^(n+1) \* (2\*n)! \* (2^(2\*n)+1)/(B\_\{2\*n\} \* 2^(4\*n-1)), where B\_\{n\} is the Bernoulli number.
 * [A295240](https://oeis.org/A295240) ([program](/edit/?oeis=295240)): Expansion of e.g.f. 1/(1 - x\*exp(x)/(1 - 2\*x\*exp(x)/(1 - 3\*x\*exp(x)/(1 - 4\*x\*exp(x)/(1 - ...))))), a continued fraction.
 * [A295243](https://oeis.org/A295243) ([program](/edit/?oeis=295243)): Sums of two numbers that are both consecutive and squarefree.
 * [A295247](https://oeis.org/A295247) ([program](/edit/?oeis=295247)): Number of n X 2 0..1 arrays with each 1 horizontally or vertically adjacent to 0, 1 or 3 1s.
@@ -8004,12 +8710,14 @@ List of integer sequences with links to LODA programs.
 * [A295622](https://oeis.org/A295622) ([program](/edit/?oeis=295622)): Number of nonequivalent dissections of an n-gon into 3 polygons by nonintersecting diagonals rooted at a cell up to rotation.
 * [A295623](https://oeis.org/A295623) ([program](/edit/?oeis=295623)): a(n) = n! \* [x^n] exp(n\*x\*exp(x)).
 * [A295632](https://oeis.org/A295632) ([program](/edit/?oeis=295632)): Write 1/Product\_\{n > 1\}(1 - 1/n^s) in the form Product\_\{n > 1\}(1 + a(n)/n^s).
-* [A295643](https://oeis.org/A295643) ([program](/edit/?oeis=295643)): Squares repeated 4 times; a(n) = (floor(n/4))^2.
+* [A295643](https://oeis.org/A295643) ([program](/edit/?oeis=295643)): Squares repeated 4 times; a(n) = floor(n/4)^2.
 * [A295655](https://oeis.org/A295655) ([program](/edit/?oeis=295655)): a(n) = A000203(n) / A294896(n) = A000203(n) / gcd(A000203(n), A005187(n)).
 * [A295656](https://oeis.org/A295656) ([program](/edit/?oeis=295656)): a(n) = A005187(n) / A294896(n) = A005187(n) / gcd(A000203(n), A005187(n)).
 * [A295657](https://oeis.org/A295657) ([program](/edit/?oeis=295657)): Multiplicative with a(p^e) = p^floor((e-1)/2).
 * [A295659](https://oeis.org/A295659) ([program](/edit/?oeis=295659)): Number of exponents larger than 2 in the prime factorization of n.
 * [A295660](https://oeis.org/A295660) ([program](/edit/?oeis=295660)): Binary weight of Euler phi: a(n) = A000120(A000010(n)).
+* [A295661](https://oeis.org/A295661) ([program](/edit/?oeis=295661)): Numbers with at least one odd exponent larger than one in their prime factorization.
+* [A295662](https://oeis.org/A295662) ([program](/edit/?oeis=295662)): Number of odd exponents larger than one in the canonical prime factorization of n.
 * [A295664](https://oeis.org/A295664) ([program](/edit/?oeis=295664)): Exponent of the highest power of 2 dividing number of divisors of n: a(n) = A007814(A000005(n)); 2-adic valuation of tau(n).
 * [A295671](https://oeis.org/A295671) ([program](/edit/?oeis=295671)): a(n) = a(n-1) + a(n-3) + a(n-4), where a(0) = 1, a(1) = 1, a(2) = 1, a(3) = -1.
 * [A295672](https://oeis.org/A295672) ([program](/edit/?oeis=295672)): a(n) = a(n-1) + a(n-3) + a(n-4), where a(0) = 1, a(1) = 1, a(2) = 1, a(3) = -2.
@@ -8081,9 +8789,14 @@ List of integer sequences with links to LODA programs.
 * [A295869](https://oeis.org/A295869) ([program](/edit/?oeis=295869)): Numbers not divisible by 2, 3 or 5 (A007775) with digital root 8.
 * [A295871](https://oeis.org/A295871) ([program](/edit/?oeis=295871)): a(n) = numerator(hypergeom([-n, 1/2], [1], 1)\*hypergeom([-floor(n/2), (-1)^n/2], [1], 1)).
 * [A295873](https://oeis.org/A295873) ([program](/edit/?oeis=295873)): Number of permutations of length n which avoid the patterns 1342, 2413, 3124 and 3142.
+* [A295875](https://oeis.org/A295875) ([program](/edit/?oeis=295875)): Let p = A295895(n) = parity of the binary weight of A005940(1+n). If A005940(1+n) is a square or twice a square (in A028982) then a(n) = 1 - p, otherwise a(n) = p.
+* [A295878](https://oeis.org/A295878) ([program](/edit/?oeis=295878)): Multiplicative with a(p^(2e)) = 1, a(p^(2e-1)) = prime(e).
+* [A295879](https://oeis.org/A295879) ([program](/edit/?oeis=295879)): Multiplicative with a(p) = 1, a(p^e) = prime(e-1) if e > 1.
 * [A295883](https://oeis.org/A295883) ([program](/edit/?oeis=295883)): Number of exponents that are 3 in the prime factorization of n.
 * [A295889](https://oeis.org/A295889) ([program](/edit/?oeis=295889)): a(n) = 1 if binary weights of n and 3n have the same parity, 0 otherwise.
 * [A295890](https://oeis.org/A295890) ([program](/edit/?oeis=295890)): a(n) = 1 if binary weights of n and 3n have different parity, 0 otherwise; a(n) = A010060(n) XOR A010060(3n).
+* [A295894](https://oeis.org/A295894) ([program](/edit/?oeis=295894)): Binary weight of the contents of node n in Doudna-tree (A005940).
+* [A295895](https://oeis.org/A295895) ([program](/edit/?oeis=295895)): Parity of the binary weight of the contents of node n in Doudna-tree (A005940).
 * [A295896](https://oeis.org/A295896) ([program](/edit/?oeis=295896)): a(n) = 1 if there are no odd runs of 1's in the binary expansion of n followed by a 0 to their right, 0 otherwise.
 * [A295897](https://oeis.org/A295897) ([program](/edit/?oeis=295897)): Numbers in whose binary expansion there are no 1-runs of odd length followed by a 0 to their right.
 * [A295904](https://oeis.org/A295904) ([program](/edit/?oeis=295904)): Number of (not necessarily maximum) cliques in the n-sun graph.
@@ -8097,6 +8810,7 @@ List of integer sequences with links to LODA programs.
 * [A295932](https://oeis.org/A295932) ([program](/edit/?oeis=295932)): Number of (not necessarily maximum) cliques in the n-Sierpinski carpet graph.
 * [A295933](https://oeis.org/A295933) ([program](/edit/?oeis=295933)): Number of (not necessarily maximum) cliques in the n-Sierpinski sieve graph.
 * [A295934](https://oeis.org/A295934) ([program](/edit/?oeis=295934)): Number of (not necessarily maximum) cliques in the n-odd graph.
+* [A295986](https://oeis.org/A295986) ([program](/edit/?oeis=295986)): Number of maximal cliques in the n-halved cube graph.
 * [A295989](https://oeis.org/A295989) ([program](/edit/?oeis=295989)): Irregular triangle T(n, k), read by rows, n >= 0 and 0 <= k < A001316(n): T(n, k) is the (k+1)-th nonnegative number m such that n AND m = m (where AND denotes the bitwise AND operator).
 * [A296020](https://oeis.org/A296020) ([program](/edit/?oeis=296020)): Number of primes of the form 4\*k+3 <= 4\*n+3.
 * [A296021](https://oeis.org/A296021) ([program](/edit/?oeis=296021)): Number of primes of the form 4\*k+1 <= 4\*n+1.
@@ -8111,12 +8825,15 @@ List of integer sequences with links to LODA programs.
 * [A296069](https://oeis.org/A296069) ([program](/edit/?oeis=296069)): a(1)=0; thereafter a(n) is the smallest number (in absolute value) not yet in the sequence such that the arithmetic mean of the first n terms a(1), a(2), ..., a(n) is a nonzero integer. Preference is given to positive values of a(n).
 * [A296070](https://oeis.org/A296070) ([program](/edit/?oeis=296070)): Partial sums of A296069.
 * [A296073](https://oeis.org/A296073) ([program](/edit/?oeis=296073)): Filter combining A296071(n) and A296072(n), related to the deficiencies of proper divisors of n.
+* [A296074](https://oeis.org/A296074) ([program](/edit/?oeis=296074)): Sum of deficiencies of the proper divisors of n.
 * [A296075](https://oeis.org/A296075) ([program](/edit/?oeis=296075)): Sum of deficiencies of divisors of n.
 * [A296079](https://oeis.org/A296079) ([program](/edit/?oeis=296079)): a(n) = 1 if 1+phi(n) is prime, 0 otherwise, where phi = A000010, Euler totient function.
 * [A296081](https://oeis.org/A296081) ([program](/edit/?oeis=296081)): a(n) = gcd(tau(n)-1, sigma(n)-1), where tau = A000005 and sigma = A000203.
 * [A296082](https://oeis.org/A296082) ([program](/edit/?oeis=296082)): a(1) = 0; for n > 1, a(n) = A032741(n) / gcd(A039653(n),A032741(n)).
 * [A296083](https://oeis.org/A296083) ([program](/edit/?oeis=296083)): a(1) = 0; for n > 1, a(n) = A039653(n) / gcd(A039653(n),A032741(n)).
 * [A296084](https://oeis.org/A296084) ([program](/edit/?oeis=296084)): a(1) = 0 and for n > 1, a(n) = 1 if tau(n)-1 divides sigma(n)-1, 0 otherwise. Here tau = A000005, sigma = A000203.
+* [A296091](https://oeis.org/A296091) ([program](/edit/?oeis=296091)): a(1) = 1 and for n > 1, the least number with the same prime signature as sigma(n)-1.
+* [A296092](https://oeis.org/A296092) ([program](/edit/?oeis=296092)): Least number with the same prime signature as sigma(n)+1.
 * [A296135](https://oeis.org/A296135) ([program](/edit/?oeis=296135)): \{0->01\}-transform of the Fibonacci word A003849.
 * [A296141](https://oeis.org/A296141) ([program](/edit/?oeis=296141)): Sum of the smaller parts of the partitions of n into two distinct parts with the larger part even.
 * [A296159](https://oeis.org/A296159) ([program](/edit/?oeis=296159)): Sum of the smaller parts in the partitions of n into two distinct parts with the larger part odd.
@@ -8157,6 +8874,7 @@ List of integer sequences with links to LODA programs.
 * [A296397](https://oeis.org/A296397) ([program](/edit/?oeis=296397)): a(n) = a(n-1) \* a(n-2) + a(n-3) \* Product\_\{k=0..n-4\} a(k)^2, with a(0) = a(1) = 1, a(2) = 2.
 * [A296420](https://oeis.org/A296420) ([program](/edit/?oeis=296420)): Period of last digit of multiples of n.
 * [A296442](https://oeis.org/A296442) ([program](/edit/?oeis=296442)): Initial digit of n-th Mersenne number.
+* [A296507](https://oeis.org/A296507) ([program](/edit/?oeis=296507)): Numbers m such that m^2 - 13 is a prime.
 * [A296509](https://oeis.org/A296509) ([program](/edit/?oeis=296509)): Duplicate of A238005.
 * [A296515](https://oeis.org/A296515) ([program](/edit/?oeis=296515)): Number of edges in a maximal planar graph with n vertices.
 * [A296519](https://oeis.org/A296519) ([program](/edit/?oeis=296519)): Denominator of n\*Sum\_\{k=1..n\} 1/(n+k).
@@ -8176,7 +8894,6 @@ List of integer sequences with links to LODA programs.
 * [A296719](https://oeis.org/A296719) ([program](/edit/?oeis=296719)): Number of n X 2 0..1 arrays with each 1 adjacent to 0, 2 or 4 king-move neighboring 1s.
 * [A296726](https://oeis.org/A296726) ([program](/edit/?oeis=296726)): Expansion of e.g.f. arcsin(x)/(1 - x).
 * [A296727](https://oeis.org/A296727) ([program](/edit/?oeis=296727)): Expansion of e.g.f. arcsinh(x)/(1 - x).
-* [A296764](https://oeis.org/A296764) ([program](/edit/?oeis=296764)): Numbers n whose base-20 digits d(m), d(m-1), ..., d(0) have #(rises) < #(falls); see Comments.
 * [A296769](https://oeis.org/A296769) ([program](/edit/?oeis=296769)): Row sums of A296662.
 * [A296770](https://oeis.org/A296770) ([program](/edit/?oeis=296770)): Row sums of A050158.
 * [A296771](https://oeis.org/A296771) ([program](/edit/?oeis=296771)): Row sums of A050157.
@@ -8194,7 +8911,6 @@ List of integer sequences with links to LODA programs.
 * [A296897](https://oeis.org/A296897) ([program](/edit/?oeis=296897)): Numbers n whose base-15 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments.
 * [A296900](https://oeis.org/A296900) ([program](/edit/?oeis=296900)): Numbers n whose base-16 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments.
 * [A296903](https://oeis.org/A296903) ([program](/edit/?oeis=296903)): Numbers n whose base-20 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments.
-* [A296906](https://oeis.org/A296906) ([program](/edit/?oeis=296906)): Numbers n whose base-60 digits d(m), d(m-1), ..., d(0) have #(pits) = #(peaks); see Comments.
 * [A296909](https://oeis.org/A296909) ([program](/edit/?oeis=296909)): Partial sums of A296368.
 * [A296910](https://oeis.org/A296910) ([program](/edit/?oeis=296910)): a(0)=1, a(1)=4; thereafter a(n) = 4\*n-2\*(-1)^n.
 * [A296911](https://oeis.org/A296911) ([program](/edit/?oeis=296911)): Partial sums of A296910.
@@ -8217,6 +8933,10 @@ List of integer sequences with links to LODA programs.
 * [A297030](https://oeis.org/A297030) ([program](/edit/?oeis=297030)): Number of pieces in the list d(m), d(m-1), ..., d(0) of base-2 digits of n; see Comments.
 * [A297039](https://oeis.org/A297039) ([program](/edit/?oeis=297039)): Number of pieces in the list d(m), d(m-1), ..., d(0) of base-11 digits of n; see Comments.
 * [A297040](https://oeis.org/A297040) ([program](/edit/?oeis=297040)): Number of pieces in the list d(m), d(m-1), ..., d(0) of base-12 digits of n; see Comments.
+* [A297041](https://oeis.org/A297041) ([program](/edit/?oeis=297041)): Number of pieces in the list d(m), d(m-1), ..., d(0) of base-13 digits of n; see Comments.
+* [A297042](https://oeis.org/A297042) ([program](/edit/?oeis=297042)): Number of pieces in the list d(m), d(m-1), ..., d(0) of base-14 digits of n; see Comments.
+* [A297043](https://oeis.org/A297043) ([program](/edit/?oeis=297043)): Number of pieces in the list d(m), d(m-1), ..., d(0) of base-15 digits of n; see Comments.
+* [A297044](https://oeis.org/A297044) ([program](/edit/?oeis=297044)): Number of pieces in the list d(m), d(m-1), ..., d(0) of base-16 digits of n; see Comments.
 * [A297047](https://oeis.org/A297047) ([program](/edit/?oeis=297047)): Number of edge covers in the n-wheel graph.
 * [A297053](https://oeis.org/A297053) ([program](/edit/?oeis=297053)): Sum of the larger parts of the partitions of n into two parts such that the smaller part does not divide the larger.
 * [A297054](https://oeis.org/A297054) ([program](/edit/?oeis=297054)): The coefficients of the product (1-x^2)(1-x^3)(1-x^4)... / (1+x).
@@ -8224,17 +8944,23 @@ List of integer sequences with links to LODA programs.
 * [A297108](https://oeis.org/A297108) ([program](/edit/?oeis=297108)): If n is prime(k)^e, e >= 1, then a(n) = 2^(k-1), otherwise 0; Möbius transform of A048675.
 * [A297109](https://oeis.org/A297109) ([program](/edit/?oeis=297109)): If n is prime(k)^e, e >= 1, then a(n) = k, otherwise 0.
 * [A297150](https://oeis.org/A297150) ([program](/edit/?oeis=297150)): Let b(k) denote A292081(k); the sequence lists numbers b(2n) where for all m > n, b(2m) > b(2n).
+* [A297151](https://oeis.org/A297151) ([program](/edit/?oeis=297151)): a(n) = Sum\_\{i=0..n\} Sum\_\{j=0..n\} Sum\_\{k=0..n\} binomial(n,i)\*binomial(n,j)\*binomial(n,k)\*max(i,j,k).
 * [A297155](https://oeis.org/A297155) ([program](/edit/?oeis=297155)): a(1) = a(2) = 0, after which, a(n) = 1+a(n/2) if n is of the form 4k+2, otherwise a(n) = a(A252463(n)).
+* [A297167](https://oeis.org/A297167) ([program](/edit/?oeis=297167)): a(1) = 0, for n > 1, a(n) = -1 + the excess of n (A046660) + the index of the largest prime factor (A061395).
 * [A297170](https://oeis.org/A297170) ([program](/edit/?oeis=297170)): a(n) = gcd(phi(n), sigma(n)-n).
 * [A297180](https://oeis.org/A297180) ([program](/edit/?oeis=297180)): a(n) is the smallest positive integer of length (distance from origin) n in the Cayley graph of the integers generated by all powers of 7.
 * [A297181](https://oeis.org/A297181) ([program](/edit/?oeis=297181)): a(n) is the smallest positive integer of length (distance from origin) n in the Cayley graph of the integers generated by all powers of 11.
 * [A297182](https://oeis.org/A297182) ([program](/edit/?oeis=297182)): a(n) is the smallest positive integer of length (distance from origin) n in the Cayley graph of the integers generated by all powers of 13.
 * [A297189](https://oeis.org/A297189) ([program](/edit/?oeis=297189)): Expansion of (x + 3\*x^2 - 2\*x^3 - 3\*x^4)/(1 - 8\*x^2 + 9\*x^4).
+* [A297191](https://oeis.org/A297191) ([program](/edit/?oeis=297191)): Irregular triangle read by rows formed by taking every other row of the Delannoy array (A008288) regarded as a triangle.
+* [A297192](https://oeis.org/A297192) ([program](/edit/?oeis=297192)): Left-hand half of triangle A297191.
 * [A297217](https://oeis.org/A297217) ([program](/edit/?oeis=297217)): Most common value of the number of divisors function among all composites up to composite(n) inclusive, or 0 if there is a tie.
 * [A297219](https://oeis.org/A297219) ([program](/edit/?oeis=297219)): Number of n X 3 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s.
 * [A297220](https://oeis.org/A297220) ([program](/edit/?oeis=297220)): Number of n X 4 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 1 neighboring 1s.
 * [A297250](https://oeis.org/A297250) ([program](/edit/?oeis=297250)): Numbers whose base-3 digits having equal up-variation and down-variation; see Comments.
 * [A297251](https://oeis.org/A297251) ([program](/edit/?oeis=297251)): Numbers whose base-3 digits have greater up-variation than down-variation; see Comments.
+* [A297270](https://oeis.org/A297270) ([program](/edit/?oeis=297270)): Numbers whose base-10 digits have greater down-variation than up-variation; see Comments.
+* [A297272](https://oeis.org/A297272) ([program](/edit/?oeis=297272)): Numbers whose base-10 digits have greater up-variation than down-variation; see Comments.
 * [A297296](https://oeis.org/A297296) ([program](/edit/?oeis=297296)): Number of n X 5 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 2 neighboring 1s.
 * [A297300](https://oeis.org/A297300) ([program](/edit/?oeis=297300)): Number of 3 X n 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 2 neighboring 1s.
 * [A297333](https://oeis.org/A297333) ([program](/edit/?oeis=297333)): Number of n X 3 0..1 arrays with every 1 horizontally or antidiagonally adjacent to 0 or 2 neighboring 1s.
@@ -8246,6 +8972,7 @@ List of integer sequences with links to LODA programs.
 * [A297384](https://oeis.org/A297384) ([program](/edit/?oeis=297384)): Number of Eulerian cycles in the n-antiprism graph.
 * [A297390](https://oeis.org/A297390) ([program](/edit/?oeis=297390)): Number of n X 3 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 neighboring 1.
 * [A297402](https://oeis.org/A297402) ([program](/edit/?oeis=297402)): a(n) = gcd\_\{k=1..n\} (prime(k+1)^n-1)/2.
+* [A297404](https://oeis.org/A297404) ([program](/edit/?oeis=297404)): A binary representation of the positive exponents that appear in the prime factorization of a number, shown in decimal.
 * [A297405](https://oeis.org/A297405) ([program](/edit/?oeis=297405)): Binary "cubes"; numbers whose binary representation consists of three consecutive identical blocks.
 * [A297432](https://oeis.org/A297432) ([program](/edit/?oeis=297432)): Number of 2 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 neighboring 1s.
 * [A297439](https://oeis.org/A297439) ([program](/edit/?oeis=297439)): Number of maximum independent vertex sets and minimum vertex covers in the n-web graph.
@@ -8275,6 +9002,8 @@ List of integer sequences with links to LODA programs.
 * [A297675](https://oeis.org/A297675) ([program](/edit/?oeis=297675)): a(n) = 3\*(n^2+n-4)/2.
 * [A297695](https://oeis.org/A297695) ([program](/edit/?oeis=297695)): Number of 2Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 0, 2 or 4 neighboring 1s.
 * [A297701](https://oeis.org/A297701) ([program](/edit/?oeis=297701)): Decimal expansion of 1 + sqrt(2) + sqrt(3).
+* [A297734](https://oeis.org/A297734) ([program](/edit/?oeis=297734)): Number of 2Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2 or 4 neighboring 1s.
+* [A297763](https://oeis.org/A297763) ([program](/edit/?oeis=297763)): Number of 2Xn 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 2, 3 or 4 neighboring 1s.
 * [A297792](https://oeis.org/A297792) ([program](/edit/?oeis=297792)): a(n) = Sum\_\{d\|n\} min(d, n/d)^2.
 * [A297793](https://oeis.org/A297793) ([program](/edit/?oeis=297793)): a(n) = Sum\_\{d\|n\} min(d, n/d)^3.
 * [A297794](https://oeis.org/A297794) ([program](/edit/?oeis=297794)): a(n) = Sum\_\{d\|n\} min(d, n/d)^4.
@@ -8286,6 +9015,7 @@ List of integer sequences with links to LODA programs.
 * [A297870](https://oeis.org/A297870) ([program](/edit/?oeis=297870)): Number of nX2 0..1 arrays with every element equal to 2, 3 or 5 king-move adjacent elements, with upper left element zero.
 * [A297909](https://oeis.org/A297909) ([program](/edit/?oeis=297909)): Number of n X 2 0..1 arrays with every element equal to 0, 2, 3 or 4 king-move adjacent elements, with upper left element zero.
 * [A297925](https://oeis.org/A297925) ([program](/edit/?oeis=297925)): Even numbers k such that k - 5 is prime but k - 3 is not prime.
+* [A297926](https://oeis.org/A297926) ([program](/edit/?oeis=297926)): Number of set partitions of [2n] in which the size of the first block is n.
 * [A297928](https://oeis.org/A297928) ([program](/edit/?oeis=297928)): a(n) = 2\*4^n + 3\*2^n - 1.
 * [A297937](https://oeis.org/A297937) ([program](/edit/?oeis=297937)): Number of nX2 0..1 arrays with every element equal to 0, 2, 3 or 5 king-move adjacent elements, with upper left element zero.
 * [A297953](https://oeis.org/A297953) ([program](/edit/?oeis=297953)): Number of n X 2 0..1 arrays with every element equal to 1, 2, 4 or 5 king-move adjacent elements, with upper left element zero.
@@ -8294,7 +9024,11 @@ List of integer sequences with links to LODA programs.
 * [A297967](https://oeis.org/A297967) ([program](/edit/?oeis=297967)): a(n) = 5^n mod prime(n).
 * [A297970](https://oeis.org/A297970) ([program](/edit/?oeis=297970)): Numbers that are not the sum of 3 squares and a nonnegative 7th power.
 * [A297972](https://oeis.org/A297972) ([program](/edit/?oeis=297972)): Number of n X 2 0..1 arrays with every element equal to 2, 3, 4 or 5 king-move adjacent elements, with upper left element zero.
+* [A297980](https://oeis.org/A297980) ([program](/edit/?oeis=297980)): Number of n X 2 0..1 arrays with every element equal to 0, 2, 3 or 6 king-move adjacent elements, with upper left element zero.
 * [A297996](https://oeis.org/A297996) ([program](/edit/?oeis=297996)): a(1)=2, a(2)=3, a(3)=5 and a(n) = (a(1) + a(2) + a(3) + ... + a(n-1))/a(n-1).
+* [A298003](https://oeis.org/A298003) ([program](/edit/?oeis=298003)): Solution b( ) of the complementary equation a(n) = a(1)\*b(n-1) - a(0)\*b(n-2) + 2\*n, where a(0) = 1, a(1) = 2, b(0) = 3, b(1) = 4, and (b(n)) is the increasing sequence of positive integers not in (a(n)).  See Comments.
+* [A298006](https://oeis.org/A298006) ([program](/edit/?oeis=298006)): Solution b( ) of the complementary equation a(n) = a(1)\*b(n-1) - a(0)\*b(n-2) + 2\*n - 1, where a(0) = 1, a(1) = 2, b(0) = 3, b(1) = 4, and (b(n)) is the increasing sequence of positive integers not in (a(n)).  See Comments.
+* [A298007](https://oeis.org/A298007) ([program](/edit/?oeis=298007)): Solution b( ) of the complementary equation a(n) = a(1)\*b(n-1) - a(0)\*b(n-2) + 2\*n - 2, where a(0) = 1, a(1) = 2, b(0) = 3, b(1) = 4, and (b(n)) is the increasing sequence of positive integers not in (a(n)).  See Comments.
 * [A298008](https://oeis.org/A298008) ([program](/edit/?oeis=298008)): a(n) = f(n-1,n) + 10\*(n-1), where f(a,b) is the number of primes in the range [10\*a,10\*b].
 * [A298011](https://oeis.org/A298011) ([program](/edit/?oeis=298011)): If n = Sum\_\{i=1..h\} 2^b\_i with 0 <= b\_1 < ... < b\_h, then a(n) = Sum\_\{i=1..h\} i \* 2^b\_i.
 * [A298016](https://oeis.org/A298016) ([program](/edit/?oeis=298016)): Coordination sequence of snub-632 tiling with respect to a hexavalent node.
@@ -8323,11 +9057,15 @@ List of integer sequences with links to LODA programs.
 * [A298078](https://oeis.org/A298078) ([program](/edit/?oeis=298078)): a(n) = 7\*n^2 - 7\*n - 43.
 * [A298095](https://oeis.org/A298095) ([program](/edit/?oeis=298095)): Number of nX3 0..1 arrays with every element equal to 3, 4, 5 or 6 king-move adjacent elements, with upper left element zero.
 * [A298101](https://oeis.org/A298101) ([program](/edit/?oeis=298101)): Expansion of x\*(1 + x)/((1 - x)\*(1 - 322\*x + x^2)).
+* [A298108](https://oeis.org/A298108) ([program](/edit/?oeis=298108)): Solution b( ) of the complementary equation a(n) = a(1)\*b(n-1) - a(0)\*b(n-2) + 2\*n - 3, where a(0) = 1, a(1) = 2, b(0) = 3, b(1) = 4, and (b(n)) is the increasing sequence of positive integers not in (a(n)).  See Comments.
+* [A298109](https://oeis.org/A298109) ([program](/edit/?oeis=298109)): Solution b( ) of the complementary equation a(n) = a(1)\*b(n-1) - a(0)\*b(n-2) + 2\*n - 4, where a(0) = 1, a(1) = 2, b(0) = 3, b(1) = 4, and (b(n)) is the increasing sequence of positive integers not in (a(n)).  See Comments.
+* [A298111](https://oeis.org/A298111) ([program](/edit/?oeis=298111)): Solution b( ) of the complementary equation a(n) = a(1)\*b(n) - a(0)\*b(n-1) + 2\*n, where a(0) = 1, a(1) = 2, b(0) = 3, b(1) = 4, b(2) = 5, and (b(n)) is the increasing sequence of positive integers not in (a(n)).  See Comments.
 * [A298125](https://oeis.org/A298125) ([program](/edit/?oeis=298125)): The hex numbers (A003215) together with 3.
 * [A298158](https://oeis.org/A298158) ([program](/edit/?oeis=298158)): a(n) = a(n-1) + 3\*a(n-2) -2\*a(n-3) - 2\*a(n-4), where a(0) = -1, a(1) = -2, a(2) = 1, a(3) = 1.
 * [A298179](https://oeis.org/A298179) ([program](/edit/?oeis=298179)): Number of nX4 0..1 arrays with every element equal to 3, 5, 6 or 8 king-move adjacent elements, with upper left element zero.
 * [A298198](https://oeis.org/A298198) ([program](/edit/?oeis=298198)): Number of Eulerian cycles in the graph Cartesian product of C\_n and a double edge.
 * [A298207](https://oeis.org/A298207) ([program](/edit/?oeis=298207)): Numbers that are a product of zero, one, or three (not necessarily distinct) prime numbers.
+* [A298211](https://oeis.org/A298211) ([program](/edit/?oeis=298211)): Smallest n such that A001353(a(n)) == 0 (mod n), i.e., x=A001075(a(n)) and y=A001353(a(n)) is the fundamental solution of the Pell equation x^2 - 3\*(n\*y)^2 = 1.
 * [A298231](https://oeis.org/A298231) ([program](/edit/?oeis=298231)): Fixed point of the morphism 1->1221, 2->122.
 * [A298234](https://oeis.org/A298234) ([program](/edit/?oeis=298234)): Number of nX2 0..1 arrays with every element equal to 0, 2, 3, 4 or 5 king-move adjacent elements, with upper left element zero.
 * [A298242](https://oeis.org/A298242) ([program](/edit/?oeis=298242)): Decimal expansion of BesselI(1,1/2)/BesselI(0,1/2).
@@ -8341,6 +9079,7 @@ List of integer sequences with links to LODA programs.
 * [A298372](https://oeis.org/A298372) ([program](/edit/?oeis=298372)): a(n), in decimal base, is the number of numbers k >= 0 with no more digits than n such that k + n can be computed without carry.
 * [A298375](https://oeis.org/A298375) ([program](/edit/?oeis=298375)): Partial sums of A230584.
 * [A298397](https://oeis.org/A298397) ([program](/edit/?oeis=298397)): Pentagonal numbers divisible by 4.
+* [A298420](https://oeis.org/A298420) ([program](/edit/?oeis=298420)): Expansion of f(x, x) \* f(x, x^2) \* f(x^2, x^4) in powers of x where f(, ) is Ramanujan's general theta function.
 * [A298468](https://oeis.org/A298468) ([program](/edit/?oeis=298468)): Solution (aa(n)) of the system of 3 complementary equations in Comments.
 * [A298473](https://oeis.org/A298473) ([program](/edit/?oeis=298473)): a(n) = n \* lambda(n) \* 2^omega(n).
 * [A298474](https://oeis.org/A298474) ([program](/edit/?oeis=298474)): a(n) is the least k such that A090701(k) = n.
@@ -8360,6 +9099,7 @@ List of integer sequences with links to LODA programs.
 * [A298682](https://oeis.org/A298682) ([program](/edit/?oeis=298682)): Start with the triangle with 4 markings of the Shield tiling and recursively apply the substitution rule. a(n) is the number of triangles with 4 markings after n iterations.
 * [A298683](https://oeis.org/A298683) ([program](/edit/?oeis=298683)): Start with the square tile of the Shield tiling and recursively apply the substitution rule. a(n) is the number of squares after n iterations.
 * [A298695](https://oeis.org/A298695) ([program](/edit/?oeis=298695)): G.f.: Sum\_\{n>=0\} binomial(n^2, n) \* x^n / (1 + x)^(n^2).
+* [A298696](https://oeis.org/A298696) ([program](/edit/?oeis=298696)): G.f.: Sum\_\{n>=0\} binomial(n\*(n+1), n)/(n+1) \* x^n / (1 + x)^(n\*(n+1)).
 * [A298700](https://oeis.org/A298700) ([program](/edit/?oeis=298700)): a(n) = (n/2)\*Sum\_\{k=1..n\} C(n + k, n)\*C(k, n - k)/k.
 * [A298705](https://oeis.org/A298705) ([program](/edit/?oeis=298705)): Numbers from the 15-theorem for universal Hermitian lattices.
 * [A298720](https://oeis.org/A298720) ([program](/edit/?oeis=298720)): EBCDIC codes for lower case letters.
@@ -8407,6 +9147,7 @@ List of integer sequences with links to LODA programs.
 * [A298881](https://oeis.org/A298881) ([program](/edit/?oeis=298881)): a(0) = 0; for n>0, a(n) = 6\*n!.
 * [A298897](https://oeis.org/A298897) ([program](/edit/?oeis=298897)): Number of nX3 0..1 arrays with every element equal to 3, 4, 5, 6 or 8 king-move adjacent elements, with upper left element zero.
 * [A298919](https://oeis.org/A298919) ([program](/edit/?oeis=298919)): Number of nX3 0..1 arrays with every element equal to 1, 3, 5, 7 or 8 king-move adjacent elements, with upper left element zero.
+* [A298933](https://oeis.org/A298933) ([program](/edit/?oeis=298933)): Expansion of f(x, x^2) \* f(x, x^3) \* f(x^2, x^4) in powers of x where f(, ) is Ramanujan's general theta function.
 * [A298944](https://oeis.org/A298944) ([program](/edit/?oeis=298944)): a(n) = 2^(c-1) mod c^2, where c is the n-th composite number.
 * [A298946](https://oeis.org/A298946) ([program](/edit/?oeis=298946)): a(n) = binomial(2\*c-1, c-1) (mod c^4), where c is the n-th composite number.
 * [A298950](https://oeis.org/A298950) ([program](/edit/?oeis=298950)): Numbers k such that 5\*k - 4 is a square.
@@ -8425,11 +9166,13 @@ List of integer sequences with links to LODA programs.
 * [A299121](https://oeis.org/A299121) ([program](/edit/?oeis=299121)): a(n) = Sum\_\{k=0..n\} (k\*(n-k))!.
 * [A299143](https://oeis.org/A299143) ([program](/edit/?oeis=299143)): a(n) is the least k > n such that gcd(k,n) > 1 and gcd(k+1,n+1) > 1.
 * [A299146](https://oeis.org/A299146) ([program](/edit/?oeis=299146)): Modified Pascal's triangle read by rows: T(n,k) = C(n+1,k) - n, 1 <= k <= n.
+* [A299149](https://oeis.org/A299149) ([program](/edit/?oeis=299149)): Numerators of the positive solution to n = Sum\_\{d\|n\} a(d) \* a(n/d).
 * [A299150](https://oeis.org/A299150) ([program](/edit/?oeis=299150)): Denominators of the positive solution to n = Sum\_\{d\|n\} a(d) \* a(n/d).
 * [A299174](https://oeis.org/A299174) ([program](/edit/?oeis=299174)): The even positive integers.
 * [A299198](https://oeis.org/A299198) ([program](/edit/?oeis=299198)): a(n) = n^4/6 - 2\*n^3/3 - n^2/6 + 5\*n/3 + 1.
 * [A299231](https://oeis.org/A299231) ([program](/edit/?oeis=299231)): Ranks of \{2,3\}-power towers that start with 2; see Comments.
 * [A299232](https://oeis.org/A299232) ([program](/edit/?oeis=299232)): Ranks of \{2,3\}-power towers that start with 3; see Comments.
+* [A299233](https://oeis.org/A299233) ([program](/edit/?oeis=299233)): Ranks of \{2,3\}-power towers that end with 2; see Comments.
 * [A299250](https://oeis.org/A299250) ([program](/edit/?oeis=299250)): Numbers congruent to \{9, 11, 21, 29\} mod 30.
 * [A299251](https://oeis.org/A299251) ([program](/edit/?oeis=299251)): a(n) = ((Sum\_\{k=1..floor((n+1)^2/4)\} d(k)) - T(n)) / 2, where d(n) = number of divisors of n (A000005) and T(n) = the n-th triangular number (A000217).
 * [A299254](https://oeis.org/A299254) ([program](/edit/?oeis=299254)): Coordination sequence for 3D uniform tiling formed by stacking parallel layers of the 3^4.6 2D tiling (cf. A250120).
@@ -8451,6 +9194,7 @@ List of integer sequences with links to LODA programs.
 * [A299288](https://oeis.org/A299288) ([program](/edit/?oeis=299288)): Partial sums of A299287.
 * [A299289](https://oeis.org/A299289) ([program](/edit/?oeis=299289)): Coordination sequence for "tsi" 3D uniform tiling.
 * [A299290](https://oeis.org/A299290) ([program](/edit/?oeis=299290)): Partial sums of A299289.
+* [A299296](https://oeis.org/A299296) ([program](/edit/?oeis=299296)): G.f. 1/(1-z\*R(z\*m(z))) where R(z) = (1-z-(z+1)\*sqrt(1-4\*z))/(2\*z^2), m(z) = (3-z-sqrt(1-6\*z+z^2))/2.
 * [A299335](https://oeis.org/A299335) ([program](/edit/?oeis=299335)): Expansion of 1 / ((1 - x)^7\*(1 + x)^2).
 * [A299336](https://oeis.org/A299336) ([program](/edit/?oeis=299336)): Expansion of 1 / ((1 - x)^7\*(1 + x)^4).
 * [A299337](https://oeis.org/A299337) ([program](/edit/?oeis=299337)): Expansion of 1 / ((1 - x)^7\*(1 + x)^5).
@@ -8458,9 +9202,11 @@ List of integer sequences with links to LODA programs.
 * [A299399](https://oeis.org/A299399) ([program](/edit/?oeis=299399)): a(n) = a(n-1)\*a(n-2)\*a(n-3)\*a(n-4); a(0..3) = (1, 1, 2, 3).
 * [A299404](https://oeis.org/A299404) ([program](/edit/?oeis=299404)): a(n) = 1 + Sum\_\{m >= 1\} (m + 1)^n/2^(m - 1).
 * [A299406](https://oeis.org/A299406) ([program](/edit/?oeis=299406)): G.f.: Sum\_\{n>0\} a(n)/n^s = ((zeta(s)\*zeta(6\*s))/((zeta(2\*s)\*zeta(3\*s)).
+* [A299411](https://oeis.org/A299411) ([program](/edit/?oeis=299411)): Solution b( ) of the complementary equation a(n) = b(n-1) + b(n-2), where a(0) = 2, a(1) = 3; see Comments.
 * [A299412](https://oeis.org/A299412) ([program](/edit/?oeis=299412)): Pentagonal pyramidal numbers divisible by 3.
 * [A299428](https://oeis.org/A299428) ([program](/edit/?oeis=299428)): a(n) = binomial((n+1)\*(2\*n+1), n) \* (n+1)/(2\*n+1).
 * [A299429](https://oeis.org/A299429) ([program](/edit/?oeis=299429)): a(n) = binomial((n+1)\*(2\*n+1), n) / ((n+1)\*(2\*n+1)).
+* [A299435](https://oeis.org/A299435) ([program](/edit/?oeis=299435)): G.f.: Sum\_\{n>=0\} binomial((n+1)^2, n)/(n+1) \* x^n / (1 + x)^((n+1)^2).
 * [A299480](https://oeis.org/A299480) ([program](/edit/?oeis=299480)): List of pairs (a,b) where in the n-th pair, a = number of odd divisors of n and b = number of even divisors of n.
 * [A299485](https://oeis.org/A299485) ([program](/edit/?oeis=299485)): List of pairs (a,b) where in the n-th pair, a = number of even divisors of n and b = number of odd divisors of n.
 * [A299504](https://oeis.org/A299504) ([program](/edit/?oeis=299504)): Triangle read by rows, T(n,k) = (k+1)^(n-k)\*k! for 0 <= k <= n.

@@ -40,9 +40,15 @@ List of integer sequences with links to LODA programs.
 * [A050270](https://oeis.org/A050270) ([program](/edit/?oeis=50270)): Largest value b for Diophantine 1-doubles (a,b) ordered by smallest b.
 * [A050271](https://oeis.org/A050271) ([program](/edit/?oeis=50271)): Numbers n such that n = floor(sqrt(n)\*ceiling(sqrt(n))).
 * [A050275](https://oeis.org/A050275) ([program](/edit/?oeis=50275)): Largest value c for Diophantine 1-triples (a,b,c) ordered by smallest c,b.
+* [A050289](https://oeis.org/A050289) ([program](/edit/?oeis=50289)): Zeroless pandigital numbers: numbers containing the digits 1-9 and no 0's.
 * [A050292](https://oeis.org/A050292) ([program](/edit/?oeis=50292)): a(2n) = 2n - a(n), a(2n+1) = 2n + 1 - a(n) (for n >= 0).
 * [A050294](https://oeis.org/A050294) ([program](/edit/?oeis=50294)): Maximum cardinality of a 3-fold-free subset of \{1, 2, ..., n\}.
 * [A050297](https://oeis.org/A050297) ([program](/edit/?oeis=50297)): Number of scalars which can be constructed from the Riemann tensor and metric tensor in n dimensions.
+* [A050315](https://oeis.org/A050315) ([program](/edit/?oeis=50315)): Main diagonal of A050314.
+* [A050321](https://oeis.org/A050321) ([program](/edit/?oeis=50321)): k such that A050292(k) is different from A004396(k).
+* [A050351](https://oeis.org/A050351) ([program](/edit/?oeis=50351)): Number of 3-level labeled linear rooted trees with n leaves.
+* [A050352](https://oeis.org/A050352) ([program](/edit/?oeis=50352)): Number of 4-level labeled linear rooted trees with n leaves.
+* [A050353](https://oeis.org/A050353) ([program](/edit/?oeis=50353)): Number of 5-level labeled linear rooted trees with n leaves.
 * [A050376](https://oeis.org/A050376) ([program](/edit/?oeis=50376)): "Fermi-Dirac primes": numbers of the form p^(2^k) where p is prime and k >= 0.
 * [A050399](https://oeis.org/A050399) ([program](/edit/?oeis=50399)): Least k such that n = A009195(k) (= gcd(phi(k), k)).
 * [A050403](https://oeis.org/A050403) ([program](/edit/?oeis=50403)): Partial sums of A051877.
@@ -81,7 +87,10 @@ List of integer sequences with links to LODA programs.
 * [A050465](https://oeis.org/A050465) ([program](/edit/?oeis=50465)): Sum\_\{d\|n, n/d=3 mod 4\} d^2.
 * [A050466](https://oeis.org/A050466) ([program](/edit/?oeis=50466)): a(n) = Sum\_\{d\|n, n/d=3 mod 4\} d^3.
 * [A050467](https://oeis.org/A050467) ([program](/edit/?oeis=50467)): Sum\_\{d\|n, n/d=3 mod 4\} d^4.
+* [A050468](https://oeis.org/A050468) ([program](/edit/?oeis=50468)): Sum\_\{d\|n, n/d=1 mod 4\} d^4 - Sum\_\{d\|n, n/d=3 mod 4\} d^4.
 * [A050469](https://oeis.org/A050469) ([program](/edit/?oeis=50469)): a(n) = Sum\_\{ d divides n, n/d=1 mod 4\} d - Sum\_\{ d divides n, n/d=3 mod 4\} d.
+* [A050470](https://oeis.org/A050470) ([program](/edit/?oeis=50470)): a(n) = Sum\_\{d\|n, n/d == 1 (mod 4)\} d^2 - Sum\_\{d\|n, n/d == 3 (mod 4)\} d^2.
+* [A050471](https://oeis.org/A050471) ([program](/edit/?oeis=50471)): a(n) = sum\_\{d\|n, n/d=1 mod 4\} d^3 - sum\_\{d\|n, n/d=3 mod 4\} d^3.
 * [A050476](https://oeis.org/A050476) ([program](/edit/?oeis=50476)): a(n) = C(n)\*(6n+1) where C(n)=Catalan numbers (A000108).
 * [A050477](https://oeis.org/A050477) ([program](/edit/?oeis=50477)): a(n) = C(n)\*(7n+1) where C(n)=Catalan numbers (A000108).
 * [A050478](https://oeis.org/A050478) ([program](/edit/?oeis=50478)): a(n) = C(n)\*(8n+1) where C(n)=Catalan numbers (A000108).
@@ -101,6 +110,7 @@ List of integer sequences with links to LODA programs.
 * [A050506](https://oeis.org/A050506) ([program](/edit/?oeis=50506)): Nearest integer to log(Fibonacci(n)).
 * [A050508](https://oeis.org/A050508) ([program](/edit/?oeis=50508)): Golden rectangle numbers: n \* A007067(n).
 * [A050509](https://oeis.org/A050509) ([program](/edit/?oeis=50509)): House numbers (version 2): a(n) = (n+1)^3 + (n+1)\*Sum\_\{i=0..n\} i.
+* [A050510](https://oeis.org/A050510) ([program](/edit/?oeis=50510)): Golden rectangular box numbers: a(n) = n\*A007067(n)\*A007067(A007067(n)).
 * [A050511](https://oeis.org/A050511) ([program](/edit/?oeis=50511)): a(n) = (-1)^n \* Sum\_\{i=0..n\} binomial(n+1,i+1)\*Catalan(i).
 * [A050512](https://oeis.org/A050512) ([program](/edit/?oeis=50512)): a(n) = (a(n-1)\*a(n-3) - a(n-2)^2) / a(n-4), with a(0) = 0, a(1) = a(2) = a(3) = 1, a(4) = -1.
 * [A050514](https://oeis.org/A050514) ([program](/edit/?oeis=50514)): Cards left over after dealing evenly to n people.
@@ -129,7 +139,6 @@ List of integer sequences with links to LODA programs.
 * [A050686](https://oeis.org/A050686) ([program](/edit/?oeis=50686)): Number of palindromes of length n and containing the digit 1 (or any other fixed nonzero digit).
 * [A050720](https://oeis.org/A050720) ([program](/edit/?oeis=50720)): Number of nonzero palindromes of length n containing the digit '0'.
 * [A050763](https://oeis.org/A050763) ([program](/edit/?oeis=50763)): Numbers k such that the decimal expansion of k^k contains no pair of consecutive equal digits (probably finite).
-* [A050795](https://oeis.org/A050795) ([program](/edit/?oeis=50795)): Numbers n such that n^2 - 1 is expressible as the sum of two nonzero squares in at least one way.
 * [A050796](https://oeis.org/A050796) ([program](/edit/?oeis=50796)): Numbers n such that n^2 + 1 is expressible as the sum of two nonzero squares in at least one way (the trivial solution n^2 + 1 = n^2 + 1^2 is not counted).
 * [A050799](https://oeis.org/A050799) ([program](/edit/?oeis=50799)): Values of n^2 - 1 resulting from A050795.
 * [A050800](https://oeis.org/A050800) ([program](/edit/?oeis=50800)): Values of n^2 + 1 resulting from A050796.
@@ -151,6 +160,9 @@ List of integer sequences with links to LODA programs.
 * [A050931](https://oeis.org/A050931) ([program](/edit/?oeis=50931)): Numbers having a prime factor congruent to 1 mod 6.
 * [A050932](https://oeis.org/A050932) ([program](/edit/?oeis=50932)): Denominator of (n+1)\*Bernoulli(n).
 * [A050935](https://oeis.org/A050935) ([program](/edit/?oeis=50935)): a(1)=0, a(2)=0, a(3)=1, a(n+1) = a(n) - a(n-2).
+* [A050939](https://oeis.org/A050939) ([program](/edit/?oeis=50939)): Numbers that are not the sum of consecutive Fibonacci numbers.
+* [A050970](https://oeis.org/A050970) ([program](/edit/?oeis=50970)): Numerator of S(n)/Pi^n, where S(n) = Sum\_\{k=-inf..+inf\} (4k+1)^(-n).
+* [A050971](https://oeis.org/A050971) ([program](/edit/?oeis=50971)): 4\*Denominator of S(n)/Pi^n, where S(n) = Sum\_\{k=-inf..+inf\} ((4k+1)^(-n)).
 * [A050975](https://oeis.org/A050975) ([program](/edit/?oeis=50975)): Haupt-exponents of 3 modulo integers relatively prime to 3.
 * [A050976](https://oeis.org/A050976) ([program](/edit/?oeis=50976)): Haupt-exponents of 4 modulo integers relatively prime to 4.
 * [A050977](https://oeis.org/A050977) ([program](/edit/?oeis=50977)): Haupt-exponents of 5 modulo integers relatively prime to 5.
@@ -168,15 +180,16 @@ List of integer sequences with links to LODA programs.
 * [A051000](https://oeis.org/A051000) ([program](/edit/?oeis=51000)): Sum of cubes of odd divisors of n.
 * [A051001](https://oeis.org/A051001) ([program](/edit/?oeis=51001)): Sum of 4th powers of odd divisors of n.
 * [A051002](https://oeis.org/A051002) ([program](/edit/?oeis=51002)): Sum of 5th powers of odd divisors of n.
+* [A051023](https://oeis.org/A051023) ([program](/edit/?oeis=51023)): Middle column of rule-30 1-D cellular automaton, from a lone 1 cell.
 * [A051027](https://oeis.org/A051027) ([program](/edit/?oeis=51027)): a(n) = sigma(sigma(n)) = sum of the divisors of the sum of the divisors of n.
 * [A051032](https://oeis.org/A051032) ([program](/edit/?oeis=51032)): Summatory Rudin-Shapiro sequence for 2^(n-1).
 * [A051033](https://oeis.org/A051033) ([program](/edit/?oeis=51033)): a(n) = binomial(n, floor(n/3)).
-* [A051034](https://oeis.org/A051034) ([program](/edit/?oeis=51034)): Minimal number of primes needed to sum to n.
 * [A051036](https://oeis.org/A051036) ([program](/edit/?oeis=51036)): a(n) = binomial(n, floor(n/4)).
 * [A051037](https://oeis.org/A051037) ([program](/edit/?oeis=51037)): 5-smooth numbers, i.e., numbers whose prime divisors are all <= 5.
 * [A051039](https://oeis.org/A051039) ([program](/edit/?oeis=51039)): 4-Stohr sequence.
 * [A051040](https://oeis.org/A051040) ([program](/edit/?oeis=51040)): 5-Stohr sequence.
 * [A051047](https://oeis.org/A051047) ([program](/edit/?oeis=51047)): For n > 5, a(n) = 15\*a(n-1) - 15\*a(n-2) + a(n-3); initial terms are 1, 3, 8, 120, 1680.
+* [A051048](https://oeis.org/A051048) ([program](/edit/?oeis=51048)): Sqrt[a(n)a(n+1)+1] of A051047.
 * [A051049](https://oeis.org/A051049) ([program](/edit/?oeis=51049)): Number of moves needed to solve an (n+1)-ring baguenaudier if two simultaneous moves of the two end rings are counted as one.
 * [A051052](https://oeis.org/A051052) ([program](/edit/?oeis=51052)): a(n) = binomial(n, floor(n/5)).
 * [A051053](https://oeis.org/A051053) ([program](/edit/?oeis=51053)): a(n) = binomial(n, floor(n/6)).
@@ -244,14 +257,18 @@ List of integer sequences with links to LODA programs.
 * [A051292](https://oeis.org/A051292) ([program](/edit/?oeis=51292)): Whitney number of level n of the lattice of the ideals of the crown of size 2 n.
 * [A051293](https://oeis.org/A051293) ([program](/edit/?oeis=51293)): Number of nonempty subsets of \{1,2,3,...,n\} whose elements have an integer average.
 * [A051294](https://oeis.org/A051294) ([program](/edit/?oeis=51294)): a(n) = F(n^2)/F(n), where F(n) = A000045(n) is the n-th Fibonacci number.
+* [A051297](https://oeis.org/A051297) ([program](/edit/?oeis=51297)): (Terms in A028266)/2.
+* [A051298](https://oeis.org/A051298) ([program](/edit/?oeis=51298)): (Terms in A028273)/2.
 * [A051329](https://oeis.org/A051329) ([program](/edit/?oeis=51329)): A generalized Thue-Morse sequence.
 * [A051336](https://oeis.org/A051336) ([program](/edit/?oeis=51336)): Number of arithmetic progressions in \{1,2,3,...,n\}, including trivial arithmetic progressions of lengths 1 and 2.
 * [A051340](https://oeis.org/A051340) ([program](/edit/?oeis=51340)): A simple 2-dimensional array, read by antidiagonals: T[i,j] = 1 for j>0, T[i,0] = i+1; i,j = 0,1,2,3,...
 * [A051349](https://oeis.org/A051349) ([program](/edit/?oeis=51349)): Sum of first n nonprimes.
 * [A051350](https://oeis.org/A051350) ([program](/edit/?oeis=51350)): Sum of digit-sums of first n nonprimes.
 * [A051351](https://oeis.org/A051351) ([program](/edit/?oeis=51351)): a(n) = a(n-1) + sum of digits of n-th prime.
+* [A051352](https://oeis.org/A051352) ([program](/edit/?oeis=51352)): a(0) = 0; for n>0, a(n) = a(n-1) + n if n not prime else a(n-1) - n.
 * [A051357](https://oeis.org/A051357) ([program](/edit/?oeis=51357)): Chernoff sequence A006939 divided by 2.
 * [A051358](https://oeis.org/A051358) ([program](/edit/?oeis=51358)): (Terms in A028279)/2.
+* [A051359](https://oeis.org/A051359) ([program](/edit/?oeis=51359)): (Terms in A028286)/2.
 * [A051369](https://oeis.org/A051369) ([program](/edit/?oeis=51369)): a(n+1) = a(n) + sum of digits of a(n)^2.
 * [A051370](https://oeis.org/A051370) ([program](/edit/?oeis=51370)): a(n+1) = a(n) + sum of digits of a(n)^2.
 * [A051373](https://oeis.org/A051373) ([program](/edit/?oeis=51373)): a(n+1) = a(n) + sum of digits of (a(n)^3).
@@ -274,20 +291,35 @@ List of integer sequences with links to LODA programs.
 * [A051414](https://oeis.org/A051414) ([program](/edit/?oeis=51414)): a(n+1) = a(n) + sum of digits of a(n)^3.
 * [A051417](https://oeis.org/A051417) ([program](/edit/?oeis=51417)): Quotients of consecutive values of lcm \{1, 3, 5 ...,2n-1\} or A025547(n+1)/A025547(n).
 * [A051418](https://oeis.org/A051418) ([program](/edit/?oeis=51418)): Square of LCM of \{1, 2, ..., n\}.
+* [A051425](https://oeis.org/A051425) ([program](/edit/?oeis=51425)): (Terms in A029665)/2.
 * [A051426](https://oeis.org/A051426) ([program](/edit/?oeis=51426)): Least common multiple of \{2, 4, 6, ..., 2n\}.
+* [A051427](https://oeis.org/A051427) ([program](/edit/?oeis=51427)): Number of strictly Deza graphs with n nodes.
+* [A051428](https://oeis.org/A051428) ([program](/edit/?oeis=51428)): (Terms in A029658)/2.
 * [A051429](https://oeis.org/A051429) ([program](/edit/?oeis=51429)): (Terms in A029659)/2.
+* [A051430](https://oeis.org/A051430) ([program](/edit/?oeis=51430)): (Terms in A029661)/2.
 * [A051431](https://oeis.org/A051431) ([program](/edit/?oeis=51431)): a(n) = (n+10)!/10!.
+* [A051432](https://oeis.org/A051432) ([program](/edit/?oeis=51432)): (Terms in A029617)/2.
+* [A051433](https://oeis.org/A051433) ([program](/edit/?oeis=51433)): (Terms in A029605)/2.
 * [A051434](https://oeis.org/A051434) ([program](/edit/?oeis=51434)): (Terms in A029607)/2.
+* [A051435](https://oeis.org/A051435) ([program](/edit/?oeis=51435)): (Terms in A029613)/2.
 * [A051437](https://oeis.org/A051437) ([program](/edit/?oeis=51437)): Number of undirected walks of length n+1 on an oriented triangle, visiting n+2 vertices, with n "corners"; the symmetry group is C3. Walks are not self-avoiding.
 * [A051442](https://oeis.org/A051442) ([program](/edit/?oeis=51442)): a(n) = n^(n+1)+(n+1)^n.
 * [A051443](https://oeis.org/A051443) ([program](/edit/?oeis=51443)): a(n) = n^(n+1)\*(n+1)^n.
-* [A051449](https://oeis.org/A051449) ([program](/edit/?oeis=51449)): Fibered rational knots with n crossings.
+* [A051449](https://oeis.org/A051449) ([program](/edit/?oeis=51449)): Number of fibered rational knots with n crossings.
 * [A051450](https://oeis.org/A051450) ([program](/edit/?oeis=51450)): Number of positive rational knots with 2n+1 crossings.
 * [A051451](https://oeis.org/A051451) ([program](/edit/?oeis=51451)): a(n) = lcm\{ 1,2,...,x \} where x is the n-th prime power (A000961).
 * [A051452](https://oeis.org/A051452) ([program](/edit/?oeis=51452)): a(n) = 1 + lcm(1..k) where k is the n-th prime power A000961(n).
+* [A051455](https://oeis.org/A051455) ([program](/edit/?oeis=51455)): (Terms in A029623)/2.
 * [A051456](https://oeis.org/A051456) ([program](/edit/?oeis=51456)): (Terms in A029625)/2.
+* [A051457](https://oeis.org/A051457) ([program](/edit/?oeis=51457)): (Terms in A029627)/2.
+* [A051458](https://oeis.org/A051458) ([program](/edit/?oeis=51458)): (Terms in A029631)/2.
 * [A051462](https://oeis.org/A051462) ([program](/edit/?oeis=51462)): Molien series for group G\_\{1,2\}^\{8\} of order 1536.
+* [A051467](https://oeis.org/A051467) ([program](/edit/?oeis=51467)): (Terms in A029640)/2.
 * [A051468](https://oeis.org/A051468) ([program](/edit/?oeis=51468)): (Terms in A029641)/2.
+* [A051469](https://oeis.org/A051469) ([program](/edit/?oeis=51469)): (Terms in A029643)/2.
+* [A051471](https://oeis.org/A051471) ([program](/edit/?oeis=51471)): (Terms in A029647)/2.
+* [A051472](https://oeis.org/A051472) ([program](/edit/?oeis=51472)): (A028317)/2.
+* [A051473](https://oeis.org/A051473) ([program](/edit/?oeis=51473)): (Terms in A028321)/2.
 * [A051489](https://oeis.org/A051489) ([program](/edit/?oeis=51489)): a(n) = n^(n+2) + (n+2)^n.
 * [A051490](https://oeis.org/A051490) ([program](/edit/?oeis=51490)): a(n) = n^(n+2)\*(n+2)^n.
 * [A051494](https://oeis.org/A051494) ([program](/edit/?oeis=51494)): Expansion of (1 - x + x^2 + x^3)/(1 - x^2)^3.
@@ -295,6 +327,7 @@ List of integer sequences with links to LODA programs.
 * [A051500](https://oeis.org/A051500) ([program](/edit/?oeis=51500)): a(n) = (3^n+1)^2/4.
 * [A051503](https://oeis.org/A051503) ([program](/edit/?oeis=51503)): a(n) = min \{ n, floor(100/n) \}.
 * [A051513](https://oeis.org/A051513) ([program](/edit/?oeis=51513)): a(n) = min \{ 2^n, floor(100/n) \}.
+* [A051514](https://oeis.org/A051514) ([program](/edit/?oeis=51514)): (Terms in A014762)/4.
 * [A051515](https://oeis.org/A051515) ([program](/edit/?oeis=51515)): (Terms in A014738)/4.
 * [A051524](https://oeis.org/A051524) ([program](/edit/?oeis=51524)): Second unsigned column of triangle A051338.
 * [A051525](https://oeis.org/A051525) ([program](/edit/?oeis=51525)): Third unsigned column of triangle A051338.
@@ -351,6 +384,7 @@ List of integer sequences with links to LODA programs.
 * [A051639](https://oeis.org/A051639) ([program](/edit/?oeis=51639)): Concatenation of 3^k, k = 0,..,n.
 * [A051656](https://oeis.org/A051656) ([program](/edit/?oeis=51656)): Sum\_\{i=0..n\} (C(n,i) mod 2)\*Fibonacci(2\*i).
 * [A051662](https://oeis.org/A051662) ([program](/edit/?oeis=51662)): House numbers: a(n) = (n+1)^3 + Sum\_\{i=1..n\} i^2.
+* [A051666](https://oeis.org/A051666) ([program](/edit/?oeis=51666)): Rows of triangle formed using Pascal's rule except begin and end n-th row with n^2.
 * [A051667](https://oeis.org/A051667) ([program](/edit/?oeis=51667)): a(n) = 6\*2^n - 4\*n - 6.
 * [A051669](https://oeis.org/A051669) ([program](/edit/?oeis=51669)): 11\*2^n - 4\*n - 10.
 * [A051673](https://oeis.org/A051673) ([program](/edit/?oeis=51673)): Cubic star numbers: a(n) = n^3 + 4\*Sum\_\{i=0..n-1\} i^2.
@@ -430,6 +464,7 @@ List of integer sequences with links to LODA programs.
 * [A051893](https://oeis.org/A051893) ([program](/edit/?oeis=51893)): a(n) = Sum\_\{i=1..n-1\} i^2\*a(i), a(1) = 1.
 * [A051895](https://oeis.org/A051895) ([program](/edit/?oeis=51895)): Partial sums of second pentagonal numbers with even index (A049453).
 * [A051903](https://oeis.org/A051903) ([program](/edit/?oeis=51903)): Maximal exponent in prime factorization of n.
+* [A051904](https://oeis.org/A051904) ([program](/edit/?oeis=51904)): Minimal exponent in prime factorization of n.
 * [A051913](https://oeis.org/A051913) ([program](/edit/?oeis=51913)): Numbers n such that phi(n)/phi(phi(n)) = 3.
 * [A051920](https://oeis.org/A051920) ([program](/edit/?oeis=51920)): a(n) = binomial(n, floor(n/2)) + 1.
 * [A051923](https://oeis.org/A051923) ([program](/edit/?oeis=51923)): Partial sums of A051836.
@@ -495,6 +530,7 @@ List of integer sequences with links to LODA programs.
 * [A052156](https://oeis.org/A052156) ([program](/edit/?oeis=52156)): Number of compositions of n into 2\*j-1 kinds of j's for all j>=1.
 * [A052161](https://oeis.org/A052161) ([program](/edit/?oeis=52161)): Partial sums of A014825, second partial sums of A002450.
 * [A052169](https://oeis.org/A052169) ([program](/edit/?oeis=52169)): Equivalent of the Kurepa hypothesis for left factorial.
+* [A052173](https://oeis.org/A052173) ([program](/edit/?oeis=52173)): Another version of the Catalan triangle A008315.
 * [A052177](https://oeis.org/A052177) ([program](/edit/?oeis=52177)): Number of walks on simple cubic lattice (starting on the xy plane, never going below it and finishing a height 1 above it).
 * [A052178](https://oeis.org/A052178) ([program](/edit/?oeis=52178)): Number of walks of length n on the simple cubic lattice terminating at height 2 above the (x,y)-plane.
 * [A052181](https://oeis.org/A052181) ([program](/edit/?oeis=52181)): Partial sums of A050483.
@@ -534,7 +570,6 @@ List of integer sequences with links to LODA programs.
 * [A052282](https://oeis.org/A052282) ([program](/edit/?oeis=52282)): Number of 3 X 3 stochastic matrices under row and column permutations.
 * [A052288](https://oeis.org/A052288) ([program](/edit/?oeis=52288)): First differences of the average of two consecutive primes (A024675).
 * [A052295](https://oeis.org/A052295) ([program](/edit/?oeis=52295)): a(n) = (n\*(n+1)/2)!.
-* [A052297](https://oeis.org/A052297) ([program](/edit/?oeis=52297)): Number of distinct prime factors of all composite numbers between n-th and (n+1)st primes.
 * [A052332](https://oeis.org/A052332) ([program](/edit/?oeis=52332)): Number of labeled digraphs where every node has indegree 0 or outdegree 0 and no isolated nodes.
 * [A052333](https://oeis.org/A052333) ([program](/edit/?oeis=52333)): Riesel problem: start with n; repeatedly double and add 1 until reach a prime. Sequence gives prime reached, or 0 if no prime is ever reached.
 * [A052338](https://oeis.org/A052338) ([program](/edit/?oeis=52338)): a(n) = A050443(n-th prime)/(n-th prime).
@@ -595,6 +630,7 @@ List of integer sequences with links to LODA programs.
 * [A052519](https://oeis.org/A052519) ([program](/edit/?oeis=52519)): Number of pairs of cycles of cardinality at least 3.
 * [A052520](https://oeis.org/A052520) ([program](/edit/?oeis=52520)): Number of pairs of sequences of cardinality at least 2.
 * [A052521](https://oeis.org/A052521) ([program](/edit/?oeis=52521)): Number of pairs of sequences of cardinality at least 3.
+* [A052524](https://oeis.org/A052524) ([program](/edit/?oeis=52524)): Number of ordered labeled rooted trees on n nodes with non-leaf nodes having more than two children.
 * [A052527](https://oeis.org/A052527) ([program](/edit/?oeis=52527)): Expansion of (1-x)/(1-x-x^2-x^3+x^4).
 * [A052528](https://oeis.org/A052528) ([program](/edit/?oeis=52528)): Expansion of (1 - x)/(1 - 2\*x - 2\*x^2 + 2\*x^3).
 * [A052529](https://oeis.org/A052529) ([program](/edit/?oeis=52529)): Expansion of (1-x)^3/(1 - 4\*x + 3\*x^2 - x^3).
@@ -737,35 +773,35 @@ List of integer sequences with links to LODA programs.
 * [A052666](https://oeis.org/A052666) ([program](/edit/?oeis=52666)): E.g.f. 1/(1-x-3x^2).
 * [A052667](https://oeis.org/A052667) ([program](/edit/?oeis=52667)): E.g.f. 1/(1-2x-x^4).
 * [A052668](https://oeis.org/A052668) ([program](/edit/?oeis=52668)): E.g.f. 1/(1-3x-x^3).
-* [A052669](https://oeis.org/A052669) ([program](/edit/?oeis=52669)): E.g.f. (1-2x)/(1-3x-x^2+2x^3).
-* [A052670](https://oeis.org/A052670) ([program](/edit/?oeis=52670)): E.g.f. x^2/(1-4x).
-* [A052671](https://oeis.org/A052671) ([program](/edit/?oeis=52671)): E.g.f. x^3\*(1-x)/(1-2x).
-* [A052672](https://oeis.org/A052672) ([program](/edit/?oeis=52672)): E.g.f. (1-x)/(1-x-2x^2+x^3).
+* [A052669](https://oeis.org/A052669) ([program](/edit/?oeis=52669)): Expansion of e.g.f. (1-2\*x)/(1-3\*x-x^2+2\*x^3).
+* [A052670](https://oeis.org/A052670) ([program](/edit/?oeis=52670)): Expansion of e.g.f. x^2/(1-4\*x).
+* [A052671](https://oeis.org/A052671) ([program](/edit/?oeis=52671)): Expansion of e.g.f. x^3\*(1-x)/(1-2\*x).
+* [A052672](https://oeis.org/A052672) ([program](/edit/?oeis=52672)): Expansion of e.g.f. (1-x)/(1-x-2\*x^2+x^3).
 * [A052673](https://oeis.org/A052673) ([program](/edit/?oeis=52673)): a(n) = 3\*n\*n!.
-* [A052674](https://oeis.org/A052674) ([program](/edit/?oeis=52674)): E.g.f. (1-x)/(1-3x-2x^2+2x^3).
-* [A052675](https://oeis.org/A052675) ([program](/edit/?oeis=52675)): E.g.f. (1-x)/(1-5x).
-* [A052676](https://oeis.org/A052676) ([program](/edit/?oeis=52676)): E.g.f. 3\*x/(1 - 2\*x).
-* [A052677](https://oeis.org/A052677) ([program](/edit/?oeis=52677)): E.g.f. (1-x)/(1-4x+x^2).
-* [A052678](https://oeis.org/A052678) ([program](/edit/?oeis=52678)): E.g.f. x^3/(1-3x).
-* [A052679](https://oeis.org/A052679) ([program](/edit/?oeis=52679)): E.g.f. (1-x^2)/(1-x^2-x^3).
-* [A052680](https://oeis.org/A052680) ([program](/edit/?oeis=52680)): E.g.f. (1-2x)/(1-4x+2x^2).
-* [A052681](https://oeis.org/A052681) ([program](/edit/?oeis=52681)): E.g.f. (1-x)/(1-x-x^2-2x^3+2x^4).
-* [A052682](https://oeis.org/A052682) ([program](/edit/?oeis=52682)): E.g.f. (1-x)/(1-x-3x^2).
-* [A052683](https://oeis.org/A052683) ([program](/edit/?oeis=52683)): E.g.f. 2x^4/(1-x).
-* [A052684](https://oeis.org/A052684) ([program](/edit/?oeis=52684)): E.g.f. 1/(1-2x^2-x^3).
-* [A052685](https://oeis.org/A052685) ([program](/edit/?oeis=52685)): E.g.f. (1-x^2)/(1-x-2x^2+x^4).
-* [A052686](https://oeis.org/A052686) ([program](/edit/?oeis=52686)): E.g.f. x^2\*(1+3x-3x^2)/(1-x).
-* [A052687](https://oeis.org/A052687) ([program](/edit/?oeis=52687)): E.g.f. (1+x-x^3)/((1-x)(1-x^2)).
-* [A052688](https://oeis.org/A052688) ([program](/edit/?oeis=52688)): E.g.f. x/((1-x)(1-x^3)).
-* [A052689](https://oeis.org/A052689) ([program](/edit/?oeis=52689)): E.g.f. (1+x-x^2)/((1-x)(1-x^2)).
-* [A052690](https://oeis.org/A052690) ([program](/edit/?oeis=52690)): E.g.f. x\*(1+x-3x^2)/(1-3x).
-* [A052691](https://oeis.org/A052691) ([program](/edit/?oeis=52691)): E.g.f. (1-x)/(1-2x+x^2-x^3).
-* [A052692](https://oeis.org/A052692) ([program](/edit/?oeis=52692)): E.g.f. (1-x^4)/(1-x-x^4).
-* [A052693](https://oeis.org/A052693) ([program](/edit/?oeis=52693)): E.g.f. (1-x)/(1-3x+x^3).
-* [A052694](https://oeis.org/A052694) ([program](/edit/?oeis=52694)): E.g.f. (1+x^3-2x^4)/(1-2x).
-* [A052695](https://oeis.org/A052695) ([program](/edit/?oeis=52695)): E.g.f. (2-5x)/((1-4x)(1-x)).
-* [A052696](https://oeis.org/A052696) ([program](/edit/?oeis=52696)): E.g.f. (1-x)^2/(1-4x+3x^2-x^3).
-* [A052697](https://oeis.org/A052697) ([program](/edit/?oeis=52697)): E.g.f. 1/(1-x^3-x^4).
+* [A052674](https://oeis.org/A052674) ([program](/edit/?oeis=52674)): Expansion of e.g.f. (1-x)/(1-3\*x-2\*x^2+2\*x^3).
+* [A052675](https://oeis.org/A052675) ([program](/edit/?oeis=52675)): Expansion of e.g.f. (1-x)/(1-5\*x).
+* [A052676](https://oeis.org/A052676) ([program](/edit/?oeis=52676)): Expansion of e.g.f. 3\*x/(1 - 2\*x).
+* [A052677](https://oeis.org/A052677) ([program](/edit/?oeis=52677)): Expansion of e.g.f. (1-x)/(1-4\*x+x^2).
+* [A052678](https://oeis.org/A052678) ([program](/edit/?oeis=52678)): Expansion of e.g.f. x^3/(1-3\*x).
+* [A052679](https://oeis.org/A052679) ([program](/edit/?oeis=52679)): Expansion of e.g.f. (1-x^2)/(1-x^2-x^3).
+* [A052680](https://oeis.org/A052680) ([program](/edit/?oeis=52680)): Expansion of e.g.f. (1-2\*x)/(1-4\*x+2\*x^2).
+* [A052681](https://oeis.org/A052681) ([program](/edit/?oeis=52681)): Expansion of e.g.f. (1-x)/(1 - x - x^2 - 2\*x^3 + 2\*x^4).
+* [A052682](https://oeis.org/A052682) ([program](/edit/?oeis=52682)): Expansion of e.g.f. (1-x)/(1-x-3\*x^2).
+* [A052683](https://oeis.org/A052683) ([program](/edit/?oeis=52683)): Expansion of e.g.f. 2\*x^4/(1-x).
+* [A052684](https://oeis.org/A052684) ([program](/edit/?oeis=52684)): Expansion of e.g.f. 1/(1-2\*x^2-x^3).
+* [A052685](https://oeis.org/A052685) ([program](/edit/?oeis=52685)): Expansion of e.g.f. (1-x^2)/(1-x-2\*x^2+x^4).
+* [A052686](https://oeis.org/A052686) ([program](/edit/?oeis=52686)): Expansion of e.g.f. x^2\*(1+3\*x-3\*x^2)/(1-x).
+* [A052687](https://oeis.org/A052687) ([program](/edit/?oeis=52687)): Expansion of e.g.f. (1+x-x^3)/((1-x)\*(1-x^2)).
+* [A052688](https://oeis.org/A052688) ([program](/edit/?oeis=52688)): Expansion of e.g.f. x/((1-x)\*(1-x^3)).
+* [A052689](https://oeis.org/A052689) ([program](/edit/?oeis=52689)): Expansion of e.g.f. (1+x-x^2)/((1-x)\*(1-x^2)).
+* [A052690](https://oeis.org/A052690) ([program](/edit/?oeis=52690)): Expansion of e.g.f. x\*(1+x-3\*x^2)/(1-3\*x).
+* [A052691](https://oeis.org/A052691) ([program](/edit/?oeis=52691)): Expansion of e.g.f. (1-x)/(1-2\*x+x^2-x^3).
+* [A052692](https://oeis.org/A052692) ([program](/edit/?oeis=52692)): Expansion of e.g.f. (1-x^4)/(1-x-x^4).
+* [A052693](https://oeis.org/A052693) ([program](/edit/?oeis=52693)): Expansion of e.g.f. (1-x)/(1-3\*x+x^3).
+* [A052694](https://oeis.org/A052694) ([program](/edit/?oeis=52694)): Expansion of e.g.f. (1 + x^3 - 2\*x^4)/(1-2\*x).
+* [A052695](https://oeis.org/A052695) ([program](/edit/?oeis=52695)): Expansion of e.g.f. (2-5\*x)/((1-x)\*(1-4\*x)).
+* [A052696](https://oeis.org/A052696) ([program](/edit/?oeis=52696)): Expansion of e.g.f. (1-x)^2/(1-4\*x+3\*x^2-x^3).
+* [A052697](https://oeis.org/A052697) ([program](/edit/?oeis=52697)): Expansion of e.g.f. 1/(1-x^3-x^4).
 * [A052698](https://oeis.org/A052698) ([program](/edit/?oeis=52698)): Expansion of e.g.f. x/((1-x)\*(1-3\*x)).
 * [A052699](https://oeis.org/A052699) ([program](/edit/?oeis=52699)): Expansion of e.g.f. (1+x^5-x^6)/(1-x).
 * [A052700](https://oeis.org/A052700) ([program](/edit/?oeis=52700)): Expansion of e.g.f. x\*(1-x)/(1-3\*x).
@@ -800,7 +836,9 @@ List of integer sequences with links to LODA programs.
 * [A052736](https://oeis.org/A052736) ([program](/edit/?oeis=52736)): E.g.f. [1 -3x -sqrt(1-6x+x^2) -x\*(1-x-sqrt(1-6x+x^2)) ]/2.
 * [A052737](https://oeis.org/A052737) ([program](/edit/?oeis=52737)): a(n) = ((2\*n)!/n!)\*2^(2\*n+1).
 * [A052739](https://oeis.org/A052739) ([program](/edit/?oeis=52739)): E.g.f. (1-sqrt(1-4x-4x^2))/2 -x\*(1+x).
+* [A052740](https://oeis.org/A052740) ([program](/edit/?oeis=52740)): A simple context-free grammar in a labeled universe.
 * [A052741](https://oeis.org/A052741) ([program](/edit/?oeis=52741)): A simple context-free grammar in a labeled universe.
+* [A052742](https://oeis.org/A052742) ([program](/edit/?oeis=52742)): A simple context-free grammar in a labeled universe.
 * [A052743](https://oeis.org/A052743) ([program](/edit/?oeis=52743)): E.g.f. ( 1-x-sqrt(1-2\*x+x^2-4\*x^3) )/(2\*x^2).
 * [A052744](https://oeis.org/A052744) ([program](/edit/?oeis=52744)): E.g.f. x\*(1-2\*x-2\*x^2-sqrt(1-4\*x-4\*x^2))/ (2\*(1+x)^2).
 * [A052745](https://oeis.org/A052745) ([program](/edit/?oeis=52745)): A simple grammar.
@@ -850,6 +888,7 @@ List of integer sequences with links to LODA programs.
 * [A052823](https://oeis.org/A052823) ([program](/edit/?oeis=52823)): A simple grammar: cycles of pairs of sequences.
 * [A052825](https://oeis.org/A052825) ([program](/edit/?oeis=52825)): A simple grammar.
 * [A052832](https://oeis.org/A052832) ([program](/edit/?oeis=52832)): A simple grammar.
+* [A052834](https://oeis.org/A052834) ([program](/edit/?oeis=52834)): a(n) = Bell(n+1)-Bell(n)-1, n>0.
 * [A052838](https://oeis.org/A052838) ([program](/edit/?oeis=52838)): Expansion of e.g.f.: (exp(x/(1-x)) - 1)^2.
 * [A052840](https://oeis.org/A052840) ([program](/edit/?oeis=52840)): A simple grammar.
 * [A052841](https://oeis.org/A052841) ([program](/edit/?oeis=52841)): E.g.f.: 1/(exp(x)\*(2-exp(x))).
@@ -870,13 +909,15 @@ List of integer sequences with links to LODA programs.
 * [A052873](https://oeis.org/A052873) ([program](/edit/?oeis=52873)): E.g.f. satisfies: A(x) = exp(x\*A(x)/(1 - x\*A(x))).
 * [A052874](https://oeis.org/A052874) ([program](/edit/?oeis=52874)): E.g.f.: -x/(-1+x)\*(exp(-x/(-1+x))-1).
 * [A052875](https://oeis.org/A052875) ([program](/edit/?oeis=52875)): E.g.f.: (exp(x)-1)^2/(2-exp(x)).
-* [A052876](https://oeis.org/A052876) ([program](/edit/?oeis=52876)): A simple grammar.
+* [A052876](https://oeis.org/A052876) ([program](/edit/?oeis=52876)): Expansion of e.g.f. (exp(x)-1)^2/(-2+exp(x))^2.
 * [A052877](https://oeis.org/A052877) ([program](/edit/?oeis=52877)): E.g.f.: exp(x)-1+log(-1/(-2+exp(x))).
 * [A052878](https://oeis.org/A052878) ([program](/edit/?oeis=52878)): E.g.f.: log((1-x)/(1-3\*x+x^2)).
 * [A052881](https://oeis.org/A052881) ([program](/edit/?oeis=52881)): E.g.f.: log(1/(1-x))\*x/(1-x).
 * [A052882](https://oeis.org/A052882) ([program](/edit/?oeis=52882)): A simple grammar: rooted ordered set partitions.
+* [A052883](https://oeis.org/A052883) ([program](/edit/?oeis=52883)): Expansion of e.g.f.: log((-1+x)/(-1+2\*x))^2.
 * [A052885](https://oeis.org/A052885) ([program](/edit/?oeis=52885)): E.g.f. A(x) is inverse to F(x) = x\*exp(-x)/(1+x).
 * [A052887](https://oeis.org/A052887) ([program](/edit/?oeis=52887)): Expansion of e.g.f.: exp(x^2/(1 - x)^2).
+* [A052889](https://oeis.org/A052889) ([program](/edit/?oeis=52889)): Number of rooted set partitions.
 * [A052897](https://oeis.org/A052897) ([program](/edit/?oeis=52897)): Expansion of e.g.f.: exp(2\*x/(1-x)).
 * [A052898](https://oeis.org/A052898) ([program](/edit/?oeis=52898)): 2\*n! + 1.
 * [A052899](https://oeis.org/A052899) ([program](/edit/?oeis=52899)): Expansion of g.f.: ( 1-2\*x ) / ((x-1)\*(4\*x^2+2\*x-1)).
@@ -979,16 +1020,16 @@ List of integer sequences with links to LODA programs.
 * [A053000](https://oeis.org/A053000) ([program](/edit/?oeis=53000)): a(n) = (smallest prime > n^2) - n^2.
 * [A053001](https://oeis.org/A053001) ([program](/edit/?oeis=53001)): Largest prime < n^2.
 * [A053004](https://oeis.org/A053004) ([program](/edit/?oeis=53004)): Decimal expansion of AGM(1,sqrt(2)).
+* [A053005](https://oeis.org/A053005) ([program](/edit/?oeis=53005)): Denominator of beta(2n+1)/Pi^(2n+1), where beta(m) = Sum\_\{k=0..inf\} (-1)^k/(2k+1)^m.
 * [A053006](https://oeis.org/A053006) ([program](/edit/?oeis=53006)): Values of n for which there exist d(1),...,d(n), each in \{0,1\}, such that Sum[d(i)d(i+k),i=1,n-k] is odd for all k=0,...,n-1.
-* [A053023](https://oeis.org/A053023) ([program](/edit/?oeis=53023)): Divisor function applied thrice to n!.
 * [A053024](https://oeis.org/A053024) ([program](/edit/?oeis=53024)): a(n) = n\*p where p is the next prime >= n.
-* [A053025](https://oeis.org/A053025) ([program](/edit/?oeis=53025)): Number of iterations of A000005 required to reach 2 when started at n!.
 * [A053041](https://oeis.org/A053041) ([program](/edit/?oeis=53041)): Smallest n-digit number divisible by n.
 * [A053042](https://oeis.org/A053042) ([program](/edit/?oeis=53042)): a(n) = n^n + n!.
 * [A053044](https://oeis.org/A053044) ([program](/edit/?oeis=53044)): a(n) is the number of iterations of the Euler totient function to reach 1, starting at n!.
 * [A053046](https://oeis.org/A053046) ([program](/edit/?oeis=53046)): EulerPhi is iterated with initial value n!; a(n) = number of terms that are not powers of 2 among the iterates.
 * [A053061](https://oeis.org/A053061) ([program](/edit/?oeis=53061)): a(n) is the decimal concatenation of n and n^2.
 * [A053062](https://oeis.org/A053062) ([program](/edit/?oeis=53062)): Concatenate n, 2n, 3n, ... nn.
+* [A053067](https://oeis.org/A053067) ([program](/edit/?oeis=53067)): a(n) is the concatenation of next n numbers (omit leading 0's).
 * [A053088](https://oeis.org/A053088) ([program](/edit/?oeis=53088)): a(n) = 3\*a(n-2) + 2\*a(n-3) for n > 2, a(0)=1, a(1)=0, a(2)=3.
 * [A053089](https://oeis.org/A053089) ([program](/edit/?oeis=53089)): a(n) = prime(n)^prime(n+1).
 * [A053090](https://oeis.org/A053090) ([program](/edit/?oeis=53090)): Number of F^3-convex polyominoes on honeycomb lattice with given semiperimeter.
@@ -1012,7 +1053,9 @@ List of integer sequences with links to LODA programs.
 * [A053115](https://oeis.org/A053115) ([program](/edit/?oeis=53115)): a(n) = ((8\*n+10)(!^8))/20, related to A034908 ((8\*n+2)(!^8) octo- or 8-factorials).
 * [A053116](https://oeis.org/A053116) ([program](/edit/?oeis=53116)): a(n) = ((9\*n+10)(!^9))/10, related to A045756 ((9\*n+1)(!^9) 9-factorials).
 * [A053117](https://oeis.org/A053117) ([program](/edit/?oeis=53117)): Triangle read by rows of coefficients of Chebyshev's U(n,x) polynomials (exponents in increasing order).
+* [A053118](https://oeis.org/A053118) ([program](/edit/?oeis=53118)): Triangle of coefficients of Chebyshev's U(n,x) polynomials (exponents in decreasing order).
 * [A053119](https://oeis.org/A053119) ([program](/edit/?oeis=53119)): Triangle of coefficients of Chebyshev's S(n,x) polynomials (exponents in decreasing order).
+* [A053121](https://oeis.org/A053121) ([program](/edit/?oeis=53121)): Catalan triangle (with 0's) read by rows.
 * [A053122](https://oeis.org/A053122) ([program](/edit/?oeis=53122)): Triangle of coefficients of Chebyshev's S(n,x-2) = U(n,x/2-1) polynomials (exponents of x in increasing order).
 * [A053123](https://oeis.org/A053123) ([program](/edit/?oeis=53123)): Triangle of coefficients of shifted Chebyshev's S(n,x-2)= U(n,x/2-1) polynomials (exponents of x in decreasing order).
 * [A053124](https://oeis.org/A053124) ([program](/edit/?oeis=53124)): Triangle of coefficients of Chebyshev's U(n,2\*x-1) polynomials (exponents of x in increasing order).
@@ -1042,6 +1085,7 @@ List of integer sequences with links to LODA programs.
 * [A053156](https://oeis.org/A053156) ([program](/edit/?oeis=53156)): Number of 2-element intersecting families (with not necessary distinct sets) whose union is an n-element set.
 * [A053158](https://oeis.org/A053158) ([program](/edit/?oeis=53158)): Sum of n and its cototient function value (A051953): a(n) = 2\*n - phi(n), where phi is Euler phi.
 * [A053164](https://oeis.org/A053164) ([program](/edit/?oeis=53164)): 4th root of largest 4th power dividing n.
+* [A053165](https://oeis.org/A053165) ([program](/edit/?oeis=53165)): 4th-power-free part of n.
 * [A053166](https://oeis.org/A053166) ([program](/edit/?oeis=53166)): Smallest positive integer for which n divides a(n)^4.
 * [A053167](https://oeis.org/A053167) ([program](/edit/?oeis=53167)): Smallest 4th power divisible by n.
 * [A053175](https://oeis.org/A053175) ([program](/edit/?oeis=53175)): Catalan-Larcombe-French sequence.
@@ -1065,6 +1109,7 @@ List of integer sequences with links to LODA programs.
 * [A053203](https://oeis.org/A053203) ([program](/edit/?oeis=53203)): Pascal's triangle (excluding first, last three elements of each row) read by rows, row n read mod n.
 * [A053204](https://oeis.org/A053204) ([program](/edit/?oeis=53204)): Row sums of A053200.
 * [A053205](https://oeis.org/A053205) ([program](/edit/?oeis=53205)): Row sums of A053201.
+* [A053206](https://oeis.org/A053206) ([program](/edit/?oeis=53206)): Row sums of A053203.
 * [A053208](https://oeis.org/A053208) ([program](/edit/?oeis=53208)): Row sums of A053207.
 * [A053209](https://oeis.org/A053209) ([program](/edit/?oeis=53209)): Row sums of A051598.
 * [A053210](https://oeis.org/A053210) ([program](/edit/?oeis=53210)): Row sums of A051599.
@@ -1075,6 +1120,7 @@ List of integer sequences with links to LODA programs.
 * [A053221](https://oeis.org/A053221) ([program](/edit/?oeis=53221)): Row sums of triangle A053218.
 * [A053222](https://oeis.org/A053222) ([program](/edit/?oeis=53222)): First differences of sigma(n).
 * [A053223](https://oeis.org/A053223) ([program](/edit/?oeis=53223)): Second differences of sigma(n).
+* [A053226](https://oeis.org/A053226) ([program](/edit/?oeis=53226)): Numbers k for which sigma(k) > sigma(k+1).
 * [A053246](https://oeis.org/A053246) ([program](/edit/?oeis=53246)): First differences of chowla(n).
 * [A053290](https://oeis.org/A053290) ([program](/edit/?oeis=53290)): Number of nonsingular n X n matrices over GF(3).
 * [A053291](https://oeis.org/A053291) ([program](/edit/?oeis=53291)): Nonsingular n X n matrices over GF(4).
@@ -1142,10 +1188,12 @@ List of integer sequences with links to LODA programs.
 * [A053436](https://oeis.org/A053436) ([program](/edit/?oeis=53436)): a(n) = n+1 + ceiling(n/2)\*(ceiling(n/2)-1)\*(ceiling(n/2)+1)/6.
 * [A053438](https://oeis.org/A053438) ([program](/edit/?oeis=53438)): Expansion of (1+x+2\*x^3)/((1-x)\*(1-x^2)).
 * [A053439](https://oeis.org/A053439) ([program](/edit/?oeis=53439)): Expansion of (1+x+2\*x^3)/((1-x)\*(1-x^2)^2).
+* [A053441](https://oeis.org/A053441) ([program](/edit/?oeis=53441)): Moments of generalized Motzkin paths.
 * [A053442](https://oeis.org/A053442) ([program](/edit/?oeis=53442)): Moments of generalized Motzkin paths.
 * [A053446](https://oeis.org/A053446) ([program](/edit/?oeis=53446)): Multiplicative order of 3 mod m, where gcd(m, 3) = 1.
 * [A053447](https://oeis.org/A053447) ([program](/edit/?oeis=53447)): Multiplicative order of 4 mod 2n+1.
 * [A053448](https://oeis.org/A053448) ([program](/edit/?oeis=53448)): Multiplicative order of 5 mod m, where gcd(m, 5) = 1.
+* [A053449](https://oeis.org/A053449) ([program](/edit/?oeis=53449)): Multiplicative order of 6 mod n, where gcd(n, 6) = 1.
 * [A053451](https://oeis.org/A053451) ([program](/edit/?oeis=53451)): Multiplicative order of 8 mod 2n+1.
 * [A053452](https://oeis.org/A053452) ([program](/edit/?oeis=53452)): Multiplicative order of 9 mod n, where gcd(n, 9) = 1.
 * [A053453](https://oeis.org/A053453) ([program](/edit/?oeis=53453)): Duplicate of A002329.
@@ -1191,6 +1239,7 @@ List of integer sequences with links to LODA programs.
 * [A053557](https://oeis.org/A053557) ([program](/edit/?oeis=53557)): Numerator of Sum\_\{k=0..n\} (-1)^k/k!.
 * [A053565](https://oeis.org/A053565) ([program](/edit/?oeis=53565)): a(n) = 2^(n-1)\*(3\*n-4).
 * [A053566](https://oeis.org/A053566) ([program](/edit/?oeis=53566)): Expansion of (11\*x-2)/(1-3\*x)^2.
+* [A053570](https://oeis.org/A053570) ([program](/edit/?oeis=53570)): Sum of totient functions over arguments running through reduced residue system of n.
 * [A053573](https://oeis.org/A053573) ([program](/edit/?oeis=53573)): a(n) = 5\*a(n-1) + 14\*a(n-2), a(0)=1, a(1)=5.
 * [A053574](https://oeis.org/A053574) ([program](/edit/?oeis=53574)): Exponent of 2 in phi(n) where phi(n) = A000010(n).
 * [A053575](https://oeis.org/A053575) ([program](/edit/?oeis=53575)): Odd part of phi(n): a(n) = A000265(A000010(n)).
@@ -1225,6 +1274,7 @@ List of integer sequences with links to LODA programs.
 * [A053654](https://oeis.org/A053654) ([program](/edit/?oeis=53654)): Multiples of 123456789.
 * [A053655](https://oeis.org/A053655) ([program](/edit/?oeis=53655)): a(n) = (10^n - 1)\*(10^(2\*n-1) - 1)/81.
 * [A053656](https://oeis.org/A053656) ([program](/edit/?oeis=53656)): Number of cyclic graphs with oriented edges on n nodes (up to symmetry of dihedral group).
+* [A053657](https://oeis.org/A053657) ([program](/edit/?oeis=53657)): a(n) = Product\_\{p prime\} p^\{ Sum\_\{k>= 0\} floor[(n-1)/((p-1)p^k)]\}.
 * [A053661](https://oeis.org/A053661) ([program](/edit/?oeis=53661)): For n > 1: if n is present, 2n is not.
 * [A053666](https://oeis.org/A053666) ([program](/edit/?oeis=53666)): Product of digits of n-th prime.
 * [A053667](https://oeis.org/A053667) ([program](/edit/?oeis=53667)): Product of digits of n^2.
@@ -1245,6 +1295,7 @@ List of integer sequences with links to LODA programs.
 * [A053717](https://oeis.org/A053717) ([program](/edit/?oeis=53717)): a(n) = n^7 + n^6 + n^5 + n^4 + n^3 + n^2 + n + 1.
 * [A053723](https://oeis.org/A053723) ([program](/edit/?oeis=53723)): Number of 5-core partitions of n.
 * [A053726](https://oeis.org/A053726) ([program](/edit/?oeis=53726)): "Flag numbers": number of dots that can be arranged in successive rows of K, K-1, K, K-1, K, ..., K-1, K (assuming there is a total of L > 1 rows of size K > 1).
+* [A053728](https://oeis.org/A053728) ([program](/edit/?oeis=53728)): For n=1,2,3,..., compute sum of aliquot divisors of n; if result is prime append this prime to sequence.
 * [A053729](https://oeis.org/A053729) ([program](/edit/?oeis=53729)): Self-convolution of 1,4,27,256,3125,46656,... (cf. A000312).
 * [A053730](https://oeis.org/A053730) ([program](/edit/?oeis=53730)): a(n) = 2^(n-2)\*(n^2 - n + 4).
 * [A053731](https://oeis.org/A053731) ([program](/edit/?oeis=53731)): a(n) = ceiling(binomial(n,8)/n).
@@ -1268,6 +1319,7 @@ List of integer sequences with links to LODA programs.
 * [A053793](https://oeis.org/A053793) ([program](/edit/?oeis=53793)): n^2+n modulo 7.
 * [A053794](https://oeis.org/A053794) ([program](/edit/?oeis=53794)): a(n) = (n^2 + n) modulo 8.
 * [A053796](https://oeis.org/A053796) ([program](/edit/?oeis=53796)): a(n) = (n^2+n) modulo 5.
+* [A053797](https://oeis.org/A053797) ([program](/edit/?oeis=53797)): Lengths of successive gaps between squarefree numbers.
 * [A053798](https://oeis.org/A053798) ([program](/edit/?oeis=53798)): Number of basis partitions of n+16 with Durfee square size 4.
 * [A053799](https://oeis.org/A053799) ([program](/edit/?oeis=53799)): Number of basis partitions of n+9 with Durfee square size 3.
 * [A053800](https://oeis.org/A053800) ([program](/edit/?oeis=53800)): Number of basis partitions of n+25 with Durfee square size 5.
@@ -1302,6 +1354,7 @@ List of integer sequences with links to LODA programs.
 * [A053844](https://oeis.org/A053844) ([program](/edit/?oeis=53844)): (Sum of digits of n written in base 9) modulo 9.
 * [A053850](https://oeis.org/A053850) ([program](/edit/?oeis=53850)): Odd numbers divisible by a square > 1.
 * [A053858](https://oeis.org/A053858) ([program](/edit/?oeis=53858)): Squarefree even composite numbers with an odd number of prime factors.
+* [A053864](https://oeis.org/A053864) ([program](/edit/?oeis=53864)): A second order generalization of the Mobius function of n.
 * [A053866](https://oeis.org/A053866) ([program](/edit/?oeis=53866)): Parity of A000203(n), the sum of the divisors of n; a(n) = 1 when n is a square or twice a square, 0 otherwise.
 * [A053867](https://oeis.org/A053867) ([program](/edit/?oeis=53867)): Parity of sum of divisors of n less than n.
 * [A053868](https://oeis.org/A053868) ([program](/edit/?oeis=53868)): Numbers whose sum of proper divisors is odd.
@@ -1320,6 +1373,8 @@ List of integer sequences with links to LODA programs.
 * [A054008](https://oeis.org/A054008) ([program](/edit/?oeis=54008)): n read modulo (number of divisors of n).
 * [A054009](https://oeis.org/A054009) ([program](/edit/?oeis=54009)): n read modulo (number of proper divisors of n).
 * [A054010](https://oeis.org/A054010) ([program](/edit/?oeis=54010)): Numbers n with property that n is divisible by the number of its proper divisors.
+* [A054011](https://oeis.org/A054011) ([program](/edit/?oeis=54011)): n is not divisible by the number of its proper divisors.
+* [A054012](https://oeis.org/A054012) ([program](/edit/?oeis=54012)): Nonzero values of n read modulo (number of proper divisors of n).
 * [A054013](https://oeis.org/A054013) ([program](/edit/?oeis=54013)): Chowla function of n read modulo n.
 * [A054014](https://oeis.org/A054014) ([program](/edit/?oeis=54014)): Chowla function of n read modulo (the number of divisors of n).
 * [A054015](https://oeis.org/A054015) ([program](/edit/?oeis=54015)): a(n) is Chowla function of n read modulo (number of proper divisors of n), a(1) = 0 by convention.
@@ -1363,6 +1418,7 @@ List of integer sequences with links to LODA programs.
 * [A054108](https://oeis.org/A054108) ([program](/edit/?oeis=54108)): a(n) = (-1)^(n+1)\*Sum\_\{k=0..n+1\}(-1)^k\*binomial(2\*k,k).
 * [A054109](https://oeis.org/A054109) ([program](/edit/?oeis=54109)): a(n) = T(2\*n+1, n), array T as in A054106.
 * [A054111](https://oeis.org/A054111) ([program](/edit/?oeis=54111)): Row sums of array T as in A054110.
+* [A054112](https://oeis.org/A054112) ([program](/edit/?oeis=54112)): T(n,n-3), array T as in A054110.
 * [A054113](https://oeis.org/A054113) ([program](/edit/?oeis=54113)): T(2n,n), array T as in A054110.
 * [A054114](https://oeis.org/A054114) ([program](/edit/?oeis=54114)): T(2n+1,n), array T as in A054110.
 * [A054115](https://oeis.org/A054115) ([program](/edit/?oeis=54115)): Triangular array generated by its row sums: T(n,0)=1 for n >= 1, T(n,1)=r(n-1), T(n,k)=T(n,k-1)+r(n-k) for k=2,3,...,n, n >= 2, r(h)=sum of the numbers in row h of T.
@@ -1380,7 +1436,7 @@ List of integer sequences with links to LODA programs.
 * [A054131](https://oeis.org/A054131) ([program](/edit/?oeis=54131)): T(2n,n), array T as in A054126.
 * [A054132](https://oeis.org/A054132) ([program](/edit/?oeis=54132)): T(2n+1,n), array T as in A054126.
 * [A054133](https://oeis.org/A054133) ([program](/edit/?oeis=54133)): T(2n-1,n) where T is the array in A054126.
-* [A054135](https://oeis.org/A054135) ([program](/edit/?oeis=54135)): T(n,1), array T as in A054134.
+* [A054135](https://oeis.org/A054135) ([program](/edit/?oeis=54135)): a(n) = T(n,1), array T as in A054134.
 * [A054136](https://oeis.org/A054136) ([program](/edit/?oeis=54136)): T(n,2), array T as in A054134.
 * [A054137](https://oeis.org/A054137) ([program](/edit/?oeis=54137)): T(n,3), array T as in A054134.
 * [A054138](https://oeis.org/A054138) ([program](/edit/?oeis=54138)): T(n,4), array T as in A054134.
@@ -1456,12 +1512,14 @@ List of integer sequences with links to LODA programs.
 * [A054444](https://oeis.org/A054444) ([program](/edit/?oeis=54444)): Even-indexed terms of A001629(n), n >= 2, (Fibonacci convolution).
 * [A054445](https://oeis.org/A054445) ([program](/edit/?oeis=54445)): Triangle read by rows giving partial row sums of triangle A033184(n,m), n >= m >= 1 (Catalan triangle).
 * [A054447](https://oeis.org/A054447) ([program](/edit/?oeis=54447)): Row sums of triangle A054446 (partial row sums triangle of Fibonacci convolution triangle).
+* [A054450](https://oeis.org/A054450) ([program](/edit/?oeis=54450)): Triangle of partial row sums of unsigned triangle A049310(n,m), n >= m >= 0 (Chebyshev S-polynomials).
 * [A054451](https://oeis.org/A054451) ([program](/edit/?oeis=54451)): Third column of triangle A054450 (partial row sums of unsigned Chebyshev triangle A049310).
 * [A054452](https://oeis.org/A054452) ([program](/edit/?oeis=54452)): Partial sums of A027941(n-1) with a(-1) = 0.
 * [A054454](https://oeis.org/A054454) ([program](/edit/?oeis=54454)): Third column of triangle A054453.
 * [A054455](https://oeis.org/A054455) ([program](/edit/?oeis=54455)): Row sums of triangle A054453.
 * [A054457](https://oeis.org/A054457) ([program](/edit/?oeis=54457)): Pell numbers A000129(n+1) (without P(0)) convoluted twice with itself.
 * [A054459](https://oeis.org/A054459) ([program](/edit/?oeis=54459)): A001333(n), n >= 1, convolved with itself.
+* [A054460](https://oeis.org/A054460) ([program](/edit/?oeis=54460)): A001333(n), n >= 1, convolved twice with itself.
 * [A054469](https://oeis.org/A054469) ([program](/edit/?oeis=54469)): A second-order recursive sequence.
 * [A054470](https://oeis.org/A054470) ([program](/edit/?oeis=54470)): Partial sums of A054469.
 * [A054475](https://oeis.org/A054475) ([program](/edit/?oeis=54475)): Numbers not divisible by any of their digits when written in base 4.
@@ -1483,9 +1541,12 @@ List of integer sequences with links to LODA programs.
 * [A054497](https://oeis.org/A054497) ([program](/edit/?oeis=54497)): Number of symmetric nonnegative integer 7 X 7 matrices with sum of elements equal to 4\*n, under action of dihedral group D\_4.
 * [A054498](https://oeis.org/A054498) ([program](/edit/?oeis=54498)): Number of symmetric nonnegative integer 8 X 8 matrices with sum of elements equal to 4\*n, under action of dihedral group D\_4.
 * [A054514](https://oeis.org/A054514) ([program](/edit/?oeis=54514)): Number of ways to place non-crossing diagonals in convex (n+4)-gon so as to create no triangles or quadrilaterals.
+* [A054515](https://oeis.org/A054515) ([program](/edit/?oeis=54515)): Number of ways to place non-intersecting diagonals in convex (n+2)-gon so as to create no quadrilaterals.
 * [A054516](https://oeis.org/A054516) ([program](/edit/?oeis=54516)): Equivalent of the Kurepa hypothesis for left factorial.
 * [A054519](https://oeis.org/A054519) ([program](/edit/?oeis=54519)): Number of increasing arithmetic progressions of nonnegative integers ending in n, including those of length 1 or 2.
 * [A054521](https://oeis.org/A054521) ([program](/edit/?oeis=54521)): Triangle read by rows: T(n,k) = 1 if gcd(n, k) = 1, T(n,k) = 0 otherwise (n >= 1, 1 <= k <= n).
+* [A054522](https://oeis.org/A054522) ([program](/edit/?oeis=54522)): Triangle T(n,k): T(n,k) = phi(k) if k divides n, T(n,k)=0 otherwise (n >= 1, 1<=k<=n). T(n,k) = number of elements of order k in cyclic group of order n.
+* [A054524](https://oeis.org/A054524) ([program](/edit/?oeis=54524)): Triangle T(n,k): T(n,k) = mu(k) if k divides n, T(n,k)=0 otherwise (n >= 1, 1<=k<=n).
 * [A054526](https://oeis.org/A054526) ([program](/edit/?oeis=54526)): Triangle T(n,k): T(n,k) = phi(k) (n >= 1, 1 <= k <= n).
 * [A054527](https://oeis.org/A054527) ([program](/edit/?oeis=54527)): Triangle read by rows: T(n,k) = Moebius mu(k) (n >= 1, 1 <= k <= n).
 * [A054531](https://oeis.org/A054531) ([program](/edit/?oeis=54531)): Triangular array T read by rows: T(n,k) = n/gcd(n,k) (n >= 1, 1 <= k <= n).
@@ -1568,6 +1629,7 @@ List of integer sequences with links to LODA programs.
 * [A054763](https://oeis.org/A054763) ([program](/edit/?oeis=54763)): Residues of consecutive prime differences modulo 6.
 * [A054765](https://oeis.org/A054765) ([program](/edit/?oeis=54765)): a(n+2) = (2n+3)\*a(n+1) + (n+1)^2\*a(n), a(0) = 0, a(1) = 1.
 * [A054766](https://oeis.org/A054766) ([program](/edit/?oeis=54766)): a(n+2) = (2\*n + 3)\*a(n+1) + (n + 1)^2\*a(n), a(0) = 1, a(1) = 0.
+* [A054768](https://oeis.org/A054768) ([program](/edit/?oeis=54768)): a(n+2) = (2n+3)\*a(n+1) + (n+1)^2\*a(n).
 * [A054770](https://oeis.org/A054770) ([program](/edit/?oeis=54770)): Numbers that are not the sum of distinct Lucas numbers 1,3,4,7,11 ... (A000204).
 * [A054775](https://oeis.org/A054775) ([program](/edit/?oeis=54775)): Positive multiples of 6 which are not the midpoint of a pair of twin primes.
 * [A054776](https://oeis.org/A054776) ([program](/edit/?oeis=54776)): a(n) = 3\*n\*(3\*n-1)\*(3\*n-2).
@@ -1595,6 +1657,7 @@ List of integer sequences with links to LODA programs.
 * [A054880](https://oeis.org/A054880) ([program](/edit/?oeis=54880)): a(n) = 3\*(9^n - 1)/4.
 * [A054881](https://oeis.org/A054881) ([program](/edit/?oeis=54881)): Number of walks of length n along the edges of an octahedron starting and ending at a vertex and also ( with a(0)=0 ) between two opposite vertices.
 * [A054883](https://oeis.org/A054883) ([program](/edit/?oeis=54883)): Number of walks of length n along the edges of a dodecahedron between two opposite vertices.
+* [A054884](https://oeis.org/A054884) ([program](/edit/?oeis=54884)): Number of closed walks of length n along the edges of an icosahedron based at a vertex.
 * [A054885](https://oeis.org/A054885) ([program](/edit/?oeis=54885)): Number of walks of length n along the edges of an icosahedron between two opposite vertices.
 * [A054886](https://oeis.org/A054886) ([program](/edit/?oeis=54886)): Layer counting sequence for hyperbolic tessellation by cuspidal triangles of angles (Pi/3,Pi/3,0) (this is the classical modular tessellation).
 * [A054888](https://oeis.org/A054888) ([program](/edit/?oeis=54888)): Layer counting sequence for hyperbolic tessellation by regular pentagons of angle Pi/2.
@@ -1620,6 +1683,7 @@ List of integer sequences with links to LODA programs.
 * [A054977](https://oeis.org/A054977) ([program](/edit/?oeis=54977)): a(0)=2, a(n)=1, n >= 1.
 * [A054995](https://oeis.org/A054995) ([program](/edit/?oeis=54995)): A version of Josephus problem: a(n) is the surviving integer under the following elimination process. Arrange 1,2,3,...,n in a circle, increasing clockwise. Starting with i=1, delete the integer two places clockwise from i. Repeat, counting two places from the next undeleted integer, until only one integer remains.
 * [A055003](https://oeis.org/A055003) ([program](/edit/?oeis=55003)): a(n) = prime(prime(n)-1).
+* [A055004](https://oeis.org/A055004) ([program](/edit/?oeis=55004)): Boris Stechkin's function.
 * [A055010](https://oeis.org/A055010) ([program](/edit/?oeis=55010)): a(0) = 0; for n > 0, a(n) = 3\*2^(n-1) - 1.
 * [A055012](https://oeis.org/A055012) ([program](/edit/?oeis=55012)): Sum of cubes of the digits of n written in base 10.
 * [A055013](https://oeis.org/A055013) ([program](/edit/?oeis=55013)): Sum of 4th powers of digits of n.
@@ -1627,6 +1691,7 @@ List of integer sequences with links to LODA programs.
 * [A055015](https://oeis.org/A055015) ([program](/edit/?oeis=55015)): Sum of 6th powers of digits of n.
 * [A055022](https://oeis.org/A055022) ([program](/edit/?oeis=55022)): Number of 1-punctured staircase polygons (by perimeter) with a hole of perimeter 4.
 * [A055023](https://oeis.org/A055023) ([program](/edit/?oeis=55023)): a(n) = n/A055032(n).
+* [A055028](https://oeis.org/A055028) ([program](/edit/?oeis=55028)): Number of Gaussian primes of norm n.
 * [A055030](https://oeis.org/A055030) ([program](/edit/?oeis=55030)): (Sum(m^(p-1),m=1..p-1)+1)/p as p runs through the primes.
 * [A055032](https://oeis.org/A055032) ([program](/edit/?oeis=55032)): Denominator of (Sum(m^(n-1),m=1..n-1)+1)/n.
 * [A055033](https://oeis.org/A055033) ([program](/edit/?oeis=55033)): usigma(usigma(n)), where usigma(n) is the sum of unitary divisors of n (A034448).
@@ -1685,8 +1750,13 @@ List of integer sequences with links to LODA programs.
 * [A055210](https://oeis.org/A055210) ([program](/edit/?oeis=55210)): Sum of totients of square divisors of n.
 * [A055212](https://oeis.org/A055212) ([program](/edit/?oeis=55212)): Number of composite divisors of n.
 * [A055214](https://oeis.org/A055214) ([program](/edit/?oeis=55214)): a(0) = 1; a(n) = 2\*n\*a(n-1) - 1 for n >= 1.
+* [A055216](https://oeis.org/A055216) ([program](/edit/?oeis=55216)): Triangle T(n,k) by rows, n >= 0, 0<=k<=n: T(n,k) = Sum\_\{i=0..n-k\} binomial(n-k,i) \*Sum\_\{j=0..k-i\} binomial(i,j).
 * [A055217](https://oeis.org/A055217) ([program](/edit/?oeis=55217)): a(n) = sum of the first n coefficients of (1+x+x^2)^n.
 * [A055218](https://oeis.org/A055218) ([program](/edit/?oeis=55218)): a(n) = T(2\*n+2,n), array T as in A055216.
+* [A055219](https://oeis.org/A055219) ([program](/edit/?oeis=55219)): T(2n+3,n), array T as in A055216.
+* [A055220](https://oeis.org/A055220) ([program](/edit/?oeis=55220)): T(2n+4,n), array T as in A055216.
+* [A055221](https://oeis.org/A055221) ([program](/edit/?oeis=55221)): T(2n+5,n), array T as in A055216.
+* [A055222](https://oeis.org/A055222) ([program](/edit/?oeis=55222)): T(2n+6,n), array T as in A055216.
 * [A055223](https://oeis.org/A055223) ([program](/edit/?oeis=55223)): One-fourth the digital sum of base 5 representations of 2^n.
 * [A055225](https://oeis.org/A055225) ([program](/edit/?oeis=55225)): a(n) = Sum\_\{k divides n\} (n/k)^k.
 * [A055226](https://oeis.org/A055226) ([program](/edit/?oeis=55226)): a(n) = floor(sqrt(n!)).
@@ -1704,8 +1774,10 @@ List of integer sequences with links to LODA programs.
 * [A055246](https://oeis.org/A055246) ([program](/edit/?oeis=55246)): At step number k >= 1 the 2^(k-1) open intervals that are erased from [0,1] in the Cantor middle-third set construction are I(k,n) = (a(n)/3^k, (1+a(n))/3^k), n=1..2^(k-1).
 * [A055247](https://oeis.org/A055247) ([program](/edit/?oeis=55247)): Related to A055246 and A005836. Used for boundaries of open intervals which have to be erased in the Cantor middle third set construction.
 * [A055248](https://oeis.org/A055248) ([program](/edit/?oeis=55248)): Triangle of partial row sums of triangle A007318(n,m) (Pascal's triangle). Triangle A008949 read backwards. Riordan (1/(1-2x), x/(1-x)).
+* [A055249](https://oeis.org/A055249) ([program](/edit/?oeis=55249)): Triangle of partial row sums (prs) of triangle A055248 (prs of Pascal's triangle A007318).
 * [A055250](https://oeis.org/A055250) ([program](/edit/?oeis=55250)): Seventh column of triangle A055249.
 * [A055251](https://oeis.org/A055251) ([program](/edit/?oeis=55251)): Eighth column of triangle A055249.
+* [A055252](https://oeis.org/A055252) ([program](/edit/?oeis=55252)): Triangle of partial row sums (prs) of triangle A055249.
 * [A055253](https://oeis.org/A055253) ([program](/edit/?oeis=55253)): Number of even digits in 2^n.
 * [A055254](https://oeis.org/A055254) ([program](/edit/?oeis=55254)): Number of odd digits in 2^n.
 * [A055255](https://oeis.org/A055255) ([program](/edit/?oeis=55255)): Number of even digits in 3^n.
@@ -1733,10 +1805,14 @@ List of integer sequences with links to LODA programs.
 * [A055304](https://oeis.org/A055304) ([program](/edit/?oeis=55304)): Number of labeled rooted trees with n nodes and 3 leaves.
 * [A055305](https://oeis.org/A055305) ([program](/edit/?oeis=55305)): Number of labeled rooted trees with n nodes and 4 leaves.
 * [A055306](https://oeis.org/A055306) ([program](/edit/?oeis=55306)): Number of labeled rooted trees with n nodes and 5 leaves.
+* [A055307](https://oeis.org/A055307) ([program](/edit/?oeis=55307)): Number of labeled rooted trees with n nodes and 6 leaves.
+* [A055308](https://oeis.org/A055308) ([program](/edit/?oeis=55308)): Number of labeled rooted trees with n nodes and 7 leaves.
 * [A055315](https://oeis.org/A055315) ([program](/edit/?oeis=55315)): Number of labeled trees with n nodes and 3 leaves.
 * [A055316](https://oeis.org/A055316) ([program](/edit/?oeis=55316)): Number of labeled trees with n nodes and 4 leaves.
 * [A055317](https://oeis.org/A055317) ([program](/edit/?oeis=55317)): Number of labeled trees with n nodes and 5 leaves.
 * [A055318](https://oeis.org/A055318) ([program](/edit/?oeis=55318)): Number of labeled trees with n nodes and 6 leaves.
+* [A055319](https://oeis.org/A055319) ([program](/edit/?oeis=55319)): Number of labeled trees with n nodes and 7 leaves.
+* [A055320](https://oeis.org/A055320) ([program](/edit/?oeis=55320)): Number of labeled trees with n nodes and 8 leaves.
 * [A055328](https://oeis.org/A055328) ([program](/edit/?oeis=55328)): Number of rooted identity trees with n nodes and 3 leaves.
 * [A055341](https://oeis.org/A055341) ([program](/edit/?oeis=55341)): Number of mobiles (circular rooted trees) with n nodes and 3 leaves.
 * [A055350](https://oeis.org/A055350) ([program](/edit/?oeis=55350)): Number of labeled mobiles (circular rooted trees) with n nodes and 3 leaves.
@@ -1789,6 +1865,7 @@ List of integer sequences with links to LODA programs.
 * [A055527](https://oeis.org/A055527) ([program](/edit/?oeis=55527)): Shortest other leg of a Pythagorean triangle with n as length of a leg.
 * [A055528](https://oeis.org/A055528) ([program](/edit/?oeis=55528)): a(n)=10\*a(n-1)+n^3, a(0)=0.
 * [A055529](https://oeis.org/A055529) ([program](/edit/?oeis=55529)): Number of bits needed in mantissa to express n! exactly.
+* [A055530](https://oeis.org/A055530) ([program](/edit/?oeis=55530)): The recurrence b(k) = 10\*b(k-1) + k^n with b(0)=0 has b(k)/10^k converging to a(n)/9^(n+1).
 * [A055531](https://oeis.org/A055531) ([program](/edit/?oeis=55531)): Number of labeled order relations on n nodes in which longest chain has 2 nodes.
 * [A055533](https://oeis.org/A055533) ([program](/edit/?oeis=55533)): Number of labeled order relations on n nodes in which longest chain has n-1 nodes.
 * [A055541](https://oeis.org/A055541) ([program](/edit/?oeis=55541)): Total number of leaves (nodes of vertex degree 1) in all labeled trees with n nodes.
@@ -1796,6 +1873,7 @@ List of integer sequences with links to LODA programs.
 * [A055554](https://oeis.org/A055554) ([program](/edit/?oeis=55554)): An arithmetic progression each term of which is followed by at least 4 nonsquarefree consecutive integers.
 * [A055555](https://oeis.org/A055555) ([program](/edit/?oeis=55555)): a(n) = n!\*(n!+1)/2.
 * [A055562](https://oeis.org/A055562) ([program](/edit/?oeis=55562)): a(n) = least number greater than a(n-1) not the sum of an earlier pair of consecutive terms, a(0) = 2.
+* [A055563](https://oeis.org/A055563) ([program](/edit/?oeis=55563)): a(n) = least number greater than a(n-1) not the sum of an earlier pair of consecutive terms, a(0) = 3.
 * [A055565](https://oeis.org/A055565) ([program](/edit/?oeis=55565)): Sum of digits of n^4.
 * [A055566](https://oeis.org/A055566) ([program](/edit/?oeis=55566)): Sum of digits of n^5.
 * [A055567](https://oeis.org/A055567) ([program](/edit/?oeis=55567)): Sum of digits of n^6.
@@ -1805,6 +1883,7 @@ List of integer sequences with links to LODA programs.
 * [A055581](https://oeis.org/A055581) ([program](/edit/?oeis=55581)): Fifth column of triangle A055252.
 * [A055582](https://oeis.org/A055582) ([program](/edit/?oeis=55582)): Sixth column of triangle A055252.
 * [A055583](https://oeis.org/A055583) ([program](/edit/?oeis=55583)): Seventh column of triangle A055252.
+* [A055584](https://oeis.org/A055584) ([program](/edit/?oeis=55584)): Triangle of partial row sums (prs) of triangle A055252.
 * [A055585](https://oeis.org/A055585) ([program](/edit/?oeis=55585)): Second column of triangle A055584.
 * [A055586](https://oeis.org/A055586) ([program](/edit/?oeis=55586)): Sixth column of triangle A055584.
 * [A055588](https://oeis.org/A055588) ([program](/edit/?oeis=55588)): a(n) = 3\*a(n-1) - a(n-2) - 1 with a(0) = 1 and a(1) = 2.
@@ -1824,6 +1903,7 @@ List of integer sequences with links to LODA programs.
 * [A055631](https://oeis.org/A055631) ([program](/edit/?oeis=55631)): Sum of Euler's totient function phi of distinct primes dividing n.
 * [A055634](https://oeis.org/A055634) ([program](/edit/?oeis=55634)): 2-adic factorial function.
 * [A055636](https://oeis.org/A055636) ([program](/edit/?oeis=55636)): Partial sums of A144494.
+* [A055637](https://oeis.org/A055637) ([program](/edit/?oeis=55637)): (n-1)!/n or 0 if n does not divide (n-1)!..
 * [A055640](https://oeis.org/A055640) ([program](/edit/?oeis=55640)): Number of nonzero digits in decimal expansion of n.
 * [A055641](https://oeis.org/A055641) ([program](/edit/?oeis=55641)): Number of zero digits in n.
 * [A055642](https://oeis.org/A055642) ([program](/edit/?oeis=55642)): Number of digits in decimal expansion of n.
@@ -1840,6 +1920,8 @@ List of integer sequences with links to LODA programs.
 * [A055662](https://oeis.org/A055662) ([program](/edit/?oeis=55662)): Successive positions in Tower of Hanoi (with three pegs \{0,1,2\}) where xyz means smallest disk is on peg z, second smallest is on peg y, third smallest on peg x, etc. and leading zeros indicate largest disks are all on peg 0.
 * [A055663](https://oeis.org/A055663) ([program](/edit/?oeis=55663)): Number of (3,3; n,n)-partitions of a chain of length n^2 + n.
 * [A055664](https://oeis.org/A055664) ([program](/edit/?oeis=55664)): Norms of Eisenstein-Jacobi primes.
+* [A055665](https://oeis.org/A055665) ([program](/edit/?oeis=55665)): Number of Eisenstein-Jacobi primes of successive norms (indexed by A055664).
+* [A055666](https://oeis.org/A055666) ([program](/edit/?oeis=55666)): Number of inequivalent Eisenstein-Jacobi primes of successive norms (indexed by A055664).
 * [A055669](https://oeis.org/A055669) ([program](/edit/?oeis=55669)): Number of prime Hurwitz quaternions of norm prime(n).
 * [A055670](https://oeis.org/A055670) ([program](/edit/?oeis=55670)): a(n) = prime(n) - (-1)^prime(n).
 * [A055671](https://oeis.org/A055671) ([program](/edit/?oeis=55671)): Number of prime Hurwitz quaternions of norm n.
@@ -1848,8 +1930,8 @@ List of integer sequences with links to LODA programs.
 * [A055682](https://oeis.org/A055682) ([program](/edit/?oeis=55682)): a(n) = floor(n\*sqrt(n)) - sigma(n), where sigma(n) is the sum of the divisors of n (A000203).
 * [A055684](https://oeis.org/A055684) ([program](/edit/?oeis=55684)): Number of different n-pointed stars.
 * [A055734](https://oeis.org/A055734) ([program](/edit/?oeis=55734)): Number of distinct primes dividing phi(n).
-* [A055736](https://oeis.org/A055736) ([program](/edit/?oeis=55736)): Difference between number of prime factors of n and of phi(n).
 * [A055746](https://oeis.org/A055746) ([program](/edit/?oeis=55746)): Product of first n terms of A003046.
+* [A055767](https://oeis.org/A055767) ([program](/edit/?oeis=55767)): Index (or subscript) of the largest primorial (A002110(k)) which divides EulerPhi of the n-th primorial ((A005867(n)).
 * [A055769](https://oeis.org/A055769) ([program](/edit/?oeis=55769)): Largest prime dividing phi of the n-th primorial.
 * [A055770](https://oeis.org/A055770) ([program](/edit/?oeis=55770)): Largest factorial number which divides n.
 * [A055772](https://oeis.org/A055772) ([program](/edit/?oeis=55772)): Square root of largest square dividing n!.
@@ -1858,12 +1940,14 @@ List of integer sequences with links to LODA programs.
 * [A055775](https://oeis.org/A055775) ([program](/edit/?oeis=55775)): a(n) = floor(n^n / n!).
 * [A055778](https://oeis.org/A055778) ([program](/edit/?oeis=55778)): Number of 1's in the base-phi representation of n.
 * [A055779](https://oeis.org/A055779) ([program](/edit/?oeis=55779)): Number of fat trees on n labeled vertices.
+* [A055784](https://oeis.org/A055784) ([program](/edit/?oeis=55784)): Primes q of form q = 10p + 9, where p is also prime.
 * [A055786](https://oeis.org/A055786) ([program](/edit/?oeis=55786)): Numerators of Taylor series expansion of arcsin(x). Also arises from arccos(x), arccsc(x), arcsec(x), arcsinh(x).
 * [A055787](https://oeis.org/A055787) ([program](/edit/?oeis=55787)): a(n) = 2^(4\*n-1) - 2^(2\*n-1)\*binomial(2\*n,n).
 * [A055789](https://oeis.org/A055789) ([program](/edit/?oeis=55789)): a(n) = binomial(n, round(sqrt(n))).
 * [A055790](https://oeis.org/A055790) ([program](/edit/?oeis=55790)): a(n) = n\*a(n-1) + (n-2)\*a(n-2), a(0) = 0, a(1) = 2.
 * [A055792](https://oeis.org/A055792) ([program](/edit/?oeis=55792)): a(n) and floor(a(n)/2) are both squares; i.e., squares which remain squares when written in base 2 and last digit is removed.
 * [A055793](https://oeis.org/A055793) ([program](/edit/?oeis=55793)): Numbers n such that n and floor[n/3] are both squares; i.e., squares which remain squares when written in base 3 and last digit is removed.
+* [A055794](https://oeis.org/A055794) ([program](/edit/?oeis=55794)): Triangle T read by rows: T(i,0)=1 for i >= 0; T(i,i)=1 for i=0,1,2,3; T(i,i)=0 for i >= 4; T(i,j) = T(i-1,j) + T(i-2,j-1) for 1<=j<=i-1.
 * [A055795](https://oeis.org/A055795) ([program](/edit/?oeis=55795)): a(n) = binomial(n,4) + binomial(n,2).
 * [A055796](https://oeis.org/A055796) ([program](/edit/?oeis=55796)): T(2n+3,n), array T as in A055794.
 * [A055797](https://oeis.org/A055797) ([program](/edit/?oeis=55797)): T(2n+4,n), array T as in A055794.
@@ -1920,6 +2004,7 @@ List of integer sequences with links to LODA programs.
 * [A055879](https://oeis.org/A055879) ([program](/edit/?oeis=55879)): Least nondecreasing sequence with a(1) = 1 and Hankel transform \{1,1,1,1,...\}.
 * [A055880](https://oeis.org/A055880) ([program](/edit/?oeis=55880)): Quotients arising from sequence A053317.
 * [A055881](https://oeis.org/A055881) ([program](/edit/?oeis=55881)): a(n) = largest m such that m! divides n.
+* [A055882](https://oeis.org/A055882) ([program](/edit/?oeis=55882)): a(n) = 2^n\*Bell(n). E.g.f.: exp(exp(2x)-1).
 * [A055891](https://oeis.org/A055891) ([program](/edit/?oeis=55891)): CIK (necklace, indistinct, unlabeled) transform of powers of 2.
 * [A055895](https://oeis.org/A055895) ([program](/edit/?oeis=55895)): Inverse Moebius transform of powers of 2.
 * [A055897](https://oeis.org/A055897) ([program](/edit/?oeis=55897)): a(n) = n\*(n-1)^(n-1).
@@ -1962,7 +2047,6 @@ List of integer sequences with links to LODA programs.
 * [A055989](https://oeis.org/A055989) ([program](/edit/?oeis=55989)): a(n) is its own 4th difference.
 * [A055990](https://oeis.org/A055990) ([program](/edit/?oeis=55990)): a(n) is its own 4th difference.
 * [A055991](https://oeis.org/A055991) ([program](/edit/?oeis=55991)): a(n) is its own 4th difference.
-* [A055993](https://oeis.org/A055993) ([program](/edit/?oeis=55993)): Number of square divisors of n!.
 * [A055994](https://oeis.org/A055994) ([program](/edit/?oeis=55994)): Expansion of (1+6x)/(1-x)^10.
 * [A055995](https://oeis.org/A055995) ([program](/edit/?oeis=55995)): a(n) = 64\*9^(n-2), a(0)=1, a(1)=7.
 * [A055996](https://oeis.org/A055996) ([program](/edit/?oeis=55996)): a(n) = 81\*10^(n-2), a(0)=1, a(1)=8.
@@ -1981,6 +2065,8 @@ List of integer sequences with links to LODA programs.
 * [A056020](https://oeis.org/A056020) ([program](/edit/?oeis=56020)): Numbers that are congruent to +-1 mod 9.
 * [A056021](https://oeis.org/A056021) ([program](/edit/?oeis=56021)): Numbers k such that k^4 == 1 (mod 5^2).
 * [A056023](https://oeis.org/A056023) ([program](/edit/?oeis=56023)): Unique triangle such that (1) every positive integer occurs exactly once; (2) row n consists of n consecutive numbers; (3) odd-numbered rows are decreasing; (4) even-numbered rows are increasing; and (5) column 1 is increasing.
+* [A056038](https://oeis.org/A056038) ([program](/edit/?oeis=56038)): Largest factorial k! such that (k!)^2 divides n!.
+* [A056039](https://oeis.org/A056039) ([program](/edit/?oeis=56039)): Largest k such that (k!)^2 divides n!.
 * [A056040](https://oeis.org/A056040) ([program](/edit/?oeis=56040)): Swinging factorial, a(n) = 2^(n-(n mod 2))\*Product\_\{k=1..n\} k^((-1)^(k+1)).
 * [A056045](https://oeis.org/A056045) ([program](/edit/?oeis=56045)): a(n) = Sum\_\{d\|n\} binomial(n,d).
 * [A056051](https://oeis.org/A056051) ([program](/edit/?oeis=56051)): a(n) = (n-2)! - 1 (mod n).
@@ -1988,6 +2074,7 @@ List of integer sequences with links to LODA programs.
 * [A056064](https://oeis.org/A056064) ([program](/edit/?oeis=56064)): The Kubelsky sequence: Jack Benny's reported age, sampled annually.
 * [A056067](https://oeis.org/A056067) ([program](/edit/?oeis=56067)): Numbers k such that k! is divisible by the square of (f+d)!^2 for d=0 and d=1 (and possibly larger d), where f = floor(k/2).
 * [A056074](https://oeis.org/A056074) ([program](/edit/?oeis=56074)): Number of 3-element ordered antichain covers of an unlabeled n-element set.
+* [A056077](https://oeis.org/A056077) ([program](/edit/?oeis=56077)): Indices n of terms of sequence A001142, Product\_\{k=0..n\} binomial(n,k), that are divisible by all primes <= n.
 * [A056078](https://oeis.org/A056078) ([program](/edit/?oeis=56078)): Number of proper T\_1-hypergraphs with 3 labeled nodes and n hyperedges.
 * [A056081](https://oeis.org/A056081) ([program](/edit/?oeis=56081)): Numbers that are congruent to \{1, 26\} mod 27.
 * [A056084](https://oeis.org/A056084) ([program](/edit/?oeis=56084)): Numbers k such that k^8 == 1 (mod 9^3).
@@ -2014,6 +2101,7 @@ List of integer sequences with links to LODA programs.
 * [A056126](https://oeis.org/A056126) ([program](/edit/?oeis=56126)): a(n) = n\*(n + 17)/2.
 * [A056128](https://oeis.org/A056128) ([program](/edit/?oeis=56128)): a(n) = (9\*n + 11)\*binomial(n+10, 10)/11.
 * [A056129](https://oeis.org/A056129) ([program](/edit/?oeis=56129)): Final nonzero digit of n-th primorial.
+* [A056133](https://oeis.org/A056133) ([program](/edit/?oeis=56133)): a(1) = 1, a(m+1) = sum\_\{k=1 to m\}[min(m, a(k))].
 * [A056134](https://oeis.org/A056134) ([program](/edit/?oeis=56134)): Smallest positive integer which is the geometric mean of n and an integer other than n.
 * [A056135](https://oeis.org/A056135) ([program](/edit/?oeis=56135)): Smallest positive integer other than n where geometric mean of n and a(n) is an integer.
 * [A056136](https://oeis.org/A056136) ([program](/edit/?oeis=56136)): Largest positive integer whose harmonic mean with another positive integer is n.
@@ -2037,6 +2125,8 @@ List of integer sequences with links to LODA programs.
 * [A056188](https://oeis.org/A056188) ([program](/edit/?oeis=56188)): a(1) = 1; for n>1, sum of binomial(n,k) as k runs over RRS(n), the reduced residue system of n.
 * [A056189](https://oeis.org/A056189) ([program](/edit/?oeis=56189)): a(n) = 2^n - A056188(n).
 * [A056194](https://oeis.org/A056194) ([program](/edit/?oeis=56194)): Characteristic cube divisor of n!: a(n) = A056191(n!).
+* [A056195](https://oeis.org/A056195) ([program](/edit/?oeis=56195)): a(n) = n! divided by its characteristic cube divisor A056194.
+* [A056196](https://oeis.org/A056196) ([program](/edit/?oeis=56196)): Numbers n such that A055229(n) = 2.
 * [A056197](https://oeis.org/A056197) ([program](/edit/?oeis=56197)): Diagonal of A056151.
 * [A056199](https://oeis.org/A056199) ([program](/edit/?oeis=56199)): a(n) = n \* a(n-1) - Sum\_\{k=1..n-2\} a(k) with a(1) = 0 and a(2) = 1.
 * [A056200](https://oeis.org/A056200) ([program](/edit/?oeis=56200)): a(n) = 2^n - A056045(n).
@@ -2046,8 +2136,10 @@ List of integer sequences with links to LODA programs.
 * [A056236](https://oeis.org/A056236) ([program](/edit/?oeis=56236)): a(n) = (2 + sqrt(2))^n + (2 - sqrt(2))^n.
 * [A056237](https://oeis.org/A056237) ([program](/edit/?oeis=56237)): a(n) = 2\*n^2 + 9\*n - 5.
 * [A056239](https://oeis.org/A056239) ([program](/edit/?oeis=56239)): If n = Product\_\{k >= 1\} (p\_k)^(c\_k) where p\_k is k-th prime and c\_k >= 0 then a(n) = Sum\_\{k >= 1\} k\*c\_k.
+* [A056241](https://oeis.org/A056241) ([program](/edit/?oeis=56241)): Triangle T(n,k) = number of k-part order-consecutive partitions of n (1<=k<=n).
 * [A056243](https://oeis.org/A056243) ([program](/edit/?oeis=56243)): Third diagonal of triangle A056242.
 * [A056272](https://oeis.org/A056272) ([program](/edit/?oeis=56272)): Word structures of length n using a 5-ary alphabet.
+* [A056273](https://oeis.org/A056273) ([program](/edit/?oeis=56273)): Word structures of length n using a 6-ary alphabet.
 * [A056283](https://oeis.org/A056283) ([program](/edit/?oeis=56283)): Number of n-bead necklaces with exactly three different colored beads.
 * [A056285](https://oeis.org/A056285) ([program](/edit/?oeis=56285)): Number of n-bead necklaces with exactly five different colored beads.
 * [A056295](https://oeis.org/A056295) ([program](/edit/?oeis=56295)): Number of n-bead necklace structures using exactly two different colored beads.
@@ -2073,6 +2165,7 @@ List of integer sequences with links to LODA programs.
 * [A056468](https://oeis.org/A056468) ([program](/edit/?oeis=56468)): a(n) = Sum\_\{k=1..n\} k^6\*binomial(n,k).
 * [A056469](https://oeis.org/A056469) ([program](/edit/?oeis=56469)): Number of elements in the continued fraction for Sum\_\{k=0..n\} 1/2^2^k.
 * [A056470](https://oeis.org/A056470) ([program](/edit/?oeis=56470)): Number of palindromic structures using a maximum of five different symbols.
+* [A056471](https://oeis.org/A056471) ([program](/edit/?oeis=56471)): Number of palindromic structures using a maximum of six different symbols.
 * [A056473](https://oeis.org/A056473) ([program](/edit/?oeis=56473)): Number of palindromic structures using exactly four different symbols.
 * [A056474](https://oeis.org/A056474) ([program](/edit/?oeis=56474)): Number of palindromic structures using exactly five different symbols.
 * [A056486](https://oeis.org/A056486) ([program](/edit/?oeis=56486)): a(n) = (9\*2^n + (-2)^n)/4 for n>0.
@@ -2115,6 +2208,10 @@ List of integer sequences with links to LODA programs.
 * [A056560](https://oeis.org/A056560) ([program](/edit/?oeis=56560)): Tetrahedron with T(t,n,k)=n-k; succession of growing finite triangles with increasing values towards bottom left.
 * [A056562](https://oeis.org/A056562) ([program](/edit/?oeis=56562)): Number of primes which are the difference between two triangular numbers, where the smaller is the n-th triangular number.
 * [A056563](https://oeis.org/A056563) ([program](/edit/?oeis=56563)): Number of primes which are the difference between two triangular numbers, where the larger is the n-th triangular number.
+* [A056565](https://oeis.org/A056565) ([program](/edit/?oeis=56565)): Fibonomial coefficients.
+* [A056566](https://oeis.org/A056566) ([program](/edit/?oeis=56566)): Fibonomial coefficients.
+* [A056567](https://oeis.org/A056567) ([program](/edit/?oeis=56567)): Fibonomial coefficients.
+* [A056568](https://oeis.org/A056568) ([program](/edit/?oeis=56568)): Fibonomial coefficients.
 * [A056570](https://oeis.org/A056570) ([program](/edit/?oeis=56570)): Third power of Fibonacci numbers (A000045).
 * [A056571](https://oeis.org/A056571) ([program](/edit/?oeis=56571)): Fourth power of Fibonacci numbers A000045.
 * [A056572](https://oeis.org/A056572) ([program](/edit/?oeis=56572)): Fifth power of Fibonacci numbers A000045.
@@ -2128,19 +2225,24 @@ List of integer sequences with links to LODA programs.
 * [A056586](https://oeis.org/A056586) ([program](/edit/?oeis=56586)): Ninth power of Fibonacci numbers A000045.
 * [A056587](https://oeis.org/A056587) ([program](/edit/?oeis=56587)): Tenth power of Fibonacci numbers A000045.
 * [A056589](https://oeis.org/A056589) ([program](/edit/?oeis=56589)): Third column sequence of unsigned triangle A056588.
-* [A056594](https://oeis.org/A056594) ([program](/edit/?oeis=56594)): Periodic sequence 1,0,-1,0,...; expansion of 1/(1 + x^2).
+* [A056594](https://oeis.org/A056594) ([program](/edit/?oeis=56594)): Period 4: repeat [1,0,-1,0]; expansion of 1/(1 + x^2).
 * [A056595](https://oeis.org/A056595) ([program](/edit/?oeis=56595)): Number of nonsquare divisors of n.
 * [A056603](https://oeis.org/A056603) ([program](/edit/?oeis=56603)): Squarefree kernels of distinct values of lcm(1,...,m) (A051451).
 * [A056604](https://oeis.org/A056604) ([program](/edit/?oeis=56604)): a(0)=1; thereafter a(n) = lcm(1, 2, 3, 4, ..., prime(n)).
 * [A056606](https://oeis.org/A056606) ([program](/edit/?oeis=56606)): Squarefree kernel of lcm(binomial(n,0), ..., binomial(n,n)).
 * [A056607](https://oeis.org/A056607) ([program](/edit/?oeis=56607)): a(n) is the n-th primorial divided by squarefree kernel of corresponding central binomial coefficient.
 * [A056608](https://oeis.org/A056608) ([program](/edit/?oeis=56608)): Least prime factor of the n-th composite number.
+* [A056609](https://oeis.org/A056609) ([program](/edit/?oeis=56609)): a(n) = rad(n!)/rad(A001142(n)) where rad(n) is the squarefree kernel of n, A007947(n).
 * [A056610](https://oeis.org/A056610) ([program](/edit/?oeis=56610)): Quotient: squarefree kernel of lcm(1,..,n) (or of n!) divided by kernel of central binomial coefficient.
+* [A056611](https://oeis.org/A056611) ([program](/edit/?oeis=56611)): Quotient: squarefree kernel of A002944(n) divided by that of A001405.
 * [A056612](https://oeis.org/A056612) ([program](/edit/?oeis=56612)): a(n) = gcd(n!, n!\*(1 + 1/2 + 1/3 + ... + 1/n)).
 * [A056615](https://oeis.org/A056615) ([program](/edit/?oeis=56615)): Binomial(2\*n - 1, n - 1) - 1 (mod n^2).
 * [A056616](https://oeis.org/A056616) ([program](/edit/?oeis=56616)): Numerator of binomial(2n,n)/(2n+1).
 * [A056617](https://oeis.org/A056617) ([program](/edit/?oeis=56617)): Denominator of binomial(2\*n,n) / (2\*n+1).
+* [A056618](https://oeis.org/A056618) ([program](/edit/?oeis=56618)): Concatenate factorials.
 * [A056624](https://oeis.org/A056624) ([program](/edit/?oeis=56624)): Number of unitary square divisors of n.
+* [A056627](https://oeis.org/A056627) ([program](/edit/?oeis=56627)): Square root of largest unitary square divisor of n!.
+* [A056628](https://oeis.org/A056628) ([program](/edit/?oeis=56628)): Largest unitary square divisor of n!.
 * [A056640](https://oeis.org/A056640) ([program](/edit/?oeis=56640)): At stage 1, start with a unit square. At each successive stage add 4\*(n-1) new squares around outside with edge-to-edge contacts. Sequence gives number of squares (regardless of size) at n-th stage.
 * [A056653](https://oeis.org/A056653) ([program](/edit/?oeis=56653)): Composite numbers together with 1 but excluding 4.
 * [A056665](https://oeis.org/A056665) ([program](/edit/?oeis=56665)): Number of equivalence classes of n-valued Post functions of 1 variable under action of complementing group C(1,n).
@@ -2158,8 +2260,6 @@ List of integer sequences with links to LODA programs.
 * [A056789](https://oeis.org/A056789) ([program](/edit/?oeis=56789)): a(n) = Sum\_\{k=1..n\} lcm(k,n)/gcd(k,n).
 * [A056791](https://oeis.org/A056791) ([program](/edit/?oeis=56791)): Weight of binary expansion of n + length of binary expansion of n.
 * [A056792](https://oeis.org/A056792) ([program](/edit/?oeis=56792)): Minimal number of steps to get from 0 to n by (a) adding 1 or (b) multiplying by 2.
-* [A056793](https://oeis.org/A056793) ([program](/edit/?oeis=56793)): Number of divisors of lcm(1,...,n).
-* [A056795](https://oeis.org/A056795) ([program](/edit/?oeis=56795)): Number of divisors of k as k runs through sequence of distinct values of LCM(1,..,n).
 * [A056798](https://oeis.org/A056798) ([program](/edit/?oeis=56798)): Prime powers with even nonnegative exponents.
 * [A056810](https://oeis.org/A056810) ([program](/edit/?oeis=56810)): Numbers whose fourth power is a palindrome.
 * [A056811](https://oeis.org/A056811) ([program](/edit/?oeis=56811)): Number of primes not exceeding square root of n: primepi(sqrt(n)).
@@ -2316,6 +2416,7 @@ List of integer sequences with links to LODA programs.
 * [A057131](https://oeis.org/A057131) ([program](/edit/?oeis=57131)): One less than six times product of first n primes of form 6k-1.
 * [A057137](https://oeis.org/A057137) ([program](/edit/?oeis=57137)): Concatenate next digit at right hand end (where the next digit after 9 is again 0).
 * [A057138](https://oeis.org/A057138) ([program](/edit/?oeis=57138)): Add (n mod 10)\*10^(n-1) to the previous term, with a(0) = 0.
+* [A057139](https://oeis.org/A057139) ([program](/edit/?oeis=57139)): Odd number of digits palindrome based on sequential digits.
 * [A057145](https://oeis.org/A057145) ([program](/edit/?oeis=57145)): Square array of polygonal numbers T(n,k) = ((n-2)\*k^2 - (n-4)\*k)/2, n >= 2, k >= 1, read by antidiagonals upwards.
 * [A057147](https://oeis.org/A057147) ([program](/edit/?oeis=57147)): a(n) = n times sum of digits of n.
 * [A057148](https://oeis.org/A057148) ([program](/edit/?oeis=57148)): Palindromes only using 0 and 1 (i.e., base-2 palindromes).
@@ -2388,6 +2489,7 @@ List of integer sequences with links to LODA programs.
 * [A057597](https://oeis.org/A057597) ([program](/edit/?oeis=57597)): a(n) = -a(n-1) - a(n-2) + a(n-3), a(0)=0, a(1)=0, a(2)=1.
 * [A057599](https://oeis.org/A057599) ([program](/edit/?oeis=57599)): a(n) = (n^2)!/(n!)^(n+1); number of ways of dividing n^2 labeled items into n unlabeled boxes of n items each.
 * [A057602](https://oeis.org/A057602) ([program](/edit/?oeis=57602)): a(1)=2, a(n+1) is the smallest integer > a(n) such that the smallest prime factor of a(n+1) is the largest prime factor of a(n).
+* [A057615](https://oeis.org/A057615) ([program](/edit/?oeis=57615)): ATS: Add Then Sort (i.e., double previous term and then sort digits).
 * [A057625](https://oeis.org/A057625) ([program](/edit/?oeis=57625)): a(n) = n! \* sum 1/k! where the sum is over all positive integers k that divide n.
 * [A057627](https://oeis.org/A057627) ([program](/edit/?oeis=57627)): Number of nonsquarefree numbers not exceeding n.
 * [A057651](https://oeis.org/A057651) ([program](/edit/?oeis=57651)): a(n) = (3 \* 5^n - 1)/2.
@@ -2417,7 +2519,7 @@ List of integer sequences with links to LODA programs.
 * [A057728](https://oeis.org/A057728) ([program](/edit/?oeis=57728)): A triangular table of decreasing powers of two (with first column all ones).
 * [A057744](https://oeis.org/A057744) ([program](/edit/?oeis=57744)): Expansion of (1-2\*x^3)/(1-2\*x-x^3+2\*x^4).
 * [A057769](https://oeis.org/A057769) ([program](/edit/?oeis=57769)): a(n) = 4\*n^4 + 8\*n^3 - 4\*n - 1 = (2\*n^2 - 1)\*(2\*n^2 + 4\*n + 1).
-* [A057773](https://oeis.org/A057773) ([program](/edit/?oeis=57773)): Sum\_\{i=1..n\} nu\_2 ( prime(i) - 1), where prime(i) is the i-th prime and nu\_2(m) = exponent of highest power of 2 dividing m.
+* [A057773](https://oeis.org/A057773) ([program](/edit/?oeis=57773)): a(n) = Sum\_\{i=1..n\} nu\_2 ( prime(i) - 1), where prime(i) is the i-th prime and nu\_2(m) = exponent of highest power of 2 dividing m.
 * [A057780](https://oeis.org/A057780) ([program](/edit/?oeis=57780)): Multiples of 3 that are one less than a perfect square.
 * [A057781](https://oeis.org/A057781) ([program](/edit/?oeis=57781)): a(n) = n^4+4 = (n^2-2\*n+2)\*(n^2+2\*n+2) = ((n-1)^2+1)\*((n+1)^2+1).
 * [A057788](https://oeis.org/A057788) ([program](/edit/?oeis=57788)): Expansion of (1+x)/(1-x)^12.
@@ -2443,6 +2545,8 @@ List of integer sequences with links to LODA programs.
 * [A057861](https://oeis.org/A057861) ([program](/edit/?oeis=57861)): floor[2^n/Fibonacci(n)].
 * [A057862](https://oeis.org/A057862) ([program](/edit/?oeis=57862)): a(n) = 2^n mod Fibonacci(n).
 * [A057863](https://oeis.org/A057863) ([program](/edit/?oeis=57863)): a(n) = Product\_\{k=1..n\} (2k-1)!!.
+* [A057868](https://oeis.org/A057868) ([program](/edit/?oeis=57868)): Denominator of "modified Bernoulli number" b(2n) = Bernoulli(2\*n)/(2\*n\*n!).
+* [A057884](https://oeis.org/A057884) ([program](/edit/?oeis=57884)): A square array based on tetrahedral numbers (A000292) with each term being the sum of 2 consecutive terms in the previous row.
 * [A057886](https://oeis.org/A057886) ([program](/edit/?oeis=57886)): Number of integer 4-tuples that give the lengths of the sides of a nondegenerate quadrilateral with perimeter n.
 * [A057889](https://oeis.org/A057889) ([program](/edit/?oeis=57889)): Bit-reverse of n, including as many leading as trailing zeros.
 * [A057901](https://oeis.org/A057901) ([program](/edit/?oeis=57901)): a(n) = 3^prime(n).
@@ -2474,6 +2578,7 @@ List of integer sequences with links to LODA programs.
 * [A058063](https://oeis.org/A058063) ([program](/edit/?oeis=58063)): Number of prime factors (when counted with multiplicity) of sigma(n), the sum of divisors of n.
 * [A058065](https://oeis.org/A058065) ([program](/edit/?oeis=58065)): Complement of A057843.
 * [A058066](https://oeis.org/A058066) ([program](/edit/?oeis=58066)): a(n) = floor(n\*t), t = 1 + sqrt(5)/2.
+* [A058067](https://oeis.org/A058067) ([program](/edit/?oeis=58067)): Number of polynomial functions from Z to Z/nZ.
 * [A058071](https://oeis.org/A058071) ([program](/edit/?oeis=58071)): A Fibonacci triangle: triangle T(n,k) = Fibonacci(k+1)\*Fibonacci(n-k+1), for n >= 0, 0 <= k <= n.
 * [A058077](https://oeis.org/A058077) ([program](/edit/?oeis=58077)): Binomial coefficients formed from consecutive primes: a(n) = binomial( prime(n+1), prime(n) ).
 * [A058078](https://oeis.org/A058078) ([program](/edit/?oeis=58078)): Greatest common divisor of two binomial coefficients formed from consecutive primes: a(n) = gcd(C(prime(n+2), prime(n+1)), C(prime(n+1), prime(n))).
@@ -2486,15 +2591,19 @@ List of integer sequences with links to LODA programs.
 * [A058182](https://oeis.org/A058182) ([program](/edit/?oeis=58182)): a(n) = a(n-1)^2 + a(n-2) for n >= 2 with a(0) = 1 and a(1) = 0.
 * [A058183](https://oeis.org/A058183) ([program](/edit/?oeis=58183)): Number of digits in concatenation of first n positive integers.
 * [A058184](https://oeis.org/A058184) ([program](/edit/?oeis=58184)): "Real rabbits": a(n) Real(c(n) where complex c(n)=a(n)+ib(n) and c(0)=i, c(1)=-i, c(n)=c(n-1)+ic(n-2).
+* [A058185](https://oeis.org/A058185) ([program](/edit/?oeis=58185)): Numbers (written in decimal) which appear the same when written in base 5 and base 10/2.
+* [A058186](https://oeis.org/A058186) ([program](/edit/?oeis=58186)): Numbers (written in base 5) which appear the same when written in base 5 and base 10/2.
 * [A058187](https://oeis.org/A058187) ([program](/edit/?oeis=58187)): Expansion of (1+x)/(1-x^2)^4: duplicated tetrahedral numbers.
 * [A058189](https://oeis.org/A058189) ([program](/edit/?oeis=58189)): Number of increasing geometric progressions ending in n (in the positive integers), including those of length 1 or 2.
 * [A058190](https://oeis.org/A058190) ([program](/edit/?oeis=58190)): Number of increasing geometric progressions ending in n (in the positive integers), excluding those of length 1 or 2.
 * [A058195](https://oeis.org/A058195) ([program](/edit/?oeis=58195)): Areas of a sequence of right-angled figures described below.
 * [A058200](https://oeis.org/A058200) ([program](/edit/?oeis=58200)): Coefficients of the highest power of r in a sequence of parametric solutions for the Diophantine equation x^3+y^3+z^3=1.
+* [A058202](https://oeis.org/A058202) ([program](/edit/?oeis=58202)): Triangle in which n-th row gives the numbers which when subtracted from 2^n produce primes.
 * [A058207](https://oeis.org/A058207) ([program](/edit/?oeis=58207)): Three steps forward, two steps back.
 * [A058212](https://oeis.org/A058212) ([program](/edit/?oeis=58212)): a(n) = 1 + floor(n\*(n-3)/6).
 * [A058224](https://oeis.org/A058224) ([program](/edit/?oeis=58224)): Largest d such that the linear programming bound for quantum codes of length n is feasible for some real K>1.
 * [A058250](https://oeis.org/A058250) ([program](/edit/?oeis=58250)): GCD of n-th primorial number and its totient.
+* [A058251](https://oeis.org/A058251) ([program](/edit/?oeis=58251)): LCM of n-th primorial number and its Euler totient.
 * [A058261](https://oeis.org/A058261) ([program](/edit/?oeis=58261)): a(n) = n times the Collatz number of n (as given in A006577).
 * [A058263](https://oeis.org/A058263) ([program](/edit/?oeis=58263)): a(n) = gcd(prime(n) - 1, prime(n+1) - 1).
 * [A058265](https://oeis.org/A058265) ([program](/edit/?oeis=58265)): Decimal expansion of the tribonacci constant t, the real root of x^3 - x^2 - x - 1.
@@ -2514,6 +2623,7 @@ List of integer sequences with links to LODA programs.
 * [A058331](https://oeis.org/A058331) ([program](/edit/?oeis=58331)): a(n) = 2\*n^2 + 1.
 * [A058333](https://oeis.org/A058333) ([program](/edit/?oeis=58333)): Number of 3 X 3 matrices with elements from [0,...,(n-1)] satisfying the condition that the middle element of each row or column is the difference of the two end elements (in absolute value).
 * [A058344](https://oeis.org/A058344) ([program](/edit/?oeis=58344)): Difference between the sum of the odd aliquot divisors of n and the sum of the even aliquot divisors of n.
+* [A058363](https://oeis.org/A058363) ([program](/edit/?oeis=58363)): Numbers whose reduced system of residues forms an arithmetic progression. It consists of primes, twice primes, and powers of 2.
 * [A058364](https://oeis.org/A058364) ([program](/edit/?oeis=58364)): Number of ways to cover (without overlapping) a ring lattice (necklace) of n sites with molecules that are 9 sites wide.
 * [A058365](https://oeis.org/A058365) ([program](/edit/?oeis=58365)): Number of ways to cover (without overlapping) a ring lattice (necklace) of n sites with molecules that are 8 sites wide.
 * [A058366](https://oeis.org/A058366) ([program](/edit/?oeis=58366)): Number of ways to cover (without overlapping) a ring lattice (necklace) of n sites with molecules that are 7 sites wide.
@@ -2523,11 +2633,15 @@ List of integer sequences with links to LODA programs.
 * [A058373](https://oeis.org/A058373) ([program](/edit/?oeis=58373)): a(n) = (1/6)\*(2\*n - 3)\*(n + 2)\*(n + 1).
 * [A058384](https://oeis.org/A058384) ([program](/edit/?oeis=58384)): Largest power of 2 which is a divisor of p(n)-1, where p(n) = n-th prime.
 * [A058393](https://oeis.org/A058393) ([program](/edit/?oeis=58393)): A square array based on 1^n (A000012) with each term being the sum of 2 consecutive terms in the previous row.
+* [A058394](https://oeis.org/A058394) ([program](/edit/?oeis=58394)): A square array based on natural numbers (A000027) with each term being the sum of 2 consecutive terms in the previous row.
+* [A058395](https://oeis.org/A058395) ([program](/edit/?oeis=58395)): A square array based on triangular numbers (A000217) with each term being the sum of 2 consecutive terms in the previous row.
 * [A058396](https://oeis.org/A058396) ([program](/edit/?oeis=58396)): Expansion of ((1-x)/(1-2\*x))^3.
 * [A058481](https://oeis.org/A058481) ([program](/edit/?oeis=58481)): a(n) = 3^n - 2.
 * [A058482](https://oeis.org/A058482) ([program](/edit/?oeis=58482)): Number of 3 X n binary matrices with no zero rows or columns.
 * [A058529](https://oeis.org/A058529) ([program](/edit/?oeis=58529)): Numbers whose prime factors are all congruent to +1 or -1 modulo 8.
 * [A058541](https://oeis.org/A058541) ([program](/edit/?oeis=58541)): Trajectory of 1 under map that sends x to 3x - sigma(x).
+* [A058550](https://oeis.org/A058550) ([program](/edit/?oeis=58550)): Eisenstein series E\_14(q) (alternate convention E\_7(q)).
+* [A058577](https://oeis.org/A058577) ([program](/edit/?oeis=58577)): a(n) = floor(e^sqrt(n)).
 * [A058581](https://oeis.org/A058581) ([program](/edit/?oeis=58581)): (4\*n^2+2\*n-3)\*(2\*n-1)\*n/3.
 * [A058582](https://oeis.org/A058582) ([program](/edit/?oeis=58582)): Expansion of (1+3\*x+4\*x^2)/(1-4\*x^2+4\*x^4).
 * [A058607](https://oeis.org/A058607) ([program](/edit/?oeis=58607)): a(n) = (1 + 1/2 + 1/3 + ... + 1/n)\*(2n-1)!/(n-1)!.
@@ -2537,10 +2651,15 @@ List of integer sequences with links to LODA programs.
 * [A058642](https://oeis.org/A058642) ([program](/edit/?oeis=58642)): Number of unlabeled graphs with n edges, no nodes of degree 1 or 2, no multiple edges and no cut nodes, under "series-equivalence".
 * [A058645](https://oeis.org/A058645) ([program](/edit/?oeis=58645)): a(n) = 2^(n-3)\*n^2\*(n+3).
 * [A058649](https://oeis.org/A058649) ([program](/edit/?oeis=58649)): a(n) = 2^(n-4)\*n\*(n+1)\*(n^2+5\*n-2).
+* [A058654](https://oeis.org/A058654) ([program](/edit/?oeis=58654)): The sum of a prime and a nonzero square.
 * [A058656](https://oeis.org/A058656) ([program](/edit/?oeis=58656)): a(n) = gcd(n+1, phi(n)).
 * [A058663](https://oeis.org/A058663) ([program](/edit/?oeis=58663)): a(n) = gcd(n-1, n-phi(n)).
 * [A058665](https://oeis.org/A058665) ([program](/edit/?oeis=58665)): a(n) = gcd(n+1, n-phi(n)).
 * [A058667](https://oeis.org/A058667) ([program](/edit/?oeis=58667)): 2^(n-2)\*n\*(n+2)!/3.
+* [A058681](https://oeis.org/A058681) ([program](/edit/?oeis=58681)): Number of matroids of rank 2 on n labeled points.
+* [A058692](https://oeis.org/A058692) ([program](/edit/?oeis=58692)): a(n) = B(n) - 1, where B(n) = Bell numbers, A000110.
+* [A058716](https://oeis.org/A058716) ([program](/edit/?oeis=58716)): Triangle T(n,k) giving number of nonisomorphic loopless matroids of rank k on n labeled points (n >= 0, 0 <= k <= n).
+* [A058717](https://oeis.org/A058717) ([program](/edit/?oeis=58717)): Triangle T(n,k) giving number of nonisomorphic loopless matroids of rank k on n labeled points (n >= 1, 1<=k<=n).
 * [A058738](https://oeis.org/A058738) ([program](/edit/?oeis=58738)): a(n) = floor(n\*exp(n)).
 * [A058748](https://oeis.org/A058748) ([program](/edit/?oeis=58748)): a(n) = round(n\*exp(n)).
 * [A058749](https://oeis.org/A058749) ([program](/edit/?oeis=58749)): a(n) = ceiling(n\*exp(n)).
@@ -2645,6 +2764,7 @@ List of integer sequences with links to LODA programs.
 * [A059238](https://oeis.org/A059238) ([program](/edit/?oeis=59238)): Orders of the finite groups GL\_2(K) when K is a finite field with q = A246655(n) elements.
 * [A059246](https://oeis.org/A059246) ([program](/edit/?oeis=59246)): Numerator of Sum\_\{j=1..n\} d(j)/n, where d = number of divisors function (A000005).
 * [A059247](https://oeis.org/A059247) ([program](/edit/?oeis=59247)): Denominator of Sum\_\{j=1..n\} d(j)/n, where d = number of divisors function (A000005).
+* [A059248](https://oeis.org/A059248) ([program](/edit/?oeis=59248)): Numerator of 1/F(1) + 1/F(2) + 1/F(3) + ... + 1/F(n), where F(n) is the n-th Fibonacci number (A000045).
 * [A059249](https://oeis.org/A059249) ([program](/edit/?oeis=59249)): Tersum n + (n-1); write n and n-1 in base 3 and add mod 3 with no carries.
 * [A059255](https://oeis.org/A059255) ([program](/edit/?oeis=59255)): Both sum of n+1 consecutive squares and sum of the immediately following n consecutive squares.
 * [A059258](https://oeis.org/A059258) ([program](/edit/?oeis=59258)): Primes p such that x^53 = 2 has no solution mod p.
@@ -2656,6 +2776,7 @@ List of integer sequences with links to LODA programs.
 * [A059270](https://oeis.org/A059270) ([program](/edit/?oeis=59270)): a(n) is both the sum of n+1 consecutive integers and the sum of the n immediately higher consecutive integers.
 * [A059280](https://oeis.org/A059280) ([program](/edit/?oeis=59280)): Expansion of e.g.f. exp(x\*(1-x)/(1-2\*x)).
 * [A059281](https://oeis.org/A059281) ([program](/edit/?oeis=59281)): E.g.f.: ((1-x)/(1-2\*x)) \* exp(x\*(1-x)/(1-2\*x)).
+* [A059284](https://oeis.org/A059284) ([program](/edit/?oeis=59284)): Right edge of triangle in A059283.
 * [A059288](https://oeis.org/A059288) ([program](/edit/?oeis=59288)): a(n) = binomial(2\*n,n) mod n.
 * [A059289](https://oeis.org/A059289) ([program](/edit/?oeis=59289)): a(n) = 1 + (binomial(2n,n) mod n).
 * [A059290](https://oeis.org/A059290) ([program](/edit/?oeis=59290)): a(n) = round(1/144\*n^2\*(n + 3)).
@@ -2669,12 +2790,14 @@ List of integer sequences with links to LODA programs.
 * [A059302](https://oeis.org/A059302) ([program](/edit/?oeis=59302)): A diagonal of A008296.
 * [A059304](https://oeis.org/A059304) ([program](/edit/?oeis=59304)): a(n) = 2^n \* (2\*n)! / (n!)^2.
 * [A059306](https://oeis.org/A059306) ([program](/edit/?oeis=59306)): Number of 2 X 2 singular integer matrices with elements from \{0,...,n\}.
+* [A059322](https://oeis.org/A059322) ([program](/edit/?oeis=59322)): First differences of sequence of consecutive safe primes.
 * [A059324](https://oeis.org/A059324) ([program](/edit/?oeis=59324)): Numbers n such that 6n + 5 is composite.
 * [A059325](https://oeis.org/A059325) ([program](/edit/?oeis=59325)): Numbers n such that 6n + 5 is prime.
 * [A059328](https://oeis.org/A059328) ([program](/edit/?oeis=59328)): Table T(n,k) = T(n - 1,k) + T(n,k - 1) + T(n - 1,k)\*T(n,k - 1) starting with T(0,0)=1, read by antidiagonals.
 * [A059329](https://oeis.org/A059329) ([program](/edit/?oeis=59329)): Number of 3 X 3 matrices, with elements from \{0,...,n\}, having the property that the middle element of each of the eight 3-element horizontal, vertical and diagonal lines equals the average of the two end elements.
 * [A059332](https://oeis.org/A059332) ([program](/edit/?oeis=59332)): Determinant of n X n matrix A defined by A[i,j] = (i+j-1)! for 1 <= i,j <= n.
 * [A059338](https://oeis.org/A059338) ([program](/edit/?oeis=59338)): a(n) = Sum\_\{k=1..n\} k^5 \* binomial(n,k).
+* [A059342](https://oeis.org/A059342) ([program](/edit/?oeis=59342)): Triangle giving denominators of coefficients of Euler polynomials, highest powers first.
 * [A059344](https://oeis.org/A059344) ([program](/edit/?oeis=59344)): Triangle read by rows: row n consists of the nonzero coefficients of the expansion of 2^n x^n in terms of Hermite polynomials with decreasing subscripts.
 * [A059348](https://oeis.org/A059348) ([program](/edit/?oeis=59348)): Third diagonal of array in A059347.
 * [A059358](https://oeis.org/A059358) ([program](/edit/?oeis=59358)): Coefficients in expansion of Sum\_\{n >= 1\} x^n/(1-x^n)^4.
@@ -2691,8 +2814,10 @@ List of integer sequences with links to LODA programs.
 * [A059396](https://oeis.org/A059396) ([program](/edit/?oeis=59396)): Number of primes less than square root of n-th prime; i.e., number of trial divisions by smaller primes to show that n-th prime is indeed prime.
 * [A059399](https://oeis.org/A059399) ([program](/edit/?oeis=59399)): Triangular hopscotch.
 * [A059403](https://oeis.org/A059403) ([program](/edit/?oeis=59403)): Quarter-squared applied twice.
+* [A059404](https://oeis.org/A059404) ([program](/edit/?oeis=59404)): Numbers with different exponents in their prime factorizations.
 * [A059409](https://oeis.org/A059409) ([program](/edit/?oeis=59409)): a(n) = 4^n \* (2^n - 1).
 * [A059410](https://oeis.org/A059410) ([program](/edit/?oeis=59410)): J\_n(9) (see A059379).
+* [A059420](https://oeis.org/A059420) ([program](/edit/?oeis=59420)): A diagonal of A059419.
 * [A059421](https://oeis.org/A059421) ([program](/edit/?oeis=59421)): A diagonal of A059419.
 * [A059422](https://oeis.org/A059422) ([program](/edit/?oeis=59422)): Difference between number of even equivalence classes and odd classes of terms in a symmetric determinant of order n.
 * [A059425](https://oeis.org/A059425) ([program](/edit/?oeis=59425)): Primes of form n^2 + 19n + 17.
@@ -2705,6 +2830,7 @@ List of integer sequences with links to LODA programs.
 * [A059456](https://oeis.org/A059456) ([program](/edit/?oeis=59456)): Unsafe primes: primes not in A005385.
 * [A059457](https://oeis.org/A059457) ([program](/edit/?oeis=59457)): Numerator of Sum\_\{k=0..n\} (-1)^k/(3\*k+1).
 * [A059460](https://oeis.org/A059460) ([program](/edit/?oeis=59460)): Iteration of unitary-sigma function: a(1) = 2, a(n) = usigma(a(n-1)).
+* [A059474](https://oeis.org/A059474) ([program](/edit/?oeis=59474)): Triangle read by rows: T(n,k) is coefficient of z^n\*w^k in 1/(1 - 2\*z - 2\*w + 2\*z\*w) read by rows in order 00, 10, 01, 20, 11, 02, ...
 * [A059479](https://oeis.org/A059479) ([program](/edit/?oeis=59479)): Number of 3 X 3 matrices with elements from \{0,...,n-1\} such that the middle element of each of the eight lines of three (rows, columns and diagonals) is the square (mod n) of the difference of the end elements.
 * [A059480](https://oeis.org/A059480) ([program](/edit/?oeis=59480)): a(0) = a(1) = 1; a(n) = a(n-1) + (n+1)\*a(n-2).
 * [A059481](https://oeis.org/A059481) ([program](/edit/?oeis=59481)): Triangle T(n,k) = binomial(n+k-1,k), 0 <= k <= n, read by rows.
@@ -2749,6 +2875,7 @@ List of integer sequences with links to LODA programs.
 * [A059566](https://oeis.org/A059566) ([program](/edit/?oeis=59566)): Beatty sequence for e^gamma/(e^gamma-1).
 * [A059567](https://oeis.org/A059567) ([program](/edit/?oeis=59567)): Beatty sequence for 1 - log(log(2)).
 * [A059570](https://oeis.org/A059570) ([program](/edit/?oeis=59570)): Number of fixed points in all 231-avoiding involutions in S\_n.
+* [A059576](https://oeis.org/A059576) ([program](/edit/?oeis=59576)): Summatory Pascal triangle T(n,k) (0 <= k <= n) read by rows. Top entry is 1. Each entry is the sum of the parallelogram above it.
 * [A059582](https://oeis.org/A059582) ([program](/edit/?oeis=59582)): First differences give digits of Pi = 3.1415926...
 * [A059585](https://oeis.org/A059585) ([program](/edit/?oeis=59585)): Number of labeled 3-node T\_0-hypergraphs with n hyperedges (empty hyperedges and multiple hyperedges included).
 * [A059590](https://oeis.org/A059590) ([program](/edit/?oeis=59590)): Numbers obtained by reinterpreting base-2 representation of n in the factorial base: a(n) = Sum\_\{k>=0\} A030308(n,k)\*A000142(k+1).
@@ -2764,6 +2891,7 @@ List of integer sequences with links to LODA programs.
 * [A059602](https://oeis.org/A059602) ([program](/edit/?oeis=59602)): Expansion of (5+10\*x+x^2)/(1-x)^10.
 * [A059603](https://oeis.org/A059603) ([program](/edit/?oeis=59603)): Expansion of (1+15\*x+15\*x^2+x^3)/(1-x)^12.
 * [A059605](https://oeis.org/A059605) ([program](/edit/?oeis=59605)): a(n) = (1/3!)\*(n^3 + 24\*n^2 + 107\*n + 90), compare A059604.
+* [A059606](https://oeis.org/A059606) ([program](/edit/?oeis=59606)): Expansion of (1/2)\*(exp(2\*x)-1)\*exp(exp(x)-1).
 * [A059616](https://oeis.org/A059616) ([program](/edit/?oeis=59616)): Numerator of (n\*(n-1)/(8\*(2\*n+1)).
 * [A059617](https://oeis.org/A059617) ([program](/edit/?oeis=59617)): Denominator of (n\*(n-1)/(8\*(2\*n+1)).
 * [A059620](https://oeis.org/A059620) ([program](/edit/?oeis=59620)): Colors of the 88 keys of the standard piano: white keys = 0, black keys = 1, start with A0 = the 0th key.
@@ -2782,6 +2910,8 @@ List of integer sequences with links to LODA programs.
 * [A059672](https://oeis.org/A059672) ([program](/edit/?oeis=59672)): Sum of binary numbers with n 1's and one (possibly leading) 0.
 * [A059673](https://oeis.org/A059673) ([program](/edit/?oeis=59673)): Sum of binary numbers with n 1's and one (non-leading) 0.
 * [A059674](https://oeis.org/A059674) ([program](/edit/?oeis=59674)): Square array a(m,n) = binomial(max(m,n), min(m,n)) (m>=0, n>=0) read by antidiagonals.
+* [A059678](https://oeis.org/A059678) ([program](/edit/?oeis=59678)): Triangle T(n,k) giving number of fixed 2 X k polyominoes with n cells (n >= 2, 1<=k<=n-1).
+* [A059712](https://oeis.org/A059712) ([program](/edit/?oeis=59712)): Number of stacked directed animals on the square lattice.
 * [A059714](https://oeis.org/A059714) ([program](/edit/?oeis=59714)): Number of stacked directed animals on the triangular lattice.
 * [A059716](https://oeis.org/A059716) ([program](/edit/?oeis=59716)): Number of column convex polyominoes with n hexagonal cells.
 * [A059721](https://oeis.org/A059721) ([program](/edit/?oeis=59721)): Mean of first six positive powers of n, i.e., (n + n^2 + n^3 + n^4 + n^5 + n^6)/6.
@@ -2789,26 +2919,31 @@ List of integer sequences with links to LODA programs.
 * [A059727](https://oeis.org/A059727) ([program](/edit/?oeis=59727)): a(n) = Fibonacci(n)\*(Fibonacci(n) + 1).
 * [A059730](https://oeis.org/A059730) ([program](/edit/?oeis=59730)): Third diagonal of A059922.
 * [A059734](https://oeis.org/A059734) ([program](/edit/?oeis=59734)): Carryless 11^n base 10; a(n) is carryless sum of 10\*a(n-1) and a(n-1).
+* [A059738](https://oeis.org/A059738) ([program](/edit/?oeis=59738)): Binomial transform of A054341 and inverse binomial transform of A049027.
 * [A059753](https://oeis.org/A059753) ([program](/edit/?oeis=59753)): Minimal degree of a height one multiple of (x-1)^n.
 * [A059760](https://oeis.org/A059760) ([program](/edit/?oeis=59760)): a(n) is the number of edges (one-dimensional faces) in the convex polytope of real n X n doubly stochastic matrices.
 * [A059765](https://oeis.org/A059765) ([program](/edit/?oeis=59765)): Possible sizes of the torsion group of an elliptic curve over the rationals Q. This is a finite sequence.
 * [A059769](https://oeis.org/A059769) ([program](/edit/?oeis=59769)): Frobenius number of the subsemigroup of the natural numbers generated by successive pairs of Fibonacci numbers.
 * [A059772](https://oeis.org/A059772) ([program](/edit/?oeis=59772)): Smallest prime p such that n is a solution mod p of x^2 = 2, or 0 if no such prime exists.
 * [A059778](https://oeis.org/A059778) ([program](/edit/?oeis=59778)): Expansion of 1 / product((1+q^(2\*n+3))/(1-q^(2\*n+2)), n=0..inf).
+* [A059781](https://oeis.org/A059781) ([program](/edit/?oeis=59781)): Triangle T(n,k) giving exponent of power of 2 dividing entry (n,k) of trinomial triangle A027907.
 * [A059786](https://oeis.org/A059786) ([program](/edit/?oeis=59786)): Smallest prime after 2\*(n-th prime).
 * [A059787](https://oeis.org/A059787) ([program](/edit/?oeis=59787)): Distance between 2\*(n-th prime) and next prime.
 * [A059788](https://oeis.org/A059788) ([program](/edit/?oeis=59788)): a(n) = largest prime < 2\*prime(n).
 * [A059789](https://oeis.org/A059789) ([program](/edit/?oeis=59789)): Distance of 2\*Prime[n] from previous prime.
 * [A059793](https://oeis.org/A059793) ([program](/edit/?oeis=59793)): Stationary value of quotient in the continued fraction expansion of sqrt(prime) when the quotient-cycle-length = 1.
 * [A059794](https://oeis.org/A059794) ([program](/edit/?oeis=59794)): a(n) = n\* - 2^(n-1), where n\* (A003418) = least common multiple of the numbers [1,...,n].
+* [A059797](https://oeis.org/A059797) ([program](/edit/?oeis=59797)): Second in a series of arrays counting standard tableaux by partition type.
 * [A059811](https://oeis.org/A059811) ([program](/edit/?oeis=59811)): Let g\_n be the ball packing n-width for the manifold torus X interval; sequence gives numerator of (g\_n/Pi)^2.
 * [A059817](https://oeis.org/A059817) ([program](/edit/?oeis=59817)): Let s\_n be the simplex packing n-width for the manifold torus X square; sequence gives numerator of s\_n/Pi.
 * [A059826](https://oeis.org/A059826) ([program](/edit/?oeis=59826)): a(n) = (n^2 - n + 1)\*(n^2 + n + 1).
 * [A059827](https://oeis.org/A059827) ([program](/edit/?oeis=59827)): Cubes of triangular numbers: (n\*(n+1)/2)^3.
 * [A059830](https://oeis.org/A059830) ([program](/edit/?oeis=59830)): a(n) = n^6 + n^4 + n^2 + 1.
 * [A059831](https://oeis.org/A059831) ([program](/edit/?oeis=59831)): Determinant of Wilkinson's eigenvalue test matrix of order 2n+1.
+* [A059832](https://oeis.org/A059832) ([program](/edit/?oeis=59832)): A ternary tribonacci triangle: form the triangle as follows: start with 3 single values: 1, 2, 3. Each succeeding row is a concatenation of the previous 3 rows.
 * [A059833](https://oeis.org/A059833) ([program](/edit/?oeis=59833)): "Madonna's Sequence": add 1 (mod 10) to each digit of Pi.
 * [A059834](https://oeis.org/A059834) ([program](/edit/?oeis=59834)): Sum of squares of entries of Wilkinson's eigenvalue test matrix of order 2n+1.
+* [A059835](https://oeis.org/A059835) ([program](/edit/?oeis=59835)): Form triangle as follows: start with three single digits: 0, 1, 2. Each succeeding row is a concatenation of the previous three rows.
 * [A059836](https://oeis.org/A059836) ([program](/edit/?oeis=59836)): Triangle T(s,t), s>=1, 1<=t<=s (see formula line).
 * [A059837](https://oeis.org/A059837) ([program](/edit/?oeis=59837)): Diagonal T(s,s) of triangle A059836.
 * [A059838](https://oeis.org/A059838) ([program](/edit/?oeis=59838)): Number of permutations in the symmetric group S\_n that have even order.
@@ -2865,6 +3000,7 @@ List of integer sequences with links to LODA programs.
 * [A059993](https://oeis.org/A059993) ([program](/edit/?oeis=59993)): Pinwheel numbers: a(n) = 2\*n^2 + 6\*n + 1.
 * [A059995](https://oeis.org/A059995) ([program](/edit/?oeis=59995)): Drop the final digit of n.
 * [A059997](https://oeis.org/A059997) ([program](/edit/?oeis=59997)): a(n) = (n/2)\*(n + 1)\*(3\*n + 11).
+* [A059999](https://oeis.org/A059999) ([program](/edit/?oeis=59999)): a(n) = (1/6)\*n^5 - (19/8)\*n^4 + (51/4)\*n^3 - (253/8)\*n^2 + (445/12)\*n - 14.
 * [A060001](https://oeis.org/A060001) ([program](/edit/?oeis=60001)): a(n) = Fibonacci(n)!.
 * [A060006](https://oeis.org/A060006) ([program](/edit/?oeis=60006)): Decimal expansion of real root of x^3 - x - 1 (the plastic constant).
 * [A060007](https://oeis.org/A060007) ([program](/edit/?oeis=60007)): Decimal expansion of v\_4, where v\_n is the smallest, positive, real solution to the equation (v\_n)^n = v\_n + 1.
@@ -2879,12 +3015,15 @@ List of integer sequences with links to LODA programs.
 * [A060036](https://oeis.org/A060036) ([program](/edit/?oeis=60036)): Triangular array T read by rows: T(n,k) = k^2 mod n, for k = 1,2,...,n-1, n = 2,3,...
 * [A060037](https://oeis.org/A060037) ([program](/edit/?oeis=60037)): Triangular array T read by rows: T(n,k)=k^2 mod n, for k=1,2,...,[n/2], n=2,3,...
 * [A060040](https://oeis.org/A060040) ([program](/edit/?oeis=60040)): Square array T(n,k) (n >= 2, k >= 1) giving smallest positive integer m such that any set of m points in general position in R^n contains k points in convex position, read by antidiagonals.
+* [A060056](https://oeis.org/A060056) ([program](/edit/?oeis=60056)): Nonzero numbers in expansion of ((tan(x))^4)/4! in (x^n)/n!.
 * [A060060](https://oeis.org/A060060) ([program](/edit/?oeis=60060)): Third column of triangle A060058.
 * [A060065](https://oeis.org/A060065) ([program](/edit/?oeis=60065)): Smallest mode of the sequence \{ C(n-k,k), k=0..n/2 \}.
 * [A060067](https://oeis.org/A060067) ([program](/edit/?oeis=60067)): Largest power of n which divides n!.
 * [A060068](https://oeis.org/A060068) ([program](/edit/?oeis=60068)): Divide n! by largest power of n which will leave the result an integer.
 * [A060072](https://oeis.org/A060072) ([program](/edit/?oeis=60072)): a(n) = (n^(n-1) - 1)/(n-1) for n>1, a(1) = 0.
 * [A060073](https://oeis.org/A060073) ([program](/edit/?oeis=60073)): a(n) = (n^(n-1)-1)/(n-1)^2.
+* [A060075](https://oeis.org/A060075) ([program](/edit/?oeis=60075)): Third column of triangle A060074.
+* [A060076](https://oeis.org/A060076) ([program](/edit/?oeis=60076)): Fourth column of triangle A060074.
 * [A060080](https://oeis.org/A060080) ([program](/edit/?oeis=60080)): Scaled sums of squares.
 * [A060091](https://oeis.org/A060091) ([program](/edit/?oeis=60091)): Number of 4-block ordered bicoverings of an unlabeled n-set.
 * [A060097](https://oeis.org/A060097) ([program](/edit/?oeis=60097)): Denominator of coefficients of Euler polynomials (rising powers).
@@ -2917,6 +3056,8 @@ List of integer sequences with links to LODA programs.
 * [A060160](https://oeis.org/A060160) ([program](/edit/?oeis=60160)): a(n) = 2^n - 1 + Fibonacci(n-1)\*2^(n+1).
 * [A060161](https://oeis.org/A060161) ([program](/edit/?oeis=60161)): a(n) = 2^n - 1 + 2\*Fibonacci(n-1).
 * [A060163](https://oeis.org/A060163) ([program](/edit/?oeis=60163)): a(n) = (n^3 + 5\*n + 18)/6.
+* [A060175](https://oeis.org/A060175) ([program](/edit/?oeis=60175)): Table T(n,k) by antidiagonals of exponent of largest power of k-th prime which divides n.
+* [A060176](https://oeis.org/A060176) ([program](/edit/?oeis=60176)): Table T(n,k) by antidiagonals of value of largest power of k-th prime which divides n.
 * [A060182](https://oeis.org/A060182) ([program](/edit/?oeis=60182)): a(0) = 1, a(1) = 5, a(2) = 13; a(n) = 2\*a(n-1) + 2, n > 2.
 * [A060183](https://oeis.org/A060183) ([program](/edit/?oeis=60183)): a(0)=1, a(n) = 100\*a(n-1) + 36\*n - 128.
 * [A060188](https://oeis.org/A060188) ([program](/edit/?oeis=60188)): A column and  diagonal of A060187.
@@ -2944,6 +3085,7 @@ List of integer sequences with links to LODA programs.
 * [A060265](https://oeis.org/A060265) ([program](/edit/?oeis=60265)): Largest prime less than 2n.
 * [A060266](https://oeis.org/A060266) ([program](/edit/?oeis=60266)): Difference between 2n and the following prime.
 * [A060267](https://oeis.org/A060267) ([program](/edit/?oeis=60267)): Difference between 2 closest primes surrounding 2n.
+* [A060271](https://oeis.org/A060271) ([program](/edit/?oeis=60271)): Difference between smallest prime following and largest prime preceding 2\*(n-th prime).
 * [A060275](https://oeis.org/A060275) ([program](/edit/?oeis=60275)): At least two unordered triples of positive numbers have sum n and equal products.
 * [A060278](https://oeis.org/A060278) ([program](/edit/?oeis=60278)): Sum of composite divisors of n less than n.
 * [A060279](https://oeis.org/A060279) ([program](/edit/?oeis=60279)): Number of labeled rooted trees with all 2n nodes of odd degree.
@@ -2954,8 +3096,10 @@ List of integer sequences with links to LODA programs.
 * [A060300](https://oeis.org/A060300) ([program](/edit/?oeis=60300)): a(n) = (2n(n+1))^2.
 * [A060308](https://oeis.org/A060308) ([program](/edit/?oeis=60308)): Largest prime <= 2n.
 * [A060312](https://oeis.org/A060312) ([program](/edit/?oeis=60312)): Number of distinct ways to tile a 2 X n rectangle with dominoes (solutions are identified if they are rotations or reflections of each other).
+* [A060313](https://oeis.org/A060313) ([program](/edit/?oeis=60313)): Number of homeomorphically irreducible rooted trees (also known as series-reduced rooted trees, or rooted trees without nodes of degree 2) on n labeled nodes.
 * [A060318](https://oeis.org/A060318) ([program](/edit/?oeis=60318)): Powers of 3 in the odd Catalan numbers Catalan(2^n - 1).
 * [A060336](https://oeis.org/A060336) ([program](/edit/?oeis=60336)): Number of n X n \{-1,0,1\} matrices modulo rows permutation (by symmetry this is the same as the number of \{-1,0,1\} matrices modulo columns permutation), i.e., the number of equivalence classes where two matrices A and B are equivalent if one of them is the result of permuting the rows of the other.
+* [A060337](https://oeis.org/A060337) ([program](/edit/?oeis=60337)): Number of labeled acyclic digraphs with n nodes containing exactly n-2 points of in-degree zero.
 * [A060343](https://oeis.org/A060343) ([program](/edit/?oeis=60343)): Smallest prime which is the sum of n composite numbers.
 * [A060344](https://oeis.org/A060344) ([program](/edit/?oeis=60344)): For n >= 2, let N\_n denote the set of all unipotent upper-triangular real n X n matrices A such that for every k=1,2,...,n-1 the minor of A with rows 1,2,...,k and columns n-k+1,...,n is nonzero. a(n) is the number of connected components of N\_n.
 * [A060348](https://oeis.org/A060348) ([program](/edit/?oeis=60348)): a(n) = n^n \* (n^2 - 1)/24.
@@ -3034,6 +3178,7 @@ List of integer sequences with links to LODA programs.
 * [A060559](https://oeis.org/A060559) ([program](/edit/?oeis=60559)): One half of sixth column (m=5) of triangle A060556.
 * [A060560](https://oeis.org/A060560) ([program](/edit/?oeis=60560)): Number of ways to color vertices of an octagon using <= n colors, allowing rotations and reflections.
 * [A060561](https://oeis.org/A060561) ([program](/edit/?oeis=60561)): Number of ways to color vertices of a 9-gon using <= n colors, allowing rotations and reflections.
+* [A060563](https://oeis.org/A060563) ([program](/edit/?oeis=60563)): First n digits after decimal point in the expansion of sqrt(n), or 0 if n is a square. Leading zeros omitted.
 * [A060566](https://oeis.org/A060566) ([program](/edit/?oeis=60566)): a(n) = n^2 - 79\*n + 1601.
 * [A060569](https://oeis.org/A060569) ([program](/edit/?oeis=60569)): Consider Pythagorean triples which satisfy X^2+(X+7)^2=Z^2; sequence gives increasing values of Z.
 * [A060571](https://oeis.org/A060571) ([program](/edit/?oeis=60571)): Tower of Hanoi: the optimal way to move an even number of disks from peg 0 to peg 2 or an odd number from peg 0 to peg 1 is on move n to move disk A001511 from peg A060571 (here) to peg A060572.
@@ -3089,15 +3234,17 @@ List of integer sequences with links to LODA programs.
 * [A060706](https://oeis.org/A060706) ([program](/edit/?oeis=60706)): For n >= 1 a(n) is the size of the conjugacy class in the symmetric group S\_(4n) consisting of permutations whose cycle decomposition is a product of n disjoint 4-cycles.
 * [A060710](https://oeis.org/A060710) ([program](/edit/?oeis=60710)): Number of subgroups of dihedral group with 2n elements, counting conjugate subgroups only once, i.e., conjugacy classes of subgroups of the dihedral group.
 * [A060715](https://oeis.org/A060715) ([program](/edit/?oeis=60715)): Number of primes between n and 2n exclusive.
+* [A060719](https://oeis.org/A060719) ([program](/edit/?oeis=60719)): a(0) = 1; a(n+1) = a(n) + Sum\_\{i=0..n\} binomial(n,i)\*(a(i)+1).
 * [A060722](https://oeis.org/A060722) ([program](/edit/?oeis=60722)): a(n) = 3^(n^2).
+* [A060723](https://oeis.org/A060723) ([program](/edit/?oeis=60723)): a(n) is the denominator of r(n) where r(n) is the sequence of rational numbers defined by the recursion: r(0) = 0, r(1) = 1 and for n>1 r(n) = r(n-1) + r(n-2)/2. From this definition it is clear that a(n) is always a power of 2 (see A060755).
 * [A060724](https://oeis.org/A060724) ([program](/edit/?oeis=60724)): Number of subgroups of the group C\_n X C\_n (where C\_n is the cyclic group of order n).
 * [A060734](https://oeis.org/A060734) ([program](/edit/?oeis=60734)): Natural numbers written as a square array ending in last row from left to right and rightmost column from bottom to top are read by antidiagonals downwards.
-* [A060735](https://oeis.org/A060735) ([program](/edit/?oeis=60735)): a(1)=1, a(2)=2; thereafter, a(n) is the smallest number m not yet in the sequence such that every prime that divides a(n-1) also divides m.
 * [A060736](https://oeis.org/A060736) ([program](/edit/?oeis=60736)): Array of square numbers read by antidiagonals in up direction.
 * [A060739](https://oeis.org/A060739) ([program](/edit/?oeis=60739)): a(n) = (-1)^(n(n-1)/2) \* Product\_\{k=0,...,n-1\} (n+k-1)!/((k!)^2 \* (n-1-k)!).
 * [A060746](https://oeis.org/A060746) ([program](/edit/?oeis=60746)): Absolute value of numerator of non-Euler-constant term of Laurent expansion of Gamma function at s=-n.
 * [A060747](https://oeis.org/A060747) ([program](/edit/?oeis=60747)): a(n) = 2\*n - 1.
 * [A060753](https://oeis.org/A060753) ([program](/edit/?oeis=60753)): Denominator of 1\*2\*4\*6\*...\*(prime(n-1)-1) / (2\*3\*5\*7\*...\*prime(n-1)).
+* [A060755](https://oeis.org/A060755) ([program](/edit/?oeis=60755)): a(n) = log\_2(A060723(n)).
 * [A060757](https://oeis.org/A060757) ([program](/edit/?oeis=60757)): a(n) = 4^(n^2).
 * [A060758](https://oeis.org/A060758) ([program](/edit/?oeis=60758)): a(n) = 5^(n^2).
 * [A060761](https://oeis.org/A060761) ([program](/edit/?oeis=60761)): a(n) = 9^(n^2).
@@ -3167,6 +3314,7 @@ List of integer sequences with links to LODA programs.
 * [A060896](https://oeis.org/A060896) ([program](/edit/?oeis=60896)): n^12 - n^6 + 1.
 * [A060899](https://oeis.org/A060899) ([program](/edit/?oeis=60899)): Number of walks of length n on square lattice, starting at origin, staying on points with x+y >= 0.
 * [A060901](https://oeis.org/A060901) ([program](/edit/?oeis=60901)): Exact power of 3 that divides the n-th Fibonacci number (sequence A000045).
+* [A060902](https://oeis.org/A060902) ([program](/edit/?oeis=60902)): Number of ordered factorizations of the identity permutation in the symmetric group S\_n into 2n-2 transpositions such that the factors generate S\_n.
 * [A060904](https://oeis.org/A060904) ([program](/edit/?oeis=60904)): Largest power of 5 that divides n.
 * [A060919](https://oeis.org/A060919) ([program](/edit/?oeis=60919)): Number of corners in a 4-sided fractal.
 * [A060925](https://oeis.org/A060925) ([program](/edit/?oeis=60925)): a(n) = 2\*a(n-1) + 3\*a(n-2), a(0) = 1, a(1) = 4.
@@ -3192,9 +3340,11 @@ List of integer sequences with links to LODA programs.
 * [A060983](https://oeis.org/A060983) ([program](/edit/?oeis=60983)): Number of primitive sublattices of index n in generic 3-dimensional lattice.
 * [A060992](https://oeis.org/A060992) ([program](/edit/?oeis=60992)): a(n) = Sum\_\{gcd(i,j) \| 0 < i <= j < n and i+j = n\}.
 * [A060995](https://oeis.org/A060995) ([program](/edit/?oeis=60995)): Number of routes of length 2n on the sides of an octagon from a point to opposite point.
+* [A060996](https://oeis.org/A060996) ([program](/edit/?oeis=60996)): Stirling2 transform of [2,3,3,3,3,3,3,3,...].
 * [A060997](https://oeis.org/A060997) ([program](/edit/?oeis=60997)): Decimal representation of continued fraction 1, 2, 3, 4, 5, 6, 7, ...
 * [A060998](https://oeis.org/A060998) ([program](/edit/?oeis=60998)): Squares of 1 and primes, written backwards.
 * [A060999](https://oeis.org/A060999) ([program](/edit/?oeis=60999)): Nearest integer to (n+1)^3/9.
+* [A061000](https://oeis.org/A061000) ([program](/edit/?oeis=61000)): x.v where x = first n terms of A060999, v = [1,8,27,...,n^3].
 * [A061001](https://oeis.org/A061001) ([program](/edit/?oeis=61001)): x.x, x = first n terms of A060999.
 * [A061003](https://oeis.org/A061003) ([program](/edit/?oeis=61003)): Nearest integer to n^5/25.
 * [A061004](https://oeis.org/A061004) ([program](/edit/?oeis=61004)): Nearest integer to n^6/36.
@@ -3219,6 +3369,7 @@ List of integer sequences with links to LODA programs.
 * [A061045](https://oeis.org/A061045) ([program](/edit/?oeis=61045)): Numerator of 1/36 - 1/n^2.
 * [A061046](https://oeis.org/A061046) ([program](/edit/?oeis=61046)): Denominator of 1/36 - 1/n^2.
 * [A061047](https://oeis.org/A061047) ([program](/edit/?oeis=61047)): Numerator of 1/49 - 1/n^2.
+* [A061048](https://oeis.org/A061048) ([program](/edit/?oeis=61048)): Denominator of 1/49 - 1/n^2.
 * [A061049](https://oeis.org/A061049) ([program](/edit/?oeis=61049)): Numerator of 1/64 - 1/n^2.
 * [A061050](https://oeis.org/A061050) ([program](/edit/?oeis=61050)): Denominator of 1/64 - 1/n^2.
 * [A061054](https://oeis.org/A061054) ([program](/edit/?oeis=61054)): Floor(n+n^(3/4)).
@@ -3234,6 +3385,7 @@ List of integer sequences with links to LODA programs.
 * [A061085](https://oeis.org/A061085) ([program](/edit/?oeis=61085)): a(n) = A019550(n) / 3.
 * [A061086](https://oeis.org/A061086) ([program](/edit/?oeis=61086)): a(n) is the concatenation of n with n^3.
 * [A061087](https://oeis.org/A061087) ([program](/edit/?oeis=61087)): a(n) = A061086(n) / n.
+* [A061088](https://oeis.org/A061088) ([program](/edit/?oeis=61088)): a(n) = A053062(n) / n.
 * [A061091](https://oeis.org/A061091) ([program](/edit/?oeis=61091)): Number of k with 1 <= k <= n relatively prime to phi(k).
 * [A061094](https://oeis.org/A061094) ([program](/edit/?oeis=61094)): The alternating group A\_n contains an element x which is not conjugate to its inverse (equivalently not all the entries in the character table of A\_n are real numbers).
 * [A061099](https://oeis.org/A061099) ([program](/edit/?oeis=61099)): Squares with digital root 1.
@@ -3253,6 +3405,8 @@ List of integer sequences with links to LODA programs.
 * [A061172](https://oeis.org/A061172) ([program](/edit/?oeis=61172)): Third column of Lucas bisection triangle (odd part).
 * [A061173](https://oeis.org/A061173) ([program](/edit/?oeis=61173)): One-fourth of fourth column of Lucas bisection triangle (odd part).
 * [A061174](https://oeis.org/A061174) ([program](/edit/?oeis=61174)): Fifth column of Lucas bisection triangle (odd part).
+* [A061176](https://oeis.org/A061176) ([program](/edit/?oeis=61176)): Coefficients of polynomials ( (1 -x +sqrt(x))^n + (1 -x -sqrt(x))^n )/2.
+* [A061177](https://oeis.org/A061177) ([program](/edit/?oeis=61177)): Coefficients of polynomials ( (1 -x +sqrt(x))^(n+1) - (1 -x -sqrt(x))^(n+1) )/(2\*sqrt(x)).
 * [A061178](https://oeis.org/A061178) ([program](/edit/?oeis=61178)): Third column (m=2) of triangle A060920 (bisection of Fibonacci triangle, even part).
 * [A061179](https://oeis.org/A061179) ([program](/edit/?oeis=61179)): Fourth column (m=3) of triangle A060920 (bisection of Fibonacci triangle, even part).
 * [A061180](https://oeis.org/A061180) ([program](/edit/?oeis=61180)): Fifth column (m=4) of triangle A060920 (bisection of Fibonacci triangle, even part).
@@ -3266,6 +3420,7 @@ List of integer sequences with links to LODA programs.
 * [A061201](https://oeis.org/A061201) ([program](/edit/?oeis=61201)): Partial sums of A007425: (tau<=)\_3(n).
 * [A061202](https://oeis.org/A061202) ([program](/edit/?oeis=61202)): (tau<=)\_4(n).
 * [A061203](https://oeis.org/A061203) ([program](/edit/?oeis=61203)): (tau<=)\_5(n).
+* [A061204](https://oeis.org/A061204) ([program](/edit/?oeis=61204)): (tau<=)\_6(n).
 * [A061205](https://oeis.org/A061205) ([program](/edit/?oeis=61205)): a(n) = n times R(n) where R(n) (A004086) is the digit reversal of n.
 * [A061206](https://oeis.org/A061206) ([program](/edit/?oeis=61206)): a(n) = total number of occurrences of the consecutive pattern 1324 in all permutations of [n+3].
 * [A061213](https://oeis.org/A061213) ([program](/edit/?oeis=61213)): a(n) = product of first n triangular numbers (A000217) + 1.
@@ -3323,7 +3478,7 @@ List of integer sequences with links to LODA programs.
 * [A061353](https://oeis.org/A061353) ([program](/edit/?oeis=61353)): First column of array shown in A061352.
 * [A061354](https://oeis.org/A061354) ([program](/edit/?oeis=61354)): Numerator of Sum\_\{k=0..n\} 1/k!.
 * [A061355](https://oeis.org/A061355) ([program](/edit/?oeis=61355)): Denominator of Sum\_\{k=0..n\} 1/k!.
-* [A061356](https://oeis.org/A061356) ([program](/edit/?oeis=61356)): Triangle T(n,k) = labeled trees on n nodes with maximal node degree k (0 < k < n).
+* [A061356](https://oeis.org/A061356) ([program](/edit/?oeis=61356)): Triangle read by rows. T(n,k) are the labeled trees on n nodes with maximal node degree k (0 < k < n).
 * [A061369](https://oeis.org/A061369) ([program](/edit/?oeis=61369)): a(n) = smallest square in the arithmetic progression \{nk+1 : k >= 0\}.
 * [A061370](https://oeis.org/A061370) ([program](/edit/?oeis=61370)): a(n) = floor(ratio of product and sum of first n numbers).
 * [A061376](https://oeis.org/A061376) ([program](/edit/?oeis=61376)): a(n) = f(n) + f(f(n)) where f(n) = 0 if n <= 1 or a prime, otherwise f(n) = sum of distinct primes dividing n.
@@ -3350,7 +3505,10 @@ List of integer sequences with links to LODA programs.
 * [A061431](https://oeis.org/A061431) ([program](/edit/?oeis=61431)): a(n) = LCM of the n consecutive numbers n(n-1)/2 + 1, ..., n(n+1)/2.
 * [A061432](https://oeis.org/A061432) ([program](/edit/?oeis=61432)): a(n) = smallest n-digit square.
 * [A061433](https://oeis.org/A061433) ([program](/edit/?oeis=61433)): Largest n-digit square.
+* [A061434](https://oeis.org/A061434) ([program](/edit/?oeis=61434)): a(n) is the smallest n-digit cube.
+* [A061435](https://oeis.org/A061435) ([program](/edit/?oeis=61435)): a(n) is the largest n-digit cube.
 * [A061436](https://oeis.org/A061436) ([program](/edit/?oeis=61436)): Number of steps for trajectory of n to reach 1 under the map that sends x -> x/3 if x mod 3 = 0, x -> x+3-(x mod 3) if x is not 0 mod 3 (for a 2nd time when n starts at 1).
+* [A061439](https://oeis.org/A061439) ([program](/edit/?oeis=61439)): Largest number whose cube has n digits.
 * [A061440](https://oeis.org/A061440) ([program](/edit/?oeis=61440)): Denominators in the series for Bessel function J9(x).
 * [A061452](https://oeis.org/A061452) ([program](/edit/?oeis=61452)): n\*bigomega(n)^n, where bigomega(n) is the number of prime divisors of n, counted with multiplicity.
 * [A061453](https://oeis.org/A061453) ([program](/edit/?oeis=61453)): a(n) = numerator of the continued fraction [1; 2^2, 3^3, ..., n^n].
@@ -3391,6 +3549,7 @@ List of integer sequences with links to LODA programs.
 * [A061534](https://oeis.org/A061534) ([program](/edit/?oeis=61534)): Expansion of (1-x^2)/(1-3\*x-x^2+x^3).
 * [A061536](https://oeis.org/A061536) ([program](/edit/?oeis=61536)): a(1) = 1 and a(n) = a(n-1) + (the number of primes <= n) for n > 1.
 * [A061537](https://oeis.org/A061537) ([program](/edit/?oeis=61537)): Product of unitary divisors of n.
+* [A061538](https://oeis.org/A061538) ([program](/edit/?oeis=61538)): Product of all divisors of n, divided by product of unitary divisors; or equivalently product of non-unitary divisors of n.
 * [A061547](https://oeis.org/A061547) ([program](/edit/?oeis=61547)): Number of 132 and 213-avoiding derangements of \{1,2,...,n\}.
 * [A061548](https://oeis.org/A061548) ([program](/edit/?oeis=61548)): Numerator of probability that there is no error when average of n numbers is computed, assuming errors of +1, -1 are possible and they each occur with p = 1/4.
 * [A061549](https://oeis.org/A061549) ([program](/edit/?oeis=61549)): Denominator of probability that there is no error when average of n numbers is computed, assuming errors of +1, -1 are possible and they each occur with p=1/4.
@@ -3412,6 +3571,7 @@ List of integer sequences with links to LODA programs.
 * [A061640](https://oeis.org/A061640) ([program](/edit/?oeis=61640)): a(n) = !n\*n!.
 * [A061646](https://oeis.org/A061646) ([program](/edit/?oeis=61646)): a(n) = 2\*a(n-1) + 2\*a(n-2) - a(n-3) with a(-1) = 1, a(0) = 1, a(1) = 1.
 * [A061647](https://oeis.org/A061647) ([program](/edit/?oeis=61647)): Beginning at the well for the topograph of a positive definite quadratic form with values 1, 1, 1 at a superbase (i.e., 1, 1 and 1 are the vonorms of the superbase), these numbers indicate the labels of the edges of the topograph on a path of greatest ascent.
+* [A061648](https://oeis.org/A061648) ([program](/edit/?oeis=61648)): Area of all nondecreasing Dyck paths of length 2n.
 * [A061650](https://oeis.org/A061650) ([program](/edit/?oeis=61650)): a(n) = n\*20^(n-1).
 * [A061654](https://oeis.org/A061654) ([program](/edit/?oeis=61654)): a(n) = (3\*16^n + 2)/5.
 * [A061667](https://oeis.org/A061667) ([program](/edit/?oeis=61667)): a(n) = Fibonacci(2\*n+1) - 2^(n-1).
@@ -3469,17 +3629,22 @@ List of integer sequences with links to LODA programs.
 * [A061802](https://oeis.org/A061802) ([program](/edit/?oeis=61802)): Sum of n-th row of triangle of primes: 2; 2 3 2; 2 3 5 3 2; 2 3 5 7 5 3 2; ...; where n-th row contains 2n+1 terms.
 * [A061803](https://oeis.org/A061803) ([program](/edit/?oeis=61803)): Sum of n-th row of triangle of 4th powers: 1; 1 16 1; 1 16 81 16 1; 1 16 81 256 81 16 1; ...
 * [A061804](https://oeis.org/A061804) ([program](/edit/?oeis=61804)): a(n) = 2\*n\*(2\*n^2 + 1).
+* [A061810](https://oeis.org/A061810) ([program](/edit/?oeis=61810)): Multiples of 3 with all odd digits.
 * [A061811](https://oeis.org/A061811) ([program](/edit/?oeis=61811)): Multiples of 3 with all even digits.
 * [A061814](https://oeis.org/A061814) ([program](/edit/?oeis=61814)): Multiples of 4 containing only even digits.
+* [A061817](https://oeis.org/A061817) ([program](/edit/?oeis=61817)): Multiples of 9 containing only odd digits.
 * [A061818](https://oeis.org/A061818) ([program](/edit/?oeis=61818)): Multiples of 2 containing only digits 0,1,2.
 * [A061819](https://oeis.org/A061819) ([program](/edit/?oeis=61819)): Multiples of 3 containing only digits 0,1,2,3.
 * [A061820](https://oeis.org/A061820) ([program](/edit/?oeis=61820)): Multiples of 4 containing only digits 0,...,4.
 * [A061821](https://oeis.org/A061821) ([program](/edit/?oeis=61821)): Multiples of 5 containing only digits 0,...,5.
 * [A061824](https://oeis.org/A061824) ([program](/edit/?oeis=61824)): Multiples of 8 containing only the digits 0, ..., 8.
+* [A061825](https://oeis.org/A061825) ([program](/edit/?oeis=61825)): Multiples of 7 containing only odd digits.
+* [A061826](https://oeis.org/A061826) ([program](/edit/?oeis=61826)): Multiples of 7 containing only even digits.
 * [A061829](https://oeis.org/A061829) ([program](/edit/?oeis=61829)): Multiples of 5 having only odd digits.
 * [A061830](https://oeis.org/A061830) ([program](/edit/?oeis=61830)): Multiples of 5 having only even digits.
 * [A061831](https://oeis.org/A061831) ([program](/edit/?oeis=61831)): Multiples of 9 having only even digits.
 * [A061832](https://oeis.org/A061832) ([program](/edit/?oeis=61832)): Multiples of 11 having only even digits.
+* [A061833](https://oeis.org/A061833) ([program](/edit/?oeis=61833)): Multiples of 11 having only odd digits.
 * [A061834](https://oeis.org/A061834) ([program](/edit/?oeis=61834)): a(n) = binomial(n,2) \* !n.
 * [A061836](https://oeis.org/A061836) ([program](/edit/?oeis=61836)): a(n) = smallest k>0 such that k+n divides k!.
 * [A061837](https://oeis.org/A061837) ([program](/edit/?oeis=61837)): Numbers k such that (k+2)^2 \| k!.
@@ -3510,8 +3675,8 @@ List of integer sequences with links to LODA programs.
 * [A061925](https://oeis.org/A061925) ([program](/edit/?oeis=61925)): a(n) = ceiling(n^2/2) + 1.
 * [A061927](https://oeis.org/A061927) ([program](/edit/?oeis=61927)): a(n) = n(n+1)(2n+1)(n^2+n+3)/30.
 * [A061928](https://oeis.org/A061928) ([program](/edit/?oeis=61928)): Array T(n,m) = 1/beta(n+1,m+1) read by antidiagonals.
-* [A061981](https://oeis.org/A061981) ([program](/edit/?oeis=61981)): a(n) = 3^n - 2n - 1.
-* [A061982](https://oeis.org/A061982) ([program](/edit/?oeis=61982)): 3^n - (n + 1)(n + 2)/2.
+* [A061981](https://oeis.org/A061981) ([program](/edit/?oeis=61981)): a(n) = 3^n - 2\*n - 1.
+* [A061982](https://oeis.org/A061982) ([program](/edit/?oeis=61982)): a(n) = 3^n - (n+1)\*(n+2)/2.
 * [A061983](https://oeis.org/A061983) ([program](/edit/?oeis=61983)): 3^n - (3n^2 + n + 2)/2.
 * [A061987](https://oeis.org/A061987) ([program](/edit/?oeis=61987)): Number of times n-th distinct value is repeated in sequence b(k) = 1 + b(floor(k/2)) + b(floor(k/3)) with b(0) = 0, i.e., in A061984; also number of times n-th distinct row is repeated in square array T(n,k) = T(n-1,k) + T(n-1,floor(k/2)) + T(n-1,floor(k/3)) with T(0,0) = 1, i.e., in A061980.
 * [A061989](https://oeis.org/A061989) ([program](/edit/?oeis=61989)): Number of ways to place 3 nonattacking queens on a 3 X n board.
@@ -3616,6 +3781,7 @@ List of integer sequences with links to LODA programs.
 * [A062200](https://oeis.org/A062200) ([program](/edit/?oeis=62200)): Number of compositions of n such that two adjacent parts are not equal modulo 2.
 * [A062206](https://oeis.org/A062206) ([program](/edit/?oeis=62206)): a(n) = n^(2n).
 * [A062207](https://oeis.org/A062207) ([program](/edit/?oeis=62207)): 2\*n^n-1.
+* [A062208](https://oeis.org/A062208) ([program](/edit/?oeis=62208)): a(n) = Sum\_\{m>=0\} binomial(m,3)^n\*2^(-m-1).
 * [A062234](https://oeis.org/A062234) ([program](/edit/?oeis=62234)): a(n) = 2\*prime(n) - prime(n+1).
 * [A062235](https://oeis.org/A062235) ([program](/edit/?oeis=62235)): a(n) = prime(n)^2 - prime(n+1).
 * [A062236](https://oeis.org/A062236) ([program](/edit/?oeis=62236)): Sum of the levels of all nodes in all noncrossing trees with n edges.
@@ -3629,6 +3795,7 @@ List of integer sequences with links to LODA programs.
 * [A062265](https://oeis.org/A062265) ([program](/edit/?oeis=62265)): Row sums of signed triangle A062140 (generalized a=4 Laguerre).
 * [A062266](https://oeis.org/A062266) ([program](/edit/?oeis=62266)): Row sums of unsigned triangle A062140 (generalized a=4 Laguerre).
 * [A062267](https://oeis.org/A062267) ([program](/edit/?oeis=62267)): Row sums of (signed) triangle A060821 (Hermite polynomials).
+* [A062273](https://oeis.org/A062273) ([program](/edit/?oeis=62273)): a(n) is an n-digit number with digits in increasing order with 0 following 9 and this is maintained in the concatenation of any number of consecutive terms.
 * [A062275](https://oeis.org/A062275) ([program](/edit/?oeis=62275)): Array A(n, k) = n^k \* k^n, n, k >= 0, read by antidiagonals.
 * [A062276](https://oeis.org/A062276) ([program](/edit/?oeis=62276)): a(n) = floor(n^(n+1) / (n+1)^n).
 * [A062278](https://oeis.org/A062278) ([program](/edit/?oeis=62278)): a(n) = floor(3^n / n^3).
@@ -3686,11 +3853,13 @@ List of integer sequences with links to LODA programs.
 * [A062501](https://oeis.org/A062501) ([program](/edit/?oeis=62501)): Number of distinct prime divisors of the nonprimes (including 1).
 * [A062502](https://oeis.org/A062502) ([program](/edit/?oeis=62502)): Number of prime divisors (with repetition) of the nonprimes (including 1).
 * [A062503](https://oeis.org/A062503) ([program](/edit/?oeis=62503)): Squarefree numbers squared.
+* [A062507](https://oeis.org/A062507) ([program](/edit/?oeis=62507)): Table by antidiagonals related to partial sums and differences of Pell numbers (A000129).
 * [A062508](https://oeis.org/A062508) ([program](/edit/?oeis=62508)): a(n) = 3^(2n)+7.
 * [A062509](https://oeis.org/A062509) ([program](/edit/?oeis=62509)): a(n) = n^omega(n).
 * [A062510](https://oeis.org/A062510) ([program](/edit/?oeis=62510)): a(n) = 2^n + (-1)^(n+1).
 * [A062532](https://oeis.org/A062532) ([program](/edit/?oeis=62532)): Odd nonprimes squared, or A014076(n)^2.
 * [A062533](https://oeis.org/A062533) ([program](/edit/?oeis=62533)): a(n) = A000010(A014076(n)).
+* [A062534](https://oeis.org/A062534) ([program](/edit/?oeis=62534)): Table by antidiagonals of coefficient of x^k in expansion of 1/((1+x)^2\*(1-x)^n).
 * [A062539](https://oeis.org/A062539) ([program](/edit/?oeis=62539)): Decimal expansion of the Lemniscate constant or Gauss's constant.
 * [A062544](https://oeis.org/A062544) ([program](/edit/?oeis=62544)): a(n) = n plus sum of previous three terms.
 * [A062545](https://oeis.org/A062545) ([program](/edit/?oeis=62545)): Continued fraction for the 2nd Du Bois-Reymond constant.
@@ -3724,6 +3893,7 @@ List of integer sequences with links to LODA programs.
 * [A062730](https://oeis.org/A062730) ([program](/edit/?oeis=62730)): Rows of Pascal's triangle which contain 3 terms in arithmetic progression.
 * [A062731](https://oeis.org/A062731) ([program](/edit/?oeis=62731)): Sum of divisors of 2\*n.
 * [A062741](https://oeis.org/A062741) ([program](/edit/?oeis=62741)): 3 times pentagonal numbers: 3\*n\*(3\*n-1)/2.
+* [A062747](https://oeis.org/A062747) ([program](/edit/?oeis=62747)): Row sums of (unsigned) staircase array A062746.
 * [A062748](https://oeis.org/A062748) ([program](/edit/?oeis=62748)): Fourth column (r=3) of FS(3) staircase array A062745.
 * [A062749](https://oeis.org/A062749) ([program](/edit/?oeis=62749)): Sixth column (r=5) of FS(3) staircase array A062745.
 * [A062754](https://oeis.org/A062754) ([program](/edit/?oeis=62754)): a(n) = gcd(n, sigma(n+1)).
@@ -3735,6 +3905,7 @@ List of integer sequences with links to LODA programs.
 * [A062768](https://oeis.org/A062768) ([program](/edit/?oeis=62768)): Multiples of 6 such that the sum of the digits is equal to 6.
 * [A062771](https://oeis.org/A062771) ([program](/edit/?oeis=62771)): Order of automorphism group of the group C\_n X C\_2 (where C\_n is the cyclic group with n elements).
 * [A062772](https://oeis.org/A062772) ([program](/edit/?oeis=62772)): Smallest prime larger than square of n-th prime.
+* [A062774](https://oeis.org/A062774) ([program](/edit/?oeis=62774)): Inverse Moebius transform of PrimePi function.
 * [A062776](https://oeis.org/A062776) ([program](/edit/?oeis=62776)): Greatest common divisor of (n+2)! and n^n.
 * [A062777](https://oeis.org/A062777) ([program](/edit/?oeis=62777)): 2^n - mu(n).
 * [A062779](https://oeis.org/A062779) ([program](/edit/?oeis=62779)): a(n) = 2\*n\*(2\*n)!.
@@ -3742,9 +3913,11 @@ List of integer sequences with links to LODA programs.
 * [A062783](https://oeis.org/A062783) ([program](/edit/?oeis=62783)): a(n) = 3\*n\*(4\*n-1).
 * [A062785](https://oeis.org/A062785) ([program](/edit/?oeis=62785)): Chowla's function \* sigma(n).
 * [A062786](https://oeis.org/A062786) ([program](/edit/?oeis=62786)): Centered 10-gonal numbers.
+* [A062790](https://oeis.org/A062790) ([program](/edit/?oeis=62790)): Moebius transform of the cototient function A051953.
 * [A062796](https://oeis.org/A062796) ([program](/edit/?oeis=62796)): Inverse Moebius transform of f(n) = n^n (A000312).
 * [A062798](https://oeis.org/A062798) ([program](/edit/?oeis=62798)): Inverse Moebius transform of central binomial coefficients f[x]=C(c,[x/2])=A001405[x].
 * [A062800](https://oeis.org/A062800) ([program](/edit/?oeis=62800)): Primes of form 100k + 1.
+* [A062801](https://oeis.org/A062801) ([program](/edit/?oeis=62801)): Number of 2 X 2 non-singular integer matrices with entries from \{0,...,n\}.
 * [A062803](https://oeis.org/A062803) ([program](/edit/?oeis=62803)): Number of solutions to x^2 == y^2 (mod n).
 * [A062805](https://oeis.org/A062805) ([program](/edit/?oeis=62805)): a(n) = Sum\_\{i=1..n\} i\*n^(n-i).
 * [A062806](https://oeis.org/A062806) ([program](/edit/?oeis=62806)): a(n) = Sum\_\{i=1..n\} i\*n^i.
@@ -3766,6 +3939,7 @@ List of integer sequences with links to LODA programs.
 * [A062825](https://oeis.org/A062825) ([program](/edit/?oeis=62825)): Ch(n-th nonprime) where Ch(n) is Chowla's function, cf. A048050.
 * [A062828](https://oeis.org/A062828) ([program](/edit/?oeis=62828)): a(n) = gcd(2n, n(n+1)/2).
 * [A062830](https://oeis.org/A062830) ([program](/edit/?oeis=62830)): a(n) = n - phi(n) + 1.
+* [A062831](https://oeis.org/A062831) ([program](/edit/?oeis=62831)): Number of ways n can be expressed as the sum of a nonzero square and 1 or a prime.
 * [A062833](https://oeis.org/A062833) ([program](/edit/?oeis=62833)): 2n! / number of divisors of n.
 * [A062835](https://oeis.org/A062835) ([program](/edit/?oeis=62835)): a(1) = 0; for n > 1 a(n) = sum of divisors of n^2-1; or sigma(A005563(n-1)).
 * [A062838](https://oeis.org/A062838) ([program](/edit/?oeis=62838)): Cubes of squarefree numbers.
@@ -3783,15 +3957,18 @@ List of integer sequences with links to LODA programs.
 * [A062880](https://oeis.org/A062880) ([program](/edit/?oeis=62880)): Zero together with the numbers which can be written as a sum of distinct odd powers of 2.
 * [A062882](https://oeis.org/A062882) ([program](/edit/?oeis=62882)): a(n) = (1 - 2\*cos(Pi/9))^n + (1 + 2\*cos(Pi\*2/9))^n + (1 + 2\*cos(Pi\*4/9))^n.
 * [A062897](https://oeis.org/A062897) ([program](/edit/?oeis=62897)): Number and its reversal are both multiples of 2.
+* [A062898](https://oeis.org/A062898) ([program](/edit/?oeis=62898)): Number and its reversal are both multiples of 4.
 * [A062899](https://oeis.org/A062899) ([program](/edit/?oeis=62899)): Number and its reversal are both multiples of 6.
 * [A062900](https://oeis.org/A062900) ([program](/edit/?oeis=62900)): Number and its reversal are both multiples of 8.
 * [A062903](https://oeis.org/A062903) ([program](/edit/?oeis=62903)): Numbers n such that n and its reversal are both multiples of 13.
 * [A062905](https://oeis.org/A062905) ([program](/edit/?oeis=62905)): Numbers n such that n and its reversal are both multiples of 15.
 * [A062908](https://oeis.org/A062908) ([program](/edit/?oeis=62908)): Non-palindromic number and its reversal are both even.
+* [A062910](https://oeis.org/A062910) ([program](/edit/?oeis=62910)): Non-palindromic number and its reversal are both multiples of 6.
 * [A062918](https://oeis.org/A062918) ([program](/edit/?oeis=62918)): Sum of the digit reversals of the first n natural numbers.
 * [A062919](https://oeis.org/A062919) ([program](/edit/?oeis=62919)): "Reverse factorials": product of the digit reversals of the numbers 1 through n.
 * [A062938](https://oeis.org/A062938) ([program](/edit/?oeis=62938)): a(n) = n\*(n+1)\*(n+2)\*(n+3)+1, which equals (n^2 +3\*n + 1)^2.
 * [A062940](https://oeis.org/A062940) ([program](/edit/?oeis=62940)): Number of squares (including 0) with n digits.
+* [A062941](https://oeis.org/A062941) ([program](/edit/?oeis=62941)): Number of n-digit cubes (0 is included as a single-digit number).
 * [A062947](https://oeis.org/A062947) ([program](/edit/?oeis=62947)): C(n,[n/7]).
 * [A062948](https://oeis.org/A062948) ([program](/edit/?oeis=62948)): H(A002808(n)) where H(n) is the half-totient function, H(n) = phi(n)/2: (A023022) and A002808(n) are the composites.
 * [A062949](https://oeis.org/A062949) ([program](/edit/?oeis=62949)): Multiplicative with a(p^e) = ((e+1)\*p^(e+1)-(e+2)\*p^e+1)/(p-1).
@@ -3800,6 +3977,7 @@ List of integer sequences with links to LODA programs.
 * [A062953](https://oeis.org/A062953) ([program](/edit/?oeis=62953)): Multiplicative with a(p^e) = -p.
 * [A062955](https://oeis.org/A062955) ([program](/edit/?oeis=62955)): a(n) = phi(n^2) - phi(n) = (n-1) \* phi(n).
 * [A062956](https://oeis.org/A062956) ([program](/edit/?oeis=62956)): a(n) = h(n^2) - h(n), where h(n) is the half-totient function (A023022).
+* [A062957](https://oeis.org/A062957) ([program](/edit/?oeis=62957)): C(n^2)-C(n), where C(n) is Chowla's function (A048050).
 * [A062958](https://oeis.org/A062958) ([program](/edit/?oeis=62958)): phi[n+1] < 2phi[n], phi[]=A000010.
 * [A062960](https://oeis.org/A062960) ([program](/edit/?oeis=62960)): Number of divisors of (n!)^n (A036740).
 * [A062961](https://oeis.org/A062961) ([program](/edit/?oeis=62961)): Number of divisors of n!^n! (A046882).
@@ -3834,6 +4012,7 @@ List of integer sequences with links to LODA programs.
 * [A063020](https://oeis.org/A063020) ([program](/edit/?oeis=63020)): Reversion of y - y^2 - y^3 + y^4.
 * [A063021](https://oeis.org/A063021) ([program](/edit/?oeis=63021)): Reversion of y - y^2 - y^5.
 * [A063026](https://oeis.org/A063026) ([program](/edit/?oeis=63026)): Reversion of y - y^2 + y^4 - y^5.
+* [A063030](https://oeis.org/A063030) ([program](/edit/?oeis=63030)): Reversion of y - y^2 - y^4 + y^5.
 * [A063033](https://oeis.org/A063033) ([program](/edit/?oeis=63033)): Reversion of y - y^2 + y^4.
 * [A063038](https://oeis.org/A063038) ([program](/edit/?oeis=63038)): Floor(n\*sqrt(n)) - d(n), where d(n) is the number of divisors function.
 * [A063051](https://oeis.org/A063051) ([program](/edit/?oeis=63051)): 'Reverse and Add!' trajectory of 879.
@@ -3987,6 +4166,7 @@ List of integer sequences with links to LODA programs.
 * [A063401](https://oeis.org/A063401) ([program](/edit/?oeis=63401)): a(n) = a(n-1)\*a(n-2)\*a(n-3) with a(0)=1, a(1)=2, a(2)=2.
 * [A063402](https://oeis.org/A063402) ([program](/edit/?oeis=63402)): a(0)=0; a(1)=1; a(2)=2; a(n)= a(n-1) + a(n-2)\*a(n-3).
 * [A063404](https://oeis.org/A063404) ([program](/edit/?oeis=63404)): a(0)=1; a(1)=1; a(2)=1; a(n) = a(n-1) + (1 + a(n-2))\*(1 + a(n-3)).
+* [A063416](https://oeis.org/A063416) ([program](/edit/?oeis=63416)): Multiples of 7 whose sum of digits is equal to 7.
 * [A063417](https://oeis.org/A063417) ([program](/edit/?oeis=63417)): Ninth column (k=8) of septinomial array A063265.
 * [A063418](https://oeis.org/A063418) ([program](/edit/?oeis=63418)): Tenth column (k=9) of septinomial array A063265.
 * [A063427](https://oeis.org/A063427) ([program](/edit/?oeis=63427)): a(n) is the smallest positive integer k such that n\*k/(n+k) is an integer.
@@ -4003,11 +4183,13 @@ List of integer sequences with links to LODA programs.
 * [A063460](https://oeis.org/A063460) ([program](/edit/?oeis=63460)): A Beatty sequence: a(n) = floor(n \* (Pi-1)/(Pi-2)).
 * [A063462](https://oeis.org/A063462) ([program](/edit/?oeis=63462)): n \* last digit of n.
 * [A063468](https://oeis.org/A063468) ([program](/edit/?oeis=63468)): Number of Pythagorean triples in the range [1..n], i.e., the number of integer solutions to x^2 + y^2 = z^2 with 1 <= x,y,z <= n.
+* [A063472](https://oeis.org/A063472) ([program](/edit/?oeis=63472)): Primes of the form 666\*k - 1.
 * [A063473](https://oeis.org/A063473) ([program](/edit/?oeis=63473)): M(2\*n-1), where M(n) is Mertens's function (A002321): Sum\_\{k=1..n\} mu(k), where mu = Moebius function (A008683).
 * [A063475](https://oeis.org/A063475) ([program](/edit/?oeis=63475)): Sum\_\{d \| H(n)\} d^2, where H(n) is the Half-Totient function (A023022).
 * [A063476](https://oeis.org/A063476) ([program](/edit/?oeis=63476)): Sum\_\{d \|C(n)\} d^2, where C(n) is the Cototient function n - phi(n) (A051953).
 * [A063481](https://oeis.org/A063481) ([program](/edit/?oeis=63481)): a(n) = 4^n + 8^n.
 * [A063482](https://oeis.org/A063482) ([program](/edit/?oeis=63482)): p(n) \* last digit of p(n) where p(n) is n-th prime.
+* [A063483](https://oeis.org/A063483) ([program](/edit/?oeis=63483)): S[A002808(n)] where S[] is Boris Stechkin's function (A055004) and A002808(n) are the composites.
 * [A063487](https://oeis.org/A063487) ([program](/edit/?oeis=63487)): Number of distinct prime divisors of 2^(2^n)-1 (A051179).
 * [A063488](https://oeis.org/A063488) ([program](/edit/?oeis=63488)): a(n) = (2\*n-1)\*(n^2 -n +2)/2.
 * [A063489](https://oeis.org/A063489) ([program](/edit/?oeis=63489)): a(n) = (2\*n-1)\*(5\*n^2-5\*n+6)/6.
@@ -4087,6 +4269,7 @@ List of integer sequences with links to LODA programs.
 * [A063896](https://oeis.org/A063896) ([program](/edit/?oeis=63896)): a(n) = 2^Fibonacci(n) - 1.
 * [A063905](https://oeis.org/A063905) ([program](/edit/?oeis=63905)): Each prime p appears p times.
 * [A063908](https://oeis.org/A063908) ([program](/edit/?oeis=63908)): Numbers k such that k and 2\*k-3 are primes.
+* [A063911](https://oeis.org/A063911) ([program](/edit/?oeis=63911)): Primes p such that 2\*p - 9 is also prime.
 * [A063914](https://oeis.org/A063914) ([program](/edit/?oeis=63914)): Odd numbers interlaced with numbers 3m+2.
 * [A063915](https://oeis.org/A063915) ([program](/edit/?oeis=63915)): G.f.: (1 + Sum\_\{ i >= 0 \} 2^i\*x^(2^(i+1)-1)) / (1-x)^2.
 * [A063916](https://oeis.org/A063916) ([program](/edit/?oeis=63916)): G.f.: (1 + Sum\_\{ i >= 0 \} 2^i\*x^(2^(i+1)-1)) / (1-x)^3.
@@ -4111,6 +4294,7 @@ List of integer sequences with links to LODA programs.
 * [A063989](https://oeis.org/A063989) ([program](/edit/?oeis=63989)): Numbers with a prime number of prime divisors (counted with multiplicity).
 * [A063992](https://oeis.org/A063992) ([program](/edit/?oeis=63992)): Numbers that are not factorials.
 * [A063994](https://oeis.org/A063994) ([program](/edit/?oeis=63994)): a(n) = Product\_\{primes p dividing n \} gcd(p-1, n-1).
+* [A063997](https://oeis.org/A063997) ([program](/edit/?oeis=63997)): Multiples of 4 whose digits add to 4.
 * [A064008](https://oeis.org/A064008) ([program](/edit/?oeis=64008)): a(n) = (10^n - 1)/9\*prime(n).
 * [A064009](https://oeis.org/A064009) ([program](/edit/?oeis=64009)): a(n) = Sum\_\{k=1..n\} d(k)\*prime(k), where d(k) = A001223.
 * [A064017](https://oeis.org/A064017) ([program](/edit/?oeis=64017)): Number of ternary trees (A001764) with n nodes and maximal diameter.
@@ -4124,7 +4308,9 @@ List of integer sequences with links to LODA programs.
 * [A064046](https://oeis.org/A064046) ([program](/edit/?oeis=64046)): Number of length 6 walks on an n-dimensional hypercubic lattice starting and finishing at the origin and staying in the nonnegative part.
 * [A064051](https://oeis.org/A064051) ([program](/edit/?oeis=64051)): a(n) = 2\*prime(n)^2 - prime(n+1)^2.
 * [A064052](https://oeis.org/A064052) ([program](/edit/?oeis=64052)): Not sqrt(n)-smooth: some prime factor of n is > sqrt(n).
+* [A064053](https://oeis.org/A064053) ([program](/edit/?oeis=64053)): Dragonette's sequence gamma(n).
 * [A064054](https://oeis.org/A064054) ([program](/edit/?oeis=64054)): Tenth column of trinomial coefficients.
+* [A064055](https://oeis.org/A064055) ([program](/edit/?oeis=64055)): Ninth column of quadrinomial coefficients.
 * [A064056](https://oeis.org/A064056) ([program](/edit/?oeis=64056)): Seventh column of quintinomial coefficients.
 * [A064057](https://oeis.org/A064057) ([program](/edit/?oeis=64057)): Eighth column of quintinomial coefficients.
 * [A064058](https://oeis.org/A064058) ([program](/edit/?oeis=64058)): Ninth column of quintinomial coefficients.
@@ -4132,6 +4318,10 @@ List of integer sequences with links to LODA programs.
 * [A064061](https://oeis.org/A064061) ([program](/edit/?oeis=64061)): Eighth column of Catalan triangle A009766.
 * [A064062](https://oeis.org/A064062) ([program](/edit/?oeis=64062)): Generalized Catalan numbers C(2; n).
 * [A064063](https://oeis.org/A064063) ([program](/edit/?oeis=64063)): Generalized Catalan numbers C(3; n).
+* [A064069](https://oeis.org/A064069) ([program](/edit/?oeis=64069)): Generalized Euler number c(8,n).
+* [A064070](https://oeis.org/A064070) ([program](/edit/?oeis=64070)): Generalized Euler number c(9,n).
+* [A064073](https://oeis.org/A064073) ([program](/edit/?oeis=64073)): Generalized tangent number d(8,n).
+* [A064074](https://oeis.org/A064074) ([program](/edit/?oeis=64074)): Generalized tangent number d(9,n).
 * [A064079](https://oeis.org/A064079) ([program](/edit/?oeis=64079)): Zsigmondy numbers for a = 3, b = 1: Zs(n, 3, 1) is the greatest divisor of 3^n - 1^n (A024023) that is relatively prime to 3^m - 1^m for all positive integers m < n.
 * [A064080](https://oeis.org/A064080) ([program](/edit/?oeis=64080)): Zsigmondy numbers for a = 4, b = 1: Zs(n, 4, 1) is the greatest divisor of 4^n - 1^n (A024036) that is relatively prime to 4^m - 1^m for all positive integers m < n.
 * [A064081](https://oeis.org/A064081) ([program](/edit/?oeis=64081)): Zsigmondy numbers for a = 5, b = 1: Zs(n, 5, 1) is the greatest divisor of 5^n - 1^n (A024049) that is relatively prime to 5^m - 1^m for all positive integers m < n.
@@ -4150,6 +4340,7 @@ List of integer sequences with links to LODA programs.
 * [A064099](https://oeis.org/A064099) ([program](/edit/?oeis=64099)): a(n) = ceiling(log(3 + 2\*n)/log(3)).
 * [A064100](https://oeis.org/A064100) ([program](/edit/?oeis=64100)): a(n) = (100^n - 1)/99\*n.
 * [A064105](https://oeis.org/A064105) ([program](/edit/?oeis=64105)): 2nd column of 3rd-order Zeckendorf array.
+* [A064106](https://oeis.org/A064106) ([program](/edit/?oeis=64106)): 3rd column of 3rd-order Zeckendorf array.
 * [A064108](https://oeis.org/A064108) ([program](/edit/?oeis=64108)): a(n) = (20^n-1)/19.
 * [A064138](https://oeis.org/A064138) ([program](/edit/?oeis=64138)): Sum of non-unitary divisors of n!.
 * [A064139](https://oeis.org/A064139) ([program](/edit/?oeis=64139)): Sum of divisors of central binomial coefficient C(n, floor(n/2)).
@@ -4167,6 +4358,7 @@ List of integer sequences with links to LODA programs.
 * [A064183](https://oeis.org/A064183) ([program](/edit/?oeis=64183)): Define a pair of sequences by p(0) = 0, q(0) = p(1) = q(1) = 1, q(n+1) = p(n)\*q(n-1), p(n+1) = q(n+1) + q(n) for n > 0; then a(n) = q(n) and A064526(n) = p(n).
 * [A064184](https://oeis.org/A064184) ([program](/edit/?oeis=64184)): Denominator of sequence defined by recursion c(n)=1+c(n-2)/c(n-1), c(0)=0, c(1)=1.
 * [A064188](https://oeis.org/A064188) ([program](/edit/?oeis=64188)): Sum\_\{ i = 0 .. floor(n/2)\} binomial (n - i\*(i-1)/2, i).
+* [A064189](https://oeis.org/A064189) ([program](/edit/?oeis=64189)): Triangle T(n,k), 0 <= k <= n, read by rows, defined by: T(0,0)=1, T(n,k)=0 if n < k, T(n,k) = T(n-1,k-1) + T(n-1,k) + T(n-1,k+1).
 * [A064194](https://oeis.org/A064194) ([program](/edit/?oeis=64194)): a(2n) = 3\*a(n), a(2n+1) = 2\*a(n+1)+a(n), with a(1) = 1.
 * [A064197](https://oeis.org/A064197) ([program](/edit/?oeis=64197)): a(n) = 27\*(n-1)\*(n-2)\*(n-3)\*(3\*n-8)/2.
 * [A064198](https://oeis.org/A064198) ([program](/edit/?oeis=64198)): a(n) = 3\*(n-2)\*(n-3)\*(3\*n^2-3\*n-8)/2.
@@ -4191,6 +4383,7 @@ List of integer sequences with links to LODA programs.
 * [A064276](https://oeis.org/A064276) ([program](/edit/?oeis=64276)): Number of 2 X 2 singular integer matrices with elements from \{0,...,n\} up to row and column permutation.
 * [A064279](https://oeis.org/A064279) ([program](/edit/?oeis=64279)): Number of ordered pairs a,b of elements in the cyclic group C\_n such that the subgroup generated by the pair a,b is a proper subgroup of C\_n.
 * [A064282](https://oeis.org/A064282) ([program](/edit/?oeis=64282)): Triangle read by rows: T(n,k) = binomial(3n+3, k)\*(n-k+1)/(n+1).
+* [A064299](https://oeis.org/A064299) ([program](/edit/?oeis=64299)): a(n) = B(n)\*C(n), where B(n) are Bell numbers (A000110) and C(n) are Catalan numbers (A000108).
 * [A064302](https://oeis.org/A064302) ([program](/edit/?oeis=64302)): Sixth diagonal of triangle A064094.
 * [A064303](https://oeis.org/A064303) ([program](/edit/?oeis=64303)): Seventh diagonal of triangle A064094.
 * [A064304](https://oeis.org/A064304) ([program](/edit/?oeis=64304)): Eighth diagonal of triangle A064094.
@@ -4198,6 +4391,7 @@ List of integer sequences with links to LODA programs.
 * [A064306](https://oeis.org/A064306) ([program](/edit/?oeis=64306)): Convolution of A052701 (Catalan numbers multiplied by powers of 2) with powers of -1.
 * [A064310](https://oeis.org/A064310) ([program](/edit/?oeis=64310)): Generalized Catalan numbers C(-1; n).
 * [A064311](https://oeis.org/A064311) ([program](/edit/?oeis=64311)): Generalized Catalan numbers C(-2; n).
+* [A064312](https://oeis.org/A064312) ([program](/edit/?oeis=64312)): a(n) = B(n)\*P(n), where B(n) are Bell numbers (A000110) and P(n) are numbers of arrangements of a set of n elements (A000522).
 * [A064318](https://oeis.org/A064318) ([program](/edit/?oeis=64318)): a(n) satisfies a(n)! <= n^n < (a(n)+1)!.
 * [A064321](https://oeis.org/A064321) ([program](/edit/?oeis=64321)): n\*(n-1)^3\*(n-2)^3\*(n-3).
 * [A064322](https://oeis.org/A064322) ([program](/edit/?oeis=64322)): Triply triangular numbers.
@@ -4218,6 +4412,7 @@ List of integer sequences with links to LODA programs.
 * [A064352](https://oeis.org/A064352) ([program](/edit/?oeis=64352)): a(n) = (3\*n)!/(2\*n)!.
 * [A064353](https://oeis.org/A064353) ([program](/edit/?oeis=64353)): Kolakoski-(1,3) sequence: the alphabet is \{1,3\}, and a(n) is the length of the n-th run.
 * [A064359](https://oeis.org/A064359) ([program](/edit/?oeis=64359)): Inverse of sequence A052331 considered as a permutation of the natural numbers.
+* [A064363](https://oeis.org/A064363) ([program](/edit/?oeis=64363)): Number of 2 X 2 regular integer matrices with elements from \{0,...,n\} up to row and column permutation.
 * [A064366](https://oeis.org/A064366) ([program](/edit/?oeis=64366)): Special binomial coefficient: a(n) = C(sigma(n), phi(n)).
 * [A064367](https://oeis.org/A064367) ([program](/edit/?oeis=64367)): a(n) = 2^n mod prime(n), or 2^n = k\*prime(n) + a(n) with integer k.
 * [A064368](https://oeis.org/A064368) ([program](/edit/?oeis=64368)): Number of 2 X 2 symmetric singular matrices with entries from \{0,...,n\}.
@@ -4252,6 +4447,8 @@ List of integer sequences with links to LODA programs.
 * [A064524](https://oeis.org/A064524) ([program](/edit/?oeis=64524)): Number of noncubes <= n.
 * [A064525](https://oeis.org/A064525) ([program](/edit/?oeis=64525)): Smallest Fibonacci number with a prime number of decimal digits.
 * [A064526](https://oeis.org/A064526) ([program](/edit/?oeis=64526)): Define a pair of sequences by p(0) = 0, q(0) = p(1) = q(1) = 1, q(n+1) = p(n)\*q(n-1), p(n+1) = q(n+1) + q(n) for n > 0; then a(n) = p(n) and A064183(n) = q(n).
+* [A064529](https://oeis.org/A064529) ([program](/edit/?oeis=64529)): Number of connected components remaining when n-th letter of English alphabet is cut from a piece of paper.
+* [A064530](https://oeis.org/A064530) ([program](/edit/?oeis=64530)): Number of holes in n-th capital letter of English alphabet.
 * [A064534](https://oeis.org/A064534) ([program](/edit/?oeis=64534)): If p >= 11 is prime, n is a power of one of the primes in this sequence but n is not a power of p, then the equation x^p + y^p = n\*z^p has no solution in integers x,y,z.
 * [A064535](https://oeis.org/A064535) ([program](/edit/?oeis=64535)): a(n) = (2^prime(n)-2)/prime(n); a(0) = 0 by convention.
 * [A064542](https://oeis.org/A064542) ([program](/edit/?oeis=64542)): a(n) = Max \{ k \| k! <= n! / k! \} where m! = A000142(m), factorial.
@@ -4259,7 +4456,9 @@ List of integer sequences with links to LODA programs.
 * [A064547](https://oeis.org/A064547) ([program](/edit/?oeis=64547)): Sum of binary digits (or count of 1-bits) in the exponents of the prime factorization of n.
 * [A064549](https://oeis.org/A064549) ([program](/edit/?oeis=64549)): a(n) = n \* Product\_\{primes p\|n\} p.
 * [A064551](https://oeis.org/A064551) ([program](/edit/?oeis=64551)): Ado [Simone Caramel]'s Fibonacci function: define the Fibonacci sequence by f(0) = 1, f(1) = 1, f(n) = f(n-1)+f(n-2); then a(0) = 1, a(n) = a(n-1) + 2\*(f(n)-n), n > 0.
+* [A064553](https://oeis.org/A064553) ([program](/edit/?oeis=64553)): a(1) = 1, a(prime(i)) = i + 1 for i > 0 and a(u \* v) = a(u) \* a(v) for u, v > 0.
 * [A064557](https://oeis.org/A064557) ([program](/edit/?oeis=64557)): a(n) = # \{ p \| A064553(k) = p prime and k <= n\}.
+* [A064559](https://oeis.org/A064559) ([program](/edit/?oeis=64559)): Number of iterations in A064553 to reach a fixed point.
 * [A064560](https://oeis.org/A064560) ([program](/edit/?oeis=64560)): Numbers n such that reciprocal of n terminates with an infinite repetition of digit 1. Multiples of 10 are omitted.
 * [A064562](https://oeis.org/A064562) ([program](/edit/?oeis=64562)): Reciprocal of n terminates with an infinite repetition of digit 3. Multiples of 10 are omitted.
 * [A064570](https://oeis.org/A064570) ([program](/edit/?oeis=64570)): Binomial transform of (2n)!.
@@ -4267,6 +4466,7 @@ List of integer sequences with links to LODA programs.
 * [A064578](https://oeis.org/A064578) ([program](/edit/?oeis=64578)): Inverse permutation to A057027.
 * [A064583](https://oeis.org/A064583) ([program](/edit/?oeis=64583)): a(n) = n^4\*(n^4+1)\*(n^2-1).
 * [A064587](https://oeis.org/A064587) ([program](/edit/?oeis=64587)): a(n) = n^6\*(n^4 + n^2 + 1)\*(n^3 - 1)\*(n - 1).
+* [A064597](https://oeis.org/A064597) ([program](/edit/?oeis=64597)): Nonunitary abundant numbers: the sum of the nonunitary divisors of n is larger than n; i.e., sigma(n) - usigma(n) > n.
 * [A064601](https://oeis.org/A064601) ([program](/edit/?oeis=64601)): a(n) = # \{ p \| A064558(k) = p prime and k <= n\}.
 * [A064602](https://oeis.org/A064602) ([program](/edit/?oeis=64602)): Partial sums of A001157: Sum\_\{j=1..n\} sigma\_2(j).
 * [A064603](https://oeis.org/A064603) ([program](/edit/?oeis=64603)): Partial sums of A001158: Sum\_\{j=1..n\} sigma\_3(j).
@@ -4338,6 +4538,7 @@ List of integer sequences with links to LODA programs.
 * [A064813](https://oeis.org/A064813) ([program](/edit/?oeis=64813)): a(n) = binomial(composite(n), n), where composite = A002808, composite numbers.
 * [A064814](https://oeis.org/A064814) ([program](/edit/?oeis=64814)): Greatest common divisor of n and the n-th composite number.
 * [A064819](https://oeis.org/A064819) ([program](/edit/?oeis=64819)): a(n) = p(1)\*p(2)\*...\*p(n) - p(n+1)^2, where p(i) = i-th prime.
+* [A064824](https://oeis.org/A064824) ([program](/edit/?oeis=64824)): Same as A065191 but with B\_[1]=( i mod 10, i=0,1,2,3..).
 * [A064830](https://oeis.org/A064830) ([program](/edit/?oeis=64830)): a(n) = gcd(n, prime(n)^2 - 1).
 * [A064831](https://oeis.org/A064831) ([program](/edit/?oeis=64831)): Partial sums of A001654, or sum of the areas of the first n Fibonacci rectangles.
 * [A064835](https://oeis.org/A064835) ([program](/edit/?oeis=64835)): If n mod 2 = 0 then a(n) = n^4/4 - 2\*n^2 + 3\*n; otherwise, a(n) = n^4/4 - 2\*n^2 + 3\*n - 5/4.
@@ -4347,6 +4548,7 @@ List of integer sequences with links to LODA programs.
 * [A064843](https://oeis.org/A064843) ([program](/edit/?oeis=64843)): A064842/2.
 * [A064847](https://oeis.org/A064847) ([program](/edit/?oeis=64847)): Sequence a(n) such that there is a sequence b(n) with a(1) = b(1) = 1, a(n+1) = a(n) \* b(n) and  b(n+1) = a(n) + b(n) for n >= 1.
 * [A064853](https://oeis.org/A064853) ([program](/edit/?oeis=64853)): Lemniscate constant.
+* [A064857](https://oeis.org/A064857) ([program](/edit/?oeis=64857)): Numerators of partial sums of reciprocals of lcm(1..n) = A003418(n).
 * [A064865](https://oeis.org/A064865) ([program](/edit/?oeis=64865)): Fill a triangular array by rows by writing numbers 1, then 1 up to 2^2, then 1 up to 3^2, then 1 up to 4^2 and so on. The final elements of the rows form the sequence.
 * [A064866](https://oeis.org/A064866) ([program](/edit/?oeis=64866)): Write numbers 1, then 1 up to 2^2, then 1 up to 3^2, then 1 up to 4^2 and so on.
 * [A064873](https://oeis.org/A064873) ([program](/edit/?oeis=64873)): First of four sequences representing the lexicographical minimal decomposition of n in 4 squares: n = a(n)^2 + A064874(n)^2 + A064875(n)^2 + A064876(n)^2.
@@ -4385,6 +4587,7 @@ List of integer sequences with links to LODA programs.
 * [A065033](https://oeis.org/A065033) ([program](/edit/?oeis=65033)): 1 appears three times, other numbers twice.
 * [A065034](https://oeis.org/A065034) ([program](/edit/?oeis=65034)): a(n) = Lucas(2\*n) + 1.
 * [A065035](https://oeis.org/A065035) ([program](/edit/?oeis=65035)): a(n+1) = a(n)^2 + 3\*a(n) + 1.
+* [A065037](https://oeis.org/A065037) ([program](/edit/?oeis=65037)): Inverse permutation to A036552.
 * [A065039](https://oeis.org/A065039) ([program](/edit/?oeis=65039)): If n in base 10 is d\_1 d\_2 ... d\_k then a(n) = d\_1 + d\_1d\_2 + d\_1d\_2d\_3 + ... + d\_1...d\_k.
 * [A065040](https://oeis.org/A065040) ([program](/edit/?oeis=65040)): Triangle read by rows: T(m,k) = exponent of the highest power of 2 dividing the binomial coefficient binomial(m,k).
 * [A065043](https://oeis.org/A065043) ([program](/edit/?oeis=65043)): Characteristic function of the numbers with an even number of prime factors (counted with multiplicity): a(n) = 1 if n = A028260(k) for some k then 1 else 0.
@@ -4419,6 +4622,7 @@ List of integer sequences with links to LODA programs.
 * [A065142](https://oeis.org/A065142) ([program](/edit/?oeis=65142)): a(n) = 2^n\*(n+1)\*(3\*n)!.
 * [A065151](https://oeis.org/A065151) ([program](/edit/?oeis=65151)): a(n) = prime(1 + A064722(n)).
 * [A065152](https://oeis.org/A065152) ([program](/edit/?oeis=65152)): Cototient(totient(n)) - totient(cototient(n)).
+* [A065154](https://oeis.org/A065154) ([program](/edit/?oeis=65154)): Numbers for which the cototient of the totient is strictly less than the totient of the cototient.
 * [A065155](https://oeis.org/A065155) ([program](/edit/?oeis=65155)): Numbers whose cototient of totient is strictly greater than totient of cototient.
 * [A065164](https://oeis.org/A065164) ([program](/edit/?oeis=65164)): Permutation t->t+1 of Z, folded to N.
 * [A065165](https://oeis.org/A065165) ([program](/edit/?oeis=65165)): Permutation t->t+2 of Z, folded to N.
@@ -4433,6 +4637,7 @@ List of integer sequences with links to LODA programs.
 * [A065186](https://oeis.org/A065186) ([program](/edit/?oeis=65186)): a(1)=1, a(2)=3, a(3)=5, a(4)=2, a(5)=4; for n > 5, a(n) = a(n-5) + 5.
 * [A065187](https://oeis.org/A065187) ([program](/edit/?oeis=65187)): "Greedy Dragons" permutation of the natural numbers, inverse of A065186.
 * [A065190](https://oeis.org/A065190) ([program](/edit/?oeis=65190)): Self-inverse permutation of the positive integers: 1 is fixed, followed by an infinite number of adjacent transpositions (n n+1).
+* [A065191](https://oeis.org/A065191) ([program](/edit/?oeis=65191)): Limit of the recursion B\_[k] = T[k](B\_[k-1]), where B\_[1] = (1,2,3,4,5,...) and T[k] is the transformation that permutes the entries k(2i-1) + j and k(2i) + j for all j = 0,..,k-1 and positive integers i.
 * [A065201](https://oeis.org/A065201) ([program](/edit/?oeis=65201)): Numbers having a non-maximal prime-factor with exponent greater than 1.
 * [A065202](https://oeis.org/A065202) ([program](/edit/?oeis=65202)): Characteristic function of A065201: a(n) = if A065201(k) = n for some k then 1 else 0.
 * [A065220](https://oeis.org/A065220) ([program](/edit/?oeis=65220)): a(n) = Fibonacci(n) - n.
@@ -4460,8 +4665,12 @@ List of integer sequences with links to LODA programs.
 * [A065260](https://oeis.org/A065260) ([program](/edit/?oeis=65260)): A057115 conjugated with A059893, inverse of A065259.
 * [A065261](https://oeis.org/A065261) ([program](/edit/?oeis=65261)): The siteswap sequence (the deltas p[i]-i, i in ]-inf,+inf[, folded from Z to N, mapping 0->1, 1->2, -1->3, 2->4, -2->5, etc.) for A065260.
 * [A065262](https://oeis.org/A065262) ([program](/edit/?oeis=65262)): The nonpositive side (-1, -2, -3, ...) of the site swap sequence A065261. The bisection of odd terms of A065261.
+* [A065268](https://oeis.org/A065268) ([program](/edit/?oeis=65268)): The bisection of odd terms (the <= 0 half of Z) of A065267.
+* [A065274](https://oeis.org/A065274) ([program](/edit/?oeis=65274)): The bisection of odd terms (the <= 0 half of Z) of A065273.
+* [A065286](https://oeis.org/A065286) ([program](/edit/?oeis=65286)): The bisection of odd terms (the <= 0 half of Z) of A065285.
 * [A065295](https://oeis.org/A065295) ([program](/edit/?oeis=65295)): Number of values of s, 0 < s <= n-1, such that s^s == s (mod n).
 * [A065300](https://oeis.org/A065300) ([program](/edit/?oeis=65300)): Numbers n such that sum of divisors is a squarefree number.
+* [A065305](https://oeis.org/A065305) ([program](/edit/?oeis=65305)): Triangular array giving means of two odd primes: T(n,k) = (n-th prime + k-th prime)/2, n >= k >= 2.
 * [A065308](https://oeis.org/A065308) ([program](/edit/?oeis=65308)): Prime(n - PrimePi(n)).
 * [A065309](https://oeis.org/A065309) ([program](/edit/?oeis=65309)): a(n) = prime(n) - prime(n - pi(n)).
 * [A065310](https://oeis.org/A065310) ([program](/edit/?oeis=65310)): Number of occurrences of n-th prime in A065308, where A065308(j) = prime(j - pi(j)).
@@ -4477,6 +4686,7 @@ List of integer sequences with links to LODA programs.
 * [A065338](https://oeis.org/A065338) ([program](/edit/?oeis=65338)): a(1) = 1, a(p) = p mod 4 for p prime and a(u \* v) = a(u) \* a(v) for u, v > 0.
 * [A065339](https://oeis.org/A065339) ([program](/edit/?oeis=65339)): Number of primes congruent to 3 modulo 4 dividing n (with multiplicity).
 * [A065340](https://oeis.org/A065340) ([program](/edit/?oeis=65340)): Third diagonal of triangle in A046740.
+* [A065342](https://oeis.org/A065342) ([program](/edit/?oeis=65342)): Triangle of sum of two primes: prime(n)+prime(k) with n >= k >= 1.
 * [A065344](https://oeis.org/A065344) ([program](/edit/?oeis=65344)): a(n) = Mod( binomial(2\*n,n), (n+1)\*(n+2) ).
 * [A065345](https://oeis.org/A065345) ([program](/edit/?oeis=65345)): a(n) = Mod( binomial(2\*n,n), (n+1)\*(n+2)\*(n+3) ).
 * [A065346](https://oeis.org/A065346) ([program](/edit/?oeis=65346)): a(n) = Mod( binomial(2\*n, n), (n+1)\*(n+2)\*(n+3)\*(n+4) ).
@@ -4518,6 +4728,7 @@ List of integer sequences with links to LODA programs.
 * [A065482](https://oeis.org/A065482) ([program](/edit/?oeis=65482)): a(n) = round( 2^n/n ).
 * [A065494](https://oeis.org/A065494) ([program](/edit/?oeis=65494)): Number of (binary) bit strings in which no even length block of 0's is followed by an even length block of 1's.
 * [A065495](https://oeis.org/A065495) ([program](/edit/?oeis=65495)): Number of (binary) bit strings of length n in which an odd length block of 0's is followed by an odd length block of 1's.
+* [A065496](https://oeis.org/A065496) ([program](/edit/?oeis=65496)): Numbers n such that sigma(n) is a nontrivial power, i.e., sigma(n) = a^b where a and b are greater than 1.
 * [A065497](https://oeis.org/A065497) ([program](/edit/?oeis=65497)): Number of (binary) bit strings of length n having at least one even length block of 0's followed by an even length block of 1's.
 * [A065500](https://oeis.org/A065500) ([program](/edit/?oeis=65500)): Number of distinct functions from a set with n^n elements to itself that can be defined naturally (in n) by typed lambda-calculus expressions.
 * [A065502](https://oeis.org/A065502) ([program](/edit/?oeis=65502)): Positive numbers divisible by 2 or 5; 1/n not purely periodic after decimal point.
@@ -4533,6 +4744,7 @@ List of integer sequences with links to LODA programs.
 * [A065530](https://oeis.org/A065530) ([program](/edit/?oeis=65530)): If n is odd then a(n) = n, else a(n) = n\*(n+2).
 * [A065532](https://oeis.org/A065532) ([program](/edit/?oeis=65532)): a(n) = 48\*n^2 - 1.
 * [A065535](https://oeis.org/A065535) ([program](/edit/?oeis=65535)): Number of strongly perfect lattices in dimension n.
+* [A065554](https://oeis.org/A065554) ([program](/edit/?oeis=65554)): Numbers n such that floor((3/2)^(n+1))/floor((3/2)^n) = 3/2.
 * [A065558](https://oeis.org/A065558) ([program](/edit/?oeis=65558)): Let G\_n be the group of invertible 2 X 2 matrices mod n (sequence A000252). a(n) is the maximal degree of an irreducible representation of G\_n.
 * [A065563](https://oeis.org/A065563) ([program](/edit/?oeis=65563)): Product of three consecutive Fibonacci numbers.
 * [A065565](https://oeis.org/A065565) ([program](/edit/?oeis=65565)): a(n) = floor((5/4)^n).
@@ -4545,6 +4757,7 @@ List of integer sequences with links to LODA programs.
 * [A065601](https://oeis.org/A065601) ([program](/edit/?oeis=65601)): Number of Dyck paths of length 2n with exactly 1 hill.
 * [A065603](https://oeis.org/A065603) ([program](/edit/?oeis=65603)): Transposition diameter: maximal number of moves in an optimal sorting of n objects by moving blocks.
 * [A065608](https://oeis.org/A065608) ([program](/edit/?oeis=65608)): Sum of divisors of n minus the number of divisors of n.
+* [A065619](https://oeis.org/A065619) ([program](/edit/?oeis=65619)): Expansion of e.g.f. x \* (tan(x) + sec(x)).
 * [A065620](https://oeis.org/A065620) ([program](/edit/?oeis=65620)): a(0)=0; thereafter a(2n) = 2a(n), a(2n+1) = -2a(n) + 1.
 * [A065621](https://oeis.org/A065621) ([program](/edit/?oeis=65621)): Reversing binary representation of n. Converting sum of powers of 2 in binary representation of a(n) to alternating sum gives n.
 * [A065651](https://oeis.org/A065651) ([program](/edit/?oeis=65651)): Sum\_\{k=1..n\} (-1)^tau(k)=n-2\*floor(sqrt(n)).
@@ -4554,6 +4767,8 @@ List of integer sequences with links to LODA programs.
 * [A065678](https://oeis.org/A065678) ([program](/edit/?oeis=65678)): Minimum value t such that all quadruples of Diffy\_length >= n have a maximal value >= t.
 * [A065679](https://oeis.org/A065679) ([program](/edit/?oeis=65679)): If n is even, a(n) = n^2 else a(n) = n.
 * [A065680](https://oeis.org/A065680) ([program](/edit/?oeis=65680)): Number of primes <= prime(n) which begin with a 1.
+* [A065681](https://oeis.org/A065681) ([program](/edit/?oeis=65681)): Number of primes <= prime(n) which begin with a 2.
+* [A065684](https://oeis.org/A065684) ([program](/edit/?oeis=65684)): Number of primes <= prime(n) which begin with a 5.
 * [A065692](https://oeis.org/A065692) ([program](/edit/?oeis=65692)): Braided power sequence: this is b(n+1)=3b(n)+2d(n)-c(n), A065693 is c(n+1)=3c(n)+2b(n)-d(n) and A065694 is d(n+1)=3d(n)+2c(n)-b(n), starting with b(0)=0, c(0)=1 and d(0)=2.
 * [A065693](https://oeis.org/A065693) ([program](/edit/?oeis=65693)): Braided power sequence: A065692 is b(n+1)=3b(n)+2d(n)-c(n), this is c(n+1)=3c(n)+2b(n)-d(n) and A065694 is d(n+1)=3d(n)+2c(n)-b(n), starting with b(0)=0, c(0)=1 and d(0)=2.
 * [A065694](https://oeis.org/A065694) ([program](/edit/?oeis=65694)): Braided power sequence: A065692 is b(n+1)=3b(n)+2d(n)-c(n), A065693 is c(n+1)=3c(n)+2b(n)-d(n) and this is d(n+1)=3d(n)+2c(n)-b(n), starting with b(0)=0, c(0)=1 and d(0)=2.
@@ -4599,6 +4814,7 @@ List of integer sequences with links to LODA programs.
 * [A065859](https://oeis.org/A065859) ([program](/edit/?oeis=65859)): Remainder when the n-th prime is divided by the n-th composite number.
 * [A065860](https://oeis.org/A065860) ([program](/edit/?oeis=65860)): Remainder when the n-th composite number is divided by n.
 * [A065861](https://oeis.org/A065861) ([program](/edit/?oeis=65861)): Remainder when the n-th composite number is divided by pi(n), the number of primes not exceeding n.
+* [A065862](https://oeis.org/A065862) ([program](/edit/?oeis=65862)): Remainder when n-th composite number is divided by the number of nonprimes not exceeding n.
 * [A065863](https://oeis.org/A065863) ([program](/edit/?oeis=65863)): Remainder when n-th prime is divided by the number of nonprimes not exceeding n.
 * [A065864](https://oeis.org/A065864) ([program](/edit/?oeis=65864)): Remainder when n is divided by the number of nonprimes not exceeding n.
 * [A065866](https://oeis.org/A065866) ([program](/edit/?oeis=65866)): a(n) = n! \* Catalan(n+1).
@@ -4627,8 +4843,10 @@ List of integer sequences with links to LODA programs.
 * [A065928](https://oeis.org/A065928) ([program](/edit/?oeis=65928)): (x,y) = (a(n),a(n+1)) are the solutions of (t(x)+t(y))/(1+xy)) = t(2) = 3, where t(n) denotes the n-th triangular number t(n) = n(n+1)/2.
 * [A065929](https://oeis.org/A065929) ([program](/edit/?oeis=65929)): (x,y) = (a(n),a(n+1)) are the solutions of (t(x)+t(y))/(1+xy)) = t(3) = 6, where t(n) denotes the n-th triangular number t(n) = n(n+1)/2.
 * [A065930](https://oeis.org/A065930) ([program](/edit/?oeis=65930)): (x,y) = (a(n),a(n+1)) are the solutions of (t(x)+t(y))/(1+xy)) = t(4) = 10, where t(n) denotes the n-th triangular number t(n) = n(n+1)/2.
+* [A065931](https://oeis.org/A065931) ([program](/edit/?oeis=65931)): Triangle of coefficients of Bessel polynomials \{y\_n(x)\}'.
 * [A065941](https://oeis.org/A065941) ([program](/edit/?oeis=65941)): T(n,k) = binomial(n-floor((k+1)/2), floor(k/2)). Triangle read by rows, for 0 <= k <= n.
 * [A065942](https://oeis.org/A065942) ([program](/edit/?oeis=65942)): Central column of triangle A065941.
+* [A065943](https://oeis.org/A065943) ([program](/edit/?oeis=65943)): Triangle of coefficients of Bessel polynomials \{y\_n(x)\}''.
 * [A065944](https://oeis.org/A065944) ([program](/edit/?oeis=65944)): Bessel polynomial \{y\_n\}''(-1).
 * [A065945](https://oeis.org/A065945) ([program](/edit/?oeis=65945)): Bessel polynomial \{y\_n\}''(2).
 * [A065946](https://oeis.org/A065946) ([program](/edit/?oeis=65946)): Bessel polynomial \{y\_n\}''(-2).
@@ -4642,6 +4860,10 @@ List of integer sequences with links to LODA programs.
 * [A065961](https://oeis.org/A065961) ([program](/edit/?oeis=65961)): a(n) = (3\*n - 1)!\*n/2.
 * [A065967](https://oeis.org/A065967) ([program](/edit/?oeis=65967)): a(n) = n \* Sum\_\{primes p dividing n\} (1 + 1/p).
 * [A065968](https://oeis.org/A065968) ([program](/edit/?oeis=65968)): a(n) = n \* Sum\_\{primes p dividing n\} (1 - 1/p).
+* [A065969](https://oeis.org/A065969) ([program](/edit/?oeis=65969)): a(n) = n^2 \* Sum\_\{primes p dividing n\} (1 + 1/p^2).
+* [A065970](https://oeis.org/A065970) ([program](/edit/?oeis=65970)): a(n) = n^2 \* Sum\_\{primes p dividing n\} (1 - 1/p^2).
+* [A065974](https://oeis.org/A065974) ([program](/edit/?oeis=65974)): Numerators in expansion of (exp(x)-1)^3.
+* [A065975](https://oeis.org/A065975) ([program](/edit/?oeis=65975)): Denominators in expansion of (exp(x)-1)^3.
 * [A065979](https://oeis.org/A065979) ([program](/edit/?oeis=65979)): Binomial transform of A002024.
 * [A065980](https://oeis.org/A065980) ([program](/edit/?oeis=65980)): Inverse binomial transform of [1^1,2^2,3^3,...], shifted right by one index.
 * [A065981](https://oeis.org/A065981) ([program](/edit/?oeis=65981)): Best approximation of the remainder in the zeta(4) series using the remainder in the zeta(3) series.
@@ -4656,6 +4878,7 @@ List of integer sequences with links to LODA programs.
 * [A066004](https://oeis.org/A066004) ([program](/edit/?oeis=66004)): Sum of digits of 8^n.
 * [A066005](https://oeis.org/A066005) ([program](/edit/?oeis=66005)): Sum of digits of 11^n.
 * [A066006](https://oeis.org/A066006) ([program](/edit/?oeis=66006)): Sum of digits of 12^n.
+* [A066007](https://oeis.org/A066007) ([program](/edit/?oeis=66007)): a(n) is that n-digit number m which minimizes m/(sum of digits of m); in case of a tie pick the smallest.
 * [A066014](https://oeis.org/A066014) ([program](/edit/?oeis=66014)): Highest minimal Euclidean norm of any Type 4^Z self-dual code of length n over Z/4Z which does not have all Euclidean norms divisible by 8, that is, is strictly Type I. Compare A105682.
 * [A066022](https://oeis.org/A066022) ([program](/edit/?oeis=66022)): Number of digits in n^n.
 * [A066023](https://oeis.org/A066023) ([program](/edit/?oeis=66023)): (a(n)^7+1)/(n^7+1) is the smallest integer > 1.
@@ -4676,11 +4899,13 @@ List of integer sequences with links to LODA programs.
 * [A066071](https://oeis.org/A066071) ([program](/edit/?oeis=66071)): Nonprime numbers n such that phi(n) + 1 is prime.
 * [A066072](https://oeis.org/A066072) ([program](/edit/?oeis=66072)): Prime numbers arising in A066071.
 * [A066075](https://oeis.org/A066075) ([program](/edit/?oeis=66075)): Number of solutions x to prime(n) = sigma(x) - 1, where prime(n) is the n-th prime.
+* [A066077](https://oeis.org/A066077) ([program](/edit/?oeis=66077)): a(n) is the number of x such that sigma(x)-1 is 0 or one of the first n-1 primes.
 * [A066084](https://oeis.org/A066084) ([program](/edit/?oeis=66084)): a(n) = (n!)^2 + n! + n.
 * [A066088](https://oeis.org/A066088) ([program](/edit/?oeis=66088)): Number of distinct prime factors of sigma\_2(n) = A001157(n), the sum of squares of divisors of n.
 * [A066090](https://oeis.org/A066090) ([program](/edit/?oeis=66090)): a(n) = binomial(sigma(n), n).
 * [A066096](https://oeis.org/A066096) ([program](/edit/?oeis=66096)): Duplicate values in A060143.
 * [A066098](https://oeis.org/A066098) ([program](/edit/?oeis=66098)): Sum of digits of primorial(n) (A002110).
+* [A066102](https://oeis.org/A066102) ([program](/edit/?oeis=66102)): Number of distinct prime factors of Sigma\_4[n], the sum of 4th powers of divisors of n.
 * [A066104](https://oeis.org/A066104) ([program](/edit/?oeis=66104)): a(2n) = 2n, a(2n+1) = 4(n+1).
 * [A066106](https://oeis.org/A066106) ([program](/edit/?oeis=66106)): a(2n) = (2n)(2n+2); a(2n+1) = 4n + 4.
 * [A066107](https://oeis.org/A066107) ([program](/edit/?oeis=66107)): a(0) = 0; for n > 0, a(2n+1) = (2n+1)\*(2n+3); a(2n) = 2n + 2.
@@ -4688,6 +4913,7 @@ List of integer sequences with links to LODA programs.
 * [A066114](https://oeis.org/A066114) ([program](/edit/?oeis=66114)): a(0) = 1; for n > 0, a(n) = (n!\*(3\*n+1))/2.
 * [A066116](https://oeis.org/A066116) ([program](/edit/?oeis=66116)): a(n) = prime(n-2)\*prime(n-1)^2\*prime(n).
 * [A066118](https://oeis.org/A066118) ([program](/edit/?oeis=66118)): a(n) = n!\*(3\*n-1)/2.
+* [A066136](https://oeis.org/A066136) ([program](/edit/?oeis=66136)): Primes are replaced by their local sequence number in A000040, while composites are replaced by their sequence number in A002808; (a kind of eigen- or home-indexing).
 * [A066138](https://oeis.org/A066138) ([program](/edit/?oeis=66138)): a(n) = 10^(2n) + 10^n + 1.
 * [A066141](https://oeis.org/A066141) ([program](/edit/?oeis=66141)): a(n) = n^(n-1) + n + 1.
 * [A066142](https://oeis.org/A066142) ([program](/edit/?oeis=66142)): a(n) = (n!)^2 + n! + 1.
@@ -4715,6 +4941,9 @@ List of integer sequences with links to LODA programs.
 * [A066241](https://oeis.org/A066241) ([program](/edit/?oeis=66241)): 1 + number of anti-divisors of n.
 * [A066246](https://oeis.org/A066246) ([program](/edit/?oeis=66246)): 0 unless n is a composite number A002808(k) when a(n) = k.
 * [A066247](https://oeis.org/A066247) ([program](/edit/?oeis=66247)): Characteristic function of composite numbers: 1 if n is composite else 0.
+* [A066248](https://oeis.org/A066248) ([program](/edit/?oeis=66248)): a(n) = if n+1 is prime then A049084(n+1)\*2 else A066246(n+1)\*2 - 1.
+* [A066250](https://oeis.org/A066250) ([program](/edit/?oeis=66250)): a(n) = if n+1 is prime then A049084(n+1)\*2 - 1 else A066246(n+1)\*2.
+* [A066252](https://oeis.org/A066252) ([program](/edit/?oeis=66252)): a(n) = A066248(A066248(n)).
 * [A066258](https://oeis.org/A066258) ([program](/edit/?oeis=66258)): a(n) = Fibonacci(n)^2 \* Fibonacci(n+1).
 * [A066259](https://oeis.org/A066259) ([program](/edit/?oeis=66259)): a(n) = Fibonacci(n)\*Fibonacci(n+1)^2.
 * [A066266](https://oeis.org/A066266) ([program](/edit/?oeis=66266)): Product of first n primorials + 1.
@@ -4733,12 +4962,13 @@ List of integer sequences with links to LODA programs.
 * [A066300](https://oeis.org/A066300) ([program](/edit/?oeis=66300)): Number of n X n matrices with exactly 2 1's in each row, other entries 0.
 * [A066301](https://oeis.org/A066301) ([program](/edit/?oeis=66301)): a(n) = 0 if n is squarefree, otherwise 1 + a(n/rad(n)) where rad = A007947 (squarefree kernel).
 * [A066308](https://oeis.org/A066308) ([program](/edit/?oeis=66308)): a(n) = (sum of digits of n) \* (product of digits of n).
+* [A066311](https://oeis.org/A066311) ([program](/edit/?oeis=66311)): All distinct primes dividing n are consecutive.
 * [A066318](https://oeis.org/A066318) ([program](/edit/?oeis=66318)): Number of necklaces with n labeled beads of 2 colors.
 * [A066319](https://oeis.org/A066319) ([program](/edit/?oeis=66319)): A labeled structure simultaneously a tree and a cycle.
 * [A066324](https://oeis.org/A066324) ([program](/edit/?oeis=66324)): Number of endofunctions on n labeled points constructed from k rooted trees.
 * [A066325](https://oeis.org/A066325) ([program](/edit/?oeis=66325)): Coefficients of unitary Hermite polynomials He\_n(x).
 * [A066328](https://oeis.org/A066328) ([program](/edit/?oeis=66328)): a(n) = sum of indices of distinct prime factors of n; here, index(i-th prime) = i.
-* [A066332](https://oeis.org/A066332) ([program](/edit/?oeis=66332)): a(1) = 1 and for n > 0 a(n+1) = rad(a(n))\*n where rad=A007947.
+* [A066332](https://oeis.org/A066332) ([program](/edit/?oeis=66332)): a(1)=1; for n > 0, a(n+1) = rad(a(n))\*n where rad=A007947.
 * [A066333](https://oeis.org/A066333) ([program](/edit/?oeis=66333)): a(n) = min(x : x^2 + n^2 = 0 mod (x+n-1)).
 * [A066335](https://oeis.org/A066335) ([program](/edit/?oeis=66335)): Binary string which equals n when 1's and 2's bits have negative weights.
 * [A066339](https://oeis.org/A066339) ([program](/edit/?oeis=66339)): Number of primes p of the form 4m+1 with p <= n.
@@ -4748,6 +4978,7 @@ List of integer sequences with links to LODA programs.
 * [A066344](https://oeis.org/A066344) ([program](/edit/?oeis=66344)): Beatty sequence for log\_5(10).
 * [A066353](https://oeis.org/A066353) ([program](/edit/?oeis=66353)): 1 + partial sums of A032378.
 * [A066356](https://oeis.org/A066356) ([program](/edit/?oeis=66356)): Numerator of sequence defined by recursion c(n) = 1 + c(n-2) / c(n-1), c(0) = 0, c(1) = 1.
+* [A066357](https://oeis.org/A066357) ([program](/edit/?oeis=66357)): Number of ordered (i.e., planar) trees on 2n edges with every subtree at the root having an even number of edges.
 * [A066368](https://oeis.org/A066368) ([program](/edit/?oeis=66368)): a(n) = (n+2)\*2^(n-1) - 2\*n.
 * [A066370](https://oeis.org/A066370) ([program](/edit/?oeis=66370)): Quadruply triangular numbers.
 * [A066373](https://oeis.org/A066373) ([program](/edit/?oeis=66373)): a(n) = (3\*n-2)\*2^(n-3).
@@ -4797,6 +5028,7 @@ List of integer sequences with links to LODA programs.
 * [A066498](https://oeis.org/A066498) ([program](/edit/?oeis=66498)): Numbers k such that 3 divides phi(k).
 * [A066499](https://oeis.org/A066499) ([program](/edit/?oeis=66499)): Numbers k such that phi(k) == 2 (mod 4).
 * [A066500](https://oeis.org/A066500) ([program](/edit/?oeis=66500)): Numbers k such that 5 divides phi(k).
+* [A066501](https://oeis.org/A066501) ([program](/edit/?oeis=66501)): Numbers k such that x^6 == 1 (mod(k)) has no solution 1 < x < k-1.
 * [A066503](https://oeis.org/A066503) ([program](/edit/?oeis=66503)): a(n) = n - squarefree kernel of n, A007947.
 * [A066504](https://oeis.org/A066504) ([program](/edit/?oeis=66504)): Sum of n/p^k over all maximal prime-power divisors of n.
 * [A066518](https://oeis.org/A066518) ([program](/edit/?oeis=66518)): Anti-divisor class sums of n.
@@ -4856,11 +5088,13 @@ List of integer sequences with links to LODA programs.
 * [A066715](https://oeis.org/A066715) ([program](/edit/?oeis=66715)): a(n) = gcd(2n+1, sigma(2n+1)).
 * [A066728](https://oeis.org/A066728) ([program](/edit/?oeis=66728)): a(n) is the number of integers of the form (n+k+n\*k)/(n-k) for k = 1,2,...,n-1.
 * [A066729](https://oeis.org/A066729) ([program](/edit/?oeis=66729)): a(n) = Product\_\{d\|n, d<n\} d if n is composite, n otherwise.
+* [A066743](https://oeis.org/A066743) ([program](/edit/?oeis=66743)): a(n) is the number of integers of the form (n^2+1)/(k^2+1), where k = 1,2,3,...,n.
 * [A066744](https://oeis.org/A066744) ([program](/edit/?oeis=66744)): a(n) = either 4a(n-1)+1 or 4a(n-1)+3 depending on corresponding term of A005614, +3 for 0, +1 for 1.
 * [A066745](https://oeis.org/A066745) ([program](/edit/?oeis=66745)): Least number of applications of f(k) = k(k+1)+1 to n to yield a prime, if this number exists; 0 otherwise.
 * [A066746](https://oeis.org/A066746) ([program](/edit/?oeis=66746)): Conjectured values of a(n) defined by a(n) = least number of applications of f(k) = k^2 + 1 to n to yield a prime, if this number exists; = -1 otherwise.
 * [A066750](https://oeis.org/A066750) ([program](/edit/?oeis=66750)): Greatest common divisor of n and its digit sum.
 * [A066752](https://oeis.org/A066752) ([program](/edit/?oeis=66752)): a(n) = gcd(prime(n)+1, n+1).
+* [A066755](https://oeis.org/A066755) ([program](/edit/?oeis=66755)): Numbers n such that n^2 + 1 is not divisible by k^2 + 1 for any k in [1,n-1].
 * [A066760](https://oeis.org/A066760) ([program](/edit/?oeis=66760)): Sum\_\{1<=k<=n, k is not a divisor of n and k is not coprime to n\} k.
 * [A066761](https://oeis.org/A066761) ([program](/edit/?oeis=66761)): Number of positive integers of the form (n^2+k^2)/(n-k) for k=1,2,3,4,....,n-1.
 * [A066767](https://oeis.org/A066767) ([program](/edit/?oeis=66767)): a(n) = Sum\_\{k=1..n\} sigma(k)\*2^(n-k) where sigma(k) = A000203(k) is the sum of divisors of k.
@@ -4893,6 +5127,7 @@ List of integer sequences with links to LODA programs.
 * [A066838](https://oeis.org/A066838) ([program](/edit/?oeis=66838)): Product of primes < n that do not divide n.
 * [A066839](https://oeis.org/A066839) ([program](/edit/?oeis=66839)): a(n) = sum of positive divisors k of n with k <= sqrt(n).
 * [A066840](https://oeis.org/A066840) ([program](/edit/?oeis=66840)): Sum of positive integers k where k <= n/2 and gcd(k,n) = 1.
+* [A066841](https://oeis.org/A066841) ([program](/edit/?oeis=66841)): a(n) = Product\{k\|n\} k^(n/k); product is over the positive divisors of n.
 * [A066842](https://oeis.org/A066842) ([program](/edit/?oeis=66842)): a(n) = Product\_\{k\|n\} k^k; product is over the positive divisors, k, of n.
 * [A066843](https://oeis.org/A066843) ([program](/edit/?oeis=66843)): a(n) = Product\_\{k=1..n\} d(k); d(k) is the number of positive divisors of k.
 * [A066846](https://oeis.org/A066846) ([program](/edit/?oeis=66846)): Numbers of the form a^a + b^b, a >= b > 0.
@@ -4957,13 +5192,20 @@ List of integer sequences with links to LODA programs.
 * [A067082](https://oeis.org/A067082) ([program](/edit/?oeis=67082)): If n = abc...def in decimal notation then the right digit sum function = abc...def + bc...def + c...def + ... + def + ef + f.
 * [A067085](https://oeis.org/A067085) ([program](/edit/?oeis=67085)): a(n) = floor(Sum\_\{k=1..n\} 1/k^(1/2)).
 * [A067087](https://oeis.org/A067087) ([program](/edit/?oeis=67087)): Concatenation of n-th prime and its reverse.
+* [A067095](https://oeis.org/A067095) ([program](/edit/?oeis=67095)): a(n) = floor(X/Y) where X is the concatenation in increasing order of the first n even numbers and Y is that of the first n odd numbers.
+* [A067096](https://oeis.org/A067096) ([program](/edit/?oeis=67096)): Floor[X/Y] where X = concatenation in increasing order of first n even numbers and Y = that of first n natural numbers.
+* [A067102](https://oeis.org/A067102) ([program](/edit/?oeis=67102)): Floor[ X/Y] where X = concatenation of the squares and Y = concatenation of natural numbers.
+* [A067103](https://oeis.org/A067103) ([program](/edit/?oeis=67103)): a(n) = floor(X/Y), where X = concatenation of cubes and Y = concatenation of natural numbers.
+* [A067104](https://oeis.org/A067104) ([program](/edit/?oeis=67104)): a(n) = floor[ X/Y], where X = concatenation of first n factorials and Y = concatenation of first n natural numbers.
 * [A067111](https://oeis.org/A067111) ([program](/edit/?oeis=67111)): Floor[ Product of first n primes / Sum of first n primes].
+* [A067114](https://oeis.org/A067114) ([program](/edit/?oeis=67114)): Let N = 24681012141618202224262830..., the concatenation of the even numbers. Then a(n) = sum of first n digits of N.
 * [A067116](https://oeis.org/A067116) ([program](/edit/?oeis=67116)): Floor(decimal concatenation of first n natural numbers/their sum).
 * [A067117](https://oeis.org/A067117) ([program](/edit/?oeis=67117)): a(n) = floor((concatenation of first n natural numbers)/ (n!)).
 * [A067119](https://oeis.org/A067119) ([program](/edit/?oeis=67119)): a(n) = floor[X/Y] where X = concatenation of first n even numbers in increasing order and Y = n-th triangular number.
 * [A067120](https://oeis.org/A067120) ([program](/edit/?oeis=67120)): a(n) =floor[X/Y] where X= concatenation of first n ODD numbers in increasing order and Y = n-th triangular number.
 * [A067121](https://oeis.org/A067121) ([program](/edit/?oeis=67121)): a(n) = floor[X/Y] where X = the concatenation of the first n even numbers in increasing order and Y = their sum.
 * [A067122](https://oeis.org/A067122) ([program](/edit/?oeis=67122)): Floor[X/Y] where X = concatenation of first n odd numbers in increasing order (A019519) and Y = their sum (A000290 = n^2).
+* [A067123](https://oeis.org/A067123) ([program](/edit/?oeis=67123)): Floor[X/Y] where X = concatenation of first n cubes in increasing order and Y = concatenation of first n squares.
 * [A067126](https://oeis.org/A067126) ([program](/edit/?oeis=67126)): Numbers for which phi(n) >= phi(k) for all k = 1 to n-1.
 * [A067132](https://oeis.org/A067132) ([program](/edit/?oeis=67132)): Number of elements in the largest set of divisors of n which are in geometric progression.
 * [A067133](https://oeis.org/A067133) ([program](/edit/?oeis=67133)): n is a term if the phi(n) numbers in [0,n-1] and coprime to n form an arithmetic progression.
@@ -5076,7 +5318,6 @@ List of integer sequences with links to LODA programs.
 * [A067507](https://oeis.org/A067507) ([program](/edit/?oeis=67507)): Powers of 2 with even digit sum.
 * [A067510](https://oeis.org/A067510) ([program](/edit/?oeis=67510)): Powers of 6 with digit sum divisible by 6.
 * [A067513](https://oeis.org/A067513) ([program](/edit/?oeis=67513)): Number of divisors d of n such that d+1 is prime.
-* [A067514](https://oeis.org/A067514) ([program](/edit/?oeis=67514)): Number of distinct primes of the form floor(n/k) for 1 <= k <= n.
 * [A067525](https://oeis.org/A067525) ([program](/edit/?oeis=67525)): Define I(n) = number obtained by incrementing each digit from 0 to 8 of n by 1. A '9' is replaced by a '0'. Sequence gives digitriangular numbers n\*I(n)/2.
 * [A067526](https://oeis.org/A067526) ([program](/edit/?oeis=67526)): Numbers n such that n - 2^k is a prime or 1 for all k satisfying 0 < k, 2^k < n.
 * [A067532](https://oeis.org/A067532) ([program](/edit/?oeis=67532)): Numbers n such that n + number of divisors is a prime.
@@ -5144,6 +5385,7 @@ List of integer sequences with links to LODA programs.
 * [A067819](https://oeis.org/A067819) ([program](/edit/?oeis=67819)): Sum of the divisors of binomial(2n,n).
 * [A067829](https://oeis.org/A067829) ([program](/edit/?oeis=67829)): Primes p such that sigma(p-2) < p.
 * [A067830](https://oeis.org/A067830) ([program](/edit/?oeis=67830)): Primes p such that sigma(p-4) < p.
+* [A067831](https://oeis.org/A067831) ([program](/edit/?oeis=67831)): Primes p such that sigma(p-6) < p.
 * [A067833](https://oeis.org/A067833) ([program](/edit/?oeis=67833)): Primes p such that sigma(p-4) > p.
 * [A067844](https://oeis.org/A067844) ([program](/edit/?oeis=67844)): Numbers k such that k and 2^k end with the same digit.
 * [A067849](https://oeis.org/A067849) ([program](/edit/?oeis=67849)): a(n) = max\{k: f(n),...,f^k(n) are prime\}, where f(m) = 2m+1 and f^k denotes composition of f with itself k times.
@@ -5165,6 +5407,7 @@ List of integer sequences with links to LODA programs.
 * [A067911](https://oeis.org/A067911) ([program](/edit/?oeis=67911)): Product of gcd(k,n) for 1 <= k <= n.
 * [A067934](https://oeis.org/A067934) ([program](/edit/?oeis=67934)): Let rep(k) = (10^k - 1)/9 be the k-th repunit number = 11111..1111 with k 1 digits, then sequence gives values of k such that rep(k) == 1 (mod k).
 * [A067947](https://oeis.org/A067947) ([program](/edit/?oeis=67947)): Numbers k such that k divides 7^k - 1.
+* [A067956](https://oeis.org/A067956) ([program](/edit/?oeis=67956)): Number of nodes in virtual, "optimal", chordal graphs of diameter 4 and degree n+1.
 * [A067961](https://oeis.org/A067961) ([program](/edit/?oeis=67961)): Number of binary arrangements without adjacent 1's on n X n torus connected n-s.
 * [A067962](https://oeis.org/A067962) ([program](/edit/?oeis=67962)): a(n) = F(n+2)\*(Product\_\{i=1..n+1\} F(i))^2 where F(i)=A000045(i) is the i-th Fibonacci number.
 * [A067966](https://oeis.org/A067966) ([program](/edit/?oeis=67966)): Number of binary arrangements without adjacent 1's on n X n array connected n-s.
@@ -5211,12 +5454,14 @@ List of integer sequences with links to LODA programs.
 * [A068111](https://oeis.org/A068111) ([program](/edit/?oeis=68111)): Numerators of coefficients in J0(i\*sqrt(x))^2, where J0 denotes the ordinary Bessel function of order 0.
 * [A068113](https://oeis.org/A068113) ([program](/edit/?oeis=68113)): Numerator of coefficient of (-x^2)^n in F(x)\*F(-x) where F(x)=sum(k>=0,x^k/(k!)^3).
 * [A068156](https://oeis.org/A068156) ([program](/edit/?oeis=68156)): G.f.: (x+2)\*(x+1)/((x-1)\*(x-2)) = Sum\_\{n>=0\} a(n)\*(x/2)^n.
+* [A068158](https://oeis.org/A068158) ([program](/edit/?oeis=68158)): a(n) = floor[ n!/(R(n))! ], where R(n) = Digit reversal of n (A004086).
 * [A068159](https://oeis.org/A068159) ([program](/edit/?oeis=68159)): a(n) = floor[ n/R(n) ], where R(n) (A004086) = Digit reversal of n.
 * [A068179](https://oeis.org/A068179) ([program](/edit/?oeis=68179)): Product\_\{i=1..3\} (i+x) / Product\_(i=1..3\} (i-x) = Sum\_\{n>=0\} (a(n)/b(n))\*x^n.
 * [A068181](https://oeis.org/A068181) ([program](/edit/?oeis=68181)): a(n)=-1/b(2n) where 1/(e^y-e^(y/3))= sum(i=-1,inf,b(i)\*y^i).
 * [A068191](https://oeis.org/A068191) ([program](/edit/?oeis=68191)): Numbers n such that A067734(n)=0; complement of A002473; at least one prime-factor of n is larger than 7, it has 2 decimal digits.
 * [A068203](https://oeis.org/A068203) ([program](/edit/?oeis=68203)): Chebyshev T-polynomials T(n,15) with Diophantine property.
 * [A068204](https://oeis.org/A068204) ([program](/edit/?oeis=68204)): Let (x\_n, y\_n) be n-th solution to the Pell equation x^2 = 14\*y^2 + 1. Sequence gives \{y\_n\}.
+* [A068205](https://oeis.org/A068205) ([program](/edit/?oeis=68205)): Denominator of S(n)/Pi^n, where S(n) = Sum((4k+1)^(-n),k,-inf,+inf).
 * [A068211](https://oeis.org/A068211) ([program](/edit/?oeis=68211)): Largest prime factor of Euler totient function phi(n).
 * [A068212](https://oeis.org/A068212) ([program](/edit/?oeis=68212)): a(n) = phi(n) divided by its largest prime factor.
 * [A068217](https://oeis.org/A068217) ([program](/edit/?oeis=68217)): Denominators of coefficients in 3\*log(sqrt(1+x)) power series.
@@ -5267,8 +5512,8 @@ List of integer sequences with links to LODA programs.
 * [A068503](https://oeis.org/A068503) ([program](/edit/?oeis=68503)): Highest power of 3 dividing prime(n)-1.
 * [A068504](https://oeis.org/A068504) ([program](/edit/?oeis=68504)): Highest power of 2 dividing prime(n)+1.
 * [A068508](https://oeis.org/A068508) ([program](/edit/?oeis=68508)): a(n) = round((a(n-1) + a(n-2))/a(n-3)) starting with a(1)=a(2)=a(3)=1.
-* [A068509](https://oeis.org/A068509) ([program](/edit/?oeis=68509)): a(n) = maximum length of a subset in \{1,..,n\} whose integers have pairwise LCM not exceeding n.
 * [A068511](https://oeis.org/A068511) ([program](/edit/?oeis=68511)): (Product of primes <= n) - 2^(n-1).
+* [A068512](https://oeis.org/A068512) ([program](/edit/?oeis=68512)): Numerators of arithmetic derivative of n/2: A003415(n)/2 - n/4; denominators: A010685.
 * [A068519](https://oeis.org/A068519) ([program](/edit/?oeis=68519)): If n is prime then a(n) = n, else a(n) = prime(n).
 * [A068522](https://oeis.org/A068522) ([program](/edit/?oeis=68522)): In base 10 notation replace digits of n with their squared values (Version 2).
 * [A068527](https://oeis.org/A068527) ([program](/edit/?oeis=68527)): Difference between smallest square >= n and n.
@@ -5303,8 +5548,14 @@ List of integer sequences with links to LODA programs.
 * [A068722](https://oeis.org/A068722) ([program](/edit/?oeis=68722)): Number of solenoidal flows (flow in = flow out) in a 3 X 3 square array with integer velocities -n .. n.
 * [A068762](https://oeis.org/A068762) ([program](/edit/?oeis=68762)): Alternating sum sigma(1)-sigma(2)+sigma(3)-sigma(4)+...+((-1)^(n+1))\*sigma(n).
 * [A068764](https://oeis.org/A068764) ([program](/edit/?oeis=68764)): Generalized Catalan numbers.
+* [A068765](https://oeis.org/A068765) ([program](/edit/?oeis=68765)): Generalized Catalan numbers.
 * [A068766](https://oeis.org/A068766) ([program](/edit/?oeis=68766)): Generalized Catalan numbers.
+* [A068767](https://oeis.org/A068767) ([program](/edit/?oeis=68767)): Generalized Catalan numbers.
+* [A068768](https://oeis.org/A068768) ([program](/edit/?oeis=68768)): Generalized Catalan numbers.
+* [A068769](https://oeis.org/A068769) ([program](/edit/?oeis=68769)): Generalized Catalan numbers.
+* [A068770](https://oeis.org/A068770) ([program](/edit/?oeis=68770)): Generalized Catalan numbers.
 * [A068771](https://oeis.org/A068771) ([program](/edit/?oeis=68771)): Generalized Catalan numbers.
+* [A068772](https://oeis.org/A068772) ([program](/edit/?oeis=68772)): Generalized Catalan numbers.
 * [A068773](https://oeis.org/A068773) ([program](/edit/?oeis=68773)): Alternating sum phi(1) - phi(2) + phi(3) - phi(4) + ... + ((-1)^(n+1))\*phi(n).
 * [A068780](https://oeis.org/A068780) ([program](/edit/?oeis=68780)): Composite numbers n such that n+1 is also composite.
 * [A068781](https://oeis.org/A068781) ([program](/edit/?oeis=68781)): Lesser of two consecutive numbers each divisible by a square.
@@ -5315,8 +5566,9 @@ List of integer sequences with links to LODA programs.
 * [A068822](https://oeis.org/A068822) ([program](/edit/?oeis=68822)): a(n) = gcd(n,c(n)), where c(n) is the 10's complement of n.
 * [A068823](https://oeis.org/A068823) ([program](/edit/?oeis=68823)): a(n) = lcm(n, c(n)), where c(n) is the 10's complement of n.
 * [A068824](https://oeis.org/A068824) ([program](/edit/?oeis=68824)): a(n) = n\*c(n), where c(n) is the 10's complement of n.
+* [A068866](https://oeis.org/A068866) ([program](/edit/?oeis=68866)): Numbers n such that A068865(n) = n.
+* [A068869](https://oeis.org/A068869) ([program](/edit/?oeis=68869)): Smallest number k such that n! + k is a square.
 * [A068875](https://oeis.org/A068875) ([program](/edit/?oeis=68875)): Expansion of (1 + x\*C)\*C, where C = (1 - (1 - 4\*x)^(1/2))/(2\*x) is the g.f. for Catalan numbers, A000108.
-* [A068900](https://oeis.org/A068900) ([program](/edit/?oeis=68900)): Digit reversal of n = 11 times digit reversal of n/11.
 * [A068901](https://oeis.org/A068901) ([program](/edit/?oeis=68901)): Least number that when added to the n-th prime gives a multiple of n.
 * [A068902](https://oeis.org/A068902) ([program](/edit/?oeis=68902)): Least multiple of n not less than the n-th prime.
 * [A068903](https://oeis.org/A068903) ([program](/edit/?oeis=68903)): Binomial(tau(n),omega(n)), where tau(n) is the number of divisors of n (A000005) and omega the number of distinct prime factors (A001221).
@@ -5330,6 +5582,7 @@ List of integer sequences with links to LODA programs.
 * [A068924](https://oeis.org/A068924) ([program](/edit/?oeis=68924)): Number of ways to tile a 5 X 2n room with 1x2 Tatami mats. At most 3 Tatami mats may meet at a point.
 * [A068928](https://oeis.org/A068928) ([program](/edit/?oeis=68928)): Number of incongruent ways to tile a 3 X 2n room with 1x2 Tatami mats. At most 3 Tatami mats may meet at a point.
 * [A068952](https://oeis.org/A068952) ([program](/edit/?oeis=68952)): Squares in A068949.
+* [A068953](https://oeis.org/A068953) ([program](/edit/?oeis=68953)): Number of bases B (2 <= B <= n) such that every digit of n in base B is 0 or 1.
 * [A068958](https://oeis.org/A068958) ([program](/edit/?oeis=68958)): Smallest value of k such that p \| (10^k + 1), where p is the n-th prime; or 0 if no such k exists.
 * [A068961](https://oeis.org/A068961) ([program](/edit/?oeis=68961)): Powers of 2 with exactly two 2's in their decimal digits.
 * [A068963](https://oeis.org/A068963) ([program](/edit/?oeis=68963)): a(n) = Sum\_\{d\|n\} phi(d^3).
@@ -5345,6 +5598,9 @@ List of integer sequences with links to LODA programs.
 * [A069003](https://oeis.org/A069003) ([program](/edit/?oeis=69003)): Smallest integer d such that n^2 + d^2 is a prime number.
 * [A069005](https://oeis.org/A069005) ([program](/edit/?oeis=69005)): Let M = 4 X 4 matrix with rows /1,1,1,1/1,1,1,0/1,1,0,0/1,0,0,0/ and A(n) = vector (x(n),y(n),z(n),t(n)) = M^n\*A where A is the vector (1,1,1,1); then a(n)=z(n).
 * [A069006](https://oeis.org/A069006) ([program](/edit/?oeis=69006)): Let M denote the 5 X 5 matrix with rows /1,1,1,1,1/1,1,1,1,0/1,1,1,0,0/1,1,0,0,0/1,0,0,0,0/ and A(n) = vector (x(n),y(n),z(n),t(n),u(n)) = M^n\*A where A is the vector (1,1,1,1,1); then a(n) = t(n).
+* [A069007](https://oeis.org/A069007) ([program](/edit/?oeis=69007)): Let M denote the 6 X 6 matrix with rows /1,1,1,1,1,1/1,1,1,1,1,0/1,1,1,1,0,0/1,1,1,0,0,0/1,1,0,0,0,0/1,0,0,0,0,0/ and A(n) the vector (x(n),y(n),z(n),t(n),u(n),v(n)) = M^n\*A where A is the vector (1,1,1,1,1,1); then a(n) = y(n).
+* [A069008](https://oeis.org/A069008) ([program](/edit/?oeis=69008)): Let M denote the 6 X 6 matrix with rows /1,1,1,1,1,1/1,1,1,1,1,0/1,1,1,1,0,0/1,1,1,0,0,0/1,1,0,0,0,0/1,0,0,0,0,0/ and A(n) the vector (x(n),y(n),z(n),t(n),u(n),v(n)) = M^n\*A where A is the vector (1,1,1,1,1,1); then a(n) = z(n).
+* [A069009](https://oeis.org/A069009) ([program](/edit/?oeis=69009)): Let M denote the 6 X 6 matrix with rows / 1,1,1,1,1,1 / 1,1,1,1,1,0 / 1,1,1,1,0,0 / 1,1,1,0,0,0 / 1,1,0,0,0,0 / 1,0,0,0,0,0 / and A(n) the vector (x(n),y(n),z(n),t(n),u(n),v(n)) = M^n\*A where A is the vector (1,1,1,1,1,1); then a(n) = t(n).
 * [A069010](https://oeis.org/A069010) ([program](/edit/?oeis=69010)): Number of runs of 1's in the binary representation of n.
 * [A069011](https://oeis.org/A069011) ([program](/edit/?oeis=69011)): Triangle with T(n,k) = n^2 + k^2.
 * [A069013](https://oeis.org/A069013) ([program](/edit/?oeis=69013)): a(1)=a(2)=a(3)=1; for n > 3, a(n) = floor(a(n-3) + a(n-2)/a(n-1)).
@@ -5388,8 +5644,9 @@ List of integer sequences with links to LODA programs.
 * [A069132](https://oeis.org/A069132) ([program](/edit/?oeis=69132)): Centered 19-gonal numbers.
 * [A069133](https://oeis.org/A069133) ([program](/edit/?oeis=69133)): Centered 20-gonal (or icosagonal) numbers.
 * [A069134](https://oeis.org/A069134) ([program](/edit/?oeis=69134)): (n!\*(3\*n))^2.
-* [A069135](https://oeis.org/A069135) ([program](/edit/?oeis=69135)): (n!\*(n+1)!)^2.
+* [A069135](https://oeis.org/A069135) ([program](/edit/?oeis=69135)): a(n) = (n!\*(n+1)!)^2.
 * [A069140](https://oeis.org/A069140) ([program](/edit/?oeis=69140)): a(n) = (4n-1)\*4n\*(4n+1).
+* [A069141](https://oeis.org/A069141) ([program](/edit/?oeis=69141)): n^2\*(n+1)!/(n^tau(n)) where tau(n) is the number of divisors of n.
 * [A069153](https://oeis.org/A069153) ([program](/edit/?oeis=69153)): a(n) = Sum\_\{d\|n\} d\*(d-1)/2.
 * [A069157](https://oeis.org/A069157) ([program](/edit/?oeis=69157)): Number of positive divisors of n that are divisible by the smallest prime that divides n.
 * [A069158](https://oeis.org/A069158) ([program](/edit/?oeis=69158)): a(n) = Product\{d\|n\} mu(d), product over positive divisors, d, of n, where mu(d) = Moebius function (A008683).
@@ -5421,6 +5678,7 @@ List of integer sequences with links to LODA programs.
 * [A069227](https://oeis.org/A069227) ([program](/edit/?oeis=69227)): a(1)=1, a(2)=2; a(n+2) = (a(n+1) + a(n))/b(n) where b(n) = gcd(a(n+1) + a(n), 4).
 * [A069228](https://oeis.org/A069228) ([program](/edit/?oeis=69228)): a(1)=1, a(2)=4, a(n+2)=(a(n+1)+a(n))/b(n), where b(n)=gcd(a(n+1)+a(n),4).
 * [A069229](https://oeis.org/A069229) ([program](/edit/?oeis=69229)): a(n) = n\*(2^n + 1).
+* [A069239](https://oeis.org/A069239) ([program](/edit/?oeis=69239)): Denominator of coefficient G\_n defined by Sum\_\{ (m,m') != (0,0)\} 1/(m+m'\*sqrt(-2))^(2\*n) = (4\*w)^(2\*n)\*G\_n/(2\*n)!, where 2w is one of the periods of the associated Weierstrass P-function.
 * [A069241](https://oeis.org/A069241) ([program](/edit/?oeis=69241)): Number of Hamiltonian paths in the graph on n vertices \{1,...,n\}, with i adjacent to j iff \|i-j\| <= 2.
 * [A069248](https://oeis.org/A069248) ([program](/edit/?oeis=69248)): Number of positive divisors of n themselves divisible by largest prime that divides n.
 * [A069249](https://oeis.org/A069249) ([program](/edit/?oeis=69249)): n^2-phi(n)\*sigma(n).
@@ -5443,6 +5701,7 @@ List of integer sequences with links to LODA programs.
 * [A069345](https://oeis.org/A069345) ([program](/edit/?oeis=69345)): n minus the number of its prime-factors: a(n) = n - A001222(n).
 * [A069352](https://oeis.org/A069352) ([program](/edit/?oeis=69352)): Total number of prime factors of 3-smooth numbers.
 * [A069353](https://oeis.org/A069353) ([program](/edit/?oeis=69353)): Numbers of form 2^i\*3^j - 1 with i, j >= 0.
+* [A069357](https://oeis.org/A069357) ([program](/edit/?oeis=69357)): Numbers of form 2^i\*3^j + (i+j) with i, j >= 0.
 * [A069359](https://oeis.org/A069359) ([program](/edit/?oeis=69359)): a(n) = n \* Sum\_\{p\|n\} 1/p where p are primes dividing n.
 * [A069361](https://oeis.org/A069361) ([program](/edit/?oeis=69361)): Number of 3 X n binary arrays with a path of adjacent 1's from top row to bottom row.
 * [A069403](https://oeis.org/A069403) ([program](/edit/?oeis=69403)): a(n) = 2\*Fibonacci(2\*n+1) - 1.
@@ -5457,6 +5716,7 @@ List of integer sequences with links to LODA programs.
 * [A069476](https://oeis.org/A069476) ([program](/edit/?oeis=69476)): First differences of A069475, successive differences of (n+1)^6-n^6.
 * [A069477](https://oeis.org/A069477) ([program](/edit/?oeis=69477)): a(n) = 60\*n^2 + 180\*n + 150.
 * [A069478](https://oeis.org/A069478) ([program](/edit/?oeis=69478)): First differences of A069477, successive differences of (n+1)^5 - n^5.
+* [A069480](https://oeis.org/A069480) ([program](/edit/?oeis=69480)): Determinant of rank n matrix of 1..n^2 filled successively along antidiagonals.
 * [A069482](https://oeis.org/A069482) ([program](/edit/?oeis=69482)): a(n) = prime(n+1)^2 - prime(n)^2.
 * [A069483](https://oeis.org/A069483) ([program](/edit/?oeis=69483)): Largest prime factor of prime(n+1)^2 - prime(n)^2.
 * [A069484](https://oeis.org/A069484) ([program](/edit/?oeis=69484)): a(n) = prime(n+1)^2 + prime(n)^2.
@@ -5472,12 +5732,14 @@ List of integer sequences with links to LODA programs.
 * [A069517](https://oeis.org/A069517) ([program](/edit/?oeis=69517)): a(n) = (-1)\*sum( d divides n, moebius(d)\*(-1)^d).
 * [A069531](https://oeis.org/A069531) ([program](/edit/?oeis=69531)): Smallest positive k such that 10^k + 1 is divisible by n, or 0 if no such number exists.
 * [A069533](https://oeis.org/A069533) ([program](/edit/?oeis=69533)): sum(p,floor(n^2/p^2)) where the sum is over all the primes.
+* [A069537](https://oeis.org/A069537) ([program](/edit/?oeis=69537)): Multiples of 2 whose digit sum is 2.
 * [A069540](https://oeis.org/A069540) ([program](/edit/?oeis=69540)): Multiples of 5 with digit sum 5.
 * [A069543](https://oeis.org/A069543) ([program](/edit/?oeis=69543)): Multiples of 8 with digit sum 8.
 * [A069546](https://oeis.org/A069546) ([program](/edit/?oeis=69546)): a(n) = Sum\_\{d\|n\} sigma(n\*d).
 * [A069547](https://oeis.org/A069547) ([program](/edit/?oeis=69547)): n^2 mod n-th prime.
 * [A069549](https://oeis.org/A069549) ([program](/edit/?oeis=69549)): Smallest composite k such that phi(k) > k\*(1-1/n).
 * [A069553](https://oeis.org/A069553) ([program](/edit/?oeis=69553)): Define S(k) to be the sequence of divisors and multiples of k, e.g. S(1) = 1,2,3,4,5... S(2) = 1,2,4,6,8,10,... S(10) = 1,2,5,10,20,30,40,50,...; a(n) = n-th term of the n-th sequence S(n).
+* [A069577](https://oeis.org/A069577) ([program](/edit/?oeis=69577)): Smallest prime p such that pi(n) <= pi(p)\*2, where pi(n) is the number of primes <= n, A000720.
 * [A069584](https://oeis.org/A069584) ([program](/edit/?oeis=69584)): a(n) = n - largest perfect power <= n.
 * [A069622](https://oeis.org/A069622) ([program](/edit/?oeis=69622)): Let Power(n) be the sequence of integer roots or powers of n. Power(1) is 1,1,1,1,... Power(4) is 1,2,4,16,64,256,... Power(27) is 1,3,9,27,729,... Power (p^k) is 1,p,p^a,p^b,...p^k, p^2k,p^3k,...where p is a prime and a,b etc. are divisors of k. This is the sequence of the n-th term of Power(n).
 * [A069623](https://oeis.org/A069623) ([program](/edit/?oeis=69623)): Number of perfect powers <= n.
@@ -5501,6 +5763,7 @@ List of integer sequences with links to LODA programs.
 * [A069734](https://oeis.org/A069734) ([program](/edit/?oeis=69734)): Number of pairs (p,q), 0<=p<=q, such that p+q divides n.
 * [A069735](https://oeis.org/A069735) ([program](/edit/?oeis=69735)): Number of regular orientable coverings of the Klein bottle with 2n lists.
 * [A069736](https://oeis.org/A069736) ([program](/edit/?oeis=69736)): Total number of Eulerian circuits in labeled multigraphs with n edges.
+* [A069739](https://oeis.org/A069739) ([program](/edit/?oeis=69739)): Size of the key space for isomorphism verification of circulant graphs of order n.
 * [A069745](https://oeis.org/A069745) ([program](/edit/?oeis=69745)): Expansion of 1/((1-x^2)(1-x^3)(1-x^6)(1-x^7)(1-x^8)).
 * [A069750](https://oeis.org/A069750) ([program](/edit/?oeis=69750)): a(1)=1; a(n+1) is the smallest integer such that 1/a(n+1) = 0.0...00a(n)xxxxx...
 * [A069754](https://oeis.org/A069754) ([program](/edit/?oeis=69754)): Counts transitions between prime and composite to reach the number n.
@@ -5524,6 +5787,8 @@ List of integer sequences with links to LODA programs.
 * [A069834](https://oeis.org/A069834) ([program](/edit/?oeis=69834)): a(n) = n-th reduced triangular number: n\*(n+1)/\{2^k\} where 2^k is the largest power of 2 that divides product n\*(n+1).
 * [A069835](https://oeis.org/A069835) ([program](/edit/?oeis=69835)): Define an array as follows: b(i,0)=b(0,j)=1, b(i,j) = 2\*b(i-1,j-1) + b(i-1,j) + b(i,j-1). Then a(n) = b(n,n).
 * [A069856](https://oeis.org/A069856) ([program](/edit/?oeis=69856)): E.g.f.: exp(x)/(1+LambertW(x)).
+* [A069858](https://oeis.org/A069858) ([program](/edit/?oeis=69858)): 1/n has period 4 in base 10.
+* [A069859](https://oeis.org/A069859) ([program](/edit/?oeis=69859)): (Largest prime factor of n) modulo (smallest prime factor of n).
 * [A069864](https://oeis.org/A069864) ([program](/edit/?oeis=69864)): Decimal expansion of 2/log(4/3).
 * [A069865](https://oeis.org/A069865) ([program](/edit/?oeis=69865)): a(n) = Sum\_\{k = 0..n\} C(n,k)^6.
 * [A069876](https://oeis.org/A069876) ([program](/edit/?oeis=69876)): a(1) = 1, a(2) = 2^2 + 3^2; a(n) = (k-n+1)^n + (k-n)^n + ....(k-1)^n + k^n, where k = n(n+1)/2.
@@ -5552,6 +5817,7 @@ List of integer sequences with links to LODA programs.
 * [A069939](https://oeis.org/A069939) ([program](/edit/?oeis=69939)): 1/3!\*((Sum of digits of n)^3 + 3\*(Sum of digits of n)\*(Sum of digits^2 of n) + 2\*(Sum of digits^3 of n)).
 * [A069940](https://oeis.org/A069940) ([program](/edit/?oeis=69940)): (1/2)\*((Sum of digits of n)^2 + (Sum of digits^2 of n)).
 * [A069943](https://oeis.org/A069943) ([program](/edit/?oeis=69943)): Let b(1)=b(2)=1, b(n+2)=(1/(n+1))\*(b(n+1)+b(n)); then a(n)=numerator(b(n)).
+* [A069944](https://oeis.org/A069944) ([program](/edit/?oeis=69944)): Let b(1)=b(2)=1, b(n+2)=(1/(n+1))\*(b(n+1)+b(n)); then a(n)=denominator(b(n)).
 * [A069945](https://oeis.org/A069945) ([program](/edit/?oeis=69945)): Let M\_k be the k X k matrix M\_k(i,j)=1/binomial(i+n,j); then a(n)=1/det(M\_(n+1)).
 * [A069955](https://oeis.org/A069955) ([program](/edit/?oeis=69955)): Let W(n) = Product\_\{k=1..n\} (1 - 1/4k^2), the partial Wallis product (lim\_\{n->infinity\} W(n) = 2/Pi); then a(n) = numerator(W(n)).
 * [A069958](https://oeis.org/A069958) ([program](/edit/?oeis=69958)): (Sum of digits of n)^3 - (sum of digits^3 of n).
@@ -5561,7 +5827,7 @@ List of integer sequences with links to LODA programs.
 * [A069962](https://oeis.org/A069962) ([program](/edit/?oeis=69962)): Define C(n) by the recursion C(0)=5\*I where I^2=-1, C(n+1)=1/(1+C(n)); then a(n)=5\*(-1)^n/Im(C(n)) where Im(z) denotes the imaginary part of the complex number z.
 * [A069963](https://oeis.org/A069963) ([program](/edit/?oeis=69963)): Define C(n) by the recursion C(0)=6\*I where I^2=-1, C(n+1)=1/(1+C(n)); then a(n)=6\*(-1)^n/Im(C(n)) where Im(z) denotes the imaginary part of the complex number z.
 * [A069972](https://oeis.org/A069972) ([program](/edit/?oeis=69972)): Sum\_\{d\|2\*n,d+1\|2\*n\} d.
-* [A069975](https://oeis.org/A069975) ([program](/edit/?oeis=69975)): a(n) = n\*(16n^2-1).
+* [A069975](https://oeis.org/A069975) ([program](/edit/?oeis=69975)): a(n) = n\*(16\*n^2-1).
 * [A069976](https://oeis.org/A069976) ([program](/edit/?oeis=69976)): Interior angle of a regular polygon of n sides, rounded to nearest integer.
 * [A069977](https://oeis.org/A069977) ([program](/edit/?oeis=69977)): Numbers k such that k and k+2 are squarefree.
 * [A069981](https://oeis.org/A069981) ([program](/edit/?oeis=69981)): Hermite's problem: number of positive integral solutions to x + y + z = n subject to x <= y + z, y <= z + x and z <= x + y.
@@ -5569,6 +5835,7 @@ List of integer sequences with links to LODA programs.
 * [A069984](https://oeis.org/A069984) ([program](/edit/?oeis=69984)): 1123+21460n.
 * [A069986](https://oeis.org/A069986) ([program](/edit/?oeis=69986)): Denominator of b(n) = binomial(2n,n)^3\*(42n+5)/2^(12n+4).
 * [A069987](https://oeis.org/A069987) ([program](/edit/?oeis=69987)): Squarefree numbers of form k^2 + 1.
+* [A069989](https://oeis.org/A069989) ([program](/edit/?oeis=69989)): (-1)^(n+1)/2\*sum(k=1,2n,C(2n+1,k)\*B(k)\*4^k) where C(n,k) are the binomial coefficients, B(k) the Bernoulli numbers.
 * [A069993](https://oeis.org/A069993) ([program](/edit/?oeis=69993)): a(n) = 2^(2n+1)\*Sum\_\{k=1..2\*n\} binomial(2n+1,k)\*Bernoulli(k)/2^k.
 * [A069996](https://oeis.org/A069996) ([program](/edit/?oeis=69996)): Number of spanning trees on the bipartite graph K\_\{3,n\}.
 * [A070003](https://oeis.org/A070003) ([program](/edit/?oeis=70003)): Numbers divisible by the square of their largest prime factor.
@@ -5583,10 +5850,14 @@ List of integer sequences with links to LODA programs.
 * [A070032](https://oeis.org/A070032) ([program](/edit/?oeis=70032)): Integer part of sigma(n)/phi(n).
 * [A070038](https://oeis.org/A070038) ([program](/edit/?oeis=70038)): a(n) = sum of divisors of n that are at least sqrt(n).
 * [A070039](https://oeis.org/A070039) ([program](/edit/?oeis=70039)): Sum of divisors of n that are smaller than sqrt(n).
+* [A070043](https://oeis.org/A070043) ([program](/edit/?oeis=70043)): Numbers of the form 6\*j\*k+j+k for positive integers j and k.
 * [A070046](https://oeis.org/A070046) ([program](/edit/?oeis=70046)): Number of primes between prime(n) and 2\*prime(n) exclusive.
 * [A070050](https://oeis.org/A070050) ([program](/edit/?oeis=70050)): Number of Bottleneck-Monge matrices with 2 rows. In the formula below, P = 2.
+* [A070071](https://oeis.org/A070071) ([program](/edit/?oeis=70071)): a(n) = n\*B(n), where B(n) are the Bell numbers, A000110.
 * [A070072](https://oeis.org/A070072) ([program](/edit/?oeis=70072)): Number of distinct rectangles with integer sides <=n and squarefree area.
 * [A070083](https://oeis.org/A070083) ([program](/edit/?oeis=70083)): Perimeters of integer triangles, sorted by perimeter, sides lexicographically ordered.
+* [A070087](https://oeis.org/A070087) ([program](/edit/?oeis=70087)): P(n) > P(n+1) where P(n) (A006530) is the largest prime factor of n.
+* [A070089](https://oeis.org/A070089) ([program](/edit/?oeis=70089)): P(n) < P(n+1) where P(n) (A006530) is the largest prime factor of n.
 * [A070091](https://oeis.org/A070091) ([program](/edit/?oeis=70091)): Number of isosceles integer triangles with perimeter n and relatively prime side lengths.
 * [A070098](https://oeis.org/A070098) ([program](/edit/?oeis=70098)): Number of integer triangles with perimeter n which are acute and isosceles.
 * [A070169](https://oeis.org/A070169) ([program](/edit/?oeis=70169)): Rounded total surface area of a regular tetrahedron with edge length n.
@@ -5621,6 +5892,7 @@ List of integer sequences with links to LODA programs.
 * [A070302](https://oeis.org/A070302) ([program](/edit/?oeis=70302)): Number of 3 X 3 X 3 magic cubes with sum 3n.
 * [A070306](https://oeis.org/A070306) ([program](/edit/?oeis=70306)): a(n) = 2\*phi(n)/2^omega(n).
 * [A070307](https://oeis.org/A070307) ([program](/edit/?oeis=70307)): Number of n X n matrices with nonnegative integer entries such that every row sum equals 3.
+* [A070312](https://oeis.org/A070312) ([program](/edit/?oeis=70312)): a(1) = a(2) = 1; a(n) = a(n-1) + concatenation of a(n-2) and a(n-1).
 * [A070313](https://oeis.org/A070313) ([program](/edit/?oeis=70313)): a(n) = 2^n - (2\*n+1).
 * [A070315](https://oeis.org/A070315) ([program](/edit/?oeis=70315)): Third diagonal of triangle in A046739.
 * [A070318](https://oeis.org/A070318) ([program](/edit/?oeis=70318)): Max( sigma(k)-k : k=1,2,3,...,n ) where sigma(x)-x is the sum of proper divisors of x.
@@ -5810,6 +6082,7 @@ List of integer sequences with links to LODA programs.
 * [A070514](https://oeis.org/A070514) ([program](/edit/?oeis=70514)): Final digit of n^4: n^4 mod 10.
 * [A070515](https://oeis.org/A070515) ([program](/edit/?oeis=70515)): a(n) = n^4 mod 11.
 * [A070517](https://oeis.org/A070517) ([program](/edit/?oeis=70517)): a(n) = n^4 mod 13.
+* [A070521](https://oeis.org/A070521) ([program](/edit/?oeis=70521)): Value of prime(n)-th cyclotomic polynomial at n.
 * [A070532](https://oeis.org/A070532) ([program](/edit/?oeis=70532)): a(n) = n^4 mod 14.
 * [A070533](https://oeis.org/A070533) ([program](/edit/?oeis=70533)): n^4 mod 15.
 * [A070534](https://oeis.org/A070534) ([program](/edit/?oeis=70534)): a(n) = n^4 mod 17.
@@ -5986,6 +6259,7 @@ List of integer sequences with links to LODA programs.
 * [A070772](https://oeis.org/A070772) ([program](/edit/?oeis=70772)): b+c+d+e+f where b>=c>=d>=e>=f>=0 ordered by b then c then d then e then f.
 * [A070775](https://oeis.org/A070775) ([program](/edit/?oeis=70775)): a(n) = Sum\_\{k=0..n\} binomial(4\*n,4\*k).
 * [A070777](https://oeis.org/A070777) ([program](/edit/?oeis=70777)): a(1) = 1; a(n) = (largest prime factor of n) - 1.
+* [A070778](https://oeis.org/A070778) ([program](/edit/?oeis=70778)): Let M denote the 6 X 6 matrix = row by row /1,1,1,1,1,1/1,1,1,1,1,0/1,1,1,1,0,0/1,1,1,0,0,0/1,1,0,0,0,0/1,0,0,0,0,0/ and A(n) the vector (x(n),y(n),z(n),t(n),u(n),v(n)) = M^n\*A where A is the vector (1,1,1,1,1,1); then a(n) = u(n).
 * [A070779](https://oeis.org/A070779) ([program](/edit/?oeis=70779)): Expansion of e.g.f.: (exp(x/(1-x))\*(2-x)-1+x)/(1-x)^3.
 * [A070780](https://oeis.org/A070780) ([program](/edit/?oeis=70780)): Binomial((n+1)^2,n).
 * [A070781](https://oeis.org/A070781) ([program](/edit/?oeis=70781)): a(n) = binomial((n+1)^2, n^2).
@@ -6033,6 +6307,8 @@ List of integer sequences with links to LODA programs.
 * [A070893](https://oeis.org/A070893) ([program](/edit/?oeis=70893)): Let r, s, t be three permutations of the set \{1,2,3,..,n\}; a(n) = value of Sum\_\{i=1..n\} r(i)\*s(i)\*t(i), with r=\{1,2,3,..,n\}; s=\{n,n-1,..,1\} and t=\{n,n-2,n-4,...,1,...,n-3,n-1\}.
 * [A070895](https://oeis.org/A070895) ([program](/edit/?oeis=70895)): Triangle read by rows where T(n+1,k)=T(n,k)+n\*T(n-1,k) starting with T(n,n)=1 and T(n,k)=0 if n<k.
 * [A070896](https://oeis.org/A070896) ([program](/edit/?oeis=70896)): Determinant of the Cayley addition table of Z\_\{n\}.
+* [A070906](https://oeis.org/A070906) ([program](/edit/?oeis=70906)): Every third Bell number A000110.
+* [A070907](https://oeis.org/A070907) ([program](/edit/?oeis=70907)): Every fourth Bell number A000110.
 * [A070909](https://oeis.org/A070909) ([program](/edit/?oeis=70909)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 28" and by "Rule 156".
 * [A070910](https://oeis.org/A070910) ([program](/edit/?oeis=70910)): Decimal expansion of BesselI(0,2).
 * [A070919](https://oeis.org/A070919) ([program](/edit/?oeis=70919)): a(n) = Card\{ (x,y,z) \| lcm(x,y,z)=n \}.
@@ -6072,6 +6348,7 @@ List of integer sequences with links to LODA programs.
 * [A071029](https://oeis.org/A071029) ([program](/edit/?oeis=71029)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 22".
 * [A071030](https://oeis.org/A071030) ([program](/edit/?oeis=71030)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 54".
 * [A071033](https://oeis.org/A071033) ([program](/edit/?oeis=71033)): a(n) = n-th state of cellular automaton generated by "Rule 94" when started with a single ON cell.
+* [A071036](https://oeis.org/A071036) ([program](/edit/?oeis=71036)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 150" when started with a single ON cell.
 * [A071038](https://oeis.org/A071038) ([program](/edit/?oeis=71038)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 182".
 * [A071041](https://oeis.org/A071041) ([program](/edit/?oeis=71041)): Triangle read by rows giving successive states of cellular automaton generated by "Rule 246".
 * [A071042](https://oeis.org/A071042) ([program](/edit/?oeis=71042)): Number of 0's in n-th row of triangle in A070886.
@@ -6105,6 +6382,9 @@ List of integer sequences with links to LODA programs.
 * [A071142](https://oeis.org/A071142) ([program](/edit/?oeis=71142)): Numbers n such that sum of distinct primes dividing n is divisible by the largest prime dividing n. Also n has exactly 3 distinct prime factors and n is squarefree.
 * [A071148](https://oeis.org/A071148) ([program](/edit/?oeis=71148)): Partial sums of sequence of odd primes (A065091); a(n) = sum of the first n odd primes.
 * [A071152](https://oeis.org/A071152) ([program](/edit/?oeis=71152)): Łukasiewicz words for the rooted plane binary trees (interpretation d in Stanley's exercise 19) with the last leaf implicit, i.e., these words are given without the last trailing zero, except for the null tree which is encoded as 0.
+* [A071154](https://oeis.org/A071154) ([program](/edit/?oeis=71154)): Totally balanced decimal numbers: if we assign the weight w(d) = d-1 to each digit d (i.e., w(0) = -1, w(1) = 0, ..., w(9) = 8) and then read the digits of the term from left to right, the partial sum of the weights is never negative and the total weighted sum is zero.
+* [A071160](https://oeis.org/A071160) ([program](/edit/?oeis=71160)): Łukasiewicz words that are also valid asynchronic siteswap juggling patterns.
+* [A071161](https://oeis.org/A071161) ([program](/edit/?oeis=71161)): Integers whose decimal expansion satisfies the condition that if we read each term from the left to right (the most significant to the least significant digit) then each nonzero digit gives a distance to the next nonzero digit to right (with a cyclic wrap-over from the least-significant to the most significant nonzero digit).
 * [A071162](https://oeis.org/A071162) ([program](/edit/?oeis=71162)): Simple rewriting of binary expansion of n resulting A014486-codes for rooted binary trees with height equal to number of internal vertices. (Binary trees where at each internal vertex at least the other child is leaf).
 * [A071166](https://oeis.org/A071166) ([program](/edit/?oeis=71166)): a(n) = n - A006530(A000203(n)), difference between n and largest prime factor of the sum of its divisors.
 * [A071168](https://oeis.org/A071168) ([program](/edit/?oeis=71168)): n-th prime reduced modulo phi(n).
@@ -6121,9 +6401,11 @@ List of integer sequences with links to LODA programs.
 * [A071207](https://oeis.org/A071207) ([program](/edit/?oeis=71207)): Triangular array T(n,k) read by rows, giving number of labeled free trees with n vertices and k children of the root that have a label smaller than the label of the root.
 * [A071213](https://oeis.org/A071213) ([program](/edit/?oeis=71213)): Number of labeled planar trees with n nodes such that the root is smaller than all its children.
 * [A071214](https://oeis.org/A071214) ([program](/edit/?oeis=71214)): Number of labeled ordered trees with n nodes such that the root is smaller than all its children.
+* [A071215](https://oeis.org/A071215) ([program](/edit/?oeis=71215)): Number of distinct prime factors of sum of 2 successive primes.
 * [A071216](https://oeis.org/A071216) ([program](/edit/?oeis=71216)): a(n) is the largest prime factor of prime(n) + prime(n+1).
 * [A071222](https://oeis.org/A071222) ([program](/edit/?oeis=71222)): Smallest k such that gcd(n,k) = gcd(n+1,k+1).
 * [A071224](https://oeis.org/A071224) ([program](/edit/?oeis=71224)): LCM of n and n-th composite number.
+* [A071227](https://oeis.org/A071227) ([program](/edit/?oeis=71227)): Number of solutions 1<=x<=n to gcd(A033950(n),x) = tau(A033950(n)).
 * [A071228](https://oeis.org/A071228) ([program](/edit/?oeis=71228)): a(n) = n\*(n-th composite number).
 * [A071229](https://oeis.org/A071229) ([program](/edit/?oeis=71229)): a(n) = n\*(14\*n^2-21\*n+13)/6.
 * [A071230](https://oeis.org/A071230) ([program](/edit/?oeis=71230)): a(n) = n\*(6\*n^2 - 7\*n + 3)/2.
@@ -6135,6 +6417,7 @@ List of integer sequences with links to LODA programs.
 * [A071237](https://oeis.org/A071237) ([program](/edit/?oeis=71237)): a(n) = n\*(n+1)\*(n^2+1)/2.
 * [A071238](https://oeis.org/A071238) ([program](/edit/?oeis=71238)): a(n) = n\*(n+1)\*(2\*n^2+1)/6.
 * [A071239](https://oeis.org/A071239) ([program](/edit/?oeis=71239)): a(n) = n\*(n+1)\*(n^2+2)/6.
+* [A071240](https://oeis.org/A071240) ([program](/edit/?oeis=71240)): Arithmetic mean of k and R(k) where k is a number using all odd digits and R(k) is its digit reversal (A004086).
 * [A071241](https://oeis.org/A071241) ([program](/edit/?oeis=71241)): Arithmetic mean of k and R(k) where k is a number using all even digits and R(k) is its digit reversal (A004086).
 * [A071244](https://oeis.org/A071244) ([program](/edit/?oeis=71244)): n\*(n-1)\*(n^2+2)/6.
 * [A071245](https://oeis.org/A071245) ([program](/edit/?oeis=71245)): a(n) = n\*(n-1)\*(2\*n^2+1)/6.
@@ -6191,6 +6474,7 @@ List of integer sequences with links to LODA programs.
 * [A071423](https://oeis.org/A071423) ([program](/edit/?oeis=71423)): a(n) = a(n-1) + number of decimal digits of 2^n. Number of decimal digits of concatenation of first n powers of 2.
 * [A071424](https://oeis.org/A071424) ([program](/edit/?oeis=71424)): a(n) = a(n-1) + number of decimal digits of n!. Number of decimal digits of concatenation of first n factorials.
 * [A071425](https://oeis.org/A071425) ([program](/edit/?oeis=71425)): Total number of 1-s in binary representation of all factorials from 1 to n.
+* [A071440](https://oeis.org/A071440) ([program](/edit/?oeis=71440)): Start with 1; add the digits of the previous term and the squares of the digits of the previous term.
 * [A071520](https://oeis.org/A071520) ([program](/edit/?oeis=71520)): Number of 5-smooth numbers (A051037) <= n.
 * [A071521](https://oeis.org/A071521) ([program](/edit/?oeis=71521)): Number of 3-smooth numbers <= n.
 * [A071523](https://oeis.org/A071523) ([program](/edit/?oeis=71523)): Number of 11-smooth numbers <= n.
@@ -6208,6 +6492,7 @@ List of integer sequences with links to LODA programs.
 * [A071561](https://oeis.org/A071561) ([program](/edit/?oeis=71561)): Numbers with no middle divisors (cf. A071090).
 * [A071562](https://oeis.org/A071562) ([program](/edit/?oeis=71562)): Numbers n such that the sum of the middle divisors of n (A071090) is not zero.
 * [A071568](https://oeis.org/A071568) ([program](/edit/?oeis=71568)): Smallest k>n such that n^3+1 divides k\*n^2+1.
+* [A071569](https://oeis.org/A071569) ([program](/edit/?oeis=71569)): Det(M\_n) where M\_n is the n X n matrix m(i,j)=1 if floor(i/j) is even, 0 otherwise.
 * [A071575](https://oeis.org/A071575) ([program](/edit/?oeis=71575)): Number of iterations of cototient(n) needed to reach 1 (cototient(n) = n-phi(n)).
 * [A071578](https://oeis.org/A071578) ([program](/edit/?oeis=71578)): Number of iterations of Pi(n) needed to reach 1, where Pi(x) denotes the number of primes <= x.
 * [A071582](https://oeis.org/A071582) ([program](/edit/?oeis=71582)): Powers of 4 written backwards.
@@ -6217,6 +6502,8 @@ List of integer sequences with links to LODA programs.
 * [A071586](https://oeis.org/A071586) ([program](/edit/?oeis=71586)): Powers of 8 written backwards.
 * [A071587](https://oeis.org/A071587) ([program](/edit/?oeis=71587)): Powers of 9 written backwards.
 * [A071588](https://oeis.org/A071588) ([program](/edit/?oeis=71588)): Powers of 6 written backwards.
+* [A071589](https://oeis.org/A071589) ([program](/edit/?oeis=71589)): Numbers n such that Reversal(n) > n.
+* [A071590](https://oeis.org/A071590) ([program](/edit/?oeis=71590)): Numbers k such that reversal(k) < k.
 * [A071602](https://oeis.org/A071602) ([program](/edit/?oeis=71602)): Sum of the reverses of the first n primes.
 * [A071604](https://oeis.org/A071604) ([program](/edit/?oeis=71604)): a(n) is the number of 7-smooth numbers <= n.
 * [A071617](https://oeis.org/A071617) ([program](/edit/?oeis=71617)): A063439[A000040(n)]=Phi[p]^Phi[p].
@@ -6224,12 +6511,14 @@ List of integer sequences with links to LODA programs.
 * [A071619](https://oeis.org/A071619) ([program](/edit/?oeis=71619)): a(n) = ceiling( 2\*n^2/3 ).
 * [A071621](https://oeis.org/A071621) ([program](/edit/?oeis=71621)): Primes that can be written as "a \* b + c \* d", where a, b, c and d are also primes.
 * [A071623](https://oeis.org/A071623) ([program](/edit/?oeis=71623)): Least k such that n = A071532(k).
+* [A071627](https://oeis.org/A071627) ([program](/edit/?oeis=71627)): Terms of Chernoff sequence A006939 divided by n!
 * [A071637](https://oeis.org/A071637) ([program](/edit/?oeis=71637)): Largest exponent k >=0 such that (n+1)^k divides n!.
 * [A071642](https://oeis.org/A071642) ([program](/edit/?oeis=71642)): Numbers n such that x^n + x^(n-1) + x^(n-2) + ... + x + 1 is irreducible over GF(2).
 * [A071646](https://oeis.org/A071646) ([program](/edit/?oeis=71646)): Number of base 4 n-digit numbers with digit sum n.
 * [A071648](https://oeis.org/A071648) ([program](/edit/?oeis=71648)): Sum of even decimal digits of n.
 * [A071649](https://oeis.org/A071649) ([program](/edit/?oeis=71649)): Sum of odd decimal digits of n.
 * [A071650](https://oeis.org/A071650) ([program](/edit/?oeis=71650)): Difference between sums of odd and even digits of n.
+* [A071675](https://oeis.org/A071675) ([program](/edit/?oeis=71675)): Array read by antidiagonals of trinomial coefficients.
 * [A071678](https://oeis.org/A071678) ([program](/edit/?oeis=71678)): GCD of n! and the reverse of n!.
 * [A071679](https://oeis.org/A071679) ([program](/edit/?oeis=71679)): Least k such that the maximum number of elements among the continued fractions for k/1, k/2, k/3, k/4, ..., k/k equals n.
 * [A071683](https://oeis.org/A071683) ([program](/edit/?oeis=71683)): Nonprimes which are the average of two consecutive Fibonacci numbers.
@@ -6243,6 +6532,7 @@ List of integer sequences with links to LODA programs.
 * [A071700](https://oeis.org/A071700) ([program](/edit/?oeis=71700)): Product of twin primes of form (4\*k+3,4\*(k+1)+1), k>=0.
 * [A071701](https://oeis.org/A071701) ([program](/edit/?oeis=71701)): Number of twin prime pairs <= n of form (4\*k+1,4\*k+3), k>0.
 * [A071716](https://oeis.org/A071716) ([program](/edit/?oeis=71716)): Expansion of (1+x^2\*C)\*C, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
+* [A071717](https://oeis.org/A071717) ([program](/edit/?oeis=71717)): Expansion of (1 + x^2\*C)\*C^2, where C = (1 - sqrt(1-4\*x))/(2\*x) is g.f. for Catalan numbers, A000108.
 * [A071718](https://oeis.org/A071718) ([program](/edit/?oeis=71718)): Expansion of (1+x^2\*C)\*C^3, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
 * [A071720](https://oeis.org/A071720) ([program](/edit/?oeis=71720)): Number of spanning trees in K\_\{n\}-e, the complete graph on n nodes minus an edge (n > 1).
 * [A071721](https://oeis.org/A071721) ([program](/edit/?oeis=71721)): Expansion of (1+x^2\*C^2)\*C^2, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
@@ -6251,14 +6541,21 @@ List of integer sequences with links to LODA programs.
 * [A071724](https://oeis.org/A071724) ([program](/edit/?oeis=71724)): a(n) = 3\*binomial(2n, n-1)/(n+2), n > 0, with a(0)=1.
 * [A071725](https://oeis.org/A071725) ([program](/edit/?oeis=71725)): Expansion of (1+x^2\*C^4)\*C, where C = (1 - sqrt(1-4\*x))/(2\*x) is g.f. for Catalan numbers, A000108.
 * [A071726](https://oeis.org/A071726) ([program](/edit/?oeis=71726)): Expansion of (1+x^3\*C)\*C, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
+* [A071727](https://oeis.org/A071727) ([program](/edit/?oeis=71727)): Expansion of (1+x^3\*C)\*C^2, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
+* [A071728](https://oeis.org/A071728) ([program](/edit/?oeis=71728)): Expansion of (1+x^3\*C)\*C^3, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
 * [A071730](https://oeis.org/A071730) ([program](/edit/?oeis=71730)): Smallest prime p > prime(n) such that p-prime(n) is a square.
 * [A071731](https://oeis.org/A071731) ([program](/edit/?oeis=71731)): Expansion of (1+x^3\*C^2)\*C^2, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
+* [A071732](https://oeis.org/A071732) ([program](/edit/?oeis=71732)): Expansion of (1+x^3\*C^2)\*C^3, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
 * [A071735](https://oeis.org/A071735) ([program](/edit/?oeis=71735)): Expansion of (1+x^3\*C^3)\*C^2, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
 * [A071736](https://oeis.org/A071736) ([program](/edit/?oeis=71736)): Expansion of (1+x^3\*C^3)\*C^3, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
 * [A071737](https://oeis.org/A071737) ([program](/edit/?oeis=71737)): Expansion of (1+x^3\*C^3)\*C^4, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
 * [A071738](https://oeis.org/A071738) ([program](/edit/?oeis=71738)): Expansion of (1+x^3\*C^4)\*C, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
+* [A071739](https://oeis.org/A071739) ([program](/edit/?oeis=71739)): Expansion of (1+x^3\*C^4)\*C^2, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
 * [A071741](https://oeis.org/A071741) ([program](/edit/?oeis=71741)): Expansion of (1+x^3\*C^4)\*C^4, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
 * [A071742](https://oeis.org/A071742) ([program](/edit/?oeis=71742)): Expansion of (1+x^4\*C)\*C, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
+* [A071743](https://oeis.org/A071743) ([program](/edit/?oeis=71743)): Expansion of (1+x^4\*C)\*C^2, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
+* [A071744](https://oeis.org/A071744) ([program](/edit/?oeis=71744)): Expansion of (1+x^4\*C)\*C^3, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
+* [A071747](https://oeis.org/A071747) ([program](/edit/?oeis=71747)): Expansion of (1+x^4\*C^2)\*C^2, where C = (1-(1-4\*x)^(1/2))/(2\*x) is g.f. for Catalan numbers, A000108.
 * [A071761](https://oeis.org/A071761) ([program](/edit/?oeis=71761)): Dealing cards in a game of solitaire.
 * [A071762](https://oeis.org/A071762) ([program](/edit/?oeis=71762)): Leftmost 1 is converted to a 2, which then propagates one step at a time until it is rightmost; then it changes to a pair of 1's and the process repeats.
 * [A071765](https://oeis.org/A071765) ([program](/edit/?oeis=71765)): Number of n-tuples of elements e\_1,e\_2,...,e\_n in the alternating group A\_4 such that the subgroup generated by e\_1,e\_2,...,e\_n is A\_4.
@@ -6283,6 +6580,7 @@ List of integer sequences with links to LODA programs.
 * [A071823](https://oeis.org/A071823) ([program](/edit/?oeis=71823)): Number of numbers x <= n with largest prime factor of the form 4k+3.
 * [A071824](https://oeis.org/A071824) ([program](/edit/?oeis=71824)): Number of x with largest prime factor of the form 4k+1 less than or equal to n.
 * [A071840](https://oeis.org/A071840) ([program](/edit/?oeis=71840)): Number of primes == 3 mod 8 <= n.
+* [A071842](https://oeis.org/A071842) ([program](/edit/?oeis=71842)): Number of primes == 7 mod 8 <= n.
 * [A071854](https://oeis.org/A071854) ([program](/edit/?oeis=71854)): a(n) = (number of distinct prime factors in C(2n,n)) - pi(n).
 * [A071858](https://oeis.org/A071858) ([program](/edit/?oeis=71858)): (Number of 1's in binary expansion of n) mod 3.
 * [A071860](https://oeis.org/A071860) ([program](/edit/?oeis=71860)): Number of k 1<=k<=n such that sigma(k) is odd.
@@ -6322,6 +6620,7 @@ List of integer sequences with links to LODA programs.
 * [A071936](https://oeis.org/A071936) ([program](/edit/?oeis=71936)): K(n+1,n) where K(x,y) is the Kronecker symbol (x/y).
 * [A071937](https://oeis.org/A071937) ([program](/edit/?oeis=71937)): Reverse(n)!.
 * [A071942](https://oeis.org/A071942) ([program](/edit/?oeis=71942)): Kolakoski-(3,4) sequence: a(n) is length of n-th run.
+* [A071947](https://oeis.org/A071947) ([program](/edit/?oeis=71947)): Triangle read by rows of numbers of paths in a lattice satisfying certain conditions.
 * [A071948](https://oeis.org/A071948) ([program](/edit/?oeis=71948)): Triangle read by rows of numbers of paths in a lattice satisfying certain conditions.
 * [A071952](https://oeis.org/A071952) ([program](/edit/?oeis=71952)): Diagonal T(n,3) of triangle in A071951.
 * [A071953](https://oeis.org/A071953) ([program](/edit/?oeis=71953)): Diagonal T(n,n-2) of triangle in A071951.
@@ -6349,11 +6648,14 @@ List of integer sequences with links to LODA programs.
 * [A072003](https://oeis.org/A072003) ([program](/edit/?oeis=72003)): 10's complement of final digit of n-th prime.
 * [A072004](https://oeis.org/A072004) ([program](/edit/?oeis=72004)): Remainder when sum of squares of first n primes is divided by n-th prime.
 * [A072010](https://oeis.org/A072010) ([program](/edit/?oeis=72010)): In prime factorization of n replace all primes of form k\*4+1 with k\*4+3 and primes of form k\*4+3 with k\*4+1.
+* [A072012](https://oeis.org/A072012) ([program](/edit/?oeis=72012)): a(n) = A072010(A072010(n)).
+* [A072015](https://oeis.org/A072015) ([program](/edit/?oeis=72015)): Maxima when the mapping of A072010 is applied to n repeatedly.
 * [A072020](https://oeis.org/A072020) ([program](/edit/?oeis=72020)): Sum of an infinite series: a(n) = Sum\_\{ k = 0..infinity\} ((1/27) \* (3^n)^3 \* GAMMA(n+1/3\*k+1/3) \* GAMMA(n+1/3\*k+2/3) \* GAMMA(n+1/3\*k+1) / (GAMMA(4/3+1/3\*k) \* GAMMA(5/3+1/3\*k) \* GAMMA(2+1/3\*k) \* exp(1) \* k!).
 * [A072025](https://oeis.org/A072025) ([program](/edit/?oeis=72025)): a(n) = n^4 + 2\*n^3 + 4\*n^2 + 3\*n + 1 = ((n+1)^5+n^5) / (2\*n+1).
 * [A072031](https://oeis.org/A072031) ([program](/edit/?oeis=72031)): Row sums of A072030.
 * [A072032](https://oeis.org/A072032) ([program](/edit/?oeis=72032)): a(n) = gcd(2^n, reverse(2^n)) = gcd(2^n, A004086(2^n)) = A055483(2^n).
 * [A072034](https://oeis.org/A072034) ([program](/edit/?oeis=72034)): a(n) = Sum\_\{k=0..n\} binomial(n,k)\*k^n.
+* [A072035](https://oeis.org/A072035) ([program](/edit/?oeis=72035)): Sum(binomial(n,k)\*n^k\*k^n,k=1..n).
 * [A072042](https://oeis.org/A072042) ([program](/edit/?oeis=72042)): a(n+2) = a(n+1)\*a(n)\*(1+1/n), a(1)=a(2)=1.
 * [A072046](https://oeis.org/A072046) ([program](/edit/?oeis=72046)): Greatest common divisor of product of divisors of n and product of non-divisors < n.
 * [A072047](https://oeis.org/A072047) ([program](/edit/?oeis=72047)): Number of prime factors of the squarefree numbers: omega(A005117(n)).
@@ -6365,8 +6667,12 @@ List of integer sequences with links to LODA programs.
 * [A072061](https://oeis.org/A072061) ([program](/edit/?oeis=72061)): [t], 1+[t], [2t], 2+[2t], [3t], 3+[3t], ..., where t=tau = (1+sqrt(5))/2 and []=floor.
 * [A072062](https://oeis.org/A072062) ([program](/edit/?oeis=72062)): Inverse permutation to A072061.
 * [A072065](https://oeis.org/A072065) ([program](/edit/?oeis=72065)): Define a "piece" to consist of 3 mutually touching pennies welded together to form a triangle; sequence gives side lengths of triangles that can be made from such pieces.
+* [A072068](https://oeis.org/A072068) ([program](/edit/?oeis=72068)): Number of integer solutions to the equation 2x^2+y^2+8z^2=m for an odd number m=2n-1.
 * [A072078](https://oeis.org/A072078) ([program](/edit/?oeis=72078)): Number of 3-smooth divisors of n.
 * [A072079](https://oeis.org/A072079) ([program](/edit/?oeis=72079)): Sum of 3-smooth divisors of n.
+* [A072084](https://oeis.org/A072084) ([program](/edit/?oeis=72084)): In prime factorization of n replace all primes with their numbers of 1's in binary representation.
+* [A072085](https://oeis.org/A072085) ([program](/edit/?oeis=72085)): a(n) = A072084(A072084(n)).
+* [A072086](https://oeis.org/A072086) ([program](/edit/?oeis=72086)): Number of steps to reach 1, starting with n and applying the A072084-map repeatedly.
 * [A072097](https://oeis.org/A072097) ([program](/edit/?oeis=72097)): Decimal expansion of 180/Pi.
 * [A072100](https://oeis.org/A072100) ([program](/edit/?oeis=72100)): Column 2 of the array m(i,1)=m(1,j)=1 m(i,j)=m(i-1,j-1)+m(i-1,j+1) (a(n)=m(n,2)).
 * [A072107](https://oeis.org/A072107) ([program](/edit/?oeis=72107)): a(n) = Sum\_\{k=1..n\} A014963(k).
@@ -6379,6 +6685,7 @@ List of integer sequences with links to LODA programs.
 * [A072134](https://oeis.org/A072134) ([program](/edit/?oeis=72134)): Second generation sequence in which each number is skipped that can be written as sum of distinct previous entries. To make the first generation we start with all natural numbers: this gives the powers of 2 (A000079). For the second generation we start with the natural numbers from which are removed the numbers of the first generation.
 * [A072154](https://oeis.org/A072154) ([program](/edit/?oeis=72154)): Coordination sequence for the planar net 4.6.12.
 * [A072165](https://oeis.org/A072165) ([program](/edit/?oeis=72165)): Values of Moebius function of the products of two (not necessarily distinct) primes (semiprimes or 2-almost primes, A001358).
+* [A072166](https://oeis.org/A072166) ([program](/edit/?oeis=72166)): Triangle in which first row is \{1\}; to get n-th row take first n numbers greater than last number in previous row which are congruent to 1 (mod n).
 * [A072172](https://oeis.org/A072172) ([program](/edit/?oeis=72172)): a(n) = (2\*n+1)\*5^(2\*n+1).
 * [A072173](https://oeis.org/A072173) ([program](/edit/?oeis=72173)): a(n) = (2\*n+1)\*239^(2\*n+1).
 * [A072175](https://oeis.org/A072175) ([program](/edit/?oeis=72175)): a(1)=1, a(2)=2, a(n) = a(n-1) + 1 - 2\*sign(a(n-2)) for n>2.
@@ -6416,7 +6723,7 @@ List of integer sequences with links to LODA programs.
 * [A072265](https://oeis.org/A072265) ([program](/edit/?oeis=72265)): Variant of Lucas numbers: a(n) = a(n-1) + 4\*a(n-2) starting with a(0)=2 and a(1)=1.
 * [A072266](https://oeis.org/A072266) ([program](/edit/?oeis=72266)): Number of words of length 2n generated by the two letters s and t that reduce to the identity 1 using the relations sssssss=1, tt=1 and stst=1. The generators s and t along with the three relations generate the 14-element dihedral group D7.
 * [A072272](https://oeis.org/A072272) ([program](/edit/?oeis=72272)): Number of active cells in n-th stage of growth of two-dimensional cellular automaton defined by "Rule 614", based on the 5-celled von Neumann neighborhood.
-* [A072273](https://oeis.org/A072273) ([program](/edit/?oeis=72273)): Index of powers of 2 that equal the number of noncongruent roots to the congruence x^2=k (mod n) for (k,n)=1 and assuming solvability.
+* [A072273](https://oeis.org/A072273) ([program](/edit/?oeis=72273)): Index of powers of 2 that equal the number of noncongruent roots to the congruence x^2 == k (mod n) for (k,n)=1 and assuming solvability.
 * [A072277](https://oeis.org/A072277) ([program](/edit/?oeis=72277)): Smallest integer > 1 which is both n-gonal and centered n-gonal.
 * [A072284](https://oeis.org/A072284) ([program](/edit/?oeis=72284)): Numbers k begins a new chain of squarefree integers. I.e., k is squarefree but k-1 is not.
 * [A072290](https://oeis.org/A072290) ([program](/edit/?oeis=72290)): Number of digits in the decimal expansion of the Champernowne constant that must be scanned to encounter all n-digit strings.
@@ -6450,6 +6757,7 @@ List of integer sequences with links to LODA programs.
 * [A072401](https://oeis.org/A072401) ([program](/edit/?oeis=72401)): 1 iff n is of the form 4^m\*(8k+7).
 * [A072403](https://oeis.org/A072403) ([program](/edit/?oeis=72403)): Numerator of the Reingold-Tarjan sequence, denominator=A072404.
 * [A072405](https://oeis.org/A072405) ([program](/edit/?oeis=72405)): Triangle T(n, k) = C(n,k) - C(n-2,k-1) for n >= 3 and T(n, k) = 1 otherwise, read by rows.
+* [A072406](https://oeis.org/A072406) ([program](/edit/?oeis=72406)): Number of values of k for which C(n,k)-C(n-2,k-1) is odd.
 * [A072418](https://oeis.org/A072418) ([program](/edit/?oeis=72418)): Parity of floor(3^n/2^n).
 * [A072436](https://oeis.org/A072436) ([program](/edit/?oeis=72436)): Remove prime factors of form 4\*k+3.
 * [A072437](https://oeis.org/A072437) ([program](/edit/?oeis=72437)): Numbers with no prime factors of form 4\*k+3.
@@ -6477,11 +6785,13 @@ List of integer sequences with links to LODA programs.
 * [A072491](https://oeis.org/A072491) ([program](/edit/?oeis=72491)): Define f(1) = 0. For n>=2, let f(n) = n - p where p is the largest prime <= n. a(n) = number of iterations of f to reach 0, starting from n.
 * [A072492](https://oeis.org/A072492) ([program](/edit/?oeis=72492)): Values of n for which A072491(n)=3.
 * [A072493](https://oeis.org/A072493) ([program](/edit/?oeis=72493)): a(1) = 1 and a(n) = ceiling((Sum\_\{k=1..n-1\} a(k))/3) for n >= 2.
+* [A072498](https://oeis.org/A072498) ([program](/edit/?oeis=72498)): n is not equal to the product of the k smallest divisors of n for any k.
 * [A072499](https://oeis.org/A072499) ([program](/edit/?oeis=72499)): Product of divisors of n which are <= n^(1/2).
 * [A072500](https://oeis.org/A072500) ([program](/edit/?oeis=72500)): Product of divisors of n which are >= n^(1/2).
 * [A072504](https://oeis.org/A072504) ([program](/edit/?oeis=72504)): a(n) = LCM of divisors of n which are <= sqrt(n).
 * [A072505](https://oeis.org/A072505) ([program](/edit/?oeis=72505)): a(n) = n / (LCM of divisors of n which are <= sqrt(n)).
 * [A072507](https://oeis.org/A072507) ([program](/edit/?oeis=72507)): Smallest start of n consecutive integers with n divisors, or 0 if no such number exists.
+* [A072510](https://oeis.org/A072510) ([program](/edit/?oeis=72510)): Numbers n with property that n = product of first k divisors of n for some k.
 * [A072512](https://oeis.org/A072512) ([program](/edit/?oeis=72512)): Product of all n - d, where 1 < d < n and d is a divisor of n.
 * [A072513](https://oeis.org/A072513) ([program](/edit/?oeis=72513)): Product of all n - d, where d < n and d is a divisor of n.
 * [A072514](https://oeis.org/A072514) ([program](/edit/?oeis=72514)): Sum of n mod k for k in \{1...n\} with gcd(k,n) > 1.
@@ -6489,6 +6799,7 @@ List of integer sequences with links to LODA programs.
 * [A072516](https://oeis.org/A072516) ([program](/edit/?oeis=72516)): Sum of remainders when n is divided by lesser squares.
 * [A072524](https://oeis.org/A072524) ([program](/edit/?oeis=72524)): Sum of the remainders when the n-th triangular number is divided by all smaller triangular numbers > 1.
 * [A072527](https://oeis.org/A072527) ([program](/edit/?oeis=72527)): Number of values of k such that n divided by k leaves a remainder 3.
+* [A072528](https://oeis.org/A072528) ([program](/edit/?oeis=72528)): Table T(n,k) read by rows, giving number of occurrences of the remainder k when n is divided by i=1,2,3,...,n.
 * [A072529](https://oeis.org/A072529) ([program](/edit/?oeis=72529)): Product of the next n multiples of n.
 * [A072541](https://oeis.org/A072541) ([program](/edit/?oeis=72541)): List of pairs of numbers (k, k+4), where k-1 and k+3 are primes.
 * [A072547](https://oeis.org/A072547) ([program](/edit/?oeis=72547)): Main diagonal of the array in which first column and row are filled alternatively with 1's or 0's and then T(i,j) = T(i-1,j) + T(i,j-1).
@@ -6566,6 +6877,7 @@ List of integer sequences with links to LODA programs.
 * [A072815](https://oeis.org/A072815) ([program](/edit/?oeis=72815)): Sum of proper divisors of 6n + 1.
 * [A072818](https://oeis.org/A072818) ([program](/edit/?oeis=72818)): Possibly the only integers of the form sqrt(m^2\*(m^2-1)\*2/3) [only checked for the first 5 terms].
 * [A072819](https://oeis.org/A072819) ([program](/edit/?oeis=72819)): Variance of time for a random walk starting at 0 to reach one of the boundaries at +n or -n for the first time.
+* [A072822](https://oeis.org/A072822) ([program](/edit/?oeis=72822)): The terms of A073215 (sums of two powers of 23) divided by 2.
 * [A072823](https://oeis.org/A072823) ([program](/edit/?oeis=72823)): Numbers that are not the sum of two powers of 2.
 * [A072831](https://oeis.org/A072831) ([program](/edit/?oeis=72831)): Number of bits in n!.
 * [A072833](https://oeis.org/A072833) ([program](/edit/?oeis=72833)): Numbers that are congruent to 0, 5, 8, 9 mod 12.
@@ -6576,6 +6888,7 @@ List of integer sequences with links to LODA programs.
 * [A072860](https://oeis.org/A072860) ([program](/edit/?oeis=72860)): Highest power of 3 dividing the period length of 1/prime(n) = A002371(n).
 * [A072861](https://oeis.org/A072861) ([program](/edit/?oeis=72861)): a(n) = sigma(n)^2.
 * [A072863](https://oeis.org/A072863) ([program](/edit/?oeis=72863)): a(n) = 2^(n-3)\*(n^2+3\*n+8).
+* [A072864](https://oeis.org/A072864) ([program](/edit/?oeis=72864)): Numbers n such that the smallest k dividing sigma(k\*n^2) is equal to 3.
 * [A072869](https://oeis.org/A072869) ([program](/edit/?oeis=72869)): a(n) = sigma(sigma(n)-n), where sigma = A000203, sum of the divisors of n.
 * [A072872](https://oeis.org/A072872) ([program](/edit/?oeis=72872)): a(n) is the smallest positive number k such that n divides 2^k - k.
 * [A072876](https://oeis.org/A072876) ([program](/edit/?oeis=72876)): a(1) = a(2) = a(3) = a(4) = 1 and a(n) = (a(n-1)\*a(n-3) + a(n-2)^3)/a(n-4) for n >= 5.
@@ -6592,6 +6905,7 @@ List of integer sequences with links to LODA programs.
 * [A072909](https://oeis.org/A072909) ([program](/edit/?oeis=72909)): Least k>0 such that n+k is squarefree.
 * [A072911](https://oeis.org/A072911) ([program](/edit/?oeis=72911)): Number of "phi-divisors" of n.
 * [A072912](https://oeis.org/A072912) ([program](/edit/?oeis=72912)): Number of Fibonacci numbers F(k) <= 10^n which end in 0.
+* [A072913](https://oeis.org/A072913) ([program](/edit/?oeis=72913)): Numerators of (1/4!)\*(H(n,1)^4+6\*H(n,1)^2\*H(n,2)+8\*H(n,1)\*H(n,3)+3\*H(n,2)^2+6\*H(n,4)), where H(n,m) = Sum\_\{i=1..n\} 1/i^m are generalized harmonic numbers.
 * [A072914](https://oeis.org/A072914) ([program](/edit/?oeis=72914)): Denominators of 1/4!\*(H(n,1)^4+6\*H(n,1)^2\*H(n,2)+8\*H(n,1)\*H(n,3)+3\*H(n,2)^2+6\*H(n,4)), where H(n,m) = Sum\_\{i=1..n\} 1/i^m are generalized harmonic numbers.
 * [A072917](https://oeis.org/A072917) ([program](/edit/?oeis=72917)): a(n) = p(n) - phi(n), where p(n) is the least prime greater than phi(n).
 * [A072918](https://oeis.org/A072918) ([program](/edit/?oeis=72918)): a(n) = p(n) - sigma(n), where p(n) is the least prime greater than sigma(n).
@@ -6606,6 +6920,7 @@ List of integer sequences with links to LODA programs.
 * [A072951](https://oeis.org/A072951) ([program](/edit/?oeis=72951)): a(n) = Sum\_\{k=1..n\} binomial(k, n mod k).
 * [A072953](https://oeis.org/A072953) ([program](/edit/?oeis=72953)): a(n)=sum(k=1,n,C(n,n reduced (mod k))).
 * [A072961](https://oeis.org/A072961) ([program](/edit/?oeis=72961)): Numbers using only the digits 2 and 5, or numbers that are both curved and linear.
+* [A072966](https://oeis.org/A072966) ([program](/edit/?oeis=72966)): Numbers which are not the sum of two semiprimes.
 * [A072975](https://oeis.org/A072975) ([program](/edit/?oeis=72975)): a(n) = 2^n\*binomial(3\*n,n)\*(3\*n+1).
 * [A072976](https://oeis.org/A072976) ([program](/edit/?oeis=72976)): a(n) = 2^n\*binomial(3\*n,n)\*(3\*n+2).
 * [A072985](https://oeis.org/A072985) ([program](/edit/?oeis=72985)): Coefficient of the highest power of q in the expansion of nu(0)=1, nu(1)=b and for n >= 2, nu(n) = b\*nu(n-1) + lambda\*(n-1)\_q\*nu(n-2) with (b,lambda)=(2,3), where (n)\_q = (1+q+...+q^(n-1)) and q is a root of unity.
@@ -6627,6 +6942,7 @@ List of integer sequences with links to LODA programs.
 * [A073052](https://oeis.org/A073052) ([program](/edit/?oeis=73052)): Decimal expansion of cos(Pi/7).
 * [A073055](https://oeis.org/A073055) ([program](/edit/?oeis=73055)): a(n) = product of first n digits in the decimal expansion of Pi, ignoring decimal point.
 * [A073059](https://oeis.org/A073059) ([program](/edit/?oeis=73059)): a(n) = (1/2)\*(A073504(n+1) - A073504(n)).
+* [A073060](https://oeis.org/A073060) ([program](/edit/?oeis=73060)): Multiplication table for 1 and odd primes, read by antidiagonals.
 * [A073061](https://oeis.org/A073061) ([program](/edit/?oeis=73061)): a(1)=1, a(2k)=2\*a(k), a(2k+1)=3\*a(k).
 * [A073065](https://oeis.org/A073065) ([program](/edit/?oeis=73065)): a(n) = prime(n) \* prime(prime(n)).
 * [A073071](https://oeis.org/A073071) ([program](/edit/?oeis=73071)): Least k such that k! > prime(1)\*prime(2)\*...\*prime(n) where prime(n) is the n-th prime.
@@ -6634,6 +6950,8 @@ List of integer sequences with links to LODA programs.
 * [A073078](https://oeis.org/A073078) ([program](/edit/?oeis=73078)): Least k such that n divides C(2k,k).
 * [A073080](https://oeis.org/A073080) ([program](/edit/?oeis=73080)): 3 appears three times, 2\*3=6 appears six times, 2\*6=12 appears twelve times etc.
 * [A073085](https://oeis.org/A073085) ([program](/edit/?oeis=73085)): Numbers n such that 210\*n+1 is prime.
+* [A073086](https://oeis.org/A073086) ([program](/edit/?oeis=73086)): Floor[concatenation of eight consecutive numbers from n to n+7 divided by 8].
+* [A073088](https://oeis.org/A073088) ([program](/edit/?oeis=73088)): Sum of first n terms of the simple continued fraction of Sum\_\{k>=0\} 1/2^(2^k) (cf. A007400).
 * [A073089](https://oeis.org/A073089) ([program](/edit/?oeis=73089)): a(n) = (1/2)\*(4n - 3 - Sum\_\{k=1..n\} A007400(k)).
 * [A073092](https://oeis.org/A073092) ([program](/edit/?oeis=73092)): Number of numbers of the form x^2 + y^2 (0 <= x <= y) less than or equal to n.
 * [A073093](https://oeis.org/A073093) ([program](/edit/?oeis=73093)): Number of prime power divisors of n.
@@ -6663,16 +6981,24 @@ List of integer sequences with links to LODA programs.
 * [A073169](https://oeis.org/A073169) ([program](/edit/?oeis=73169)): a(n)=A002808(n)-n, difference between n-th composite and n.
 * [A073170](https://oeis.org/A073170) ([program](/edit/?oeis=73170)): a(1) = a(2) = 0; for n>2, a(n) = prime(n-1)-n+1.
 * [A073171](https://oeis.org/A073171) ([program](/edit/?oeis=73171)): (n^2)-th composite number.
+* [A073177](https://oeis.org/A073177) ([program](/edit/?oeis=73177)): (n-th digit of Pi) times (n-th digit of e).
 * [A073184](https://oeis.org/A073184) ([program](/edit/?oeis=73184)): Number of cubefree divisors of n.
 * [A073185](https://oeis.org/A073185) ([program](/edit/?oeis=73185)): Sum of cubefree divisors of n.
 * [A073188](https://oeis.org/A073188) ([program](/edit/?oeis=73188)): n appears 1+[n/3] times.
 * [A073189](https://oeis.org/A073189) ([program](/edit/?oeis=73189)): Integers 0..k three times, then 0..k+1 three times, etc.
 * [A073211](https://oeis.org/A073211) ([program](/edit/?oeis=73211)): Sum of two powers of 11.
+* [A073212](https://oeis.org/A073212) ([program](/edit/?oeis=73212)): n-th digit of Pi + n-th digit of e.
+* [A073213](https://oeis.org/A073213) ([program](/edit/?oeis=73213)): Sum of two powers of 17.
+* [A073214](https://oeis.org/A073214) ([program](/edit/?oeis=73214)): Sum of two powers of 19.
+* [A073215](https://oeis.org/A073215) ([program](/edit/?oeis=73215)): Sum of two powers of 23.
 * [A073216](https://oeis.org/A073216) ([program](/edit/?oeis=73216)): The terms of A055235 (sums of two powers of 3) divided by 2.
 * [A073217](https://oeis.org/A073217) ([program](/edit/?oeis=73217)): The terms of A055237 (sums of two powers of 5) divided by 2.
 * [A073218](https://oeis.org/A073218) ([program](/edit/?oeis=73218)): The terms of A055258 (sums of two powers of 7) divided by 2.
 * [A073219](https://oeis.org/A073219) ([program](/edit/?oeis=73219)): The terms of A073211 (sums of two powers of 11) divided by 2.
 * [A073220](https://oeis.org/A073220) ([program](/edit/?oeis=73220)): Terms of A072390 (sums of two powers of 13) divided by 2.
+* [A073221](https://oeis.org/A073221) ([program](/edit/?oeis=73221)): The terms of A073213 (sums of two powers of 17) divided by 2.
+* [A073222](https://oeis.org/A073222) ([program](/edit/?oeis=73222)): A073214/2.
+* [A073223](https://oeis.org/A073223) ([program](/edit/?oeis=73223)): a(n) = abs((n-th digit of Pi) - (n-th digit of e)).
 * [A073225](https://oeis.org/A073225) ([program](/edit/?oeis=73225)): a(n) = ceiling(n^n/n!).
 * [A073245](https://oeis.org/A073245) ([program](/edit/?oeis=73245)): Sum of all cubefree numbers with the same squarefree kernel as the n-th squarefree number.
 * [A073254](https://oeis.org/A073254) ([program](/edit/?oeis=73254)): Array read by antidiagonals, A(n,k) = n^2 + n\*k + k^2.
@@ -6686,7 +7012,10 @@ List of integer sequences with links to LODA programs.
 * [A073273](https://oeis.org/A073273) ([program](/edit/?oeis=73273)): a(n) = floor(sqrt(prime(n)\*prime(n+2))).
 * [A073274](https://oeis.org/A073274) ([program](/edit/?oeis=73274)): A000040(n+1) - A073273(n).
 * [A073300](https://oeis.org/A073300) ([program](/edit/?oeis=73300)): If n=pqr...st in ternary, a(n)=value of the continuant [p,q,r,...,s,t].
+* [A073304](https://oeis.org/A073304) ([program](/edit/?oeis=73304)): Remaining days in non-leap year at end of n-th month.
+* [A073305](https://oeis.org/A073305) ([program](/edit/?oeis=73305)): Remaining days in leap year at end of n-th month.
 * [A073306](https://oeis.org/A073306) ([program](/edit/?oeis=73306)): a(n) = Product\_\{2i<n\} binomial(2\*n-2\*i-1, 2\*i).
+* [A073311](https://oeis.org/A073311) ([program](/edit/?oeis=73311)): Number of squarefree numbers in the reduced residue system of n.
 * [A073313](https://oeis.org/A073313) ([program](/edit/?oeis=73313)): Binomial transform of generalized Lucas numbers S(n) = S(n-1) + S(n-2) + S(n-3), S(0)=3, S(1)=1, S(2)=3.
 * [A073314](https://oeis.org/A073314) ([program](/edit/?oeis=73314)): Binomial transform, alternating in sign, of Lucas generalized numbers S(n): S(n) = S(n-1) + S(n-2) + S(n-3), S(0)=3, S(1)=1, S(2)=3.
 * [A073333](https://oeis.org/A073333) ([program](/edit/?oeis=73333)): Decimal expansion of 1/(e - 1) = Sum\_\{k >= 1\} exp(-k).
@@ -6707,6 +7036,7 @@ List of integer sequences with links to LODA programs.
 * [A073362](https://oeis.org/A073362) ([program](/edit/?oeis=73362)): Nested floor product of n and fractions (k+1)/k for all k>0 (mod 5), divided by 5.
 * [A073363](https://oeis.org/A073363) ([program](/edit/?oeis=73363)): Nested floor product of n and fractions (k+1)/k for all k>0 (mod 6), divided by 6.
 * [A073366](https://oeis.org/A073366) ([program](/edit/?oeis=73366)): Remainder when n-th prime is divided by number of composites not exceeding n.
+* [A073367](https://oeis.org/A073367) ([program](/edit/?oeis=73367)): Remainder when n-th composite is divided by number of composites not exceeding n.
 * [A073368](https://oeis.org/A073368) ([program](/edit/?oeis=73368)): Remainder when n is divided by number of composites not exceeding n.
 * [A073371](https://oeis.org/A073371) ([program](/edit/?oeis=73371)): Convolution of A001045(n+1) (generalized (1,2)-Fibonacci), n>=0 with itself.
 * [A073372](https://oeis.org/A073372) ([program](/edit/?oeis=73372)): Second convolution of A001045(n+1) (generalized (1,2)-Fibonacci), n>=0, with itself.
@@ -6724,6 +7054,7 @@ List of integer sequences with links to LODA programs.
 * [A073384](https://oeis.org/A073384) ([program](/edit/?oeis=73384)): Seventh convolution of A000129(n+1) (generalized (2,1)-Fibonacci, called Pell numbers), n>=0, with itself.
 * [A073385](https://oeis.org/A073385) ([program](/edit/?oeis=73385)): Eighth convolution of A000129(n+1) (generalized (2,1)-Fibonacci, called Pell numbers), n>=0, with itself.
 * [A073386](https://oeis.org/A073386) ([program](/edit/?oeis=73386)): Ninth convolution of A000129(n+1) (generalized (2,1)-Fibonacci, called Pell numbers), n>=0, with itself.
+* [A073387](https://oeis.org/A073387) ([program](/edit/?oeis=73387)): Convolution triangle of A002605(n) (generalized (2,2)-Fibonacci), n>=0.
 * [A073388](https://oeis.org/A073388) ([program](/edit/?oeis=73388)): Convolution of A002605(n) (generalized (2,2)-Fibonacci), n >= 0, with itself.
 * [A073389](https://oeis.org/A073389) ([program](/edit/?oeis=73389)): Second convolution of A002605(n) (generalized (2,2)-Fibonacci), n >= 0, with itself.
 * [A073390](https://oeis.org/A073390) ([program](/edit/?oeis=73390)): Third convolution of A002605(n) (generalized (2,2)-Fibonacci), n >= 0, with itself.
@@ -6745,9 +7076,13 @@ List of integer sequences with links to LODA programs.
 * [A073447](https://oeis.org/A073447) ([program](/edit/?oeis=73447)): Decimal expansion of csc(1).
 * [A073448](https://oeis.org/A073448) ([program](/edit/?oeis=73448)): Decimal expansion of sec(1).
 * [A073449](https://oeis.org/A073449) ([program](/edit/?oeis=73449)): Decimal expansion of cot(1).
+* [A073458](https://oeis.org/A073458) ([program](/edit/?oeis=73458)): a(n) = floor(prime(n)/composite(n)).
 * [A073464](https://oeis.org/A073464) ([program](/edit/?oeis=73464)): a(n) = phi(n) mod PrimePi(n).
+* [A073480](https://oeis.org/A073480) ([program](/edit/?oeis=73480)): Triangle T(n,k) read by rows, where e.g.f. for T(n,k) is exp(x\*y)\*log(1+x)/(1-x).
 * [A073481](https://oeis.org/A073481) ([program](/edit/?oeis=73481)): Least prime factor of the n-th squarefree number.
 * [A073482](https://oeis.org/A073482) ([program](/edit/?oeis=73482)): Largest prime factor of the n-th squarefree number.
+* [A073491](https://oeis.org/A073491) ([program](/edit/?oeis=73491)): Numbers having no prime gaps in their factorization.
+* [A073492](https://oeis.org/A073492) ([program](/edit/?oeis=73492)): Numbers having at least one prime gap in their factorization.
 * [A073496](https://oeis.org/A073496) ([program](/edit/?oeis=73496)): Expansion of (3 + 2\*x + 3\*x^2)/(1 + x + 3\*x^2 - x^3).
 * [A073497](https://oeis.org/A073497) ([program](/edit/?oeis=73497)): a(n) = n^2 - prime(n).
 * [A073498](https://oeis.org/A073498) ([program](/edit/?oeis=73498)): Binomial transform of A073145.
@@ -6759,6 +7094,7 @@ List of integer sequences with links to LODA programs.
 * [A073530](https://oeis.org/A073530) ([program](/edit/?oeis=73530)): a(0) = 1; for n>0 a(n)=sum(binomial(n,k)\*binomial(n+k,k+1)\*binomial(n+k,k),k=0..n)/n.
 * [A073531](https://oeis.org/A073531) ([program](/edit/?oeis=73531)): Number of n-digit positive integers with all digits distinct.
 * [A073533](https://oeis.org/A073533) ([program](/edit/?oeis=73533)): Let x(1)=1, x(n+1) = (4/3)\*x(n) - floor((4/3)\*x(n)); then a(n)=x(n)\*3^n.
+* [A073536](https://oeis.org/A073536) ([program](/edit/?oeis=73536)): Breaking indices for A058842 (i.e., n such that A058842(n) is not equal to 3\*A058842 (n-1) ).
 * [A073548](https://oeis.org/A073548) ([program](/edit/?oeis=73548)): Number of Fibonacci numbers F(k), k <= 10^n, which end in 2.
 * [A073549](https://oeis.org/A073549) ([program](/edit/?oeis=73549)): Number of Fibonacci numbers F(k), k <= 10^n, which end in 6.
 * [A073550](https://oeis.org/A073550) ([program](/edit/?oeis=73550)): Number of Fibonacci numbers F(k), k <= 10^n, which end in 1.
@@ -6827,6 +7163,7 @@ List of integer sequences with links to LODA programs.
 * [A073762](https://oeis.org/A073762) ([program](/edit/?oeis=73762)): a(n) = 24\*n - 12.
 * [A073763](https://oeis.org/A073763) ([program](/edit/?oeis=73763)): Least number of unrelated set belonging to these numbers is odd.
 * [A073765](https://oeis.org/A073765) ([program](/edit/?oeis=73765)): Special binomial coefficient: C(prime(n), composite(n)).
+* [A073766](https://oeis.org/A073766) ([program](/edit/?oeis=73766)): a(n) = binomial(composite(n+1), composite(n)) = binomial(A002808(n+1), A002808(n)).
 * [A073767](https://oeis.org/A073767) ([program](/edit/?oeis=73767)): Bateman polynomial values n!\*Z\_n(-1).
 * [A073773](https://oeis.org/A073773) ([program](/edit/?oeis=73773)): Number of plane binary trees of size n+2 and height n.
 * [A073775](https://oeis.org/A073775) ([program](/edit/?oeis=73775)): Polynomial (1/3)\*n^3 + (9/2)\*n^2 + (85/6)\*n - 2.
@@ -6852,6 +7189,7 @@ List of integer sequences with links to LODA programs.
 * [A073812](https://oeis.org/A073812) ([program](/edit/?oeis=73812)): Number of common divisors of sigma(n) and phi(n).
 * [A073813](https://oeis.org/A073813) ([program](/edit/?oeis=73813)): Difference between n and largest unrelated number belonging to n, when n runs over composite numbers. For primes and for 4, unrelated set is empty.
 * [A073817](https://oeis.org/A073817) ([program](/edit/?oeis=73817)): Tetranacci numbers with different initial conditions: a(n) = a(n-1) + a(n-2) + a(n-3) + a(n-4) starting with a(0)=4, a(1)=1, a(2)=3, a(3)=7.
+* [A073818](https://oeis.org/A073818) ([program](/edit/?oeis=73818)): a(n) = max(prime(i)\*(n+1-i) \| 1 <= i <= n).
 * [A073821](https://oeis.org/A073821) ([program](/edit/?oeis=73821)): Decimal expansion of number with continued fraction expansion 0, 2, 4, 6, ... (the even numbers).
 * [A073829](https://oeis.org/A073829) ([program](/edit/?oeis=73829)): 4\*((n-1)!+1)+n.
 * [A073832](https://oeis.org/A073832) ([program](/edit/?oeis=73832)): k between A001359(n) and A001359(n+1) such that A073830(k) is maximal.
@@ -6859,6 +7197,7 @@ List of integer sequences with links to LODA programs.
 * [A073834](https://oeis.org/A073834) ([program](/edit/?oeis=73834)): Denominators of b(n) where b(1) = 1, b(i) = b(i-1) + 1/b(i-1).
 * [A073835](https://oeis.org/A073835) ([program](/edit/?oeis=73835)): Replace 10^k with (-10)^k in decimal expansion of n.
 * [A073837](https://oeis.org/A073837) ([program](/edit/?oeis=73837)): Sum of primes p satisfying n <= p <= 2n.
+* [A073838](https://oeis.org/A073838) ([program](/edit/?oeis=73838)): Product of primes p satisfying n <= p <= 2n.
 * [A073845](https://oeis.org/A073845) ([program](/edit/?oeis=73845)): a(1)=a(2)=1, a(n+2)=a(n+1)+a(n)+(-2)^n.
 * [A073847](https://oeis.org/A073847) ([program](/edit/?oeis=73847)): a(0) = 1, c(0) = 1, a(n) for n > 0 is the smallest prime a(n-1) + c(n), where c(n) is composite and larger than c(n-1).
 * [A073849](https://oeis.org/A073849) ([program](/edit/?oeis=73849)): Cumulative sum of initial digits of (n base 3).
@@ -6869,6 +7208,9 @@ List of integer sequences with links to LODA programs.
 * [A073881](https://oeis.org/A073881) ([program](/edit/?oeis=73881)): a(n) = smallest number m (obviously prime) such that pi(m) = 2\*pi(n).
 * [A073882](https://oeis.org/A073882) ([program](/edit/?oeis=73882)): Number of primes between n and n^2.
 * [A073890](https://oeis.org/A073890) ([program](/edit/?oeis=73890)): Numerator of n/floor(sqrt(n)).
+* [A073897](https://oeis.org/A073897) ([program](/edit/?oeis=73897)): a(1) = 1, a(n) = smallest odd or even number not occurring earlier according as n is prime or composite.
+* [A073898](https://oeis.org/A073898) ([program](/edit/?oeis=73898)): a(1) = 1; for n>1, a(n) = smallest even or odd number not occurring earlier accordingly as n is prime or composite.
+* [A073929](https://oeis.org/A073929) ([program](/edit/?oeis=73929)): a(1) = 1, a(n) = smallest number not included earlier such that the n-th partial sum (n>1) is divisible by n+1.
 * [A073933](https://oeis.org/A073933) ([program](/edit/?oeis=73933)): Number of terms in n-th row of triangle in A073932.
 * [A073934](https://oeis.org/A073934) ([program](/edit/?oeis=73934)): Sum of terms in n-th row of triangle in A073932.
 * [A073937](https://oeis.org/A073937) ([program](/edit/?oeis=73937)): a(n) = a(n-1)-a(n-2)+a(n-3)+a(n-4), a(0)=4, a(1)=1, a(2)=-1, a(3)=1.
@@ -6906,6 +7248,7 @@ List of integer sequences with links to LODA programs.
 * [A074116](https://oeis.org/A074116) ([program](/edit/?oeis=74116)): Largest n-digit power of 2.
 * [A074117](https://oeis.org/A074117) ([program](/edit/?oeis=74117)): Smallest n-digit power of 3.
 * [A074118](https://oeis.org/A074118) ([program](/edit/?oeis=74118)): Largest power of 3 <= 10^n.
+* [A074134](https://oeis.org/A074134) ([program](/edit/?oeis=74134)): First column of triangle A074135.
 * [A074136](https://oeis.org/A074136) ([program](/edit/?oeis=74136)): Main diagonal of triangle A074135.
 * [A074143](https://oeis.org/A074143) ([program](/edit/?oeis=74143)): a(1) = 1; a(n) = n \* Sum\_\{k=1..n-1\} a(k).
 * [A074147](https://oeis.org/A074147) ([program](/edit/?oeis=74147)): (2n-1) odd numbers followed by 2n even numbers.
@@ -6925,12 +7268,15 @@ List of integer sequences with links to LODA programs.
 * [A074201](https://oeis.org/A074201) ([program](/edit/?oeis=74201)): Let b(1) = 1, b(2) = 2, b(n+2) = (b(n+1)+1)/(b(n)+1); then a(n) = 1 if b(n) >= 1 and a(n) = 0 otherwise (also a(n) = floor(b(n)) for n > 2).
 * [A074209](https://oeis.org/A074209) ([program](/edit/?oeis=74209)): a(n) = Sum\_\{i=n+1..2n\} i^n.
 * [A074215](https://oeis.org/A074215) ([program](/edit/?oeis=74215)): Numbers m such that m and F(m) are relatively prime, where F(m) denotes the m-th Fibonacci number.
+* [A074216](https://oeis.org/A074216) ([program](/edit/?oeis=74216)): Squares satisfying sigma(n)==0 (mod 3).
 * [A074225](https://oeis.org/A074225) ([program](/edit/?oeis=74225)): a(n) = n \* Sum\_\{d\|n\} d\*2^(d-1).
 * [A074226](https://oeis.org/A074226) ([program](/edit/?oeis=74226)): Numbers n such that Kronecker(3,n) = 1.
 * [A074229](https://oeis.org/A074229) ([program](/edit/?oeis=74229)): Numbers n such that Kronecker(6,n)==mu(gcd(6,n)).
 * [A074231](https://oeis.org/A074231) ([program](/edit/?oeis=74231)): Numbers n such that Kronecker(8,n) = mu(gcd(8,n)).
 * [A074232](https://oeis.org/A074232) ([program](/edit/?oeis=74232)): Positive numbers that are not 3 or 6 (mod 9).
 * [A074239](https://oeis.org/A074239) ([program](/edit/?oeis=74239)): Related to cumulative number of non-twin primes.
+* [A074259](https://oeis.org/A074259) ([program](/edit/?oeis=74259)): Gaps between primes p such that 2p+1 is also prime, i.e., Sophie-Germain primes A005384.
+* [A074261](https://oeis.org/A074261) ([program](/edit/?oeis=74261)): Positions in the Kolakoski sequence (A000002) when the number of 2's is greater than the number of 1's.
 * [A074262](https://oeis.org/A074262) ([program](/edit/?oeis=74262)): Positions of '11' in Kolakoski sequence A000002.
 * [A074263](https://oeis.org/A074263) ([program](/edit/?oeis=74263)): Positions of '22' in Kolakoski sequence A000002.
 * [A074264](https://oeis.org/A074264) ([program](/edit/?oeis=74264)): Values of Kolakoski sequence A000002 at positions n = 0 mod 3.
@@ -6943,11 +7289,13 @@ List of integer sequences with links to LODA programs.
 * [A074284](https://oeis.org/A074284) ([program](/edit/?oeis=74284)): Sum of the aliquot divisors of n-th triangular number.
 * [A074285](https://oeis.org/A074285) ([program](/edit/?oeis=74285)): Sum of the divisors of n-th triangular number.
 * [A074286](https://oeis.org/A074286) ([program](/edit/?oeis=74286)): Partial sum of the Kolakoski sequence (A000002) minus n.
+* [A074287](https://oeis.org/A074287) ([program](/edit/?oeis=74287)): Even numbers n such that the partial sum of the Kolakoski sequence (A000002) at n is less than 3n/2.
 * [A074288](https://oeis.org/A074288) ([program](/edit/?oeis=74288)): n-th term of the Kolakoski sequence (A000002) multiplied by the n-th partial sum.
 * [A074290](https://oeis.org/A074290) ([program](/edit/?oeis=74290)): Difference between Kolakoski(n)=A000002(n) and 1 (n odd) or 2 (n even).
 * [A074291](https://oeis.org/A074291) ([program](/edit/?oeis=74291)): Positions in the Kolakoski sequence where A000002(n) is 1 if n is odd, or 2 if n is even.
 * [A074292](https://oeis.org/A074292) ([program](/edit/?oeis=74292)): Dominant digit in successive groups of 3 from the Kolakoski sequence (A000002).
 * [A074294](https://oeis.org/A074294) ([program](/edit/?oeis=74294)): Integers 1 to 2\*k followed by integers 1 to 2\*k + 2 and so on.
+* [A074299](https://oeis.org/A074299) ([program](/edit/?oeis=74299)): Lengths of subsequences such that the first 'average' value (a[n]\*1.5) is not achieved from the starting position in the Kolakoski sequence (A000002).
 * [A074305](https://oeis.org/A074305) ([program](/edit/?oeis=74305)): a(3m) = 2m, a(3m+1) = 4m+3, a(3m+2) = 4m+1.
 * [A074306](https://oeis.org/A074306) ([program](/edit/?oeis=74306)): Inverse of permutation in A074305.
 * [A074307](https://oeis.org/A074307) ([program](/edit/?oeis=74307)): Square of permutation in A074305.
@@ -6965,6 +7313,7 @@ List of integer sequences with links to LODA programs.
 * [A074335](https://oeis.org/A074335) ([program](/edit/?oeis=74335)): In music, with 0 = C natural, 1 = C#, etc.: The unfolding of a semitonal interval cycle, alternating the ascending and descending aspects of the cycle from a common point or axis of symmetry. Any regularly occurring alignment may be used, with predictable even or odd results.
 * [A074337](https://oeis.org/A074337) ([program](/edit/?oeis=74337)): 18 primes in arithmetic progression.
 * [A074352](https://oeis.org/A074352) ([program](/edit/?oeis=74352)): Coefficient of q^1 in nu(n), where nu(0)=1, nu(1)=b and, for n>=2, nu(n)=b\*nu(n-1)+lambda\*(1+q+q^2+...+q^(n-2))\*nu(n-2) with (b,lambda)=(1,2).
+* [A074353](https://oeis.org/A074353) ([program](/edit/?oeis=74353)): Coefficient of q^2 in nu(n), where nu(0)=1, nu(1)=b and, for n>=2, nu(n)=b\*nu(n-1)+lambda\*(1+q+q^2+...+q^(n-2))\*nu(n-2) with (b,lambda)=(1,2).
 * [A074355](https://oeis.org/A074355) ([program](/edit/?oeis=74355)): Coefficient of q^1 in nu(n), where nu(0)=1, nu(1)=b and, for n>=2, nu(n)=b\*nu(n-1)+lambda\*(1+q+q^2+...+q^(n-2))\*nu(n-2) with (b,lambda)=(1,3).
 * [A074358](https://oeis.org/A074358) ([program](/edit/?oeis=74358)): Coefficient of q^1 in nu(n), where nu(0)=1, nu(1)=b and, for n >= 2, nu(n) = b\*nu(n-1) + lambda\*(1 + q + q^2 + ... + q^(n-2))\*nu(n-2) with (b,lambda)=(2,2).
 * [A074359](https://oeis.org/A074359) ([program](/edit/?oeis=74359)): Coefficient of q^2 in nu(n), where nu(0)=1, nu(1)=b and, for n>=2, nu(n)=b\*nu(n-1)+lambda\*(1+q+q^2+...+q^(n-2))\*nu(n-2) with (b,lambda)=(2,2).
@@ -7109,11 +7458,11 @@ List of integer sequences with links to LODA programs.
 * [A074623](https://oeis.org/A074623) ([program](/edit/?oeis=74623)): a(n) = 7^n + 9^n.
 * [A074624](https://oeis.org/A074624) ([program](/edit/?oeis=74624)): a(n) = 8^n + 9^n.
 * [A074627](https://oeis.org/A074627) ([program](/edit/?oeis=74627)): Numbers n such that sigma(n) is divisible by 6.
-* [A074628](https://oeis.org/A074628) ([program](/edit/?oeis=74628)): Numbers k such that sigma(k) == 2 mod 6.
 * [A074630](https://oeis.org/A074630) ([program](/edit/?oeis=74630)): Numbers k such that sigma(k) == 4 mod 6.
 * [A074635](https://oeis.org/A074635) ([program](/edit/?oeis=74635)): a(0)=1, a(n) = Sum\_\{k=0..n\} (binomial(n,k)^2 \* binomial(n+k,k+1)^2)/n^2.
 * [A074637](https://oeis.org/A074637) ([program](/edit/?oeis=74637)): Numerator of 4 \* H(n,4,3), a generalized harmonic number.
 * [A074638](https://oeis.org/A074638) ([program](/edit/?oeis=74638)): Denominator of 1/3 + 1/7 + 1/11 + ... + 1/(4n-1).
+* [A074649](https://oeis.org/A074649) ([program](/edit/?oeis=74649)): a(0) = 1; for n >= 1, a(n) = sum(binomial(n,k)^3\*binomial(n+k,k+1)^2,k = 0..n)/n^2.
 * [A074662](https://oeis.org/A074662) ([program](/edit/?oeis=74662)): a(n) = F(n+1)+cos(n\*Pi/2).
 * [A074677](https://oeis.org/A074677) ([program](/edit/?oeis=74677)): a(n) = Sum\_\{i = 0..floor(n/2)\} (-1)^(i + floor(n/2)) F(2\*i + e), where F = A000045 (Fibonacci numbers) and e = (1-(-1)^n)/2.
 * [A074678](https://oeis.org/A074678) ([program](/edit/?oeis=74678)): a(n) = Sum\_\{j=0..floor(n/2)\} (-1)^(j+floor(n/2))\*S(2j+q), where S(n) are generalized tribonacci numbers (A001644) and q = (1-(-1)^n)/2.
@@ -7131,10 +7480,12 @@ List of integer sequences with links to LODA programs.
 * [A074724](https://oeis.org/A074724) ([program](/edit/?oeis=74724)): Highest power of 3 dividing F(4n) where F(k) is the k-th Fibonacci number.
 * [A074728](https://oeis.org/A074728) ([program](/edit/?oeis=74728)): a(n) = Sum\_\{k=1..n\} k^(n-k)\*binomial(n,k-1).
 * [A074732](https://oeis.org/A074732) ([program](/edit/?oeis=74732)): a(n+3) = floor( ( a(n) + 2\*a(n+1) + 3\*a(n+2) )/4 ), with a(0), a(1), a(2) equal to 0, 1, 2.
+* [A074740](https://oeis.org/A074740) ([program](/edit/?oeis=74740)): a(n) = n!\*2^(n-1)/Product\_\{k=1..n\} tau(k) where tau = A000005.
 * [A074741](https://oeis.org/A074741) ([program](/edit/?oeis=74741)): Sum of squares of gaps between consecutive primes.
 * [A074742](https://oeis.org/A074742) ([program](/edit/?oeis=74742)): a(n) = (n^3 + 6n^2 - n + 12)/6.
 * [A074745](https://oeis.org/A074745) ([program](/edit/?oeis=74745)): a(n) = sum\_\{k=1..n\} prime(k)\*prime(k+1).
 * [A074753](https://oeis.org/A074753) ([program](/edit/?oeis=74753)): Number of integers k such that sigma(k) < n.
+* [A074763](https://oeis.org/A074763) ([program](/edit/?oeis=74763)): a(n) = (1/n) \* Sum\_\{d divides n\} (-1)^(n+d)\*phi(n/d)\*2^d.
 * [A074764](https://oeis.org/A074764) ([program](/edit/?oeis=74764)): Numbers of smaller squares into which a square may be dissected.
 * [A074766](https://oeis.org/A074766) ([program](/edit/?oeis=74766)): a(n) = prime(2n) - 2\*prime(n) - n.
 * [A074784](https://oeis.org/A074784) ([program](/edit/?oeis=74784)): a(n) = a(n-1) + square of the sum of digits of n.
@@ -7148,12 +7499,14 @@ List of integer sequences with links to LODA programs.
 * [A074796](https://oeis.org/A074796) ([program](/edit/?oeis=74796)): Number of numbers k <= n such that tau(k) == 2 (mod 3) where tau(k) = A000005(k) is the number of divisors of k.
 * [A074798](https://oeis.org/A074798) ([program](/edit/?oeis=74798)): Floor of S\*n^2, where S equals sum of reciprocal terms of this same sequence.
 * [A074800](https://oeis.org/A074800) ([program](/edit/?oeis=74800)): a(n) = denominator( (4\*n+1)\*(Product\_\{i=1..n\} (2\*i-1)/Product\_\{i=1..n\} (2\*i))^5 ).
-* [A074802](https://oeis.org/A074802) ([program](/edit/?oeis=74802)): Number of numbers k <= n such that tau(k)=tau(k+1) where tau(x)=A000005(x) is the number of divisors of x.
+* [A074801](https://oeis.org/A074801) ([program](/edit/?oeis=74801)): a(n) is the sum of the n-th row of the triangle formed by replacing each m in Pascal's triangle with sigma(m).
+* [A074802](https://oeis.org/A074802) ([program](/edit/?oeis=74802)): Number of numbers k <= n such that tau(k) = tau(k+1) where tau(x) = A000005(x) is the number of divisors of x.
 * [A074803](https://oeis.org/A074803) ([program](/edit/?oeis=74803)): Kolakoski-(4,2) sequence: a(n) is length of n-th run.
 * [A074804](https://oeis.org/A074804) ([program](/edit/?oeis=74804)): Kolakoski-(3,2) sequence: a(n) is length of n-th run.
 * [A074805](https://oeis.org/A074805) ([program](/edit/?oeis=74805)): n mod 19 + 1 ("Golden Number").
 * [A074816](https://oeis.org/A074816) ([program](/edit/?oeis=74816)): a(n) = 3^A001221(n) = 3^omega(n).
 * [A074819](https://oeis.org/A074819) ([program](/edit/?oeis=74819)): Numbers n such that mu(n)+mu(n+1) = 0.
+* [A074822](https://oeis.org/A074822) ([program](/edit/?oeis=74822)): Primes p such that p + 4 is prime and p == 9 (mod 10).
 * [A074823](https://oeis.org/A074823) ([program](/edit/?oeis=74823)): a(n) = 2^omega(n)\*mu(n)^2.
 * [A074828](https://oeis.org/A074828) ([program](/edit/?oeis=74828)): a(1) = 1; for n>1, a(n) = smallest composite multiple of n if n is a prime else the smallest prime divisor of n if n is composite.
 * [A074837](https://oeis.org/A074837) ([program](/edit/?oeis=74837)): Numbers k such that the penultimate 3 divisors of k sum to k.
@@ -7187,13 +7540,24 @@ List of integer sequences with links to LODA programs.
 * [A074953](https://oeis.org/A074953) ([program](/edit/?oeis=74953)): Numbers equidistant from consecutive twin prime pairs.
 * [A074964](https://oeis.org/A074964) ([program](/edit/?oeis=74964)): Numbers k such that Max ( sigma(x\*y) : 1 <= x <= k, 1 <= y <= k ) = sigma(k^2).
 * [A074972](https://oeis.org/A074972) ([program](/edit/?oeis=74972)): a(n) == - prime(n) (modulo 20).
+* [A074984](https://oeis.org/A074984) ([program](/edit/?oeis=74984)): m^p-n, for smallest m^p>=n.
 * [A074985](https://oeis.org/A074985) ([program](/edit/?oeis=74985)): Squares of semiprimes (A001358).
 * [A074988](https://oeis.org/A074988) ([program](/edit/?oeis=74988)): Numbers n such that the k-th binary digit of n equals mu(k)^2 for k=1 up to A029837(n+1).
 * [A074989](https://oeis.org/A074989) ([program](/edit/?oeis=74989)): Distance from n to nearest cube.
 * [A074990](https://oeis.org/A074990) ([program](/edit/?oeis=74990)): Number of primes in the interval (n,3n].
+* [A074991](https://oeis.org/A074991) ([program](/edit/?oeis=74991)): Concatenation of n, n+1, n+2 divided by 3.
 * [A074992](https://oeis.org/A074992) ([program](/edit/?oeis=74992)): a(n) = (10^(2\*n)+10^n+1)/3.
 * [A074993](https://oeis.org/A074993) ([program](/edit/?oeis=74993)): a(n) = floor((concatenation of n, n+1)/2).
+* [A074994](https://oeis.org/A074994) ([program](/edit/?oeis=74994)): Floor of concatenation of n, n+1, n+2, n+3 divided by 4.
+* [A074995](https://oeis.org/A074995) ([program](/edit/?oeis=74995)): Floor of concatenation of n, n+1, n+2, n+3, n+4 divided by 5.
+* [A074996](https://oeis.org/A074996) ([program](/edit/?oeis=74996)): Floor of concatenation of n, n+1, n+2, n+3, n+4, n+5 divided by 6.
+* [A074999](https://oeis.org/A074999) ([program](/edit/?oeis=74999)): Floor[concatenation of nine consecutive numbers from n to n+8 divided by 9].
 * [A075003](https://oeis.org/A075003) ([program](/edit/?oeis=75003)): Floor[ concatenation of n+1 and n divided by 2 ].
+* [A075004](https://oeis.org/A075004) ([program](/edit/?oeis=75004)): Floor[ concatenation of n+2, n+1 and n divided by 3 ].
+* [A075005](https://oeis.org/A075005) ([program](/edit/?oeis=75005)): Floor[ concatenation of n+3, n+2, n+1 and n divided by 4 ].
+* [A075008](https://oeis.org/A075008) ([program](/edit/?oeis=75008)): Floor[ concatenation of 7 numbers from n+6 to n in that order divided by 7].
+* [A075010](https://oeis.org/A075010) ([program](/edit/?oeis=75010)): a(n) = floor( concatenation of 9 numbers from n+8 to n in that order divided by 9 ).
+* [A075011](https://oeis.org/A075011) ([program](/edit/?oeis=75011)): Floor[ concatenation of numbers from n to 1 divided by concatenation of numbers from 1 to n].
 * [A075020](https://oeis.org/A075020) ([program](/edit/?oeis=75020)): a(1) = 1; for n>1, a(n) = the smallest prime divisor of the number C(n) formed from the reverse concatenation of 1,2,3,... up to n.
 * [A075045](https://oeis.org/A075045) ([program](/edit/?oeis=75045)): Coefficients A\_n for the s=3 tennis ball problem.
 * [A075055](https://oeis.org/A075055) ([program](/edit/?oeis=75055)): Smallest integer of the form product (n+1)(n+2)...(n+k)/n!.
@@ -7233,6 +7597,9 @@ List of integer sequences with links to LODA programs.
 * [A075150](https://oeis.org/A075150) ([program](/edit/?oeis=75150)): a(n)=L(n)\*C(n), L(n)=Lucas numbers (A000032), C(n)=reflected Lucas numbers (see comment to A061084).
 * [A075151](https://oeis.org/A075151) ([program](/edit/?oeis=75151)): a(n)=L(n)^2\*C(n), L(n)=Lucas numbers (A000032), C(n)=reflected Lucas numbers (comment to A061084).
 * [A075155](https://oeis.org/A075155) ([program](/edit/?oeis=75155)): Cubes of Lucas numbers.
+* [A075157](https://oeis.org/A075157) ([program](/edit/?oeis=75157)): Run lengths in the binary expansion of n gives the vector of exponents in prime factorization of a(n)+1, with the least significant run corresponding to the exponent of the least prime, 2; with one subtracted from each run length, except for the most significant run of 1's.
+* [A075159](https://oeis.org/A075159) ([program](/edit/?oeis=75159)): Run lengths in the binary expansion of n-1 gives the vector of exponents in prime factorization of a(n), with the least significant run corresponding to the exponent of the least prime, 2.
+* [A075180](https://oeis.org/A075180) ([program](/edit/?oeis=75180)): Denominators from e.g.f. 1/(1-exp(-x)) - 1/x.
 * [A075183](https://oeis.org/A075183) ([program](/edit/?oeis=75183)): One half of third column of triangle A075181.
 * [A075184](https://oeis.org/A075184) ([program](/edit/?oeis=75184)): One half of fourth column of triangle A075181.
 * [A075185](https://oeis.org/A075185) ([program](/edit/?oeis=75185)): One-fourth of fifth column of triangle A075181.
@@ -7266,6 +7633,7 @@ List of integer sequences with links to LODA programs.
 * [A075353](https://oeis.org/A075353) ([program](/edit/?oeis=75353)): Initial term of n-th group in A075352.
 * [A075354](https://oeis.org/A075354) ([program](/edit/?oeis=75354)): Final term of n-th group in A075352.
 * [A075357](https://oeis.org/A075357) ([program](/edit/?oeis=75357)): a(n) = smallest k such that (n+1)(n+2)...(n+k) >= n!.
+* [A075359](https://oeis.org/A075359) ([program](/edit/?oeis=75359)): Sum of the digits of the next n numbers.
 * [A075362](https://oeis.org/A075362) ([program](/edit/?oeis=75362)): Triangle read by rows with the n-th row containing the first n multiples of n.
 * [A075363](https://oeis.org/A075363) ([program](/edit/?oeis=75363)): Triangle read by rows, in which n-th row gives n smallest powers of n.
 * [A075364](https://oeis.org/A075364) ([program](/edit/?oeis=75364)): a(n) = floor( geometric mean of n-th row of A075363).
@@ -7290,11 +7658,15 @@ List of integer sequences with links to LODA programs.
 * [A075438](https://oeis.org/A075438) ([program](/edit/?oeis=75438)): Triangle read by rows giving successive iterations of the Rule 60 elementary cellular automaton starting with a single ON cell where row n is of length 2n+1.
 * [A075439](https://oeis.org/A075439) ([program](/edit/?oeis=75439)): Triangle read by rows giving successive iterations of the Rule 102 elementary cellular automaton starting with a single ON cell where row n is of length 2n+1.
 * [A075465](https://oeis.org/A075465) ([program](/edit/?oeis=75465)): Rounded average of first n primes.
+* [A075490](https://oeis.org/A075490) ([program](/edit/?oeis=75490)): Sum[phi[n]^j,j = 1..n].
 * [A075491](https://oeis.org/A075491) ([program](/edit/?oeis=75491)): Sum of digits of n minus number of divisors of n.
+* [A075492](https://oeis.org/A075492) ([program](/edit/?oeis=75492)): Sum of digits of n < number of divisors of n.
+* [A075493](https://oeis.org/A075493) ([program](/edit/?oeis=75493)): Numbers k such that (sum of digits of k) > (number of divisors of k).
 * [A075495](https://oeis.org/A075495) ([program](/edit/?oeis=75495)): a(n) = Sum\_\{i=0..floor(n/2)\} (-1)^(i+floor(n/2))\*S(2i+e), where S(n) are inverted tribonacci numbers (A075298).
 * [A075510](https://oeis.org/A075510) ([program](/edit/?oeis=75510)): Fifth column of triangle A075497.
 * [A075511](https://oeis.org/A075511) ([program](/edit/?oeis=75511)): Sixth column of triangle A075497.
 * [A075512](https://oeis.org/A075512) ([program](/edit/?oeis=75512)): Seventh column of triangle A075497.
+* [A075513](https://oeis.org/A075513) ([program](/edit/?oeis=75513)): Coefficients of Sidi polynomials.
 * [A075515](https://oeis.org/A075515) ([program](/edit/?oeis=75515)): Fifth column of triangle A075498.
 * [A075516](https://oeis.org/A075516) ([program](/edit/?oeis=75516)): Sixth column of triangle A075498.
 * [A075518](https://oeis.org/A075518) ([program](/edit/?oeis=75518)): a(n) = floor(prime(n)/4).
@@ -7302,6 +7674,7 @@ List of integer sequences with links to LODA programs.
 * [A075526](https://oeis.org/A075526) ([program](/edit/?oeis=75526)): a(n) = A008578(n+2) - A008578(n+1).
 * [A075527](https://oeis.org/A075527) ([program](/edit/?oeis=75527)): a(n) = A008578(n+3) - A008578(n+1).
 * [A075528](https://oeis.org/A075528) ([program](/edit/?oeis=75528)): Triangular numbers that are half other triangular numbers.
+* [A075537](https://oeis.org/A075537) ([program](/edit/?oeis=75537)): a(1)=1, a(2)=2, then use "merge and minus": a(n)=merge(a(n-2),a(n-1))-a(n-2)-a(n-1)).
 * [A075543](https://oeis.org/A075543) ([program](/edit/?oeis=75543)): a[n] = a[n-1] + digit sum(n) - 1.
 * [A075549](https://oeis.org/A075549) ([program](/edit/?oeis=75549)): Decimal expansion of 9 - 12\*log(2).
 * [A075553](https://oeis.org/A075553) ([program](/edit/?oeis=75553)): Numerators in the Maclaurin series for arctan(1+x).
@@ -7316,6 +7689,7 @@ List of integer sequences with links to LODA programs.
 * [A075643](https://oeis.org/A075643) ([program](/edit/?oeis=75643)): Group the natural numbers so that the n-th group contains n numbers one each of a multiple of numbers from 1 to n so that the group sum is a multiple of (n+1): (2), (1, 8), (3, 4, 9), (5, 6, 12, 32), (7, 10, 15, 16, 30), (11, 14, 18, 20, 25, 24), ... Sequence gives initial terms of groups.
 * [A075653](https://oeis.org/A075653) ([program](/edit/?oeis=75653)): a(n) = n + sopf(n), where sopf is the sum of the distinct prime factors of n (A008472).
 * [A075656](https://oeis.org/A075656) ([program](/edit/?oeis=75656)): n + product of prime factors of n.
+* [A075658](https://oeis.org/A075658) ([program](/edit/?oeis=75658)): Numbers k such that the sum of prime divisors of k (A008472) is composite.
 * [A075664](https://oeis.org/A075664) ([program](/edit/?oeis=75664)): Sum of next n cubes.
 * [A075665](https://oeis.org/A075665) ([program](/edit/?oeis=75665)): Sum of next n 4th powers. i^s, s = 4.
 * [A075666](https://oeis.org/A075666) ([program](/edit/?oeis=75666)): Sum of next n 5th powers.
@@ -7342,6 +7716,7 @@ List of integer sequences with links to LODA programs.
 * [A075732](https://oeis.org/A075732) ([program](/edit/?oeis=75732)): Fibonacci numbers F(k) for k not squarefree (A013929).
 * [A075734](https://oeis.org/A075734) ([program](/edit/?oeis=75734)): Fibonacci numbers F(k) when k is a product of an even number of distinct primes A030229 (mu(k)=1).
 * [A075736](https://oeis.org/A075736) ([program](/edit/?oeis=75736)): Fibonacci numbers F(k) as k runs through the products of an odd number of distinct primes A030059 (mu(k)=-1).
+* [A075738](https://oeis.org/A075738) ([program](/edit/?oeis=75738)): Squarefree Fibonacci numbers whose indices are also squarefree.
 * [A075743](https://oeis.org/A075743) ([program](/edit/?oeis=75743)): For all numbers of the form 6 +- 1 starting with 5,7,11,13,..., '1' indicates prime and '0' indicates composite.
 * [A075745](https://oeis.org/A075745) ([program](/edit/?oeis=75745)): Numbers n such that 210\*n + 13 is prime.
 * [A075746](https://oeis.org/A075746) ([program](/edit/?oeis=75746)): Numbers n such that 210\*n-13 is prime.
@@ -7355,7 +7730,6 @@ List of integer sequences with links to LODA programs.
 * [A075794](https://oeis.org/A075794) ([program](/edit/?oeis=75794)): a(n) = the least positive integer k such that phi(k) > phi(1) + ... + phi(n).
 * [A075795](https://oeis.org/A075795) ([program](/edit/?oeis=75795)): Number of k, 0<k<=n, such that the resultant of the k-th cyclotomic polynomial and the n-th cyclotomic polynomial is equal to 1.
 * [A075796](https://oeis.org/A075796) ([program](/edit/?oeis=75796)): Numbers k such that 5\*k^2 + 5 is a square.
-* [A075802](https://oeis.org/A075802) ([program](/edit/?oeis=75802)): Characteristic function of perfect powers, A001597.
 * [A075818](https://oeis.org/A075818) ([program](/edit/?oeis=75818)): Even numbers with exactly 3 prime factors (counted with multiplicity).
 * [A075819](https://oeis.org/A075819) ([program](/edit/?oeis=75819)): Even squarefree numbers with exactly 3 prime factors.
 * [A075827](https://oeis.org/A075827) ([program](/edit/?oeis=75827)): Let u(1) = x and  u(n+1) = (n^2/u(n)) + 1 for n >= 1; then a(n) is such that u(n) =(a(n)\*x + b(n))/(c(n)\*x + d(n)) (in lowest terms) and a(n), b(n), c(n), d(n) are positive integers.
@@ -7453,10 +7827,10 @@ List of integer sequences with links to LODA programs.
 * [A076051](https://oeis.org/A076051) ([program](/edit/?oeis=76051)): Sum of product of odd numbers <= n and the product of even numbers <= n.
 * [A076052](https://oeis.org/A076052) ([program](/edit/?oeis=76052)): Sum(k=1, n, A006460(k)).
 * [A076054](https://oeis.org/A076054) ([program](/edit/?oeis=76054)): a(n) = Sum\_\{k=1..n\} A006513(k).
+* [A076068](https://oeis.org/A076068) ([program](/edit/?oeis=76068)): Smallest number that can be formed by using the nonzero digits of the numbers 1+n(n-1)/2 through n(n+1)/2.
 * [A076074](https://oeis.org/A076074) ([program](/edit/?oeis=76074)): Initial members of groups in A076077.
 * [A076079](https://oeis.org/A076079) ([program](/edit/?oeis=76079)): Largest multiple of n < the n-th prime.
 * [A076080](https://oeis.org/A076080) ([program](/edit/?oeis=76080)): a(n) = A076079(n)/n.
-* [A076092](https://oeis.org/A076092) ([program](/edit/?oeis=76092)): a(n) = n - 2\*Sum\_\{i=1..n\} b(i) (see comment for definition of b(i)).
 * [A076095](https://oeis.org/A076095) ([program](/edit/?oeis=76095)): Initial terms of rows in A076099.
 * [A076100](https://oeis.org/A076100) ([program](/edit/?oeis=76100)): Least common multiple of n numbers starting with n.
 * [A076108](https://oeis.org/A076108) ([program](/edit/?oeis=76108)): Least positive n-th power that is the sum of n consecutive integers, or 0 if no such n-th power exists.
@@ -7516,6 +7890,8 @@ List of integer sequences with links to LODA programs.
 * [A076354](https://oeis.org/A076354) ([program](/edit/?oeis=76354)): Numbers n such that 210\*n-1 is prime.
 * [A076355](https://oeis.org/A076355) ([program](/edit/?oeis=76355)): Numbers n such that 210\*n + 11 is prime.
 * [A076358](https://oeis.org/A076358) ([program](/edit/?oeis=76358)): a(n) = numerator(n!/phi(n!)).
+* [A076359](https://oeis.org/A076359) ([program](/edit/?oeis=76359)): a(n) = denominator(n!/phi(n!)).
+* [A076360](https://oeis.org/A076360) ([program](/edit/?oeis=76360)): a(n) = commutator[sigma,tau](n) = d0(d1(w)) - d1(d0(w)), where d0()=number of, d1()=sum of divisors of n.
 * [A076364](https://oeis.org/A076364) ([program](/edit/?oeis=76364)): Number of distinct terms in dRRS equals 2: A061498(x)=2.
 * [A076367](https://oeis.org/A076367) ([program](/edit/?oeis=76367)): Primes with subscripts from the Bonse sequence.
 * [A076368](https://oeis.org/A076368) ([program](/edit/?oeis=76368)): a(1) = 1; for n > 1, a(n) = prime(n) - prime(n-1) + 1.
@@ -7524,6 +7900,7 @@ List of integer sequences with links to LODA programs.
 * [A076390](https://oeis.org/A076390) ([program](/edit/?oeis=76390)): Decimal expansion of lemniscate constant B.
 * [A076407](https://oeis.org/A076407) ([program](/edit/?oeis=76407)): Sum of perfect powers <= n.
 * [A076409](https://oeis.org/A076409) ([program](/edit/?oeis=76409)): Sum of the quadratic residues of prime(n).
+* [A076410](https://oeis.org/A076410) ([program](/edit/?oeis=76410)): (Sum of the quadratic residues of prime(n)) / prime(n).
 * [A076411](https://oeis.org/A076411) ([program](/edit/?oeis=76411)): Number of perfect powers < n.
 * [A076441](https://oeis.org/A076441) ([program](/edit/?oeis=76441)): Let u(1) = u(2) = u(3) = 1; u(n) = sign(u(n-1)-u(n-2))\*u(n-3), then a(n) = 1+u(n).
 * [A076452](https://oeis.org/A076452) ([program](/edit/?oeis=76452)): a(n+2) = abs(a(n+1)) - a(n), a(0)=0, a(1)=1.
@@ -7548,6 +7925,7 @@ List of integer sequences with links to LODA programs.
 * [A076512](https://oeis.org/A076512) ([program](/edit/?oeis=76512)): Denominator of cototient(n)/totient(n).
 * [A076520](https://oeis.org/A076520) ([program](/edit/?oeis=76520)): n appears once if n is the sum of 2 nonzero squares in 1 way, twice if n is the sum of 2 squares in 2 ways, 3 times if n is the sum of 2 squares 3 ways etc.
 * [A076523](https://oeis.org/A076523) ([program](/edit/?oeis=76523)): Maximal number of halving lines for 2n points in plane.
+* [A076526](https://oeis.org/A076526) ([program](/edit/?oeis=76526)): a(n) = r \* max(e\_1, ..., e\_r), where n = p\_1^e\_1 . .... p\_r^e\_r is the canonical prime factorization of n, a(1) = 0.
 * [A076535](https://oeis.org/A076535) ([program](/edit/?oeis=76535)): a(n) = A064405 (2^m+n) - 2^m (for m large enough this difference appears to be constant).
 * [A076536](https://oeis.org/A076536) ([program](/edit/?oeis=76536)): Image of n at the third step in the 3x+1 Problem: syr(3,n).
 * [A076537](https://oeis.org/A076537) ([program](/edit/?oeis=76537)): Map positive rational numbers to positive integers by diagonal method using c(p,q) = (p + q - 2) \* (p + q - 1) / 2 + p where p and q are positive integers. a(n) is an increasing sequence including all c(p,q) where gcd(p,q) > 1.
@@ -7558,6 +7936,7 @@ List of integer sequences with links to LODA programs.
 * [A076543](https://oeis.org/A076543) ([program](/edit/?oeis=76543)): Sum(k=1 to n) k\*sqf(k); sqf(k)=1 if k is squarefree and sqf(k)=-1 otherwise.
 * [A076544](https://oeis.org/A076544) ([program](/edit/?oeis=76544)): mu(n)+sqf(n): mu(n) is Moebius function; sqf(n)=1 if n is squarefree, sqf(n)=-1 otherwise.
 * [A076545](https://oeis.org/A076545) ([program](/edit/?oeis=76545)): sum[k=1 to n] mu(k)+sqf(k): mu(k) is Moebius function; sqf(k)=1 if k is squarefree, sqf(k)=-1 otherwise.
+* [A076552](https://oeis.org/A076552) ([program](/edit/?oeis=76552)): a(n) = (-1)^(n+1)/3/(2n+1)\*sum(k=0,n,16^k\*B(2k)\*C(2n+1,2k)) where B(k) denotes the k-th Bernoulli number.
 * [A076555](https://oeis.org/A076555) ([program](/edit/?oeis=76555)): Greatest prime divisor of n-th prime + 2.
 * [A076556](https://oeis.org/A076556) ([program](/edit/?oeis=76556)): Greatest prime divisor of n-th prime + n.
 * [A076557](https://oeis.org/A076557) ([program](/edit/?oeis=76557)): Greatest prime divisor of n-th prime - n.
@@ -7577,6 +7956,7 @@ List of integer sequences with links to LODA programs.
 * [A076579](https://oeis.org/A076579) ([program](/edit/?oeis=76579)): Triangular numbers which are 5-almost primes.
 * [A076580](https://oeis.org/A076580) ([program](/edit/?oeis=76580)): Triangular numbers which are 6-almost primes.
 * [A076581](https://oeis.org/A076581) ([program](/edit/?oeis=76581)): Triangular numbers which are 7-almost primes.
+* [A076582](https://oeis.org/A076582) ([program](/edit/?oeis=76582)): Triangular numbers which are 8-almost primes.
 * [A076591](https://oeis.org/A076591) ([program](/edit/?oeis=76591)): a(1)=1, a(2)=2 a(n)=a(n-1)+(a(n-2) mod n).
 * [A076597](https://oeis.org/A076597) ([program](/edit/?oeis=76597)): Numbers k such that sqrt(k\*(k-1)\*(k-2)\*(k-3)+1) is a prime.
 * [A076598](https://oeis.org/A076598) ([program](/edit/?oeis=76598)): Sum of squares of divisors d of n such that d or n/d is odd.
@@ -7613,7 +7993,9 @@ List of integer sequences with links to LODA programs.
 * [A076690](https://oeis.org/A076690) ([program](/edit/?oeis=76690)): Nearest integer to average of the smallest and largest prime factors of n (0.5 is rounded to 1).
 * [A076694](https://oeis.org/A076694) ([program](/edit/?oeis=76694)): a(n) = n - sum of the distinct prime factors of n.
 * [A076695](https://oeis.org/A076695) ([program](/edit/?oeis=76695)): Dimension of S2(G0(p)) where p runs through the odd primes >= 13, G0(N) is the Hecke subgroup of SL2(Z), consisting of 2 X 2 matrices (a,b; c,d) with c == 0 (mod N).
+* [A076698](https://oeis.org/A076698) ([program](/edit/?oeis=76698)): a(1) = 2, a(n+1) = smallest squarefree number == 1 (mod a(n)).
 * [A076708](https://oeis.org/A076708) ([program](/edit/?oeis=76708)): Numbers n such that triangular numbers T(n) and T(n+1) sum to another triangular number (that is also a perfect square).
+* [A076717](https://oeis.org/A076717) ([program](/edit/?oeis=76717)): a(n) = -Sum\_\{d\|n\} (-n/d)^d.
 * [A076720](https://oeis.org/A076720) ([program](/edit/?oeis=76720)): Sum of product of divisors of n and sum of divisors of n.
 * [A076721](https://oeis.org/A076721) ([program](/edit/?oeis=76721)): Difference between product of divisors of n and sum of divisors of n.
 * [A076722](https://oeis.org/A076722) ([program](/edit/?oeis=76722)): Product of product of divisors of n and sum of divisors of n.
@@ -7635,6 +8017,7 @@ List of integer sequences with links to LODA programs.
 * [A076765](https://oeis.org/A076765) ([program](/edit/?oeis=76765)): Partial sums of Chebyshev sequence S(n,8) = U(n,4) = A001090(n+1).
 * [A076767](https://oeis.org/A076767) ([program](/edit/?oeis=76767)): Triangular numbers with square pyramidal indices.
 * [A076770](https://oeis.org/A076770) ([program](/edit/?oeis=76770)): Even numbers representable as the sum of two odd composites.
+* [A076771](https://oeis.org/A076771) ([program](/edit/?oeis=76771)): Even numbers n representable as the sum of two non-coprime odd composites.
 * [A076775](https://oeis.org/A076775) ([program](/edit/?oeis=76775)): Greatest common divisor of n and the binary representation of n interpreted decimally.
 * [A076776](https://oeis.org/A076776) ([program](/edit/?oeis=76776)): a(0) = 1, a(1) = 2, a(2) = 5; for n > 2, a(n) = a(n-1)\*a(n-2).
 * [A076782](https://oeis.org/A076782) ([program](/edit/?oeis=76782)): a(n) = 10^(n^2).
@@ -7664,6 +8047,8 @@ List of integer sequences with links to LODA programs.
 * [A076896](https://oeis.org/A076896) ([program](/edit/?oeis=76896)): a(1) = 1, a(n) = n-a(floor(2n/3)).
 * [A076897](https://oeis.org/A076897) ([program](/edit/?oeis=76897)): a(1)=1, a(n)=n-a(floor(3n/4)).
 * [A076902](https://oeis.org/A076902) ([program](/edit/?oeis=76902)): a(1)=1, a(n) = floor(n/2) - a(floor(n/2)).
+* [A076903](https://oeis.org/A076903) ([program](/edit/?oeis=76903)): Numerator of coefficients of power series for exp(exp(x)-1).
+* [A076904](https://oeis.org/A076904) ([program](/edit/?oeis=76904)): Denominator of coefficients of power series for exp(exp(x)-1).
 * [A076918](https://oeis.org/A076918) ([program](/edit/?oeis=76918)): a(1) = 1, a(n+1) = A076271(n+1) divided by the highest common factor of A076271(n) and A076271(n+1).
 * [A076921](https://oeis.org/A076921) ([program](/edit/?oeis=76921)): Smallest number such that the highest common factor of pair of successive terms follows the pattern 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, ..., i.e., b(2n-1) = b(2n) = n given by A004526.
 * [A076926](https://oeis.org/A076926) ([program](/edit/?oeis=76926)): Smallest multiple of n with n distinct prime divisors.
@@ -7677,6 +8062,7 @@ List of integer sequences with links to LODA programs.
 * [A076942](https://oeis.org/A076942) ([program](/edit/?oeis=76942)): Smallest k > 0 such that nk+1 is a square.
 * [A076943](https://oeis.org/A076943) ([program](/edit/?oeis=76943)): Smallest k > 0 such that n\*k + 1 is an n-th power.
 * [A076944](https://oeis.org/A076944) ([program](/edit/?oeis=76944)): Least number such that n\*k+1 is an n-th power.
+* [A076946](https://oeis.org/A076946) ([program](/edit/?oeis=76946)): Smallest k such that n\*(n+1)\*(n+2)...\*(n+k) >= n^n.
 * [A076947](https://oeis.org/A076947) ([program](/edit/?oeis=76947)): Smallest k > 0 such that nk+1 is a cube.
 * [A076951](https://oeis.org/A076951) ([program](/edit/?oeis=76951)): Smallest k > 0 such that nk-1 is an n-th power, or 0 if no such number exists.
 * [A076952](https://oeis.org/A076952) ([program](/edit/?oeis=76952)): n-th power associated with A076951, or 0 if no such number exists.
@@ -7713,10 +8099,12 @@ List of integer sequences with links to LODA programs.
 * [A077063](https://oeis.org/A077063) ([program](/edit/?oeis=77063)): Squarefree kernel of prime(n) - 1.
 * [A077065](https://oeis.org/A077065) ([program](/edit/?oeis=77065)): Semiprimes of form prime - 1.
 * [A077066](https://oeis.org/A077066) ([program](/edit/?oeis=77066)): Squarefree kernel of prime(n) + 1.
+* [A077067](https://oeis.org/A077067) ([program](/edit/?oeis=77067)): Squarefree numbers of form prime + 1.
 * [A077070](https://oeis.org/A077070) ([program](/edit/?oeis=77070)): Triangle read by rows: T(n,k) is the power of 2 in denominator of coefficients of Legendre polynomials, where n >= 0 and 0 <= k <= n.
 * [A077071](https://oeis.org/A077071) ([program](/edit/?oeis=77071)): Row sums of A077070.
 * [A077080](https://oeis.org/A077080) ([program](/edit/?oeis=77080)): a(n) = phi(sigma(n) + phi(n)) = A000010(A000203(n) + A000010(n)) = A000010(A065387(n)).
 * [A077086](https://oeis.org/A077086) ([program](/edit/?oeis=77086)): Remainder when sigma(n+1) is divided by sigma(n).
+* [A077099](https://oeis.org/A077099) ([program](/edit/?oeis=77099)): a(n) = gcd(A051612(n), A065387(n)), where A051612(n) = sigma(n) - phi(n) and A065387(n) = sigma(n) + phi(n).
 * [A077101](https://oeis.org/A077101) ([program](/edit/?oeis=77101)): a(n) = A051612(n)\*A065387(n) = sigma(n)^2-phi(n)^2, where A051612(n) = sigma(n) - phi(n) and A065387(n) = sigma(n) + phi(n).
 * [A077106](https://oeis.org/A077106) ([program](/edit/?oeis=77106)): Largest integer cube <= n^2.
 * [A077107](https://oeis.org/A077107) ([program](/edit/?oeis=77107)): Least integer cube >= n^2.
@@ -7739,6 +8127,7 @@ List of integer sequences with links to LODA programs.
 * [A077138](https://oeis.org/A077138) ([program](/edit/?oeis=77138)): a(0) = 0. If n is odd, a(n) = a(n-1) + n, otherwise a(n) = a(n-1) \* n.
 * [A077139](https://oeis.org/A077139) ([program](/edit/?oeis=77139)): a(1) = 1, a(n) = lcm(n, a(n-1)) / gcd(n, a(n-1)).
 * [A077140](https://oeis.org/A077140) ([program](/edit/?oeis=77140)): a(1) = 1 and then add n to the previous term if n is coprime to the previous term, otherwise subtract n from the previous term. a(1) = 1 and a(n) = a(n-1) + n if gcd(n, a(n-1)) = 1, otherwise a(n) = a(n-1) - n.
+* [A077146](https://oeis.org/A077146) ([program](/edit/?oeis=77146)): Floor[ concatenation of next (n+1) numbers / concatenation of next n numbers].
 * [A077147](https://oeis.org/A077147) ([program](/edit/?oeis=77147)): Floor[\{concatenation 123 ... up to n\}/n].
 * [A077148](https://oeis.org/A077148) ([program](/edit/?oeis=77148)): Smallest k such that there are n numbers m relatively prime to n in range n < m < k.
 * [A077149](https://oeis.org/A077149) ([program](/edit/?oeis=77149)): a(1) =3. For n>1, a(n) = smallest k such that there are n numbers m not relatively prime to n in range n < m < k.
@@ -7783,6 +8172,7 @@ List of integer sequences with links to LODA programs.
 * [A077289](https://oeis.org/A077289) ([program](/edit/?oeis=77289)): Triangular numbers that are 1/6 of another triangular number.
 * [A077290](https://oeis.org/A077290) ([program](/edit/?oeis=77290)): Triangular numbers that are 6 times other triangular numbers.
 * [A077291](https://oeis.org/A077291) ([program](/edit/?oeis=77291)): Second member of Diophantine pair (m,k) that satisfies 6\*(m^2 + m) = k^2 + k: a(n) = k.
+* [A077309](https://oeis.org/A077309) ([program](/edit/?oeis=77309)): Concatenation of n numbers starting with n.
 * [A077317](https://oeis.org/A077317) ([program](/edit/?oeis=77317)): a(n) is the n-th prime == 1 (mod n).
 * [A077318](https://oeis.org/A077318) ([program](/edit/?oeis=77318)): Sum of terms in n-th row of A077316.
 * [A077319](https://oeis.org/A077319) ([program](/edit/?oeis=77319)): Average of terms in n-th row of A077316.
@@ -7836,6 +8226,9 @@ List of integer sequences with links to LODA programs.
 * [A077463](https://oeis.org/A077463) ([program](/edit/?oeis=77463)): Number of primes p such that n < p < 2n-2.
 * [A077465](https://oeis.org/A077465) ([program](/edit/?oeis=77465)): Values of n such that A006046(n)/n^theta, where theta=log(3)/log(2), is a local minimum, computed according to Harborth's recurrence.
 * [A077467](https://oeis.org/A077467) ([program](/edit/?oeis=77467)): Sum of binary digits of A077465(n).
+* [A077468](https://oeis.org/A077468) ([program](/edit/?oeis=77468)): Greedy powers of (2/3): sum\_\{n=1..inf\} (2/3)^a(n) = 1.
+* [A077469](https://oeis.org/A077469) ([program](/edit/?oeis=77469)): Greedy powers of (3/4): sum\_\{n=1..inf\} (3/4)^a(n) = 1.
+* [A077534](https://oeis.org/A077534) ([program](/edit/?oeis=77534)): Multiples of 4 using only prime digits (2, 3, 5 and 7).
 * [A077537](https://oeis.org/A077537) ([program](/edit/?oeis=77537)): Sum of next F(n) Fibonacci numbers, where F(n) = n-th Fibonacci number.
 * [A077538](https://oeis.org/A077538) ([program](/edit/?oeis=77538)): First differences of triangular numbers with square pyramidal indices.
 * [A077539](https://oeis.org/A077539) ([program](/edit/?oeis=77539)): a(n) = floor(T(n+1)!\*T(n-1)!/(T(n)!)^2), where T(n) = n(n+1)/2 = the n-th triangular number.
@@ -7845,6 +8238,7 @@ List of integer sequences with links to LODA programs.
 * [A077568](https://oeis.org/A077568) ([program](/edit/?oeis=77568)): a(1,n) as defined in A003148.
 * [A077573](https://oeis.org/A077573) ([program](/edit/?oeis=77573)): Smallest number of the form (10^k -1)/9 == 0 (mod prime(n)). with a(1) = a(3) = 0.
 * [A077575](https://oeis.org/A077575) ([program](/edit/?oeis=77575)): a(n) = A077573(n)/prime(n).
+* [A077577](https://oeis.org/A077577) ([program](/edit/?oeis=77577)): a(n) = Floor[A062273(n)/n].
 * [A077582](https://oeis.org/A077582) ([program](/edit/?oeis=77582)): Sum of terms of n-th row of A077581.
 * [A077584](https://oeis.org/A077584) ([program](/edit/?oeis=77584)): Last term of n-th row of A077583.
 * [A077587](https://oeis.org/A077587) ([program](/edit/?oeis=77587)): a(n) = C(n+1) + n\*C(n) where C = A000108 (Catalan numbers).
@@ -7870,7 +8264,6 @@ List of integer sequences with links to LODA programs.
 * [A077651](https://oeis.org/A077651) ([program](/edit/?oeis=77651)): Initial digit of phi(n), where phi is Euler totient function, A000010.
 * [A077653](https://oeis.org/A077653) ([program](/edit/?oeis=77653)): a(1)=1, a(2)=2, a(3)=2, a(n) = abs(a(n-1)-a(n-2)-a(n-3)).
 * [A077654](https://oeis.org/A077654) ([program](/edit/?oeis=77654)): Composites k such that 2k+1 is also composite.
-* [A077655](https://oeis.org/A077655) ([program](/edit/?oeis=77655)): Number of consecutive successors of n having the same number of prime factors as n (counted with multiplicity).
 * [A077656](https://oeis.org/A077656) ([program](/edit/?oeis=77656)): Numbers having a different number of prime factors as their successors (counted with multiplicity).
 * [A077659](https://oeis.org/A077659) ([program](/edit/?oeis=77659)): a(n) = smallest k>1 such that the sum n^k + (n+1)^k is prime, or -1 if no such k exists.
 * [A077660](https://oeis.org/A077660) ([program](/edit/?oeis=77660)): Sum of terms of n-th row of A077583.
@@ -7879,6 +8272,7 @@ List of integer sequences with links to LODA programs.
 * [A077666](https://oeis.org/A077666) ([program](/edit/?oeis=77666)): Sum of terms of n-th row of A077664.
 * [A077686](https://oeis.org/A077686) ([program](/edit/?oeis=77686)): 2^(n-1) - (prime(n) mod n).
 * [A077694](https://oeis.org/A077694) ([program](/edit/?oeis=77694)): a(n) = triangular number pertaining to the number f(n) obtained by concatenating first n natural numbers.
+* [A077695](https://oeis.org/A077695) ([program](/edit/?oeis=77695)): a(n) = triangular number pertaining to the number f(n) obtained by concatenating n n times.
 * [A077725](https://oeis.org/A077725) ([program](/edit/?oeis=77725)): a(n) = smallest square > 1 which can be expressed as a sum of distinct powers of n.
 * [A077726](https://oeis.org/A077726) ([program](/edit/?oeis=77726)): Smallest number beginning with n and having a digit sum n.
 * [A077745](https://oeis.org/A077745) ([program](/edit/?oeis=77745)): Numerator of integral\_\{x=1..2\} (x^2-1)^n dx.
@@ -7890,6 +8284,7 @@ List of integer sequences with links to LODA programs.
 * [A077800](https://oeis.org/A077800) ([program](/edit/?oeis=77800)): List of twin primes \{p, p+2\}.
 * [A077802](https://oeis.org/A077802) ([program](/edit/?oeis=77802)): Sum of products of parts increased by 1 in hook partitions of n, where hook partitions are of the form h\*1^(n-h).
 * [A077806](https://oeis.org/A077806) ([program](/edit/?oeis=77806)): Greatest prime factor of numbers containing in their decimal representation only the digits 0 and 1.
+* [A077808](https://oeis.org/A077808) ([program](/edit/?oeis=77808)): Number of prime factors of numbers containing in their decimal representation only the digits 0 and 1 (counted with multiplicity).
 * [A077812](https://oeis.org/A077812) ([program](/edit/?oeis=77812)): Squarefree kernel of numbers containing in their decimal representation only the digits 0 and 1.
 * [A077814](https://oeis.org/A077814) ([program](/edit/?oeis=77814)): a(n) = #\{0<=k<=n: mod(kn,4)=2\}.
 * [A077821](https://oeis.org/A077821) ([program](/edit/?oeis=77821)): Expansion of (1-x)^(-1)/(1-3\*x-3\*x^2-3\*x^3).
@@ -8157,9 +8552,15 @@ List of integer sequences with links to LODA programs.
 * [A078182](https://oeis.org/A078182) ([program](/edit/?oeis=78182)): a(n) = Sum\_\{d\|n, d=2 mod 3\} d.
 * [A078191](https://oeis.org/A078191) ([program](/edit/?oeis=78191)): a(n) = concatenation of n n times divided by n.
 * [A078192](https://oeis.org/A078192) ([program](/edit/?oeis=78192)): a(n) = floor(concatenation of n down to 1 divided by n).
+* [A078193](https://oeis.org/A078193) ([program](/edit/?oeis=78193)): In the following triangle the n-th row contains n n-digit (or (n-1)-digit) numbers whose concatenation (with a 0 prefixed for (n-1)-digit numbers) gives a substring of the cyclic concatenation of 1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,...: 1; 12 34; 123 456 789; 1234 5678 9012 3456; 12345 67890 12345 67890 12345; ... Sequence contains the final terms of rows.
 * [A078222](https://oeis.org/A078222) ([program](/edit/?oeis=78222)): a(1) = 2, a(n+1) > a(n) is the smallest multiple of a(n) using only even digits.
+* [A078258](https://oeis.org/A078258) ([program](/edit/?oeis=78258)): a(n) = numerator(N), where N = 0.123...n (concatenation of 1 to n after decimal point).
+* [A078261](https://oeis.org/A078261) ([program](/edit/?oeis=78261)): Smallest integer multiple of the decimal number N = 0.246...up to 2n (decimal point followed by concatenation of 2 through 2n of first n even numbers).
+* [A078262](https://oeis.org/A078262) ([program](/edit/?oeis=78262)): Sum of the forward and reverse concatenations of 1 to n.
+* [A078263](https://oeis.org/A078263) ([program](/edit/?oeis=78263)): Product of the forward and reverse concatenations of 1 to n.
 * [A078267](https://oeis.org/A078267) ([program](/edit/?oeis=78267)): Smallest k such that k\*N is an integer where N is obtained by placing the string "n" after a decimal point.
 * [A078268](https://oeis.org/A078268) ([program](/edit/?oeis=78268)): Smallest integer which is an integer multiple of the number N obtained by placing the string "n" after a decimal point.
+* [A078285](https://oeis.org/A078285) ([program](/edit/?oeis=78285)): Least nontrivial multiple of the n-th prime beginning with 1.
 * [A078306](https://oeis.org/A078306) ([program](/edit/?oeis=78306)): a(n) = Sum\_\{d divides n\} (-1)^(n/d+1)\*d^2.
 * [A078307](https://oeis.org/A078307) ([program](/edit/?oeis=78307)): a(n) = Sum\_\{d divides n\} (-1)^(n/d+1)\*d^3.
 * [A078308](https://oeis.org/A078308) ([program](/edit/?oeis=78308)): a(n) = Sum\_\{d divides n\} d^(n/d + 1).
@@ -8196,7 +8597,7 @@ List of integer sequences with links to LODA programs.
 * [A078402](https://oeis.org/A078402) ([program](/edit/?oeis=78402)): Numbers k such that k^2 + 5 is prime.
 * [A078403](https://oeis.org/A078403) ([program](/edit/?oeis=78403)): Primes such that digital root (A038194) is prime.
 * [A078414](https://oeis.org/A078414) ([program](/edit/?oeis=78414)): a(n) = (a(n-1)+a(n-2))/7^k, where 7^k is the highest power of 7 dividing a(n-1)+a(n-2).
-* [A078417](https://oeis.org/A078417) ([program](/edit/?oeis=78417)): Numbers n such that h(n) = h(n+1), where h(n) is the length of n, f(n), f(f(n)), ..., 1 in the Collatz (or 3x + 1) problem. (The earliest "1" is meant.)
+* [A078417](https://oeis.org/A078417) ([program](/edit/?oeis=78417)): Numbers k such that h(k) = h(k+1), where h(k) is the length of k, f(k), f(f(k)), ..., 1 in the Collatz (or 3x + 1) problem. (The earliest "1" is meant.)
 * [A078427](https://oeis.org/A078427) ([program](/edit/?oeis=78427)): Sum of all the decimal digits of numbers from 1 to 10^n.
 * [A078428](https://oeis.org/A078428) ([program](/edit/?oeis=78428)): Partial sums of A035187.
 * [A078429](https://oeis.org/A078429) ([program](/edit/?oeis=78429)): Number of integers k among 1..n for which gcd(k,n) is a cube.
@@ -8210,9 +8611,11 @@ List of integer sequences with links to LODA programs.
 * [A078447](https://oeis.org/A078447) ([program](/edit/?oeis=78447)): Final terms of rows of A078448.
 * [A078449](https://oeis.org/A078449) ([program](/edit/?oeis=78449)): a(n) = sum of terms in n-th row of A078448.
 * [A078450](https://oeis.org/A078450) ([program](/edit/?oeis=78450)): a(n) = product of terms in n-th row of A078448.
+* [A078458](https://oeis.org/A078458) ([program](/edit/?oeis=78458)): Total number of factors in a factorization of n into Gaussian primes.
 * [A078461](https://oeis.org/A078461) ([program](/edit/?oeis=78461)): a(n) = 0 if n is divisible by the square of odd prime, a(n) = 1 if n is an odd squarefree number, a(n) = 2 otherwise.
 * [A078462](https://oeis.org/A078462) ([program](/edit/?oeis=78462)): Partial sums of A035185.
 * [A078467](https://oeis.org/A078467) ([program](/edit/?oeis=78467)): a(n) = a(n-1) + a(n-4); first four terms are 0,1,2,3.
+* [A078468](https://oeis.org/A078468) ([program](/edit/?oeis=78468)): Distinct compositions of the complete graph with one edge removed (K^-\_n).
 * [A078469](https://oeis.org/A078469) ([program](/edit/?oeis=78469)): Number of different compositions of the ladder graph L\_n.
 * [A078471](https://oeis.org/A078471) ([program](/edit/?oeis=78471)): Sum of all odd divisors of all positive integers <= n.
 * [A078474](https://oeis.org/A078474) ([program](/edit/?oeis=78474)): a(1)=a(2)=a(3)=1, a(n)=n-a(a(n-1))-a(a(n-2))-a(a(n-3)).
@@ -8258,6 +8661,7 @@ List of integer sequences with links to LODA programs.
 * [A078588](https://oeis.org/A078588) ([program](/edit/?oeis=78588)): a(n) = 1 if the integer multiple of phi nearest n is greater than n, otherwise 0, where phi = (1+sqrt(5))/2.
 * [A078589](https://oeis.org/A078589) ([program](/edit/?oeis=78589)): a(1)=0, a(2)=1, a(n) = abs(abs(a(n-1))-a(n-2)-n+1).
 * [A078599](https://oeis.org/A078599) ([program](/edit/?oeis=78599)): Product of squarefree divisors of n.
+* [A078606](https://oeis.org/A078606) ([program](/edit/?oeis=78606)): Constant c(p) used in determining divisibility by the n-th prime, p=A000040(n), for n>=4.
 * [A078607](https://oeis.org/A078607) ([program](/edit/?oeis=78607)): Least positive integer x such that 2\*x^n > (x+1)^n.
 * [A078608](https://oeis.org/A078608) ([program](/edit/?oeis=78608)): a(n) = ceiling(2/(2^(1/n)-1)).
 * [A078609](https://oeis.org/A078609) ([program](/edit/?oeis=78609)): Least positive integer x such that 2\*x^n>(x+3)^n.
@@ -8276,7 +8680,7 @@ List of integer sequences with links to LODA programs.
 * [A078632](https://oeis.org/A078632) ([program](/edit/?oeis=78632)): Number of geometric subsequences of [1,...,n] with integral successive-term ratio and length > 1.
 * [A078633](https://oeis.org/A078633) ([program](/edit/?oeis=78633)): Smallest number of sticks of length 1 needed to construct n squares with sides of length 1.
 * [A078636](https://oeis.org/A078636) ([program](/edit/?oeis=78636)): rad\{n(n+1)\}.
-* [A078637](https://oeis.org/A078637) ([program](/edit/?oeis=78637)): rad\{n(n+1)(n+2)\}, where rad(m) = largest squarefree number dividing m (see A007947).
+* [A078637](https://oeis.org/A078637) ([program](/edit/?oeis=78637)): a(n) = rad(n(n+1)(n+2)), where rad(m) is the largest squarefree number dividing m (see A007947).
 * [A078638](https://oeis.org/A078638) ([program](/edit/?oeis=78638)): rad(n(n+1)(n+2)(n+3)).
 * [A078642](https://oeis.org/A078642) ([program](/edit/?oeis=78642)): Numbers with two representations as the sum of two Fibonacci numbers.
 * [A078644](https://oeis.org/A078644) ([program](/edit/?oeis=78644)): a(n) = tau(2\*n^2)/2.
@@ -8301,7 +8705,7 @@ List of integer sequences with links to LODA programs.
 * [A078706](https://oeis.org/A078706) ([program](/edit/?oeis=78706)): a(n) = smallest integer >=a(n-1) such that sum of first n terms is prime.
 * [A078707](https://oeis.org/A078707) ([program](/edit/?oeis=78707)): Number of vectors of length n that are symmetric about the middle, where each element is drawn from a set of n distinct elements.
 * [A078708](https://oeis.org/A078708) ([program](/edit/?oeis=78708)): Sum of divisors d of n such that n/d is not congruent to 0 mod 3.
-* [A078709](https://oeis.org/A078709) ([program](/edit/?oeis=78709)): Integer part of the mean subinterval length in the partition of [0,n] by the divisors of n.
+* [A078709](https://oeis.org/A078709) ([program](/edit/?oeis=78709)): a(n) = floor(n/d(n)), where d(n) is the number of divisors of n (A000005).
 * [A078711](https://oeis.org/A078711) ([program](/edit/?oeis=78711)): Sequence is S(infinity), where S(1)=\{1,2,3\}, S(n+1)=S(n)S'(n) and S'(n) is obtained from S(n) by changing last term using the cyclic permutation 1->2->3->1.
 * [A078712](https://oeis.org/A078712) ([program](/edit/?oeis=78712)): Series expansion of (-3-2\*x)/(1+x-x^3) in powers of x.
 * [A078713](https://oeis.org/A078713) ([program](/edit/?oeis=78713)): Sum of squares of the distances between successive divisors of n.
@@ -8329,8 +8733,11 @@ List of integer sequences with links to LODA programs.
 * [A078787](https://oeis.org/A078787) ([program](/edit/?oeis=78787)): a(n) = 101\*n + 1.
 * [A078788](https://oeis.org/A078788) ([program](/edit/?oeis=78788)): Smallest m such that (n-1)\*m+1 mod n = 0, or 0 if no such number exists.
 * [A078789](https://oeis.org/A078789) ([program](/edit/?oeis=78789)): Expansion of (1-4\*x+2\*x^2)/(1-7\*x+13\*x^2-4\*x^3).
+* [A078794](https://oeis.org/A078794) ([program](/edit/?oeis=78794)): a(n) = (-1)^(n+1) \* Sum\_\{k=0..n\} 16^k \* B(2k) \* C(2n+1,2k) where B(k) is the k-th Bernoulli number.
 * [A078795](https://oeis.org/A078795) ([program](/edit/?oeis=78795)): Concatenate first n triangular numbers.
 * [A078796](https://oeis.org/A078796) ([program](/edit/?oeis=78796)): a(n) = 2\*ceiling(n\*tau) - ceiling(n\*sqrt(5)) where tau=(1+sqrt(5))/2 is the Golden ratio.
+* [A078802](https://oeis.org/A078802) ([program](/edit/?oeis=78802)): Triangular array T given by T(n,k) = number of 01-words of length n containing k 1's, no three of which are consecutive.
+* [A078803](https://oeis.org/A078803) ([program](/edit/?oeis=78803)): Triangular array T given by T(n,k) = number of compositions of n into k parts, each in the set \{1,2,3\}.
 * [A078809](https://oeis.org/A078809) ([program](/edit/?oeis=78809)): Number of divisors of the average of consecutive odd primes.
 * [A078812](https://oeis.org/A078812) ([program](/edit/?oeis=78812)): Triangle read by rows: T(n, k) = binomial(n+k-1, 2\*k-1).
 * [A078818](https://oeis.org/A078818) ([program](/edit/?oeis=78818)): a(n) = 30\*binomial(2n,n)/(n+3).
@@ -8345,8 +8752,8 @@ List of integer sequences with links to LODA programs.
 * [A078865](https://oeis.org/A078865) ([program](/edit/?oeis=78865)): Difference of consecutive primorial numbers divided by 4.
 * [A078876](https://oeis.org/A078876) ([program](/edit/?oeis=78876)): a(n) = n^4\*(n^4-1)/240.
 * [A078879](https://oeis.org/A078879) ([program](/edit/?oeis=78879)): Triangle read by rows: T(n,k) = ceiling(k^2 / n), 0 < k <= n.
-* [A078880](https://oeis.org/A078880) ([program](/edit/?oeis=78880)): The sequence starting with 2 that equals its own run length sequence.
 * [A078881](https://oeis.org/A078881) ([program](/edit/?oeis=78881)): Size of the largest subset S of \{1,2,3,...,n\} with the property that if i and j are distinct elements of S then i XOR j is not in S, where XOR is the bitwise exclusive-OR operator.
+* [A078891](https://oeis.org/A078891) ([program](/edit/?oeis=78891)): Concatenate first n triangular numbers in reverse order.
 * [A078896](https://oeis.org/A078896) ([program](/edit/?oeis=78896)): Number of times the smallest prime factor of n is a factor in all numbers <=n; a(1)=1.
 * [A078897](https://oeis.org/A078897) ([program](/edit/?oeis=78897)): Number of times the greatest prime factor of n is a factor in all numbers <=n; a(1)=1.
 * [A078903](https://oeis.org/A078903) ([program](/edit/?oeis=78903)): a(n) = n^2 - Sum\_\{u=1..n\} Sum\_\{v=1..u\} valuation(2\*v, 2).
@@ -8381,7 +8788,7 @@ List of integer sequences with links to LODA programs.
 * [A079034](https://oeis.org/A079034) ([program](/edit/?oeis=79034)): Determinant of M(n), the n X n matrix defined by m(i,i)=1, m(i,j)=i-j.
 * [A079044](https://oeis.org/A079044) ([program](/edit/?oeis=79044)): Numbers k such that Sum\_\{j=0..k\} sin(j/Pi) < 0.
 * [A079054](https://oeis.org/A079054) ([program](/edit/?oeis=79054)): a(n) = -1 if the closest prime to prime(n) is prime(n-1); = 1 if the closest prime to prime(n) is prime(n+1); = 0 if prime(n-1) and prime(n+1) are equally close to prime(n).
-* [A079057](https://oeis.org/A079057) ([program](/edit/?oeis=79057)): a(n)=sum(k=1,n,bigomega(tau(k))).
+* [A079057](https://oeis.org/A079057) ([program](/edit/?oeis=79057)): a(n) = Sum\_\{k=1..n\} bigomega(tau(k)).
 * [A079065](https://oeis.org/A079065) ([program](/edit/?oeis=79065)): In prime factorization of n replace odd primes with 3.
 * [A079067](https://oeis.org/A079067) ([program](/edit/?oeis=79067)): Number of primes less than greatest prime factor of n but not dividing n.
 * [A079068](https://oeis.org/A079068) ([program](/edit/?oeis=79068)): Largest prime less than greatest prime factor of n but not dividing n, or 1 if no such prime exists.
@@ -8392,6 +8799,7 @@ List of integer sequences with links to LODA programs.
 * [A079084](https://oeis.org/A079084) ([program](/edit/?oeis=79084)): Greatest prime factor of (prime(n)+1)\*(prime(n+1)+1)/4.
 * [A079085](https://oeis.org/A079085) ([program](/edit/?oeis=79085)): Number of distinct prime factors of (prime(n)+1)\*(prime(n+1)+1)/4.
 * [A079086](https://oeis.org/A079086) ([program](/edit/?oeis=79086)): Total number of prime factors of (prime(n)+1)\*(prime(n+1)+1)/4.
+* [A079087](https://oeis.org/A079087) ([program](/edit/?oeis=79087)): Maximal exponent in prime factorization of (prime(n)+1)\*(prime(n+1)+1)/4.
 * [A079088](https://oeis.org/A079088) ([program](/edit/?oeis=79088)): Number of divisors of (prime(n)+1)\*(prime(n+1)+1)/4.
 * [A079089](https://oeis.org/A079089) ([program](/edit/?oeis=79089)): Sum of divisors of (prime(n)+1)\*(prime(n+1)+1)/4.
 * [A079090](https://oeis.org/A079090) ([program](/edit/?oeis=79090)): Sum of distinct prime factors of (prime(n)+1)\*(prime(n+1)+1)/4.
@@ -8405,6 +8813,7 @@ List of integer sequences with links to LODA programs.
 * [A079102](https://oeis.org/A079102) ([program](/edit/?oeis=79102)): a(2n) = 2^n, a(2n+1) = 2^(2n).
 * [A079110](https://oeis.org/A079110) ([program](/edit/?oeis=79110)): Number of 2's in n# (n primorial) = 2's in A002110(n).
 * [A079111](https://oeis.org/A079111) ([program](/edit/?oeis=79111)): Numbers n such that 2\*n+1 or n itself is prime.
+* [A079112](https://oeis.org/A079112) ([program](/edit/?oeis=79112)): Numbers in binary representation with odd length.
 * [A079113](https://oeis.org/A079113) ([program](/edit/?oeis=79113)): Number of 3's in n# (n primorial) = 3's in A002110(n).
 * [A079123](https://oeis.org/A079123) ([program](/edit/?oeis=79123)): Number of 4's in n# (n primorial) = 4's in A002110(n).
 * [A079127](https://oeis.org/A079127) ([program](/edit/?oeis=79127)): Number of 5's in n# (n primorial) = 5's in A002110(n).
@@ -8416,14 +8825,19 @@ List of integer sequences with links to LODA programs.
 * [A079135](https://oeis.org/A079135) ([program](/edit/?oeis=79135)): Number of 7's in n# (n primorial) = 7's in A002110(n).
 * [A079138](https://oeis.org/A079138) ([program](/edit/?oeis=79138)): Primes of the form k^2 + 7.
 * [A079143](https://oeis.org/A079143) ([program](/edit/?oeis=79143)): Numbers divisible by prime ceilings of their square roots + 1.
+* [A079147](https://oeis.org/A079147) ([program](/edit/?oeis=79147)): Primes p such that p+1 has at most 2 prime factors, counted with multiplicity; i.e., primes p such that bigomega(p+1) = A001222(p+1) <= 2.
 * [A079148](https://oeis.org/A079148) ([program](/edit/?oeis=79148)): Primes p such that p-1 has at most 2 prime factors, counted with multiplicity; i.e., primes p such that bigomega(p-1) = A001222(p-1) <= 2.
 * [A079162](https://oeis.org/A079162) ([program](/edit/?oeis=79162)): a(n) = 5a(n-2) - 2a(n-4).
 * [A079163](https://oeis.org/A079163) ([program](/edit/?oeis=79163)): Number of 9's in n# (n primorial) = 9's in A002110(n).
 * [A079164](https://oeis.org/A079164) ([program](/edit/?oeis=79164)): Twin-primorial numbers: running products of twin primes.
 * [A079165](https://oeis.org/A079165) ([program](/edit/?oeis=79165)): a(n) = (4n-2)\*a(n-1)+a(n-2) with a(0)=1 and a(1)=2.
 * [A079167](https://oeis.org/A079167) ([program](/edit/?oeis=79167)): Weighted roundness of n. If n = p\_1^e\_1...p\_k^e\_k, then a(n) = e\_1 + 2\*e\_2 + ... + k\*e\_k. Note that p\_i < p\_j, i < j is assumed.
+* [A079168](https://oeis.org/A079168) ([program](/edit/?oeis=79168)): Weighted quadratic roundness of n. If n=p\_1^e\_1...p^k\_e^k, then a(n) = e\_1 + (2^2 \* e\_2) + ... + (k^2 \* e\_k). Note that p\_i<p\_j, i<j, is assumed.
+* [A079169](https://oeis.org/A079169) ([program](/edit/?oeis=79169)): Difference between A079168(n) and A079167(n).
 * [A079189](https://oeis.org/A079189) ([program](/edit/?oeis=79189)): Number of anti-commutative closed binary operations (groupoids) on a set of order n.
 * [A079208](https://oeis.org/A079208) ([program](/edit/?oeis=79208)): Number of isomorphism classes of associative non-commutative non-anti-associative anti-commutative closed binary operations on a set of order n, listed by class size.
+* [A079228](https://oeis.org/A079228) ([program](/edit/?oeis=79228)): Least number > n with greater squarefree kernel than that of n.
+* [A079229](https://oeis.org/A079229) ([program](/edit/?oeis=79229)): Least k>0 such that rad(n+k) > rad(n), where rad is the squarefree kernel (A007947).
 * [A079247](https://oeis.org/A079247) ([program](/edit/?oeis=79247)): Number of pairs (p,q), 0 <= p < q, such that p+q divides n.
 * [A079248](https://oeis.org/A079248) ([program](/edit/?oeis=79248)): Sum of q in all pairs (p,q), 0 <= p < q, p+q divides n.
 * [A079249](https://oeis.org/A079249) ([program](/edit/?oeis=79249)): Sum of p in all pairs (p,q), 0<=p<q, p+q divides n.
@@ -8432,6 +8846,7 @@ List of integer sequences with links to LODA programs.
 * [A079252](https://oeis.org/A079252) ([program](/edit/?oeis=79252)): Even numbers not in A079000.
 * [A079253](https://oeis.org/A079253) ([program](/edit/?oeis=79253)): a(n) is taken to be the smallest positive integer greater than a(n-1) which is consistent with the condition "n is a member of the sequence if and only if a(n) is even".
 * [A079255](https://oeis.org/A079255) ([program](/edit/?oeis=79255)): a(n) is taken to be the smallest positive integer greater than a(n-1) such that the condition "n is in the sequence if and only if a(n) is odd and a(n+1) is even" can be satisfied.
+* [A079259](https://oeis.org/A079259) ([program](/edit/?oeis=79259)): a(n) is taken to be the smallest positive integer greater than a(n-1) such that the condition "n is in the sequence if and only if a(n) and a(n+1) are both odd" can be satisfied.
 * [A079260](https://oeis.org/A079260) ([program](/edit/?oeis=79260)): Characteristic function of primes of form 4n+1 (1 if n is prime of form 4n+1, 0 otherwise).
 * [A079261](https://oeis.org/A079261) ([program](/edit/?oeis=79261)): Characteristic function of primes of form 4n+3 (1 if n is prime of form 4n+3, 0 otherwise).
 * [A079262](https://oeis.org/A079262) ([program](/edit/?oeis=79262)): Octanacci numbers: a(0)=a(1)=...=a(6)=0, a(7)=1; for n >= 8, a(n) = Sum\_\{i=1..8\} a(n-i).
@@ -8448,6 +8863,7 @@ List of integer sequences with links to LODA programs.
 * [A079295](https://oeis.org/A079295) ([program](/edit/?oeis=79295)): (D(p)-6)/(12p) where D(p) denotes the denominator of the 2p-th Bernoulli number and p runs through the primes.
 * [A079297](https://oeis.org/A079297) ([program](/edit/?oeis=79297)): Triangle read by rows: the k-th column is an arithmetic progression with difference 2k-1 and the top entry is the hexagonal number k\*(2\*k-1) (A000384).
 * [A079309](https://oeis.org/A079309) ([program](/edit/?oeis=79309)): a(n) = C(1,1) + C(3,2) + C(5,3) + ... + C(2\*n-1,n).
+* [A079311](https://oeis.org/A079311) ([program](/edit/?oeis=79311)): Integer part of length of diagonal of integral rectangle with area n and smallest semiperimeter.
 * [A079314](https://oeis.org/A079314) ([program](/edit/?oeis=79314)): Number of first-quadrant cells (including the two boundaries) born at stage n of the Holladay-Ulam cellular automaton.
 * [A079316](https://oeis.org/A079316) ([program](/edit/?oeis=79316)): Number of first-quadrant cells (including the two boundaries) That are ON at stage n of the cellular automaton described in A079317.
 * [A079317](https://oeis.org/A079317) ([program](/edit/?oeis=79317)): Number of ON cells after n generations of cellular automaton on square grid in which cells which share exactly one edge with an ON cell change their state.
@@ -8468,20 +8884,24 @@ List of integer sequences with links to LODA programs.
 * [A079364](https://oeis.org/A079364) ([program](/edit/?oeis=79364)): Composite numbers having two composite neighbors.
 * [A079395](https://oeis.org/A079395) ([program](/edit/?oeis=79395)): a(n) = prime(n)^11.
 * [A079398](https://oeis.org/A079398) ([program](/edit/?oeis=79398)): a(0)=0, a(1)=1, a(2)=1, a(3)=1, a(n) = a(n-3) + a(n-4) for n > 3.
+* [A079409](https://oeis.org/A079409) ([program](/edit/?oeis=79409)): Array T(m,n) (m>=0, n>=0) read by antidiagonals: T(0, 0) = 1, T(0, n) = 0 if n > 0, T(m, n) = T(m-1, n - T(m-1, n)) + T(m-1, n - T(m-1, n-1)) if m > 0.
 * [A079414](https://oeis.org/A079414) ([program](/edit/?oeis=79414)): a(n) = 4\*n^4 - 3\*n^2.
 * [A079416](https://oeis.org/A079416) ([program](/edit/?oeis=79416)): a(n) = round(prime(n)/n).
 * [A079424](https://oeis.org/A079424) ([program](/edit/?oeis=79424)): A bisection of A024675. Cf. A058296.
 * [A079429](https://oeis.org/A079429) ([program](/edit/?oeis=79429)): a(0) = 2, a(1) = 3, a(2) = 5; a(n) = a(n-1) + [a(n-1)-a(n-2)] \* [a(n-2)-a(n-3)].
 * [A079450](https://oeis.org/A079450) ([program](/edit/?oeis=79450)): a(n) = 2^(n-1)\*u(n) where u(1)=1 and u(n) = frac(3/2\*u(n-1)) + 1.
+* [A079460](https://oeis.org/A079460) ([program](/edit/?oeis=79460)): Let r(n) be the real positive root of Sum\_\{k=1..n\} x^k = 1, then a(n) = round(1/(r(n) - 1/2)).
 * [A079472](https://oeis.org/A079472) ([program](/edit/?oeis=79472)): Number of perfect matchings on an n X n L-shaped graph.
 * [A079476](https://oeis.org/A079476) ([program](/edit/?oeis=79476)): First prime greater than or equal to phi(n^2).
 * [A079477](https://oeis.org/A079477) ([program](/edit/?oeis=79477)): First prime after phi(p\_n^2).
 * [A079484](https://oeis.org/A079484) ([program](/edit/?oeis=79484)): a(n) = (2n-1)!! \* (2n+1)!!, where the double factorial is A006882.
+* [A079489](https://oeis.org/A079489) ([program](/edit/?oeis=79489)): Series reversion of x(1-x^2)/(1+x^2)^2 expanded in odd powers of x.
 * [A079491](https://oeis.org/A079491) ([program](/edit/?oeis=79491)): Numerator of Sum\_\{k=0..n\} binomial(n,k)/2^(k\*(k-1)/2).
 * [A079495](https://oeis.org/A079495) ([program](/edit/?oeis=79495)): Let b=3. Sum of squares of digits in base b gives 0 (mod b).
 * [A079496](https://oeis.org/A079496) ([program](/edit/?oeis=79496)): a(0) = a(1) = 1; thereafter a(2\*n+1) = 2\*a(2\*n) - a(2\*n-1), a(2\*n) = 4\*a(2\*n-1) - a(2\*n-2).
 * [A079497](https://oeis.org/A079497) ([program](/edit/?oeis=79497)): a(1)=1; for n > 2, a(n) is the smallest integer > a(n-1) such that frac(sqrt(5)\*a(n)) < frac(sqrt(5)\*a(n-1)).
 * [A079498](https://oeis.org/A079498) ([program](/edit/?oeis=79498)): Numbers whose sum of digits in base b gives 0 (mod b), for b = 3.
+* [A079501](https://oeis.org/A079501) ([program](/edit/?oeis=79501)): Number of compositions of the integer n with strictly smallest part in the first position.
 * [A079503](https://oeis.org/A079503) ([program](/edit/?oeis=79503)): a(n) = (n-1)^3\*((n-2)^2 - 2\*(n-3)).
 * [A079504](https://oeis.org/A079504) ([program](/edit/?oeis=79504)): a(n) = 8\*n^3\*((2\*n-1)^2 - 4\*n + 4).
 * [A079505](https://oeis.org/A079505) ([program](/edit/?oeis=79505)): The last number for which a determinant of base-n numbers is nonzero.
@@ -8500,6 +8920,7 @@ List of integer sequences with links to LODA programs.
 * [A079537](https://oeis.org/A079537) ([program](/edit/?oeis=79537)): a(n) = phi(2\*n+1)\*d(2\*n+1) - sigma(2\*n+1).
 * [A079546](https://oeis.org/A079546) ([program](/edit/?oeis=79546)): a(n) = sigma(n) - 4\*phi(n).
 * [A079547](https://oeis.org/A079547) ([program](/edit/?oeis=79547)): a(n) = ((n^6 - (n-1)^6) - (n^2 - (n-1)^2))/60.
+* [A079551](https://oeis.org/A079551) ([program](/edit/?oeis=79551)): a(n) = Sum\_\{primes p <= n\} d(p-1), where d() = A000005.
 * [A079552](https://oeis.org/A079552) ([program](/edit/?oeis=79552)): Record values in A079551.
 * [A079553](https://oeis.org/A079553) ([program](/edit/?oeis=79553)): a(n) = floor( d(n^2) / d(n) ), where d() = A000005.
 * [A079559](https://oeis.org/A079559) ([program](/edit/?oeis=79559)): Number of partitions of n into distinct parts of the form 2^j-1, j=1,2,....
@@ -8514,7 +8935,9 @@ List of integer sequences with links to LODA programs.
 * [A079589](https://oeis.org/A079589) ([program](/edit/?oeis=79589)): a(n) = C(5n+1,n).
 * [A079590](https://oeis.org/A079590) ([program](/edit/?oeis=79590)): C(6n+1,n).
 * [A079598](https://oeis.org/A079598) ([program](/edit/?oeis=79598)): a(n) = 2^(4n+1) - 2^(2n).
+* [A079609](https://oeis.org/A079609) ([program](/edit/?oeis=79609)): a(p) = (b(p)-2)/p where b(k) denotes the k-th Bell number and p runs through the prime numbers.
 * [A079610](https://oeis.org/A079610) ([program](/edit/?oeis=79610)): a(n) = (5\*n+1)\*(5\*n+3)\*(5\*n+5).
+* [A079612](https://oeis.org/A079612) ([program](/edit/?oeis=79612)): Largest number m such that a^n == 1 (mod m) whenever a is coprime to m.
 * [A079615](https://oeis.org/A079615) ([program](/edit/?oeis=79615)): Product of all distinct prime factors of all composite numbers between n-th prime and next prime.
 * [A079621](https://oeis.org/A079621) ([program](/edit/?oeis=79621)): Matrix square of unsigned Lah triangle abs(A008297(n,k)) or A105278(n,k).
 * [A079623](https://oeis.org/A079623) ([program](/edit/?oeis=79623)): a(1)=a(2)=1, a(3)=4, a(n)=abs(a(n-1)-a(n-2)-a(n-3)).
@@ -8540,6 +8963,7 @@ List of integer sequences with links to LODA programs.
 * [A079707](https://oeis.org/A079707) ([program](/edit/?oeis=79707)): In prime factorization of n replace odd primes with their prime predecessor.
 * [A079709](https://oeis.org/A079709) ([program](/edit/?oeis=79709)): Numbers m such that the squarefree kernel of m is less than the squarefree kernel of m+1.
 * [A079710](https://oeis.org/A079710) ([program](/edit/?oeis=79710)): Numbers m such that the squarefree kernel of m is larger than the squarefree kernel of m+1.
+* [A079714](https://oeis.org/A079714) ([program](/edit/?oeis=79714)): Number of 2's in n!.
 * [A079715](https://oeis.org/A079715) ([program](/edit/?oeis=79715)): a(n) = Pi(n) - Pi(sqrt(n)) + 1.
 * [A079719](https://oeis.org/A079719) ([program](/edit/?oeis=79719)): a(n) = n + floor[sum\_k\{k<n\}a(k)/2] with a(0)=0.
 * [A079725](https://oeis.org/A079725) ([program](/edit/?oeis=79725)): Sum of composite numbers less than n-th prime.
@@ -8563,12 +8987,15 @@ List of integer sequences with links to LODA programs.
 * [A079782](https://oeis.org/A079782) ([program](/edit/?oeis=79782)): Final term of n-th row of triangle in A079784.
 * [A079783](https://oeis.org/A079783) ([program](/edit/?oeis=79783)): Sum of n-th row of triangle in A079784.
 * [A079784](https://oeis.org/A079784) ([program](/edit/?oeis=79784)): Triangle read by rows in which the n-th row contains the smallest set of n consecutive numbers such that the r-th number in the n-th row is divisible by n-r+1. The first term of the n-th row must exceed n.
+* [A079810](https://oeis.org/A079810) ([program](/edit/?oeis=79810)): Sums of diagonals (upward from left to right) of the triangle shown in A079809.
 * [A079813](https://oeis.org/A079813) ([program](/edit/?oeis=79813)): n 0's followed by n 1's.
 * [A079816](https://oeis.org/A079816) ([program](/edit/?oeis=79816)): Number of permutations satisfying -k<=p(i)-i<=r and p(i)-i not in I, i=1..n, with k=1, r=5, I=\{1\}.
 * [A079821](https://oeis.org/A079821) ([program](/edit/?oeis=79821)): Smallest n-digit multiple of the n-th prime.
+* [A079822](https://oeis.org/A079822) ([program](/edit/?oeis=79822)): Smallest n-digit multiple of the n-th composite number.
 * [A079824](https://oeis.org/A079824) ([program](/edit/?oeis=79824)): Sum of numbers in n-th upward diagonal of triangle in A079823.
 * [A079827](https://oeis.org/A079827) ([program](/edit/?oeis=79827)): a(n) = floor((n + reverse(n))/2).
 * [A079838](https://oeis.org/A079838) ([program](/edit/?oeis=79838)): a(1) = 1 and then smallest multiple of a(n) which has no nonzero digit in common with a(n).
+* [A079858](https://oeis.org/A079858) ([program](/edit/?oeis=79858)): E.g.f. 1/(cos(2\*x) - sin(2\*x)).
 * [A079859](https://oeis.org/A079859) ([program](/edit/?oeis=79859)): a(n) = n\*2^(n-4).
 * [A079861](https://oeis.org/A079861) ([program](/edit/?oeis=79861)): a(n) is the number of occurrences of 7's in the palindromic compositions of 2\*n-1, or also, the number of occurrences of 8's in the palindromic compositions of 2\*n.
 * [A079862](https://oeis.org/A079862) ([program](/edit/?oeis=79862)): a(i) = the number of occurrences of 9's in the palindromic compositions of n=2\*i-1 = the number of occurrences of 10's in the palindromic compositions of n=2\*i.
@@ -8586,6 +9013,7 @@ List of integer sequences with links to LODA programs.
 * [A079908](https://oeis.org/A079908) ([program](/edit/?oeis=79908)): Solution to the Dancing School Problem with 3 girls and n+3 boys: f(3,n).
 * [A079909](https://oeis.org/A079909) ([program](/edit/?oeis=79909)): Solution to the Dancing School Problem with 4 girls and n+4 boys: f(4,n).
 * [A079921](https://oeis.org/A079921) ([program](/edit/?oeis=79921)): Solution to the Dancing School Problem with n girls and n+2 boys: f(n,2).
+* [A079922](https://oeis.org/A079922) ([program](/edit/?oeis=79922)): Solution to the Dancing School Problem with n girls and n+3 boys: f(n,3).
 * [A079929](https://oeis.org/A079929) ([program](/edit/?oeis=79929)): a(n)=(3\*n+1)!/(n!\*3^n).
 * [A079935](https://oeis.org/A079935) ([program](/edit/?oeis=79935)): a(n) = 4\*a(n-1) - a(n-2) with a(1) = 1, a(2) = 3.
 * [A079944](https://oeis.org/A079944) ([program](/edit/?oeis=79944)): A run of 2^n 0's followed by a run of 2^n 1's, for n=0, 1, 2, ...
@@ -8594,6 +9022,7 @@ List of integer sequences with links to LODA programs.
 * [A079947](https://oeis.org/A079947) ([program](/edit/?oeis=79947)): Partial sums of A030300.
 * [A079948](https://oeis.org/A079948) ([program](/edit/?oeis=79948)): First differences of A079000.
 * [A079949](https://oeis.org/A079949) ([program](/edit/?oeis=79949)): Special values of Hermite polynomials.
+* [A079950](https://oeis.org/A079950) ([program](/edit/?oeis=79950)): Triangle of n-th prime modulo twice primes less n-th prime.
 * [A079951](https://oeis.org/A079951) ([program](/edit/?oeis=79951)): Number of primes p with prime(n) == 1 (modulo 2\*p).
 * [A079952](https://oeis.org/A079952) ([program](/edit/?oeis=79952)): Number of primes less than prime(n)/2.
 * [A079953](https://oeis.org/A079953) ([program](/edit/?oeis=79953)): Smallest prime p such that prime(n) mod 2\*p = prime(n).
@@ -8622,6 +9051,8 @@ List of integer sequences with links to LODA programs.
 * [A079977](https://oeis.org/A079977) ([program](/edit/?oeis=79977)): Fibonacci numbers interspersed with zeros.
 * [A079978](https://oeis.org/A079978) ([program](/edit/?oeis=79978)): Characteristic function of multiples of three.
 * [A079979](https://oeis.org/A079979) ([program](/edit/?oeis=79979)): Characteristic function of multiples of six.
+* [A079980](https://oeis.org/A079980) ([program](/edit/?oeis=79980)): Number of permutations of length 2n satisfying -k<=p(i)-i<=r and p(i)-i not in I, i=1..2n, with k=3, r=3, I=\{-2,0,1,2\}. There is no one such permutation of length 2n+1.
+* [A079981](https://oeis.org/A079981) ([program](/edit/?oeis=79981)): Number of permutations satisfying -k<=p(i)-i<=r and p(i)-i not in I, i=1..n, with k=3, r=3, I=\{-2,0,1,2\}.
 * [A079986](https://oeis.org/A079986) ([program](/edit/?oeis=79986)): Number of permutations satisfying -k<=p(i)-i<=r and p(i)-i not in I, i=1..n, with k=3, r=3, I=\{-2,0,2\}.
 * [A079998](https://oeis.org/A079998) ([program](/edit/?oeis=79998)): The characteristic function of the multiples of five.
 * [A080013](https://oeis.org/A080013) ([program](/edit/?oeis=80013)): Number of permutations satisfying -k<=p(i)-i<=r and p(i)-i not in I, i=1..n, with k=2, r=2, I=\{0,1\}.
@@ -8654,6 +9085,7 @@ List of integer sequences with links to LODA programs.
 * [A080085](https://oeis.org/A080085) ([program](/edit/?oeis=80085)): Number of factors of 2 in the factorial of the n-th prime, counted with multiplicity.
 * [A080086](https://oeis.org/A080086) ([program](/edit/?oeis=80086)): Number of factors of 3 in the factorial of the n-th prime, counted with multiplicity.
 * [A080087](https://oeis.org/A080087) ([program](/edit/?oeis=80087)): Number of factors of 5 in the factorial of the n-th prime, counted with multiplicity.
+* [A080093](https://oeis.org/A080093) ([program](/edit/?oeis=80093)): Let sum(k>=0, k^n/(2\*k+1)!) = (x(n)\*e + y(n)/e)/z(n), where x(n) and z(n) are >0, then a(n)=x(n).
 * [A080095](https://oeis.org/A080095) ([program](/edit/?oeis=80095)): Let sum(k>=0, k^n/(2\*k+1)!) = (x(n)\*e + y(n)/e)/z(n), where x(n) and z(n) are >0, then a(n)=z(n).
 * [A080096](https://oeis.org/A080096) ([program](/edit/?oeis=80096)): a(1)=a(2)=1; a(3)=2; a(n)=abs(a(n-1)-a(n-2)-a(n-3)).
 * [A080097](https://oeis.org/A080097) ([program](/edit/?oeis=80097)): a(n) = Fibonacci(n+2)^2 - 1.
@@ -8689,6 +9121,7 @@ List of integer sequences with links to LODA programs.
 * [A080212](https://oeis.org/A080212) ([program](/edit/?oeis=80212)): Binomial(n, smallest odd prime factor of n).
 * [A080213](https://oeis.org/A080213) ([program](/edit/?oeis=80213)): a(n) = binomial(n, greatest prime factor of n).
 * [A080214](https://oeis.org/A080214) ([program](/edit/?oeis=80214)): Binomial(greatest prime factor of n, smallest prime factor of n).
+* [A080215](https://oeis.org/A080215) ([program](/edit/?oeis=80215)): Binomial(greatest prime factor of n, smallest odd prime factor of n).
 * [A080216](https://oeis.org/A080216) ([program](/edit/?oeis=80216)): a(n) is the largest value taken by binomial(n,j) mod j for j in [1..n].
 * [A080218](https://oeis.org/A080218) ([program](/edit/?oeis=80218)): Monotonically increasing sequence such that every positive integer n appears if and only if d(n) doesn't (d(n)=number of divisors of n, A000005).
 * [A080227](https://oeis.org/A080227) ([program](/edit/?oeis=80227)): a(n) = n\*a(n-1) + (1/2)\*(1+(-1)^n), a(0)=0.
@@ -8699,7 +9132,11 @@ List of integer sequences with links to LODA programs.
 * [A080237](https://oeis.org/A080237) ([program](/edit/?oeis=80237)): Start with 1 and apply the process: k-th run is 1, 2, 3, ..., a(k-1)+1.
 * [A080238](https://oeis.org/A080238) ([program](/edit/?oeis=80238)): Largest squarefree number dividing sum of cubes of divisors of n.
 * [A080239](https://oeis.org/A080239) ([program](/edit/?oeis=80239)): Antidiagonal sums of triangle A035317.
+* [A080242](https://oeis.org/A080242) ([program](/edit/?oeis=80242)): Table of coefficients of polynomials P(n,x) defined by the relation P(n,x) = (1+x)\*P(n-1,x) + (-x)^(n+1).
 * [A080243](https://oeis.org/A080243) ([program](/edit/?oeis=80243)): Signed super-Catalan or little Schroeder numbers.
+* [A080245](https://oeis.org/A080245) ([program](/edit/?oeis=80245)): Inverse of coordination sequence array A113413.
+* [A080246](https://oeis.org/A080246) ([program](/edit/?oeis=80246)): Signed version of A035607.
+* [A080247](https://oeis.org/A080247) ([program](/edit/?oeis=80247)): Formal inverse of triangle A080246. Unsigned version of A080245.
 * [A080250](https://oeis.org/A080250) ([program](/edit/?oeis=80250)): Expansion of 1/((1-x)(1-4x)(1-10x)(1-20x)).
 * [A080251](https://oeis.org/A080251) ([program](/edit/?oeis=80251)): Paired decomposition of tetrahedral numbers A000292 arranged as number triangle.
 * [A080252](https://oeis.org/A080252) ([program](/edit/?oeis=80252)): a(n) = n\*a(n-1)+4\*a(n-2)-4\*(n-2)\*a(n-3).
@@ -8709,9 +9146,12 @@ List of integer sequences with links to LODA programs.
 * [A080258](https://oeis.org/A080258) ([program](/edit/?oeis=80258)): Either 4th power of a prime, or product of a prime and the square of a different prime.
 * [A080259](https://oeis.org/A080259) ([program](/edit/?oeis=80259)): Numbers whose squarefree kernel is not a primorial number, i.e., A007947(a(n)) is not in A002110.
 * [A080260](https://oeis.org/A080260) ([program](/edit/?oeis=80260)): a(n)=1+(1/12)(n\*(n+1)\*(n+3)\*(4-n)).
+* [A080267](https://oeis.org/A080267) ([program](/edit/?oeis=80267)): a(n) = Sum\_\{d divides n\} d\*2^(n-n/d).
+* [A080275](https://oeis.org/A080275) ([program](/edit/?oeis=80275)): a(n)=(-1)^n(1 - (1/12)n(n + 1)(12 - n + n^2)).
 * [A080276](https://oeis.org/A080276) ([program](/edit/?oeis=80276)): Variation on Connell sequence (A001614). In this one, a(1)=1, terms a(n) onwards are generated in "blocks" as the next a(n-1) odd numbers > a(n-1) if the previous block ends with a(n-1) even and the next a(n-1) even numbers > a(n-1) if the previous block ends with a(n-1) odd.
 * [A080277](https://oeis.org/A080277) ([program](/edit/?oeis=80277)): Partial sums of A038712.
 * [A080278](https://oeis.org/A080278) ([program](/edit/?oeis=80278)): a(n) = (3^(v\_3(n) + 1) - 1)/2, where v\_3(n) = highest power of 3 dividing n = A007949(n).
+* [A080291](https://oeis.org/A080291) ([program](/edit/?oeis=80291)): a(n)=(-1)^(n+1)n^n(n+(1/12)(n^2-1)).
 * [A080299](https://oeis.org/A080299) ([program](/edit/?oeis=80299)): A014486-encoding of plane binary trees (Stanley's d) whose interior zigzag-tree (Stanley's c, i.e., tree obtained by discarding the outermost edges of the binary tree) is isomorphic to a valid plane binary tree (Stanley's d).
 * [A080303](https://oeis.org/A080303) ([program](/edit/?oeis=80303)): Rewrite 0->100 in the binary expansion of n.
 * [A080304](https://oeis.org/A080304) ([program](/edit/?oeis=80304)): Numerator of n^mu(n), where mu is the Moebius function (A008683).
@@ -8742,12 +9182,13 @@ List of integer sequences with links to LODA programs.
 * [A080367](https://oeis.org/A080367) ([program](/edit/?oeis=80367)): Largest unitary prime divisor of n or a(n)=0 if no such prime divisor exists.
 * [A080368](https://oeis.org/A080368) ([program](/edit/?oeis=80368)): a(n) is the least unitary prime divisor of n, or 0 if no such prime divisor exists.
 * [A080378](https://oeis.org/A080378) ([program](/edit/?oeis=80378)): Residues mod 4 of the n-th difference between consecutive primes.
+* [A080381](https://oeis.org/A080381) ([program](/edit/?oeis=80381)): Triangle read by rows: gcd(binomial(n,floor(n/2)), binomial(n,i), i=0..n; greatest common divisor of binomial coefficients and corresponding central binomial coefficient.
+* [A080382](https://oeis.org/A080382) ([program](/edit/?oeis=80382)): Triangle read by rows: T(n,k) = C(n,floor(n/2))/gcd(C(n,floor(n/2)),C(n,k)), k=0..n; central binomial coefficient is divided by greatest common divisor of binomial coefficients and corresponding central binomial coefficient.
 * [A080396](https://oeis.org/A080396) ([program](/edit/?oeis=80396)): Largest squarefree numbers dividing the binomial coefficients C(n,k) read by row, 0<=k<=n. Squarefree kernel of Pascal triangle.
 * [A080397](https://oeis.org/A080397) ([program](/edit/?oeis=80397)): Largest squarefree number dividing central binomial coefficient A000984(n).
 * [A080398](https://oeis.org/A080398) ([program](/edit/?oeis=80398)): Largest squarefree number dividing sum of divisors of n.
 * [A080399](https://oeis.org/A080399) ([program](/edit/?oeis=80399)): Largest squarefree number dividing sum of squares of divisors of n.
-* [A080400](https://oeis.org/A080400) ([program](/edit/?oeis=80400)): Largest squarefree number dividing phi of n.
-* [A080405](https://oeis.org/A080405) ([program](/edit/?oeis=80405)): Number of distinct primes dividing n-th Catalan number.
+* [A080400](https://oeis.org/A080400) ([program](/edit/?oeis=80400)): Largest squarefree number dividing phi(n).
 * [A080412](https://oeis.org/A080412) ([program](/edit/?oeis=80412)): Exchange rightmost two binary digits of n > 1; a(0)=0, a(1)=2.
 * [A080413](https://oeis.org/A080413) ([program](/edit/?oeis=80413)): Take the rightmost three binary digits of n (for n<4 padded with leading zeros) and rotate left 1 digit.
 * [A080414](https://oeis.org/A080414) ([program](/edit/?oeis=80414)): Take the rightmost three binary digits of n (for n<4 padded with leading zeros) and rotate right 1 digit.
@@ -8776,9 +9217,16 @@ List of integer sequences with links to LODA programs.
 * [A080467](https://oeis.org/A080467) ([program](/edit/?oeis=80467)): Multiples of 11 in which the even positioned digits from left are odd and the odd positioned ones are even.
 * [A080468](https://oeis.org/A080468) ([program](/edit/?oeis=80468)): a(n) = A080578(n)-2n.
 * [A080473](https://oeis.org/A080473) ([program](/edit/?oeis=80473)): a(n)= sum of the products of taking (n-1) numbers from the next n numbers. The next n numbers can be grouped like this (1), (2,3), (4,5,6), (7,8,9,10),... and a(n) is the (sum of the reciprocals of all members) multiplied by (the product of all members).
+* [A080474](https://oeis.org/A080474) ([program](/edit/?oeis=80474)): a(n)= product of sum of taking (n-1) numbers from the next n numbers. The next n numbers can be grouped like this (1), (2,3), (4,5,6), (7,8,9,10),... . Let N be the sum of all the members of the n-th group. Let k be a member and f(k) = N - k. Then a(n) = the product of all f(k) for k taking all member values.
 * [A080476](https://oeis.org/A080476) ([program](/edit/?oeis=80476)): Floor( geometric mean of next n numbers ).
+* [A080480](https://oeis.org/A080480) ([program](/edit/?oeis=80480)): Largest number formed by using all the digits (with multiplicity) of next n numbers.
+* [A080481](https://oeis.org/A080481) ([program](/edit/?oeis=80481)): Concatenation of next n numbers (a(1) = 0).
+* [A080482](https://oeis.org/A080482) ([program](/edit/?oeis=80482)): A080481(n)/3.
+* [A080483](https://oeis.org/A080483) ([program](/edit/?oeis=80483)): Reverse concatenation of next n numbers with a(1) = 0.
+* [A080484](https://oeis.org/A080484) ([program](/edit/?oeis=80484)): A080483(n)/3.
 * [A080486](https://oeis.org/A080486) ([program](/edit/?oeis=80486)): a(1) = 1, a(n) = smallest multiple of a(n-1) (not equal to 10\*a(n-1)) obtained by inserting digits anywhere in a(n-1).
 * [A080488](https://oeis.org/A080488) ([program](/edit/?oeis=80488)): a(1) =3, a(n) = smallest multiple of a(n-1) (not equal to 10\*a(n-1)) obtained by inserting digits anywhere in a(n-1).
+* [A080492](https://oeis.org/A080492) ([program](/edit/?oeis=80492)): a(1) =7, a(n) = smallest multiple of a(n-1) (not equal to 10\*a(n-1)) obtained by inserting digits anywhere in a(n-1).
 * [A080493](https://oeis.org/A080493) ([program](/edit/?oeis=80493)): a(1) =8, a(n) = smallest multiple of a(n-1) (not equal to 10\*a(n-1)) obtained by inserting digits anywhere in a(n-1).
 * [A080494](https://oeis.org/A080494) ([program](/edit/?oeis=80494)): a(1) =9, a(n) = smallest multiple of a(n-1) (not equal to 10\*a(n-1)) obtained by inserting digits anywhere in a(n-1).
 * [A080497](https://oeis.org/A080497) ([program](/edit/?oeis=80497)): a(n) = (n-p\_1)(n-p\_2)...(n-p\_k) where p\_k is the k-th prime and is also the largest prime < n.
@@ -8854,11 +9302,16 @@ List of integer sequences with links to LODA programs.
 * [A080701](https://oeis.org/A080701) ([program](/edit/?oeis=80701)): Product of upper bound twin-prime-indexed primes and their upper bound twin prime.
 * [A080702](https://oeis.org/A080702) ([program](/edit/?oeis=80702)): a(1)=3; for n>1, a(n) = smallest number > a(n-1) such that the condition "if n is in the sequence then a(n) is even" is satisfied.
 * [A080703](https://oeis.org/A080703) ([program](/edit/?oeis=80703)): a(1)=5; for n>1, a(n) = smallest number > a(n-1) such that the condition "if n is in the sequence then a(n) is a multiple of 4" is satisfied.
+* [A080704](https://oeis.org/A080704) ([program](/edit/?oeis=80704)): a(1)=2; for n>1, if n is in the sequence then a(n) is the smallest even integer > a(n-1), otherwise a(n) = a(n-1) + 3.
+* [A080705](https://oeis.org/A080705) ([program](/edit/?oeis=80705)): Numbers n such that A080704(n+1) - A080704(n) = 1.
 * [A080709](https://oeis.org/A080709) ([program](/edit/?oeis=80709)): Take sum of squares of digits of previous term, starting with 4.
+* [A080710](https://oeis.org/A080710) ([program](/edit/?oeis=80710)): a(0) = 1; for n>0, a(n) is taken to be the smallest positive integer greater than a(n-1) which is consistent with the condition "n is a member of the sequence if and only if a(n) is a multiple of 3".
+* [A080711](https://oeis.org/A080711) ([program](/edit/?oeis=80711)): a(0) = 2; for n>0, a(n) is taken to be the smallest positive integer greater than a(n-1) which is consistent with the condition "n is a member of the sequence if and only if a(n) is a multiple of 3".
 * [A080717](https://oeis.org/A080717) ([program](/edit/?oeis=80717)): Let S(0) = 1; obtain S(k) from S(k-1) by applying 1 -> 2, 2 -> 31, 3 -> 332; sequence is S(0), S(1), S(2), ...
 * [A080722](https://oeis.org/A080722) ([program](/edit/?oeis=80722)): a(0) = 0; for n>0, a(n) is taken to be the smallest positive integer greater than a(n-1) which is consistent with the condition "n is a member of the sequence if and only if a(n) == 1 mod 3".
 * [A080723](https://oeis.org/A080723) ([program](/edit/?oeis=80723)): a(0) = 1; for n>0, a(n) is taken to be the smallest positive integer greater than a(n-1) which is consistent with the condition "n is a member of the sequence if and only if a(n) == 1 mod 3".
 * [A080724](https://oeis.org/A080724) ([program](/edit/?oeis=80724)): a(0) = 2; for n>0, a(n) is taken to be the smallest positive integer greater than a(n-1) which is consistent with the condition "n is a member of the sequence if and only if a(n) == 1 mod 3".
+* [A080725](https://oeis.org/A080725) ([program](/edit/?oeis=80725)): a(1) = 2; for n>1, a(n) is taken to be the smallest positive integer greater than a(n-1) which is consistent with the condition "n is a member of the sequence if and only if a(n) == 1 mod 3".
 * [A080726](https://oeis.org/A080726) ([program](/edit/?oeis=80726)): a(0) = 0; for n>0, a(n) is taken to be the smallest positive integer greater than a(n-1) which is consistent with the condition "n is a member of the sequence if and only if a(n) == 2 mod 3".
 * [A080727](https://oeis.org/A080727) ([program](/edit/?oeis=80727)): a(0) = 1; for n>0, a(n) is taken to be the smallest positive integer greater than a(n-1) which is consistent with the condition "n is a member of the sequence if and only if a(n) == 2 mod 3".
 * [A080731](https://oeis.org/A080731) ([program](/edit/?oeis=80731)): a(1)=1; a(2)=6; for n > 2, a(n) is taken as the smallest positive integer greater than a(n-1) such that the condition "n is a member of the sequence if and only if a(n) is odd" is satisfied.
@@ -8879,12 +9332,14 @@ List of integer sequences with links to LODA programs.
 * [A080764](https://oeis.org/A080764) ([program](/edit/?oeis=80764)): First differences of A049472, floor(n/sqrt(2)).
 * [A080765](https://oeis.org/A080765) ([program](/edit/?oeis=80765)): Integers m such that m+1 divides lcm(1 through m).
 * [A080770](https://oeis.org/A080770) ([program](/edit/?oeis=80770)): a(n)=[e\*(n+3)! ]-(n+3)(n+2)(n+1)(n)\*[e\*(n-1)! ].
+* [A080773](https://oeis.org/A080773) ([program](/edit/?oeis=80773)): In binary representation: sum of number of 1's in prime factors of n (with repetition).
 * [A080774](https://oeis.org/A080774) ([program](/edit/?oeis=80774)): Numbers with two prime factors: (4\*i+1)\*(4\*j+3).
 * [A080775](https://oeis.org/A080775) ([program](/edit/?oeis=80775)): Number of n X n monomial matrices whose nonzero entries are unit Hurwitz quaternions.
 * [A080776](https://oeis.org/A080776) ([program](/edit/?oeis=80776)): Oscillating sequence which rises to 2^(k-1) in k-th segment (k>=1) then falls back to 0.
 * [A080782](https://oeis.org/A080782) ([program](/edit/?oeis=80782)): a(1)=1, a(n)=a(n-1)-1 if n is already in the sequence, a(n)=a(n-1)+2 otherwise.
 * [A080787](https://oeis.org/A080787) ([program](/edit/?oeis=80787)): a(1)=a(2)=1; a(n) = a(n-1) + last decimal digit of a(n-2).
 * [A080791](https://oeis.org/A080791) ([program](/edit/?oeis=80791)): Number of nonleading 0's in binary expansion of n.
+* [A080795](https://oeis.org/A080795) ([program](/edit/?oeis=80795)): Number of minimax trees on n nodes.
 * [A080799](https://oeis.org/A080799) ([program](/edit/?oeis=80799)): Number of divide by 2 and add 1 operations required to reach ...,7,8,4,2,1 when started at n.
 * [A080800](https://oeis.org/A080800) ([program](/edit/?oeis=80800)): Similar to A080799 but count only division steps.
 * [A080801](https://oeis.org/A080801) ([program](/edit/?oeis=80801)): Similar to A080799 but count only addition steps.
@@ -8923,9 +9378,9 @@ List of integer sequences with links to LODA programs.
 * [A080881](https://oeis.org/A080881) ([program](/edit/?oeis=80881)): a(n)\*a(n+3) - a(n+1)\*a(n+2) = 2^n, given a(0)=1, a(1)=2, a(2)=10.
 * [A080882](https://oeis.org/A080882) ([program](/edit/?oeis=80882)): a(n)\*a(n+3) - a(n+1)\*a(n+2) = 2^n, given a(0)=1, a(1)=3, a(2)=7.
 * [A080883](https://oeis.org/A080883) ([program](/edit/?oeis=80883)): Distance of n to next square.
-* [A080885](https://oeis.org/A080885) ([program](/edit/?oeis=80885)): Boolean AND of (0,1) versions of Thue-Morse word (A010060) and Fibonacci word (A003849).
 * [A080891](https://oeis.org/A080891) ([program](/edit/?oeis=80891)): Period 5: repeat [0, 1, -1, -1, 1].
 * [A080893](https://oeis.org/A080893) ([program](/edit/?oeis=80893)): E.g.f. exp(x\*C(x)) = exp((1-sqrt(1-4\*x))/2), where C(x) is the g.f. of the Catalan numbers A000108.
+* [A080894](https://oeis.org/A080894) ([program](/edit/?oeis=80894)): Expansion of the exponential series exp( x M(x) ) = exp( (1-sqrt(1-2x-3x^2))/(2x) ), where M(x) is the ordinary generating series of the Motzkin numbers A001006.
 * [A080902](https://oeis.org/A080902) ([program](/edit/?oeis=80902)): a(1)=1, a(n)=a(n-1)+2 if (n and n+3 are in the sequence), a(n)=a(n-1)+3 otherwise.
 * [A080903](https://oeis.org/A080903) ([program](/edit/?oeis=80903)): a(1)=1; for n>1, a(n)=a(n-1)+4 if n is already in the sequence, a(n)=a(n-1)+2 otherwise.
 * [A080920](https://oeis.org/A080920) ([program](/edit/?oeis=80920)): a(n) = 2a(n-1) + 35a(n-2), a(0)=0, a(1)=1.
@@ -8950,6 +9405,7 @@ List of integer sequences with links to LODA programs.
 * [A080960](https://oeis.org/A080960) ([program](/edit/?oeis=80960)): Third binomial transform of A010685 (period 2: repeat 1,4).
 * [A080961](https://oeis.org/A080961) ([program](/edit/?oeis=80961)): Fourth binomial transform of A010686 (period 2: repeat 1,5).
 * [A080962](https://oeis.org/A080962) ([program](/edit/?oeis=80962)): 5th binomial transform of the periodic sequence (1,6,1,1,6,1...).
+* [A080966](https://oeis.org/A080966) ([program](/edit/?oeis=80966)): Expansion of theta\_4(q^2) \* theta\_2(q)^2/(4\*q^(1/2)) in powers of q.
 * [A080978](https://oeis.org/A080978) ([program](/edit/?oeis=80978)): a(n) = 2\*A006046(n) + 1.
 * [A080982](https://oeis.org/A080982) ([program](/edit/?oeis=80982)): Smallest k such that the k-th triangular number has n^2 as divisor.
 * [A080983](https://oeis.org/A080983) ([program](/edit/?oeis=80983)): Smallest triangular number having n^2 as divisor.
@@ -8996,10 +9452,12 @@ List of integer sequences with links to LODA programs.
 * [A081049](https://oeis.org/A081049) ([program](/edit/?oeis=81049)): Generalized Stirling numbers of the first kind.
 * [A081050](https://oeis.org/A081050) ([program](/edit/?oeis=81050)): Generalized Stirling numbers of the first kind.
 * [A081051](https://oeis.org/A081051) ([program](/edit/?oeis=81051)): Stirling numbers of the first kind.
+* [A081052](https://oeis.org/A081052) ([program](/edit/?oeis=81052)): Difference of Stirling numbers of the first kind.
 * [A081057](https://oeis.org/A081057) ([program](/edit/?oeis=81057)): E.g.f.: Sum\_\{n>=0\} a(n)\*x^n/n! = \{Sum\_\{n>=0\} F(n+1)\*x^n/n!\}^2, where F(n) is the n-th Fibonacci number.
 * [A081062](https://oeis.org/A081062) ([program](/edit/?oeis=81062)): Neither 3-smooth numbers nor prime powers.
 * [A081063](https://oeis.org/A081063) ([program](/edit/?oeis=81063)): Number of numbers <= n that are 3-smooth or prime powers.
 * [A081065](https://oeis.org/A081065) ([program](/edit/?oeis=81065)): Numbers n such that n^2 = (1/3)\*(n+floor(sqrt(3)\*n\*floor(sqrt(3)\*n))).
+* [A081066](https://oeis.org/A081066) ([program](/edit/?oeis=81066)): Even order Taylor expansion coefficients at x=0 of exp(exp(x^2/2)-1), odd order coefficients being equal to zero.
 * [A081067](https://oeis.org/A081067) ([program](/edit/?oeis=81067)): Lucas(4n+2)+2, or 5\*Fibonacci(2n+1)^2.
 * [A081068](https://oeis.org/A081068) ([program](/edit/?oeis=81068)): a(n) = (Lucas(4\*n+2) + 2)/5, or Fibonacci(2\*n+1)^2, or A081067(n)/5.
 * [A081069](https://oeis.org/A081069) ([program](/edit/?oeis=81069)): Lucas(4n)+2, or Lucas(2n)^2.
@@ -9097,6 +9555,8 @@ List of integer sequences with links to LODA programs.
 * [A081256](https://oeis.org/A081256) ([program](/edit/?oeis=81256)): Greatest prime factor of n^3 + 1.
 * [A081257](https://oeis.org/A081257) ([program](/edit/?oeis=81257)): Greatest prime factor of n^3-1.
 * [A081259](https://oeis.org/A081259) ([program](/edit/?oeis=81259)): a(n) is the smallest k such that C(3n,n) divides k!.
+* [A081260](https://oeis.org/A081260) ([program](/edit/?oeis=81260)): a(1)=4; for n>1, a(n) is taken to be the third-smallest integer greater than a(n-1) such that the condition "n is a member of the sequence if and only if a(n) is odd" is satisfied.
+* [A081261](https://oeis.org/A081261) ([program](/edit/?oeis=81261)): Start with a(1)=4; apply 4 -> 665, 5 -> 56665, 6 -> 566665; iterate.
 * [A081266](https://oeis.org/A081266) ([program](/edit/?oeis=81266)): Staggered diagonal of triangular spiral in A051682.
 * [A081267](https://oeis.org/A081267) ([program](/edit/?oeis=81267)): Diagonal of triangular spiral in A051682.
 * [A081268](https://oeis.org/A081268) ([program](/edit/?oeis=81268)): Diagonal of triangular spiral in A051682.
@@ -9107,6 +9567,7 @@ List of integer sequences with links to LODA programs.
 * [A081276](https://oeis.org/A081276) ([program](/edit/?oeis=81276)): Floor(n^3/8).
 * [A081277](https://oeis.org/A081277) ([program](/edit/?oeis=81277)): Square array of unsigned coefficients of Chebyshev polynomials of the first kind.
 * [A081278](https://oeis.org/A081278) ([program](/edit/?oeis=81278)): Binomial transform of Chebyshev polynomial coefficients A001793.
+* [A081279](https://oeis.org/A081279) ([program](/edit/?oeis=81279)): Binomial transform of Chebyshev coefficients A001794.
 * [A081282](https://oeis.org/A081282) ([program](/edit/?oeis=81282)): Generalized centered polygonal numbers.
 * [A081283](https://oeis.org/A081283) ([program](/edit/?oeis=81283)): An interleaved sequence of pyramidal and polygonal numbers.
 * [A081284](https://oeis.org/A081284) ([program](/edit/?oeis=81284)): An interleaved sequence of pyramidal and polygonal numbers.
@@ -9159,6 +9620,7 @@ List of integer sequences with links to LODA programs.
 * [A081374](https://oeis.org/A081374) ([program](/edit/?oeis=81374)): Size of "uniform" Hamming covers of distance 1, that is, Hamming covers in which all vectors of equal weight are treated the same, included or excluded from the cover together.
 * [A081386](https://oeis.org/A081386) ([program](/edit/?oeis=81386)): Number of unitary prime divisors of central binomial coefficient, C(2n,n) = A000984(n), i.e., number of those prime factors in C(2n,n), whose exponent equals one.
 * [A081387](https://oeis.org/A081387) ([program](/edit/?oeis=81387)): Number of non-unitary prime divisors of central binomial coefficient, C(2n,n) = A000984(n), i.e., number of prime factors in C(2n,n) whose exponent is greater than one.
+* [A081396](https://oeis.org/A081396) ([program](/edit/?oeis=81396)): Number of common prime factors (ignoring multiplicity) of sigma(n) = A000203(n) and phi(n) = A000010(n).
 * [A081399](https://oeis.org/A081399) ([program](/edit/?oeis=81399)): Bigomega of the n-th Catalan number: a(n) = A001222(A000108(n)).
 * [A081400](https://oeis.org/A081400) ([program](/edit/?oeis=81400)): a(n) = d(n) - bigomega(n) - A005361(n).
 * [A081401](https://oeis.org/A081401) ([program](/edit/?oeis=81401)): Pseudologarithm (A056239) of n!: a(n) = A056239(A000142(n)).
@@ -9276,6 +9738,7 @@ List of integer sequences with links to LODA programs.
 * [A081631](https://oeis.org/A081631) ([program](/edit/?oeis=81631)): 2\*2^n-(-2)^n.
 * [A081632](https://oeis.org/A081632) ([program](/edit/?oeis=81632)): 2\*3^n-(-1)^n.
 * [A081652](https://oeis.org/A081652) ([program](/edit/?oeis=81652)): Greatest common divisor of n and sum of decimal digits of n-th prime.
+* [A081653](https://oeis.org/A081653) ([program](/edit/?oeis=81653)): Greatest common divisor of sums of decimal digits of n and of n-th prime.
 * [A081654](https://oeis.org/A081654) ([program](/edit/?oeis=81654)): a(n) = 2\*4^n - 0^n.
 * [A081655](https://oeis.org/A081655) ([program](/edit/?oeis=81655)): 2\*5^n-1.
 * [A081656](https://oeis.org/A081656) ([program](/edit/?oeis=81656)): 2\*6^n-2^n.
@@ -9314,6 +9777,7 @@ List of integer sequences with links to LODA programs.
 * [A081714](https://oeis.org/A081714) ([program](/edit/?oeis=81714)): a(n) = F(n)\*L(n+1) where F=Fibonacci and L=Lucas numbers.
 * [A081728](https://oeis.org/A081728) ([program](/edit/?oeis=81728)): Length of periods of Euler numbers modulo prime(n).
 * [A081729](https://oeis.org/A081729) ([program](/edit/?oeis=81729)): Expansion of Sum(k>=0, x^(2^k)) + 1/(1+x). First differences of A007456 (gossip sequence) for n>1.
+* [A081731](https://oeis.org/A081731) ([program](/edit/?oeis=81731)): a(n)=1/60\*(A000364(n+2)-A000364(n)).
 * [A081737](https://oeis.org/A081737) ([program](/edit/?oeis=81737)): a(n) = (n-1)\*10 + n-th decimal digit of Pi=3.14159...
 * [A081738](https://oeis.org/A081738) ([program](/edit/?oeis=81738)): Sum\_\{ 2 <= p <= n, p prime \} p^2.
 * [A081742](https://oeis.org/A081742) ([program](/edit/?oeis=81742)): a(1)=1; then if n is a multiple of 3 a(n)=a(n/3)+1, if n is not a multiple of 3 but even a(n)=a(n/2)+1, a(n)=a(n-1)+1 otherwise.
@@ -9328,6 +9792,7 @@ List of integer sequences with links to LODA programs.
 * [A081805](https://oeis.org/A081805) ([program](/edit/?oeis=81805)): a(n) = n minus (largest prime power in n factorization); a(1) = 0.
 * [A081808](https://oeis.org/A081808) ([program](/edit/?oeis=81808)): Numbers n such that the largest prime power in the factorization of n equals phi(n).
 * [A081810](https://oeis.org/A081810) ([program](/edit/?oeis=81810)): If n = p\_1^e\_1 \* ... \* p\_k^e\_k, p\_1 < ... < p\_k primes, then a(n) = Max\{ p\_i\*e\_i \}.
+* [A081812](https://oeis.org/A081812) ([program](/edit/?oeis=81812)): If n = p\_1^e\_1 \* ... \* p\_k^e\_k, p\_1 < ... < p\_k primes, then a(n) = Max\{ Max(p\_i, e\_i) \}.
 * [A081823](https://oeis.org/A081823) ([program](/edit/?oeis=81823)): Decimal expansion of the elementary charge e in coulomb (C).
 * [A081832](https://oeis.org/A081832) ([program](/edit/?oeis=81832)): a(1)=a(2)=1, a(n) = a(n+1-2\*a(n-1)) + a(n-2\*a(n-2)).
 * [A081834](https://oeis.org/A081834) ([program](/edit/?oeis=81834)): a(1)=1, a(n)=a(n-1)+4 if n is already in the sequence, a(n)=a(n-1)+3 otherwise.
@@ -9341,7 +9806,7 @@ List of integer sequences with links to LODA programs.
 * [A081853](https://oeis.org/A081853) ([program](/edit/?oeis=81853)): Consider recurrence b(0) = (2n+1)/2, b(n) = b(n-1)\*ceiling(b(n-1)); sequence gives first integer reached.
 * [A081854](https://oeis.org/A081854) ([program](/edit/?oeis=81854)): (8\*n-3)\*(4\*n-1)\*(8\*n^2-5\*n+1).
 * [A081857](https://oeis.org/A081857) ([program](/edit/?oeis=81857)): Jacobsthal sequence (A001045) as represented in base 4.
-* [A081858](https://oeis.org/A081858) ([program](/edit/?oeis=81858)): Numbers n such that 2n+1 divides 2^n-1.
+* [A081858](https://oeis.org/A081858) ([program](/edit/?oeis=81858)): Numbers k such that 2\*k+1 divides 2^k-1.
 * [A081861](https://oeis.org/A081861) ([program](/edit/?oeis=81861)): (1/24)\*(sigma\_3(2n-1)-sigma\_1(2n-1)).
 * [A081862](https://oeis.org/A081862) ([program](/edit/?oeis=81862)): (1/168)\*(sigma\_7(2n-1)-sigma\_1(2n-1)).
 * [A081863](https://oeis.org/A081863) ([program](/edit/?oeis=81863)): Largest integer m such that m divides (sigma\_(2n+1)(2k-1)-sigma(2k-1)) for all k>=1.
@@ -9385,6 +9850,7 @@ List of integer sequences with links to LODA programs.
 * [A081923](https://oeis.org/A081923) ([program](/edit/?oeis=81923)): Expansion of exp(2x)/(1-x)^2.
 * [A081924](https://oeis.org/A081924) ([program](/edit/?oeis=81924)): E.g.f.: exp(3\*x)/(1-x)^2.
 * [A081933](https://oeis.org/A081933) ([program](/edit/?oeis=81933)): a(1) = 1, a(n) is the smallest number coprime to n and beginning with a(n-1).
+* [A081942](https://oeis.org/A081942) ([program](/edit/?oeis=81942)): a(1) = 1, a(n) = smallest number greater than a(n-1) such that a(n-1)\*a(n) + 1 is prime.
 * [A081946](https://oeis.org/A081946) ([program](/edit/?oeis=81946)): a(n) = Sum\_\{i=1..n\} floor(r\*floor(i/r)), where r=sqrt(2).
 * [A081954](https://oeis.org/A081954) ([program](/edit/?oeis=81954)): Triangle read by rows: T(n, k) = 2^(n-k)\*3^k, n >= 1, 0 <= k < n.
 * [A081955](https://oeis.org/A081955) ([program](/edit/?oeis=81955)): a(n) = 2^r\*3^s where r = n(n+1)/2 and s = n(n-1)/2.
@@ -9405,6 +9871,7 @@ List of integer sequences with links to LODA programs.
 * [A082035](https://oeis.org/A082035) ([program](/edit/?oeis=82035)): a(n) = (4n^2+2n+1) \* n!.
 * [A082036](https://oeis.org/A082036) ([program](/edit/?oeis=82036)): a(n) = (9\*n^2+3\*n+1) \* n!.
 * [A082037](https://oeis.org/A082037) ([program](/edit/?oeis=82037)): A square array of linear-factorial numbers, read by antidiagonals.
+* [A082038](https://oeis.org/A082038) ([program](/edit/?oeis=82038)): A square array of quadratic-factorial numbers, read by antidiagonals.
 * [A082039](https://oeis.org/A082039) ([program](/edit/?oeis=82039)): Symmetric square array defined by T(n,k)=(k^2\*n^2 + kn + 1), read by antidiagonals.
 * [A082040](https://oeis.org/A082040) ([program](/edit/?oeis=82040)): a(n) = 9\*n^2 + 3\*n + 1.
 * [A082041](https://oeis.org/A082041) ([program](/edit/?oeis=82041)): 16n^2+4n+1.
@@ -9434,6 +9901,7 @@ List of integer sequences with links to LODA programs.
 * [A082075](https://oeis.org/A082075) ([program](/edit/?oeis=82075)): First differences of primes of the form 4\*k+3 (A002145).
 * [A082076](https://oeis.org/A082076) ([program](/edit/?oeis=82076)): First differences of primes of the form 4\*k+3 (A002145), divided by 4.
 * [A082081](https://oeis.org/A082081) ([program](/edit/?oeis=82081)): a(n) = fixed point when the pseudo-log function A008475[ ] is iterated.
+* [A082087](https://oeis.org/A082087) ([program](/edit/?oeis=82087)): a(n) is the fixed point if function A008472 (= sum of prime factors with no repetition) is iterated when started at initial value n!.
 * [A082088](https://oeis.org/A082088) ([program](/edit/?oeis=82088)): a(n) is the fixed point if function A008472[=sum of prime factors with no repetition] is iterated when started at initial value prime[n]!.
 * [A082089](https://oeis.org/A082089) ([program](/edit/?oeis=82089)): a(n)-th prime is the fixed point if function A008472[=sum of prime factors with no repetition] is iterated when started at factorial of n-th prime.
 * [A082090](https://oeis.org/A082090) ([program](/edit/?oeis=82090)): Length of iteration sequence if function A056239, a pseudo-logarithm is iterated and started at n. Fixed point equals zero for all initial values.
@@ -9455,6 +9923,7 @@ List of integer sequences with links to LODA programs.
 * [A082117](https://oeis.org/A082117) ([program](/edit/?oeis=82117)): Fibonacci sequence (mod 6).
 * [A082119](https://oeis.org/A082119) ([program](/edit/?oeis=82119)): Smallest positive difference between d and n/d for any divisor d of n.
 * [A082120](https://oeis.org/A082120) ([program](/edit/?oeis=82120)): Smallest difference > 1 between d and n/d for any divisor d of n.
+* [A082127](https://oeis.org/A082127) ([program](/edit/?oeis=82127)): Rounded base-3 logarithm of A082126(n).
 * [A082129](https://oeis.org/A082129) ([program](/edit/?oeis=82129)): Rounded base-2 logarithm of A082128(n+4).
 * [A082133](https://oeis.org/A082133) ([program](/edit/?oeis=82133)): Expansion of e.g.f. x\*exp(2\*x)\*cosh(x).
 * [A082134](https://oeis.org/A082134) ([program](/edit/?oeis=82134)): Expansion of e.g.f. x\*exp(3\*x)\*cosh(x).
@@ -9474,6 +9943,10 @@ List of integer sequences with links to LODA programs.
 * [A082149](https://oeis.org/A082149) ([program](/edit/?oeis=82149)): A transform of C(n,2).
 * [A082150](https://oeis.org/A082150) ([program](/edit/?oeis=82150)): A transform of C(n,2).
 * [A082151](https://oeis.org/A082151) ([program](/edit/?oeis=82151)): A transform of C(n,2).
+* [A082152](https://oeis.org/A082152) ([program](/edit/?oeis=82152)): Dispersion of the complement of the pentagonal numbers.
+* [A082153](https://oeis.org/A082153) ([program](/edit/?oeis=82153)): Dispersion of the complement of row 1 of A082152.
+* [A082154](https://oeis.org/A082154) ([program](/edit/?oeis=82154)): Dispersion of the complement of the hexagonal numbers.
+* [A082155](https://oeis.org/A082155) ([program](/edit/?oeis=82155)): Dispersion of the complement of row 1 of A082154.
 * [A082156](https://oeis.org/A082156) ([program](/edit/?oeis=82156)): Dispersion of the complement of row 1 of A056536.
 * [A082173](https://oeis.org/A082173) ([program](/edit/?oeis=82173)): a(0)=1; for n >= 1, a(n) = Sum\_\{k=0..n\} 11^k\*N(n,k) where N(n,k) = (1/n)\*C(n,k)\*C(n,k+1) are the Narayana numbers (A001263).
 * [A082179](https://oeis.org/A082179) ([program](/edit/?oeis=82179)): (c(p)-2)/p where p runs through the primes and where c(p) denotes the p-th Catalan number = 1/(p+1)\*C(2p,p).
@@ -9484,11 +9957,17 @@ List of integer sequences with links to LODA programs.
 * [A082204](https://oeis.org/A082204) ([program](/edit/?oeis=82204)): Begin with a 1, then place the smallest (as far as possible distinct) digits, such that, beginning from the n-th term, n terms form a palindrome.
 * [A082206](https://oeis.org/A082206) ([program](/edit/?oeis=82206)): Digit sum of A082205(n).
 * [A082233](https://oeis.org/A082233) ([program](/edit/?oeis=82233)): Square array T(n,k) = 2\*n + k, read by antidiagonals in a zigzag fashion, n >= 0 and k >= 1.
+* [A082242](https://oeis.org/A082242) ([program](/edit/?oeis=82242)): Multiples of 4 that are the concatenation of 4 consecutive natural numbers.
+* [A082243](https://oeis.org/A082243) ([program](/edit/?oeis=82243)): A082242(n)/4.
 * [A082245](https://oeis.org/A082245) ([program](/edit/?oeis=82245)): Sum of (n-1)-th powers of divisors of n.
 * [A082252](https://oeis.org/A082252) ([program](/edit/?oeis=82252)): Concatenation of (3n-2), (3n-1) and 3n divided by 3.
+* [A082253](https://oeis.org/A082253) ([program](/edit/?oeis=82253)): Concatenation of (5n-4), (5n-3), (5n-2), (5n-1) and 5n divided by 5.
+* [A082254](https://oeis.org/A082254) ([program](/edit/?oeis=82254)): Concatenation of (6n-5), (6n-4), (6n-3), (6n-2), (6n-1) and 6n divided by 6.
+* [A082256](https://oeis.org/A082256) ([program](/edit/?oeis=82256)): (Concatenation of 9n-8, 9n-7, 9n-6, 9n-5, 9n-4, 9n-3, 9n-2, 9n-1 and 9n) divided by 9.
 * [A082274](https://oeis.org/A082274) ([program](/edit/?oeis=82274)): Palindromes k such that k + 2 is also a palindrome.
 * [A082285](https://oeis.org/A082285) ([program](/edit/?oeis=82285)): a(n) = 16n + 13.
 * [A082286](https://oeis.org/A082286) ([program](/edit/?oeis=82286)): a(n) = 18\*n + 10.
+* [A082287](https://oeis.org/A082287) ([program](/edit/?oeis=82287)): a(1) = 1; for n > 1, n appears omega(n) times, where omega(n)=A001221(n) is the number of distinct prime factors of n, a(1)=1.
 * [A082288](https://oeis.org/A082288) ([program](/edit/?oeis=82288)): n>1 appears bigomega(n) times, where bigomega(n)=A001222(n) is the number of prime factors of n (with repetition), a(1)=1.
 * [A082289](https://oeis.org/A082289) ([program](/edit/?oeis=82289)): Expansion of x^4\*(2+x)/((1+x)\*(1-x)^5).
 * [A082290](https://oeis.org/A082290) ([program](/edit/?oeis=82290)): Expansion of (1+x+x^2)/((1+x^2)\*(1+x)^4\*(1-x)^5).
@@ -9496,6 +9975,7 @@ List of integer sequences with links to LODA programs.
 * [A082292](https://oeis.org/A082292) ([program](/edit/?oeis=82292)): a(n) = (2n+1) \* (2n)! / sqrt(4\*(n+1)\*Product\_\{k=1..2n+1\} lcm(k, 2n+2-k)).
 * [A082293](https://oeis.org/A082293) ([program](/edit/?oeis=82293)): Numbers having exactly one square divisor > 1.
 * [A082294](https://oeis.org/A082294) ([program](/edit/?oeis=82294)): Numbers having exactly two square divisors > 1.
+* [A082295](https://oeis.org/A082295) ([program](/edit/?oeis=82295)): Numbers having more than two square divisors > 1.
 * [A082296](https://oeis.org/A082296) ([program](/edit/?oeis=82296)): Solutions to 13^x+17^x == 19 mod 23.
 * [A082297](https://oeis.org/A082297) ([program](/edit/?oeis=82297)): Main diagonal of array A083861.
 * [A082298](https://oeis.org/A082298) ([program](/edit/?oeis=82298)): G.f.: (1-3\*x-sqrt(9\*x^2-10\*x+1))/(2\*x).
@@ -9544,12 +10024,13 @@ List of integer sequences with links to LODA programs.
 * [A082447](https://oeis.org/A082447) ([program](/edit/?oeis=82447)): a(n) = the number k such that s(k)=0 where s(0)=n and s(i)=s(i-1)-(s(i-1) modulo i).
 * [A082448](https://oeis.org/A082448) ([program](/edit/?oeis=82448)): Add 1, multiply by 1, add 2, multiply by 2, etc.; start with 4.
 * [A082450](https://oeis.org/A082450) ([program](/edit/?oeis=82450)): a(n) = 5\*(n^2-n+2)/2.
-* [A082454](https://oeis.org/A082454) ([program](/edit/?oeis=82454)): a(n) = prime(n)+prime(n-1)+a(n-1) with a(0)=a(1)=0.
+* [A082454](https://oeis.org/A082454) ([program](/edit/?oeis=82454)): a(n) = prime(n) + prime(n-1) - a(n-1) with a(0) = a(1) = 0.
 * [A082455](https://oeis.org/A082455) ([program](/edit/?oeis=82455)): a(n) = prime(n) + prime(n-1) + a(n-1), a(0) = 0, a(1) = 4.
 * [A082458](https://oeis.org/A082458) ([program](/edit/?oeis=82458)): Multiply by 1, add 1, multiply by 2, add 2, etc., starting with 0.
 * [A082459](https://oeis.org/A082459) ([program](/edit/?oeis=82459)): Multiply by 1, add 1, multiply by 2, add 2, etc.
 * [A082460](https://oeis.org/A082460) ([program](/edit/?oeis=82460)): a(n) = pi(n) - a(n - 1) = A000720(n) - a(n - 1).
 * [A082462](https://oeis.org/A082462) ([program](/edit/?oeis=82462)): Let chi(k) = 1 if prime(k+1) - prime(k) = 2, = 0 otherwise; sequence gives a(n) = sum\_\{k <= n\} chi(k).
+* [A082465](https://oeis.org/A082465) ([program](/edit/?oeis=82465)): Least k>=1 such that n^2+kn+1 is prime.
 * [A082471](https://oeis.org/A082471) ([program](/edit/?oeis=82471)): a(1)=1, a(n) = Sum\_\{k=1..n-1\} Fibonacci(k)\*a(k).
 * [A082472](https://oeis.org/A082472) ([program](/edit/?oeis=82472)): a(1) = 1, a(n) = Sum\_\{k=1..n-1\} a(k)\*2^k.
 * [A082476](https://oeis.org/A082476) ([program](/edit/?oeis=82476)): a(n) = Sum\_\{d\|n\} mu(d)^2\*tau(d)^2.
@@ -9575,6 +10056,7 @@ List of integer sequences with links to LODA programs.
 * [A082514](https://oeis.org/A082514) ([program](/edit/?oeis=82514)): a(n) = pi(n) + tau(n).
 * [A082515](https://oeis.org/A082515) ([program](/edit/?oeis=82515)): a(n)=A000720(n)+A000010(n).
 * [A082522](https://oeis.org/A082522) ([program](/edit/?oeis=82522)): Numbers of the form p^(2^k) with p prime and k>0.
+* [A082523](https://oeis.org/A082523) ([program](/edit/?oeis=82523)): Number of times k^2 + (n-k)^2 is a square for 1 <= k <= n-1.
 * [A082524](https://oeis.org/A082524) ([program](/edit/?oeis=82524)): a(1)=1, a(2)=2, then use the rule when a(n) is the end of a run, n appears a(n) times.
 * [A082527](https://oeis.org/A082527) ([program](/edit/?oeis=82527)): Least k such that x(k)=0 where x(1)=n x(k)=k^2\*floor(x(k-1)/k^2).
 * [A082528](https://oeis.org/A082528) ([program](/edit/?oeis=82528)): Least k such that x(k)=0 where x(1)=n x(k)=k^3\*floor(x(k-1)/k^3).
@@ -9603,6 +10085,7 @@ List of integer sequences with links to LODA programs.
 * [A082585](https://oeis.org/A082585) ([program](/edit/?oeis=82585)): a(1)=1, a(n) = ceiling(r(5)\*a(n-1)) where r(5) = (1/2)\*(5 + sqrt(29)) is the positive root of X^2 = 5\*X + 1.
 * [A082587](https://oeis.org/A082587) ([program](/edit/?oeis=82587)): G.f.: (3+x+x^2+2\*x^3)/(1-x^2-x^4).
 * [A082590](https://oeis.org/A082590) ([program](/edit/?oeis=82590)): Expansion of 1/((1 - 2\*x)\*sqrt(1 - 4\*x)).
+* [A082601](https://oeis.org/A082601) ([program](/edit/?oeis=82601)): Tribonacci array: to get the next row, right-adjust the previous 3 rows and add them, then append a final 0.
 * [A082605](https://oeis.org/A082605) ([program](/edit/?oeis=82605)): Using Euler's 6-term sequence A014556, we define the partial recurrence relation a(0)=2, a(1)=3, a(2)=5; a(k) = 2\*a(k-1) - 1 + (-1)^(k-1)\*2^(k-2), 3 <= k <= 5.
 * [A082630](https://oeis.org/A082630) ([program](/edit/?oeis=82630)): Limit of the sequence obtained from S(0) = (1,1) and, for n > 0, S(n) = I(S(n-1)), where I consists of inserting, for i = 1, 2, 3..., the term a(i) + a(i+1) between any two terms for which 7\*a(i+1) <= 11\*a(i).
 * [A082639](https://oeis.org/A082639) ([program](/edit/?oeis=82639)): Numbers n such that 2\*n\*(n+2) is a square.
@@ -9618,6 +10101,7 @@ List of integer sequences with links to LODA programs.
 * [A082654](https://oeis.org/A082654) ([program](/edit/?oeis=82654)): Order of 4 mod n-th prime: least k such that prime(n) divides 4^k-1, n >= 2.
 * [A082655](https://oeis.org/A082655) ([program](/edit/?oeis=82655)): Number of distinct letters needed to spell English names of numbers 1 through n.
 * [A082656](https://oeis.org/A082656) ([program](/edit/?oeis=82656)): Trajectory of 39 under map x -> x/2 if x even, 3x+9 if x odd.
+* [A082660](https://oeis.org/A082660) ([program](/edit/?oeis=82660)): Number of ways n can be expressed as the sum of a square and a triangular number.
 * [A082662](https://oeis.org/A082662) ([program](/edit/?oeis=82662)): Numbers k such that the odd part of k is less than sqrt(2k).
 * [A082667](https://oeis.org/A082667) ([program](/edit/?oeis=82667)): a(n) = floor(2n/3) \* ceiling(2n/3) / 2.
 * [A082669](https://oeis.org/A082669) ([program](/edit/?oeis=82669)): Let p(n) = upper member of n-th pair of twin primes; sequence gives a(n) = p(n)\*(p(n)-1)/2.
@@ -9648,6 +10132,7 @@ List of integer sequences with links to LODA programs.
 * [A082765](https://oeis.org/A082765) ([program](/edit/?oeis=82765)): Trinomial transform of the factorial numbers (A000142).
 * [A082766](https://oeis.org/A082766) ([program](/edit/?oeis=82766)): Series ratios converge alternately to sqrt(2) and 1+sqrt(1/2).
 * [A082767](https://oeis.org/A082767) ([program](/edit/?oeis=82767)): Number of edges in the prime graph.
+* [A082768](https://oeis.org/A082768) ([program](/edit/?oeis=82768)): Numbers that begin with 1, 3, 7 or 9.
 * [A082784](https://oeis.org/A082784) ([program](/edit/?oeis=82784)): Characteristic function of multiples of 7.
 * [A082787](https://oeis.org/A082787) ([program](/edit/?oeis=82787)): (2/3)\*(2\*n-1)!\*binomial(3\*n,2\*n).
 * [A082799](https://oeis.org/A082799) ([program](/edit/?oeis=82799)): Smallest multiple of 3 beginning with n.
@@ -9710,6 +10195,7 @@ List of integer sequences with links to LODA programs.
 * [A083005](https://oeis.org/A083005) ([program](/edit/?oeis=83005)): a(1)=1, a(n)=2a(n-1)+1 if a(n-1) is prime, a(n)=a(n-1)+1 otherwise.
 * [A083022](https://oeis.org/A083022) ([program](/edit/?oeis=83022)): Numbers n such that 4\*n^2 - 3 is prime.
 * [A083023](https://oeis.org/A083023) ([program](/edit/?oeis=83023)): a(n) = number of partitions of n into a pair of parts n=p+q, p>=q>=0, with p-q equal to a square >= 0.
+* [A083025](https://oeis.org/A083025) ([program](/edit/?oeis=83025)): Number of primes congruent to 1 modulo 4 dividing n (with multiplicity).
 * [A083026](https://oeis.org/A083026) ([program](/edit/?oeis=83026)): Numbers that are congruent to \{0, 2, 4, 5, 7, 9, 11\} mod 12.
 * [A083028](https://oeis.org/A083028) ([program](/edit/?oeis=83028)): Numbers that are congruent to \{0, 2, 3, 5, 7, 8, 11\} mod 12.
 * [A083030](https://oeis.org/A083030) ([program](/edit/?oeis=83030)): Numbers that are congruent to \{0, 4, 7\} mod 12.
@@ -9731,7 +10217,8 @@ List of integer sequences with links to LODA programs.
 * [A083051](https://oeis.org/A083051) ([program](/edit/?oeis=83051)): First column of table A083050.
 * [A083054](https://oeis.org/A083054) ([program](/edit/?oeis=83054)): a(n) = floor(sqrt(3)\*n) - 3\*floor(n/sqrt(3)).
 * [A083055](https://oeis.org/A083055) ([program](/edit/?oeis=83055)): a(n) = cardinality\{ k<=n / A083054(k)=1\}.
-* [A083056](https://oeis.org/A083056) ([program](/edit/?oeis=83056)): a(n)=3\*A083055(n)-n.
+* [A083056](https://oeis.org/A083056) ([program](/edit/?oeis=83056)): a(n) = 3\*A083055(n)-n.
+* [A083057](https://oeis.org/A083057) ([program](/edit/?oeis=83057)): A fractal sequence.
 * [A083058](https://oeis.org/A083058) ([program](/edit/?oeis=83058)): Number of eigenvalues equal to 1 of n X n matrix A(i,j)=1 if j=1 or i divides j.
 * [A083062](https://oeis.org/A083062) ([program](/edit/?oeis=83062)): a(n) = (n+1)^n/(n+2) - (-1)^n/(n+2).
 * [A083063](https://oeis.org/A083063) ([program](/edit/?oeis=83063)): a(n) = (n+1)^(n-1)/(n+2) + (-1)^n/(n+2).
@@ -9774,6 +10261,7 @@ List of integer sequences with links to LODA programs.
 * [A083127](https://oeis.org/A083127) ([program](/edit/?oeis=83127)): a(n) = 3\*n^3 + n^2 - 4\*n.
 * [A083131](https://oeis.org/A083131) ([program](/edit/?oeis=83131)): Number the letters of English alphabet from 1 to 26; sequence specifies capital letters with left-right symmetry.
 * [A083141](https://oeis.org/A083141) ([program](/edit/?oeis=83141)): Main diagonal of array in A083140.
+* [A083173](https://oeis.org/A083173) ([program](/edit/?oeis=83173)): Triangle read by rows: the n-th row contains the first n-1 multiples of prime(n) followed by the next multiple that will make the row sum a multiple of n.
 * [A083174](https://oeis.org/A083174) ([program](/edit/?oeis=83174)): Leading diagonal of A083173.
 * [A083175](https://oeis.org/A083175) ([program](/edit/?oeis=83175)): Row sums in A083175.
 * [A083176](https://oeis.org/A083176) ([program](/edit/?oeis=83176)): Arithmetic means of rows of A083173.
@@ -9801,11 +10289,18 @@ List of integer sequences with links to LODA programs.
 * [A083234](https://oeis.org/A083234) ([program](/edit/?oeis=83234)): a(n) = (3\*10^n + 2^n)/4.
 * [A083236](https://oeis.org/A083236) ([program](/edit/?oeis=83236)): First order recursion: a(0)=2; a(n) = prime(n) - a(n-1).
 * [A083237](https://oeis.org/A083237) ([program](/edit/?oeis=83237)): First order recursion: a(0)=5; a(n)=prime(n)-a(n-1).
+* [A083238](https://oeis.org/A083238) ([program](/edit/?oeis=83238)): First order recursion: a(0)=1; a(n) = sigma(1,n) - a(n-1).
+* [A083239](https://oeis.org/A083239) ([program](/edit/?oeis=83239)): First order recursion: a(0)=1; a(n)=phi(n)-a(n-1)=A000010(n)-a(n-1).
+* [A083244](https://oeis.org/A083244) ([program](/edit/?oeis=83244)): k is in the sequence iff the number of numbers unrelated to k is larger than that of related ones[=divisors and coprimes] to k: A045763(k) > A073757(k) or A045763(k) > k/2 or A073757(k) < k/2.
 * [A083245](https://oeis.org/A083245) ([program](/edit/?oeis=83245)): Difference between numbers of related and numbers of unrelated numbers belonging to n: a(n) = A073757(n)-A045763(n) = (n-u(n))-u(n) = n-2\*A045763(n) = 2\*A073757(n)-n.
 * [A083249](https://oeis.org/A083249) ([program](/edit/?oeis=83249)): Numbers n with A045763(n) = n + 1 - d(n) - phi(n) < d(n) < phi(n).
 * [A083254](https://oeis.org/A083254) ([program](/edit/?oeis=83254)): a(n) = 2\*phi(n) - n.
+* [A083256](https://oeis.org/A083256) ([program](/edit/?oeis=83256)): a(n) = A046523(n-th nonprime number) = A046523(A018252(n)).
 * [A083257](https://oeis.org/A083257) ([program](/edit/?oeis=83257)): a(n) = A071364(n-th nonprime number) = A071364(A018252(n)).
+* [A083258](https://oeis.org/A083258) ([program](/edit/?oeis=83258)): a(n) = gcd(A046523(n), n).
 * [A083259](https://oeis.org/A083259) ([program](/edit/?oeis=83259)): a(n) = gcd(n, A071364(n)), where A071364(n) is the smallest number with same sequence of exponents in canonical prime factorization as n.
+* [A083261](https://oeis.org/A083261) ([program](/edit/?oeis=83261)): a(n) = gcd(A046523(n+1), A046523(n)).
+* [A083262](https://oeis.org/A083262) ([program](/edit/?oeis=83262)): a(n) = sigma(A046523(n)), sum of divisors of the least number with the same prime signature as n.
 * [A083266](https://oeis.org/A083266) ([program](/edit/?oeis=83266)): Sum of related numbers (counted in A073757) belonging to n: a(n) = A000203(n) + A023896(n) - 1; related = \{divisor-set, RRS\}.
 * [A083267](https://oeis.org/A083267) ([program](/edit/?oeis=83267)): Product of related numbers (counted in A073757) belonging to n; related = \{divisor-set, RRS\}: a(n) = A007955(n)\*A001783(n).
 * [A083268](https://oeis.org/A083268) ([program](/edit/?oeis=83268)): a(n) is the lcm of related numbers to n (counted in A073757): related = \{divisor-set, RRS\}.
@@ -9863,6 +10358,7 @@ List of integer sequences with links to LODA programs.
 * [A083374](https://oeis.org/A083374) ([program](/edit/?oeis=83374)): a(n) = n^2 \* (n^2 - 1)/2.
 * [A083375](https://oeis.org/A083375) ([program](/edit/?oeis=83375)): n appears prime(n) times.
 * [A083377](https://oeis.org/A083377) ([program](/edit/?oeis=83377)): a(n) = the largest integer whose square has n digits and first digit 1.
+* [A083378](https://oeis.org/A083378) ([program](/edit/?oeis=83378)): a(n) is the largest integer whose cube has n digits and first digit 1, except that a(2)=2.
 * [A083381](https://oeis.org/A083381) ([program](/edit/?oeis=83381)): Square array giving the number of trellis edges T(i,j) (i >= 0, j >= 0), read by antidiagonals.
 * [A083384](https://oeis.org/A083384) ([program](/edit/?oeis=83384)): a(n) = n\*Sum(((k-1)/2)\*k!\*Stirling\_2(n,k),k=1..n).
 * [A083385](https://oeis.org/A083385) ([program](/edit/?oeis=83385)): Total height of all elements in all preferential arrangements of n elements, where elements at the bottom level have height 1.
@@ -9884,6 +10380,10 @@ List of integer sequences with links to LODA programs.
 * [A083426](https://oeis.org/A083426) ([program](/edit/?oeis=83426)): (4\*7^n+2^n)/5.
 * [A083445](https://oeis.org/A083445) ([program](/edit/?oeis=83445)): Largest n-digit number minus the product of its digits; i.e., a(n) = 99999... (n 9's) - 9^n.
 * [A083446](https://oeis.org/A083446) ([program](/edit/?oeis=83446)): a(n) = ((10^n - 1) - 9^n)/9.
+* [A083449](https://oeis.org/A083449) ([program](/edit/?oeis=83449)): a(n) = A019566(n)/9, where A019566(n) = concat(n,...,1) - concat(1,...,n).
+* [A083451](https://oeis.org/A083451) ([program](/edit/?oeis=83451)): (n concatenated n times) - n^n.
+* [A083452](https://oeis.org/A083452) ([program](/edit/?oeis=83452)): a(n) = (n times concatenation of n - n^n) divided by n, or a(n) = A083451(n) /n.
+* [A083453](https://oeis.org/A083453) ([program](/edit/?oeis=83453)): a(n) = (concatenation of numbers from n to 1) - n^n.
 * [A083456](https://oeis.org/A083456) ([program](/edit/?oeis=83456)): Smallest nontrivial k such that k^n + 1 is a palindrome (k>1 for n>1).
 * [A083457](https://oeis.org/A083457) ([program](/edit/?oeis=83457)): Smallest nontrivial k such that k^n - 1 is a palindrome (k >1 for n>1).
 * [A083460](https://oeis.org/A083460) ([program](/edit/?oeis=83460)): Palindromes arising in A083456.
@@ -9905,8 +10405,11 @@ List of integer sequences with links to LODA programs.
 * [A083537](https://oeis.org/A083537) ([program](/edit/?oeis=83537)): a(0) = a(1) = 0, a(2n) = a(n)+1, a(2n+1) = a(n-1).
 * [A083539](https://oeis.org/A083539) ([program](/edit/?oeis=83539)): a(n) = sigma(n) \* sigma(n+1): product of sigma-values for consecutive integers.
 * [A083542](https://oeis.org/A083542) ([program](/edit/?oeis=83542)): a(n) = phi(n+1)\*phi(n), product of totients of two consecutive integers.
+* [A083548](https://oeis.org/A083548) ([program](/edit/?oeis=83548)): Least common multiple of cototient values of consecutive integers.
+* [A083549](https://oeis.org/A083549) ([program](/edit/?oeis=83549)): Quotient if least common multiple (lcm) of cototient values of consecutive integers is divided by the greatest common divisor (gcd) of the same pair of consecutive numbers.
 * [A083550](https://oeis.org/A083550) ([program](/edit/?oeis=83550)): Product of 2 consecutive prime differences of two successive terms of A001223.
 * [A083553](https://oeis.org/A083553) ([program](/edit/?oeis=83553)): Product of prime(n+1)-1 and prime(n)-1.
+* [A083554](https://oeis.org/A083554) ([program](/edit/?oeis=83554)): Least common multiple of prime(n+1)-1 and prime(n)-1.
 * [A083558](https://oeis.org/A083558) ([program](/edit/?oeis=83558)): p(p^2-p+1) as p runs through the primes.
 * [A083559](https://oeis.org/A083559) ([program](/edit/?oeis=83559)): Nearest integer to 1/(Sum\_\{k>=n\} 1/k^4).
 * [A083564](https://oeis.org/A083564) ([program](/edit/?oeis=83564)): a(n) = L(n)\*L(2n), where L(n) are the Lucas numbers (A000204).
@@ -9927,6 +10430,7 @@ List of integer sequences with links to LODA programs.
 * [A083588](https://oeis.org/A083588) ([program](/edit/?oeis=83588)): Binomial transform of A083587.
 * [A083589](https://oeis.org/A083589) ([program](/edit/?oeis=83589)): Expansion of 1/((1-4\*x)\*(1-x^4)).
 * [A083590](https://oeis.org/A083590) ([program](/edit/?oeis=83590)): Expansion of 1/((1-5\*x)\*(1-x^5)).
+* [A083591](https://oeis.org/A083591) ([program](/edit/?oeis=83591)): Inverse binomial transform of A083589.
 * [A083593](https://oeis.org/A083593) ([program](/edit/?oeis=83593)): Expansion of 1/((1-2\*x)\*(1-x^4)).
 * [A083594](https://oeis.org/A083594) ([program](/edit/?oeis=83594)): a(n) = (7 - 4\*(-2)^n)/3.
 * [A083595](https://oeis.org/A083595) ([program](/edit/?oeis=83595)): a(n) = (7\*2^n - 4(-1)^n)/3.
@@ -9934,8 +10438,8 @@ List of integer sequences with links to LODA programs.
 * [A083651](https://oeis.org/A083651) ([program](/edit/?oeis=83651)): Triangular array, read by rows: T(n,k) = k-th bit in binary representation of n (0<=k<=n).
 * [A083652](https://oeis.org/A083652) ([program](/edit/?oeis=83652)): Sum of lengths of binary expansions of 0 through n.
 * [A083656](https://oeis.org/A083656) ([program](/edit/?oeis=83656)): a(n) = Sum\_\{i=1..n\} floor(r\*floor(r\*i)), where r=sqrt(2).
-* [A083657](https://oeis.org/A083657) ([program](/edit/?oeis=83657)): a(n)=sum(i=1,n,floor(r\*floor(r\*i))) where r=sqrt(3).
-* [A083658](https://oeis.org/A083658) ([program](/edit/?oeis=83658)): a(n) = a(n-1) + a(n-2) + gcd(a(n-1),a(n-2)) for n>1, with a(0)=1, a(1)=1.
+* [A083657](https://oeis.org/A083657) ([program](/edit/?oeis=83657)): a(n) = Sum\_\{i=1..n\} floor(r\*floor(r\*i)) where r=sqrt(3).
+* [A083658](https://oeis.org/A083658) ([program](/edit/?oeis=83658)): a(n) = a(n-1) + a(n-2) + gcd(a(n-1), a(n-2)) for n > 1; a(0)=1, a(1)=1.
 * [A083659](https://oeis.org/A083659) ([program](/edit/?oeis=83659)): Denominator of fraction equal to the continued fraction [p(n); p(n-1),...,5,3,2].
 * [A083661](https://oeis.org/A083661) ([program](/edit/?oeis=83661)): G.f.: 1/(1-x) \* sum(k>=0, x^2^(k+2)/(1+x^2^k)).
 * [A083662](https://oeis.org/A083662) ([program](/edit/?oeis=83662)): a(n) = a(floor(n/2)) + a(floor(n/4)), n > 0; a(0)=1.
@@ -9959,10 +10463,13 @@ List of integer sequences with links to LODA programs.
 * [A083713](https://oeis.org/A083713) ([program](/edit/?oeis=83713)): a(n) = (8^n - 1)\*3/7.
 * [A083719](https://oeis.org/A083719) ([program](/edit/?oeis=83719)): a(n) = n \* [1 + sum(k=1 to n-1) prime(k)].
 * [A083720](https://oeis.org/A083720) ([program](/edit/?oeis=83720)): Product of primes less than greatest prime factor of n but not dividing n.
+* [A083721](https://oeis.org/A083721) ([program](/edit/?oeis=83721)): Number of primes greater than the greatest prime factor of n but not greater than n.
+* [A083722](https://oeis.org/A083722) ([program](/edit/?oeis=83722)): Product of primes greater than the greatest prime factor of n but not greater than n.
 * [A083723](https://oeis.org/A083723) ([program](/edit/?oeis=83723)): a(n) = (prime(n)+1)\*n - 1.
 * [A083725](https://oeis.org/A083725) ([program](/edit/?oeis=83725)): a(n) = n \* [1 + sum(k=1 to n) prime(k)].
 * [A083726](https://oeis.org/A083726) ([program](/edit/?oeis=83726)): a(n) = (prime(n)+1)\*n.
 * [A083727](https://oeis.org/A083727) ([program](/edit/?oeis=83727)): a(n) = n \* (2^n - 8).
+* [A083728](https://oeis.org/A083728) ([program](/edit/?oeis=83728)): a(0) = 1, a(n) = 480\*sigma(n).
 * [A083729](https://oeis.org/A083729) ([program](/edit/?oeis=83729)): Decimal expansion of sqrt(2)/(sqrt(2)-1)^2 = 3\*sqrt(2)+4.
 * [A083730](https://oeis.org/A083730) ([program](/edit/?oeis=83730)): Greatest prime^2 factor of n, or a(n)=1 for squarefree n.
 * [A083741](https://oeis.org/A083741) ([program](/edit/?oeis=83741)): a(n) = L(n) + a(L(n)), where L(n) = n - 2^floor(log\_2(n)) (A053645).
@@ -9970,6 +10477,7 @@ List of integer sequences with links to LODA programs.
 * [A083743](https://oeis.org/A083743) ([program](/edit/?oeis=83743)): a(1) = 1; if a(n-1) + n is prime then a(n) = a(n-1) + n, else a(n) = a(n-1).
 * [A083744](https://oeis.org/A083744) ([program](/edit/?oeis=83744)): a(1) = 1; if a(n-1) + n is composite then a(n) = a(n-1) + n, else a(n) = a(n-1).
 * [A083746](https://oeis.org/A083746) ([program](/edit/?oeis=83746)): a(1) = 1, a(2) = 2; for n>2, a(n) = 3\*(n-2)\*(n-2)!.
+* [A083782](https://oeis.org/A083782) ([program](/edit/?oeis=83782)): n-th row of the following triangle contains n distinct natural numbers such that every sum of n-1 of them +1 is a prime,n >1, with a(1) = 1 by convention. Sequence contains the triangle by rows.
 * [A083786](https://oeis.org/A083786) ([program](/edit/?oeis=83786)): Composite numbers mod 10.
 * [A083795](https://oeis.org/A083795) ([program](/edit/?oeis=83795)): Numbers n such that n and n-1 have the same number of divisors. Numbers not included in A083794.
 * [A083811](https://oeis.org/A083811) ([program](/edit/?oeis=83811)): Numbers n such that 2n+1 is the digit reversal of n+1.
@@ -9980,6 +10488,8 @@ List of integer sequences with links to LODA programs.
 * [A083822](https://oeis.org/A083822) ([program](/edit/?oeis=83822)): a(n) = digit reversal of 3\*n, divided by 3.
 * [A083823](https://oeis.org/A083823) ([program](/edit/?oeis=83823)): a(1) = 15; then numbers obtained at every stage of division by 3 in the following process: multiply by 3, reverse the digits, divide by 3, reverse the digits, multiply by 3, reverse the digit, divide by 3.
 * [A083824](https://oeis.org/A083824) ([program](/edit/?oeis=83824)): a(n) = digit reversal of 9\*n, divided by 9.
+* [A083852](https://oeis.org/A083852) ([program](/edit/?oeis=83852)): Decimal palindromes that are multiples of 11.
+* [A083854](https://oeis.org/A083854) ([program](/edit/?oeis=83854)): Numbers that are squares, twice squares, three times squares, or six times squares, i.e., numbers whose squarefree part divides 6.
 * [A083856](https://oeis.org/A083856) ([program](/edit/?oeis=83856)): Square array T(n,k) of generalized Fibonacci numbers, read by antidiagonals upwards (n, k >= 0).
 * [A083857](https://oeis.org/A083857) ([program](/edit/?oeis=83857)): Square array T(n,k) of binomial transforms of generalized Fibonacci numbers, read by ascending antidiagonals, with n, k >= 0.
 * [A083858](https://oeis.org/A083858) ([program](/edit/?oeis=83858)): Expansion of x/(1 - 3\*x - 6\*x^2).
@@ -10043,6 +10553,8 @@ List of integer sequences with links to LODA programs.
 * [A084076](https://oeis.org/A084076) ([program](/edit/?oeis=84076)): Length of list created by n substitutions k -> Range[ -1-Abs[k],Abs[k]+1] starting with \{1\}.
 * [A084077](https://oeis.org/A084077) ([program](/edit/?oeis=84077)): Length of list created by n substitutions k -> Range[ -Abs[k+1], Abs[k-1]] starting with \{1\}.
 * [A084080](https://oeis.org/A084080) ([program](/edit/?oeis=84080)): Length of lists created by n substitutions k -> Range[k+1,1,-3] starting with \{1\}, counting down from k+1 to 1 step -3.
+* [A084081](https://oeis.org/A084081) ([program](/edit/?oeis=84081)): Sum of lists created by n substitutions k -> Range[k+1,0,-2] starting with \{0\}, counting down from k+1 to 0 step -2.
+* [A084083](https://oeis.org/A084083) ([program](/edit/?oeis=84083)): Length of lists created by n substitutions k -> Range[k+1,-Abs[k],-2] starting with \{1\}.
 * [A084084](https://oeis.org/A084084) ([program](/edit/?oeis=84084)): Length of lists created by n substitutions k -> Range[0,1+Mod[k+1,3]] starting with \{0\}.
 * [A084085](https://oeis.org/A084085) ([program](/edit/?oeis=84085)): Length of lists created by n substitutions k -> Range[0,Mod[k+1,4]] starting with \{0\}.
 * [A084086](https://oeis.org/A084086) ([program](/edit/?oeis=84086)): Length of lists created by n substitutions k -> Range[ -1-Abs[k]+MoebiusMu[Abs[k]],k+1+MoebiusMu[Abs[k]],2] starting with \{-1\}.
@@ -10115,6 +10627,7 @@ List of integer sequences with links to LODA programs.
 * [A084245](https://oeis.org/A084245) ([program](/edit/?oeis=84245)): a(n) = Mod[n+(Mod[Prime[n],7]-3),10]
 * [A084247](https://oeis.org/A084247) ([program](/edit/?oeis=84247)): a(n) = -a(n-1) + 2a(n-2), a(0)=1, a(1)=2.
 * [A084253](https://oeis.org/A084253) ([program](/edit/?oeis=84253)): a(n) is the denominator of the coefficient of z^(2n-1) in the Maclaurin expansion of Sqrt[Pi]Erfi[z].
+* [A084258](https://oeis.org/A084258) ([program](/edit/?oeis=84258)): Decimal expansion of Sum\_\{k>=1\} coth(Pi\*k)/k^3.
 * [A084259](https://oeis.org/A084259) ([program](/edit/?oeis=84259)): a(n) = n! \* (n+1)! \* (n+2)! \* (n+3).
 * [A084261](https://oeis.org/A084261) ([program](/edit/?oeis=84261)): A binomial transform of factorial numbers.
 * [A084262](https://oeis.org/A084262) ([program](/edit/?oeis=84262)): Binomial transform of double factorials.
@@ -10167,6 +10680,7 @@ List of integer sequences with links to LODA programs.
 * [A084474](https://oeis.org/A084474) ([program](/edit/?oeis=84474)): Write n in binary and replace 0 with 0000.
 * [A084477](https://oeis.org/A084477) ([program](/edit/?oeis=84477)): Number of fault-free tilings of a 4 X 3n rectangle with right trominoes.
 * [A084481](https://oeis.org/A084481) ([program](/edit/?oeis=84481)): Number of fault-free tilings of a 4 X 2n rectangle with L tetrominoes.
+* [A084500](https://oeis.org/A084500) ([program](/edit/?oeis=84500)): a(0)=0, after which each n occurs A084506(n) times.
 * [A084505](https://oeis.org/A084505) ([program](/edit/?oeis=84505)): Partial sums of A084506.
 * [A084506](https://oeis.org/A084506) ([program](/edit/?oeis=84506)): The length of each successively larger 3-ball ground-state site swap given in A084501, i.e., the number of digits in each term of A084502.
 * [A084508](https://oeis.org/A084508) ([program](/edit/?oeis=84508)): Partial sums of A084509. Positions of ones in the first differences of A084506.
@@ -10191,10 +10705,18 @@ List of integer sequences with links to LODA programs.
 * [A084568](https://oeis.org/A084568) ([program](/edit/?oeis=84568)): a(0)=1, a(1)=5, a(n+2)=4a(n), n>0.
 * [A084569](https://oeis.org/A084569) ([program](/edit/?oeis=84569)): Partial sums of A084570.
 * [A084570](https://oeis.org/A084570) ([program](/edit/?oeis=84570)): Partial sums of A084263.
+* [A084600](https://oeis.org/A084600) ([program](/edit/?oeis=84600)): Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1+x+2x^2)^n for n >= 0.
 * [A084601](https://oeis.org/A084601) ([program](/edit/?oeis=84601)): Coefficients of 1/(1-2x-7x^2)^(1/2); also, a(n) is the central coefficient of (1+x+2x^2)^n.
+* [A084602](https://oeis.org/A084602) ([program](/edit/?oeis=84602)): Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1 + x + 3x^2)^n.
 * [A084603](https://oeis.org/A084603) ([program](/edit/?oeis=84603)): Coefficients of 1/sqrt(1 - 2\*x - 11\*x^2); also, a(n) is the central coefficient of (1 + x + 3\*x^2)^n.
+* [A084604](https://oeis.org/A084604) ([program](/edit/?oeis=84604)): Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1 + x + 4x^2)^n.
 * [A084605](https://oeis.org/A084605) ([program](/edit/?oeis=84605)): G.f.: 1/(1-2x-15x^2)^(1/2); also, a(n) is the central coefficient of (1+x+4x^2)^n.
+* [A084606](https://oeis.org/A084606) ([program](/edit/?oeis=84606)): Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1+2x+2x^2)^n.
+* [A084608](https://oeis.org/A084608) ([program](/edit/?oeis=84608)): Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1+2x+3x^2)^n.
 * [A084609](https://oeis.org/A084609) ([program](/edit/?oeis=84609)): Coefficients of 1/(1-4x-8x^2)^(1/2); also, a(n) is the central coefficient of (1+2x+3x^2)^n.
+* [A084610](https://oeis.org/A084610) ([program](/edit/?oeis=84610)): Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1+x-x^2)^n.
+* [A084612](https://oeis.org/A084612) ([program](/edit/?oeis=84612)): Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1+x-2x^2)^n.
+* [A084614](https://oeis.org/A084614) ([program](/edit/?oeis=84614)): Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1 + x - 3x^2)^n.
 * [A084623](https://oeis.org/A084623) ([program](/edit/?oeis=84623)): Numerator of 2^(n-1)/n.
 * [A084624](https://oeis.org/A084624) ([program](/edit/?oeis=84624)): floor(C(n+5,5)/C(n+2,2)).
 * [A084626](https://oeis.org/A084626) ([program](/edit/?oeis=84626)): Floor(C(n+6,6)/C(n+2,2)).
@@ -10213,6 +10735,7 @@ List of integer sequences with links to LODA programs.
 * [A084641](https://oeis.org/A084641) ([program](/edit/?oeis=84641)): Binomial transform of n^7.
 * [A084642](https://oeis.org/A084642) ([program](/edit/?oeis=84642)): A Jacobsthal ratio.
 * [A084643](https://oeis.org/A084643) ([program](/edit/?oeis=84643)): a(n) = 3^(n-1)\*(2\*n-3) + 2^(n+1).
+* [A084645](https://oeis.org/A084645) ([program](/edit/?oeis=84645)): Hypotenuses for which there exists a unique integer-sided triangle.
 * [A084658](https://oeis.org/A084658) ([program](/edit/?oeis=84658)): Number of unlabeled 3-connected claw-free cubic graphs on 2n vertices.
 * [A084660](https://oeis.org/A084660) ([program](/edit/?oeis=84660)): Decimal expansion of solution of area bisectors problem.
 * [A084662](https://oeis.org/A084662) ([program](/edit/?oeis=84662)): a(1) = 4; a(n) = a(n-1) + gcd(a(n-1), n).
@@ -10222,6 +10745,7 @@ List of integer sequences with links to LODA programs.
 * [A084678](https://oeis.org/A084678) ([program](/edit/?oeis=84678)): a(n)=b(n,n) with b(n,1)=n and b(n,k)=binomial(b(n,k-1),d(n,n-k+1)) for 1<k<=n, where d(n,i) are the divisors of n, d(i)<d(j), 1<=i<j<=A000005(n).
 * [A084680](https://oeis.org/A084680) ([program](/edit/?oeis=84680)): Order of 10 modulo n [i.e., least m such that 10^m = 1 (mod n)] or 0 when no such number exists.
 * [A084681](https://oeis.org/A084681) ([program](/edit/?oeis=84681)): Order of 10 modulo 9n [i.e., least m such that 10^m = 1 (mod 9n)] or 0 when no such number exists.
+* [A084683](https://oeis.org/A084683) ([program](/edit/?oeis=84683)): G.f.: (1+2\*x^3+2\*x^6)/((1-x)\*(1-x-x^2+x^3-x^4-x^5+x^6)).
 * [A084684](https://oeis.org/A084684) ([program](/edit/?oeis=84684)): Degrees of certain maps (see Comments and Formulas for more precise definitions).
 * [A084686](https://oeis.org/A084686) ([program](/edit/?oeis=84686)): Take n-th prime p(n), rewrite it with digits in decreasing order to get b(n), then a(n)=(b(n)-p(n))/9.
 * [A084697](https://oeis.org/A084697) ([program](/edit/?oeis=84697)): a(1) = 2; for n >= 1, k>=1, a(n+1) = a(n) + k\*n is the smallest such prime.
@@ -10307,11 +10831,19 @@ List of integer sequences with links to LODA programs.
 * [A085060](https://oeis.org/A085060) ([program](/edit/?oeis=85060)): Integer reached in A085058.
 * [A085062](https://oeis.org/A085062) ([program](/edit/?oeis=85062)): A085060(n)/9 - 1/3.
 * [A085078](https://oeis.org/A085078) ([program](/edit/?oeis=85078)): The largest number with the prime signature of n! using primes <= n.
+* [A085086](https://oeis.org/A085086) ([program](/edit/?oeis=85086)): a(1) = 1; if n is composite then a(n) = Sum\_\{i < n, i not prime\} a(i), else if n is prime then a(n) = sum\_\{ j < n, j is a noncomposite\} a(j).
 * [A085089](https://oeis.org/A085089) ([program](/edit/?oeis=85089)): Number of distinct prime signatures arising up to n.
 * [A085090](https://oeis.org/A085090) ([program](/edit/?oeis=85090)): If 2n-1 is prime then a(n) = 2n-1, otherwise a(n) = 0.
 * [A085099](https://oeis.org/A085099) ([program](/edit/?oeis=85099)): Least natural number k such that k^2 + n is prime.
 * [A085110](https://oeis.org/A085110) ([program](/edit/?oeis=85110)): a(1)=1, then add 1 multiply by 2 to get a(2), subtract 1 and multiply by 3 to get a(3), add 1 and multiply by 4 to get a(4) and so on.
 * [A085118](https://oeis.org/A085118) ([program](/edit/?oeis=85118)): Primes together with twice the odd primes.
+* [A085125](https://oeis.org/A085125) ([program](/edit/?oeis=85125)): Multiples of 2 which are members of A002473. Or multiples of 2 with the largest prime divisor < 10.
+* [A085126](https://oeis.org/A085126) ([program](/edit/?oeis=85126)): Multiples of 3 which are members of A002473. Or multiples of 3 with the largest prime divisor < 10.
+* [A085127](https://oeis.org/A085127) ([program](/edit/?oeis=85127)): Multiples of 4 which are members of A002473. Or multiples of 4 with the largest prime divisor < 10.
+* [A085128](https://oeis.org/A085128) ([program](/edit/?oeis=85128)): Multiples of 5 which are members of A002473. Or multiples of 5 with the largest prime divisor <= 7.
+* [A085129](https://oeis.org/A085129) ([program](/edit/?oeis=85129)): Multiples of 6 which are members of A002473. Or multiples of 6 with the largest prime divisor < 10.
+* [A085131](https://oeis.org/A085131) ([program](/edit/?oeis=85131)): Multiples of 8 which are members of A002473. Or multiples of 8 with the largest prime divisor < 10.
+* [A085132](https://oeis.org/A085132) ([program](/edit/?oeis=85132)): Multiples of 9 which are members of A002473. Or multiples of 9 with the largest prime divisor < 10.
 * [A085139](https://oeis.org/A085139) ([program](/edit/?oeis=85139)): a(n) = Sum\_\{i=0..n-1\} (1 + (-1)^(n-1-i))/2 \* Sum\_\{j=0..i\} a(j)\*a(i-j) for n > 0, with a(0) = 1.
 * [A085141](https://oeis.org/A085141) ([program](/edit/?oeis=85141)): Greatest nonnegative integer k such that k(3k+1)/2 <= n.
 * [A085144](https://oeis.org/A085144) ([program](/edit/?oeis=85144)): a(0)=0, a(2n) = a(n)+1, a(2n+1) = -a(n).
@@ -10319,6 +10851,8 @@ List of integer sequences with links to LODA programs.
 * [A085151](https://oeis.org/A085151) ([program](/edit/?oeis=85151)): Numbers generated by the Fibonacci polynomial x^4 + 3x^2 + 1.
 * [A085157](https://oeis.org/A085157) ([program](/edit/?oeis=85157)): Quintuple factorials, 5-factorials, n!!!!!, n!5.
 * [A085158](https://oeis.org/A085158) ([program](/edit/?oeis=85158)): Sextuple factorials, 6-factorials, n!!!!!!, n!6.
+* [A085183](https://oeis.org/A085183) ([program](/edit/?oeis=85183)): a(n) = A053645(A057520(n)), i.e., the terms of A014486 without their most significant bit (1) and the least significant bit (0).
+* [A085184](https://oeis.org/A085184) ([program](/edit/?oeis=85184)): Sequence A085183 shown in base 4. Quaternary code for binary trees.
 * [A085185](https://oeis.org/A085185) ([program](/edit/?oeis=85185)): Sequence A014486 shown in base 4.
 * [A085186](https://oeis.org/A085186) ([program](/edit/?oeis=85186)): Sequence A085195 shown in base 4.
 * [A085192](https://oeis.org/A085192) ([program](/edit/?oeis=85192)): First differences of A014486.
@@ -10468,11 +11002,13 @@ List of integer sequences with links to LODA programs.
 * [A085551](https://oeis.org/A085551) ([program](/edit/?oeis=85551)): Decimal expansion of (sqrt(29)-5)/2.
 * [A085552](https://oeis.org/A085552) ([program](/edit/?oeis=85552)): n-th digit after decimal point of sqrt(n^2+4)-n)/2.
 * [A085565](https://oeis.org/A085565) ([program](/edit/?oeis=85565)): Decimal expansion of lemniscate constant A.
+* [A085570](https://oeis.org/A085570) ([program](/edit/?oeis=85570)): If n mod 2 = 0 then 2\*Sum(floor(C(n,w)/(2\*w+1)),w=0..n/2-1)+floor(C(n,n/2)/(n+1)) otherwise 2\*Sum(floor(C(n,w)/(2\*w+1)),w=0..(n-1)/2).
 * [A085577](https://oeis.org/A085577) ([program](/edit/?oeis=85577)): Size of maximal subset of the n^2 cells in an n X n grid such that there are at least 3 edges between any pair of chosen cells.
 * [A085579](https://oeis.org/A085579) ([program](/edit/?oeis=85579)): See comments lines for definition.
 * [A085580](https://oeis.org/A085580) ([program](/edit/?oeis=85580)): a(n) = (n+1)-st digit after decimal point of d, where d = (sqrt((n+1)^2 + 4(n+1)) - (n+1))/2.
 * [A085583](https://oeis.org/A085583) ([program](/edit/?oeis=85583)): Number of (3412,1234)-avoiding involutions in S\_n.
 * [A085584](https://oeis.org/A085584) ([program](/edit/?oeis=85584)): Number of (3412,2341)-, (3412,4123)- and (3412,52341)-avoiding involutions in S\_n.
+* [A085585](https://oeis.org/A085585) ([program](/edit/?oeis=85585)): Squares with all but one even digits.
 * [A085599](https://oeis.org/A085599) ([program](/edit/?oeis=85599)): Number of pairs of coprimes (n-i,n+i), 1<i<n.
 * [A085600](https://oeis.org/A085600) ([program](/edit/?oeis=85600)): Number of simple graphs with 3 edges on n vertices.
 * [A085601](https://oeis.org/A085601) ([program](/edit/?oeis=85601)): a(n) = 2 \* (4^n + 2^n) + 1.
@@ -10500,8 +11036,10 @@ List of integer sequences with links to LODA programs.
 * [A085696](https://oeis.org/A085696) ([program](/edit/?oeis=85696)): a(n) = L(n) \* L(n+1) \* L(n+2) / 2, where L(n) = Lucas number (A000032).
 * [A085697](https://oeis.org/A085697) ([program](/edit/?oeis=85697)): a(n) = T(n)^2, where T(n) = A000073(n) is the n-th tribonacci number.
 * [A085708](https://oeis.org/A085708) ([program](/edit/?oeis=85708)): Arithmetic derivative of 10^n.
+* [A085710](https://oeis.org/A085710) ([program](/edit/?oeis=85710)): Smallest k such that kn+1 is a semiprime.
 * [A085717](https://oeis.org/A085717) ([program](/edit/?oeis=85717)): Consider the square lattice L and the sublattice K of index 5 spanned by (2,-1), (1,2); a(n) = number of points (x,y) in M with x >= 0, y >= 0, x+y <= n.
 * [A085722](https://oeis.org/A085722) ([program](/edit/?oeis=85722)): Numbers n such that n^2 + 1 is a semiprime.
+* [A085727](https://oeis.org/A085727) ([program](/edit/?oeis=85727)): Number of semiprimes between n and 2n (inclusive).
 * [A085729](https://oeis.org/A085729) ([program](/edit/?oeis=85729)): Sum of prime factors of prime powers.
 * [A085730](https://oeis.org/A085730) ([program](/edit/?oeis=85730)): Euler's totient function applied to the sequence of prime powers.
 * [A085731](https://oeis.org/A085731) ([program](/edit/?oeis=85731)): Greatest common divisor of n and its arithmetic derivative.
@@ -10533,6 +11071,7 @@ List of integer sequences with links to LODA programs.
 * [A085840](https://oeis.org/A085840) ([program](/edit/?oeis=85840)): Triangle read by rows: T(n,m) = 4^m \* (2\*n+1)! / ( (2\*n - 2\*m + 1)! \* (2\*m)! ), row n has n+1 terms.
 * [A085841](https://oeis.org/A085841) ([program](/edit/?oeis=85841)): Triangle: row #n has n+1 terms. T(n,m) = 4^m (2n+1)! / ( (2n-2m)! (2m+1)! ).
 * [A085855](https://oeis.org/A085855) ([program](/edit/?oeis=85855)): Number of 1's in decimal expansion of Fibonacci(n).
+* [A085856](https://oeis.org/A085856) ([program](/edit/?oeis=85856)): Number of 2's in decimal expansion of Fibonacci(n).
 * [A085857](https://oeis.org/A085857) ([program](/edit/?oeis=85857)): Number of 3's in decimal expansion of Fibonacci(n).
 * [A085864](https://oeis.org/A085864) ([program](/edit/?oeis=85864)): a(1) = 2, a(n+1) = a(n)\*\{tau(a(n))\}.
 * [A085866](https://oeis.org/A085866) ([program](/edit/?oeis=85866)): a(1) = 3, a(n+1) = a(n)\*phi(a(n)), where phi(n) is Euler's totient function.
@@ -10614,6 +11153,7 @@ List of integer sequences with links to LODA programs.
 * [A086116](https://oeis.org/A086116) ([program](/edit/?oeis=86116)): Numerator of mean deviation of a symmetrical binomial distribution on n elements.
 * [A086117](https://oeis.org/A086117) ([program](/edit/?oeis=86117)): Denominator of mean deviation of a symmetrical binomial distribution on n elements.
 * [A086130](https://oeis.org/A086130) ([program](/edit/?oeis=86130)): a(n) = lcm(n, A003415(n)).
+* [A086141](https://oeis.org/A086141) ([program](/edit/?oeis=86141)): Permutation of A025487 (least prime signatures) which, when values are factored, exhibit self-similarity (cf. A008687).
 * [A086148](https://oeis.org/A086148) ([program](/edit/?oeis=86148)): Sum of the orders of the elements in the dihedral group D\_2n.
 * [A086156](https://oeis.org/A086156) ([program](/edit/?oeis=86156)): a(n) = sigma(n^2) - n\*sigma(n).
 * [A086159](https://oeis.org/A086159) ([program](/edit/?oeis=86159)): Number of partitions of n into the first three triangular numbers, 1, 3 and 6.
@@ -10622,6 +11162,7 @@ List of integer sequences with links to LODA programs.
 * [A086167](https://oeis.org/A086167) ([program](/edit/?oeis=86167)): a(n) = sum of the first n lower twin primes.
 * [A086168](https://oeis.org/A086168) ([program](/edit/?oeis=86168)): a(n) = sum of the first n upper twin primes.
 * [A086169](https://oeis.org/A086169) ([program](/edit/?oeis=86169)): Sum of the first n twin prime pairs.
+* [A086170](https://oeis.org/A086170) ([program](/edit/?oeis=86170)): a(1)=1; a(n)=a(n-1)+1 if n is in the sequence; a(n)=a(n-1)+2 if n and (n-1) are not in the sequence; a(n)=a(n-1)+3 if n is not in the sequence but (n-1) is in the sequence.
 * [A086178](https://oeis.org/A086178) ([program](/edit/?oeis=86178)): Decimal expansion of 1 + 2\*sqrt(2).
 * [A086180](https://oeis.org/A086180) ([program](/edit/?oeis=86180)): Decimal expansion of 1 + sqrt(6).
 * [A086192](https://oeis.org/A086192) ([program](/edit/?oeis=86192)): Tribonacci numbers that start with first three squares.
@@ -10636,8 +11177,10 @@ List of integer sequences with links to LODA programs.
 * [A086228](https://oeis.org/A086228) ([program](/edit/?oeis=86228)): Determinant of n X n matrix M(i,j)=binomial(2i+1, j).
 * [A086229](https://oeis.org/A086229) ([program](/edit/?oeis=86229)): Determinant of n X n matrix M(i,j) = binomial(2i-1,j), (i,j) ranging from 1 to n.
 * [A086246](https://oeis.org/A086246) ([program](/edit/?oeis=86246)): Expansion of (1 + x - sqrt(1 - 2\*x - 3\*x^2)) / 2 in powers of x.
+* [A086247](https://oeis.org/A086247) ([program](/edit/?oeis=86247)): Differences of successive 7-smooth numbers.
 * [A086253](https://oeis.org/A086253) ([program](/edit/?oeis=86253)): Decimal expansion of Feller's alpha coin-tossing constant.
 * [A086254](https://oeis.org/A086254) ([program](/edit/?oeis=86254)): Decimal expansion of Feller's beta coin-tossing constant.
+* [A086260](https://oeis.org/A086260) ([program](/edit/?oeis=86260)): Number of symmetric n X n conference matrices.
 * [A086261](https://oeis.org/A086261) ([program](/edit/?oeis=86261)): Number of antisymmetric n X n conference matrices.
 * [A086270](https://oeis.org/A086270) ([program](/edit/?oeis=86270)): Rectangular array T(k,n) of polygonal numbers, by antidiagonals.
 * [A086271](https://oeis.org/A086271) ([program](/edit/?oeis=86271)): Rectangular array T(n,k) of polygonal numbers, by diagonals.
@@ -10646,9 +11189,19 @@ List of integer sequences with links to LODA programs.
 * [A086274](https://oeis.org/A086274) ([program](/edit/?oeis=86274)): Antidiagonal sums of A086272 (and of A086273).
 * [A086275](https://oeis.org/A086275) ([program](/edit/?oeis=86275)): Number of distinct Gaussian primes in the factorization of n.
 * [A086285](https://oeis.org/A086285) ([program](/edit/?oeis=86285)): Numbers k such that 1 + 2k + 3k^2 is prime.
+* [A086287](https://oeis.org/A086287) ([program](/edit/?oeis=86287)): Greatest prime factor of 7-smooth numbers.
+* [A086288](https://oeis.org/A086288) ([program](/edit/?oeis=86288)): Number of distinct prime factors of 7-smooth numbers.
 * [A086289](https://oeis.org/A086289) ([program](/edit/?oeis=86289)): Total number of prime factors of 7-smooth numbers.
+* [A086291](https://oeis.org/A086291) ([program](/edit/?oeis=86291)): Maximal exponent in prime factorization of 7-smooth numbers.
+* [A086292](https://oeis.org/A086292) ([program](/edit/?oeis=86292)): Number of divisors of 7-smooth numbers.
+* [A086293](https://oeis.org/A086293) ([program](/edit/?oeis=86293)): Sum of divisors of 7-smooth numbers.
+* [A086294](https://oeis.org/A086294) ([program](/edit/?oeis=86294)): Sum of distinct prime factors of 7-smooth numbers.
+* [A086295](https://oeis.org/A086295) ([program](/edit/?oeis=86295)): Sum of all prime factors of 7-smooth numbers.
+* [A086296](https://oeis.org/A086296) ([program](/edit/?oeis=86296)): Euler's totient of 7-smooth numbers.
+* [A086297](https://oeis.org/A086297) ([program](/edit/?oeis=86297)): Squarefree kernels of 7-smooth numbers.
 * [A086298](https://oeis.org/A086298) ([program](/edit/?oeis=86298)): Numbers n such that 1-2n+3n^2 is prime.
 * [A086299](https://oeis.org/A086299) ([program](/edit/?oeis=86299)): a(n) = if n is 7-smooth then 1 else 0: characteristic function of 7-smooth numbers.
+* [A086300](https://oeis.org/A086300) ([program](/edit/?oeis=86300)): Arithmetic derivative of 7-smooth numbers.
 * [A086302](https://oeis.org/A086302) ([program](/edit/?oeis=86302)): a(n) = 4\*n^4 + 24\*n^3 + 48\*n^2 + 36\*n + 8.
 * [A086303](https://oeis.org/A086303) ([program](/edit/?oeis=86303)): Numbers n such that n+15 is prime.
 * [A086304](https://oeis.org/A086304) ([program](/edit/?oeis=86304)): Numbers n such that n+6 is prime.
@@ -10674,7 +11227,10 @@ List of integer sequences with links to LODA programs.
 * [A086374](https://oeis.org/A086374) ([program](/edit/?oeis=86374)): Number of factors over Q in the factorization of T\_n(x) + 1 where T\_n(x) is the Chebyshev polynomial of the first kind.
 * [A086375](https://oeis.org/A086375) ([program](/edit/?oeis=86375)): Number of factors over Q in the factorization of U\_n(x) + 1 where U\_n(x) is the Chebyshev polynomial of the second kind.
 * [A086377](https://oeis.org/A086377) ([program](/edit/?oeis=86377)): a(1)=1; a(n)=a(n-1)+2 if n is in the sequence; a(n)=a(n-1)+2 if n and (n-1) are not in the sequence; a(n)=a(n-1)+3 if n is not in the sequence but (n-1) is in the sequence.
+* [A086384](https://oeis.org/A086384) ([program](/edit/?oeis=86384)): Odd digits of e.
 * [A086385](https://oeis.org/A086385) ([program](/edit/?oeis=86385)): Odd digits of Pi.
+* [A086389](https://oeis.org/A086389) ([program](/edit/?oeis=86389)): Number of factors over Q in the factorization of U\_n(x) - 1 where U\_n(x) is the Chebyshev polynomial of the second kind.
+* [A086396](https://oeis.org/A086396) ([program](/edit/?oeis=86396)): Even digits of e.
 * [A086398](https://oeis.org/A086398) ([program](/edit/?oeis=86398)): a(1)=1; a(n)=a(n-1)+2 if n is in the sequence; a(n)=a(n-1)+2 if n and (n-1) are not in the sequence; a(n)=a(n-1)+4 if n is not in the sequence but (n-1) is in the sequence.
 * [A086399](https://oeis.org/A086399) ([program](/edit/?oeis=86399)): Even digits of Pi.
 * [A086403](https://oeis.org/A086403) ([program](/edit/?oeis=86403)): Numerators in continued fraction representation of (e-1)/(e+1).
@@ -10684,6 +11240,7 @@ List of integer sequences with links to LODA programs.
 * [A086410](https://oeis.org/A086410) ([program](/edit/?oeis=86410)): Smallest prime factor of 3-smooth numbers, with a(1)=1.
 * [A086411](https://oeis.org/A086411) ([program](/edit/?oeis=86411)): Greatest prime factor of 3-smooth numbers.
 * [A086412](https://oeis.org/A086412) ([program](/edit/?oeis=86412)): Number of distinct prime factors of 3-smooth numbers.
+* [A086414](https://oeis.org/A086414) ([program](/edit/?oeis=86414)): Minimal exponent in prime factorization of 3-smooth numbers.
 * [A086415](https://oeis.org/A086415) ([program](/edit/?oeis=86415)): Maximal exponent in prime factorization of 3-smooth numbers.
 * [A086416](https://oeis.org/A086416) ([program](/edit/?oeis=86416)): Number of divisors of 3-smooth numbers.
 * [A086417](https://oeis.org/A086417) ([program](/edit/?oeis=86417)): Sum of divisors of 3-smooth numbers.
@@ -10715,6 +11272,7 @@ List of integer sequences with links to LODA programs.
 * [A086500](https://oeis.org/A086500) ([program](/edit/?oeis=86500)): Group the natural numbers such that the n-th group sum is divisible by the n-th triangular number: (1), (2, 3, 4), (5, 6, 7), (8, 9, 10, 11, 12), (13, 14, 15, 16, 17), (18, 19, 20, 21, 22, 23, 24), ... Sequence contains the group sum.
 * [A086514](https://oeis.org/A086514) ([program](/edit/?oeis=86514)): Difference between the arithmetic mean of the neighbors of the terms and the term itself follows the pattern 0,1,2,3,4,5,...
 * [A086520](https://oeis.org/A086520) ([program](/edit/?oeis=86520)): Number of integers strictly greater than (n-sqrt(n))/2 and strictly less than (n+sqrt(n))/2.
+* [A086525](https://oeis.org/A086525) ([program](/edit/?oeis=86525)): a(n) = a(( a(n-2))\*(1-mod(n,2))+a(n-1)\*(mod(n,2))) + a((n - a(n-2))\*(1-mod(n,2))+(n-a(n-1))\*(mod(n,2))).
 * [A086529](https://oeis.org/A086529) ([program](/edit/?oeis=86529)): Beginning with 2, distinct even numbers such that the arithmetic mean of successive pairs of terms gives odd primes in their natural order. \{a(n) + a(n+1)\}/2 = prime(n+1).
 * [A086568](https://oeis.org/A086568) ([program](/edit/?oeis=86568)): Smallest number having as many distinct prime factors as n has prime factors, when counted with multiplicity.
 * [A086570](https://oeis.org/A086570) ([program](/edit/?oeis=86570)): Expansion of (1 + 3x + 5x^2 + 7x^3 + ...) / (1 - 2x + 3x^2 - 4x^3 + ...).
@@ -10754,6 +11312,7 @@ List of integer sequences with links to LODA programs.
 * [A086666](https://oeis.org/A086666) ([program](/edit/?oeis=86666)): a(n) = sigma\_2(n) - sigma\_1(n).
 * [A086668](https://oeis.org/A086668) ([program](/edit/?oeis=86668)): Number of divisors d of n such that 2d+1 is a prime.
 * [A086670](https://oeis.org/A086670) ([program](/edit/?oeis=86670)): Sum of floor(d/2) where d is a divisor of n.
+* [A086671](https://oeis.org/A086671) ([program](/edit/?oeis=86671)): Sum of floor(sqrt(d)) where d runs through the divisors of n.
 * [A086674](https://oeis.org/A086674) ([program](/edit/?oeis=86674)): Sum of signed indices from Euler's Pentagonal Theorem (see A000041).
 * [A086685](https://oeis.org/A086685) ([program](/edit/?oeis=86685)): Number of 1 <= i < n such that i\*n+1 is prime.
 * [A086686](https://oeis.org/A086686) ([program](/edit/?oeis=86686)): Number of 1<=i<n such that i\*n-1 is prime.
@@ -10765,6 +11324,7 @@ List of integer sequences with links to LODA programs.
 * [A086700](https://oeis.org/A086700) ([program](/edit/?oeis=86700)): Euler phi function applied to the triangular numbers.
 * [A086701](https://oeis.org/A086701) ([program](/edit/?oeis=86701)): n-th prime number raised to the n-th composite number.
 * [A086707](https://oeis.org/A086707) ([program](/edit/?oeis=86707)): Smallest mode of the sequences n/(n-k)\*binomial(n,n-k) (see link).
+* [A086718](https://oeis.org/A086718) ([program](/edit/?oeis=86718)): Convolution of sequence of primes with sequence sigma(n).
 * [A086726](https://oeis.org/A086726) ([program](/edit/?oeis=86726)): Decimal expansion of sum(1/(6\*m)^2,m=1..infinity).
 * [A086729](https://oeis.org/A086729) ([program](/edit/?oeis=86729)): Decimal expansion of Pi^2/72.
 * [A086743](https://oeis.org/A086743) ([program](/edit/?oeis=86743)): Numbers n such that the coefficient of x^n equals 0 in Product\_\{k>=1\} (1 - x^(3^k)).
@@ -10778,6 +11338,7 @@ List of integer sequences with links to LODA programs.
 * [A086764](https://oeis.org/A086764) ([program](/edit/?oeis=86764)): Triangle T(n, k), read by row, related to Euler's difference table A068106 (divide k-th diagonal of A068106 by k!).
 * [A086767](https://oeis.org/A086767) ([program](/edit/?oeis=86767)): Last coefficient of the last term in the numerator of the simplified expansion of the solutions of FLT for n=2 for FLT n=1,2,3,..
 * [A086769](https://oeis.org/A086769) ([program](/edit/?oeis=86769)): a(n) = sum\{2^(b(i)-1): 1<=i<=n\}, where b(n) is the differences between consecutive primes.
+* [A086775](https://oeis.org/A086775) ([program](/edit/?oeis=86775)): Decimal expansion of the number defined by the continued fraction shown below.
 * [A086779](https://oeis.org/A086779) ([program](/edit/?oeis=86779)): Numbers k such that k-th cyclotomic polynomial has exactly 7 nonzero terms.
 * [A086783](https://oeis.org/A086783) ([program](/edit/?oeis=86783)): Discriminant of the polynomial x^n - 1.
 * [A086784](https://oeis.org/A086784) ([program](/edit/?oeis=86784)): Number of non-trailing zeros in binary representation of n.
@@ -10786,7 +11347,9 @@ List of integer sequences with links to LODA programs.
 * [A086794](https://oeis.org/A086794) ([program](/edit/?oeis=86794)): Numbers n such that n-th cyclotomic polynomial has exactly 9 nonzero terms.
 * [A086797](https://oeis.org/A086797) ([program](/edit/?oeis=86797)): Discriminant of the polynomial x^n - x - 1.
 * [A086799](https://oeis.org/A086799) ([program](/edit/?oeis=86799)): Replace all trailing 0's with 1's in binary representation of n.
+* [A086800](https://oeis.org/A086800) ([program](/edit/?oeis=86800)): Triangle read by rows in which row n lists differences between prime(n) and prime(k) for 1 <= k <= n.
 * [A086801](https://oeis.org/A086801) ([program](/edit/?oeis=86801)): a(n) = prime(n) - 3.
+* [A086802](https://oeis.org/A086802) ([program](/edit/?oeis=86802)): Triangle read by rows in which row n lists (prime(n)-prime(k))/2 for 2 <= k <= n.
 * [A086803](https://oeis.org/A086803) ([program](/edit/?oeis=86803)): a(n) = Product\_\{i=2..n\} (prime(n+1)-prime(i)).
 * [A086810](https://oeis.org/A086810) ([program](/edit/?oeis=86810)): Triangle obtained by adding a leading diagonal 1,0,0,0,... to A033282.
 * [A086812](https://oeis.org/A086812) ([program](/edit/?oeis=86812)): Number of symmetric invertible n X n matrices over GF(2).
@@ -10818,6 +11381,7 @@ List of integer sequences with links to LODA programs.
 * [A086903](https://oeis.org/A086903) ([program](/edit/?oeis=86903)): a(n) = 8\*a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 8, a(n) = (4+sqrt(15))^n + (4-sqrt(15))^n.
 * [A086905](https://oeis.org/A086905) ([program](/edit/?oeis=86905)): a(n) = Sum\_\{k=0..n\} (-1)^(n-k)\*binomial(k,floor(k/2)).
 * [A086910](https://oeis.org/A086910) ([program](/edit/?oeis=86910)): a[1]=1; a[n] =1+Abs[Prime[n]-a[n-1]]
+* [A086914](https://oeis.org/A086914) ([program](/edit/?oeis=86914)): a(n) = ((n-1)^n/n)\*Sum\_\{k>=1\} (k^n/n^k).
 * [A086915](https://oeis.org/A086915) ([program](/edit/?oeis=86915)): Triangle read by rows: T(n,k) = 2^k \* (n!/k!)\*binomial(n-1,k-1).
 * [A086926](https://oeis.org/A086926) ([program](/edit/?oeis=86926)): Product of Fibonacci and (shifted) triangular numbers.
 * [A086927](https://oeis.org/A086927) ([program](/edit/?oeis=86927)): a(n) = 10\*a(n-1) + a(n-2), starting with a(0) = 2 and a(1) = 10.
@@ -10842,7 +11406,6 @@ List of integer sequences with links to LODA programs.
 * [A086954](https://oeis.org/A086954) ([program](/edit/?oeis=86954)): Binomial transform of A061800.
 * [A086955](https://oeis.org/A086955) ([program](/edit/?oeis=86955)): a(n) = n^2 + 2\*n + 2 - (-1)^n.
 * [A086970](https://oeis.org/A086970) ([program](/edit/?oeis=86970)): Fix 1, then exchange the subsequent odd numbers in pairs.
-* [A086971](https://oeis.org/A086971) ([program](/edit/?oeis=86971)): Number of semiprime divisors of n.
 * [A086972](https://oeis.org/A086972) ([program](/edit/?oeis=86972)): a(n) = n\*3^(n-1) + (3^n+1)/2.
 * [A086975](https://oeis.org/A086975) ([program](/edit/?oeis=86975)): Numbers of the form p^2 \* q \* r with primes p < q < r.
 * [A086984](https://oeis.org/A086984) ([program](/edit/?oeis=86984)): Number of arrangements of n labeled balls in n labeled columns where only 1 column may have more than 1 ball.
@@ -10853,6 +11416,8 @@ List of integer sequences with links to LODA programs.
 * [A086996](https://oeis.org/A086996) ([program](/edit/?oeis=86996)): Decimal expansion of e (A001113) written in base 2.
 * [A086997](https://oeis.org/A086997) ([program](/edit/?oeis=86997)): Number of 1's in binary representation of n-th decimal digit in expansion of e.
 * [A087003](https://oeis.org/A087003) ([program](/edit/?oeis=87003)): a(2n) = 0 and a(2n+1) = mu(2n+1); also the sum of Mobius function values computed for terms of 3x+1 trajectory started at n, provided that Collatz conjecture is true.
+* [A087005](https://oeis.org/A087005) ([program](/edit/?oeis=87005)): Divisors of 2310.
+* [A087006](https://oeis.org/A087006) ([program](/edit/?oeis=87006)): Divisors of 30030.
 * [A087009](https://oeis.org/A087009) ([program](/edit/?oeis=87009)): Least m such that omega(m) + Omega(m) = n, or 0 if no such m exists.
 * [A087018](https://oeis.org/A087018) ([program](/edit/?oeis=87018)): Row sums of Fibonacci triangle shown below.
 * [A087030](https://oeis.org/A087030) ([program](/edit/?oeis=87030)): n "reflected" in the next prime: a(n)=2p-n, p is smallest prime > n.
@@ -10878,10 +11443,12 @@ List of integer sequences with links to LODA programs.
 * [A087099](https://oeis.org/A087099) ([program](/edit/?oeis=87099)): Partial sums of A063914.
 * [A087100](https://oeis.org/A087100) ([program](/edit/?oeis=87100)): A000225 (2^n - 1) interlaced with A008593 (11n).
 * [A087105](https://oeis.org/A087105) ([program](/edit/?oeis=87105)): (prime(n-1) + 1)\*(prime(n+1) - 1).
+* [A087112](https://oeis.org/A087112) ([program](/edit/?oeis=87112)): Triangle in which the n-th row contains n distinct semiprimes not listed previously with all prime factors from among the first n primes.
 * [A087115](https://oeis.org/A087115) ([program](/edit/?oeis=87115)): Convolution of sum of cubes of divisors with itself.
 * [A087116](https://oeis.org/A087116) ([program](/edit/?oeis=87116)): Number of maximal groups of consecutive zeros in binary representation of n.
 * [A087117](https://oeis.org/A087117) ([program](/edit/?oeis=87117)): Number of zeros in the longest string of consecutive zeros in the binary representation of n.
 * [A087118](https://oeis.org/A087118) ([program](/edit/?oeis=87118)): Numbers having exactly one maximal group of consecutive zeros in binary representation of n.
+* [A087119](https://oeis.org/A087119) ([program](/edit/?oeis=87119)): Numbers having more than one maximal group of consecutive zeros in binary representation of n.
 * [A087120](https://oeis.org/A087120) ([program](/edit/?oeis=87120)): Smallest numbers having in binary representation exactly n maximal groups of consecutive zeros.
 * [A087123](https://oeis.org/A087123) ([program](/edit/?oeis=87123)): a(n) = Fibonacci(n+1) - (-1)^n\*Fibonacci(n).
 * [A087124](https://oeis.org/A087124) ([program](/edit/?oeis=87124)): a(n) = Fibonacci(n) + Fibonacci(2n+1).
@@ -10901,10 +11468,12 @@ List of integer sequences with links to LODA programs.
 * [A087170](https://oeis.org/A087170) ([program](/edit/?oeis=87170)): Expansion of (1 + 4\*x)/(1 + 7\*x + 16\*x^2).
 * [A087171](https://oeis.org/A087171) ([program](/edit/?oeis=87171)): Expansion of (1 + 5\*x)/(1 + 9\*x + 25\*x^2).
 * [A087172](https://oeis.org/A087172) ([program](/edit/?oeis=87172)): Greatest Fibonacci number that does not exceed n.
+* [A087186](https://oeis.org/A087186) ([program](/edit/?oeis=87186)): Q(p)/p where p runs through the primes and Q(k) is the k-th central quadrinomial coefficient (A005190).
 * [A087192](https://oeis.org/A087192) ([program](/edit/?oeis=87192)): a(n) = ceiling(a(n-1)\*4/3), with a(1) = 1.
 * [A087204](https://oeis.org/A087204) ([program](/edit/?oeis=87204)): Period 6: repeat [2, 1, -1, -2, -1, 1].
 * [A087205](https://oeis.org/A087205) ([program](/edit/?oeis=87205)): a(n) = -2\*a(n-1) + 4\*a(n-2), a(0)=1, a(1)=2.
 * [A087206](https://oeis.org/A087206) ([program](/edit/?oeis=87206)): a(n) = 2\*a(n-1) + 4\*a(n-2); with a(0)=1, a(1)=4.
+* [A087207](https://oeis.org/A087207) ([program](/edit/?oeis=87207)): A binary representation of the primes that divide a number, shown in decimal.
 * [A087208](https://oeis.org/A087208) ([program](/edit/?oeis=87208)): Expansion of e.g.f.: exp(x)/(1-x^2).
 * [A087211](https://oeis.org/A087211) ([program](/edit/?oeis=87211)): Floor((1+2^n+3^n)/3).
 * [A087213](https://oeis.org/A087213) ([program](/edit/?oeis=87213)): Expansion of (1+x-4\*x^2) / ((1+x)\*(1-4\*x^2)).
@@ -10912,18 +11481,16 @@ List of integer sequences with links to LODA programs.
 * [A087215](https://oeis.org/A087215) ([program](/edit/?oeis=87215)): Lucas(6\*n): a(n) = 18\*a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 18.
 * [A087216](https://oeis.org/A087216) ([program](/edit/?oeis=87216)): a(n) = (6n)!/((3n)!(2n)!2^n).
 * [A087217](https://oeis.org/A087217) ([program](/edit/?oeis=87217)): In decimal representation: smallest multiple of n containing it as substring.
-* [A087227](https://oeis.org/A087227) ([program](/edit/?oeis=87227)): Number of distinct prime factors of A087226(n), the LCM of terms in trajectory of 3x+1 (function) initiated at n.
 * [A087229](https://oeis.org/A087229) ([program](/edit/?oeis=87229)): Exponent of p=2 in 12n+4 = 3(4n+1)+1.
 * [A087230](https://oeis.org/A087230) ([program](/edit/?oeis=87230)): a(n) is the 2-adic valuation of 6\*n + 4.
 * [A087231](https://oeis.org/A087231) ([program](/edit/?oeis=87231)): a(n) is the smallest number such that the exponent of p=2 factor in 6\*a(n)+4 equals n.
 * [A087232](https://oeis.org/A087232) ([program](/edit/?oeis=87232)): a(n) is the largest odd term in the 3x+1 trajectory initiated at n.
 * [A087233](https://oeis.org/A087233) ([program](/edit/?oeis=87233)): a(n)=floor[sigma[A002110(n)]/A002110(n)]; integer quotient of divisor-sum of primorial numbers and primorials.
+* [A087246](https://oeis.org/A087246) ([program](/edit/?oeis=87246)): Squarefree deficient numbers.
 * [A087252](https://oeis.org/A087252) ([program](/edit/?oeis=87252)): Numbers that are divisible by 4, but cannot be the largest peak value in a 3x+1 trajectory, regardless of the initial value.
 * [A087258](https://oeis.org/A087258) ([program](/edit/?oeis=87258)): a(n) = gcd(n, A025586(n)), greatest common divisor of n and largest value in 3x+1 iteration list started at n.
 * [A087259](https://oeis.org/A087259) ([program](/edit/?oeis=87259)): a(n) = lcm(n, A025586(n)), least common multiple of n and largest value in 3x+1 iteration list started at n.
 * [A087260](https://oeis.org/A087260) ([program](/edit/?oeis=87260)): a(n) = gcd(4n, A025586(4n)), greatest common divisor of 4n and largest value in 3x+1 iteration list started at 4n.
-* [A087261](https://oeis.org/A087261) ([program](/edit/?oeis=87261)): a(n) = lcm(4n, A025586(4n)), least common multiple of 4n and the largest value in 3x+1 iteration list started at 4n.
-* [A087262](https://oeis.org/A087262) ([program](/edit/?oeis=87262)): Integer quotient of largest and initial values in 3x+1 iteration, started at n.
 * [A087265](https://oeis.org/A087265) ([program](/edit/?oeis=87265)): Lucas numbers L(8\*n).
 * [A087267](https://oeis.org/A087267) ([program](/edit/?oeis=87267)): a(n) = gcd(n, pi(n)) where pi is A000720.
 * [A087268](https://oeis.org/A087268) ([program](/edit/?oeis=87268)): Solutions to gcd(x, pi(x)) = 1, where pi is A000720.
@@ -10969,6 +11536,7 @@ List of integer sequences with links to LODA programs.
 * [A087426](https://oeis.org/A087426) ([program](/edit/?oeis=87426)): a(n) = S(n,4) where S(n,m) = sum(k=0,n,binomial(n,k)\*Fibonacci(m\*k)).
 * [A087427](https://oeis.org/A087427) ([program](/edit/?oeis=87427)): Number of lattice points on or inside the rectangle formed by [1 <= x <= (q-1)/2] and [1 <= y <= (p-1)/2], where p = n-th prime, q = (n-1)-st prime.
 * [A087428](https://oeis.org/A087428) ([program](/edit/?oeis=87428)): a(n) = [(p-1)/2 \* (q-1)/2] mod p where p = (n+1)th odd prime, q = n-th odd prime.
+* [A087429](https://oeis.org/A087429) ([program](/edit/?oeis=87429)): a(n) = if gpf(n) < gpf(n+1) then 1 else 0, where gpf=A006530 (greatest prime factor).
 * [A087431](https://oeis.org/A087431) ([program](/edit/?oeis=87431)): a(n) = 0^n/2 + 2^n\*(n^2+n+2)/4.
 * [A087432](https://oeis.org/A087432) ([program](/edit/?oeis=87432)): Expansion of 1+x\*(1-x-4\*x^2)/((1+x)\*(1-2\*x)\*(1-3\*x)).
 * [A087433](https://oeis.org/A087433) ([program](/edit/?oeis=87433)): Expansion of (1-2\*x)\*(1-4\*x+x^2)/((1-x)\*(1-3\*x)\*(1-4\*x)).
@@ -10995,6 +11563,7 @@ List of integer sequences with links to LODA programs.
 * [A087464](https://oeis.org/A087464) ([program](/edit/?oeis=87464)): Generalized multiplicative Jacobsthal sequence.
 * [A087466](https://oeis.org/A087466) ([program](/edit/?oeis=87466)): a(n) = number of the row (counting from initial row 0) of the array R in A087465 that contains n.
 * [A087467](https://oeis.org/A087467) ([program](/edit/?oeis=87467)): a(n) = number of the row (counting from initial row 1) of the array R in A087465 that contains n.
+* [A087468](https://oeis.org/A087468) ([program](/edit/?oeis=87468)): Dispersion, read by antidiagonals, of the complement of row 0 of the array R in A087465.
 * [A087475](https://oeis.org/A087475) ([program](/edit/?oeis=87475)): a(n) = n^2 + 4.
 * [A087476](https://oeis.org/A087476) ([program](/edit/?oeis=87476)): Triangle read by rows where the n-th row has n terms: T(n,i)=(i+2)^2-4 mod n.
 * [A087477](https://oeis.org/A087477) ([program](/edit/?oeis=87477)): Decimal expansion of sqrt(51)-4.
@@ -11011,6 +11580,7 @@ List of integer sequences with links to LODA programs.
 * [A087539](https://oeis.org/A087539) ([program](/edit/?oeis=87539)): First differences of A011849.
 * [A087540](https://oeis.org/A087540) ([program](/edit/?oeis=87540)): Let A(n) be the matrix in the group GL(n,2) such that for 1 <= i, j <= n: A[i,j] = 1 if i+j = n+1 A[i,j] = 0 if i+j != n+1. a(n) is the size of the centralizer of A(n) in GL(n,2).
 * [A087547](https://oeis.org/A087547) ([program](/edit/?oeis=87547)): a(n) = n!\*2^(n+1) \* (Integral\_\{x = 0..1\} 1/(1+x^2)^(n+1) dx - Pi\*(2\*n)!/(2^(n+1)\*n!).
+* [A087554](https://oeis.org/A087554) ([program](/edit/?oeis=87554)): a(n) = smallest number k >= n such that nk + 1 is a prime.
 * [A087560](https://oeis.org/A087560) ([program](/edit/?oeis=87560)): Smallest m > n such that gcd(m, n^2) = n.
 * [A087567](https://oeis.org/A087567) ([program](/edit/?oeis=87567)): a(n) = (1/5)\*Sum\_\{k=0..n\} binomial(n,k)\*Fibonacci(k)\*5^k.
 * [A087572](https://oeis.org/A087572) ([program](/edit/?oeis=87572)): Smallest prime of the form n + (n-1) + (n-2) + ...(n-k), k < n, or 0 if no such prime exists.
@@ -11029,17 +11599,31 @@ List of integer sequences with links to LODA programs.
 * [A087635](https://oeis.org/A087635) ([program](/edit/?oeis=87635)): a(n) = S(n,3) where S(n,m) = Sum\_\{k=0..n\} binomial(n,k)\*fibonacci(m\*k).
 * [A087640](https://oeis.org/A087640) ([program](/edit/?oeis=87640)): To obtain a(n+1), take the square of the n-th partial sum, minus the sum of the first n squared terms, then divide this difference by a(n); for all n>1, starting with a(0)=1, a(1)=1.
 * [A087645](https://oeis.org/A087645) ([program](/edit/?oeis=87645)): Third column of A071223.
+* [A087648](https://oeis.org/A087648) ([program](/edit/?oeis=87648)): a(n) = (1/2)\*(Bell(n+2)+Bell(n+1)-Bell(n)).
+* [A087649](https://oeis.org/A087649) ([program](/edit/?oeis=87649)): a(n) = (1/2)\*(Bell(n+2)-Bell(n+1)+Bell(n)).
+* [A087650](https://oeis.org/A087650) ([program](/edit/?oeis=87650)): a(n) = Sum\_\{k=0..n\} (-1)^(n-k)\*Bell(k).
 * [A087652](https://oeis.org/A087652) ([program](/edit/?oeis=87652)): Product of the nonprime divisors of n.
 * [A087654](https://oeis.org/A087654) ([program](/edit/?oeis=87654)): Decimal expansion of D(1) where D(x) is the Dawson function.
 * [A087656](https://oeis.org/A087656) ([program](/edit/?oeis=87656)): Let f be defined on the rationals by f(p/q) =(p+1)/(q+1)=p\_\{1\}/q\_\{1\} where (p\_\{1\},q\_\{1\})=1. Let f^k(p/q)=p\_\{k\}/q\_\{k\} where (p\_\{k\},q\_\{k\})=1. Sequence gives least k such that p\_\{k\}-q\_\{k\} = 1 starting at n.
+* [A087674](https://oeis.org/A087674) ([program](/edit/?oeis=87674)): Value of the n-th Eulerian polynomial (cf. A008292) evaluated at x=-2.
+* [A087678](https://oeis.org/A087678) ([program](/edit/?oeis=87678)): Numbers n such that n + 9 and n - 9 are both prime.
 * [A087679](https://oeis.org/A087679) ([program](/edit/?oeis=87679)): Numbers k such that both k+2 and k-2 are prime.
+* [A087681](https://oeis.org/A087681) ([program](/edit/?oeis=87681)): Numbers n such that n + 6 and n - 6 are both prime.
 * [A087688](https://oeis.org/A087688) ([program](/edit/?oeis=87688)): a(n) = number of solutions to x^3 - x == 0 (mod n).
 * [A087689](https://oeis.org/A087689) ([program](/edit/?oeis=87689)): Numerators of successive partial sums of sum(1/(2^n-1)).
 * [A087690](https://oeis.org/A087690) ([program](/edit/?oeis=87690)): Denominators of successive partial sums of sum(1/(2^n-1)).
 * [A087691](https://oeis.org/A087691) ([program](/edit/?oeis=87691)): Squares of primes of the form 4n+3.
 * [A087692](https://oeis.org/A087692) ([program](/edit/?oeis=87692)): Number of cubes in multiplicative group modulo n.
 * [A087695](https://oeis.org/A087695) ([program](/edit/?oeis=87695)): Numbers n such that n + 3 and n - 3 are both prime.
+* [A087696](https://oeis.org/A087696) ([program](/edit/?oeis=87696)): Numbers n such that n + 5 and n - 5 are both prime.
 * [A087698](https://oeis.org/A087698) ([program](/edit/?oeis=87698)): Triangle read by rows, giving T(n,k) = maximum number of examples (Boolean inputs) at Hamming distance 2 for symmetric Boolean functions that can have different outputs.
+* [A087701](https://oeis.org/A087701) ([program](/edit/?oeis=87701)): Maximal term in Collatz-iteration started at -1+2^n.
+* [A087704](https://oeis.org/A087704) ([program](/edit/?oeis=87704)): Number of steps for iteration of map x -> (5/3)\*floor(x) to reach an integer > n when started at n, or -1 if no such integer is ever reached.
+* [A087705](https://oeis.org/A087705) ([program](/edit/?oeis=87705)): First integer > n reached under iteration of map x -> (5/3)\*floor(x) when started at n, or -1 if no such integer is ever reached.
+* [A087706](https://oeis.org/A087706) ([program](/edit/?oeis=87706)): A087705/5.
+* [A087707](https://oeis.org/A087707) ([program](/edit/?oeis=87707)): Number of steps for iteration of map x -> (5/3)\*ceiling(x) to reach an integer > n when started at n, or -1 if no such integer is ever reached.
+* [A087708](https://oeis.org/A087708) ([program](/edit/?oeis=87708)): First integer > n reached under iteration of map x -> (5/3)\*ceiling(x) when started at n, or -1 if no such integer is ever reached.
+* [A087709](https://oeis.org/A087709) ([program](/edit/?oeis=87709)): A087708/5.
 * [A087713](https://oeis.org/A087713) ([program](/edit/?oeis=87713)): Greatest prime factor of the product of the neighbors of the n-th prime.
 * [A087719](https://oeis.org/A087719) ([program](/edit/?oeis=87719)): Least number m such that the number of numbers k <= m with k > spf(k)^n exceeds the number of numbers with k <= spf(k)^n.
 * [A087733](https://oeis.org/A087733) ([program](/edit/?oeis=87733)): Partial sums of A068639.
@@ -11097,6 +11681,7 @@ List of integer sequences with links to LODA programs.
 * [A087944](https://oeis.org/A087944) ([program](/edit/?oeis=87944)): Expansion of (1-4\*x+3\*x^2)/((1-2\*x)\*(1-4\*x+x^2)).
 * [A087945](https://oeis.org/A087945) ([program](/edit/?oeis=87945)): Expansion of (1-2x-x^2)/((1-2x)(1-4x+x^2)).
 * [A087946](https://oeis.org/A087946) ([program](/edit/?oeis=87946)): Expansion of (1-3x+x^2)/((1-2x)(1-4x+x^2)).
+* [A087952](https://oeis.org/A087952) ([program](/edit/?oeis=87952)): Smallest prime == 1 (mod n) and > n^2.
 * [A087953](https://oeis.org/A087953) ([program](/edit/?oeis=87953)): a(n) = floor((Fibonacci(2\*n+1)+1)/2).
 * [A087954](https://oeis.org/A087954) ([program](/edit/?oeis=87954)): (2 + phi)/a(n) is the sum of successive remainders when computing the Euclidean algorithm for (1, A088166(n)/phi) with phi being the golden ratio, where n >= 2.
 * [A087955](https://oeis.org/A087955) ([program](/edit/?oeis=87955)): a(n) is the square of the n-th partial sum minus the n-th partial sum of the squares, divided by a(n-1), for all n>=1, starting with a(0)=1, a(1)=2.
@@ -11145,6 +11730,7 @@ List of integer sequences with links to LODA programs.
 * [A088147](https://oeis.org/A088147) ([program](/edit/?oeis=88147)): n-th prime rotated one binary place to the left.
 * [A088150](https://oeis.org/A088150) ([program](/edit/?oeis=88150)): Value of n-th digit (counting from the right) in binary representation of n^n.
 * [A088151](https://oeis.org/A088151) ([program](/edit/?oeis=88151)): Value of n-th digit in ternary representation of n^n.
+* [A088161](https://oeis.org/A088161) ([program](/edit/?oeis=88161)): n rotated one binary place to the right less n rotated one binary place to the left.
 * [A088162](https://oeis.org/A088162) ([program](/edit/?oeis=88162)): n-th prime rotated one binary place to the right less the n-th prime rotated one binary place to the left.
 * [A088163](https://oeis.org/A088163) ([program](/edit/?oeis=88163)): Numbers for which rotating one binary place to the right less rotating one binary place to the left is equal to zero.
 * [A088166](https://oeis.org/A088166) ([program](/edit/?oeis=88166)): Smallest integer divisible by Fibonacci(2n) such that the second partial quotient in the continued fraction expansion of a(n)/phi is 2 (phi is the golden ratio), n >= 2.
@@ -11171,6 +11757,7 @@ List of integer sequences with links to LODA programs.
 * [A088232](https://oeis.org/A088232) ([program](/edit/?oeis=88232)): Numbers k such that 3 does not divide phi(k).
 * [A088233](https://oeis.org/A088233) ([program](/edit/?oeis=88233)): First differences of roots of consecutive prime powers; a(1)=1.
 * [A088234](https://oeis.org/A088234) ([program](/edit/?oeis=88234)): First differences of exponents of consecutive prime powers.
+* [A088236](https://oeis.org/A088236) ([program](/edit/?oeis=88236)): Total number of digits (in base 2) in all preceding terms in the sequence.
 * [A088245](https://oeis.org/A088245) ([program](/edit/?oeis=88245)): Decimal expansion of 9/(2\*Pi^2).
 * [A088246](https://oeis.org/A088246) ([program](/edit/?oeis=88246)): Decimal expansion of 21/(2\*Pi^2).
 * [A088265](https://oeis.org/A088265) ([program](/edit/?oeis=88265)): Numbers of the form 10^n + 1, 3, 7, or 9 for n>=1.
@@ -11193,9 +11780,12 @@ List of integer sequences with links to LODA programs.
 * [A088386](https://oeis.org/A088386) ([program](/edit/?oeis=88386)): a(n) = 2^n\*(n!)^3.
 * [A088387](https://oeis.org/A088387) ([program](/edit/?oeis=88387)): Prime corresponding to largest prime power factor of n, a(1)=1.
 * [A088388](https://oeis.org/A088388) ([program](/edit/?oeis=88388)): Exponent of the largest prime power factor of n, a(1)=0.
+* [A088404](https://oeis.org/A088404) ([program](/edit/?oeis=88404)): a(n) = A069537(n)/2.
 * [A088405](https://oeis.org/A088405) ([program](/edit/?oeis=88405)): a(n) = A052217(n)/3.
+* [A088406](https://oeis.org/A088406) ([program](/edit/?oeis=88406)): a(n) = A063997(n)/4.
 * [A088407](https://oeis.org/A088407) ([program](/edit/?oeis=88407)): a(n) = A069540(n)/5.
 * [A088408](https://oeis.org/A088408) ([program](/edit/?oeis=88408)): a(n) = A062768(n)/6.
+* [A088409](https://oeis.org/A088409) ([program](/edit/?oeis=88409)): a(n) = A063416(n)/7.
 * [A088410](https://oeis.org/A088410) ([program](/edit/?oeis=88410)): a(n) = A069543(n)/8.
 * [A088420](https://oeis.org/A088420) ([program](/edit/?oeis=88420)): Number of primes in arithmetic progression starting with 3 and with d = 2n.
 * [A088421](https://oeis.org/A088421) ([program](/edit/?oeis=88421)): Number of primes in arithmetic progression starting with 5 and with d=2n.
@@ -11235,6 +11825,7 @@ List of integer sequences with links to LODA programs.
 * [A088521](https://oeis.org/A088521) ([program](/edit/?oeis=88521)): a(1) = 1; for n > 1, a(n) = (a(n-1) + n) mod prime(n).
 * [A088522](https://oeis.org/A088522) ([program](/edit/?oeis=88522)): a(1) = 2; for n > 1, a(n) = (a(n-1) + n) mod prime(n).
 * [A088529](https://oeis.org/A088529) ([program](/edit/?oeis=88529)): Numerator of Bigomega(n)/Omega(n).
+* [A088534](https://oeis.org/A088534) ([program](/edit/?oeis=88534)): Number of representations of n by the quadratic form x^2 + xy + y^2 with 0 <= x <= y.
 * [A088536](https://oeis.org/A088536) ([program](/edit/?oeis=88536)): Number of unimodal functions [1..n]->[1..n].
 * [A088538](https://oeis.org/A088538) ([program](/edit/?oeis=88538)): Decimal expansion of 4/Pi.
 * [A088543](https://oeis.org/A088543) ([program](/edit/?oeis=88543)): Decimal expansion of sqrt(15)/2.
@@ -11251,6 +11842,7 @@ List of integer sequences with links to LODA programs.
 * [A088580](https://oeis.org/A088580) ([program](/edit/?oeis=88580)): a(n) = 1 + sigma(n).
 * [A088581](https://oeis.org/A088581) ([program](/edit/?oeis=88581)): a(n) = n\*x^n + (n-1)\*x^(n-1) + . . . + x + 1 for x=3.
 * [A088582](https://oeis.org/A088582) ([program](/edit/?oeis=88582)): a(n) = n\*x^n + (n-1)\*x^(n-1) + . . . + x + 1 for x=4.
+* [A088592](https://oeis.org/A088592) ([program](/edit/?oeis=88592)): Let p be the n-th 4k+3 prime (A002145), g be any primitive root of p. The mapping x->g^x mod p gives a permutation of \{1,2,...,p-1\}. a(n) is 0 if the permutation is even for each g, 1 if odd for each g.
 * [A088613](https://oeis.org/A088613) ([program](/edit/?oeis=88613)): Smallest nonsquarefree multiple of n.
 * [A088617](https://oeis.org/A088617) ([program](/edit/?oeis=88617)): Triangle read by rows: T(n,k) = C(n+k,n)\*C(n,k)/(k+1), for n >= 0, k = 0..n.
 * [A088625](https://oeis.org/A088625) ([program](/edit/?oeis=88625)): 14\*C(n,8).
@@ -11262,6 +11854,7 @@ List of integer sequences with links to LODA programs.
 * [A088648](https://oeis.org/A088648) ([program](/edit/?oeis=88648)): a(1) = 1, then the smallest odd number not occurring earlier such that the concatenation a(r), a(s) is composite for all s > r.
 * [A088650](https://oeis.org/A088650) ([program](/edit/?oeis=88650)): a(n) = smallest value of x pertaining to A020498, or the smallest x such that A020498(k) + x is prime for all k = 1 to n.
 * [A088659](https://oeis.org/A088659) ([program](/edit/?oeis=88659)): a(n) = n\*(p-1) where p is the largest prime factor of n.
+* [A088660](https://oeis.org/A088660) ([program](/edit/?oeis=88660)): A logarithmic scale Sierpinski self-similar sequence.
 * [A088662](https://oeis.org/A088662) ([program](/edit/?oeis=88662)): Number of peaks at even level in all symmetric Dyck paths of semilength n+2.
 * [A088666](https://oeis.org/A088666) ([program](/edit/?oeis=88666)): a(n) = (n^4 + 1) mod 10.
 * [A088667](https://oeis.org/A088667) ([program](/edit/?oeis=88667)): n^4 + 6 mod 10.
@@ -11277,6 +11870,7 @@ List of integer sequences with links to LODA programs.
 * [A088688](https://oeis.org/A088688) ([program](/edit/?oeis=88688)): Binomial transform of A088689.
 * [A088689](https://oeis.org/A088689) ([program](/edit/?oeis=88689)): Jacobsthal numbers modulo 3.
 * [A088690](https://oeis.org/A088690) ([program](/edit/?oeis=88690)): E.g.f.: A(x) = f(x\*A(x)), where f(x) = (1+x)\*exp(x).
+* [A088692](https://oeis.org/A088692) ([program](/edit/?oeis=88692)): E.g.f: A(x) = f(x\*A(x)), where f(x) = (1+2\*x)\*exp(x).
 * [A088695](https://oeis.org/A088695) ([program](/edit/?oeis=88695)): E.g.f: A(x) = f(x\*A(x)), where f(x) = exp(x+x^2).
 * [A088696](https://oeis.org/A088696) ([program](/edit/?oeis=88696)): Triangle read by rows, giving number of partial quotients in continued fraction representation of terms in the left branch of the infinite Stern-Brocot tree.
 * [A088697](https://oeis.org/A088697) ([program](/edit/?oeis=88697)): Replace 0 with 10 in binary representation of n.
@@ -11304,6 +11898,11 @@ List of integer sequences with links to LODA programs.
 * [A088748](https://oeis.org/A088748) ([program](/edit/?oeis=88748)): a(n) = 1 + Sum\_\{k=0..n-1\} 2 \* A014577(k) - 1.
 * [A088762](https://oeis.org/A088762) ([program](/edit/?oeis=88762)): Numbers n such that (2n-1, 2n+3) is a cousin prime pair.
 * [A088763](https://oeis.org/A088763) ([program](/edit/?oeis=88763)): a(n) = A087695(n)/2.
+* [A088764](https://oeis.org/A088764) ([program](/edit/?oeis=88764)): a(n) = (A087680(n)-1)/2.
+* [A088765](https://oeis.org/A088765) ([program](/edit/?oeis=88765)): a(n) = A087696(n)/2.
+* [A088766](https://oeis.org/A088766) ([program](/edit/?oeis=88766)): a(n) = (A087681(n)-1)/2.
+* [A088767](https://oeis.org/A088767) ([program](/edit/?oeis=88767)): a(n) = A087697(n)/2.
+* [A088769](https://oeis.org/A088769) ([program](/edit/?oeis=88769)): a(n) = A087678(n)/2.
 * [A088783](https://oeis.org/A088783) ([program](/edit/?oeis=88783)): Numbers n such that 10\*n^k + 1 is composite for all k > 0.
 * [A088789](https://oeis.org/A088789) ([program](/edit/?oeis=88789)): E.g.f.: REVERT(2\*x/(1+exp(x))) = Sum\_\{n>=0\} a(n)\*x^n/n!.
 * [A088795](https://oeis.org/A088795) ([program](/edit/?oeis=88795)): Fibonacci(n) as n runs through the quarter-squares.
@@ -11376,13 +11975,16 @@ List of integer sequences with links to LODA programs.
 * [A089033](https://oeis.org/A089033) ([program](/edit/?oeis=89033)): Numbers n such that 7\*n+3 is prime.
 * [A089034](https://oeis.org/A089034) ([program](/edit/?oeis=89034)): a(n) = (prime(n)^4 - 1) / 240.
 * [A089038](https://oeis.org/A089038) ([program](/edit/?oeis=89038)): Nonnegative numbers k such that 2k+5 is prime.
+* [A089039](https://oeis.org/A089039) ([program](/edit/?oeis=89039)): Number of circular permutations of 2n letters that are free of jealousy.
 * [A089041](https://oeis.org/A089041) ([program](/edit/?oeis=89041)): Inverse binomial transform of squares of factorial numbers.
 * [A089043](https://oeis.org/A089043) ([program](/edit/?oeis=89043)): a(n) = n!^2 + (-1)^n.
 * [A089045](https://oeis.org/A089045) ([program](/edit/?oeis=89045)): a(n) = a(n-1) + (-1)^floor(n/2)\*a(floor(n/2)) with a(1) = 1.
+* [A089057](https://oeis.org/A089057) ([program](/edit/?oeis=89057)): n! divided by prime whose index is the integer part of log(n).
 * [A089061](https://oeis.org/A089061) ([program](/edit/?oeis=89061)): a(0) = 5, a(1) = 7; for n>1, a(n) = a(n-1)+a(n-2)-(2n-2).
 * [A089068](https://oeis.org/A089068) ([program](/edit/?oeis=89068)): a(n) = a(n-1)+a(n-2)+a(n-3)+2 with a(0)=0, a(1)=0 and a(2)=1.
 * [A089071](https://oeis.org/A089071) ([program](/edit/?oeis=89071)): Number of liberties a big eye of size n gives in the game of Go.
 * [A089072](https://oeis.org/A089072) ([program](/edit/?oeis=89072)): Triangle read by rows: T(n,k) = k^n, n>=1, 1<=k<=n.
+* [A089073](https://oeis.org/A089073) ([program](/edit/?oeis=89073)): Number of symmetric non-crossing connected graphs on n equidistant nodes on a circle.
 * [A089074](https://oeis.org/A089074) ([program](/edit/?oeis=89074)): Expansion of x\*(1 + x + x^2)/(1 - 2\*x + x^5).
 * [A089079](https://oeis.org/A089079) ([program](/edit/?oeis=89079)): Numbers n such that 7\*n - 23 is prime.
 * [A089080](https://oeis.org/A089080) ([program](/edit/?oeis=89080)): Sequence is S(infinity) where S(1)=\{1,2\} and S(n)=S(n-1)S'(n-1), where S'(k) is obtained from S(k) by replacing the single 1 with the least integer not occurring in S(k).
@@ -11401,6 +12003,7 @@ List of integer sequences with links to LODA programs.
 * [A089109](https://oeis.org/A089109) ([program](/edit/?oeis=89109)): Convoluted convolved Fibonacci numbers G\_5^(r).
 * [A089110](https://oeis.org/A089110) ([program](/edit/?oeis=89110)): Sign twisted convoluted convolved Fibonacci numbers H\_5^(r).
 * [A089111](https://oeis.org/A089111) ([program](/edit/?oeis=89111)): Convoluted convolved Fibonacci numbers G\_6^(r).
+* [A089115](https://oeis.org/A089115) ([program](/edit/?oeis=89115)): Convoluted convolved Fibonacci numbers G\_8^(r).
 * [A089118](https://oeis.org/A089118) ([program](/edit/?oeis=89118)): Nonnegative numbers in (3\*A005836 - 1) [A005836 are the numbers with base representation containing no 2].
 * [A089119](https://oeis.org/A089119) ([program](/edit/?oeis=89119)): Complement of ((3\*A005836) union (3\*A005836 - 1) union (3\*A005836 - 2)).
 * [A089120](https://oeis.org/A089120) ([program](/edit/?oeis=89120)): Smallest prime factor of n^2 + 1.
@@ -11412,6 +12015,7 @@ List of integer sequences with links to LODA programs.
 * [A089128](https://oeis.org/A089128) ([program](/edit/?oeis=89128)): a(n) = gcd(6,n).
 * [A089129](https://oeis.org/A089129) ([program](/edit/?oeis=89129)): Greatest common divisor of n^2 - 7 and n^2 + 7.
 * [A089134](https://oeis.org/A089134) ([program](/edit/?oeis=89134)): The matrix sequence made by the lowest fifth power Pisot that is similar to the 5 Bonacci ( Pentafibonacci ).
+* [A089138](https://oeis.org/A089138) ([program](/edit/?oeis=89138)): a(n) = (3^(2\*n))\*(integral\_\{x=0 to 1\} (1+x^3)^n dx)/(integral\_\{x=0 to 1\} (1-x^3)^n dx).
 * [A089143](https://oeis.org/A089143) ([program](/edit/?oeis=89143)): a(n) = 9\*2^n - 6.
 * [A089145](https://oeis.org/A089145) ([program](/edit/?oeis=89145)): Greatest common divisor of n^2-3 and n^2+3.
 * [A089146](https://oeis.org/A089146) ([program](/edit/?oeis=89146)): Greatest common divisor of n^2 - 4 and n^2 + 4.
@@ -11424,6 +12028,7 @@ List of integer sequences with links to LODA programs.
 * [A089164](https://oeis.org/A089164) ([program](/edit/?oeis=89164)): Number of steps in all Schroeder paths (i.e., consisting of steps U=(1,1), D=(1,-1),H=(2,0) and never going below the x-axis) from (0,0) to (2n,0).
 * [A089165](https://oeis.org/A089165) ([program](/edit/?oeis=89165)): Partial sums of the central Delannoy numbers (A001850).
 * [A089166](https://oeis.org/A089166) ([program](/edit/?oeis=89166)): Number of primes between squares of successive odd numbers.
+* [A089171](https://oeis.org/A089171) ([program](/edit/?oeis=89171)): Numerators of series coefficients of 1/(1 + cosh(sqrt(x))).
 * [A089175](https://oeis.org/A089175) ([program](/edit/?oeis=89175)): a(n) = Floor[Sqrt[Prime[n]\*PrimePi[n]]]
 * [A089181](https://oeis.org/A089181) ([program](/edit/?oeis=89181)): (1,3) entry of powers of the orthogonal design shown in A090592.
 * [A089186](https://oeis.org/A089186) ([program](/edit/?oeis=89186)): Decreases from 9 \* 10^k down to 1, restarting at 9 \* 10^(k+1).
@@ -11465,6 +12070,7 @@ List of integer sequences with links to LODA programs.
 * [A089304](https://oeis.org/A089304) ([program](/edit/?oeis=89304)): Sum of all digits in all even numbers from 0 to 222...2 (with n 2's).
 * [A089306](https://oeis.org/A089306) ([program](/edit/?oeis=89306)): Smallest prime of the form n + (n+1)+ (n+2)+...+(n+k), or 0 if no such prime exists.
 * [A089309](https://oeis.org/A089309) ([program](/edit/?oeis=89309)): Write n in binary; a(n) = length of the rightmost run of 1's.
+* [A089310](https://oeis.org/A089310) ([program](/edit/?oeis=89310)): Write n in binary; a(n) = number of 1's in second block of 1's from right.
 * [A089311](https://oeis.org/A089311) ([program](/edit/?oeis=89311)): Write n in binary; a(n) = number of 0's in rightmost block of zeros, after dropping any trailing 0's.
 * [A089312](https://oeis.org/A089312) ([program](/edit/?oeis=89312)): Write n in binary; a(n) = number represented by rightmost block of 1's.
 * [A089314](https://oeis.org/A089314) ([program](/edit/?oeis=89314)): Sum of all digits in all even numbers from 0 to 444...4 (with n 4's).
@@ -11494,6 +12100,8 @@ List of integer sequences with links to LODA programs.
 * [A089425](https://oeis.org/A089425) ([program](/edit/?oeis=89425)): Least common multiple of all cycle sizes (and also the maximum cycle size) in range [A014137(n-1)..A014138(n-1)] of permutation A082351/A082352.
 * [A089431](https://oeis.org/A089431) ([program](/edit/?oeis=89431)): Even-indexed terms of A089423.
 * [A089433](https://oeis.org/A089433) ([program](/edit/?oeis=89433)): Number of noncrossing connected graphs on n nodes having exactly two interior faces.
+* [A089436](https://oeis.org/A089436) ([program](/edit/?oeis=89436)): Number of non-crossing connected graphs on n nodes on a circle in which a fixed (distinguished) node has degree one.
+* [A089439](https://oeis.org/A089439) ([program](/edit/?oeis=89439)): 6p+13 and p are primes.
 * [A089451](https://oeis.org/A089451) ([program](/edit/?oeis=89451)): a(n) = mu(prime(n)-1), where mu is the Moebius function (A008683).
 * [A089460](https://oeis.org/A089460) ([program](/edit/?oeis=89460)): Triangle, read by rows, of coefficients for the second iteration of the hyperbinomial transform.
 * [A089461](https://oeis.org/A089461) ([program](/edit/?oeis=89461)): Hyperbinomial transform of A088957. Also the row sums of triangle A089460, which lists the coefficients for the second hyperbinomial transform.
@@ -11514,6 +12122,8 @@ List of integer sequences with links to LODA programs.
 * [A089512](https://oeis.org/A089512) ([program](/edit/?oeis=89512)): Denominators used in the computation of the column sequences of array A078739 ((2,2)-Stirling2).
 * [A089513](https://oeis.org/A089513) ([program](/edit/?oeis=89513)): Third column of triangle A089504.
 * [A089514](https://oeis.org/A089514) ([program](/edit/?oeis=89514)): Fourth column of triangle A089504.
+* [A089531](https://oeis.org/A089531) ([program](/edit/?oeis=89531)): Primes p such that (p-3)/2 is also prime.
+* [A089532](https://oeis.org/A089532) ([program](/edit/?oeis=89532)): A089531 indexed by A000040.
 * [A089533](https://oeis.org/A089533) ([program](/edit/?oeis=89533)): a(n)=(A089348(n)-1)/10n.
 * [A089534](https://oeis.org/A089534) ([program](/edit/?oeis=89534)): A089348 indexed by A000040.
 * [A089559](https://oeis.org/A089559) ([program](/edit/?oeis=89559)): Nonnegative numbers n such that 2\*n + 15 is prime.
@@ -11539,6 +12149,7 @@ List of integer sequences with links to LODA programs.
 * [A089621](https://oeis.org/A089621) ([program](/edit/?oeis=89621)): n^4 + n-th prime.
 * [A089622](https://oeis.org/A089622) ([program](/edit/?oeis=89622)): a(n) = n^n + n-th prime.
 * [A089623](https://oeis.org/A089623) ([program](/edit/?oeis=89623)): Numbers n such that n^2 + 2n - 1 is prime.
+* [A089625](https://oeis.org/A089625) ([program](/edit/?oeis=89625)): Replace 2^k in binary expansion of n with (k+1)-st prime.
 * [A089627](https://oeis.org/A089627) ([program](/edit/?oeis=89627)): T(n,k) = binomial(n,2\*k)\*binomial(2\*k,k) for 0 <= k <= n, triangle read by rows.
 * [A089631](https://oeis.org/A089631) ([program](/edit/?oeis=89631)): a(n) = (Product\_\{p is a prime factor of n\} p)) mod (Product\_\{p is a prime factor of n\} p-1).
 * [A089633](https://oeis.org/A089633) ([program](/edit/?oeis=89633)): Numbers having no more than one 0 in their binary representation.
@@ -11579,12 +12190,15 @@ List of integer sequences with links to LODA programs.
 * [A089721](https://oeis.org/A089721) ([program](/edit/?oeis=89721)): Primes ending in 1 such that floor(p/7) ends in a digit > 3.
 * [A089723](https://oeis.org/A089723) ([program](/edit/?oeis=89723)): a(1)=1; for n>1, a(n) gives number of ways to write n as n = x^y, 2 <= x, 1 <= y.
 * [A089724](https://oeis.org/A089724) ([program](/edit/?oeis=89724)): Numbers p satisfying the following conditions: p is a prime of form 10k+9 and the function f[p,7,10] applied to p is not greater than 5, where f[p,7,10]=10\*fractionalpart[n/70]=1\*.((n/70)-Floor[n/70]).
+* [A089726](https://oeis.org/A089726) ([program](/edit/?oeis=89726)): Smallest prime of the form nk+1, k > n.
 * [A089727](https://oeis.org/A089727) ([program](/edit/?oeis=89727)): Largest prime of the form n\*k+1, k <= n.
 * [A089735](https://oeis.org/A089735) ([program](/edit/?oeis=89735)): Self-convolution of A004148 (the RNA secondary structure numbers) with itself.
 * [A089739](https://oeis.org/A089739) ([program](/edit/?oeis=89739)): Let b(m)= base ten expansion of prime(n); then a(n)=Sum[Mod(10-b(l),10)\*10^l,\{l,1,10\}]
 * [A089742](https://oeis.org/A089742) ([program](/edit/?oeis=89742)): Number of subwords UHH...HD in all peakless Motzkin paths of length n+3, where U=(1,1), D=(1,-1) and H=(1,0).
+* [A089745](https://oeis.org/A089745) ([program](/edit/?oeis=89745)): a(n) = direuler(p=2,n,1/(1-X)/(1-p\*n\*X))[n].
 * [A089747](https://oeis.org/A089747) ([program](/edit/?oeis=89747)): Numbers n such that n^2 - 2n + 5 is prime.
 * [A089756](https://oeis.org/A089756) ([program](/edit/?oeis=89756)): a(1)=1 and a(i+1)=a(i)+9 if a(i)<=35, and a(i+1)=a(i)-35 if a(i)>35.
+* [A089759](https://oeis.org/A089759) ([program](/edit/?oeis=89759)): Table T(n,k), 0<=k, 0<=n, read by antidiagonals, defined by T(n,k) = (k\*n)! / (n!)^k.
 * [A089767](https://oeis.org/A089767) ([program](/edit/?oeis=89767)): Squares which when concatenated with a 1 gives prime.
 * [A089772](https://oeis.org/A089772) ([program](/edit/?oeis=89772)): a(n) = Lucas(11\*n).
 * [A089775](https://oeis.org/A089775) ([program](/edit/?oeis=89775)): Lucas numbers L(12n).
@@ -11598,8 +12212,11 @@ List of integer sequences with links to LODA programs.
 * [A089803](https://oeis.org/A089803) ([program](/edit/?oeis=89803)): Expansion of Jacobi theta function theta\_4(q^5).
 * [A089805](https://oeis.org/A089805) ([program](/edit/?oeis=89805)): Expansion of Jacobi theta function (theta\_4(q^6) - theta\_4(q^(2/3)))/2/q^(2/3).
 * [A089806](https://oeis.org/A089806) ([program](/edit/?oeis=89806)): Expansion of Jacobi theta function (theta\_3(q^(1/3))-theta\_2(q^3))/2/q^(1/12).
+* [A089807](https://oeis.org/A089807) ([program](/edit/?oeis=89807)): Expansion of Jacobi theta function (3theta\_3(q^9)-theta\_3(q))/2.
 * [A089808](https://oeis.org/A089808) ([program](/edit/?oeis=89808)): a(n) = floor(1/((n\*r) mod 1)), where r = phi^(-2) = (3 - sqrt(5))/2.
 * [A089809](https://oeis.org/A089809) ([program](/edit/?oeis=89809)): Complement of A078588.
+* [A089810](https://oeis.org/A089810) ([program](/edit/?oeis=89810)): Expansion of Jacobi theta function theta\_3(Pi/6, q) in powers of q.
+* [A089811](https://oeis.org/A089811) ([program](/edit/?oeis=89811)): Expansion of Jacobi theta function (3\*theta\_4(q^18) - theta\_4(q^2))/2.
 * [A089812](https://oeis.org/A089812) ([program](/edit/?oeis=89812)): Expansion of Jacobi theta function q^(-1/8) \* (theta\_2(q^(1/2)) - 3 \* theta\_2(q^(9/2))) / 2 in powers of q.
 * [A089813](https://oeis.org/A089813) ([program](/edit/?oeis=89813)): Expansion of Jacobi theta function (theta\_2(q) - 3\*theta\_2(q^9))/(2 q^(1/4)) in powers of q.
 * [A089815](https://oeis.org/A089815) ([program](/edit/?oeis=89815)): a(n) = floor((n+2)^(n+2)/((n+2)^2-1)).
@@ -11646,21 +12263,24 @@ List of integer sequences with links to LODA programs.
 * [A089935](https://oeis.org/A089935) ([program](/edit/?oeis=89935)): Order of recurrence generating row (or column) n of A089934.
 * [A089940](https://oeis.org/A089940) ([program](/edit/?oeis=89940)): Triangle read by rows: T(n,k)=binomial(n+k,floor((n-k)/2))
 * [A089941](https://oeis.org/A089941) ([program](/edit/?oeis=89941)): Row sums of triangle A089940.
+* [A089942](https://oeis.org/A089942) ([program](/edit/?oeis=89942)): Inverse binomial matrix applied to A039599.
 * [A089944](https://oeis.org/A089944) ([program](/edit/?oeis=89944)): Square array, read by antidiagonals, where the n-th row is the n-th binomial transform of the natural numbers, with T(0,k) = (k+1) for k>=0.
 * [A089945](https://oeis.org/A089945) ([program](/edit/?oeis=89945)): Main diagonal of array A089944, in which the n-th row is the n-th binomial transform of the natural numbers.
 * [A089946](https://oeis.org/A089946) ([program](/edit/?oeis=89946)): Secondary diagonal of array A089944, in which the n-th row is the n-th binomial transform of the natural numbers.
 * [A089950](https://oeis.org/A089950) ([program](/edit/?oeis=89950)): Partial sums of A001652.
 * [A089953](https://oeis.org/A089953) ([program](/edit/?oeis=89953)): Numbers n such that 3\*n+7 is prime.
 * [A089962](https://oeis.org/A089962) ([program](/edit/?oeis=89962)): Triangle, read by rows, that equals the matrix inverse of A071207 when treated as a lower triangular matrix.
+* [A089965](https://oeis.org/A089965) ([program](/edit/?oeis=89965)): Both n + 1 and n/2 + 1 are primes.
 * [A089977](https://oeis.org/A089977) ([program](/edit/?oeis=89977)): Expansion of 1/((1-2\*x)\*(1+x+2\*x^2)).
 * [A089978](https://oeis.org/A089978) ([program](/edit/?oeis=89978)): Expansion of 1/(1-3x-3x^3).
 * [A089979](https://oeis.org/A089979) ([program](/edit/?oeis=89979)): Expansion of 1/(1-4x-4x^3).
 * [A089982](https://oeis.org/A089982) ([program](/edit/?oeis=89982)): Triangular numbers that can be expressed as the sum of 2 positive triangular numbers.
 * [A089983](https://oeis.org/A089983) ([program](/edit/?oeis=89983)): 1, 1, 1, 1, ... a, b, c, d, ab-cd, ...
 * [A089984](https://oeis.org/A089984) ([program](/edit/?oeis=89984)): 1, 1, 1, 1, ... a, b, c, d, ac-bd, ...
-* [A089985](https://oeis.org/A089985) ([program](/edit/?oeis=89985)): a(n)=A089709(n+1)/A089709(n).
+* [A089985](https://oeis.org/A089985) ([program](/edit/?oeis=89985)): a(n) = A089709(n+1)/A089709(n).
 * [A089986](https://oeis.org/A089986) ([program](/edit/?oeis=89986)): Numbers n such that 4n + 7 is prime.
 * [A089992](https://oeis.org/A089992) ([program](/edit/?oeis=89992)): Second prime divisor of numbers that are not powers of primes (A024619).
+* [A089994](https://oeis.org/A089994) ([program](/edit/?oeis=89994)): Number of primes between factors of n-th semiprime.
 * [A090000](https://oeis.org/A090000) ([program](/edit/?oeis=90000)): Length of longest contiguous block of 1's in binary expansion of n-th prime.
 * [A090001](https://oeis.org/A090001) ([program](/edit/?oeis=90001)): Length of longest contiguous block of 1's in binary expansion of n^2.
 * [A090002](https://oeis.org/A090002) ([program](/edit/?oeis=90002)): Length of longest contiguous block of 1's in binary expansion of n-th triangular number.
@@ -11706,7 +12326,10 @@ List of integer sequences with links to LODA programs.
 * [A090133](https://oeis.org/A090133) ([program](/edit/?oeis=90133)): Expansion of (1+4x)/(1+4x+5x^2).
 * [A090134](https://oeis.org/A090134) ([program](/edit/?oeis=90134)): a(n) = (6\*n!/(n+5)) \*binomial(n+5,n-1)\* 6F6(-n+1, 1/5\*n+1, 1/5\*n+9/5, 1/5\*n+8/5, 1/5\*n+7/5, 1/5\*n+6/5; 7/6, 4/3, 3/2, 5/3, 11/6, 2; -3125/46656), where 6F6(;;) is the generalized hypergeometric series.
 * [A090137](https://oeis.org/A090137) ([program](/edit/?oeis=90137)): Numerator of the probability that the sum of n uniform picks on [0,1] is first greater than 2 (i.e., the sum of n-1 is not).
+* [A090138](https://oeis.org/A090138) ([program](/edit/?oeis=90138)): Denominator of the probability that the sum of n uniform picks on [0,1] is first greater than 2 (i.e., the sum of n-1 is not).
 * [A090139](https://oeis.org/A090139) ([program](/edit/?oeis=90139)): a(n) = 10\*a(n-1) - 20\*a(n-2), a(0)=1,a(1)=5.
+* [A090145](https://oeis.org/A090145) ([program](/edit/?oeis=90145)): Even-indexed terms of the binomial transform equal 1 and the odd-indexed terms of the second binomial transform equal 1.
+* [A090158](https://oeis.org/A090158) ([program](/edit/?oeis=90158)): Odd-indexed terms of the binomial transform equals 1 and the even-indexed terms of the second binomial transform equals 1.
 * [A090168](https://oeis.org/A090168) ([program](/edit/?oeis=90168)): Floor( 3n/2 ) - floor( 2n/3 ).
 * [A090169](https://oeis.org/A090169) ([program](/edit/?oeis=90169)): a(n) = floor( 3\*n/2 ) + floor( 2\*n/3 ).
 * [A090176](https://oeis.org/A090176) ([program](/edit/?oeis=90176)): G.f.: (1+x^9)/((1-x^4)(1-x^6)(1-x^12)).
@@ -11749,10 +12372,12 @@ List of integer sequences with links to LODA programs.
 * [A090314](https://oeis.org/A090314) ([program](/edit/?oeis=90314)): a(n) = 23\*a(n-1) + a(n-2), starting with a(0) = 2 and a(1) = 23.
 * [A090316](https://oeis.org/A090316) ([program](/edit/?oeis=90316)): a(n) = 24\*a(n-1) + a(n-2), starting with a(0) = 2 and a(1) = 24.
 * [A090317](https://oeis.org/A090317) ([program](/edit/?oeis=90317)): Row sums of triangle in A090285.
+* [A090321](https://oeis.org/A090321) ([program](/edit/?oeis=90321)): T(n,k) = prime(n+1) - prime(n-k+1), 1<=k<=n, triangular array read by rows.
 * [A090324](https://oeis.org/A090324) ([program](/edit/?oeis=90324)): Second in a series of triangular arrays generating the natural numbers (cf. A079946).
 * [A090326](https://oeis.org/A090326) ([program](/edit/?oeis=90326)): Number of rules of a context-free grammar in Chomsky normal form that generates all permutations of n symbols.
 * [A090327](https://oeis.org/A090327) ([program](/edit/?oeis=90327)): Number of rules of a context-free grammar in Chomsky normal form that generates all permutations of n symbols.
 * [A090328](https://oeis.org/A090328) ([program](/edit/?oeis=90328)): Number of rules of a context-free grammar in Chomsky normal form that generates all permutations of n symbols.
+* [A090336](https://oeis.org/A090336) ([program](/edit/?oeis=90336)): Odd-indexed terms of the first binomial transform equals 1 and the even-indexed terms of the third binomial transform equals 1, with a(0)=1.
 * [A090337](https://oeis.org/A090337) ([program](/edit/?oeis=90337)): Let b(0) = 1, b(n) = b(n-1) + (-1)^(n-1)\*b(n-1)/10; sequence gives numerator of b(n).
 * [A090340](https://oeis.org/A090340) ([program](/edit/?oeis=90340)): Difference between the sums of the prime factors, including multiplicity, of n and those of n + 1.
 * [A090341](https://oeis.org/A090341) ([program](/edit/?oeis=90341)): Difference between the sums of the prime factors, including multiplicity, of n and those of n + 2.
@@ -11786,6 +12411,7 @@ List of integer sequences with links to LODA programs.
 * [A090411](https://oeis.org/A090411) ([program](/edit/?oeis=90411)): G.f.: (1-x)/(1-16x).
 * [A090412](https://oeis.org/A090412) ([program](/edit/?oeis=90412)): A Chebyshev transform of 2^n.
 * [A090413](https://oeis.org/A090413) ([program](/edit/?oeis=90413)): A Chebyshev transform of 3^n.
+* [A090431](https://oeis.org/A090431) ([program](/edit/?oeis=90431)): Difference between sums of digits of n and n-th prime.
 * [A090438](https://oeis.org/A090438) ([program](/edit/?oeis=90438)): Generalized Stirling2 array (4,2).
 * [A090439](https://oeis.org/A090439) ([program](/edit/?oeis=90439)): Alternating row sums of array A090438 ((4,2)-Stirling2).
 * [A090442](https://oeis.org/A090442) ([program](/edit/?oeis=90442)): Row sums of array A090452 (s2\_\{3,2\}, scaled (3,2)-Stirling2).
@@ -11799,6 +12425,7 @@ List of integer sequences with links to LODA programs.
 * [A090453](https://oeis.org/A090453) ([program](/edit/?oeis=90453)): Third column (m=4) of array A090452.
 * [A090458](https://oeis.org/A090458) ([program](/edit/?oeis=90458)): Decimal expansion of (3 + sqrt(21))/2.
 * [A090461](https://oeis.org/A090461) ([program](/edit/?oeis=90461)): Numbers k for which there exists a permutation of the numbers 1 to k such that the sum of adjacent numbers is a square.
+* [A090466](https://oeis.org/A090466) ([program](/edit/?oeis=90466)): Regular figurative or polygonal numbers of order greater than 2.
 * [A090470](https://oeis.org/A090470) ([program](/edit/?oeis=90470)): E.g.f.: 1/((1-4\*x)\*sqrt(1-2\*x)).
 * [A090488](https://oeis.org/A090488) ([program](/edit/?oeis=90488)): Decimal expansion of 2 + 2\*sqrt(2).
 * [A090492](https://oeis.org/A090492) ([program](/edit/?oeis=90492)): G.f.: (1+x^10)/((1-x^2)\*(1-x^3)\*(1-x^4)\*(1-x^5)).
@@ -11850,6 +12477,7 @@ List of integer sequences with links to LODA programs.
 * [A090672](https://oeis.org/A090672) ([program](/edit/?oeis=90672)): a(n) = (n^2-1)\*n!/3.
 * [A090678](https://oeis.org/A090678) ([program](/edit/?oeis=90678)): a(n) = A088567(n) mod 2.
 * [A090679](https://oeis.org/A090679) ([program](/edit/?oeis=90679)): Integer part of the hypotenuse of a right triangle with twin prime legs.
+* [A090681](https://oeis.org/A090681) ([program](/edit/?oeis=90681)): Expansion of (sec(x/2)^2 + sech(x/2)^2)/2 in powers of x^4.
 * [A090682](https://oeis.org/A090682) ([program](/edit/?oeis=90682)): Integer part of one leg of a right triangle where the other leg and hypotenuse are twin primes.
 * [A090684](https://oeis.org/A090684) ([program](/edit/?oeis=90684)): Primes of the form 8\*n^2 - 1.
 * [A090685](https://oeis.org/A090685) ([program](/edit/?oeis=90685)): Primes of the form 8\*k^2 + 1.
@@ -11872,11 +12500,14 @@ List of integer sequences with links to LODA programs.
 * [A090731](https://oeis.org/A090731) ([program](/edit/?oeis=90731)): a(n) = 23a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 23.
 * [A090732](https://oeis.org/A090732) ([program](/edit/?oeis=90732)): a(n) = 24a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 24.
 * [A090733](https://oeis.org/A090733) ([program](/edit/?oeis=90733)): a(n) = 25\*a(n-1) - a(n-2), starting with a(0) = 2 and a(1) = 25.
+* [A090735](https://oeis.org/A090735) ([program](/edit/?oeis=90735)): Number of positive squarefree numbers <= n that can be expressed as a sum of 2 squares > 0.
 * [A090739](https://oeis.org/A090739) ([program](/edit/?oeis=90739)): Exponent of 2 in 9^n - 1.
 * [A090740](https://oeis.org/A090740) ([program](/edit/?oeis=90740)): Exponent of 2 in 3^n - 1.
 * [A090749](https://oeis.org/A090749) ([program](/edit/?oeis=90749)): a(n) = 12 \* C(2n+1,n-5) / (n+7).
+* [A090754](https://oeis.org/A090754) ([program](/edit/?oeis=90754)): Numerator of the expansion of e^(1 + x + x^2 + x^3 + x^4).
+* [A090755](https://oeis.org/A090755) ([program](/edit/?oeis=90755)): Denominator of the expansion of e^(1 + x + x^2 + x^3 + x^4).
 * [A090763](https://oeis.org/A090763) ([program](/edit/?oeis=90763)): a(n) = (3\*n+3)!/(3\*n!\*(2\*n+2)!).
-* [A090770](https://oeis.org/A090770) ([program](/edit/?oeis=90770)): 2^(n^2+2n+1)\*Product\_\{j=1..n\} (4^j-1).
+* [A090770](https://oeis.org/A090770) ([program](/edit/?oeis=90770)): a(n) = 2^(n^2 + 2n + 1)\*Product\_\{j=1..n\} (4^j - 1).
 * [A090771](https://oeis.org/A090771) ([program](/edit/?oeis=90771)): Numbers that are congruent to \{1, 9\} mod 10.
 * [A090772](https://oeis.org/A090772) ([program](/edit/?oeis=90772)): Numbers that are congruent to \{2, 8\} mod 10.
 * [A090773](https://oeis.org/A090773) ([program](/edit/?oeis=90773)): Numbers that are congruent to \{4, 6\} mod 10.
@@ -11887,6 +12518,7 @@ List of integer sequences with links to LODA programs.
 * [A090809](https://oeis.org/A090809) ([program](/edit/?oeis=90809)): Coefficient of the irreducible character of S\_m indexed by (m-2n+2,2n-2) in the n-th Kronecker power of the representation indexed by (m-2,2).
 * [A090815](https://oeis.org/A090815) ([program](/edit/?oeis=90815)): a(n)=denominator(B(2\*prime(n))) where prime(n)=n-th prime and B(k) denotes the k-th Bernoulli number.
 * [A090816](https://oeis.org/A090816) ([program](/edit/?oeis=90816)): a(n) = (3\*n+1)!/((2\*n)! \* n!).
+* [A090817](https://oeis.org/A090817) ([program](/edit/?oeis=90817)): a(n)=numerator(B(2\*prime(n))) where prime(n)=n-th prime and B(k) denotes the k-th Bernoulli number.
 * [A090821](https://oeis.org/A090821) ([program](/edit/?oeis=90821)): Numbers that are products of two consecutive nonprimes.
 * [A090826](https://oeis.org/A090826) ([program](/edit/?oeis=90826)): Convolution of Catalan and Fibonacci numbers.
 * [A090831](https://oeis.org/A090831) ([program](/edit/?oeis=90831)): a(n) = prime(n)^1 + prime(n-1)^2 + prime(n-2)^3 + ... + prime(1)^n.
@@ -11894,12 +12526,15 @@ List of integer sequences with links to LODA programs.
 * [A090843](https://oeis.org/A090843) ([program](/edit/?oeis=90843)): Number of nodes on a tree with degree 11 interior nodes and degree 1 boundary nodes.
 * [A090844](https://oeis.org/A090844) ([program](/edit/?oeis=90844)): Square array of numbers read by antidiagonals with T(n,k)=((k+3)(k+1)^n-2\*0^n)/(k+1)
 * [A090848](https://oeis.org/A090848) ([program](/edit/?oeis=90848)): Positions of the terms of A090847^4 in A090847, where A090847 is equal to the union of the self-convolutions A090847^2 and A090847^4 when ordered by size.
+* [A090850](https://oeis.org/A090850) ([program](/edit/?oeis=90850)): Clark's triangle with f=6 read by row.
 * [A090860](https://oeis.org/A090860) ([program](/edit/?oeis=90860)): Number of ways of 4-coloring a map in which there is a central circle surrounded by an annulus divided into n-1 regions. There are n regions in all.
 * [A090864](https://oeis.org/A090864) ([program](/edit/?oeis=90864)): Complement of generalized pentagonal numbers (A001318).
+* [A090878](https://oeis.org/A090878) ([program](/edit/?oeis=90878)): Numerator of Integral\_\{x=0..infinity\} exp(-x)\*(1+x/n)^n dx.
 * [A090879](https://oeis.org/A090879) ([program](/edit/?oeis=90879)): a(n) = Sum\_\{d\|n\} d\*2^(n-d).
+* [A090881](https://oeis.org/A090881) ([program](/edit/?oeis=90881)): Suppose n=(p1^e1)(p2^e2)... where p1,p2,... are the prime numbers and e1,e2,... are nonnegative integers. Then a(n) = e1 + (e2)\*4 + (e3)\*16 + (e4)\*64 + ... + (ek)\*(4^(k-1)) + ...
 * [A090885](https://oeis.org/A090885) ([program](/edit/?oeis=90885)): Sum of the squares of the exponents in the prime factorization of n.
 * [A090889](https://oeis.org/A090889) ([program](/edit/?oeis=90889)): Double partial sums of (n \* its dyadic valuation).
-* [A090892](https://oeis.org/A090892) ([program](/edit/?oeis=90892)): Solutions x to equation floor(x\*r\*floor(x/r)) = floor(x/r\*floor(x\*r)) when r = sqrt(2).
+* [A090893](https://oeis.org/A090893) ([program](/edit/?oeis=90893)): Solutions x to equation floor(x\*r\*floor(x/r)) = floor(x/r\*floor(x\*r)) when r=sqrt(3).
 * [A090894](https://oeis.org/A090894) ([program](/edit/?oeis=90894)): Numbers in n-th downward diagonal of triangle T : 0; 1, 2; 3, 4, 5; 6, 7, 8, 9; ...
 * [A090895](https://oeis.org/A090895) ([program](/edit/?oeis=90895)): a(1)=1 then a(n)=a(n-1)/2 if a(n-1) is even, a(n)=a(n-1)+n otherwise.
 * [A090902](https://oeis.org/A090902) ([program](/edit/?oeis=90902)): a(n) = floor((product of first n triangular numbers)/(sum of first n factorials)).
@@ -11916,9 +12551,11 @@ List of integer sequences with links to LODA programs.
 * [A090957](https://oeis.org/A090957) ([program](/edit/?oeis=90957)): a(n) = 1/(Integral\_\{x=0..1\} (x^4 - x^5)^n dx).
 * [A090964](https://oeis.org/A090964) ([program](/edit/?oeis=90964)): Permutation of natural numbers generated by 2-rowed array shown below.
 * [A090965](https://oeis.org/A090965) ([program](/edit/?oeis=90965)): a(n) = 8\*a(n-1) - 4\*a(n-2), where a(0) = 1, a(1) = 4.
+* [A090967](https://oeis.org/A090967) ([program](/edit/?oeis=90967)): Given the sequence of the sums of the divisors of the semiprimes, this is the subsequence where each sum is an even number.
 * [A090969](https://oeis.org/A090969) ([program](/edit/?oeis=90969)): a(n) = 1/Integral\_\{x=0..1\} (x^5 - x^6)^n.
 * [A090970](https://oeis.org/A090970) ([program](/edit/?oeis=90970)): Number of primes strictly between T(n) and T(n+1), where T(n) = n-th triangular number.
 * [A090971](https://oeis.org/A090971) ([program](/edit/?oeis=90971)): Sierpiński's triangle, read by rows, starting from 1: T(n,k) = (T(n-1,k) + T(n-1,k-1)) mod 2.
+* [A090972](https://oeis.org/A090972) ([program](/edit/?oeis=90972)): Least k such that there are at least n primes between n and n\*k.
 * [A090973](https://oeis.org/A090973) ([program](/edit/?oeis=90973)): a(n) = ceiling((prime(n)/n).
 * [A090976](https://oeis.org/A090976) ([program](/edit/?oeis=90976)): a(n) = 100 reduced mod n.
 * [A090988](https://oeis.org/A090988) ([program](/edit/?oeis=90988)): a(n) = 2^A004736(n).
@@ -11940,6 +12577,7 @@ List of integer sequences with links to LODA programs.
 * [A091019](https://oeis.org/A091019) ([program](/edit/?oeis=91019)): Denominators of the Taylor series of arccosh(z)/sqrt(2(x-1)) about 1.
 * [A091022](https://oeis.org/A091022) ([program](/edit/?oeis=91022)): Semiprimes with semiprime indices.
 * [A091024](https://oeis.org/A091024) ([program](/edit/?oeis=91024)): Let v(0) be the column vector (1,0,0,0)'; for n>0, let v(n) = [1 1 1 1 / 1 1 1 0 / 1 1 0 0/ 1 0 0 0] v(n-1). Sequence gives third entry of v(n).
+* [A091025](https://oeis.org/A091025) ([program](/edit/?oeis=91025)): Smallest positive k such that phi(1+k\*2^m) <= phi(k\*2^m) for all m = n (mod 12), where phi is Euler's totient function.
 * [A091030](https://oeis.org/A091030) ([program](/edit/?oeis=91030)): Partial sums of powers of 13 (A001022).
 * [A091031](https://oeis.org/A091031) ([program](/edit/?oeis=91031)): Third to last entries in rows of array A090452 (scaled (3,2)-Stirling2).
 * [A091032](https://oeis.org/A091032) ([program](/edit/?oeis=91032)): Second column (k=3) of array A090438 ((4,2)-Stirling2) divided by 8.
@@ -11948,7 +12586,7 @@ List of integer sequences with links to LODA programs.
 * [A091035](https://oeis.org/A091035) ([program](/edit/?oeis=91035)): Fifth column (k=6) of array A090438 ((4,2)-Stirling2).
 * [A091036](https://oeis.org/A091036) ([program](/edit/?oeis=91036)): Sixth column (k=7) of array A090438 ((4,2)-Stirling2) divided by 48=4!\*2.
 * [A091037](https://oeis.org/A091037) ([program](/edit/?oeis=91037)): Second column (k=5) of array A090214 ((4,4)-Stirling2) divided by 4\*4!=96.
-* [A091038](https://oeis.org/A091038) ([program](/edit/?oeis=91038)): Second column (k=6) of array A090216 ((5,5)-Stirling2) divided by 5\*5!=600.
+* [A091038](https://oeis.org/A091038) ([program](/edit/?oeis=91038)): Second column (k=6) of array A090216 ((5,5)-Stirling2) divided by 5\*5! = 600.
 * [A091042](https://oeis.org/A091042) ([program](/edit/?oeis=91042)): Triangle of even numbered entries of odd numbered rows of Pascal's triangle A007318.
 * [A091044](https://oeis.org/A091044) ([program](/edit/?oeis=91044)): One half of odd-numbered entries of even-numbered rows of Pascal's triangle A007318.
 * [A091045](https://oeis.org/A091045) ([program](/edit/?oeis=91045)): Partial sums of powers of 17 (A001026).
@@ -11989,7 +12627,9 @@ List of integer sequences with links to LODA programs.
 * [A091154](https://oeis.org/A091154) ([program](/edit/?oeis=91154)): Numerator of Maclaurin expansion of (t\*sqrt(t^2+1) + arcsinh(t))/2, the arc length of Archimedes' spiral.
 * [A091177](https://oeis.org/A091177) ([program](/edit/?oeis=91177)): Numbers m such that the m-th prime is of the form 3\*k-1.
 * [A091178](https://oeis.org/A091178) ([program](/edit/?oeis=91178)): Numbers k such that k-th prime is of the form 6\*m+1.
+* [A091179](https://oeis.org/A091179) ([program](/edit/?oeis=91179)): A088878 indexed by A000040.
 * [A091180](https://oeis.org/A091180) ([program](/edit/?oeis=91180)): Primes of the form 3\*p - 2 such that p is a prime.
+* [A091181](https://oeis.org/A091181) ([program](/edit/?oeis=91181)): A091180 indexed by A000040.
 * [A091185](https://oeis.org/A091185) ([program](/edit/?oeis=91185)): a(n) = A090938(n)/n.
 * [A091194](https://oeis.org/A091194) ([program](/edit/?oeis=91194)): Number of abundant numbers <= n.
 * [A091199](https://oeis.org/A091199) ([program](/edit/?oeis=91199)): Numbers n such that (6n-3)^2 + 2 is prime.
@@ -12051,6 +12691,7 @@ List of integer sequences with links to LODA programs.
 * [A091482](https://oeis.org/A091482) ([program](/edit/?oeis=91482)): a(n) = (3\*n)^n.
 * [A091483](https://oeis.org/A091483) ([program](/edit/?oeis=91483)): a(n) = (4\*n)^n.
 * [A091485](https://oeis.org/A091485) ([program](/edit/?oeis=91485)): Number of labeled 2,3 cacti (triangular cacti with bridges).
+* [A091491](https://oeis.org/A091491) ([program](/edit/?oeis=91491)): Triangle, read by rows, where the n-th diagonal is generated from the n-th row by the sum of the products of the n-th row terms with binomial coefficients.
 * [A091496](https://oeis.org/A091496) ([program](/edit/?oeis=91496)): a(n) = ((5n)!/(n!(2n)!))(gamma(1+n/2)/gamma(1+5n/2)).
 * [A091512](https://oeis.org/A091512) ([program](/edit/?oeis=91512)): a(n) is the largest integer m such that 2^m divides (2\*n)^n, i.e., the exponent of 2 in (2\*n)^n.
 * [A091519](https://oeis.org/A091519) ([program](/edit/?oeis=91519)): G.f.: sum(k>=0, 2^k\*t\*(1+t)/(1-t)^3, t=x^2^k).
@@ -12079,6 +12720,8 @@ List of integer sequences with links to LODA programs.
 * [A091577](https://oeis.org/A091577) ([program](/edit/?oeis=91577)): Poincaré series [or Poincare series] of the preprojective algebra of a Dynkin diagram of type E\_6.
 * [A091593](https://oeis.org/A091593) ([program](/edit/?oeis=91593)): Reversion of Jacobsthal numbers A001045.
 * [A091596](https://oeis.org/A091596) ([program](/edit/?oeis=91596)): Expansion of x(1-2x^2)/(1-x-2x^2)^2.
+* [A091597](https://oeis.org/A091597) ([program](/edit/?oeis=91597)): Triangle read by rows: T(n,0) = A001045(n+1), T(n,n)=1, T(n,m) = T(n-1,m-1) + T(n-1,m).
+* [A091598](https://oeis.org/A091598) ([program](/edit/?oeis=91598)): Triangle read by rows: T(n,0) = A078008(n), T(n,m) = T(n-1,m-1) + T(n-1,m).
 * [A091626](https://oeis.org/A091626) ([program](/edit/?oeis=91626)): Number of ordered integer pairs (b,c) with 0 <= b, c <= n such that both roots of x^2+bx+c=0 are integers.
 * [A091627](https://oeis.org/A091627) ([program](/edit/?oeis=91627)): Number of ordered integer pairs (b,c) with 1 <= b,c <= n such that both roots of x^2+bx+c=0 are integers.
 * [A091628](https://oeis.org/A091628) ([program](/edit/?oeis=91628)): Concatenation of n 2's followed by 3.
@@ -12100,6 +12743,8 @@ List of integer sequences with links to LODA programs.
 * [A091692](https://oeis.org/A091692) ([program](/edit/?oeis=91692)): (10^n-1) \* (n+9) / 9.
 * [A091693](https://oeis.org/A091693) ([program](/edit/?oeis=91693)): (n\*10^n - n + 9)/9.
 * [A091695](https://oeis.org/A091695) ([program](/edit/?oeis=91695)): E.g.f.: exp(x/(1-x)^3).
+* [A091696](https://oeis.org/A091696) ([program](/edit/?oeis=91696)): Number of classes of compositions of n equivalent under reflection or cycling.
+* [A091699](https://oeis.org/A091699) ([program](/edit/?oeis=91699)): Row sums of triangle A091698.
 * [A091701](https://oeis.org/A091701) ([program](/edit/?oeis=91701)): Row sums of triangle A091700.
 * [A091702](https://oeis.org/A091702) ([program](/edit/?oeis=91702)): Column 0 of triangle A091700.
 * [A091703](https://oeis.org/A091703) ([program](/edit/?oeis=91703)): Count, setting 5n to zero.
@@ -12118,6 +12763,7 @@ List of integer sequences with links to LODA programs.
 * [A091759](https://oeis.org/A091759) ([program](/edit/?oeis=91759)): a(n) = 0^n + 2((n+1)^n - (-1)^n) / (n+2).
 * [A091760](https://oeis.org/A091760) ([program](/edit/?oeis=91760)): 0^n+3((n+2)^n/(n+3)-(-1)^n/(n+3)).
 * [A091761](https://oeis.org/A091761) ([program](/edit/?oeis=91761)): a(n) = Pell(4n) / Pell(4).
+* [A091772](https://oeis.org/A091772) ([program](/edit/?oeis=91772)): a(n) = gcd(A000108(n), A000110(n)).
 * [A091773](https://oeis.org/A091773) ([program](/edit/?oeis=91773)): G.f.: Product((1+x^i)/(1-x^i),i=1..n-1)/(1-x^n), with n = 5.
 * [A091774](https://oeis.org/A091774) ([program](/edit/?oeis=91774)): G.f.: Product((1+x^i)/(1-x^i),i=1..n-1)/(1-x^n), with n = 6.
 * [A091775](https://oeis.org/A091775) ([program](/edit/?oeis=91775)): 1 + 4^n + 9^n + 16^n.
@@ -12141,7 +12787,6 @@ List of integer sequences with links to LODA programs.
 * [A091830](https://oeis.org/A091830) ([program](/edit/?oeis=91830)): a(1)=1; a(2n)=(a(n)+1) mod 2, a(2n+1)=a(2n)+1.
 * [A091835](https://oeis.org/A091835) ([program](/edit/?oeis=91835)): Double factorial of primes.
 * [A091841](https://oeis.org/A091841) ([program](/edit/?oeis=91841)): Records in A091840.
-* [A091844](https://oeis.org/A091844) ([program](/edit/?oeis=91844)): a(1) = 4. To get a(n+1), write the string a(1)a(2)...a(n) as xy^k for words x and y (where y has positive length) and k is maximized, i.e., k = the maximal number of repeating blocks at the end of the sequence so far. Then a(n+1) = max(k,4).
 * [A091848](https://oeis.org/A091848) ([program](/edit/?oeis=91848)): Johnson bound J(n,4,2).
 * [A091849](https://oeis.org/A091849) ([program](/edit/?oeis=91849)): Maximal size of (n,4,2) optical orthogonal code.
 * [A091855](https://oeis.org/A091855) ([program](/edit/?oeis=91855)): Odious numbers (see A000069) in A003159.
@@ -12155,6 +12800,7 @@ List of integer sequences with links to LODA programs.
 * [A091903](https://oeis.org/A091903) ([program](/edit/?oeis=91903)): Expansion of x/((1+5x)(1-10x)).
 * [A091904](https://oeis.org/A091904) ([program](/edit/?oeis=91904)): Expansion of x/((1+4x)(1-8x)).
 * [A091905](https://oeis.org/A091905) ([program](/edit/?oeis=91905)): Expansion of (1-4x)/((1+4x)(1-8x)).
+* [A091912](https://oeis.org/A091912) ([program](/edit/?oeis=91912)): Numerators of Taylor series for log(tan(x)+1/cos(x)).
 * [A091913](https://oeis.org/A091913) ([program](/edit/?oeis=91913)): Triangle read by rows: a(n,k) = C(n,k)\*(2^(n-k) - 1) for k<n, a(n,k) = 0 for k >= n, where k=0..max(n-1,0).
 * [A091914](https://oeis.org/A091914) ([program](/edit/?oeis=91914)): a(n) = 2\*a(n-1) + 12\*a(n-2).
 * [A091915](https://oeis.org/A091915) ([program](/edit/?oeis=91915)): Maximum of even products of partitions of n.
@@ -12163,6 +12809,7 @@ List of integer sequences with links to LODA programs.
 * [A091918](https://oeis.org/A091918) ([program](/edit/?oeis=91918)): Inverse of number triangle A091917.
 * [A091919](https://oeis.org/A091919) ([program](/edit/?oeis=91919)): Expansion of 1/((1-2\*x)\*(1-x^2)^2).
 * [A091921](https://oeis.org/A091921) ([program](/edit/?oeis=91921)): Sum of odd proper distinct prime divisors of n. That is, the sum of odd distinct prime divisors of n that are less than n.
+* [A091925](https://oeis.org/A091925) ([program](/edit/?oeis=91925)): Decimal expansion of Pi^3.
 * [A091927](https://oeis.org/A091927) ([program](/edit/?oeis=91927)): Expansion of (1-6x)/(1-6x-5x^2).
 * [A091928](https://oeis.org/A091928) ([program](/edit/?oeis=91928)): a(0)=1, a(1)=5; a(n) = 6\*a(n-1) + 5\*a(n-2) for n > 1.
 * [A091929](https://oeis.org/A091929) ([program](/edit/?oeis=91929)): Expansion of (1-6x)/(1-6x-11x^2).
@@ -12218,8 +12865,9 @@ List of integer sequences with links to LODA programs.
 * [A092143](https://oeis.org/A092143) ([program](/edit/?oeis=92143)): Cumulative product of all divisors of 1..n.
 * [A092144](https://oeis.org/A092144) ([program](/edit/?oeis=92144)): A092143(n!)/n!.
 * [A092145](https://oeis.org/A092145) ([program](/edit/?oeis=92145)): Numerator of I(n) = 2\*(Integral\_\{x=0..1/2\} (1+x^2)^n dx).
+* [A092146](https://oeis.org/A092146) ([program](/edit/?oeis=92146)): Primes of the form p + 10 where p is a prime.
 * [A092147](https://oeis.org/A092147) ([program](/edit/?oeis=92147)): Number of even-length palindromes among the k-tuples of partial quotients of the continued fraction expansions of n/r, r=1,...,n.
-* [A092148](https://oeis.org/A092148) ([program](/edit/?oeis=92148)): Expansion of 1/(exp(x)-x\*exp(2x)).
+* [A092148](https://oeis.org/A092148) ([program](/edit/?oeis=92148)): Expansion of e.g.f. 1/(exp(x)-x\*exp(2\*x)).
 * [A092149](https://oeis.org/A092149) ([program](/edit/?oeis=92149)): Partial sums of A092673.
 * [A092150](https://oeis.org/A092150) ([program](/edit/?oeis=92150)): Partial sums of A092674.
 * [A092152](https://oeis.org/A092152) ([program](/edit/?oeis=92152)): Sign of A092673(n).
@@ -12231,6 +12879,7 @@ List of integer sequences with links to LODA programs.
 * [A092166](https://oeis.org/A092166) ([program](/edit/?oeis=92166)): Let M = 2 X 2 matrix [ 1 2 / 5 4 ]; a(n) = (2,1) entry of M^n.
 * [A092167](https://oeis.org/A092167) ([program](/edit/?oeis=92167)): Let M = 2 X 2 matrix [ 1 2 / 5 4 ]; a(n) = (2,2) entry of M^n.
 * [A092168](https://oeis.org/A092168) ([program](/edit/?oeis=92168)): Primes congruent to 3 (modulo 19).
+* [A092169](https://oeis.org/A092169) ([program](/edit/?oeis=92169)): A000217(n)-A092674(n).
 * [A092170](https://oeis.org/A092170) ([program](/edit/?oeis=92170)): Sum of squares of alternating factorials : n!^2 - (n-1)!^2 + (n-2)!^2 - ... 1!^2.
 * [A092176](https://oeis.org/A092176) ([program](/edit/?oeis=92176)): A067076 + A000079/2.
 * [A092178](https://oeis.org/A092178) ([program](/edit/?oeis=92178)): Primes congruent to 8 mod 13.
@@ -12245,6 +12894,7 @@ List of integer sequences with links to LODA programs.
 * [A092202](https://oeis.org/A092202) ([program](/edit/?oeis=92202)): Expansion of (x - x^3) / (1 - x^5) in powers of x.
 * [A092205](https://oeis.org/A092205) ([program](/edit/?oeis=92205)): Number of units in the imaginary quadratic field Q(sqrt(-n)).
 * [A092206](https://oeis.org/A092206) ([program](/edit/?oeis=92206)): Positive integers that are not of the form n^2 or 3n^2.
+* [A092216](https://oeis.org/A092216) ([program](/edit/?oeis=92216)): Primes of the form p + 12 where p is a prime.
 * [A092220](https://oeis.org/A092220) ([program](/edit/?oeis=92220)): Expansion of x\*(1-x)/ ((1+x)\*(1-x+x^2)) in powers of x.
 * [A092236](https://oeis.org/A092236) ([program](/edit/?oeis=92236)): a(n) = (3^n + 2\*3^(n/2)\*cos(n\*Pi/6))/3.
 * [A092242](https://oeis.org/A092242) ([program](/edit/?oeis=92242)): Numbers that are congruent to \{5, 7\} (mod 12).
@@ -12265,6 +12915,7 @@ List of integer sequences with links to LODA programs.
 * [A092279](https://oeis.org/A092279) ([program](/edit/?oeis=92279)): a(n) = floor(7\*n/16) + 5.
 * [A092283](https://oeis.org/A092283) ([program](/edit/?oeis=92283)): Triangular array read by rows: T(n,k)=n+k^2, 1<=k<=n.
 * [A092286](https://oeis.org/A092286) ([program](/edit/?oeis=92286)): Fourth diagonal (m=3) of triangle A084938; a(n) = A084938(n+3,n) = (n^3 + 9\*n^2 + 26\*n)/6.
+* [A092287](https://oeis.org/A092287) ([program](/edit/?oeis=92287)): a(n) = Product\_\{j=1..n\} Product\_\{k=1..n\} gcd(j,k).
 * [A092290](https://oeis.org/A092290) ([program](/edit/?oeis=92290)): Decimal expansion of solution to n/x = x-n for n = 7.
 * [A092292](https://oeis.org/A092292) ([program](/edit/?oeis=92292)): a(n) = 3\*n + A053838(n).
 * [A092293](https://oeis.org/A092293) ([program](/edit/?oeis=92293)): a(n) = 3\*n + A090239(n).
@@ -12311,6 +12962,7 @@ List of integer sequences with links to LODA programs.
 * [A092412](https://oeis.org/A092412) ([program](/edit/?oeis=92412)): Fixed point of the morphism 0->11, 1->12, 2->13, 3->10, starting from a(1) = 1.
 * [A092420](https://oeis.org/A092420) ([program](/edit/?oeis=92420)): a(n+2) = 9\*a(n+1) - a(n) + 1, with a(1)=1, a(2)=10.
 * [A092425](https://oeis.org/A092425) ([program](/edit/?oeis=92425)): Decimal expansion of Pi^4.
+* [A092426](https://oeis.org/A092426) ([program](/edit/?oeis=92426)): Decimal expansion of e^4.
 * [A092428](https://oeis.org/A092428) ([program](/edit/?oeis=92428)): Numbers n such that A092255(n) == 2 (mod 3).
 * [A092431](https://oeis.org/A092431) ([program](/edit/?oeis=92431)): Numbers having in binary representation a leading 1 followed by n zeros and n-1 ones.
 * [A092434](https://oeis.org/A092434) ([program](/edit/?oeis=92434)): Number of words X=x(1)x(2)x(3)...x(n) of length n in three digits \{0,1,2\} that are invariant under the mapping X -> Y, where y(i)=((AD)^(i-1))x(1) and where (AD) denotes the absolute difference (AD)x(i)=abs(x(i+1)-x(i)) (in other words, y(i) is the i-th element in the diagonal of leading entries in the table of absolute differences of \{x(1), x(2),...,x(n)).
@@ -12327,6 +12979,8 @@ List of integer sequences with links to LODA programs.
 * [A092460](https://oeis.org/A092460) ([program](/edit/?oeis=92460)): Numbers that are not Bell numbers (A000110).
 * [A092464](https://oeis.org/A092464) ([program](/edit/?oeis=92464)): Numbers n congruent to 4 or 9 mod 13.
 * [A092467](https://oeis.org/A092467) ([program](/edit/?oeis=92467)): a(n) = Sum\_\{i+j+k=n, 0<=i,j,k<=n\} (n+2k)!/(i! \* j! \* (3\*k)!).
+* [A092471](https://oeis.org/A092471) ([program](/edit/?oeis=92471)): a(n) = Sum\_\{i+j+k=n, 0<=i<=n, 0<=j<=n, 0<=k<=n\} (n+i+j)!/((i+j)! \* j! \* k!).
+* [A092472](https://oeis.org/A092472) ([program](/edit/?oeis=92472)): a(n)=sum(i+j+k=n,(2n)!/(i+j)!/(j+k)!/(k+i)!) 0<=i<=n, 0<=j<=n, 0<=k<=n.
 * [A092474](https://oeis.org/A092474) ([program](/edit/?oeis=92474)): a(n) is the first term in a sequence of primes such that a(n)+4m^2 is also prime for m = 1 to n.
 * [A092476](https://oeis.org/A092476) ([program](/edit/?oeis=92476)): Numbers that are congruent to \{1, 3, 9\} mod 13.
 * [A092477](https://oeis.org/A092477) ([program](/edit/?oeis=92477)): Triangle read by rows: T(n,k) = (2^k - 1)^n, 1<=k<=n.
@@ -12339,6 +12993,7 @@ List of integer sequences with links to LODA programs.
 * [A092499](https://oeis.org/A092499) ([program](/edit/?oeis=92499)): Chebyshev polynomials S(n-1,21) with Diophantine property.
 * [A092502](https://oeis.org/A092502) ([program](/edit/?oeis=92502)): First derivative of cyclotomic(n,x) evaluated at x=1.
 * [A092503](https://oeis.org/A092503) ([program](/edit/?oeis=92503)): a(n) = n^floor(n/2).
+* [A092505](https://oeis.org/A092505) ([program](/edit/?oeis=92505)): a(n) = A002430(n) / A046990(n).
 * [A092509](https://oeis.org/A092509) ([program](/edit/?oeis=92509)): Möbius transform of sequence A008475.
 * [A092514](https://oeis.org/A092514) ([program](/edit/?oeis=92514)): Decimal expansion of e^(1/5).
 * [A092515](https://oeis.org/A092515) ([program](/edit/?oeis=92515)): Decimal expansion of e^(1/6).
@@ -12400,6 +13055,7 @@ List of integer sequences with links to LODA programs.
 * [A092723](https://oeis.org/A092723) ([program](/edit/?oeis=92723)): Disk degeneracies for brane III in the O(K)->P^1 x P^1 geometry.
 * [A092724](https://oeis.org/A092724) ([program](/edit/?oeis=92724)): Disk degeneracies for brane III in the O(K)->P^1 x P^1 geometry.
 * [A092727](https://oeis.org/A092727) ([program](/edit/?oeis=92727)): Decimal expansion of e^(-1/6).
+* [A092731](https://oeis.org/A092731) ([program](/edit/?oeis=92731)): Decimal expansion of Pi^5.
 * [A092742](https://oeis.org/A092742) ([program](/edit/?oeis=92742)): Decimal expansion of 1/Pi^2.
 * [A092749](https://oeis.org/A092749) ([program](/edit/?oeis=92749)): a(n) is the least k such that m^2 + m + k is prime for m = 0..n.
 * [A092750](https://oeis.org/A092750) ([program](/edit/?oeis=92750)): Decimal expansion of e^(-1/7).
@@ -12440,7 +13096,7 @@ List of integer sequences with links to LODA programs.
 * [A092820](https://oeis.org/A092820) ([program](/edit/?oeis=92820)): a(0) = 1; for n>0, a(n) = 16 times sum of cubes of divisors of n.
 * [A092822](https://oeis.org/A092822) ([program](/edit/?oeis=92822)): Row sums of A092821.
 * [A092841](https://oeis.org/A092841) ([program](/edit/?oeis=92841)): Numerator of I(n) = Integral\_\{x=0..1/(4^n)\} (1-sqrt(x))^2 dx; e.g., I(3) = 323/24576. The denominator is b(n) = 96\*16^(n-1); e.g., b(3) = 24576.
-* [A092844](https://oeis.org/A092844) ([program](/edit/?oeis=92844)): (Sum( prime(k)\*10^(k-1),k=1..n) ).
+* [A092844](https://oeis.org/A092844) ([program](/edit/?oeis=92844)): a(n) = Sum\_\{k=1..n\} prime(k)\*10^(k-1).
 * [A092845](https://oeis.org/A092845) ([program](/edit/?oeis=92845)): A011545(n) reversed.
 * [A092855](https://oeis.org/A092855) ([program](/edit/?oeis=92855)): Representation of sqrt(2) - 1 by an infinite sequence.
 * [A092860](https://oeis.org/A092860) ([program](/edit/?oeis=92860)): "3 times the prime sequence".
@@ -12460,6 +13116,7 @@ List of integer sequences with links to LODA programs.
 * [A092919](https://oeis.org/A092919) ([program](/edit/?oeis=92919)): Partial sums of A000193 (round(log(n))).
 * [A092929](https://oeis.org/A092929) ([program](/edit/?oeis=92929)): n-th partial arithmetic mean is equal to the n-th noncomposite number or to prime(n-1) for n>1.
 * [A092930](https://oeis.org/A092930) ([program](/edit/?oeis=92930)): n-th partial arithmetic mean is equal to the n-th composite number.
+* [A092935](https://oeis.org/A092935) ([program](/edit/?oeis=92935)): a(1) = 1; a(n) = floor \{(n+1)(n+2)(n+3)...(n+k)\}/\{(n-1)(n-2)(n-3)...(n-k)\} for the least value of k.
 * [A092936](https://oeis.org/A092936) ([program](/edit/?oeis=92936)): Area of n-th triple of hexagons around a triangle.
 * [A092942](https://oeis.org/A092942) ([program](/edit/?oeis=92942)): A Fibonacci sequence with "corrections" at every third step: -++-++-++-++-++..., i.e., at every 3rd step there is a subtraction instead of an addition.
 * [A092949](https://oeis.org/A092949) ([program](/edit/?oeis=92949)): Numbers of the form prime(n+1) + prime(n) + 1.
@@ -12467,12 +13124,14 @@ List of integer sequences with links to LODA programs.
 * [A092958](https://oeis.org/A092958) ([program](/edit/?oeis=92958)): a(1) = 1, a(2) = (1+2)\*(2+3), a(3) = (1+2+3)\*(2+3+4)\*(3+4+5), ... etc. Or a(n) = (T(n))\*(T(n)+n)\*(T(n)+2n)\*(T(n)+3n)\*... n terms. where T(n) = n(n+1)/2 given by A000217.
 * [A092966](https://oeis.org/A092966) ([program](/edit/?oeis=92966)): Number of interior balls in a truncated tetrahedral arrangement.
 * [A092975](https://oeis.org/A092975) ([program](/edit/?oeis=92975)): Consider all partitions of n into parts all of which are divisors of n; a(n) = maximal product of parts.
+* [A092978](https://oeis.org/A092978) ([program](/edit/?oeis=92978)): (Product of first n even numbers)/(product of first k odd numbers) where k is chosen to give the least integer.
 * [A092979](https://oeis.org/A092979) ([program](/edit/?oeis=92979)): Least k such that (n+1)\*(n+2)\*...\*(k-1)\*k >= n!.
 * [A092983](https://oeis.org/A092983) ([program](/edit/?oeis=92983)): Least squarefree number > n!.
 * [A092984](https://oeis.org/A092984) ([program](/edit/?oeis=92984)): a(n) = the least k >= 1 such that n! + k is squarefree.
 * [A092985](https://oeis.org/A092985) ([program](/edit/?oeis=92985)): a(n) is the product of first n terms of an arithmetic progression with the first term 1 and common difference n.
 * [A092996](https://oeis.org/A092996) ([program](/edit/?oeis=92996)): Least k such that 1 < p < n < c < k, where p is a prime and c is a composite number such that for every p there exists a distinct c.
 * [A093001](https://oeis.org/A093001) ([program](/edit/?oeis=93001)): Least k such that Sum\_\{r=n+1..k\} r is greater than or equal to the sum of the first n positive integers (i.e., the n-th triangular number, A000217(n)). Or, least k such that (sum of first n positive integers) <= (sum of numbers from n+1 up to k).
+* [A093003](https://oeis.org/A093003) ([program](/edit/?oeis=93003)): Number of composite numbers among next n numbers.
 * [A093005](https://oeis.org/A093005) ([program](/edit/?oeis=93005)): a(n) = n \* ceiling(n/2).
 * [A093007](https://oeis.org/A093007) ([program](/edit/?oeis=93007)): First nonprime number reached when iterating n under x->2\*x+1.
 * [A093012](https://oeis.org/A093012) ([program](/edit/?oeis=93012)): Numbers k such that prime(k) == 3 (mod 16).
@@ -12590,6 +13249,7 @@ List of integer sequences with links to LODA programs.
 * [A093450](https://oeis.org/A093450) ([program](/edit/?oeis=93450)): Number of consecutive integers whose product = A093449(n).
 * [A093451](https://oeis.org/A093451) ([program](/edit/?oeis=93451)): Number of distinct prime divisors of Product\_\{k=1+(n-1)n/2..n(n+1)/2)\} k (i.e., of 1, 2\*3, 4\*5\*6, 7\*8\*9\*10, ...).
 * [A093453](https://oeis.org/A093453) ([program](/edit/?oeis=93453)): 1/1, 2\*3/lcm(2,3), 4\*5\*6/lcm(4,5,6), 7\*8\*9\*10/lcm(7,8,9,10), ...
+* [A093454](https://oeis.org/A093454) ([program](/edit/?oeis=93454)): a(n) = floor((LCM of next n numbers)/n!).
 * [A093460](https://oeis.org/A093460) ([program](/edit/?oeis=93460)): a(n) = 2n^(n-1) - 1.
 * [A093461](https://oeis.org/A093461) ([program](/edit/?oeis=93461)): a(1)=1, a(n) = 2\*(n^(n-1)-1)/(n-1) for n >= 2.
 * [A093462](https://oeis.org/A093462) ([program](/edit/?oeis=93462)): a(1)=1, a(n) = 2(n^(n-1)-1)/(n-1)^2.
@@ -12663,6 +13323,7 @@ List of integer sequences with links to LODA programs.
 * [A093718](https://oeis.org/A093718) ([program](/edit/?oeis=93718)): a(n) = (n mod 3)^(n mod 2).
 * [A093719](https://oeis.org/A093719) ([program](/edit/?oeis=93719)): a(n) = (n mod 2)^(n mod 3).
 * [A093722](https://oeis.org/A093722) ([program](/edit/?oeis=93722)): Integers of the form (n^2 - 1) / 120.
+* [A093762](https://oeis.org/A093762) ([program](/edit/?oeis=93762)): Numerators of 1-2\*HarmonicNumber(n)/(n+1).
 * [A093766](https://oeis.org/A093766) ([program](/edit/?oeis=93766)): Decimal expansion of Pi/(2\*sqrt(3)).
 * [A093785](https://oeis.org/A093785) ([program](/edit/?oeis=93785)): Numbers that are divisible by every digit in their Roman numeral representation.
 * [A093801](https://oeis.org/A093801) ([program](/edit/?oeis=93801)): a(n) = b(n)\*Integral\_\{x=0..1/(4^n)\} (1 - sqrt(x)) dx, where b(n) = 3\*24^n.
@@ -12698,12 +13359,15 @@ List of integer sequences with links to LODA programs.
 * [A093918](https://oeis.org/A093918) ([program](/edit/?oeis=93918)): a(2k-1)=(2k-1)^2+k, a(2k)=6k^2+k+1: Last term in rows of triangle A093915.
 * [A093920](https://oeis.org/A093920) ([program](/edit/?oeis=93920)): Row sums of A093919.
 * [A093935](https://oeis.org/A093935) ([program](/edit/?oeis=93935)): a(1) = 1, a(n+1) = a(n) + n\*(a(1) + a(2) + ... + a(n)).
+* [A093951](https://oeis.org/A093951) ([program](/edit/?oeis=93951)): Sum of integers generated by n-1 substitutions, starting with 1, k -> k+1,k-1,..,1.
 * [A093953](https://oeis.org/A093953) ([program](/edit/?oeis=93953)): a(n) = rightmost term in M^n \* [1,1,1], where M = a 3 X 3 matrix composed of the first 3 rows of A050166 (fill in the matrix with zeros): = [1 0 0 / 1 2 0 / 1 4 5].
 * [A093957](https://oeis.org/A093957) ([program](/edit/?oeis=93957)): A091799(n) - 3.
 * [A093958](https://oeis.org/A093958) ([program](/edit/?oeis=93958)): A091844(n) - 4.
 * [A093960](https://oeis.org/A093960) ([program](/edit/?oeis=93960)): a(1) = 1, a(2) = 2, a(n+1) = n\*a(1) + (n-1)\*a(2) + ... + (n-r)\*a(r+1) + ... + a(n).
+* [A093963](https://oeis.org/A093963) ([program](/edit/?oeis=93963)): Antidiagonal sums of array in A093966.
 * [A093964](https://oeis.org/A093964) ([program](/edit/?oeis=93964)): a(n) = Sum\_\{k=1..n\} k\*k!\*C(n,k).
 * [A093965](https://oeis.org/A093965) ([program](/edit/?oeis=93965)): Number of functions of [n] to [n] that simultaneously avoid the patterns 112 and 221.
+* [A093966](https://oeis.org/A093966) ([program](/edit/?oeis=93966)): Array read by antidiagonals: number of \{112,221\}-avoiding words.
 * [A093967](https://oeis.org/A093967) ([program](/edit/?oeis=93967)): a(n) = n \* Pell(n).
 * [A093968](https://oeis.org/A093968) ([program](/edit/?oeis=93968)): Inverse binomial transform of n\*Pell(n).
 * [A093969](https://oeis.org/A093969) ([program](/edit/?oeis=93969)): a(n) = n\*Pell(n-2).
@@ -12726,6 +13390,7 @@ List of integer sequences with links to LODA programs.
 * [A094033](https://oeis.org/A094033) ([program](/edit/?oeis=94033)): Number of connected 2-element antichains on a labeled n-set.
 * [A094038](https://oeis.org/A094038) ([program](/edit/?oeis=94038)): Binomial transform of (Pell(-n)+Pell(n))/2.
 * [A094039](https://oeis.org/A094039) ([program](/edit/?oeis=94039)): Binomial transform of (Jacobsthal(n) + 2^n\*Jacobsthal(-n))/2.
+* [A094040](https://oeis.org/A094040) ([program](/edit/?oeis=94040)): Triangle read by rows: T(n,k) is the number of noncrossing forests with n vertices and k edges.
 * [A094041](https://oeis.org/A094041) ([program](/edit/?oeis=94041)): Beatty sequence for e^Pi - Pi^e - i^i.
 * [A094042](https://oeis.org/A094042) ([program](/edit/?oeis=94042)): Beatty sequence for e^Pi - Pi^e - i^i.
 * [A094047](https://oeis.org/A094047) ([program](/edit/?oeis=94047)): Number of seating arrangements of n couples around a round table (up to rotations) so that each person sits between two people of the opposite sex and no couple is seated together.
@@ -12737,6 +13402,7 @@ List of integer sequences with links to LODA programs.
 * [A094064](https://oeis.org/A094064) ([program](/edit/?oeis=94064)): Sequences has the properties shown in the Comments lines.
 * [A094074](https://oeis.org/A094074) ([program](/edit/?oeis=94074)): Coefficients arising in combinatorial field theory.
 * [A094075](https://oeis.org/A094075) ([program](/edit/?oeis=94075)): Denominator of I(n)=integral\_\{x=0 to 1/n\}(x^2-1)^3 dx.
+* [A094077](https://oeis.org/A094077) ([program](/edit/?oeis=94077)): a(1)=1 and, for n>1, a(n)=a(n-1)+n if n is even and a(n)=smallest positive integer which has not yet appeared in the sequence if n is odd.
 * [A094081](https://oeis.org/A094081) ([program](/edit/?oeis=94081)): Smallest integral ladder whose ends slide over the respective distances 1 and m=2n+1 while slipping down along horizontal ground and vertical wall against which it leans.
 * [A094083](https://oeis.org/A094083) ([program](/edit/?oeis=94083)): Numerators of ratio of sides of n-th triple of rectangles of unit area sum around a triangle.
 * [A094084](https://oeis.org/A094084) ([program](/edit/?oeis=94084)): Denominators associated with A094083.
@@ -12761,6 +13427,7 @@ List of integer sequences with links to LODA programs.
 * [A094181](https://oeis.org/A094181) ([program](/edit/?oeis=94181)): a(n) = (n - tau(n))\*(n - phi(n)), where tau=A000005 and phi=A000010.
 * [A094186](https://oeis.org/A094186) ([program](/edit/?oeis=94186)): Taking a(1)=0 and a(2)=1, sequence (a(n))n>1 is defined as follows : letting w(k)=a(1)a(2)...a(k) and w(infinity)= limit k ->infinity a(1)a(2)w(1)w(2)...w(k) we have w(infinity)=a(1)a(2)a(3)a(4)...
 * [A094188](https://oeis.org/A094188) ([program](/edit/?oeis=94188)): Number of levels in the compositions of n with odd summands.
+* [A094189](https://oeis.org/A094189) ([program](/edit/?oeis=94189)): Number of primes between n^2-n and n^2 (inclusive).
 * [A094192](https://oeis.org/A094192) ([program](/edit/?oeis=94192)): Values x of the generator pairs (x, y), x>y of primitive Pythagorean triples, sorted.
 * [A094195](https://oeis.org/A094195) ([program](/edit/?oeis=94195)): G.f.: (1-4\*x)/((1-5\*x)\*(1-x)^2).
 * [A094200](https://oeis.org/A094200) ([program](/edit/?oeis=94200)): a(n) = 16\*n^4 + 32\*n^3 + 36\*n^2 + 20\*n + 3.
@@ -12787,6 +13454,7 @@ List of integer sequences with links to LODA programs.
 * [A094263](https://oeis.org/A094263) ([program](/edit/?oeis=94263)): Triangle read by rows: for 1 <= k <= n, a(n, k) = n^k mod k.
 * [A094264](https://oeis.org/A094264) ([program](/edit/?oeis=94264)): a(n) = Sum\_\{r = 1 .. n\} (n^r mod r).
 * [A094265](https://oeis.org/A094265) ([program](/edit/?oeis=94265)): Largest number in n-th row of triangle A094263.
+* [A094266](https://oeis.org/A094266) ([program](/edit/?oeis=94266)): LQTL Lean Quaternary Temporal Logic: a terse form of temporal logic created by assigning four descriptors such that false, becoming true, true and becoming false are represented and become a linear sequence. In a branching tree two alternative are open, change or no change. The integer sequence above is the count of the row possibilities of the four states over successive iterations.
 * [A094267](https://oeis.org/A094267) ([program](/edit/?oeis=94267)): First differences of A001511.
 * [A094283](https://oeis.org/A094283) ([program](/edit/?oeis=94283)): Row sums of triangle A094280.
 * [A094284](https://oeis.org/A094284) ([program](/edit/?oeis=94284)): a(n) = A094283(n+1)/A094283(n).
@@ -12833,6 +13501,8 @@ List of integer sequences with links to LODA programs.
 * [A094407](https://oeis.org/A094407) ([program](/edit/?oeis=94407)): Primes of the form 16n+1.
 * [A094414](https://oeis.org/A094414) ([program](/edit/?oeis=94414)): Triangle T read by rows: dot product <1,2,...,r> \* <s+1,s+2,...,r,1,2,...,s>.
 * [A094415](https://oeis.org/A094415) ([program](/edit/?oeis=94415)): Triangle T read by rows: dot product <r,r-1,...,1> \* <s+1,s+2,...,r,1,2,...,s>.
+* [A094417](https://oeis.org/A094417) ([program](/edit/?oeis=94417)): Generalized ordered Bell numbers Bo(4,n).
+* [A094420](https://oeis.org/A094420) ([program](/edit/?oeis=94420)): Generalized ordered Bell numbers Bo(n,n).
 * [A094421](https://oeis.org/A094421) ([program](/edit/?oeis=94421)): a(n) = n \* (6\*n^2 + 6\*n + 1).
 * [A094423](https://oeis.org/A094423) ([program](/edit/?oeis=94423)): A045873(n)^2.
 * [A094429](https://oeis.org/A094429) ([program](/edit/?oeis=94429)): Given the 3 X 3 matrix M = [0 1 0 / 0 0 1 / 7 -14 7], a(n) = (-) rightmost term of M^n \* [1 1 1].
@@ -12855,11 +13525,14 @@ List of integer sequences with links to LODA programs.
 * [A094460](https://oeis.org/A094460) ([program](/edit/?oeis=94460)): a(n) is the third term in Euclid-Mullin (EM) prime sequence initiated with n-th prime.
 * [A094471](https://oeis.org/A094471) ([program](/edit/?oeis=94471)): a(n) = n\*tau(n) - sigma(n) = n\*A000005(n) - A000203(n).
 * [A094472](https://oeis.org/A094472) ([program](/edit/?oeis=94472)): a(n) = n\*tau(n) - sigma(n) - phi(n), where tau(n) is the number of divisors of n.
+* [A094473](https://oeis.org/A094473) ([program](/edit/?oeis=94473)): Smallest prime factor of 2^n+3^n.
 * [A094495](https://oeis.org/A094495) ([program](/edit/?oeis=94495)): Table of binomial coefficients mod m^2, read by rows: T(m, n) = binomial(m, n) mod m^2.
 * [A094497](https://oeis.org/A094497) ([program](/edit/?oeis=94497)): Triangular table A(n,j) = C(n,j) - C(n,j) mod n^3, difference of binomial coefficient and its residue mod n^3, read by rows.
 * [A094500](https://oeis.org/A094500) ([program](/edit/?oeis=94500)): Least number k such that (n+1)^k / n^k >= 2.
 * [A094506](https://oeis.org/A094506) ([program](/edit/?oeis=94506)): Numerator of I(n) = (-1) \* Integral\_\{x=0..4^n\} (1-x^(3/2)) dx.
+* [A094524](https://oeis.org/A094524) ([program](/edit/?oeis=94524)): Primes of form 3\*prime(m) + 2.
 * [A094527](https://oeis.org/A094527) ([program](/edit/?oeis=94527)): Triangle T(n,k), read by rows, defined by T(n,k) = binomial(2\*n,n-k).
+* [A094531](https://oeis.org/A094531) ([program](/edit/?oeis=94531)): Array read by rows: right-hand side of triangle A027907 of trinomial coefficients.
 * [A094540](https://oeis.org/A094540) ([program](/edit/?oeis=94540)): Last digit of the n-th perfect number.
 * [A094545](https://oeis.org/A094545) ([program](/edit/?oeis=94545)): Number of minimal T\_0-covers of an n-set.
 * [A094550](https://oeis.org/A094550) ([program](/edit/?oeis=94550)): Numbers n such that there are integers a < b with a+(a+1)+...+(n-1) = (n+1)+(n+2)+...+b.
@@ -12904,6 +13577,7 @@ List of integer sequences with links to LODA programs.
 * [A094657](https://oeis.org/A094657) ([program](/edit/?oeis=94657)): Primes congruent to 4 mod 17.
 * [A094659](https://oeis.org/A094659) ([program](/edit/?oeis=94659)): Number of closed walks of length n at a vertex of the cyclic graph on 7 nodes C\_7.
 * [A094667](https://oeis.org/A094667) ([program](/edit/?oeis=94667)): Number of (s(0), s(1), ..., s(2n+1)) such that 0 < s(i) < 10 and \|s(i) - s(i-1)\| = 1 for i = 1,2,...,2n+1, s(0) = 1, s(2n+1) = 4.
+* [A094677](https://oeis.org/A094677) ([program](/edit/?oeis=94677)): Sum of digits is divisible by 10.
 * [A094684](https://oeis.org/A094684) ([program](/edit/?oeis=94684)): Records in A094683.
 * [A094686](https://oeis.org/A094686) ([program](/edit/?oeis=94686)): A Fibonacci convolution.
 * [A094687](https://oeis.org/A094687) ([program](/edit/?oeis=94687)): Convolution of Fibonacci and Jacobsthal numbers.
@@ -12925,6 +13599,7 @@ List of integer sequences with links to LODA programs.
 * [A094741](https://oeis.org/A094741) ([program](/edit/?oeis=94741)): Number of primes of the form k+1 where k is coprime to n, k < n.
 * [A094743](https://oeis.org/A094743) ([program](/edit/?oeis=94743)): Beginning with 2, increasing primes such that the sum of successive differences is also prime.
 * [A094761](https://oeis.org/A094761) ([program](/edit/?oeis=94761)): a(n) = n + (square excess of n).
+* [A094762](https://oeis.org/A094762) ([program](/edit/?oeis=94762)): a(n) = Bell(n+1) - 2^n + 1 + n, where Bell(i) is the i-th Bell number A000110(i).
 * [A094763](https://oeis.org/A094763) ([program](/edit/?oeis=94763)): Trajectory of 2 under repeated application of the map n -> n + square excess of n.
 * [A094764](https://oeis.org/A094764) ([program](/edit/?oeis=94764)): Trajectory of 7 under repeated application of the map n --> n + square excess of n.
 * [A094765](https://oeis.org/A094765) ([program](/edit/?oeis=94765)): a(n) = n + 2 \* square excess of n.
@@ -12975,9 +13650,10 @@ List of integer sequences with links to LODA programs.
 * [A094884](https://oeis.org/A094884) ([program](/edit/?oeis=94884)): Decimal expansion of phi/sqrt(2), where phi = (1+sqrt(5))/2.
 * [A094887](https://oeis.org/A094887) ([program](/edit/?oeis=94887)): Decimal expansion of phi\*sqrt(2), where phi = (1+sqrt(5))/2.
 * [A094896](https://oeis.org/A094896) ([program](/edit/?oeis=94896)): If 4\*n+1 is prime and 4\*n+3 is not prime then a(n)=4\*n+1, else a(n)=0.
-* [A094905](https://oeis.org/A094905) ([program](/edit/?oeis=94905)): E.g.f. : exp(6x)/(1-6x)^(1/6).
+* [A094905](https://oeis.org/A094905) ([program](/edit/?oeis=94905)): Expansion of e.g.f.: exp(6\*x)/(1-6\*x)^(1/6).
 * [A094909](https://oeis.org/A094909) ([program](/edit/?oeis=94909)): Let p\_k(n) = number of partitions of n into exactly k parts; sequence gives p\_3(n-3) + p\_2(n-2) + 1.
 * [A094911](https://oeis.org/A094911) ([program](/edit/?oeis=94911)): E.g.f.: exp(7x)/(1-7x)^(1/7).
+* [A094912](https://oeis.org/A094912) ([program](/edit/?oeis=94912)): Output from a certain finite automaton when fed binary representation of n read from right to left.
 * [A094913](https://oeis.org/A094913) ([program](/edit/?oeis=94913)): Maximal number of distinct nonempty substrings of any binary string of length n.
 * [A094914](https://oeis.org/A094914) ([program](/edit/?oeis=94914)): Absolute value of n^2 + n - 1354363.
 * [A094918](https://oeis.org/A094918) ([program](/edit/?oeis=94918)): a(n) = (3^n-1)/2 mod n.
@@ -12987,6 +13663,7 @@ List of integer sequences with links to LODA programs.
 * [A094922](https://oeis.org/A094922) ([program](/edit/?oeis=94922)): (7^n-1)/6 mod n.
 * [A094923](https://oeis.org/A094923) ([program](/edit/?oeis=94923)): (8^n-1)/7 mod n.
 * [A094924](https://oeis.org/A094924) ([program](/edit/?oeis=94924)): a(n) = (9^n-1)/8 mod n.
+* [A094930](https://oeis.org/A094930) ([program](/edit/?oeis=94930)): Triangle T(n,m) read by rows, defined by squaring a matrix with row entries 2+3\*(m-1).
 * [A094935](https://oeis.org/A094935) ([program](/edit/?oeis=94935)): E.g.f.: exp(8x)/(1-8x)^(1/8).
 * [A094938](https://oeis.org/A094938) ([program](/edit/?oeis=94938)): a(n)=(-36^n/18)\*B(2n,1/6)/B(2n,1/3) where B(n,x) is the n-th Bernoulli polynomial.
 * [A094941](https://oeis.org/A094941) ([program](/edit/?oeis=94941)): a(n) is n! times the coefficient of Pi^floor(n/2) in the volume of an n-dimensional unit ball.
@@ -13037,6 +13714,7 @@ List of integer sequences with links to LODA programs.
 * [A095003](https://oeis.org/A095003) ([program](/edit/?oeis=95003)): a(n) = 9\*a(n-1) - 9\*a(n-2) + a(n-3).
 * [A095004](https://oeis.org/A095004) ([program](/edit/?oeis=95004)): a(n) = 9\*a(n-1) - 9\*a(n-2) + a(n-3); given a(1) = 1, a(2) = 10, a(3) = 81.
 * [A095037](https://oeis.org/A095037) ([program](/edit/?oeis=95037)): An example of a (v,k,lambda)=(23,11,5) cyclic difference set.
+* [A095039](https://oeis.org/A095039) ([program](/edit/?oeis=95039)): An example of a (v,k,lambda)=(40,13,4) cyclic difference set.
 * [A095041](https://oeis.org/A095041) ([program](/edit/?oeis=95041)): One of two (v,k,lambda)=(31,15,7) cyclic difference sets. The other one is A095042.
 * [A095042](https://oeis.org/A095042) ([program](/edit/?oeis=95042)): One of two (v,k,lambda)=(31,15,7) cyclic difference sets. The other one is A095041.
 * [A095047](https://oeis.org/A095047) ([program](/edit/?oeis=95047)): An example of a (v,k,lambda)=(107,53,26) cyclic difference set.
@@ -13075,19 +13753,24 @@ List of integer sequences with links to LODA programs.
 * [A095187](https://oeis.org/A095187) ([program](/edit/?oeis=95187)): Least significant digit of (n mod 10)^floor(n/10).
 * [A095190](https://oeis.org/A095190) ([program](/edit/?oeis=95190)): Doubled Thue-Morse sequence: the A010060 sequence replacing 0 with 0,0 and 1 with 1,1.
 * [A095197](https://oeis.org/A095197) ([program](/edit/?oeis=95197)): a(1) = 1, a(n+1) = 2 \* digit reversal of a(n).
+* [A095199](https://oeis.org/A095199) ([program](/edit/?oeis=95199)): Least integer multiple of f(1/n) where f(1/n) is the number obtained by retaining only n digits after decimal and deleting the rest.
 * [A095200](https://oeis.org/A095200) ([program](/edit/?oeis=95200)): Greatest multiple of n of the form (n-1) + (n-2) + ... + (n-k), or 0 if no such number exists.
 * [A095201](https://oeis.org/A095201) ([program](/edit/?oeis=95201)): A095200(n)/n.
 * [A095202](https://oeis.org/A095202) ([program](/edit/?oeis=95202)): Value of largest k such that (n-1) + (n-2) + (n-3) + ... + (n-k) is a multiple of n, or 0 if no such k exists.
 * [A095208](https://oeis.org/A095208) ([program](/edit/?oeis=95208)): n if n is composite else 10\*n.
 * [A095209](https://oeis.org/A095209) ([program](/edit/?oeis=95209)): a(1)=1, a(n+1) = least multiple of prime(n) such that the geometric mean of a(1) to a(n+1) is an integer.
+* [A095219](https://oeis.org/A095219) ([program](/edit/?oeis=95219)): First differences of A053067.
 * [A095221](https://oeis.org/A095221) ([program](/edit/?oeis=95221)): (Concatenation 1,2,3,...,n) mod n.
+* [A095222](https://oeis.org/A095222) ([program](/edit/?oeis=95222)): (Concatenation of T(n)+1..T(n+1)) mod (concatenation of T(n-1)+1..T(n)), where T(k) is the k-th triangular number, A000217(k).
 * [A095228](https://oeis.org/A095228) ([program](/edit/?oeis=95228)): n-th decimal digit of 1/n!.
 * [A095232](https://oeis.org/A095232) ([program](/edit/?oeis=95232)): a(1) = 1, a(n+1) = floor(a(n)\*10^n/n).
 * [A095233](https://oeis.org/A095233) ([program](/edit/?oeis=95233)): a(n) = a(n-1) + Sum(floor(n/p): p prime), a(1) = 1.
 * [A095237](https://oeis.org/A095237) ([program](/edit/?oeis=95237)): a(1)=1; then for n even, a(n)=(sum of previous terms times n) plus 1, for n odd, a(n)=(sum of previous terms times n) minus 1.
 * [A095238](https://oeis.org/A095238) ([program](/edit/?oeis=95238)): a(1) = 1, a(n) = n\*(sum of all previous terms mod n).
+* [A095243](https://oeis.org/A095243) ([program](/edit/?oeis=95243)): a(n) = concatenation of 1,2,3,...,n mod prime(n).
 * [A095244](https://oeis.org/A095244) ([program](/edit/?oeis=95244)): a(n) = concatenation n,n-1,n-2,...,3,2,1 mod (prime(n)).
 * [A095248](https://oeis.org/A095248) ([program](/edit/?oeis=95248)): a(n) = least k > 0 such that n-th partial sum is divisible by n if and only if n is not prime.
+* [A095249](https://oeis.org/A095249) ([program](/edit/?oeis=95249)): Reverse concatenation of first n positive integers modulo forward concatenation of first n positive integers.
 * [A095250](https://oeis.org/A095250) ([program](/edit/?oeis=95250)): a(n) = 11111111... (n times) = (10^n-1)/9 reduced mod n.
 * [A095262](https://oeis.org/A095262) ([program](/edit/?oeis=95262)): A sequence derived from a truncated Pascal's Triangle matrix.
 * [A095263](https://oeis.org/A095263) ([program](/edit/?oeis=95263)): a(n+3) = 3\*a(n+2) - 2\*a(n+1) + a(n).
@@ -13095,8 +13778,10 @@ List of integer sequences with links to LODA programs.
 * [A095265](https://oeis.org/A095265) ([program](/edit/?oeis=95265)): A sequence generated from a 4th degree Pascal's Triangle polynomial.
 * [A095266](https://oeis.org/A095266) ([program](/edit/?oeis=95266)): A sequence generated from the Narayana triangle considered as a matrix, or from Pascal's triangle.
 * [A095267](https://oeis.org/A095267) ([program](/edit/?oeis=95267)): Least perimeter common to 2^n primitive arithmetic triangles, i.e., Heronian triangles whose sides are in arithmetic progression.
+* [A095276](https://oeis.org/A095276) ([program](/edit/?oeis=95276)): Length of n-th run of identical symbols in A095076 and A095111.
 * [A095277](https://oeis.org/A095277) ([program](/edit/?oeis=95277)): Numbers k such that 4k + 3 is composite.
 * [A095278](https://oeis.org/A095278) ([program](/edit/?oeis=95278)): Numbers k such that 4k + 3 is prime.
+* [A095279](https://oeis.org/A095279) ([program](/edit/?oeis=95279)): Partial sums of A095276.
 * [A095288](https://oeis.org/A095288) ([program](/edit/?oeis=95288)): Least middle side of 2^n primitive arithmetic triangles, i.e., primitive Heronian triangles whose sides are in arithmetic progression.
 * [A095307](https://oeis.org/A095307) ([program](/edit/?oeis=95307)): Number of walks of length n between two nodes at distance 2 in the cycle graph C\_7.
 * [A095308](https://oeis.org/A095308) ([program](/edit/?oeis=95308)): Number of walks of length n between two nodes at distance 3 in the cycle graph C\_7.
@@ -13111,6 +13796,7 @@ List of integer sequences with links to LODA programs.
 * [A095346](https://oeis.org/A095346) ([program](/edit/?oeis=95346)): a(n) is the length of the n-th run of A095345.
 * [A095351](https://oeis.org/A095351) ([program](/edit/?oeis=95351)): Total number of edges in all labeled graphs on n nodes.
 * [A095364](https://oeis.org/A095364) ([program](/edit/?oeis=95364)): Number of walks of length n between two adjacent nodes in the cycle graph C\_9.
+* [A095366](https://oeis.org/A095366) ([program](/edit/?oeis=95366)): Least k > 1 such that k divides 1^n + 2^n +...+ (k-1)^n.
 * [A095367](https://oeis.org/A095367) ([program](/edit/?oeis=95367)): Number of walks of length n between two nodes at distance 2 in the cycle graph C\_9.
 * [A095368](https://oeis.org/A095368) ([program](/edit/?oeis=95368)): Number of walks of length n between two nodes at distance 3 in the cycle graph C\_9.
 * [A095369](https://oeis.org/A095369) ([program](/edit/?oeis=95369)): Number of walks of length n between two nodes at distance 4 in the cycle graph C\_9.
@@ -13164,6 +13850,7 @@ List of integer sequences with links to LODA programs.
 * [A095803](https://oeis.org/A095803) ([program](/edit/?oeis=95803)): Values of r in Wolfram's iteration for sqrt(2).
 * [A095804](https://oeis.org/A095804) ([program](/edit/?oeis=95804)): Values of s in Wolfram's iteration for sqrt(2).
 * [A095805](https://oeis.org/A095805) ([program](/edit/?oeis=95805)): Reduced numerators in Wolfram's iteration for sqrt(2).
+* [A095806](https://oeis.org/A095806) ([program](/edit/?oeis=95806)): Reduced denominators in Wolfram's iteration for sqrt(2).
 * [A095807](https://oeis.org/A095807) ([program](/edit/?oeis=95807)): Number of integers from 0 to 10^n-1 which contain at least one decimal digit = 0.
 * [A095808](https://oeis.org/A095808) ([program](/edit/?oeis=95808)): Number of ways to write n in the form m + (m+1) + ... + (m+k-1) + (m+k) + (m+k-1) + ... + (m+1) + m with integers m>= 1, k>=1. Or, number of divisors a of 4n-1 with 0 < (a-1)^2 < 4n.
 * [A095815](https://oeis.org/A095815) ([program](/edit/?oeis=95815)): n + largest digit of n.
@@ -13214,9 +13901,11 @@ List of integer sequences with links to LODA programs.
 * [A095903](https://oeis.org/A095903) ([program](/edit/?oeis=95903)): Lexical ordering of the lazy Fibonacci representations.
 * [A095905](https://oeis.org/A095905) ([program](/edit/?oeis=95905)): Sequence generated from Golomb's proof of de Bruijn's theorem on a torus considered as a matrix.
 * [A095907](https://oeis.org/A095907) ([program](/edit/?oeis=95907)): Digits in the concatenation of strings formed from a previous string by substituting "01" for "0" and "011" for "1" simultaneously at each occurrence. Start with [0].
+* [A095914](https://oeis.org/A095914) ([program](/edit/?oeis=95914)): Binary numbers with 2 replacing 1 in odd positions.
 * [A095915](https://oeis.org/A095915) ([program](/edit/?oeis=95915)): Each number is twice times the product of the digits of the previous number.
 * [A095916](https://oeis.org/A095916) ([program](/edit/?oeis=95916)): Differences between adjacent digits of Pi.
 * [A095917](https://oeis.org/A095917) ([program](/edit/?oeis=95917)): Unreduced numerator of Sum[k=1..n, -(-1)^k/(F(k)\*F(k+1))], with F(i) = A000045(i) the Fibonacci numbers.
+* [A095925](https://oeis.org/A095925) ([program](/edit/?oeis=95925)): Smallest m such that prime(n) mod m > 1.
 * [A095929](https://oeis.org/A095929) ([program](/edit/?oeis=95929)): Number of closed walks of length 2n at a vertex of the cyclic graph on 10 nodes C\_10.
 * [A095930](https://oeis.org/A095930) ([program](/edit/?oeis=95930)): Number of walks of length 2n between two nodes at distance 2 in the cycle graph C\_10.
 * [A095931](https://oeis.org/A095931) ([program](/edit/?oeis=95931)): Number of walks of length 2n between two nodes at distance 4 in the cycle graph C\_10.
@@ -13239,7 +13928,6 @@ List of integer sequences with links to LODA programs.
 * [A095992](https://oeis.org/A095992) ([program](/edit/?oeis=95992)): a(1) = 30; for n > 1, a(n+1) = a(n) + \{product of nonzero digits of a(n)\}.
 * [A095995](https://oeis.org/A095995) ([program](/edit/?oeis=95995)): Primes of the form 100n - 1.
 * [A095996](https://oeis.org/A095996) ([program](/edit/?oeis=95996)): a(n) = largest divisor of n! that is coprime to n.
-* [A095997](https://oeis.org/A095997) ([program](/edit/?oeis=95997)): Number of divisors of n! that are coprime to n.
 * [A095998](https://oeis.org/A095998) ([program](/edit/?oeis=95998)): n! \* (fractional part of n-th harmonic number).
 * [A096000](https://oeis.org/A096000) ([program](/edit/?oeis=96000)): Cupolar numbers: a(n) = (n+1)\*(5\*n^2+7\*n+3)/3.
 * [A096006](https://oeis.org/A096006) ([program](/edit/?oeis=96006)): Scan Pascal's triangle (A007318) from left to right, record largest prime factor of each entry.
@@ -13269,6 +13957,7 @@ List of integer sequences with links to LODA programs.
 * [A096046](https://oeis.org/A096046) ([program](/edit/?oeis=96046)): a(n) = B(2n,3)/B(2n) (see comment).
 * [A096047](https://oeis.org/A096047) ([program](/edit/?oeis=96047)): a(n)=B(2n,4)/B(2n) (see comment).
 * [A096051](https://oeis.org/A096051) ([program](/edit/?oeis=96051)): Decimal expansion of lim\_\{n->infty\} B(2n,8)/(B(2n)\*64^n) ( see comment for B(n,k) definition ).
+* [A096052](https://oeis.org/A096052) ([program](/edit/?oeis=96052)): Decimal expansion of lim\_\{n-->infty\} B(2n,5)/(B(2n)\*25^n) ( see comment for B(n,k) definition ).
 * [A096053](https://oeis.org/A096053) ([program](/edit/?oeis=96053)): a(n) = (3\*9^n - 1)/2.
 * [A096054](https://oeis.org/A096054) ([program](/edit/?oeis=96054)): a(n) = (36^n/6)\*B(2n,1/6)/B(2n) where B(n,x) is the n-th Bernoulli polynomial and B(k)=B(k,0) is the k-th Bernoulli number.
 * [A096055](https://oeis.org/A096055) ([program](/edit/?oeis=96055)): Let \{s(i)\}, i=0,1,2,... be a sequence of finite sequences with terms s(i)(j), j=1,2,3,... Start with s(0)=\{1\}. Then, for k>0, let s(k)=s(k-1)Us(k-1) if s(k-1)(k)=0, s(k)=s(k-1)U\{0\}Us(k-1) if s(k-1)(k)=1, where s(i)(j) is the j-th element of s(i) and U denotes concatenation of the terms of the two operands. \{a(n)\} is the limit of s(k) as k goes to infinity.
@@ -13281,6 +13970,7 @@ List of integer sequences with links to LODA programs.
 * [A096104](https://oeis.org/A096104) ([program](/edit/?oeis=96104)): Digit reversal of A096299(n).
 * [A096111](https://oeis.org/A096111) ([program](/edit/?oeis=96111)): If n = 2^k - 1, then a(n) = k+1, otherwise a(n) = (A000523(n)+1)\*a(A053645(n)).
 * [A096121](https://oeis.org/A096121) ([program](/edit/?oeis=96121)): Number of full spectrum rook's walks on a (2 X n) board.
+* [A096123](https://oeis.org/A096123) ([program](/edit/?oeis=96123)): Least product n\*(n-1)\*(n-2)\*...\*(n-k+1) divisible by (n-k)!.
 * [A096129](https://oeis.org/A096129) ([program](/edit/?oeis=96129)): Middle term of a triple of consecutive numbers which are sums of two squares.
 * [A096130](https://oeis.org/A096130) ([program](/edit/?oeis=96130)): Triangle read by rows: T(n,k) = binomial(k\*n,n), 1 <= k <= n.
 * [A096131](https://oeis.org/A096131) ([program](/edit/?oeis=96131)): Sum of the terms of the n-th row of triangle pertaining to A096130.
@@ -13305,6 +13995,7 @@ List of integer sequences with links to LODA programs.
 * [A096200](https://oeis.org/A096200) ([program](/edit/?oeis=96200)): n\*(n-1)\*(n-2)\*(3\*n-2)/6.
 * [A096215](https://oeis.org/A096215) ([program](/edit/?oeis=96215)): Greatest primes not greater than the sum of two succeeding primes.
 * [A096222](https://oeis.org/A096222) ([program](/edit/?oeis=96222)): Number of different rectangles when a piece of paper is folded n times in alternate directions.
+* [A096226](https://oeis.org/A096226) ([program](/edit/?oeis=96226)): a(n) is the least exponent k > 1 such that m^k is congruent to m modulo n for all natural numbers m, or a(n) = 1 if no such k exists.
 * [A096228](https://oeis.org/A096228) ([program](/edit/?oeis=96228)): a(n) = floor(n^2\*((n-1)/n)^(n-1/2)).
 * [A096230](https://oeis.org/A096230) ([program](/edit/?oeis=96230)): Period 5: repeat [9, 7, 5, 3, 1].
 * [A096231](https://oeis.org/A096231) ([program](/edit/?oeis=96231)): Number of n-th generation triangles in the tiling of the hyperbolic plane by triangles with angles \{Pi/2, Pi/3, 0\}.
@@ -13322,7 +14013,6 @@ List of integer sequences with links to LODA programs.
 * [A096285](https://oeis.org/A096285) ([program](/edit/?oeis=96285)): Denominator of the ratio of the preceding two terms.
 * [A096288](https://oeis.org/A096288) ([program](/edit/?oeis=96288)): Sum of digits of n in bases 2 and 3.
 * [A096292](https://oeis.org/A096292) ([program](/edit/?oeis=96292)): Primes p such that p!-1 is divisible by the next prime larger than p.
-* [A096299](https://oeis.org/A096299) ([program](/edit/?oeis=96299)): List of strings in lexicographic order with property that for the 2^(m-1) strings of length m, the first entry is 1, the second distinct entry (reading from left to right) is 2, the third distinct entry is 3, etc.
 * [A096301](https://oeis.org/A096301) ([program](/edit/?oeis=96301)): (Product of nonzero digits(sum of digits(n^n)).
 * [A096302](https://oeis.org/A096302) ([program](/edit/?oeis=96302)): Number of combinations of two natural numbers that together have n digits.
 * [A096304](https://oeis.org/A096304) ([program](/edit/?oeis=96304)): Numbers k such that 3k does not divide (6k-4)!/((3k-2)!\*(3k-1)!).
@@ -13354,11 +14044,15 @@ List of integer sequences with links to LODA programs.
 * [A096424](https://oeis.org/A096424) ([program](/edit/?oeis=96424)): a(1)=a(2)=1, a(n) = (a(n-2)+F(n-2)) \* (a(n-1)+F(n-1)) for n > 2 where F(i) is the i-th Fibonacci no.
 * [A096430](https://oeis.org/A096430) ([program](/edit/?oeis=96430)): Numerator of (9(n^4 - 2n^3 + 2n^2 - n) + 2)/(2(2n-1)).
 * [A096431](https://oeis.org/A096431) ([program](/edit/?oeis=96431)): Denominator of (9\*(n^4 - 2\*n^3 + 2\*n^2 - n) + 2)/(2\*(2\*n - 1)).
+* [A096432](https://oeis.org/A096432) ([program](/edit/?oeis=96432)): Let n = 2^e\_2 \* 3^e\_3 \* 5^e\_5 \* ... be the prime factorization of n; sequence gives n such that 1 + max\{e\_2, e\_3, ...\} is a prime.
 * [A096442](https://oeis.org/A096442) ([program](/edit/?oeis=96442)): a(n) = Max \{ k>0 : denominator(S(k,2n+1)) \} where S(k,s)=sum(i=1,k,i^s\*H(i,2)) - H(k,2)\*H(k,-s) and H(k,r)=sum(i=1,k,1/i^r) are the generalized harmonic numbers.
 * [A096444](https://oeis.org/A096444) ([program](/edit/?oeis=96444)): Decimal expansion of (Pi - 1)/2.
 * [A096446](https://oeis.org/A096446) ([program](/edit/?oeis=96446)): Number of reduced primitive positive definite binary quadratic forms of determinant n.
 * [A096457](https://oeis.org/A096457) ([program](/edit/?oeis=96457)): If n is prime replace n with the next prime.
 * [A096458](https://oeis.org/A096458) ([program](/edit/?oeis=96458)): If n is prime, the next prime after the next prime after n. otherwise n.
+* [A096459](https://oeis.org/A096459) ([program](/edit/?oeis=96459)): Triangle read by rows: T(n,k) = n^2 mod prime(k), 1<=k<=n.
+* [A096465](https://oeis.org/A096465) ([program](/edit/?oeis=96465)): Triangle (read by rows) formed by setting all entries in the first column and in the main diagonal ((i,i) entries) to 1 and the rest of the entries by the recursion T(n, k) = T(n-1, k) + T(n, k-1).
+* [A096470](https://oeis.org/A096470) ([program](/edit/?oeis=96470)): Triangle T(n,k), read by rows, formed by setting all entries in the zeroth column and in the main diagonal ((n,n) entries) to 1 and defining the rest of the entries by the recursion T(n,k) = T(n-1,k) - T(n,k-1).
 * [A096471](https://oeis.org/A096471) ([program](/edit/?oeis=96471)): Number of degree-n permutations with exactly one even cycle.
 * [A096472](https://oeis.org/A096472) ([program](/edit/?oeis=96472)): Numbers containing squares of Pythagorean triples in their divisor set.
 * [A096483](https://oeis.org/A096483) ([program](/edit/?oeis=96483)): Integer part of the square root of n-th decimal repunit.
@@ -13387,12 +14081,14 @@ List of integer sequences with links to LODA programs.
 * [A096656](https://oeis.org/A096656) ([program](/edit/?oeis=96656)): a(n) = F(n+2)\*a(n-1) + F(n+1)\*a(n-2), where F = A000045 (Fibonacci numbers), a(0)=1, a(1)=2.
 * [A096657](https://oeis.org/A096657) ([program](/edit/?oeis=96657)): a(n) = (2^n)\*a(n-1) + (2^(n-1))\*a(n-2), a(0)=1, a(1)=3.
 * [A096658](https://oeis.org/A096658) ([program](/edit/?oeis=96658)): a(n) = (2^n)\*a(n-1) + (2^(n-1))\*a(n-2), a(0)=1, a(1)=2.
+* [A096661](https://oeis.org/A096661) ([program](/edit/?oeis=96661)): Fine's numbers J(n).
 * [A096675](https://oeis.org/A096675) ([program](/edit/?oeis=96675)): a(n) = A096786(n)/2.
 * [A096676](https://oeis.org/A096676) ([program](/edit/?oeis=96676)): a(n) = (A096788(n)-1)/2.
 * [A096678](https://oeis.org/A096678) ([program](/edit/?oeis=96678)): A096785 indexed by A000040.
 * [A096679](https://oeis.org/A096679) ([program](/edit/?oeis=96679)): A096787 indexed by A000040.
 * [A096689](https://oeis.org/A096689) ([program](/edit/?oeis=96689)): Numbers n such that 2n^2 + 3n + 3 is prime.
 * [A096691](https://oeis.org/A096691) ([program](/edit/?oeis=96691)): Numbers n such that 8n^2 + 6n + 3 is prime.
+* [A096726](https://oeis.org/A096726) ([program](/edit/?oeis=96726)): Expansion of eta(q^3)^10 / (eta(q) \* eta(q^9))^3 in powers of q.
 * [A096727](https://oeis.org/A096727) ([program](/edit/?oeis=96727)): Expansion of eta(q)^8 / eta(q^2)^4 in powers of q.
 * [A096736](https://oeis.org/A096736) ([program](/edit/?oeis=96736)): a(1) = 2; for n>1: a(n) = integer part of x-value when y=0 in (y-tau(n))/(x-1)=(1-tau(n))/(n-1), tau=A000005.
 * [A096737](https://oeis.org/A096737) ([program](/edit/?oeis=96737)): a(1) = 2; for n>1: a(n) = integer part of y-value when x=0 in (y-tau(n))/(x-1)=(1-tau(n))/(n-1), tau=A000005.
@@ -13485,6 +14181,7 @@ List of integer sequences with links to LODA programs.
 * [A097083](https://oeis.org/A097083) ([program](/edit/?oeis=97083)): Values of k such that there is exactly one permutation p of (1,2,3,...,k) such that i+p(i) is a Fibonacci number for 1<=i<=k.
 * [A097105](https://oeis.org/A097105) ([program](/edit/?oeis=97105)): Gregorian years containing two Islamic New Year Days.
 * [A097108](https://oeis.org/A097108) ([program](/edit/?oeis=97108)): If a geodesic dome is made by dividing each triangle of an icosahedron into n^2 identical equilateral triangles and the vertices of those newly created triangles are pushed out from the center to lie on the surface of the sphere in which the icosahedron is inscribed, then this sequence gives the number of different strut lengths that are required to build the dome.
+* [A097109](https://oeis.org/A097109) ([program](/edit/?oeis=97109)): G.f.: s(2)^2\*s(3)^3/(s(1)\*s(6)^2), where s(k) := subs(q=q^k, eta(q)) and eta(q) is Dedekind's function, cf. A010815.
 * [A097110](https://oeis.org/A097110) ([program](/edit/?oeis=97110)): Expansion of (1 + 2x - 2x^3) / (1 - 3x^2 + 2x^4).
 * [A097111](https://oeis.org/A097111) ([program](/edit/?oeis=97111)): Expansion of (1 + 3x - 2x^2 - 12x^3)/(1 - 9x^2 + 20x^4).
 * [A097112](https://oeis.org/A097112) ([program](/edit/?oeis=97112)): Expansion of (1+4x-6x^2-36x^3)/(1-19x^2+90x^4).
@@ -13519,6 +14216,7 @@ List of integer sequences with links to LODA programs.
 * [A097167](https://oeis.org/A097167) ([program](/edit/?oeis=97167)): 3\*10^n-2\*9^n.
 * [A097168](https://oeis.org/A097168) ([program](/edit/?oeis=97168)): Expansion of (1-7x)/((1-x)(1-9x)(1-10x).
 * [A097169](https://oeis.org/A097169) ([program](/edit/?oeis=97169)): a(n) = Sum\_\{k=0..n\} C(floor((n+1)/2),floor((k+1)/2)) \* 3^k.
+* [A097173](https://oeis.org/A097173) ([program](/edit/?oeis=97173)): Total number of green nodes among tricolored labeled trees on n nodes.
 * [A097174](https://oeis.org/A097174) ([program](/edit/?oeis=97174)): Total number of red nodes among tricolored labeled trees on n nodes.
 * [A097175](https://oeis.org/A097175) ([program](/edit/?oeis=97175)): a(n) = Sum\_\{k=0..n\} binomial(floor((n+1)/2), floor((k+1)/2)) \* 4^k.
 * [A097176](https://oeis.org/A097176) ([program](/edit/?oeis=97176)): a(n) = Sum\_\{k=0..n\} binomial(floor((n+1)/2), floor((k+1)/2)) \* 5^k.
@@ -13528,6 +14226,7 @@ List of integer sequences with links to LODA programs.
 * [A097183](https://oeis.org/A097183) ([program](/edit/?oeis=97183)): Main diagonal of triangle A097181, in which the n-th row polynomial R\_n(y) is formed from the initial (n+1) terms of g.f. A097182(y)^(n+1), where R\_n(1/2) = 8^n for all n>=0.
 * [A097184](https://oeis.org/A097184) ([program](/edit/?oeis=97184)): G.f. A(x) satisfies A097182(x\*A(x)) = A(x) and so equals the ratio of the g.f.s of any two adjacent diagonals of triangle A097181.
 * [A097188](https://oeis.org/A097188) ([program](/edit/?oeis=97188)): G.f. A(x) satisfies A057083(x\*A(x)) = A(x) and so equals the ratio of the g.f.s of any two adjacent diagonals of triangle A097186.
+* [A097189](https://oeis.org/A097189) ([program](/edit/?oeis=97189)): Row sums of triangle A097186, in which the n-th row polynomial R\_n(y) is formed from the initial (n+1) terms of g.f. A057083(y)^(n+1), where R\_n(1/3) = 3^n for all n >= 0.
 * [A097192](https://oeis.org/A097192) ([program](/edit/?oeis=97192)): Main diagonal of triangle A097190, in which the n-th row polynomial R\_n(y) is formed from the initial (n+1) terms of g.f. A097191(y)^(n+1), where R\_n(1/3) = 9^n for all n>=0.
 * [A097193](https://oeis.org/A097193) ([program](/edit/?oeis=97193)): G.f. A(x) satisfies A097191(x\*A(x)) = A(x) and so equals the ratio of the g.f.s of any two adjacent diagonals of triangle A097190.
 * [A097195](https://oeis.org/A097195) ([program](/edit/?oeis=97195)): Expansion of s(12)^3\*s(18)^2/(s(6)^2\*s(36)), where s(k) := subs(q=q^k, eta(q)) and eta(q) is Dedekind's function, cf. A010815. Then replace q^6 with q.
@@ -13554,12 +14253,14 @@ List of integer sequences with links to LODA programs.
 * [A097261](https://oeis.org/A097261) ([program](/edit/?oeis=97261)): Numbers whose set of base 15 digits is \{0,E\}, where E base 15 = 14 base 10.
 * [A097262](https://oeis.org/A097262) ([program](/edit/?oeis=97262)): Numbers whose set of base 16 digits is \{0,F\}, where F base 16 = 15 base 10.
 * [A097269](https://oeis.org/A097269) ([program](/edit/?oeis=97269)): Numbers that are the sum of two nonzero squares but not the difference of two nonzero squares.
+* [A097272](https://oeis.org/A097272) ([program](/edit/?oeis=97272)): Least integer with same "mod 2 prime signature" as n.
 * [A097280](https://oeis.org/A097280) ([program](/edit/?oeis=97280)): Perimeter of integer triangle (A001611(n), A001611(n+1), A001611(n+2)).
 * [A097285](https://oeis.org/A097285) ([program](/edit/?oeis=97285)): Contains exactly once every pair (i,j) of distinct positive integers.
 * [A097297](https://oeis.org/A097297) ([program](/edit/?oeis=97297)): Seventh column (m=6) of (1,6)-Pascal triangle A096956.
 * [A097298](https://oeis.org/A097298) ([program](/edit/?oeis=97298)): Eighth column (m=7) of (1,6)-Pascal triangle A096956.
 * [A097299](https://oeis.org/A097299) ([program](/edit/?oeis=97299)): Ninth column (m=8) of (1,6)-Pascal triangle A096956.
 * [A097300](https://oeis.org/A097300) ([program](/edit/?oeis=97300)): Tenth column (m=9) of (1,6)-Pascal triangle A096956.
+* [A097302](https://oeis.org/A097302) ([program](/edit/?oeis=97302)): Denominators of rationals used in the Euler-Maclaurin type derivation of Stirling's formula for N!.
 * [A097308](https://oeis.org/A097308) ([program](/edit/?oeis=97308)): Chebyshev T-polynomials T(n,13) with Diophantine property.
 * [A097309](https://oeis.org/A097309) ([program](/edit/?oeis=97309)): Chebyshev polynomials of the second kind, U(n,x), evaluated at x=13.
 * [A097310](https://oeis.org/A097310) ([program](/edit/?oeis=97310)): Chebyshev T-polynomials T(n,14) with Diophantine property.
@@ -13591,8 +14292,10 @@ List of integer sequences with links to LODA programs.
 * [A097362](https://oeis.org/A097362) ([program](/edit/?oeis=97362)): a(n) = (n+1)/2 if n is odd, n+2 otherwise.
 * [A097363](https://oeis.org/A097363) ([program](/edit/?oeis=97363)): Positive integers n such that 2n-13 is prime.
 * [A097367](https://oeis.org/A097367) ([program](/edit/?oeis=97367)): Fibonacci regression array: For n>=2 and 1<=k<=n-1, T(n,k) is the last term before the first nonpositive term in the sequence n, k, n-k, 2k-n, 2n-3k, 5k-3n, ...
+* [A097369](https://oeis.org/A097369) ([program](/edit/?oeis=97369)): Position in row n of Fibonacci regression array (A097367) where the least term first occurs.
 * [A097377](https://oeis.org/A097377) ([program](/edit/?oeis=97377)): CubeFreeKernel(n) + 1.
 * [A097378](https://oeis.org/A097378) ([program](/edit/?oeis=97378)): SquareFreeKernel(n)\*CubeFreeKernel(n) + 1.
+* [A097382](https://oeis.org/A097382) ([program](/edit/?oeis=97382)): a(h) = d(h,j) = lcm( f(h,j,1) ... f(h,j,h) ), when j=2.
 * [A097383](https://oeis.org/A097383) ([program](/edit/?oeis=97383)): Minimum total number of comparisons to find each of the values 1 through n using a binary search with 3-way comparisons (less than, equal and greater than).
 * [A097384](https://oeis.org/A097384) ([program](/edit/?oeis=97384)): Total number of comparisons to find each of the values 1 through n using a binary search with 3-way comparisons (less than, equal and greater than), always choosing the mid-most value to compare to.
 * [A097388](https://oeis.org/A097388) ([program](/edit/?oeis=97388)): 2n-th derivative of the Gaussian exp(-x^2) evaluated at x=0.
@@ -13636,6 +14339,7 @@ List of integer sequences with links to LODA programs.
 * [A097509](https://oeis.org/A097509) ([program](/edit/?oeis=97509)): a(n) is the number of times that n occurs as floor(k \* sqrt(2)) - k.
 * [A097512](https://oeis.org/A097512) ([program](/edit/?oeis=97512)): a(n) = 6\*Lucas(2n) - Fibonacci(2n+2).
 * [A097520](https://oeis.org/A097520) ([program](/edit/?oeis=97520)): Numbers of the form p^11 + 11^p for p prime.
+* [A097537](https://oeis.org/A097537) ([program](/edit/?oeis=97537)): -Sum\_\{k=1..2\*q-1\} J(k,q)\*J(-4,k)\*k/4 as q runs through primes == 3 (mod 4), where J(i,j) is the Jacobi symbol.
 * [A097538](https://oeis.org/A097538) ([program](/edit/?oeis=97538)): Subtract 2 from primes == 3 (mod 4).
 * [A097539](https://oeis.org/A097539) ([program](/edit/?oeis=97539)): Subtract 4 from primes == 1 (mod 4).
 * [A097550](https://oeis.org/A097550) ([program](/edit/?oeis=97550)): Number of positive words of length n in the monoid Br\_3 of positive braids on 4 strands.
@@ -13788,13 +14492,17 @@ List of integer sequences with links to LODA programs.
 * [A097921](https://oeis.org/A097921) ([program](/edit/?oeis=97921)): G.f.: (1-x^6)\*(1-x^8)/((1-x)\*(1-x^2)\*(1-x^3)^2\*(1-x^4)).
 * [A097922](https://oeis.org/A097922) ([program](/edit/?oeis=97922)): G.f.: (1-x^4)\*(1-x^10)/((1-x)\*(1-x^2)^2\*(1-x^3)\*(1-x^5)).
 * [A097924](https://oeis.org/A097924) ([program](/edit/?oeis=97924)): a(n) = 4\*a(n-1) + a(n-2), n>=2, a(0) = 2, a(1) = 7.
+* [A097925](https://oeis.org/A097925) ([program](/edit/?oeis=97925)): Number of (n,3) Freiman-Wyner sequences.
 * [A097926](https://oeis.org/A097926) ([program](/edit/?oeis=97926)): Number of (n,4) Freiman-Wyner sequences.
 * [A097932](https://oeis.org/A097932) ([program](/edit/?oeis=97932)): Positive integers n such that 2n-19 is prime.
 * [A097933](https://oeis.org/A097933) ([program](/edit/?oeis=97933)): Primes such that p divides 3^((p-1)/2) - 1.
 * [A097934](https://oeis.org/A097934) ([program](/edit/?oeis=97934)): Primes p that divide 3^((p-1)/2) - 2^((p-1)/2).
+* [A097939](https://oeis.org/A097939) ([program](/edit/?oeis=97939)): Sum of the smallest parts of all compositions of n.
 * [A097944](https://oeis.org/A097944) ([program](/edit/?oeis=97944)): Number of digits in n-th prime.
 * [A097945](https://oeis.org/A097945) ([program](/edit/?oeis=97945)): a(n) = mu(n)\*phi(n) where mu(n) is the Mobius function (A008683) and phi(n) is the Euler totient function (A000010).
+* [A097947](https://oeis.org/A097947) ([program](/edit/?oeis=97947)): G.f.: (2+7\*x+2\*x^2)/((x^2-1)\*(1+4\*x+x^2)).
 * [A097948](https://oeis.org/A097948) ([program](/edit/?oeis=97948)): G.f.: -(1-3\*x^2-x^3)/(1+4\*x-4\*x^3-x^4).
+* [A097949](https://oeis.org/A097949) ([program](/edit/?oeis=97949)): G.f.: -(2+7\*x-x^3)/(1+4\*x-4\*x^3-x^4).
 * [A097950](https://oeis.org/A097950) ([program](/edit/?oeis=97950)): G.f.: (1+x^5+x^10)/((1-x)\*(1-x^3)).
 * [A097957](https://oeis.org/A097957) ([program](/edit/?oeis=97957)): Primes p such that p divides 5^((p-1)/2) + 4^((p-1)/2).
 * [A097958](https://oeis.org/A097958) ([program](/edit/?oeis=97958)): Primes p such that p divides 6^((p-1)/2) - 3^((p-1)/2).
@@ -13815,6 +14523,7 @@ List of integer sequences with links to LODA programs.
 * [A098006](https://oeis.org/A098006) ([program](/edit/?oeis=98006)): (p-1)/2 - phi(p-1) as p runs through the odd primes.
 * [A098011](https://oeis.org/A098011) ([program](/edit/?oeis=98011)): 10^a(n) + 1 = A088773(n).
 * [A098015](https://oeis.org/A098015) ([program](/edit/?oeis=98015)): Indices x such that (1/2)(prime(x+1) - prime(x)) is prime.
+* [A098019](https://oeis.org/A098019) ([program](/edit/?oeis=98019)): Irrational rotation of e as an implicit sequence with an uneven Cantor cartoon.
 * [A098021](https://oeis.org/A098021) ([program](/edit/?oeis=98021)): Positions of 0's in the zero-one sequence [nr+2r]-[nr]-[2r], where r=sqrt(2) and [ ]=floor; see A187967.
 * [A098022](https://oeis.org/A098022) ([program](/edit/?oeis=98022)): Irrational rotation of Log(3)/Log(2) as an implicit sequence with an uneven Cantor cartoon.
 * [A098033](https://oeis.org/A098033) ([program](/edit/?oeis=98033)): Parity of p\*(p+1)/2 for n-th prime p.
@@ -13845,6 +14554,7 @@ List of integer sequences with links to LODA programs.
 * [A098127](https://oeis.org/A098127) ([program](/edit/?oeis=98127)): Fibonacci sequence with a(1) = 7 and a(2) = 26.
 * [A098131](https://oeis.org/A098131) ([program](/edit/?oeis=98131)): Number of compositions of n where the smallest part is greater than or equal to the number of parts.
 * [A098132](https://oeis.org/A098132) ([program](/edit/?oeis=98132)): Number of compositions of n where the smallest part is greater than the number of parts.
+* [A098135](https://oeis.org/A098135) ([program](/edit/?oeis=98135)): a(h) = d(h,j) = lcm( f(h,j,1) ... f(h,j,h) ), when j=3.
 * [A098139](https://oeis.org/A098139) ([program](/edit/?oeis=98139)): a(n) = 2^p + 3^p + 5^p + 7^p where p = prime(n).
 * [A098140](https://oeis.org/A098140) ([program](/edit/?oeis=98140)): 63-gonal numbers: a(n) = n\*(61\*n - 59)/2.
 * [A098141](https://oeis.org/A098141) ([program](/edit/?oeis=98141)): a(1)=1, then if n not a square a(n)=a(n-1) + n, if n a square then a(n)= a(n-1) - n.
@@ -13940,9 +14650,12 @@ List of integer sequences with links to LODA programs.
 * [A098335](https://oeis.org/A098335) ([program](/edit/?oeis=98335)): Expansion of 1/sqrt(1-4x+8x^2).
 * [A098336](https://oeis.org/A098336) ([program](/edit/?oeis=98336)): Expansion of 1/sqrt(1 - 4\*x + 12\*x^2).
 * [A098337](https://oeis.org/A098337) ([program](/edit/?oeis=98337)): Expansion of 1/sqrt(1-4x+20x^2).
+* [A098338](https://oeis.org/A098338) ([program](/edit/?oeis=98338)): Expansion of 1/sqrt(1-6x+13x^2).
+* [A098339](https://oeis.org/A098339) ([program](/edit/?oeis=98339)): Expansion of 1/sqrt(1 - 6x + 17x^2).
 * [A098340](https://oeis.org/A098340) ([program](/edit/?oeis=98340)): Expansion of 1/sqrt(1 - 6x + 21x^2).
 * [A098341](https://oeis.org/A098341) ([program](/edit/?oeis=98341)): Expansion of 1/sqrt(1 - 6\*x + 25\*x^2).
 * [A098347](https://oeis.org/A098347) ([program](/edit/?oeis=98347)): A sequence derived from a Ferrers graph partition of 16.
+* [A098350](https://oeis.org/A098350) ([program](/edit/?oeis=98350)): Multiplication table of the primes read by antidiagonals.
 * [A098352](https://oeis.org/A098352) ([program](/edit/?oeis=98352)): Multiplication table of the even numbers read by antidiagonals.
 * [A098353](https://oeis.org/A098353) ([program](/edit/?oeis=98353)): Multiplication table of the odd numbers read by antidiagonals.
 * [A098354](https://oeis.org/A098354) ([program](/edit/?oeis=98354)): Multiplication table of the powers of 2 read by antidiagonals.
@@ -13955,7 +14668,7 @@ List of integer sequences with links to LODA programs.
 * [A098378](https://oeis.org/A098378) ([program](/edit/?oeis=98378)): Number of characters needed to write number n in the traditional Ethiopic (Geez) number system.
 * [A098383](https://oeis.org/A098383) ([program](/edit/?oeis=98383)): Define a function f on the positive integers by: if n is 1 or composite, stop; but if n = prime(k) then f(n) = k; a(n) = sum of terms in trajectory of n under repeated application of f.
 * [A098385](https://oeis.org/A098385) ([program](/edit/?oeis=98385)): Ordered factorizations over hook-type prime signatures with exactly three distinct primes (third column of A098348).
-* [A098386](https://oeis.org/A098386) ([program](/edit/?oeis=98386)): Prime(n)-Log2(n), where Log2=A000523.
+* [A098386](https://oeis.org/A098386) ([program](/edit/?oeis=98386)): a(n) = prime(n)-Log2(n), where Log2 = A000523.
 * [A098387](https://oeis.org/A098387) ([program](/edit/?oeis=98387)): Prime(n)+Log2(n), where Log2=A000523.
 * [A098388](https://oeis.org/A098388) ([program](/edit/?oeis=98388)): a(n) = floor(log\_2(prime(n))).
 * [A098389](https://oeis.org/A098389) ([program](/edit/?oeis=98389)): Prime(n) - floor(log\_2(prime(n))).
@@ -13991,6 +14704,7 @@ List of integer sequences with links to LODA programs.
 * [A098460](https://oeis.org/A098460) ([program](/edit/?oeis=98460)): Expansion of e.g.f. 1/sqrt(1-2x-2x^2).
 * [A098461](https://oeis.org/A098461) ([program](/edit/?oeis=98461)): Expansion of E.g.f.: 1/sqrt(1-2\*x-3\*x^2).
 * [A098462](https://oeis.org/A098462) ([program](/edit/?oeis=98462)): a(n) = n^n + (n+1)^n.
+* [A098464](https://oeis.org/A098464) ([program](/edit/?oeis=98464)): Numbers k such that lcm(1,2,3,...,k) equals the denominator of the k-th harmonic number H(k).
 * [A098465](https://oeis.org/A098465) ([program](/edit/?oeis=98465)): Expansion of (sqrt(1+3\*x)-sqrt(1-5\*x))/(4\*x\*sqrt(1-x)).
 * [A098469](https://oeis.org/A098469) ([program](/edit/?oeis=98469)): A sequence related to the even-indexed Catalan numbers.
 * [A098470](https://oeis.org/A098470) ([program](/edit/?oeis=98470)): Form array in which n-th row is obtained by expanding (1+x+x^2)^n and taking the 5th column from the center.
@@ -14064,7 +14778,10 @@ List of integer sequences with links to LODA programs.
 * [A098614](https://oeis.org/A098614) ([program](/edit/?oeis=98614)): Product of Fibonacci and Catalan numbers: a(n) = A000045(n+1)\*A000108(n).
 * [A098615](https://oeis.org/A098615) ([program](/edit/?oeis=98615)): G.f. A(x) satisfies: A(x\*G(x)) = G(x), where G(x) is the g.f. for A098614(n) = Fibonacci(n+1)\*Catalan(n).
 * [A098616](https://oeis.org/A098616) ([program](/edit/?oeis=98616)): Product of Pell and Catalan numbers: a(n) = A000129(n+1)\*A000108(n).
+* [A098617](https://oeis.org/A098617) ([program](/edit/?oeis=98617)): G.f. A(x) satisfies: A(x\*G(x)) = G(x), where G(x) is the g.f. for A098616(n) = Pell(n+1)\*Catalan(n).
 * [A098618](https://oeis.org/A098618) ([program](/edit/?oeis=98618)): Products of A007482 and Catalan numbers: a(n) = A007482(n)\*A000108(n).
+* [A098619](https://oeis.org/A098619) ([program](/edit/?oeis=98619)): G.f. A(x) satisfies: A(x\*G098618(x)) = G098618(x), where G098618 is the g.f. for A098618(n) = A007482(n)\*Catalan(n).
+* [A098630](https://oeis.org/A098630) ([program](/edit/?oeis=98630)): Consider the family of directed multigraphs enriched by the species of parts. Sequence gives number of those multigraphs with n labeled loops and arcs
 * [A098640](https://oeis.org/A098640) ([program](/edit/?oeis=98640)): 2^p + 1 where p is prime.
 * [A098646](https://oeis.org/A098646) ([program](/edit/?oeis=98646)): Trace sequence of 3 X 3 Krawtchouk matrix.
 * [A098647](https://oeis.org/A098647) ([program](/edit/?oeis=98647)): Trace sequence associated to the 4 X 4 Krawtchouk matrix and its transpose.
@@ -14079,6 +14796,7 @@ List of integer sequences with links to LODA programs.
 * [A098663](https://oeis.org/A098663) ([program](/edit/?oeis=98663)): a(n) = Sum\_\{k=0..n\} binomial(n,k) \* binomial(n+1,k+1) \* 3^k.
 * [A098664](https://oeis.org/A098664) ([program](/edit/?oeis=98664)): E.g.f. BesselI(0,4x)+BesselI(1,4x)/2.
 * [A098665](https://oeis.org/A098665) ([program](/edit/?oeis=98665)): a(n) = Sum\_\{k = 0..n\} binomial(n,k) \* binomial(n+1,k+1) \* 4^k.
+* [A098667](https://oeis.org/A098667) ([program](/edit/?oeis=98667)): Max\{m: A098666(n,k)=1 for 1<=k<=m<=n\}.
 * [A098668](https://oeis.org/A098668) ([program](/edit/?oeis=98668)): Right edge of triangle A098666.
 * [A098669](https://oeis.org/A098669) ([program](/edit/?oeis=98669)): Numbers of rows ending with ones in triangle A098666.
 * [A098695](https://oeis.org/A098695) ([program](/edit/?oeis=98695)): a(n) = 2^(n(n-1)/2) \* Product\_\{k=1..n\} k!.
@@ -14149,6 +14867,7 @@ List of integer sequences with links to LODA programs.
 * [A098924](https://oeis.org/A098924) ([program](/edit/?oeis=98924)): 45-gonal numbers: n\*(43\*n-41)/2.
 * [A098925](https://oeis.org/A098925) ([program](/edit/?oeis=98925)): Distribution of the number of ways for a child to climb a staircase having r steps (one step or two steps at a time).
 * [A098931](https://oeis.org/A098931) ([program](/edit/?oeis=98931)): a(0) = 1, a(n) = 1 + 2\*3 + 4\*5 + 6\*7 + ... + (2n)\*(2n+1) for n > 0.
+* [A098933](https://oeis.org/A098933) ([program](/edit/?oeis=98933)): Primes of the form p+14, where p is a prime.
 * [A098939](https://oeis.org/A098939) ([program](/edit/?oeis=98939)): a(n) = (2^n - 1)^11 - 2.
 * [A098940](https://oeis.org/A098940) ([program](/edit/?oeis=98940)): a(n) = (2^n - 1)^7 - 2.
 * [A098955](https://oeis.org/A098955) ([program](/edit/?oeis=98955)): Numbers with property that the last digit is the length of the number (written in base 10).
@@ -14262,10 +14981,12 @@ List of integer sequences with links to LODA programs.
 * [A099234](https://oeis.org/A099234) ([program](/edit/?oeis=99234)): A trisection of 1/(1-x-x^4).
 * [A099235](https://oeis.org/A099235) ([program](/edit/?oeis=99235)): A quadrisection of 1/(1-x-x^5).
 * [A099237](https://oeis.org/A099237) ([program](/edit/?oeis=99237)): a(n) = Sum\_\{k=0..n\} binomial(n\*(n-k), k).
+* [A099238](https://oeis.org/A099238) ([program](/edit/?oeis=99238)): Square array read by antidiagonals with rows generated by 1/(1-x-x^(k+1)).
 * [A099240](https://oeis.org/A099240) ([program](/edit/?oeis=99240)): Main diagonal of A099239.
 * [A099242](https://oeis.org/A099242) ([program](/edit/?oeis=99242)): (6n+5)-th terms of expansion of 1/(1 - x - x^6).
 * [A099243](https://oeis.org/A099243) ([program](/edit/?oeis=99243)): A variation on Flavius's sieve (A000960): Start with the primes; at the k-th sieving step, remove every p-th term of the sequence remaining after the (k-1)-st sieving step, where p is the k-th prime; iterate.
 * [A099244](https://oeis.org/A099244) ([program](/edit/?oeis=99244)): Greatest common divisor of length of n in binary representation and its number of ones.
+* [A099246](https://oeis.org/A099246) ([program](/edit/?oeis=99246)): Denominator of relative frequency of number of ones in binary representation of n.
 * [A099247](https://oeis.org/A099247) ([program](/edit/?oeis=99247)): Numbers such that, in binary representation, the length and the number of ones are coprime.
 * [A099249](https://oeis.org/A099249) ([program](/edit/?oeis=99249)): Number of numbers not greater than n such that length in binary representation and number of ones are coprime.
 * [A099250](https://oeis.org/A099250) ([program](/edit/?oeis=99250)): Bisection of Motzkin numbers A001006.
@@ -14278,6 +14999,7 @@ List of integer sequences with links to LODA programs.
 * [A099257](https://oeis.org/A099257) ([program](/edit/?oeis=99257)): a(1)=1, a(n+1) = if a(n)=n then 2\*n+1 else smallest number not occurring earlier.
 * [A099260](https://oeis.org/A099260) ([program](/edit/?oeis=99260)): Number of decimal digits in (10^n)-th prime number.
 * [A099265](https://oeis.org/A099265) ([program](/edit/?oeis=99265)): Partial sums of A056272.
+* [A099266](https://oeis.org/A099266) ([program](/edit/?oeis=99266)): Partial sums of A056273.
 * [A099267](https://oeis.org/A099267) ([program](/edit/?oeis=99267)): Numbers generated by the golden sieve.
 * [A099269](https://oeis.org/A099269) ([program](/edit/?oeis=99269)): A sequence derived from a matrix using "0,1,2,3,4,5,6".
 * [A099270](https://oeis.org/A099270) ([program](/edit/?oeis=99270)): Unsigned member r=-12 of the family of Chebyshev sequences S\_r(n) defined in A092184.
@@ -14289,6 +15011,7 @@ List of integer sequences with links to LODA programs.
 * [A099277](https://oeis.org/A099277) ([program](/edit/?oeis=99277)): Unsigned member r=-19 of the family of Chebyshev sequences S\_r(n) defined in A092184.
 * [A099278](https://oeis.org/A099278) ([program](/edit/?oeis=99278)): Unsigned member r=-20 of the family of Chebyshev sequences S\_r(n) defined in A092184.
 * [A099279](https://oeis.org/A099279) ([program](/edit/?oeis=99279)): Squares of A001076 (generalized Fibonacci).
+* [A099283](https://oeis.org/A099283) ([program](/edit/?oeis=99283)): Decimal expansion of the hyperbolic sine integral at 1.
 * [A099301](https://oeis.org/A099301) ([program](/edit/?oeis=99301)): Arithmetic derivative of d(n), the number of divisors of n.
 * [A099306](https://oeis.org/A099306) ([program](/edit/?oeis=99306)): n''', the third arithmetic derivative of n.
 * [A099308](https://oeis.org/A099308) ([program](/edit/?oeis=99308)): Numbers m whose k-th arithmetic derivative is zero for some k. Complement of A099309.
@@ -14299,6 +15022,7 @@ List of integer sequences with links to LODA programs.
 * [A099324](https://oeis.org/A099324) ([program](/edit/?oeis=99324)): Expansion of (1 + sqrt(1 + 4x))/(2(1 + x)).
 * [A099325](https://oeis.org/A099325) ([program](/edit/?oeis=99325)): Expansion of (sqrt(1+2x) + sqrt(1-2x))/(2\*(1-2x)^(3/2)).
 * [A099326](https://oeis.org/A099326) ([program](/edit/?oeis=99326)): Expansion of ((1-2x)sqrt(1+2x)+sqrt(1-2x))/(2(1-2x)^(5/2)).
+* [A099327](https://oeis.org/A099327) ([program](/edit/?oeis=99327)): Expansion of ((1-x)sqrt(1+2x)+(1+x)sqrt(1-2x))/(2(1-2x)^(5/2)).
 * [A099358](https://oeis.org/A099358) ([program](/edit/?oeis=99358)): a(n) = sum of digits of k^4 as k runs from 1 to n.
 * [A099359](https://oeis.org/A099359) ([program](/edit/?oeis=99359)): a(n) = (2^n + 1)^3 - 2.
 * [A099360](https://oeis.org/A099360) ([program](/edit/?oeis=99360)): a(n) = (2^n + 1)^4 - 2.
@@ -14326,6 +15050,7 @@ List of integer sequences with links to LODA programs.
 * [A099398](https://oeis.org/A099398) ([program](/edit/?oeis=99398)): Numerators of rationals (in lowest terms) used in a certain high temperature expansion.
 * [A099399](https://oeis.org/A099399) ([program](/edit/?oeis=99399)): Denominators of rationals (in lowest terms) used in a certain high temperature expansion.
 * [A099407](https://oeis.org/A099407) ([program](/edit/?oeis=99407)): Number of points of self-intersection of the path of a billiard ball traveling at a 45-degree angle on a prime(n) X prime(n+1) billiard table. Also equal to 1/2 the number of the lattice points lying within a prime(n) X prime(n+1) rectangle.
+* [A099423](https://oeis.org/A099423) ([program](/edit/?oeis=99423)): Lean quaternary temporal logic [LQTL] (emergent) cumulative column frequencies from the zeroth to 22nd iteration of LQTL logic in A094266. Note that with an initial False in the zeroth iteration Murphy's Law holds in LQTL in all but six iterations (the 6th, 7th, 14th, 15th, 21st and 22nd).
 * [A099425](https://oeis.org/A099425) ([program](/edit/?oeis=99425)): Expansion of (1+x^2)/(1-2\*x-x^2).
 * [A099427](https://oeis.org/A099427) ([program](/edit/?oeis=99427)): a(1) = 1; for n > 1, a(n) = 1 + greatest common divisor of n and a(n-1).
 * [A099429](https://oeis.org/A099429) ([program](/edit/?oeis=99429)): A Jacobsthal-Lucas convolution.
@@ -14413,11 +15138,13 @@ List of integer sequences with links to LODA programs.
 * [A099564](https://oeis.org/A099564) ([program](/edit/?oeis=99564)): a(0) = 0; for n > 0, a(n) = final nonzero number in the sequence n, f(n,2), f(f(n,2),3), f(f(f(n,2),3),4),..., where f(n,d)=Floor(n/F(d+1)), with F denoting the Fibonacci numbers (A000045).
 * [A099565](https://oeis.org/A099565) ([program](/edit/?oeis=99565)): Location of records in A099564.
 * [A099566](https://oeis.org/A099566) ([program](/edit/?oeis=99566)): A099565(n)/n.
+* [A099567](https://oeis.org/A099567) ([program](/edit/?oeis=99567)): Riordan array (1/(1-x-x^3),1/(1-x)).
 * [A099568](https://oeis.org/A099568) ([program](/edit/?oeis=99568)): Expansion of (1-x)/((1-2x)(1-x-x^3)).
 * [A099569](https://oeis.org/A099569) ([program](/edit/?oeis=99569)): Riordan array ((1+x)^2-x^3)/(1+x)^3, 1/(1+x)).
 * [A099570](https://oeis.org/A099570) ([program](/edit/?oeis=99570)): Expansion of ((1+x)^2-x^3)/(1+x)^2.
 * [A099571](https://oeis.org/A099571) ([program](/edit/?oeis=99571)): Sum C(n-k+3,k), k=0..floor(n/2).
 * [A099572](https://oeis.org/A099572) ([program](/edit/?oeis=99572)): Sum C(n-k+4,k), k=0..floor(n/2).
+* [A099573](https://oeis.org/A099573) ([program](/edit/?oeis=99573)): Reverse of number triangle A054450.
 * [A099575](https://oeis.org/A099575) ([program](/edit/?oeis=99575)): Number triangle T(n,k)=binomial(n+floor(k/2)+1,n+1), 0<=k<=n.
 * [A099576](https://oeis.org/A099576) ([program](/edit/?oeis=99576)): Row sums of triangle A099575.
 * [A099577](https://oeis.org/A099577) ([program](/edit/?oeis=99577)): Diagonal sums of triangle A099575.
@@ -14439,7 +15166,9 @@ List of integer sequences with links to LODA programs.
 * [A099604](https://oeis.org/A099604) ([program](/edit/?oeis=99604)): Antidiagonal sums of triangle A099602, in which row n equals the inverse binomial transform of column n of the triangle of trinomial coefficients (A027907).
 * [A099606](https://oeis.org/A099606) ([program](/edit/?oeis=99606)): Row sums of triangle A099605, in which row n equals the inverse Binomial transform of column n of the triangle A034870 of even-indexed rows of Pascal's triangle.
 * [A099609](https://oeis.org/A099609) ([program](/edit/?oeis=99609)): Naive list of twin primes (A077800 prefixed by 2, 3).
+* [A099612](https://oeis.org/A099612) ([program](/edit/?oeis=99612)): Numerators of the coefficients in the Taylor expansion of sec(x) + tan(x) around x=0.
 * [A099615](https://oeis.org/A099615) ([program](/edit/?oeis=99615)): Triangle read by rows, 2<=k<=n: T(n,k) = denominator of (1+1/n)^k-(1+k/n) and of (1-1/n)^k-(1-k/n).
+* [A099617](https://oeis.org/A099617) ([program](/edit/?oeis=99617)): Denominators of the coefficients in the Taylor expansion of sec(x) + tan(x) around x=0.
 * [A099618](https://oeis.org/A099618) ([program](/edit/?oeis=99618)): a(n) = 1 if the n-th prime == 1 mod 6, otherwise a(n) = 0.
 * [A099621](https://oeis.org/A099621) ([program](/edit/?oeis=99621)): a(n) = Sum\_\{k=0..floor(n/2)\} binomial(n-k,k+1) \* 3^(n-k-1)\*(4/3)^k.
 * [A099622](https://oeis.org/A099622) ([program](/edit/?oeis=99622)): Sum C(n-k,k-1)4^(n-k-1)(5/4)^k, k=0..floor(n/2).
@@ -14465,6 +15194,7 @@ List of integer sequences with links to LODA programs.
 * [A099676](https://oeis.org/A099676) ([program](/edit/?oeis=99676)): Partial sums of repdigits of A002283.
 * [A099679](https://oeis.org/A099679) ([program](/edit/?oeis=99679)): Least m such that repunit R\_m is a multiple of A045572(n) (i.e., odd numbers not divisible by 5).
 * [A099721](https://oeis.org/A099721) ([program](/edit/?oeis=99721)): a(n) = n^2\*(2\*n+1).
+* [A099726](https://oeis.org/A099726) ([program](/edit/?oeis=99726)): Sum of remainders of the n-th prime mod k, for k = 1,2,3,...,n.
 * [A099730](https://oeis.org/A099730) ([program](/edit/?oeis=99730)): Array read by antidiagonals. Rows contain odd numbers reaching same odd successor in Collatz function iteration.
 * [A099738](https://oeis.org/A099738) ([program](/edit/?oeis=99738)): a(n) = 2\*Sum\_\{k=1..n\} (n+1-k) (Sum\_\{j\|k\} 1/floor(n/j)).
 * [A099739](https://oeis.org/A099739) ([program](/edit/?oeis=99739)): a(n) = Sum\_\{k=1..n\} k!\*mu(k), where mu() is the Moebius function.
@@ -14532,6 +15262,7 @@ List of integer sequences with links to LODA programs.
 * [A099868](https://oeis.org/A099868) ([program](/edit/?oeis=99868)): a(n) = 5\*a(n-1) - a(n-2), a(0) = 3, a(1) = 25.
 * [A099869](https://oeis.org/A099869) ([program](/edit/?oeis=99869)): Bisection of A014137.
 * [A099880](https://oeis.org/A099880) ([program](/edit/?oeis=99880)): Number of preferential arrangements (or simple hierarchies) of 2\*n labeled elements with two kinds of elements (where each kind has n elements).
+* [A099884](https://oeis.org/A099884) ([program](/edit/?oeis=99884)): XOR difference triangle of the powers of 2, read by rows; Square array A(row,col): A(0,col) = 2^col, A(row,col) = A048724(A(row-1, col)) for row > 0, read by descending antidiagonals.
 * [A099885](https://oeis.org/A099885) ([program](/edit/?oeis=99885)): Central terms of the rows of the XOR difference triangle of the powers of 2 (A099884) so that a(n) = A099884(n,[n/2]).
 * [A099886](https://oeis.org/A099886) ([program](/edit/?oeis=99886)): XOR binomial transform of A099885.
 * [A099890](https://oeis.org/A099890) ([program](/edit/?oeis=99890)): XOR BINOMIAL transform of the odd numbers; also the main diagonal of the XOR difference triangle A099889.
@@ -14582,6 +15313,7 @@ List of integer sequences with links to LODA programs.
 * [A099972](https://oeis.org/A099972) ([program](/edit/?oeis=99972)): Write 1/sqrt(2) as a binary fraction; read this from left to right and whenever a 1 appears, note the integer formed by reading leftwards from that 1.
 * [A099975](https://oeis.org/A099975) ([program](/edit/?oeis=99975)): Bisection of A014137.
 * [A099976](https://oeis.org/A099976) ([program](/edit/?oeis=99976)): Bisection of A000984.
+* [A099977](https://oeis.org/A099977) ([program](/edit/?oeis=99977)): Bisection of Bell numbers, A000110.
 * [A099978](https://oeis.org/A099978) ([program](/edit/?oeis=99978)): Bisection of A001157: a(n) = sigma\_2(2n-1).
 * [A099979](https://oeis.org/A099979) ([program](/edit/?oeis=99979)): Bisection of A001157: sigma\_2(2n).
 * [A099980](https://oeis.org/A099980) ([program](/edit/?oeis=99980)): Bisection of A001358.
