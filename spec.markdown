@@ -81,6 +81,8 @@ Programs operate on memory consisting of an unbounded sequence of memory cells `
 2. __Direct memory access__, for example `$5`. Reads or writes the value of the fifth memory cell.
 3. __Indirect memory access__, for example `$$7`. Reads the value at memory cell #7 and interprets it as an address. For instance, if the value of `$7` is 13, then `$$7` accesses the memory cell #13.
 
+Programs are allowed to read uninitialized memory cells. Their value defaults to 0 (zero). There are no memory cells with negative indices. Using negative indices for direct memory access, e.g. `$-1`, yields parser/compile-time errors. Using negative indices for indirect memory access, e.g. `$$3` when `$3` = -1, causes runtime errors.
+
 <a name="operations"/>
 
 ### Operations
