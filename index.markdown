@@ -10,7 +10,7 @@ LODA is an assembly language, a computational model, and a distributed tool for 
 
 ## The LODA Language
 
-LODA means _Lexicographical Order Descent Assembly_. It is an assembly-based language for solving number-theoretic problems. Its simple syntax combined with its powerful operations makes it ideal for automated search of new programs and algorithms using a process called _program mining_.
+LODA means _Lexicographical Order Descent Assembly_. It is an assembly-based language for solving number-theoretic problems. Its simple syntax combined with its powerful operations makes it ideal for automated search of new programs and algorithms using a process called _program mining_. In a nutshell, we use distributed compute power to generate random programs and match them against the OEIS database.
 
 For an overview of the LODA language, you can read its [specification](spec). It includes a reference of its operations with examples. You can use the [online editor](editor){: .btn } to try it out yourself. For more programs, you can browse through the lists of mined programs for integer sequences from the OEIS. There are currently **more than 100,000 programs** available. You can find lists with descriptions and links below. Except for a few hand-witten ones, these programs have been generated using distributed miners.
 
@@ -19,7 +19,7 @@ For an overview of the LODA language, you can read its [specification](spec). It
 
 ## Mining Programs for Integer Sequences
 
-LODA includes a tool for mining new and more efficient programs for integer sequences. There are continuously running miners generating programs every day. Have a look at the [mining dashboard](http://dashboard.loda-lang.org/grafana) to get an overview of the currently running miners. Below you see a chart of the number of programs since the start of the project.
+LODA includes tools for mining new and more efficient programs for integer sequences. There are continuously running miners generating programs and formulas every day. You can use the [mining dashboard](http://dashboard.loda-lang.org/grafana) to get an overview of the currently running miners. Below you see a chart of the number of programs since the start of the project.
 
 <img src="https://raw.githubusercontent.com/loda-lang/loda-programs/main/program_counts.png" width=400 />
 
@@ -42,14 +42,12 @@ The source code of LODA is hosted in the [loda-lang organization](https://github
 
 ## Contributors
 
-LODA is a community project and is very thankful for the many community contributions it receives.
+Running the LODA miners is a community project. We are greatful for the many contributions we receive.
+You can view the [list of top contributors](https://boinc.loda-lang.org/loda/top_users.php) of the LODA BOINC project to get an overview.
 
-* [List of top contributors](https://boinc.loda-lang.org/loda/top_users.php)
-* [Christian Krause](https://github.com/ckrause)
-* [Simon Strandgaard](https://github.com/neoneye)
-* [Jamie Morken](https://github.com/jmorken)
-* [Antti Karttunen](https://github.com/karttu)
-* [Jon Maiga](https://github.com/jonmaiga)
+The main development is currently done by [Christian Krause](https://github.com/ckrause) and [Simon Strandgaard](https://github.com/neoneye). We are also greatful to [Antti Karttunen](https://github.com/karttu), [Jamie Morken](https://github.com/jmorken) and [Jon Maiga](https://github.com/jonmaiga) for their contributions.
+
+We welcome code contributions to the LODA project. If you would like to become a member of the organization and contribute code, please contact us via e-mail or Slack, or open a GitHub issue.
 
 ## Related Projects
 
