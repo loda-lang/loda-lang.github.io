@@ -42,10 +42,10 @@ The source code of LODA is hosted in the [loda-lang organization](https://github
 
 ## Contributors
 
-Running the LODA miners is a community project. We are greatful for the many contributions we receive.
+Running the LODA miners is a community project. We are grateful for the many contributions we receive.
 You can view the [list of top contributors](https://boinc.loda-lang.org/loda/top_users.php) of the LODA BOINC project to get an overview.
 
-The main development is currently done by [Christian Krause](https://github.com/ckrause) and [Simon Strandgaard](https://github.com/neoneye). We are also greatful to [Antti Karttunen](https://github.com/karttu), [Jamie Morken](https://github.com/jmorken) and [Jon Maiga](https://github.com/jonmaiga) for their contributions.
+The main development is currently done by [Christian Krause](https://github.com/ckrause) and [Simon Strandgaard](https://github.com/neoneye). We are also grateful to [Antti Karttunen](https://github.com/karttu), [Jamie Morken](https://github.com/jmorken) and [Jon Maiga](https://github.com/jonmaiga) for their contributions.
 
 We welcome code contributions to the LODA project. If you would like to become a member of the organization and contribute code, please contact us via e-mail or Slack, or open a GitHub issue.
 
