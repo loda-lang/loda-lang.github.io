@@ -5,14 +5,12 @@ permalink: /install/
 nav_order: 2
 ---
 
-The LODA command-line tool is available for Linux, macOS and Windows. To install it, follow the instuctions for your operating system below.
-
-If you are only interested in program mining, you can alternativly join the [LODA project on BOINC](https://boinc.loda-lang.org/loda/).
+The LODA command-line tool is available for Linux, macOS and Windows. To install it, follow the instuctions for your operating system below. If you are only interested in program mining, you can also join the [LODA project on BOINC](https://boinc.loda-lang.org/loda/) and skip the manual installation.
 
 # Linux and macOS
 
 Please make sure you have [git](https://git-scm.com/) installed.
-To download and install LODA, run the following command in a terminal:
+To download and install LODA, run this command:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/loda-lang/loda-cpp/main/install.sh)"
@@ -20,9 +18,7 @@ To download and install LODA, run the following command in a terminal:
 
 # Windows
 
-Before installing LODA, you need to install [Git for Windows](https://git-scm.com/download/win). After that you can install LODA as follows.
-
-Click on the start menu and type **Git CMD**. Open this app and execute the following commands (you can use copy & paste):
+Before installing LODA, you need to install [Git for Windows](https://git-scm.com/download/win). Then click on the start menu and type **Git CMD**. Open this app and execute the following commands:
 
 ```
 md "%USERPROFILE%\loda\bin"
@@ -33,7 +29,7 @@ loda setup
 
 ## Getting Started
 
-To evaluate the program of an OEIS sequence such as the Finbonacci numbers, run `loda eval A000045`.
+To evaluate the program of the OEIS sequence for the Fibonacci numbers, run `loda eval A000045`.
 To run the miner to search for new or better programs, execute `loda mine` (single core) or `loda mine -p` (multi-core). A detailed overview of all commands and options is shown below.
 
 ```
