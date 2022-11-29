@@ -2,7 +2,7 @@
 layout: page
 title: Installation
 permalink: /install/
-nav_order: 2
+nav_order: 3
 ---
 
 The LODA command-line tool is available for Linux, macOS and Windows. To install it, follow the instructions for your operating system below. If you are only interested in program mining, you can also join the [LODA project on BOINC](https://boinc.loda-lang.org/loda/) and skip the manual installation.
