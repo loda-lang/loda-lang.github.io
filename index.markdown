@@ -10,12 +10,12 @@ LODA is an assembly language, a computational model, and a distributed tool for 
 
 ## The LODA Language
 
-LODA means _Lexicographical Order Descent Assembly_. It is an assembly-based language for solving number-theoretic problems. It has a simple syntax entirely focusing on arithmetic operations. This enables an automated search of new programs and algorithms using a process called _program mining_. In a nutshell, we use distributed compute power, smart search algorithms and machine-learning to find
+LODA means _Lexicographical Order Descent Assembly_. It is an assembly-based language for solving number-theoretic problems. It has a simple syntax and a rich set of arithmetic operations. This enables an automated search of new programs and algorithms using a process called _program mining_. In a nutshell, we use distributed compute power, smart search algorithms and machine-learning to find
 programs and formulas for the integer sequences from the OEIS database.
 
 To get an idea of the language, you can browse through the lists of [programs](programs).
 It includes basic examples, programs for "popular" integer sequences and a complete list of all mined programs.
-For a comprehensive overview of the language concepts and the supported operations, we refer you to its [language specification](spec).
+A comprehensive overview of the language concepts and the supported operations is available in the [language specification](spec).
 
 ## Mining Programs for Integer Sequences
 

@@ -5,7 +5,7 @@ permalink: /programs/
 nav_order: 1
 ---
 
-Here you can find programs for some popular sequences. Links to the complete program lists can be found at the bottom of this page. There are currently more than 100,000 programs for integer sequences available.
+Here are programs for some popular sequences. Links to the complete program lists can be found at the bottom of this page. There are currently more than 100,000 programs for integer sequences available.
 
 ## Divisibility and Primes
 
@@ -52,11 +52,11 @@ Here you can find programs for some popular sequences. Links to the complete pro
 
 ## Digit Manipulations
 
-* [A000120](https://oeis.org/A000120) ([program](/edit/?oeis=)): 1's-counting sequence
-* [A003132](https://oeis.org/A003132) ([program](/edit/?oeis=)): Sum of squares of digits of n
-* [A004086](https://oeis.org/A004086) ([program](/edit/?oeis=)): Read n backwards
-* [A004186](https://oeis.org/A004186) ([program](/edit/?oeis=)): Arrange digits of n in decreasing order
-* [A007088](https://oeis.org/A007088) ([program](/edit/?oeis=)): The binary numbers: numbers written in base 2
+* [A000120](https://oeis.org/A000120) ([program](/edit/?oeis=120)): 1's-counting sequence
+* [A003132](https://oeis.org/A003132) ([program](/edit/?oeis=3132)): Sum of squares of digits of n
+* [A004086](https://oeis.org/A004086) ([program](/edit/?oeis=4086)): Read n backwards
+* [A004186](https://oeis.org/A004186) ([program](/edit/?oeis=4186)): Arrange digits of n in decreasing order
+* [A007088](https://oeis.org/A007088) ([program](/edit/?oeis=7088)): The binary numbers: numbers written in base 2
 
 ## Miscellaneous
 
