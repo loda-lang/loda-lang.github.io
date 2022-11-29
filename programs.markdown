@@ -38,9 +38,9 @@ Here are programs for some popular sequences. Links to the complete program list
 
 * [A000045](https://oeis.org/A000045) ([program](/edit/?oeis=45)): Fibonacci numbers
 * [A000142](https://oeis.org/A000142) ([program](/edit/?oeis=142)): Factorial numbers
-* [A000932](https://oeis.org/A000932) ([program](/edit/?oeis=932)): a(n) = a(n-1) + n\*a(n-2), a(0) = a(1) = 1
-* [A001042](https://oeis.org/A001042) ([program](/edit/?oeis=1042)): a(n) = a(n-1)^2 - a(n-2)^2, a(0) = 1, a(1) = 2
-* [A002487](https://oeis.org/A002487) ([program](/edit/?oeis=2487)): Stern's diatomic series: a(2\*n) = a(n), a(2\*n+1) = a(n) + a(n+1), a(0) = 0, a(1) = 1
+* [A000932](https://oeis.org/A000932) ([program](/edit/?oeis=932)): `a(n) = a(n-1) + n*a(n-2), a(0) = a(1) = 1`
+* [A001042](https://oeis.org/A001042) ([program](/edit/?oeis=1042)): `a(n) = a(n-1)^2 - a(n-2)^2, a(0) = 1, a(1) = 2`
+* [A002487](https://oeis.org/A002487) ([program](/edit/?oeis=2487)): Stern's diatomic series: `a(2*n) = a(n), a(2*n+1) = a(n) + a(n+1), a(0) = 0, a(1) = 1`
 
 ## Characteristic Functions
 
@@ -61,20 +61,20 @@ Here are programs for some popular sequences. Links to the complete program list
 ## Miscellaneous
 
 * [A003188](https://oeis.org/A003188) ([program](/edit/?oeis=3188)): Decimal equivalent of Gray code for n
-* [A003415](https://oeis.org/A003415) ([program](/edit/?oeis=3415)): Arithmetic derivative of n: a(prime) = 1, a(m\*n) = m\*a(n) + n\*a(m), a(0) = a(1) = 0
+* [A003415](https://oeis.org/A003415) ([program](/edit/?oeis=3415)): Arithmetic derivative of n: `a(prime) = 1, a(m*n) = m*a(n) + n*a(m), a(0) = a(1) = 0`
 * [A007318](https://oeis.org/A007318) ([program](/edit/?oeis=7318)): Pascal's triangle read by rows
 * [A006577](https://oeis.org/A006577) ([program](/edit/?oeis=6577)): Number of halving and tripling steps to reach 1 in '3x+1' problem
 * [A007435](https://oeis.org/A007435) ([program](/edit/?oeis=7435)): Inverse Möbius transform of Fibonacci numbers
 
 ## Complete Lists
 
-* [A000001-A049999](list0)
-* [A050000-A099999](list1)
-* [A100000-A149999](list2)
-* [A150000-A199999](list3)
-* [A200000-A249999](list4)
-* [A250000-A299999](list5)
-* [A300000-A349999](list6)
-* [A350000-A399999](list7)
+* [A000001-A049999](/list0)
+* [A050000-A099999](/list1)
+* [A100000-A149999](/list2)
+* [A150000-A199999](/list3)
+* [A200000-A249999](/list4)
+* [A250000-A299999](/list5)
+* [A300000-A349999](/list6)
+* [A350000-A399999](/list7)
 
 [License Info](https://github.com/loda-lang/loda-programs#license)
