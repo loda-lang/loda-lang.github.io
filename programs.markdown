@@ -5,9 +5,9 @@ permalink: /programs/
 nav_order: 1
 ---
 
-<a class="github-button" href="https://github.com/loda-lang/loda-programs" data-size="large" data-show-count="true" aria-label="Star loda-lang/loda-programs on GitHub">Star</a>
-
 Here are programs for some popular sequences. Links to the complete program lists can be found at the bottom of this page. There are currently more than 100,000 programs for integer sequences available.
+
+<a class="github-button" href="https://github.com/loda-lang/loda-programs" data-size="large" data-show-count="true" aria-label="Star loda-lang/loda-programs on GitHub">Star</a>
 
 ## Divisibility and Primes
 
