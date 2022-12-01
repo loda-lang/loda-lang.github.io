@@ -7,6 +7,8 @@ nav_order: 1
 
 Here are programs for some popular sequences. Links to the complete program lists can be found at the bottom of this page. There are currently more than 100,000 programs for integer sequences available.
 
+[@lodaminer](https://twitter.com/lodaminer)
+
 <a class="github-button" href="https://github.com/loda-lang/loda-programs" data-size="large" data-show-count="true" aria-label="Star loda-lang/loda-programs on GitHub">Star</a>
 
 ## Divisibility and Primes
@@ -16,6 +18,7 @@ Here are programs for some popular sequences. Links to the complete program list
 * [A000040](https://oeis.org/A000040) ([program](/edit/?oeis=40)): Prime numbers
 * [A000203](https://oeis.org/A000203) ([program](/edit/?oeis=203)): Sum of divisors of n: `sigma(n)`
 * [A000720](https://oeis.org/A000720) ([program](/edit/?oeis=720)): Number of primes <= n: `pi(n)`
+* [A001031](https://oeis.org/A001031) ([program](/edit/?oeis=1031)): Goldbach conjecture: number of decompositions of 2n into sum of two primes (counting 1 as a prime)
 * [A001221](https://oeis.org/A001221) ([program](/edit/?oeis=1221)): Number of prime divisors of n: `omega(n)`
 * [A008683](https://oeis.org/A008683) ([program](/edit/?oeis=8683)): Möbius function: `mu(n)`
 
@@ -32,9 +35,9 @@ Here are programs for some popular sequences. Links to the complete program list
 * [A000008](https://oeis.org/A000008) ([program](/edit/?oeis=8)): Number of ways of making change for n cents using coins of 1, 2, 5, 10 cents
 * [A000041](https://oeis.org/A000041) ([program](/edit/?oeis=41)): Partition numbers
 * [A000108](https://oeis.org/A000108) ([program](/edit/?oeis=108)): Catalan numbers
+* [A000110](https://oeis.org/A000110) ([program](/edit/?oeis=110)): Bell or exponential numbers
 * [A000118](https://oeis.org/A000118) ([program](/edit/?oeis=118)): Number of ways of writing n as a sum of 4 squares
-* [A000387](https://oeis.org/A000387) ([program](/edit/?oeis=387)): Rencontres numbers: number of permutations of [n] with exactly two fixed points
-* [A001031](https://oeis.org/A001031) ([program](/edit/?oeis=1031)): Goldbach conjecture: number of decompositions of 2n into sum of two primes (counting 1 as a prime)
+* [A000387](https://oeis.org/A000387) ([program](/edit/?oeis=387)): Rencontres numbers
 
 ## Recurrence Relations
 
