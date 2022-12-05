@@ -24,7 +24,9 @@
           <a class="page-link" href="https://programs.loda-lang.org/?keywords=loda">Programs</a>
           {% for my_page in my_pages %}
             {% if my_page.nav_order >= 0 %}
-              {% if my_page.title %}
+              {% if my_page.short_title %}
+                <a class="page-link {% if my_page.url == page.url %}is-active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.short_title | escape }}</a>
+              {% elif my_page.title %}
                 <a class="page-link {% if my_page.url == page.url %}is-active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | escape }}</a>
               {% endif %}
             {% endif %}

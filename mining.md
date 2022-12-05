@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Mining
+title: Program Mining
+short_title: Mining
 permalink: /mining/
 nav_order: 1
 ---
