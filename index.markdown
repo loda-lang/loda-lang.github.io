@@ -10,19 +10,15 @@ LODA is an assembly language, a computational model, and a distributed tool for 
 
 ## The LODA Language
 
-LODA means _Lexicographical Order Descent Assembly_. It is an assembly-based language for solving number-theoretic problems. It has a simple syntax and a rich set of arithmetic operations. This enables an automated search of new programs and algorithms using a process called _program mining_. In a nutshell, we use distributed compute power, smart search algorithms and machine-learning to find
+LODA means _Lexicographical Order Descent Assembly_. It is an assembly-based language for solving number-theoretic problems. It has a simple syntax and a rich set of arithmetic operations. This enables an automated search of new programs and algorithms using a process called [program mining](/mining). In a nutshell, we use distributed compute power, smart search algorithms and machine-learning to find
 programs and formulas for the integer sequences from the OEIS database.
 
 To get an idea of the language, you can search browse through the available [programs](https://programs.loda-lang.org/?keywords=loda) or search using keywords.
 A comprehensive overview of the language concepts and the supported operations is available in the [language specification](spec).
 
-## Mining Programs for Integer Sequences
-
-LODA includes tools for mining new and more efficient programs for integer sequences. If you would like to join this effort, please check out the details on the [mining overview](mining) page.
-
 ## Contributors and Development
 
-Running the LODA miners is a community project. We are grateful for the many contributions we receive.
+Running the [LODA miners](/mining) is a community project. We are grateful for the many contributions we receive.
 You can view the [list of top contributors](https://boinc.loda-lang.org/loda/top_users.php) of the LODA BOINC project to get an overview.
 
 The source code of LODA is hosted in the [loda-lang](https://github.com/loda-lang) organization on GitHub. Please open issues if you find bugs or if you have feature requests. For generation questions, please use GitHub discussions.
