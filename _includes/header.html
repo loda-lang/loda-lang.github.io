@@ -26,7 +26,7 @@
             {% if my_page.nav_order >= 0 %}
               {% if my_page.short_title %}
                 <a class="page-link {% if my_page.url == page.url %}is-active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.short_title | escape }}</a>
-              {% elif my_page.title %}
+              {% else if my_page.title %}
                 <a class="page-link {% if my_page.url == page.url %}is-active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | escape }}</a>
               {% endif %}
             {% endif %}
