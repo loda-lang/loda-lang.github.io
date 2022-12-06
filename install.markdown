@@ -41,13 +41,16 @@ Core Commands:
   optimize <program>  Optimize a program and print it
   minimize <program>  Minimize a program and print it (see -t)
   profile  <program>  Measure program evaluation time (see -t)
-  setup               Run interactive setup to configure LODA
 
 OEIS Commands:
   mine                Mine programs for OEIS sequences (see -i,-p,-P,-H)
   check <program>     Check a program for an OEIS sequence (see -b)
   mutate <program>    Mutate a program and mine for OEIS sequences
   submit <file> [id]  Submit a program for an OEIS sequence
+
+Admin Commands:
+  setup               Run interactive setup to configure LODA
+  update              Run non-interactive update of LODA and its data
 
 Targets:
   <file>              Path to a LODA file (file extension: *.asm)
@@ -72,4 +75,4 @@ Options:
 
 ## Updating LODA
 
-To install updates, run `loda setup`. This command will check if updates are available and ask you whether to install them.
+To install updates, run `loda update`. If you want to change installation parameters later, run `loda setup`.
