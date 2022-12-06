@@ -16,13 +16,11 @@ programs and formulas for the integer sequences from the OEIS database.
 To get an idea of the language, you can search browse through the available [programs](https://programs.loda-lang.org/?keywords=loda) or search using keywords.
 A comprehensive overview of the language concepts and the supported operations is available in the [language specification](spec).
 
-## Contributors and Development
+## Contributing
 
-Running the [LODA miners](/mining) is a community project. We are grateful for the many contributions we receive.
-You can view the [list of top contributors](https://boinc.loda-lang.org/loda/top_users.php) of the LODA BOINC project to get an overview.
+Running the [LODA miners](/mining) is a community project. We are grateful for the many contributions we receive. Here is a list of the [top contributors](https://boinc.loda-lang.org/loda/top_users.php) of the LODA BOINC project. If you have spare compute power and like to contribute to the project, please checkout our [mining info page](/mining).
 
-The source code of LODA is hosted in the [loda-lang](https://github.com/loda-lang) organization on GitHub. Please open issues if you find bugs or if you have feature requests. For generation questions, please use GitHub discussions.
-If you would like to contribute code, please contact us on GitHub or open PRs directly.
+The source code of LODA is hosted in the [loda-lang](https://github.com/loda-lang) organization on GitHub. Please open issues if you find bugs or if you have feature requests. For generation questions, please use discussions. If you would like to contribute code, please contact us on GitHub or via e-mail.
 
 ## Related Projects
 
