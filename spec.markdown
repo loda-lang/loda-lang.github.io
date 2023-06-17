@@ -38,7 +38,6 @@ This document is organized as follows:
    * [`min` (Minimum)](#min)
    * [`max` (Maximum)](#max)
    * [`lpb..lpe` (Loop / Conditional)](#lpb)
-   * [`clr` (Clear)](#clr)
    * [`seq` (Call Sequence)](#seq)
 * [Termination](#termination)
 
@@ -360,15 +359,9 @@ lpe
 
 The `lpb` can also have a second (optional) argument. In that case, the loop counter is not a single variable, but a finite memory region, which must strictly decreases in every iteration of the loop. The loop counter cell marks the start of that memory region, whereas the second argument is interpreted as a number and defines the length of this region. For example, `lpb $4,3` ... `lpe` is executed as long as the vector (or polynomial) `$4`,`$5`,`$6` is non-negative and strictly decreasing in every iteration according to the lexicographical ordering. If `y` is not a constant and evaluates to different values in subsequent iterations, the minimum length is used to compare the memory regions.
 
-<a name="clr"/>
-
-## **clr** (Clear)
-
-The `clr` (clear) operation resets a memory region to zero. The target operand marks the start of the memory region. The second argument is interpreter as length of the memory region. For example `clr $2,3` sets the memory cells `$2`,`$3``$4` to zero.
-
 <a name="seq"/>
 
-## **seq** (Call Sequence)
+## **seq** (Sequence)
 
 Calling another LODA program for an OEIS sequence is supported using the `seq` operation. This assumes you are evaluating the program as a sequence (see below). This operation takes two arguments. The first one is the parameter of the called program. The second argument is the number of the OEIS program to be called (see below). The result is stored in the first argument. For example, the operation `seq $2,45` evaluates the program A000045 (Fibonacci numbers) using the argument value in `$2` and overrides it with the result.
 
