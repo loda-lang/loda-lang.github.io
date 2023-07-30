@@ -17,4 +17,4 @@ You have two options for mining programs:
 
 We honor your contributions: you can include your name in mined programs. All mined programs are stored in the [loda-programs](https://github.com/loda-lang/loda-programs) repository.
 
-To receive updates on new miner findings, you can check out the [latest commits](https://github.com/loda-lang/loda-programs/commits/main) or subscribe to the [@lodaminer](https://twitter.com/lodaminer) channel on Twitter, or [join us on Slack](https://loda-lang.slack.com/). It includes a channel that posts new programs in real-time.
+To receive updates on new miner findings, you can check out the [latest commits](https://github.com/loda-lang/loda-programs/commits/main) or join our [Slack workspace](https://loda-lang.slack.com/), which includes a channel with real-time updates on new and updated programs.
