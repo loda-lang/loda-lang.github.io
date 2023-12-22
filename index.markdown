@@ -8,7 +8,7 @@ layout: home
 
 LODA is an assembly language, a computational model, and a distributed tool for mining programs. You can use it to generate and search programs that compute integer sequences from the [On-Line Encyclopedia of Integer Sequences®](https://oeis.org/) (OEIS®). The goal of the project is to reverse engineer formulas and efficient algorithms for a wide range of non-trivial integer sequences.
 
-**Note:** Program mining using BOINC is currently on hold due to maintenance activities and development of new algorithms.
+**Note: Program mining using BOINC, `loda-cpp` or `loda-rust` is currently on hold due to maintenance activities and development of new algorithms.**
 
 ## The LODA Language
 
