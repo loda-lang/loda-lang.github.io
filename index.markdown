@@ -19,6 +19,4 @@ A comprehensive overview of the language concepts and the supported operations i
 
 ## Contributing
 
-LODA is open source. Its source code is hosted in the [loda-lang](https://github.com/loda-lang) organization on GitHub.
-If you find bugs, have feature requests or want to contribute code directly, please open issues or pull requests.
-For general questions, please contact us on GitHub or via e-mail. Thanks for contributing!
+LODA is an open-source project. You can find our source code in the [loda-lang](https://github.com/loda-lang) organization on GitHub. If you encounter any bugs, have ideas for new features, or wish to contribute code, we warmly welcome you to open issues or pull requests. For general inquiries or discussions, feel free to join us on our [Discord](https://loda-lang.org/discord) or contact us via e-mail. Your contributions and engagement are greatly appreciated!
