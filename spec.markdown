@@ -38,7 +38,8 @@ This document is organized as follows:
    * [`min` (Minimum)](#min)
    * [`max` (Maximum)](#max)
    * [`lpb..lpe` (Loop / Conditional)](#lpb)
-   * [`seq` (Call Sequence)](#seq)
+   * [`clr` (Clear)](#clr)
+   * [`seq` (Sequence)](#seq)
 * [Termination](#termination)
 
 <a name="example-programs"/>
@@ -358,6 +359,12 @@ lpe
 ```
 
 The `lpb` can also have a second (optional) argument. In that case, the loop counter is not a single variable, but a finite memory region, which must strictly decreases in every iteration of the loop. The loop counter cell marks the start of that memory region, whereas the second argument is interpreted as a number and defines the length of this region. For example, `lpb $4,3` ... `lpe` is executed as long as the vector (or polynomial) `$4`,`$5`,`$6` is non-negative and strictly decreasing in every iteration according to the lexicographical ordering. If `y` is not a constant and evaluates to different values in subsequent iterations, the minimum length is used to compare the memory regions.
+
+<a name="clr"/>
+
+## **clr** (Clear)
+
+The `clr` (clear) operation resets a memory region to zero. The target operand marks the start of the memory region. The second argument is interpreter as length of the memory region. For example `clr $2,3` sets the memory cells `$2`,`$3``$4` to zero. If the length is negative, the memory region is reset to the left-hand side of the target operand.
 
 <a name="seq"/>
 
