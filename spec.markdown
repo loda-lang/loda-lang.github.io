@@ -34,7 +34,7 @@ This document is organized as follows:
    * [`pow` (Power)](#pow)
    * [`gcd` (Greatest Common Divisor)](#gcd)
    * [`bin` (Binomial Coefficient)](#bin)
-   * [`cmp` (Comparison)](#cmp)
+   * [`equ` (Equal)](#equ)
    * [`min` (Minimum)](#min)
    * [`max` (Maximum)](#max)
    * [`lpb..lpe` (Loop / Conditional)](#lpb)
@@ -286,21 +286,21 @@ mov $0,7 ; $0 := 7
 bin $0,0 ; $0 := 1
 ```
 
-<a name="cmp"/>
+<a name="equ"/>
 
-## **cmp** (Comparison)
+## **equ** (Equal)
 
-Compare target and source values. The result is 1 if the target and source are equal. Otherwise, the result is 0.
+Check if target and source values are equal. The result is 1 if the target and source are equal. Otherwise, the result is 0.
 
-An operation `cmp a,b` assigns the the value 1 to `a` if `a` is equal to `b`. Otherwise, it assigns `a := 0`;
+An operation `equ a,b` assigns the the value 1 to `a` if `a` is equal to `b`. Otherwise, it assigns `a := 0`;
 
 Examples:
 
 ```asm
 mov $0,7 ; $0 := 7
-cmp $0,7 ; $0 := 1
+equ $0,7 ; $0 := 1
 mov $0,8 ; $0 := 7
-cmp $0,9 ; $0 := 0
+equ $0,9 ; $0 := 0
 ```
 
 <a name="min"/>
