@@ -35,6 +35,7 @@ This document is organized as follows:
    * [`gcd` (Greatest Common Divisor)](#gcd)
    * [`bin` (Binomial Coefficient)](#bin)
    * [`equ` (Equal)](#equ)
+   * [`neq` (Not Equal)](#equ)
    * [`min` (Minimum)](#min)
    * [`max` (Maximum)](#max)
    * [`lpb..lpe` (Loop / Conditional)](#lpb)
@@ -292,16 +293,35 @@ bin $0,0 ; $0 := 1
 
 Check if target and source values are equal. The result is 1 if the target and source are equal. Otherwise, the result is 0.
 
-An operation `equ a,b` assigns the the value 1 to `a` if `a` is equal to `b`. Otherwise, it assigns `a := 0`;
+An operation `equ a,b` assigns the value 1 to `a` if `a` is equal to `b`. Otherwise, it assigns `a := 0`;
 
 Examples:
 
 ```asm
 mov $0,7 ; $0 := 7
 equ $0,7 ; $0 := 1
-mov $0,8 ; $0 := 7
-equ $0,9 ; $0 := 0
+mov $0,7 ; $0 := 7
+equ $0,8 ; $0 := 0
 ```
+
+<a name="neq"/>
+
+## **neq** (Not Equal)
+
+Check if target and source values are not equal. The result is 1 if the target and source are not equal. If they are equal, the result is 0.
+
+An operation `neq a,b` assigns the value 1 to `a` if `a` is not equal to `b`. Otherwise, it assigns `a := 0`;
+
+Examples:
+
+```asm
+mov $0,7 ; $0 := 7
+neq $0,6 ; $0 := 1
+mov $0,7 ; $0 := 7
+neq $0,7 ; $0 := 0
+```
+
+
 
 <a name="min"/>
 
