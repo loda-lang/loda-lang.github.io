@@ -36,6 +36,8 @@ This document is organized as follows:
    * [`bin` (Binomial Coefficient)](#bin)
    * [`equ` (Equal)](#equ)
    * [`neq` (Not Equal)](#equ)
+   * [`leq` (Less or Equal)](#equ)
+   * [`geq` (Greater or Equal)](#equ)
    * [`min` (Minimum)](#min)
    * [`max` (Maximum)](#max)
    * [`lpb..lpe` (Loop / Conditional)](#lpb)
@@ -319,6 +321,42 @@ mov $0,7 ; $0 := 7
 neq $0,6 ; $0 := 1
 mov $0,7 ; $0 := 7
 neq $0,7 ; $0 := 0
+```
+
+
+<a name="leq"/>
+
+## **leq** (Less or Equal)
+
+Check if target is less than or equal to the source value. The result is 1 if the target is less than or equal to the source value. Otherwise, the result is 0.
+
+An operation `leq a,b` assigns the value 1 to `a` if `a` is less or equal to `b`. Otherwise, it assigns `a := 0`;
+
+Examples:
+
+```asm
+mov $0,7 ; $0 := 7
+leq $0,8 ; $0 := 1
+mov $0,7 ; $0 := 7
+leq $0,6 ; $0 := 0
+```
+
+
+<a name="geq"/>
+
+## **geq** (Greater or Equal)
+
+Check if target is greater than or equal to the source value. The result is 1 if the target is less than or equal to the source value. Otherwise, the result is 0.
+
+An operation `geq a,b` assigns the value 1 to `a` if `a` is greater or equal to `b`. Otherwise, it assigns `a := 0`;
+
+Examples:
+
+```asm
+mov $0,7 ; $0 := 7
+geq $0,6 ; $0 := 1
+mov $0,7 ; $0 := 7
+geq $0,8 ; $0 := 0
 ```
 
 
