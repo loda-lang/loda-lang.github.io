@@ -40,8 +40,12 @@ This document is organized as follows:
    * [`geq` (Greater or Equal)](#geq)
    * [`min` (Minimum)](#min)
    * [`max` (Maximum)](#max)
+   * [`ban` (Bitwise And)](#ban)
+   * [`bor` (Bitwise Or)](#bor)
+   * [`bxo` (Bitwise Xor)](#bxo)
    * [`lpb..lpe` (Loop / Conditional)](#lpb)
    * [`clr` (Clear)](#clr)
+   * [`sor` (Sort)](#sor)
    * [`seq` (Sequence)](#seq)
 * [Termination](#termination)
 
@@ -393,6 +397,20 @@ max $0,5 ; $0 := 7
 max $0,8 ; $0 := 8
 ```
 
+<a name="ban"/>
+
+## **ban** (Bitwise And)
+
+Bitwise "and" of the target and source values. The result is negative, if and only if both the source and the target are negative.
+
+## **bor** (Bitwise Or)
+
+Bitwise "or" of the target and source values. The result is negative, if and only if the source or the target is negative.
+
+## **bxo** (Bitwise Xor)
+
+Bitwise "xor" of the target and source values. The result is negative, if and only if either the source or the target is negative (exclusive).
+
 <a name="lpb"/>
 
 ## **lpb..lpe** (Loop / Conditional)
@@ -422,7 +440,13 @@ The `lpb` can also have a second (optional) argument. In that case, the loop cou
 
 ## **clr** (Clear)
 
-The `clr` (clear) operation resets a memory region to zero. The target operand marks the start of the memory region. The second argument is interpreter as length of the memory region. For example `clr $2,3` sets the memory cells `$2`,`$3``$4` to zero. If the length is negative, the memory region is reset to the left-hand side of the target operand.
+The `clr` (clear) operation resets a memory region to zero. The target operand marks the start of the memory region. The second argument is the length of the memory region. For example `clr $2,3` sets the memory cells `$2`,`$3``$4` to zero. If the length is negative, the memory region is reset to the left-hand side of the target operand.
+
+<a name="sor"/>
+
+## **sor** (Sort)
+
+The `sor` operation sorts a memory region. The target operand marks the start of the memory region. The second argument is the length of the memory region. For example `sor $2,3` sorts the memory cells `$2`,`$3``$4` in ascending order. If the length is negative, the memory region is reset to the left-hand side of the target operand. This can be used to sort a region in descending order.
 
 <a name="seq"/>
 
