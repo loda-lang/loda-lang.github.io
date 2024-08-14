@@ -34,6 +34,8 @@ This document is organized as follows:
    * [`pow` (Power)](#pow)
    * [`gcd` (Greatest Common Divisor)](#gcd)
    * [`bin` (Binomial Coefficient)](#bin)
+   * [`log` (Logarithm)](#log)
+   * [`nrt` (n-th Root)](#nrt)
    * [`dis` (Digit Sum)](#equ)
    * [`dir` (Digital Root)](#equ)
    * [`equ` (Equal)](#equ)
@@ -294,6 +296,22 @@ bin $0,3 ; $0 := 35
 mov $0,7 ; $0 := 7
 bin $0,0 ; $0 := 1
 ```
+
+<a name="log"/>
+
+## **log** (Logarithm)
+
+Discrete logarithm to a given base.
+
+An operation `log a,b` computes the discrete logarithm of `a` to the base `b`. In other words, the largest non-negative integer `c` such that `b^c <= a`. The base `b` must be greater or equal to 2, and the argument `a` greater or equal to 1.
+
+<a name="nrt"/>
+
+## **nrt** (n-th Root)
+
+Discrete n-th root.
+
+An operation `nrt a,n` computes the discrete `n`-th root of `a`. In other words, the largest non-negative integer `c` such that `c^n <= a`. The argument `n` must be non-negative, and `n` greater or equal to 1.
 
 <a name="dis"/>
 
