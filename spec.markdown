@@ -33,6 +33,7 @@ This document is organized as follows:
    * [`mod` (Modulus)](#mod)
    * [`pow` (Power)](#pow)
    * [`gcd` (Greatest Common Divisor)](#gcd)
+   * [`lex` (Largest Exponent)](#lex)
    * [`bin` (Binomial Coefficient)](#bin)
    * [`log` (Logarithm)](#log)
    * [`nrt` (n-th Root)](#nrt)
@@ -278,6 +279,24 @@ mov $0,20  ; $0 := 20
 mov $1,16  ; $0 := 16
 gcd $0,$1  ; $0 := 4
 gcd $0,5   ; $0 := 1
+```
+
+<a name="lex"/>
+
+## **lex** (Largest Exponent)
+
+Largest exponent of the source dividing the target.
+Greatest common divisor of target and source.
+
+An operation `lex a,b` computes the largest exponent of `b` that divides `a`, and assigns it to `a`. The result is always a non-negtive number. If `a` is zero or `b` is zero or `b` is one, the result is always zero.
+
+Examples:
+
+```asm
+mov $0,18  ; $0 := 9
+lex $0,3   ; $0 := 2
+mov $0,-8  ; $0 := 9
+lex $0,2   ; $0 := 4
 ```
 
 <a name="bin"/>
