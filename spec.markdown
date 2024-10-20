@@ -287,7 +287,7 @@ gcd $0,5   ; $0 := 1
 
 Largest exponent of the source dividing the target.
 
-An operation `lex a,b` computes the largest exponent of `b` that divides `a`, and assigns it to `a`. The result is always a non-negtive number. If `a` is zero or `b` is zero or `b` is one, the result is always zero.
+An operation `lex a,b` computes the largest exponent of `b` that divides `a`, and assigns it to `a`. The result is always a non-negative number. If `a` is zero or `b` is zero or `b` is one, the result is always zero.
 
 Examples:
 
