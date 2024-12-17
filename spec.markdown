@@ -26,7 +26,7 @@ This document is organized as follows:
    * [`mov` (Assignment)](#mov)
    * [`add` (Addition)](#add)
    * [`sub` (Subtraction)](#sub)
-   * [`trn` (Truncation)](#trn)
+   * [`trn` (Truncated Subtraction)](#trn)
    * [`mul` (Multiplication)](#mul)
    * [`div` (Division)](#div)
    * [`dif` (Conditional Division)](#dif)
@@ -50,7 +50,6 @@ This document is organized as follows:
    * [`bxo` (Bitwise Xor)](#bxo)
    * [`lpb..lpe` (Loop / Conditional)](#lpb)
    * [`clr` (Clear)](#clr)
-   * [`sor` (Sort)](#sor)
    * [`seq` (Sequence)](#seq)
 * [Termination](#termination)
 
@@ -163,7 +162,7 @@ sub $0,$1 ; $0 := -2 - (-3) = 1
 
 <a name="trn"/>
 
-## **trn** (Truncation)
+## **trn** (Truncated Subtraction)
 
 Subtract the source from the target operand and ensure non-negative result.
 
@@ -513,12 +512,6 @@ The `lpb` can also have a second (optional) argument. In that case, the loop cou
 ## **clr** (Clear)
 
 The `clr` (clear) operation resets a memory region to zero. The target operand marks the start of the memory region. The second argument is the length of the memory region. For example `clr $2,3` sets the memory cells `$2`,`$3``$4` to zero. If the length is negative, the memory region is reset to the left-hand side of the target operand.
-
-<a name="sor"/>
-
-## **sor** (Sort)
-
-The `sor` operation sorts a memory region. The target operand marks the start of the memory region. The second argument is the length of the memory region. For example `sor $2,3` sorts the memory cells `$2`,`$3``$4` in ascending order. If the length is negative, the memory region is reset to the left-hand side of the target operand. This can be used to sort a region in descending order.
 
 <a name="seq"/>
 
