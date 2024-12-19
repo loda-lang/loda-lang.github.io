@@ -20,5 +20,4 @@ A comprehensive overview of the language concepts and the supported operations i
 
 Running the [LODA miners](/mining) is a community project. We are grateful for the many contributions we receive. Here is a list of the [top contributors](https://boinc.loda-lang.org/loda/top_users.php) of the LODA BOINC project. If you have spare compute power and like to contribute to the project, please checkout our [mining info page](/mining)!
 
-LODA is open source and hosted in the [loda-lang](https://github.com/loda-lang) organization on GitHub. If you encounter any bugs, have ideas for new features, or wish to contribute code, we warmly welcome you to open issues or pull requests. For general inquiries or discussions, feel free to join us on our [Discord](https://loda-lang.org/discord) or contact us via e-mail. Your contributions and engagement are greatly appreciated!
-
+LODA is open source and hosted in the [loda-lang](https://github.com/loda-lang) organization on GitHub. If you encounter any bugs, have ideas for new features, or wish to contribute code, we warmly welcome you to open issues or pull requests. For general inquiries or discussions, feel free to join us on [Discord](https://loda-lang.org/discord) or contact us via e-mail. Your contributions and engagement are greatly appreciated!
