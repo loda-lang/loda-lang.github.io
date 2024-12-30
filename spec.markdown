@@ -37,8 +37,8 @@ This document is organized as follows:
    * [`bin` (Binomial Coefficient)](#bin)
    * [`log` (Logarithm)](#log)
    * [`nrt` (n-th Root)](#nrt)
-   * [`dis` (Digit Sum)](#equ)
-   * [`dir` (Digital Root)](#equ)
+   * [`dis` (Digit Sum)](#dis)
+   * [`dir` (Digital Root)](#dir)
    * [`equ` (Equal)](#equ)
    * [`neq` (Not Equal)](#neq)
    * [`leq` (Less or Equal)](#leq)
@@ -353,7 +353,7 @@ dis $0,2 ; $0 := 3
 
 Digital root to a given base.
 
-An operation `dis a,b` computes the digital root of `a` in base `b`, and assigns the result to `a`. The digital root is defined by iteratively computing digital sums until the result is less than the base. The base must be greater or equal to two. If `a` is negative, the digital root is computed as in the positive case, but the result is negative.
+An operation `dir a,b` computes the digital root of `a` in base `b`, and assigns the result to `a`. The digital root is defined by iteratively computing digital sums until the result is less than the base. The base must be greater or equal to two. If `a` is negative, the digital root is computed as in the positive case, but the result is negative.
 
 Examples:
 
@@ -435,7 +435,6 @@ geq $0,8 ; $0 := 0
 ```
 
 
-
 <a name="min"/>
 
 ## **min** (Minimum)
@@ -474,9 +473,13 @@ max $0,8 ; $0 := 8
 
 Bitwise "and" of the target and source values. The result is negative, if and only if both the source and the target are negative.
 
+<a name="bor"/>
+
 ## **bor** (Bitwise Or)
 
 Bitwise "or" of the target and source values. The result is negative, if and only if the source or the target is negative.
+
+<a name="bxo"/>
 
 ## **bxo** (Bitwise Xor)
 
