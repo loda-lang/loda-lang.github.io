@@ -37,8 +37,8 @@ This document is organized as follows:
    * [`bin` (Binomial Coefficient)](#bin)
    * [`log` (Logarithm)](#log)
    * [`nrt` (n-th Root)](#nrt)
-   * [`dis` (Digit Sum)](#dis)
-   * [`dir` (Digital Root)](#dir)
+   * [`dgs` (Digit Sum)](#dgs)
+   * [`dgr` (Digital Root)](#dgr)
    * [`equ` (Equal)](#equ)
    * [`neq` (Not Equal)](#neq)
    * [`leq` (Less or Equal)](#leq)
@@ -330,38 +330,38 @@ Discrete n-th root.
 
 An operation `nrt a,n` computes the discrete `n`-th root of `a`. In other words, the largest non-negative integer `c` such that `c^n <= a`. The argument `n` must be non-negative, and `n` greater or equal to 1.
 
-<a name="dis"/>
+<a name="dgs"/>
 
-## **dis** (Digit Sum)
+## **dgs** (Digit Sum)
 
 Digit sum to a given base.
 
-An operation `dis a,b` computes the digit sum of `a` in base `b`, and assigns the result to `a`. The base must be greater or equal to two. If `a` is negative, the digit sum is computed as in the positive case, but the result is negative.
+An operation `dgs a,b` computes the digit sum of `a` in base `b`, and assigns the result to `a`. The base must be greater or equal to two. If `a` is negative, the digit sum is computed as in the positive case, but the result is negative.
 
 Examples:
 
 ```asm
 mov $0,345 ; $0 := 345
-dis $0,10 ; $0 := 12
+dgs $0,10 ; $0 := 12
 mov $0,8 ; $0 := 8
-dis $0,2 ; $0 := 3
+dgs $0,2 ; $0 := 3
 ```
 
-<a name="dir"/>
+<a name="dgr"/>
 
-## **dir** (Digital Root)
+## **dgr** (Digital Root)
 
 Digital root to a given base.
 
-An operation `dir a,b` computes the digital root of `a` in base `b`, and assigns the result to `a`. The digital root is defined by iteratively computing digital sums until the result is less than the base. The base must be greater or equal to two. If `a` is negative, the digital root is computed as in the positive case, but the result is negative.
+An operation `dgr a,b` computes the digital root of `a` in base `b`, and assigns the result to `a`. The digital root is defined by iteratively computing digital sums until the result is less than the base. The base must be greater or equal to two. If `a` is negative, the digital root is computed as in the positive case, but the result is negative.
 
 Examples:
 
 ```asm
 mov $0,345 ; $0 := 345
-dir $0,10 ; $0 := 3
+dgr $0,10 ; $0 := 3
 mov $0,8 ; $0 := 8
-dir $0,2 ; $0 := 1
+dgr $0,2 ; $0 := 1
 ```
 
 <a name="equ"/>
