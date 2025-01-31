@@ -6,7 +6,7 @@ permalink: /mining/
 nav_order: 1
 ---
 
-LODA includes tools for mining new and more efficient programs for integer sequences. There are continuously running miners generating programs and formulas every day. You can use the [mining dashboard](http://dashboard.loda-lang.org/grafana) to get an overview of the currently running miners. Below you see a chart of the number of programs since the start of the project.
+LODA includes tools for mining new and more efficient programs for integer sequences. There are continuously running miners generating programs and formulas every day. You can use the [mining dashboard](https://dashboard.loda-lang.org/grafana/) to get an overview of the currently running miners. Below you see a chart of the number of programs since the start of the project.
 
 <img src="https://raw.githubusercontent.com/loda-lang/loda-programs/main/program_counts.png" width=400 />
 
