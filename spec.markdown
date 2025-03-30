@@ -234,7 +234,7 @@ dif $0,0  ; $0 := 13
 
 Repeatly divide the target by the source value until is not a divisor anymore. If the source is not a divisor, the target is unchanged.
 
-An operation `dir a,b` corresponds to the assignment `a := a/(b^n)` where `n` is the maximum exponent of `b` dividing `a`. The target is unchanged if `b` does not divide `a`, or if `b` is zero or minus one.
+An operation `dir a,b` corresponds to the assignment `a := a/(b^n)` where `b^n` is the highest power of `b` dividing `a`. The target is unchanged if `b` does not divide `a`, or if `b` is zero or minus one.
 
 Examples:
 
