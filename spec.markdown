@@ -240,7 +240,7 @@ Examples:
 
 ```asm
 mov $0,24 ; $0 := 24
-dif $0,2  ; $0 := 3
+dir $0,2  ; $0 := 3
 ```
 
 <a name="mod"/>
