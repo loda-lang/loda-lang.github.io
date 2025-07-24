@@ -36,6 +36,7 @@ This document is organized as follows:
    * [`gcd` (Greatest Common Divisor)](#gcd)
    * [`lex` (Largest Exponent)](#lex)
    * [`bin` (Binomial Coefficient)](#bin)
+   * [`fac` (Falling/Rising Factorial)](#fac)
    * [`log` (Logarithm)](#log)
    * [`nrt` (n-th Root)](#nrt)
    * [`dgs` (Digit Sum)](#dgs)
@@ -330,6 +331,22 @@ mov $0,7 ; $0 := 7
 bin $0,0 ; $0 := 1
 ```
 
+<a name="fac"/>
+
+## **fac** (Falling/Rising Factorial)
+
+An operation `fac a,b` computes the falling factorial of `a` for `b<0`, and the rising factorial for `b>0`.
+For further information, see [Falling and rising factorials](https://en.wikipedia.org/wiki/Falling_and_rising_factorials).
+
+Examples:
+
+```asm
+mov $0,5 ; $0 := 5
+fac $0,3 ; $0 := 210
+mov $0,5 ; $0 := 4
+fac $0,-3 ; $0 := 60
+```
+
 <a name="log"/>
 
 ## **log** (Logarithm)
@@ -487,19 +504,19 @@ max $0,8 ; $0 := 8
 
 ## **ban** (Bitwise And)
 
-Bitwise "and" of the target and source values. The result is negative, if and only if both the source and the target are negative.
+Bitwise _and_ of the target and source values according to the two's-complement integer representation.
 
 <a name="bor"/>
 
 ## **bor** (Bitwise Or)
 
-Bitwise "or" of the target and source values. The result is negative, if and only if the source or the target is negative.
+Bitwise _or_ of the target and source values according to the two's-complement integer representation.
 
 <a name="bxo"/>
 
 ## **bxo** (Bitwise Xor)
 
-Bitwise "xor" of the target and source values. The result is negative, if and only if either the source or the target is negative (exclusive).
+Bitwise _xor_ of the target and source values according to the two's-complement integer representation.
 
 <a name="lpb"/>
 
