@@ -271,7 +271,7 @@ mod $0,-3  ; $0 := -1
 
 Raise target to the power of source.
 
-An operation `mod a,b` corresponds to the assignment `a := a ^ b`. This operation yields a runtime error if `b` is negative.
+An operation `mod a,b` corresponds to the assignment `a := a ^ b`. If `b` is negative, the result if zero.
 
 Examples:
 
