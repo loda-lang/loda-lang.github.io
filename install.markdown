@@ -62,7 +62,7 @@ Targets:
 Options:
   -t <number>          Number of sequence terms (default: 8)
   -b                   Print result in the OEIS b-file format
-  -o <string>          Export format (formula,loda,pari-function,pari-vector)
+  -o <string>          Export format (formula,loda,pari,range)
   -d                   Export with dependencies to other programs
   -s                   Evaluate program to number of execution steps
   -c <number>          Maximum number of interpreter cycles (no limit: -1)
@@ -75,6 +75,6 @@ Options:
   -H <number>          Number of mining hours (default: unlimited)
 ```
 
-## Updating LODA
+## Upgrading LODA
 
-To install updates, run `loda update`. If you want to change installation parameters later, run `loda setup`.
+To upgrade to the latest version, run `loda upgrade`. If you want to change installation parameters later, run `loda setup`.
