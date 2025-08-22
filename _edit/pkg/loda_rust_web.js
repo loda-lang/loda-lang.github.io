@@ -472,7 +472,7 @@ let wasm_bindgen;
             const ret = false;
             return ret;
         };
-        imports.wbg.__wbindgen_closure_wrapper2002 = function(arg0, arg1, arg2) {
+        imports.wbg.__wbindgen_closure_wrapper2007 = function(arg0, arg1, arg2) {
             const ret = makeMutClosure(arg0, arg1, 929, __wbg_adapter_22);
             return ret;
         };
