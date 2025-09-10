@@ -5,8 +5,6 @@ permalink: /spec/
 nav_order: 3
 ---
 
-# LODA Language Specification
-
 <a name="overview"/>
 
 ## Overview
@@ -795,9 +793,6 @@ seq $3,40     ; $3 := a(10) of OEIS A000040 (primes)
 <a name="termination"/>
 
 # Termination
-
-
-## Termination
 
 All LODA programs are guaranteed to halt (terminate) for every possible input. This property is a direct consequence of the language's design:
 
