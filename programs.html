@@ -95,47 +95,24 @@
     <a target="_blank" href="https://github.com/loda-lang/loda-api/issues">Report an issue</a>.
   </div>
   <script>
-    // --- Keyword definitions (from keywords.py) ---
-    const KEYWORD_DESCRIPTIONS = {
-      'base': 'Sequence terms are defined based on a number representation in a particular base format, e.g. decimal or binary',
-      'bref': 'Sequences with very few terms',
-      'cofr': 'Continued fractions for (usually irrational) constants',
-      'conjecture': 'Sequences that include conjectures in their OEIS description',
-      'cons': 'Sequences that give terms for decimal expansions',
-      'core': 'Core sequences of the OEIS database',
-      'dead': 'Errornous or duplicate sequences',
-      'decimal-expansion': 'Decimal expansions of constants',
-      'dumb': 'Unimportant sequences from non-mathematical contexts',
-      'easy': 'Sequences that are easy to comute and understand',
-      'egf-expansion': 'Expansions of exponential generating functions',
-      'eigen': 'Eigensequences',
-      'fini': 'Finite sequences',
-      'formula': 'Formulas exist in OEIS entries for these sequences',
-      'frac': 'Numerators or denominators of sequence of rationals',
-      'full': 'Finite sequence with all terms available',
-      'gf-expansion': 'Expansions of generating functions',
-      'hard': 'Sequences that are hard to compute',
-      'less': 'Less interesting sequences',
-      'loda': 'LODA programs exist for these sequence',
-      'loda-formula': 'Formulas generated from a LODA programs exist for these sequences',
-      'loda-inceval': 'LODA programs that can be computed incrementally exist for these sequences',
-      'loda-logeval': 'LODA programs with logarithmic complexity exist for these sequences',
-      'loda-loop': 'LODA programs with loop exist for these sequences',
-      'look': 'Pin or scatter plots reveal interesting information',
-      'more': 'Sequences that need more terms',
-      'mult': 'Multiplicative functions',
-      'nice': 'Exceptionally "nice" sequences',
-      'nonn': 'Sequences with only non-negative terms',
-      'obsc': 'Obscure sequences: descriptions are known, but difficult to understand',
-      'pari': 'PARI/GP programs exist for these sequence',
-      'sign': 'Sequences with negative terms',
-      'tabf': 'Tables with irregular row lengths',
-      'tabl': 'Regular tables: fixed row length',
-      'unkn': 'Sequences whose definition is unknown',
-      'walk': 'Sequences that contain walks through a lattice',
-      'word': 'Numbers related to a given natural language'
-    };
-    const ALL_KEYWORDS = Object.keys(KEYWORD_DESCRIPTIONS).sort();
+
+    // --- Keyword definitions (dynamic from API) ---
+    let KEYWORD_DESCRIPTIONS = {};
+    let ALL_KEYWORDS = [];
+
+    async function fetchKeywords() {
+      const resp = await fetch('https://api.loda-lang.org/v2/stats/keywords');
+      if (!resp.ok) return;
+      const data = await resp.json();
+      // data is an array of { name, description }
+      KEYWORD_DESCRIPTIONS = {};
+      ALL_KEYWORDS = [];
+      data.forEach(k => {
+        KEYWORD_DESCRIPTIONS[k.name] = k.description;
+        ALL_KEYWORDS.push(k.name);
+      });
+      // ALL_KEYWORDS.sort();
+    }
 
     // --- State ---
     let state = {
@@ -178,7 +155,7 @@
       ALL_KEYWORDS.forEach(k => {
         const a = document.createElement('a');
         a.href = '#';
-        a.title = KEYWORD_DESCRIPTIONS[k];
+        a.title = KEYWORD_DESCRIPTIONS[k] || k;
         a.onclick = (e) => { e.preventDefault(); toggleKeyword(k); };
         const span = document.createElement('span');
         span.className = keywordClass(k);
@@ -260,6 +237,9 @@
 
     // --- Main update function ---
     async function update() {
+      if (ALL_KEYWORDS.length === 0) {
+        await fetchKeywords();
+      }
       renderKeywordBar();
       document.getElementById('search-input').value = state.search;
       document.getElementById('results-info').textContent = 'Loading...';
