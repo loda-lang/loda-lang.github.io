@@ -173,11 +173,10 @@
       let query = [keywords, exclude, q].filter(Boolean).join(' ');
       let url = `https://api.loda-lang.org/v2/sequences/search?q=${encodeURIComponent(query)}&limit=${state.limit}&skip=${state.start}`;
       let resp = await fetch(url);
-      if (!resp.ok) return { count: 0, results: [] };
+      if (!resp.ok) return { total: 0, results: [] };
       let data = await resp.json();
-      // The API returns an array of {id, name}
-      // For count, we have to estimate (API does not return total count)
-      return { count: data.length < state.limit ? state.start + data.length : state.start + data.length + 1, results: data };
+      // The API now returns { total, results }
+      return { total: data.total || 0, results: data.results || [] };
     }
 
     // --- Render sequence list ---
@@ -243,13 +242,13 @@
       renderKeywordBar();
       document.getElementById('search-input').value = state.search;
       document.getElementById('results-info').textContent = 'Loading...';
-      let { count, results } = await fetchSequences();
-      state.count = count;
+      let { total, results } = await fetchSequences();
+      state.count = total;
       if (results.length === 0) {
         document.getElementById('results-info').textContent = 'No results.';
       } else {
         let end = state.start + results.length;
-        document.getElementById('results-info').textContent = `Showing ${state.start+1}-${end} of ${count} results:`;
+        document.getElementById('results-info').textContent = `Showing ${state.start+1}-${end} of ${total} results:`;
       }
       renderSequenceList(results);
       renderPagination();
