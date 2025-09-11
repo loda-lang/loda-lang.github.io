@@ -9,7 +9,7 @@ nav_order: 3
 
 ## Overview
 
-LODA is a minimalist, assembly-like programming language created for expressing integer sequences and number-theoretic algorithms in a compact, human-readable, and machine-friendly form. Its design is inspired by the needs of mathematical experimentation, algorithmic exploration, and large-scale automated discovery—especially in the context of the OEIS (Online Encyclopedia of Integer Sequences).
+LODA is a minimalist, assembly-like programming language created for expressing integer sequences and number-theoretic algorithms in a compact, human-readable, and machine-friendly form. Its design is inspired by the needs of mathematical experimentation, algorithmic exploration, and large-scale automated discovery—especially in the context of the [OEIS](https://www.oeis.org) (Online Encyclopedia of Integer Sequences).
 
 What sets LODA apart is its intentionally simple and regular syntax. Every program consists of a short sequence of clear, deterministic instructions operating on an infinite array of integer-valued memory cells. This simplicity is not just for human readability: it enables powerful automation. Machines and algorithms can efficiently generate, mine, analyze, and optimize LODA programs, making the language ideal for program synthesis, evolutionary search, and automated sequence discovery.
 
@@ -77,7 +77,6 @@ This document is organized as follows:
 
 ### Basic Structure and Semantics
 
-
 A LODA program consists of a sequence of operations, each on its own line, executed from top to bottom (except for loops and conditionals, which alter control flow). Each instruction follows the format `opcode target,source`.
 
 Comments start with a semicolon (`;`) and continue to the end of the line. Use comments to clarify the purpose of instructions or document the logic of your program.
@@ -85,7 +84,7 @@ Comments start with a semicolon (`;`) and continue to the end of the line. Use c
 Below is a complete LODA program that computes the n-th Fibonacci number ([A000045](https://oeis.org/A000045)):
 
 ```asm
-; A000045: Fibonacci numbers: F(n) = F(n-1) + F(n-2) with F(0) = 0 and F(1) = 1.
+; A000045: Fibonacci numbers.
 mov $1,0      ; Initialize $1 = 0 (F(0))
 mov $2,1      ; Initialize $2 = 1 (F(1))
 lpb $0        ; Loop while the loop counter $0 (n) >= 0
@@ -103,7 +102,6 @@ LODA's syntax is intentionally simple and assembly-like, with a small set of wel
 
 ### Memory
 
-
 LODA programs operate on an unbounded array of integer-valued memory cells, indexed as `$0`, `$1`, `$2`, and so on. Each cell can store any integer value, positive or negative. Memory is conceptually infinite to the right, and all cells are initialized to zero by default.
 
 There are three types of operands in LODA:
@@ -118,12 +116,8 @@ There are three types of operands in LODA:
 mov $0,42    ; Store 42 in cell $0
 mov $1,5     ; Store 5 in cell $1
 mov $2,$1    ; Copy value from $1 (5) to $2
-mov $3,7     ; Store 7 in cell $3
-mov $4,3     ; Store 3 in cell $4
-mov $5,$4    ; Copy value from $4 (3) to $5
-mov $6,13    ; Store 13 in cell $6
-mov $7,6     ; Store 6 in cell $7
-mov $8,$$7   ; $7 = 6, so $$7 refers to $6 (which is 13); $8 := 13
+mov $3,2     ; Store 2 in cell $3
+mov $4,$$3   ; Since $3 = 2, $$3 refers to $2 (which is 5), so $4 := 5
 ```
 
 Uninitialized memory cells are always read as zero. There are no negative memory indices: using a negative index for direct access (e.g., `$-1`) is a compile-time error, while indirect access that resolves to a negative index (e.g., `$$3` when `$3 = -1`) causes a runtime error.
@@ -160,16 +154,37 @@ Some operations (such as `lpb`/`lpe` for loops, or `clr` for clearing memory reg
 
 ### Integer Sequences
 
-
 LODA is designed for defining and computing integer sequences, such as those found in the OEIS. The LODA interpreter has built-in support for evaluating LODA programs as integer sequence generators: it automatically sets the memory cell `$0` to the desired input value `n`, executes the program, and reads the result from `$0` as the output `a(n)`.
 
-This convention allows any LODA program to serve as a sequence generator, with each run computing a single term. For example, to generate the sequence of squares `a(n) = n^2`, a LODA program might look like:
+This convention allows any LODA program to serve as a sequence generator, with each run computing a single term. For example, to generate the sequence of squares `a(n) = n^2`, the corresponding LODA program looks like this:
 
 ```asm
-mul $0,$0   ; $0 := $0 * $0 (compute n^2)
+; A000290: The squares: a(n) = n^2.
+pow $0,2
 ```
 
 To enumerate a sequence, the interpreter repeatedly runs the program with increasing values of `$0` (i.e., n = 0, 1, 2, ...), collecting the output each time. This built-in mechanism makes LODA especially well-suited for automated sequence discovery and analysis.
+
+### Offsets
+
+By default, integer sequences in LODA start with input value `$0 = 0`, corresponding to the offset used in most OEIS entries. However, some sequences are defined to start at a different index (for example, `n = 1` or `n = 2`). This starting index is called the "offset" of the sequence. For more information, see the [OEIS offset documentation](https://oeis.org/wiki/Offsets).
+
+LODA supports custom offsets using the `#offset` directive at the top of a program. This directive tells the interpreter to start evaluating the sequence at the specified index, so that the first input to the program will be that offset value.
+
+**Example: Sequence with offset 1**
+
+The following program computes the unary representation of natural numbers ([A000042](https://oeis.org/A000042)), but starts at $n = 1$ instead of $n = 0$:
+
+```asm
+; A000042: Unary representation of natural numbers.
+#offset 1
+mov $1,10      ; $1 := 10 (base)
+pow $1,$0      ; $1 := 10^n
+mov $0,$1      ; $0 := 10^n
+div $0,9       ; $0 := (10^n) / 9 (yields n consecutive 1s)
+```
+
+With `#offset 1`, the first value computed will be for $n = 1$, so the sequence output will match the OEIS entry's offset. This makes it easy to align LODA programs with OEIS conventions and ensures correct sequence generation for any starting index.
 
 <a name="operations-ref"/>
 
