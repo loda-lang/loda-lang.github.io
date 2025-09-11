@@ -36,31 +36,34 @@ This document is organized as follows:
   - [Operations](#operations)
   - [Integer Sequences](#integer-sequences)
 - [Operations Reference](#operations-ref)
-  - [Assignment and Arithmetic](#assignment-and-arithmetic)
+  - [Assignment and Arithmetics](#assignment-and-arithmetics)
     - [`mov` (Assignment)](#mov)
     - [`add` (Addition)](#add)
     - [`sub` (Subtraction)](#sub)
     - [`trn` (Truncated Subtraction)](#trn)
     - [`mul` (Multiplication)](#mul)
     - [`div` (Division)](#div)
-    - [`dif` (Conditional Division)](#dif)
-    - [`dir` (Repeated Division)](#dir)
     - [`mod` (Modulus)](#mod)
     - [`pow` (Power)](#pow)
+  - [Combinatorics and Number Theory](#combinatorics-and-number-theory)
+    - [`dif` (Conditional Division)](#dif)
+    - [`dir` (Repeated Division)](#dir)
     - [`gcd` (Greatest Common Divisor)](#gcd)
     - [`lex` (Largest Exponent)](#lex)
     - [`bin` (Binomial Coefficient)](#bin)
     - [`fac` (Falling/Rising Factorial)](#fac)
-    - [`log` (Logarithm)](#log)
-    - [`nrt` (n-th Root)](#nrt)
+    - [`log` (Discrete Logarithm)](#log)
+    - [`nrt` (Discrete n-th Root)](#nrt)
     - [`dgs` (Digit Sum)](#dgs)
     - [`dgr` (Digital Root)](#dgr)
+  - [Comparison Operations](#comparison)
     - [`equ` (Equal)](#equ)
     - [`neq` (Not Equal)](#neq)
     - [`leq` (Less or Equal)](#leq)
     - [`geq` (Greater or Equal)](#geq)
     - [`min` (Minimum)](#min)
     - [`max` (Maximum)](#max)
+  - [Bitwise Operations](#bitwise)
     - [`ban` (Bitwise And)](#ban)
     - [`bor` (Bitwise Or)](#bor)
     - [`bxo` (Bitwise Xor)](#bxo)
@@ -127,12 +130,7 @@ Uninitialized memory cells are always read as zero. There are no negative memory
 
 ### Operations
 
-
-LODA instructions operate on memory cells and constants using a simple, assembly-like syntax. Each operation has the form:
-
-```
-opcode target,source
-```
+LODA instructions operate on memory cells and constants using a simple, assembly-like syntax. Each operation has the form `opcode target,source`.
 
 - **opcode**: The operation to perform (e.g., `add`, `mul`, `div`, `mov`, etc.).
 - **target**: The memory cell to update (direct or indirect access).
@@ -193,10 +191,9 @@ With `#offset 1`, the first value computed will be for `n = 1`, so the sequence 
 
 ## Operations Reference
 
-<a name="assignment-and-arithmetic"/>
+<a name="assignment-and-arithmetics"/>
 
-### Assignment and Arithmetic
-
+### Assignment and Arithmetics
 
 <a name="mov"/>
 
@@ -239,7 +236,7 @@ add $0,0    ; $0 := 10 + 0 = 10
 
 <a name="sub"/>
 
-## **sub** (Subtraction)
+#### **sub** (Subtraction)
 
 Subtracts the value of the source operand from the target operand and stores the result in the target.
 
@@ -258,7 +255,7 @@ sub $0,0    ; $0 := 1 - 0 = 1
 
 <a name="trn"/>
 
-## **trn** (Truncated Subtraction)
+#### **trn** (Truncated Subtraction)
 
 Subtracts the source operand from the target operand, but clamps the result to zero if it would be negative.
 
@@ -278,7 +275,7 @@ trn $0,0   ; $0 := max(4 - 0, 0) = 4
 
 <a name="mul"/>
 
-## **mul** (Multiplication)
+#### **mul** (Multiplication)
 
 Multiplies the target operand by the source operand and stores the result in the target.
 
@@ -297,7 +294,7 @@ mul $0,-1   ; $0 := -105 * (-1) = 105
 
 <a name="div"/>
 
-## **div** (Division)
+#### **div** (Division)
 
 Divides the target operand by the source operand using integer division (fractional part is discarded), and stores the result in the target. Division by zero yields a runtime error.
 
@@ -314,48 +311,9 @@ div $1,3    ; $1 := 2
 div $1,10   ; $1 := 0
 ```
 
-<a name="dif"/>
-
-## **dif** (Conditional Division)
-
-Divides the target operand by the source operand only if the source divides the target exactly. If not, or if the source is zero, the target remains unchanged.
-
-An operation `dif a,b` performs the assignment `a := a / b` if `b` divides `a`, otherwise `a` is unchanged.
-
-Examples:
-
-```asm
-mov $0,26   ; $0 := 26
-dif $0,2    ; $0 := 13 (26 divisible by 2)
-dif $0,4    ; $0 := 13 (13 not divisible by 4, unchanged)
-dif $0,0    ; $0 := 13 (division by zero, unchanged)
-mov $1,15   ; $1 := 15
-dif $1,5    ; $1 := 3 (15 divisible by 5)
-dif $1,4    ; $1 := 3 (3 not divisible by 4, unchanged)
-```
-
-<a name="dir"/>
-
-## **dir** (Repeated Division)
-
-Divides the target operand by the source operand as many times as possible (while the result is still divisible), and stores the result in the target. If the source is zero, minus one, or never divides the target, the target remains unchanged.
-
-An operation `dir a,b` performs the assignment `a := a / (b^n)`, where `n` is the largest integer such that `b^n` divides `a`.
-
-Examples:
-
-```asm
-mov $0,24   ; $0 := 24
-dir $0,2    ; $0 := 3 (24/2/2/2 = 3)
-mov $1,45   ; $1 := 45
-dir $1,3    ; $1 := 5 (45/3/3 = 5)
-mov $2,7    ; $2 := 7
-dir $2,2    ; $2 := 7 (not divisible by 2, unchanged)
-```
-
 <a name="mod"/>
 
-## **mod** (Modulus)
+#### **mod** (Modulus)
 
 Computes the remainder after dividing the target operand by the source operand, and stores it in the target. The sign of the result matches the sign of the dividend (target). Division by zero yields a runtime error.
 
@@ -378,7 +336,7 @@ mod $4,5     ; $4 := 0   (0 % 5)
 
 <a name="pow"/>
 
-## **pow** (Power)
+#### **pow** (Power)
 
 Raises the target operand to the power of the source operand and stores the result in the target. If the exponent (source) is negative, the result is zero.
 
@@ -394,9 +352,52 @@ pow $1,0    ; $1 := 1 (any number to the power 0 is 1)
 pow $0,-2   ; $0 := 0 (negative exponent yields 0)
 ```
 
+<a name="combinatorics-and-number-theory"/>
+
+### Combinatorics and Number Theory
+
+<a name="dif"/>
+
+#### **dif** (Conditional Division)
+
+Divides the target operand by the source operand only if the source divides the target exactly. If not, or if the source is zero, the target remains unchanged.
+
+An operation `dif a,b` performs the assignment `a := a / b` if `b` divides `a`, otherwise `a` is unchanged.
+
+Examples:
+
+```asm
+mov $0,26   ; $0 := 26
+dif $0,2    ; $0 := 13 (26 divisible by 2)
+dif $0,4    ; $0 := 13 (13 not divisible by 4, unchanged)
+dif $0,0    ; $0 := 13 (division by zero, unchanged)
+mov $1,15   ; $1 := 15
+dif $1,5    ; $1 := 3 (15 divisible by 5)
+dif $1,4    ; $1 := 3 (3 not divisible by 4, unchanged)
+```
+
+<a name="dir"/>
+
+#### **dir** (Repeated Division)
+
+Divides the target operand by the source operand as many times as possible (while the result is still divisible), and stores the result in the target. If the source is zero, minus one, or never divides the target, the target remains unchanged.
+
+An operation `dir a,b` performs the assignment `a := a / (b^n)`, where `n` is the largest integer such that `b^n` divides `a`.
+
+Examples:
+
+```asm
+mov $0,24   ; $0 := 24
+dir $0,2    ; $0 := 3 (24/2/2/2 = 3)
+mov $1,45   ; $1 := 45
+dir $1,3    ; $1 := 5 (45/3/3 = 5)
+mov $2,7    ; $2 := 7
+dir $2,2    ; $2 := 7 (not divisible by 2, unchanged)
+```
+
 <a name="gcd"/>
 
-## **gcd** (Greatest Common Divisor)
+#### **gcd** (Greatest Common Divisor)
 
 Computes the greatest common divisor (GCD) of the target and source operands, and stores it in the target. If both operands are zero, the result is zero. Otherwise, the result is always positive.
 
@@ -415,7 +416,7 @@ gcd $2,0    ; $2 := 0 (gcd of 0 and 0)
 
 <a name="lex"/>
 
-## **lex** (Largest Exponent)
+#### **lex** (Largest Exponent)
 
 Finds the largest non-negative integer exponent such that the source operand raised to that exponent divides the target operand, and stores this exponent in the target. If `a` is zero, or `b` is zero or one, the result is zero.
 
@@ -434,7 +435,7 @@ lex $2,5    ; $2 := 0 (5 does not divide 27)
 
 <a name="bin"/>
 
-## **bin** (Binomial Coefficient)
+#### **bin** (Binomial Coefficient)
 
 Computes the binomial coefficient ("n choose k") for the target and source operands, and stores the result in the target. For negative arguments, the semantics follows [M.J. Kronenburg: The Binomial Coefficient for Negative Arguments](https://arxiv.org/pdf/1105.3689.pdf).
 
@@ -453,7 +454,7 @@ bin $2,8    ; $2 := 0 (n < k yields 0)
 
 <a name="fac"/>
 
-## **fac** (Falling/Rising Factorial)
+#### **fac** (Falling/Rising Factorial)
 
 Computes the falling factorial of the target operand if the source is negative, and the rising factorial if the source is positive. If the source is zero, the result is one. See [Falling and rising factorials](https://en.wikipedia.org/wiki/Falling_and_rising_factorials) for details.
 
@@ -472,7 +473,7 @@ fac $2,0    ; $2 := 1 (factorial of 0 is 1)
 
 <a name="log"/>
 
-## **log** (Logarithm)
+#### **log** (Discrete Logarithm)
 
 Computes the discrete logarithm of the target operand to the given base (source operand), and stores the result in the target. The result is the largest non-negative integer `c` such that `b^c <= a`. The base must be at least 2, and the argument at least 1.
 
@@ -491,7 +492,7 @@ log $2,2    ; $2 := 4   (2^4 = 16 <= 20 < 32)
 
 <a name="nrt"/>
 
-## **nrt** (n-th Root)
+#### **nrt** (Discrete n-th Root)
 
 Computes the discrete n-th root of the target operand, using the source operand as the root degree, and stores the result in the target. The result is the largest non-negative integer `c` such that `c^n <= a`. The root degree must be at least 1.
 
@@ -508,10 +509,9 @@ mov $2,80   ; $2 := 80
 nrt $2,3    ; $2 := 4   (4^3 = 64 <= 80 < 125)
 ```
 
-
 <a name="dgs"/>
 
-## **dgs** (Digit Sum)
+#### **dgs** (Digit Sum)
 
 Computes the sum of the digits of the target operand in the base given by the source operand, and stores the result in the target. The base must be at least 2. If the target is negative, the digit sum is computed as for the positive value, but the result is negative.
 
@@ -530,7 +530,7 @@ dgs $2,10    ; $2 := -10 (1+9, result is negative)
 
 <a name="dgr"/>
 
-## **dgr** (Digital Root)
+#### **dgr** (Digital Root)
 
 Computes the digital root of the target operand in the base given by the source operand, and stores the result in the target. The digital root is found by repeatedly summing the digits until the result is less than the base. The base must be at least 2. If the target is negative, the result is negative.
 
@@ -547,9 +547,13 @@ mov $2,-19   ; $2 := -19
 dgr $2,10    ; $2 := -1 (digital root, result is negative)
 ```
 
+<a name="comparison"/>
+
+### Comparison Operations
+
 <a name="equ"/>
 
-## **equ** (Equal)
+#### **equ** (Equal)
 
 Checks if the target and source operands are equal. If they are, the target is set to 1; otherwise, it is set to 0.
 
@@ -568,7 +572,7 @@ equ $2,0    ; $2 := 1 (equal)
 
 <a name="neq"/>
 
-## **neq** (Not Equal)
+#### **neq** (Not Equal)
 
 Checks if the target and source operands are not equal. If they are not equal, the target is set to 1; otherwise, it is set to 0.
 
@@ -585,10 +589,9 @@ mov $2,0    ; $2 := 0
 neq $2,1    ; $2 := 1 (not equal)
 ```
 
-
 <a name="leq"/>
 
-## **leq** (Less or Equal)
+#### **leq** (Less or Equal)
 
 Checks if the target operand is less than or equal to the source operand. If so, the target is set to 1; otherwise, it is set to 0.
 
@@ -605,10 +608,9 @@ mov $2,5    ; $2 := 5
 leq $2,5    ; $2 := 1 (5 <= 5)
 ```
 
-
 <a name="geq"/>
 
-## **geq** (Greater or Equal)
+#### **geq** (Greater or Equal)
 
 Checks if the target operand is greater than or equal to the source operand. If so, the target is set to 1; otherwise, it is set to 0.
 
@@ -625,10 +627,9 @@ mov $2,5    ; $2 := 5
 geq $2,5    ; $2 := 1 (5 >= 5)
 ```
 
-
 <a name="min"/>
 
-## **min** (Minimum)
+#### **min** (Minimum)
 
 Finds the minimum of the target and source operands, and stores it in the target.
 
@@ -646,7 +647,7 @@ min $1,3    ; $1 := -2 (min of -2 and 3)
 
 <a name="max"/>
 
-## **max** (Maximum)
+#### **max** (Maximum)
 
 Finds the maximum of the target and source operands, and stores it in the target.
 
@@ -662,9 +663,13 @@ mov $1,-2   ; $1 := -2
 max $1,3    ; $1 := 3 (max of -2 and 3)
 ```
 
+<a name="bitwise"/>
+
+### Bitwise Operations
+
 <a name="ban"/>
 
-## **ban** (Bitwise And)
+#### **ban** (Bitwise And)
 
 Performs a bitwise AND operation between the target and source operands, using two's-complement integer representation, and stores the result in the target.
 
@@ -681,7 +686,7 @@ ban $2,3   ; $2 := -5 & 3 = 3 (binary 0011)
 
 <a name="bor"/>
 
-## **bor** (Bitwise Or)
+#### **bor** (Bitwise Or)
 
 Performs a bitwise OR operation between the target and source operands, using two's-complement integer representation, and stores the result in the target.
 
@@ -698,7 +703,7 @@ bor $2,3   ; $2 := -5 | 3 = -5 (binary ...1011)
 
 <a name="bxo"/>
 
-## **bxo** (Bitwise Xor)
+#### **bxo** (Bitwise Xor)
 
 Performs a bitwise XOR operation between the target and source operands, using two's-complement integer representation, and stores the result in the target.
 
@@ -715,7 +720,7 @@ bxo $2,3   ; $2 := -5 ^ 3 = -8 (binary ...1000)
 
 <a name="lpb"/>
 
-## **lpb..lpe** (Loop / Conditional)
+#### **lpb..lpe** (Loop / Conditional)
 
 Begins a loop or conditional block, ending with `lpe`. The block is executed as long as the loop variable (or region) is strictly decreasing and non-negative. If the condition is not met, the block is skipped. If the loop counter is not decreasing or becomes negative, the side effects of the last iteration are rolled back. This construct can also be used for conditionals.
 
@@ -742,7 +747,7 @@ The `lpb` can also have a second (optional) argument. In that case, the loop cou
 
 <a name="clr"/>
 
-## **clr** (Clear)
+#### **clr** (Clear)
 
 Resets a memory region to zero. The target operand marks the start of the region, and the source operand specifies the length. If the length is negative, the region is reset to the left of the target operand.
 
@@ -759,10 +764,9 @@ mov $6,8    ; $6 := 8
 clr $6,-2   ; $4,$5,$6 := 0,0,0 (reset to the left)
 ```
 
-
 <a name="seq"/>
 
-## **seq** (Sequence)
+#### **seq** (Sequence)
 
 Calls another LODA program for an OEIS sequence using the `seq` operation. The first argument is the parameter for the called program, and the second is the OEIS sequence number. The result is stored in the first argument. For example, `seq $2,45` evaluates A000045 (Fibonacci numbers) with argument `$2` and stores the result in `$2`.
 
@@ -774,7 +778,6 @@ seq $2,45     ; $2 := a(7) of OEIS A000045 (Fibonacci)
 mov $3,10     ; $3 := 10
 seq $3,40     ; $3 := a(10) of OEIS A000040 (primes)
 ```
-
 
 <a name="termination"/>
 
