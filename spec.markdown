@@ -29,44 +29,45 @@ LODA programs are typically short, transparent, and easy to analyze, making the 
 
 This document is organized as follows:
 
-* [Overview](#overview)
-* [Language Overview](#language-overview)
-  * [Basic Structure and Semantics](#basics)
-  * [Memory](#memory)
-  * [Operations](#operations)
-  * [Integer Sequences](#integer-sequences)
-* [Operations Reference](#operations-ref)
-   * [`mov` (Assignment)](#mov)
-   * [`add` (Addition)](#add)
-   * [`sub` (Subtraction)](#sub)
-   * [`trn` (Truncated Subtraction)](#trn)
-   * [`mul` (Multiplication)](#mul)
-   * [`div` (Division)](#div)
-   * [`dif` (Conditional Division)](#dif)
-   * [`dir` (Repeated Division)](#dir)
-   * [`mod` (Modulus)](#mod)
-   * [`pow` (Power)](#pow)
-   * [`gcd` (Greatest Common Divisor)](#gcd)
-   * [`lex` (Largest Exponent)](#lex)
-   * [`bin` (Binomial Coefficient)](#bin)
-   * [`fac` (Falling/Rising Factorial)](#fac)
-   * [`log` (Logarithm)](#log)
-   * [`nrt` (n-th Root)](#nrt)
-   * [`dgs` (Digit Sum)](#dgs)
-   * [`dgr` (Digital Root)](#dgr)
-   * [`equ` (Equal)](#equ)
-   * [`neq` (Not Equal)](#neq)
-   * [`leq` (Less or Equal)](#leq)
-   * [`geq` (Greater or Equal)](#geq)
-   * [`min` (Minimum)](#min)
-   * [`max` (Maximum)](#max)
-   * [`ban` (Bitwise And)](#ban)
-   * [`bor` (Bitwise Or)](#bor)
-   * [`bxo` (Bitwise Xor)](#bxo)
-   * [`lpb..lpe` (Loop / Conditional)](#lpb)
-   * [`clr` (Clear)](#clr)
-   * [`seq` (Sequence)](#seq)
-* [Termination](#termination)
+- [Overview](#overview)
+- [Language Overview](#language-overview)
+  - [Basic Structure and Semantics](#basics)
+  - [Memory](#memory)
+  - [Operations](#operations)
+  - [Integer Sequences](#integer-sequences)
+- [Operations Reference](#operations-ref)
+  - [Assignment and Arithmetic](#assignment-and-arithmetic)
+    - [`mov` (Assignment)](#mov)
+    - [`add` (Addition)](#add)
+    - [`sub` (Subtraction)](#sub)
+    - [`trn` (Truncated Subtraction)](#trn)
+    - [`mul` (Multiplication)](#mul)
+    - [`div` (Division)](#div)
+    - [`dif` (Conditional Division)](#dif)
+    - [`dir` (Repeated Division)](#dir)
+    - [`mod` (Modulus)](#mod)
+    - [`pow` (Power)](#pow)
+    - [`gcd` (Greatest Common Divisor)](#gcd)
+    - [`lex` (Largest Exponent)](#lex)
+    - [`bin` (Binomial Coefficient)](#bin)
+    - [`fac` (Falling/Rising Factorial)](#fac)
+    - [`log` (Logarithm)](#log)
+    - [`nrt` (n-th Root)](#nrt)
+    - [`dgs` (Digit Sum)](#dgs)
+    - [`dgr` (Digital Root)](#dgr)
+    - [`equ` (Equal)](#equ)
+    - [`neq` (Not Equal)](#neq)
+    - [`leq` (Less or Equal)](#leq)
+    - [`geq` (Greater or Equal)](#geq)
+    - [`min` (Minimum)](#min)
+    - [`max` (Maximum)](#max)
+    - [`ban` (Bitwise And)](#ban)
+    - [`bor` (Bitwise Or)](#bor)
+    - [`bxo` (Bitwise Xor)](#bxo)
+    - [`lpb..lpe` (Loop / Conditional)](#lpb)
+    - [`clr` (Clear)](#clr)
+    - [`seq` (Sequence)](#seq)
+- [Termination](#termination)
 
 
 <a name="language-overview"/>
@@ -192,9 +193,14 @@ With `#offset 1`, the first value computed will be for `n = 1`, so the sequence 
 
 ## Operations Reference
 
+<a name="assignment-and-arithmetic"/>
+
+### Assignment and Arithmetic
+
+
 <a name="mov"/>
 
-## **mov** (Assignment)
+#### **mov** (Assignment)
 
 Copies the value of the source operand into the target operand, overwriting its previous value.
 
@@ -214,7 +220,7 @@ mov $$4,99   ; $0 = $$4 := 99 (if $4=0)
 
 <a name="add"/>
 
-## **add** (Addition)
+#### **add** (Addition)
 
 Adds the value of the source operand to the target operand and stores the result in the target.
 
