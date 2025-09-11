@@ -16,15 +16,26 @@
   </style>
 </head>
 <body>
-  <h1>Integer Sequence Programs</h1>
-  <form id="search-form">
-    Search: <input type="text" id="search-input" name="search" autocomplete="off">
-    <input type="submit" value="Search">
-  </form>
-  <div class="keyword-bar" id="keyword-bar"></div>
-  <div id="results-info"></div>
-  <div id="sequence-list" class="sequence-list"></div>
-  <div class="pagination" id="pagination"></div>
+  {% include header.html %}
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post">
+        <header class="post-header">
+          <h1 class="post-title">Integer Sequence Programs</h1>
+        </header>
+        <div class="post-content">
+          <form id="search-form">
+            Search: <input type="text" id="search-input" name="search" autocomplete="off">
+            <input type="submit" value="Search">
+          </form>
+          <div class="keyword-bar" id="keyword-bar"></div>
+          <div id="results-info"></div>
+          <div id="sequence-list" class="sequence-list"></div>
+          <div class="pagination" id="pagination"></div>
+        </div>
+      </article>
+    </div>
+  </main>
   <div class="prefooter">
     LODA is published under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>.<br>
     Sequence names are published under the <a target="_blank" href="http://oeis.org/wiki/The_OEIS_End-User_License_Agreement">OEIS End-User License Agreement</a>.<br>
