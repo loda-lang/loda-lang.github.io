@@ -81,7 +81,7 @@ div $0,9    ; $0 := (10^n) / 9 (yields n consecutive 1s)
 
 ---
 
-**Example 2: Initial digit of cubes ([A000030](https://oeis.org/A000030))**
+**Example 2: Initial digit of n ([A000030](https://oeis.org/A000030))**
 
 ```asm
 ; Computes the initial digit of n
@@ -284,7 +284,7 @@ Examples:
 ```asm
 mov $0,9   ; $0 := 9
 mov $1,3   ; $1 := 3
-trn $0,5   ; $0 := 9 - 5 = 4
+trn $0,5   ; $0 := max(9 - 5, 0) = 4
 trn $1,5   ; $1 := max(3 - 5, 0) = 0
 mov $2,0   ; $2 := 0
 trn $2,1   ; $2 := max(0 - 1, 0) = 0
@@ -397,7 +397,7 @@ mod $4,5     ; $4 := 0   (0 % 5)
 
 Raises the target operand to the power of the source operand and stores the result in the target. If the exponent (source) is negative, the result is zero.
 
-An operation `pow a,b` performs the assignment `a := a ^ b` (with `a ^ b = 0` for `b < 0`).
+An operation `pow a,b` performs the assignment `a := a ^ b` (with `a ^ b = 0` for `abs(a) >= 2 and b < 0`).
 
 Examples:
 
@@ -406,7 +406,7 @@ mov $0,3    ; $0 := 3
 pow $0,3    ; $0 := 27
 mov $1,2    ; $1 := 2
 pow $1,0    ; $1 := 1 (any number to the power 0 is 1)
-pow $1,-2   ; $1 := 0 (negative exponent yields 0)
+pow $0,-2   ; $0 := 0 (negative exponent yields 0)
 ```
 
 <a name="gcd"/>
@@ -488,6 +488,11 @@ fac $2,0    ; $2 := 1 (factorial of 0 is 1)
 <a name="log"/>
 
 ## **log** (Logarithm)
+
+Computes the discrete logarithm of the target operand to the given base (source operand), and stores the result in the target. The result is the largest non-negative integer `c` such that `b^c <= a`. The base must be at least 2, and the argument at least 1.
+
+An operation `log a,b` assigns the discrete logarithm of `a` to base `b` to `a`.
+
 Examples:
 
 ```asm
@@ -498,10 +503,6 @@ log $1,3    ; $1 := 4   (3^4 = 81)
 mov $2,20   ; $2 := 20
 log $2,2    ; $2 := 4   (2^4 = 16 <= 20 < 32)
 ```
-
-Computes the discrete logarithm of the target operand to the given base (source operand), and stores the result in the target. The result is the largest non-negative integer `c` such that `b^c <= a`. The base must be at least 2, and the argument at least 1.
-
-An operation `log a,b` assigns the discrete logarithm of `a` to base `b` to `a`.
 
 <a name="nrt"/>
 
@@ -537,7 +538,7 @@ Examples:
 mov $0,345   ; $0 := 345
 dgs $0,10    ; $0 := 12 (3+4+5)
 mov $1,8     ; $1 := 8
-dgs $1,2     ; $1 := 3 (1+0+0+0)
+dgs $1,2     ; $1 := 1 (1+0+0+0)
 mov $2,-19   ; $2 := -19
 dgs $2,10    ; $2 := -10 (1+9, result is negative)
 ```
