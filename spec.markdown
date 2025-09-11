@@ -36,22 +36,22 @@ This document is organized as follows:
   - [Operations](#operations)
   - [Integer Sequences](#integer-sequences)
 - [Operations Reference](#operations-ref)
-  - [Assignment and Arithmetics](#assignment-and-arithmetics)
+  - [Assignment and Arithmetic Operations](#assignment-and-arithmetics)
     - [`mov` (Assignment)](#mov)
     - [`add` (Addition)](#add)
     - [`sub` (Subtraction)](#sub)
     - [`trn` (Truncated Subtraction)](#trn)
     - [`mul` (Multiplication)](#mul)
     - [`div` (Division)](#div)
+    - [`dif` (Conditional Division)](#dif)
+    - [`dir` (Repeated Division)](#dir)
     - [`mod` (Modulus)](#mod)
     - [`pow` (Power)](#pow)
   - [Combinatorics and Number Theory](#combinatorics-and-number-theory)
-    - [`dif` (Conditional Division)](#dif)
-    - [`dir` (Repeated Division)](#dir)
-    - [`gcd` (Greatest Common Divisor)](#gcd)
-    - [`lex` (Largest Exponent)](#lex)
     - [`bin` (Binomial Coefficient)](#bin)
     - [`fac` (Falling/Rising Factorial)](#fac)
+    - [`gcd` (Greatest Common Divisor)](#gcd)
+    - [`lex` (Largest Exponent)](#lex)
     - [`log` (Discrete Logarithm)](#log)
     - [`nrt` (Discrete n-th Root)](#nrt)
     - [`dgs` (Digit Sum)](#dgs)
@@ -67,11 +67,11 @@ This document is organized as follows:
     - [`ban` (Bitwise And)](#ban)
     - [`bor` (Bitwise Or)](#bor)
     - [`bxo` (Bitwise Xor)](#bxo)
+  - [Control Flow and Special Operations](#control-flow-special)
     - [`lpb..lpe` (Loop / Conditional)](#lpb)
-    - [`clr` (Clear)](#clr)
     - [`seq` (Sequence)](#seq)
+    - [`clr` (Clear)](#clr)
 - [Termination](#termination)
-
 
 <a name="language-overview"/>
 
@@ -193,7 +193,7 @@ With `#offset 1`, the first value computed will be for `n = 1`, so the sequence 
 
 <a name="assignment-and-arithmetics"/>
 
-### Assignment and Arithmetics
+### Assignment and Arithmetic Operations
 
 <a name="mov"/>
 
@@ -311,6 +311,45 @@ div $1,3    ; $1 := 2
 div $1,10   ; $1 := 0
 ```
 
+<a name="dif"/>
+
+#### **dif** (Conditional Division)
+
+Divides the target operand by the source operand only if the source divides the target exactly. If not, or if the source is zero, the target remains unchanged.
+
+An operation `dif a,b` performs the assignment `a := a / b` if `b` divides `a`, otherwise `a` is unchanged.
+
+Examples:
+
+```asm
+mov $0,26   ; $0 := 26
+dif $0,2    ; $0 := 13 (26 divisible by 2)
+dif $0,4    ; $0 := 13 (13 not divisible by 4, unchanged)
+dif $0,0    ; $0 := 13 (division by zero, unchanged)
+mov $1,15   ; $1 := 15
+dif $1,5    ; $1 := 3 (15 divisible by 5)
+dif $1,4    ; $1 := 3 (3 not divisible by 4, unchanged)
+```
+
+<a name="dir"/>
+
+#### **dir** (Repeated Division)
+
+Divides the target operand by the source operand as many times as possible (while the result is still divisible), and stores the result in the target. If the source is zero, minus one, or never divides the target, the target remains unchanged.
+
+An operation `dir a,b` performs the assignment `a := a / (b^n)`, where `n` is the largest integer such that `b^n` divides `a`.
+
+Examples:
+
+```asm
+mov $0,24   ; $0 := 24
+dir $0,2    ; $0 := 3 (24/2/2/2 = 3)
+mov $1,45   ; $1 := 45
+dir $1,3    ; $1 := 5 (45/3/3 = 5)
+mov $2,7    ; $2 := 7
+dir $2,2    ; $2 := 7 (not divisible by 2, unchanged)
+```
+
 <a name="mod"/>
 
 #### **mod** (Modulus)
@@ -356,43 +395,42 @@ pow $0,-2   ; $0 := 0 (negative exponent yields 0)
 
 ### Combinatorics and Number Theory
 
-<a name="dif"/>
+<a name="bin"/>
 
-#### **dif** (Conditional Division)
+#### **bin** (Binomial Coefficient)
 
-Divides the target operand by the source operand only if the source divides the target exactly. If not, or if the source is zero, the target remains unchanged.
+Computes the binomial coefficient ("n choose k") for the target and source operands, and stores the result in the target. For negative arguments, the semantics follows [M.J. Kronenburg: The Binomial Coefficient for Negative Arguments](https://arxiv.org/pdf/1105.3689.pdf).
 
-An operation `dif a,b` performs the assignment `a := a / b` if `b` divides `a`, otherwise `a` is unchanged.
+An operation `bin a,b` performs the assignment `a := a! / (b! * (a-b)!)`.
 
 Examples:
 
 ```asm
-mov $0,26   ; $0 := 26
-dif $0,2    ; $0 := 13 (26 divisible by 2)
-dif $0,4    ; $0 := 13 (13 not divisible by 4, unchanged)
-dif $0,0    ; $0 := 13 (division by zero, unchanged)
-mov $1,15   ; $1 := 15
-dif $1,5    ; $1 := 3 (15 divisible by 5)
-dif $1,4    ; $1 := 3 (3 not divisible by 4, unchanged)
+mov $0,7    ; $0 := 7
+bin $0,3    ; $0 := 35 (7 choose 3)
+mov $1,7    ; $1 := 7
+bin $1,0    ; $1 := 1 (n choose 0 is 1)
+mov $2,5    ; $2 := 5
+bin $2,8    ; $2 := 0 (n < k yields 0)
 ```
 
-<a name="dir"/>
+<a name="fac"/>
 
-#### **dir** (Repeated Division)
+#### **fac** (Falling/Rising Factorial)
 
-Divides the target operand by the source operand as many times as possible (while the result is still divisible), and stores the result in the target. If the source is zero, minus one, or never divides the target, the target remains unchanged.
+Computes the falling factorial of the target operand if the source is negative, and the rising factorial if the source is positive. If the source is zero, the result is one. See [Falling and rising factorials](https://en.wikipedia.org/wiki/Falling_and_rising_factorials) for details.
 
-An operation `dir a,b` performs the assignment `a := a / (b^n)`, where `n` is the largest integer such that `b^n` divides `a`.
+An operation `fac a,b` assigns the falling or rising factorial to `a` depending on the sign of `b`.
 
 Examples:
 
 ```asm
-mov $0,24   ; $0 := 24
-dir $0,2    ; $0 := 3 (24/2/2/2 = 3)
-mov $1,45   ; $1 := 45
-dir $1,3    ; $1 := 5 (45/3/3 = 5)
-mov $2,7    ; $2 := 7
-dir $2,2    ; $2 := 7 (not divisible by 2, unchanged)
+mov $0,5    ; $0 := 5
+fac $0,3    ; $0 := 210 (rising factorial: 5*6*7)
+mov $1,5    ; $1 := 5
+fac $1,-3   ; $1 := 60 (falling factorial: 5*4*3)
+mov $2,4    ; $2 := 4
+fac $2,0    ; $2 := 1 (factorial of 0 is 1)
 ```
 
 <a name="gcd"/>
@@ -431,44 +469,6 @@ mov $1,-8   ; $1 := -8
 lex $1,2    ; $1 := 3 (2^3 divides -8)
 mov $2,27   ; $2 := 27
 lex $2,5    ; $2 := 0 (5 does not divide 27)
-```
-
-<a name="bin"/>
-
-#### **bin** (Binomial Coefficient)
-
-Computes the binomial coefficient ("n choose k") for the target and source operands, and stores the result in the target. For negative arguments, the semantics follows [M.J. Kronenburg: The Binomial Coefficient for Negative Arguments](https://arxiv.org/pdf/1105.3689.pdf).
-
-An operation `bin a,b` performs the assignment `a := a! / (b! * (a-b)!)`.
-
-Examples:
-
-```asm
-mov $0,7    ; $0 := 7
-bin $0,3    ; $0 := 35 (7 choose 3)
-mov $1,7    ; $1 := 7
-bin $1,0    ; $1 := 1 (n choose 0 is 1)
-mov $2,5    ; $2 := 5
-bin $2,8    ; $2 := 0 (n < k yields 0)
-```
-
-<a name="fac"/>
-
-#### **fac** (Falling/Rising Factorial)
-
-Computes the falling factorial of the target operand if the source is negative, and the rising factorial if the source is positive. If the source is zero, the result is one. See [Falling and rising factorials](https://en.wikipedia.org/wiki/Falling_and_rising_factorials) for details.
-
-An operation `fac a,b` assigns the falling or rising factorial to `a` depending on the sign of `b`.
-
-Examples:
-
-```asm
-mov $0,5    ; $0 := 5
-fac $0,3    ; $0 := 210 (rising factorial: 5*6*7)
-mov $1,5    ; $1 := 5
-fac $1,-3   ; $1 := 60 (falling factorial: 5*4*3)
-mov $2,4    ; $2 := 4
-fac $2,0    ; $2 := 1 (factorial of 0 is 1)
 ```
 
 <a name="log"/>
@@ -718,6 +718,10 @@ mov $2,-5  ; $2 := -5 (binary ...1011)
 bxo $2,3   ; $2 := -5 ^ 3 = -8 (binary ...1000)
 ```
 
+<a name="control-flow-special"/>
+
+### Control Flow and Special Operations
+
 <a name="lpb"/>
 
 #### **lpb..lpe** (Loop / Conditional)
@@ -745,6 +749,21 @@ lpe
 
 The `lpb` can also have a second (optional) argument. In that case, the loop counter is not a single variable, but a finite memory region, which must strictly decreases in every iteration of the loop. The loop counter cell marks the start of that memory region, whereas the second argument is interpreted as a number and defines the length of this region. For example, `lpb $4,3` ... `lpe` is executed as long as the vector (or polynomial) `$4`,`$5`,`$6` is non-negative and strictly decreasing in every iteration according to the lexicographical ordering. If `y` is not a constant and evaluates to different values in subsequent iterations, the minimum length is used to compare the memory regions.
 
+<a name="seq"/>
+
+#### **seq** (Sequence)
+
+Calls another LODA program for an integer sequence using the `seq` operation. The first argument is the parameter for the called program, and the second is the OEIS sequence number. The result is stored in the first argument. For example, `seq $2,45` evaluates A000045 (Fibonacci numbers) with argument `$2` and stores the result in `$2`.
+
+Examples:
+
+```asm
+mov $2,7      ; $2 := 7
+seq $2,45     ; $2 := a(7) of OEIS A000045 (Fibonacci)
+mov $3,10     ; $3 := 10
+seq $3,40     ; $3 := a(10) of OEIS A000040 (primes)
+```
+
 <a name="clr"/>
 
 #### **clr** (Clear)
@@ -762,21 +781,6 @@ mov $5,9    ; $5 := 9
 clr $5,1    ; $5 := 0
 mov $6,8    ; $6 := 8
 clr $6,-2   ; $4,$5,$6 := 0,0,0 (reset to the left)
-```
-
-<a name="seq"/>
-
-#### **seq** (Sequence)
-
-Calls another LODA program for an OEIS sequence using the `seq` operation. The first argument is the parameter for the called program, and the second is the OEIS sequence number. The result is stored in the first argument. For example, `seq $2,45` evaluates A000045 (Fibonacci numbers) with argument `$2` and stores the result in `$2`.
-
-Examples:
-
-```asm
-mov $2,7      ; $2 := 7
-seq $2,45     ; $2 := a(7) of OEIS A000045 (Fibonacci)
-mov $3,10     ; $3 := 10
-seq $3,40     ; $3 := a(10) of OEIS A000040 (primes)
 ```
 
 <a name="termination"/>
