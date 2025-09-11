@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LODA Integer Sequence Browser</title>
+  <link rel="stylesheet" href="/seq-browser/static/loda.css">
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    .keyword-bar { margin-bottom: 1em; }
+    .keyword-bar a { text-decoration: none; margin-right: 0.3em; }
+    .sequence-description { margin-bottom: 0.5em; }
+    .pagination { margin: 1em 0; }
+    .pagination a { margin: 0 0.5em; }
+    .prefooter { margin-top: 2em; font-size: small; text-align: center; }
+  </style>
+</head>
+<body>
+  <h1>Integer Sequence Programs</h1>
+  <form id="search-form">
+    Search: <input type="text" id="search-input" name="search" autocomplete="off">
+    <input type="submit" value="Search">
+  </form>
+  <div class="keyword-bar" id="keyword-bar"></div>
+  <div id="results-info"></div>
+  <div id="sequence-list" class="sequence-list"></div>
+  <div class="pagination" id="pagination"></div>
+  <div class="prefooter">
+    LODA is published under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>.<br>
+    Sequence names are published under the <a target="_blank" href="http://oeis.org/wiki/The_OEIS_End-User_License_Agreement">OEIS End-User License Agreement</a>.<br>
+    <a target="_blank" href="https://github.com/loda-lang/seq-browser/issues">Report an issue</a>.
+  </div>
+  <script>
+    // --- Keyword definitions (from keywords.py) ---
+    const KEYWORD_DESCRIPTIONS = {
+      'base': 'Sequence terms are defined based on a number representation in a particular base format, e.g. decimal or binary',
+      'bref': 'Sequences with very few terms',
+      'cofr': 'Continued fractions for (usually irrational) constants',
+      'conjecture': 'Sequences that include conjectures in their OEIS description',
+      'cons': 'Sequences that give terms for decimal expansions',
+      'core': 'Core sequences of the OEIS database',
+      'dead': 'Errornous or duplicate sequences',
+      'decimal-expansion': 'Decimal expansions of constants',
+      'dumb': 'Unimportant sequences from non-mathematical contexts',
+      'easy': 'Sequences that are easy to comute and understand',
+      'egf-expansion': 'Expansions of exponential generating functions',
+      'eigen': 'Eigensequences',
+      'fini': 'Finite sequences',
+      'formula': 'Formulas exist in OEIS entries for these sequences',
+      'frac': 'Numerators or denominators of sequence of rationals',
+      'full': 'Finite sequence with all terms available',
+      'gf-expansion': 'Expansions of generating functions',
+      'hard': 'Sequences that are hard to compute',
+      'less': 'Less interesting sequences',
+      'loda': 'LODA programs exist for these sequence',
+      'loda-formula': 'Formulas generated from a LODA programs exist for these sequences',
+      'loda-inceval': 'LODA programs that can be computed incrementally exist for these sequences',
+      'loda-logeval': 'LODA programs with logarithmic complexity exist for these sequences',
+      'loda-loop': 'LODA programs with loop exist for these sequences',
+      'look': 'Pin or scatter plots reveal interesting information',
+      'more': 'Sequences that need more terms',
+      'mult': 'Multiplicative functions',
+      'nice': 'Exceptionally "nice" sequences',
+      'nonn': 'Sequences with only non-negative terms',
+      'obsc': 'Obscure sequences: descriptions are known, but difficult to understand',
+      'pari': 'PARI/GP programs exist for these sequence',
+      'sign': 'Sequences with negative terms',
+      'tabf': 'Tables with irregular row lengths',
+      'tabl': 'Regular tables: fixed row length',
+      'unkn': 'Sequences whose definition is unknown',
+      'walk': 'Sequences that contain walks through a lattice',
+      'word': 'Numbers related to a given natural language'
+    };
+    const ALL_KEYWORDS = Object.keys(KEYWORD_DESCRIPTIONS).sort();
+
+    // --- State ---
+    let state = {
+      search: '',
+      keywords: [], // e.g. ['loda', '-dumb']
+      start: 0,
+      limit: 100,
+      count: 0
+    };
+
+    // --- Helpers for keyword selection ---
+    function toggleKeyword(k) {
+      let idx = state.keywords.indexOf(k);
+      let minusIdx = state.keywords.indexOf('-'+k);
+      if (idx !== -1) {
+        state.keywords[idx] = '-' + k;
+      } else if (minusIdx !== -1) {
+        state.keywords.splice(minusIdx, 1);
+      } else {
+        state.keywords.push(k);
+      }
+      state.start = 0;
+      update();
+    }
+    function keywordClass(k) {
+      if (state.keywords.includes(k)) return 'keyword-plus';
+      if (state.keywords.includes('-'+k)) return 'keyword-minus';
+      return 'keyword-name';
+    }
+    function keywordLabel(k) {
+      if (state.keywords.includes(k)) return '+'+k;
+      if (state.keywords.includes('-'+k)) return '-'+k;
+      return k;
+    }
+
+    // --- Render keyword bar ---
+    function renderKeywordBar() {
+      const bar = document.getElementById('keyword-bar');
+      bar.innerHTML = '';
+      ALL_KEYWORDS.forEach(k => {
+        const a = document.createElement('a');
+        a.href = '#';
+        a.title = KEYWORD_DESCRIPTIONS[k];
+        a.onclick = (e) => { e.preventDefault(); toggleKeyword(k); };
+        const span = document.createElement('span');
+        span.className = keywordClass(k);
+        span.textContent = keywordLabel(k);
+        a.appendChild(span);
+        bar.appendChild(a);
+      });
+    }
+
+    // --- Fetch and render sequence list ---
+    async function fetchSequences() {
+      let q = state.search.trim();
+      let keywords = state.keywords.filter(k => !k.startsWith('-')).join(' ');
+      let exclude = state.keywords.filter(k => k.startsWith('-')).map(k => '-'+k.slice(1)).join(' ');
+      let query = [keywords, exclude, q].filter(Boolean).join(' ');
+      let url = `https://api.loda-lang.org/v2/sequences/search?q=${encodeURIComponent(query)}&limit=${state.limit}&skip=${state.start}`;
+      let resp = await fetch(url);
+      if (!resp.ok) return { count: 0, results: [] };
+      let data = await resp.json();
+      // The API returns an array of {id, name}
+      // For count, we have to estimate (API does not return total count)
+      return { count: data.length < state.limit ? state.start + data.length : state.start + data.length + 1, results: data };
+    }
+
+    // --- Render sequence list ---
+    function renderSequenceList(results) {
+      const list = document.getElementById('sequence-list');
+      list.innerHTML = '';
+      results.forEach(entry => {
+        const row0 = document.createElement('div');
+        row0.className = 'col0';
+        const oeisLink = document.createElement('a');
+        oeisLink.target = '_blank';
+        oeisLink.href = `https://oeis.org/${entry.id}`;
+        oeisLink.textContent = entry.id;
+        row0.appendChild(oeisLink);
+        const row1 = document.createElement('div');
+        row1.className = 'col1';
+        const linkbox = document.createElement('div');
+        linkbox.className = 'linkbox';
+        // LODA program link if available
+        if (entry.id && entry.id.startsWith('A')) {
+          const lodaLink = document.createElement('a');
+          lodaLink.target = '_blank';
+          lodaLink.href = `https://loda-lang.org/edit/?oeis=${entry.id.slice(1)}`;
+          lodaLink.textContent = 'LODA';
+          linkbox.appendChild(lodaLink);
+        }
+        row1.appendChild(linkbox);
+        const desc = document.createElement('div');
+        desc.className = 'sequence-description';
+        desc.textContent = entry.name;
+        row1.appendChild(desc);
+        list.appendChild(row0);
+        list.appendChild(row1);
+      });
+    }
+
+    // --- Render pagination ---
+    function renderPagination() {
+      const pag = document.getElementById('pagination');
+      pag.innerHTML = '';
+      if (state.start > 0) {
+        const prev = document.createElement('a');
+        prev.href = '#';
+        prev.textContent = '« Previous';
+        prev.onclick = (e) => { e.preventDefault(); state.start = Math.max(0, state.start - state.limit); update(); };
+        pag.appendChild(prev);
+      }
+      if (state.count > state.start + state.limit) {
+        if (state.start > 0) pag.appendChild(document.createTextNode(' | '));
+        const next = document.createElement('a');
+        next.href = '#';
+        next.textContent = 'Next »';
+        next.onclick = (e) => { e.preventDefault(); state.start += state.limit; update(); };
+        pag.appendChild(next);
+      }
+    }
+
+    // --- Main update function ---
+    async function update() {
+      renderKeywordBar();
+      document.getElementById('search-input').value = state.search;
+      document.getElementById('results-info').textContent = 'Loading...';
+      let { count, results } = await fetchSequences();
+      state.count = count;
+      if (results.length === 0) {
+        document.getElementById('results-info').textContent = 'No results.';
+      } else {
+        let end = state.start + results.length;
+        document.getElementById('results-info').textContent = `Showing ${state.start+1}-${end} of ${count} results:`;
+      }
+      renderSequenceList(results);
+      renderPagination();
+    }
+
+    // --- Search form handler ---
+    document.getElementById('search-form').onsubmit = function(e) {
+      e.preventDefault();
+      state.search = document.getElementById('search-input').value.trim();
+      state.start = 0;
+      update();
+    };
+
+    // --- Initial load ---
+    update();
+  </script>
+</body>
+</html>
