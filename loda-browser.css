@@ -1,0 +1,59 @@
+a.page-link.is-active {
+    font-weight: bold;
+}
+.site-title {
+    display: flex;
+    gap: 0.5em;
+}
+.site-title picture {
+    width: 32px;
+    height: 32px;
+}
+.site-title picture img {
+    vertical-align: text-top;
+}
+
+.keyword-plus, .keyword-minus, .keyword-name {
+    border-radius: 25px;
+    border: 1px solid #383838;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #000000;
+    white-space: nowrap;
+}
+.keyword-plus {
+    background: #BCE29E;
+}
+.keyword-minus {
+    background: #FF8787;
+}
+.keyword-name {
+    background: #cbcbcb;
+}
+
+/* sequence list */
+.sequence-list {
+    display: grid;
+    grid-template-columns: minmax(auto, max-content) minmax(25%, auto);
+}
+.sequence-list .col0, 
+.sequence-list .col1 {
+    padding: 4px;
+    border-top: 1px solid #ccc;
+}
+.sequence-list .col0 {
+    padding-left: 0px;
+}
+.sequence-list .col1 {
+    padding-right: 0px;
+}
+.sequence-list .linkbox {
+    float: right;
+    margin-left: 1em;
+}
+.prefooter {
+    text-align: center;
+    font-size: small;
+}
