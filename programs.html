@@ -26,8 +26,15 @@
   <!-- End Favicon -->
   <!-- Remove or minimize custom inline styles to avoid overriding site look -->
   <style>
-    .keyword-bar { margin-bottom: 1em; }
-    .keyword-bar a { text-decoration: none; margin-right: 0.3em; }
+    .keyword-bar {
+      margin-bottom: 1em;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3em;
+    }
+    .keyword-bar a {
+      text-decoration: none;
+    }
     .sequence-description { margin-bottom: 0.5em; }
     .pagination { margin: 1em 0; }
     .pagination a { margin: 0 0.5em; }
