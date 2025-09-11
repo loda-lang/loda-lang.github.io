@@ -86,31 +86,16 @@ Below is a complete LODA program that computes the n-th Fibonacci number ([A0000
 
 ```asm
 ; A000045: Fibonacci numbers: F(n) = F(n-1) + F(n-2) with F(0) = 0 and F(1) = 1.
-mov $1,0
-mov $2,1
-lpb $0
-  mov $3,$2
-  add $2,$1
-  mov $1,$3
-  sub $0,1
-lpe
-mov $0,$1
+mov $1,0      ; Initialize $1 = 0 (F(0))
+mov $2,1      ; Initialize $2 = 1 (F(1))
+lpb $0        ; Loop while the loop counter $0 (n) >= 0
+  mov $3,$2   ; Store previous Fibonacci value: $3 := $2
+  add $2,$1   ; $2 := $2 + $1 (next Fibonacci number)
+  mov $1,$3   ; $1 := $3 (advance previous value)
+  sub $0,1    ; Decrement the loop counter $0 (n := n - 1)
+lpe           ; End of loop
+mov $0,$1     ; Output result: $0 := F(n)
 ```
-
-Explanation:
-
-1. The program initializes two memory cells: `$1` is set to 0 (F(0)), and `$2` is set to 1 (F(1)).
-2. The loop (`lpb $0 ... lpe`) runs as long as the input `$0` (n) is is non-negative. In each iteration:
-  - `$3` temporarily stores the previous Fibonacci value (`$2`).
-  - `$2` is updated to the sum of `$2` and `$1` (the next Fibonacci number).
-  - `$1` is updated to the old value of `$2` (from `$3`).
-  - `$0` is decremented by 1.
-3. When the loop finishes, `$1` contains the n-th Fibonacci number, which is then copied to `$0` as the program's output.
-
-This example demonstrates how LODA uses simple instructions, memory cells, and loops to compute a classic integer sequence.
-```
-
-
 
 LODA's syntax is intentionally simple and assembly-like, with a small set of well-defined operations. Programs are concise and easy to analyze, making the language ideal for mathematical experimentation and sequence generation. See the following sections for details on memory, operands, and available operations.
 
