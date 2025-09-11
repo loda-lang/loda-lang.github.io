@@ -5,20 +5,25 @@ permalink: /install/
 nav_order: 2
 ---
 
-The LODA command-line tool is available for Linux, macOS and Windows. To install it, follow the instructions for your operating system below. If you are only interested in program mining, you can also join the [LODA project on BOINC](https://boinc.loda-lang.org/loda/) and skip the manual installation.
+The LODA command-line tool lets you explore, evaluate, and mine programs for integer sequences. It’s available for Linux, macOS, and Windows. Follow the instructions below to get started on your platform.
 
-# Linux and macOS
+> **Tip:** If you only want to contribute compute power for program mining, you can join the [LODA project on BOINC](https://boinc.loda-lang.org/loda/) and skip manual installation.
 
-Please make sure you have [git](https://git-scm.com/) installed.
-To download and install LODA, run this command:
+## 🚀 Quick Install (Linux & macOS)
+
+Make sure you have [git](https://git-scm.com/) installed. Then run this command in your terminal:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/loda-lang/loda-cpp/main/install.sh)"
 ```
 
-# Windows
+This will download and install the latest LODA release and set up your environment.
 
-Before installing LODA, you need to install [Git for Windows](https://git-scm.com/download/win). Then click on the start menu and type **Git CMD**. Open this app and execute the following commands:
+## 🪟 Windows Installation
+
+1. Install [Git for Windows](https://git-scm.com/download/win).
+2. Open the **Git CMD** app from your Start menu.
+3. Run these commands:
 
 ```
 md "%USERPROFILE%\loda\bin"
@@ -27,10 +32,24 @@ curl -fsSLo loda.exe https://github.com/loda-lang/loda-cpp/releases/latest/downl
 loda setup
 ```
 
-## Getting Started
+This will download the LODA executable and guide you through the initial setup.
 
-To evaluate the program of the OEIS sequence for the Fibonacci numbers, run `loda eval A000045`.
-To run the miner to search for new or better programs, execute `loda mine` (single core) or `loda mine -p` (multi-core). A detailed overview of all commands and options is shown below.
+## 🏁 Getting Started
+
+Try evaluating a classic sequence! For example, to compute the Fibonacci numbers:
+
+```bash
+loda eval A000045
+```
+
+To start mining for new or better programs:
+
+```bash
+loda mine         # Single core
+loda mine -p      # Multi-core (parallel)
+```
+
+For a full list of commands and options, run `loda --help` or see below:
 
 ```
 Usage: loda <command> <options>
@@ -72,6 +91,24 @@ Options:
   -H <number>          Number of mining hours (default: unlimited)
 ```
 
-## Upgrading LODA
+## 🔄 Upgrading & Setup
 
-To upgrade to the latest version, run `loda upgrade`. If you want to change installation parameters later, run `loda setup`.
+To upgrade to the latest version, run:
+
+```bash
+loda upgrade
+```
+
+To reconfigure your installation at any time, run:
+
+```bash
+loda setup
+```
+
+## ❓ Need Help?
+
+- See the [LODA documentation](/spec) for language details.
+- Visit the [LODA Discord](https://loda-lang.org/discord) for help and discussion.
+- Report issues or contribute improvements on [GitHub](https://github.com/loda-lang/loda-cpp).
+
+Happy mining and exploring integer sequences with LODA!
