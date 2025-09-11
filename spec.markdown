@@ -173,18 +173,20 @@ LODA supports custom offsets using the `#offset` directive at the top of a progr
 
 **Example: Sequence with offset 1**
 
-The following program computes the unary representation of natural numbers ([A000042](https://oeis.org/A000042)), but starts at $n = 1$ instead of $n = 0$:
+The following program computes the unary representation of natural numbers ([A000042](https://oeis.org/A000042)), but starts at `n = 1` instead of `n = 0`:
 
 ```asm
 ; A000042: Unary representation of natural numbers.
+
 #offset 1
+
 mov $1,10      ; $1 := 10 (base)
 pow $1,$0      ; $1 := 10^n
 mov $0,$1      ; $0 := 10^n
 div $0,9       ; $0 := (10^n) / 9 (yields n consecutive 1s)
 ```
 
-With `#offset 1`, the first value computed will be for $n = 1$, so the sequence output will match the OEIS entry's offset. This makes it easy to align LODA programs with OEIS conventions and ensures correct sequence generation for any starting index.
+With `#offset 1`, the first value computed will be for `n = 1`, so the sequence output will match the OEIS entry's offset. This makes it easy to align LODA programs with OEIS conventions and ensures correct sequence generation for any starting index.
 
 <a name="operations-ref"/>
 

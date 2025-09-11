@@ -9,6 +9,12 @@ hljs.registerLanguage('asm', function(hljs) {
     contains: [
       hljs.COMMENT(';', '$'),
       {
+        className: 'meta',
+        // Highlight directives like #offset, #foo, etc.
+        begin: /#[a-zA-Z_][\w-]*/,
+        relevance: 10
+      },
+      {
         className: 'number',
         begin: /-?\b\d+\b/,
         relevance: 0
