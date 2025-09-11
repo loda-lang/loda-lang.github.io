@@ -9,27 +9,32 @@ nav_order: 3
 
 ## Overview
 
-LODA is a minimalist assembly-like language designed for expressing integer sequences and number-theoretic algorithms in a compact, human-readable form. Its primary focus is on arithmetic and number-theoretic operations, making it well-suited for mathematical experimentation, algorithmic exploration, and automated sequence discovery.
+LODA is a minimalist, assembly-like programming language created for expressing integer sequences and number-theoretic algorithms in a compact, human-readable, and machine-friendly form. Its design is inspired by the needs of mathematical experimentation, algorithmic exploration, and large-scale automated discovery—especially in the context of the OEIS (Online Encyclopedia of Integer Sequences).
 
-Key features of LODA include:
+What sets LODA apart is its intentionally simple and regular syntax. Every program consists of a short sequence of clear, deterministic instructions operating on an infinite array of integer-valued memory cells. This simplicity is not just for human readability: it enables powerful automation. Machines and algorithms can efficiently generate, mine, analyze, and optimize LODA programs, making the language ideal for program synthesis, evolutionary search, and automated sequence discovery.
 
-- **Simplicity:** The language uses a small set of instructions, each with clear semantics, making programs easy to read and reason about.
-- **Unbounded Memory:** Programs operate on an infinite array of integer-valued memory cells, accessible by index.
-- **Arithmetic Focus:** LODA provides a rich set of arithmetic, logical, and number-theoretic operations, enabling concise expression of complex algorithms.
-- **Deterministic Loops:** Loops are based on lexicographical descent of memory regions, ensuring all programs eventually halt (no infinite loops).
-- **Sequence Generation:** LODA is especially suited for defining and computing integer sequences, such as those found in the OEIS.
+### Key features of LODA
 
-LODA programs are typically short, transparent, and easy to analyze, making the language a valuable tool for both research and education in computational mathematics.
+- ✨ **Minimalism & Clarity:** A small, well-defined set of instructions with transparent semantics makes programs easy to read, write, and reason about.
+- ➗ **Arithmetic & Number Theory:** LODA provides a rich set of arithmetic, logical, and number-theoretic operations, enabling concise expression of advanced algorithms.
+- 🧠 **Unbounded Memory:** Programs operate on an infinite array of integer memory cells, accessible by index, supporting complex computations with simple code.
+- 🔁 **Terminating Loops:** Loops are based on lexicographical descent of memory regions, guaranteeing that all programs eventually halt (no infinite loops).
+- 🤖 **Machine-Friendliness:** The uniform structure and lack of syntactic noise make LODA especially suitable for automated program generation, mining, and large-scale analysis by computers.
+- 🔢 **Sequence Generation:** LODA is purpose-built for defining and computing integer sequences, with conventions that make it easy to use as a sequence generator or for automated discovery.
+
+LODA programs are typically short, transparent, and easy to analyze, making the language a valuable tool for both research and education in computational mathematics, as well as for automated algorithm discovery and optimization.
+
+
+### Content
 
 This document is organized as follows:
 
 * [Overview](#overview)
-* [Example Programs](#example-programs)
 * [Language Overview](#language-overview)
-    * [Basic Structure and Semantics](#basics)
-    * [Memory](#memory)
-    * [Operations](#operations)
-    * [Integer Sequences](#integer-sequences)
+  * [Basic Structure and Semantics](#basics)
+  * [Memory](#memory)
+  * [Operations](#operations)
+  * [Integer Sequences](#integer-sequences)
 * [Operations Reference](#operations-ref)
    * [`mov` (Assignment)](#mov)
    * [`add` (Addition)](#add)
@@ -63,56 +68,6 @@ This document is organized as follows:
    * [`seq` (Sequence)](#seq)
 * [Termination](#termination)
 
-<a name="example-programs"/>
-
-## Example Programs
-
-Below are example LODA programs, illustrating the language's style and capabilities:
-
-**Example 1: Unary representation of natural numbers ([A000042](https://oeis.org/A000042))**
-
-```asm
-; Computes the unary representation of n (a number with n consecutive 1s)
-mov $1,10   ; $1 := 10 (base)
-pow $1,$0   ; $1 := 10^n
-mov $0,$1   ; $0 := 10^n
-div $0,9    ; $0 := (10^n) / 9 (yields n consecutive 1s)
-```
-
----
-
-**Example 2: Initial digit of n ([A000030](https://oeis.org/A000030))**
-
-```asm
-; Computes the initial digit of n
-mov $1,$0     ; $1 := n (copy input)
-max $1,1      ; $1 := max($1, 1) (ensure at least 1 for log)
-log $1,10     ; $1 := floor(log_10($1)) (number of digits minus 1)
-mov $2,10     ; $2 := 10 (base)
-pow $2,$1     ; $2 := 10^$1 (largest power of 10 <= n)
-div $0,$2     ; $0 := floor(n / 10^k) (extract initial digit)
-```
-
----
-
-**Example 3: Fibonacci numbers ([A000045](https://oeis.org/A000045))**
-
-```asm
-; Computes the n-th Fibonacci number
-mov $1,0     ; $1 := 0 (F(0))
-mov $2,1     ; $2 := 1 (F(1))
-lpb $0       ; while $0 > 0
-  mov $3,$2  ; $3 := $2
-  add $2,$1  ; $2 := $2 + $1
-  mov $1,$3  ; $1 := $3 (old $2)
-  sub $0,1   ; $0 := $0 - 1
-lpe
-mov $0,$1    ; $0 := $1 (F(n))
-```
-
----
-
-These examples demonstrate how LODA programs use simple instructions, memory cells, and loops to compute a wide range of integer sequences and mathematical functions. For more details, see the following sections.
 
 <a name="language-overview"/>
 
@@ -120,20 +75,42 @@ These examples demonstrate how LODA programs use simple instructions, memory cel
 
 <a name="basics"/>
 
-
 ### Basic Structure and Semantics
+
 
 A LODA program consists of a sequence of operations, each on its own line, executed from top to bottom (except for loops and conditionals, which alter control flow). Each instruction follows the format `opcode target,source`.
 
 Comments start with a semicolon (`;`) and continue to the end of the line. Use comments to clarify the purpose of instructions or document the logic of your program.
 
-Example:
+Below is a complete LODA program that computes the n-th Fibonacci number ([A000045](https://oeis.org/A000045)):
 
 ```asm
-mov $1,10   ; Set $1 to 10
-add $1,5    ; Add 5 to $1 (now $1 = 15)
-; This is a comment line
+; A000045: Fibonacci numbers: F(n) = F(n-1) + F(n-2) with F(0) = 0 and F(1) = 1.
+mov $1,0
+mov $2,1
+lpb $0
+  mov $3,$2
+  add $2,$1
+  mov $1,$3
+  sub $0,1
+lpe
+mov $0,$1
 ```
+
+Explanation:
+
+1. The program initializes two memory cells: `$1` is set to 0 (F(0)), and `$2` is set to 1 (F(1)).
+2. The loop (`lpb $0 ... lpe`) runs as long as the input `$0` (n) is is non-negative. In each iteration:
+  - `$3` temporarily stores the previous Fibonacci value (`$2`).
+  - `$2` is updated to the sum of `$2` and `$1` (the next Fibonacci number).
+  - `$1` is updated to the old value of `$2` (from `$3`).
+  - `$0` is decremented by 1.
+3. When the loop finishes, `$1` contains the n-th Fibonacci number, which is then copied to `$0` as the program's output.
+
+This example demonstrates how LODA uses simple instructions, memory cells, and loops to compute a classic integer sequence.
+```
+
+
 
 LODA's syntax is intentionally simple and assembly-like, with a small set of well-defined operations. Programs are concise and easy to analyze, making the language ideal for mathematical experimentation and sequence generation. See the following sections for details on memory, operands, and available operations.
 
