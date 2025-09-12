@@ -14,7 +14,7 @@ LODA combines a minimalist assembly-like language, a distributed mining platform
 ## What is LODA?
 
 - ✨ **A Language:** LODA (_Lexicographical Order Descent Assembly_) is a simple, assembly-inspired language designed for expressing number-theoretic algorithms and integer sequences in a compact, human- and machine-friendly way.
-- 🤖 **A Mining Platform:** Harness distributed compute power and smart search algorithms to automatically discover new programs and formulas for OEIS sequences.
+- 🤖 **A Mining Platform:** Harness distributed compute power and smart search algorithms to automatically discover new programs and formulas for integer sequences.
 - 🌍 **A Community:** Join researchers, enthusiasts, and contributors in exploring the world of integer sequences, program mining, and algorithmic discovery.
 
 ## Key Features
@@ -26,21 +26,8 @@ LODA combines a minimalist assembly-like language, a distributed mining platform
 
 ## Get Started
 
-- 🔎 **Explore Programs:** Browse the [LODA program database](https://programs.loda-lang.org/) to see thousands of programs for OEIS sequences.
+- 🔎 **Explore Programs:** Browse the [LODA program database](https://loda-lang.org/programs) to see thousands of programs for OEIS sequences.
 - 📖 **Learn the Language:** Read the [LODA specification](/spec) for a complete guide to syntax, memory, and operations.
 - 🛠️ **Try Mining:** Contribute compute power or run your own miner—see [how to contribute](/contributing).
 - 💡 **Submit Your Program:** Have a new or improved program? Submit it via the [API](https://api.loda-lang.org/v2/openapi) or GitHub.
 - 💬 **Join the Community:** Connect on [Discord](https://loda-lang.org/discord) for help, discussion, and collaboration.
-
-## Why LODA?
-
-LODA makes it possible to:
-
-- Discover new mathematical relationships and formulas.
-- Automate the search for efficient algorithms.
-- Contribute to a growing, open database of integer sequence programs.
-- Learn and experiment with number theory, programming, and algorithmic thinking.
-
----
-
-Whether you're a mathematician, programmer, or simply curious, LODA invites you to explore, contribute, and help advance the frontier of integer sequence discovery!
