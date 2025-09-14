@@ -198,8 +198,8 @@
         row1.className = 'col1';
         const linkbox = document.createElement('div');
         linkbox.className = 'linkbox';
-        // LODA program link if available
-        if (entry.id && entry.id.startsWith('A')) {
+        // Show LODA program link only if 'loda' keyword is present
+        if (entry.keywords && Array.isArray(entry.keywords) && entry.keywords.includes('loda')) {
           const lodaLink = document.createElement('a');
           lodaLink.target = '_blank';
           lodaLink.href = `https://loda-lang.org/edit/?oeis=${entry.id.slice(1)}`;
@@ -253,7 +253,7 @@
         let end = state.start + results.length;
         document.getElementById('results-info').textContent = `Showing ${state.start+1}-${end} of ${total} results:`;
       }
-      renderSequenceList(results);
+  renderSequenceList(results);
       renderPagination();
     }
 
