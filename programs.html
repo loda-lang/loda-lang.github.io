@@ -117,7 +117,7 @@
     // --- State ---
     let state = {
       search: '',
-      keywords: [], // e.g. ['loda', '-dumb']
+      keywords: ['loda','-dumb'], // default keywords
       start: 0,
       limit: 100,
       count: 0
@@ -132,7 +132,10 @@
       } else if (minusIdx !== -1) {
         state.keywords.splice(minusIdx, 1);
       } else {
-        state.keywords.push(k);
+        // Prevent duplicate 'loda' if already present
+        if (!state.keywords.includes(k)) {
+          state.keywords.push(k);
+        }
       }
       state.start = 0;
       update();
