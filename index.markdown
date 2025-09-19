@@ -2,32 +2,22 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title: Welcome to LODA
+title: Overview
 short_title: Overview
 layout: home
 ---
 
-LODA is an open-source project for discovering, analyzing, and sharing concise programs that generate integer sequences—especially those from the [On-Line Encyclopedia of Integer Sequences® (OEIS®)](https://oeis.org/).
+LODA is an open-source project focused on the systematic discovery and analysis of programs and formulas for integer sequences, with a particular emphasis on those catalogued in the [On-Line Encyclopedia of Integer Sequences® (OEIS®)](https://oeis.org/).
 
-LODA combines a minimalist assembly-like language, a distributed mining platform, and a vibrant community of contributors. Our mission: to reverse engineer formulas and efficient algorithms for a wide range of non-trivial integer sequences, advancing both mathematical knowledge and automated program discovery.
+The project integrates a minimalist assembly language and a distributed mining infrastructure. Its overarching objective is to reverse engineer efficient algorithms and closed-form expressions for a broad spectrum of non-trivial integer sequences, thereby advancing mathematical knowledge and the automation of program synthesis. The core components of LODA are:
 
-## What is LODA?
+- **Domain-Specific Language:** A minimalist assembly language and computational model designed for number-theoretic and combinatorial algorithms for integer sequences. The language's design prioritizes both human readability and machine interpretability, enabling both manual inspection and automated analysis and optimization.
+- **Distributed Mining Infrastructure:** LODA uses distributed computing, advanced search methods and machine learning to autonomously find new programs and closed-form representations for integer sequences.
 
-- ✨ **A Language:** LODA (_Lexicographical Order Descent Assembly_) is a simple, assembly-inspired language designed for expressing number-theoretic algorithms and integer sequences in a compact, human- and machine-friendly way.
-- 🤖 **A Mining Platform:** Harness distributed compute power and smart search algorithms to automatically discover new programs and formulas for integer sequences.
-- 🌍 **A Community:** Join researchers, enthusiasts, and contributors in exploring the world of integer sequences, program mining, and algorithmic discovery.
+## Getting Started
 
-## Key Features
-
-- **Minimalist Syntax:** Easy to read, write, and analyze.
-- **Rich Arithmetic & Number Theory:** Supports a wide range of operations for concise, powerful programs.
-- **Automated Program Mining:** Distributed miners and machine learning help uncover new algorithms every day.
-- **Open & Collaborative:** All programs and tools are open source. Contributions are welcome!
-
-## Get Started
-
-- 🔎 **Explore Programs:** Browse the [LODA program database](https://loda-lang.org/programs) to see thousands of programs for OEIS sequences.
-- 📖 **Learn the Language:** Read the [LODA specification](/spec) for a complete guide to syntax, memory, and operations.
-- 🛠️ **Try Mining:** Contribute compute power or run your own miner—see [how to contribute](/contributing).
-- 💡 **Submit Your Program:** Have a new or improved program? Submit it via the [API](https://api.loda-lang.org/v2/openapi) or GitHub.
-- 💬 **Join the Community:** Connect on [Discord](https://loda-lang.org/discord) for help, discussion, and collaboration.
+- Browse the [LODA program database](https://loda-lang.org/programs) to access a wide range of programs corresponding to OEIS sequences.
+- Install the [LODA command-line tool](https://loda-lang.org/install) to execute programs on your local machine.
+- Contribute computational resources by running a miner to assist in the automated search for new programs. For details, see [how to contribute](/contributing).
+- Read the [LODA specification](/spec) for a comprehensive guide to the language's syntax and operational semantics.
+- Contact us and join discussions on our [Discord server](https://loda-lang.org/discord).

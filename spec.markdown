@@ -9,21 +9,8 @@ nav_order: 3
 
 ## Overview
 
-LODA is a minimalist, assembly-like programming language created for expressing integer sequences and number-theoretic algorithms in a compact, human-readable, and machine-friendly form. Its design is inspired by the needs of mathematical experimentation, algorithmic exploration, and large-scale automated discovery—especially in the context of the [OEIS](https://www.oeis.org) (Online Encyclopedia of Integer Sequences).
-
-What sets LODA apart is its intentionally simple and regular syntax. Every program consists of a short sequence of clear, deterministic instructions operating on an infinite array of integer-valued memory cells. This simplicity is not just for human readability: it enables powerful automation. Machines and algorithms can efficiently generate, mine, analyze, and optimize LODA programs, making the language ideal for program synthesis, evolutionary search, and automated sequence discovery.
-
-### Key features of LODA
-
-- ✨ **Minimalism & Clarity:** A small, well-defined set of instructions with transparent semantics makes programs easy to read, write, and reason about.
-- ➗ **Arithmetic & Number Theory:** LODA provides a rich set of arithmetic, logical, and number-theoretic operations, enabling concise expression of advanced algorithms.
-- 🧠 **Unbounded Memory:** Programs operate on an infinite array of integer memory cells, accessible by index, supporting complex computations with simple code.
-- 🔁 **Terminating Loops:** Loops are based on lexicographical descent of memory regions, guaranteeing that all programs eventually halt (no infinite loops).
-- 🤖 **Machine-Friendliness:** The uniform structure and lack of syntactic noise make LODA especially suitable for automated program generation, mining, and large-scale analysis by computers.
-- 🔢 **Sequence Generation:** LODA is purpose-built for defining and computing integer sequences, with conventions that make it easy to use as a sequence generator or for automated discovery.
-
-LODA programs are typically short, transparent, and easy to analyze, making the language a valuable tool for both research and education in computational mathematics, as well as for automated algorithm discovery and optimization.
-
+LODA is a minimalist, assembly-like programming language designed for expressing number-theoretic and combinatorial algorithms, and for generating integer sequences.
+The simple language design enables efficient execution, optimization, and synthesis of programs using evolutionary search, distributed computing and machine learning.
 
 ### Content
 
