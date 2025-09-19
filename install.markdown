@@ -30,7 +30,7 @@ curl -fsSLo loda.exe https://github.com/loda-lang/loda-cpp/releases/latest/downl
 loda setup
 ```
 
-## 🏁 Getting Started
+## Getting Started
 
 Try evaluating a classic sequence. For example, to compute the Fibonacci numbers:
 
@@ -45,9 +45,15 @@ loda mine         # Single core
 loda mine -p      # Multi-core (parallel)
 ```
 
+To upgrade to the latest version, run:
+
+```bash
+loda upgrade
+```
+
 For a full list of commands and options, run `loda --help` or see below:
 
-```
+```txt
 Usage: loda <command> <options>
 
 Commands:
@@ -85,12 +91,4 @@ Options:
   -p                   Parallel mining using default number of instances
   -P <number>          Parallel mining using custom number of instances
   -H <number>          Number of mining hours (default: unlimited)
-```
-
-## Upgrading LODA
-
-To upgrade to the latest version, run:
-
-```bash
-loda upgrade
 ```

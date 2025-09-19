@@ -9,9 +9,9 @@ layout: home
 
 LODA is an open-source project focused on the systematic discovery and analysis of programs and formulas for integer sequences, with a particular emphasis on those catalogued in the [On-Line Encyclopedia of Integer Sequences® (OEIS®)](https://oeis.org/).
 
-The project integrates a minimalist assembly language and a distributed mining infrastructure. Its overarching objective is to reverse engineer efficient algorithms and closed-form expressions for a broad spectrum of non-trivial integer sequences, thereby advancing mathematical knowledge and the automation of program synthesis. The core components of LODA are:
+The project integrates a minimalist assembly language and a distributed mining infrastructure. Its overarching objective is to reverse engineer efficient algorithms and closed-form expressions for a broad spectrum of non-trivial integer sequences. The core components of LODA are:
 
-- **Domain-Specific Language:** A minimalist assembly language and computational model designed for number-theoretic and combinatorial algorithms for integer sequences. The language's design prioritizes both human readability and machine interpretability, enabling both manual inspection and automated analysis and optimization.
+- **Domain-Specific Language:** A minimalist assembly language and computational model designed for number-theoretic and combinatorial algorithms for integer sequences.
 - **Distributed Mining Infrastructure:** LODA uses distributed computing, advanced search methods and machine learning to autonomously find new programs and closed-form representations for integer sequences.
 
 ## Getting Started

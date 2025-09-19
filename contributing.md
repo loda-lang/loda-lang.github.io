@@ -6,7 +6,7 @@ permalink: /contributing/
 nav_order: 1
 ---
 
-LODA is a collaborative, open-source project dedicated to discovering, analyzing, and sharing integer sequence programs. There are several ways you can get involved and make a meaningful contributions.
+LODA is a collaborative, open-source project dedicated to discovering, analyzing, and sharing integer sequence programs. There are several ways you can get involved and make meaningful contributions.
 
 ## Program Mining
 
