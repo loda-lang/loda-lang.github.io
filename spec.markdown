@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Specification
+short_title: Spec
 permalink: /spec/
-nav_order: 3
+nav_order: 2
 ---
 
 <a name="overview"/>
