@@ -3,7 +3,7 @@ layout: page
 title: Installation
 short_title: Install
 permalink: /install/
-nav_order: 1
+nav_order: 2
 ---
 
 The LODA command-line tool lets you explore, evaluate, and mine programs for integer sequences. It’s available for Linux, macOS, and Windows. Follow the instructions below to get started on your platform.

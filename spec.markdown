@@ -2,7 +2,7 @@
 layout: page
 title: Specification
 permalink: /spec/
-nav_order: 2
+nav_order: 1
 ---
 
 <a name="overview"/>
