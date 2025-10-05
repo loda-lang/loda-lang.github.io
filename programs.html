@@ -124,6 +124,19 @@
       count: 0
     };
 
+    // --- Load state from query string ---
+
+    if(document.location.href.indexOf("q=") != -1){
+      r=document.location.href.slice(document.location.href.indexOf("q=")+2)
+      if(r.indexOf("&")!=-1)r = r.slice(0,r.indexOf("&"))
+      state.search = decodeURIComponent(r)
+    }
+    if(document.location.href.indexOf("kw=") != -1){
+      r=document.location.href.slice(document.location.href.indexOf("kw=")+3)
+      if(r.indexOf("&")!=-1)r = r.slice(0,r.indexOf("&"))
+      state.keywords = r.split('+')
+    }
+    
     // --- Helpers for keyword selection ---
     function toggleKeyword(k) {
       let idx = state.keywords.indexOf(k);
@@ -247,6 +260,8 @@
       document.getElementById('search-input').value = state.search;
       document.getElementById('results-info').textContent = 'Loading...';
       let { total, results } = await fetchSequences();
+      // update query string
+      window.history.pushState(null,'','/programs?q='+encodeURIComponent(state.search)+'&kw='+state.keywords.join('+'));
       state.count = total;
       if (results.length === 0) {
         document.getElementById('results-info').textContent = 'No results.';
