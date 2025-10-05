@@ -126,16 +126,9 @@
 
     // --- Load state from query string ---
 
-    if(document.location.href.indexOf("q=") != -1){
-      r=document.location.href.slice(document.location.href.indexOf("q=")+2)
-      if(r.indexOf("&")!=-1)r = r.slice(0,r.indexOf("&"))
-      state.search = decodeURIComponent(r)
-    }
-    if(document.location.href.indexOf("kw=") != -1){
-      r=document.location.href.slice(document.location.href.indexOf("kw=")+3)
-      if(r.indexOf("&")!=-1)r = r.slice(0,r.indexOf("&"))
-      state.keywords = r.split('+')
-    }
+    let state_params=new URLSearchParams(window.location.search);
+    if(params.get('q')!==null)state.search=params.get('q');
+    if(params.get('kw')!==null)state.keywords=params.get('kw').split(' ');
     
     // --- Helpers for keyword selection ---
     function toggleKeyword(k) {
@@ -260,8 +253,13 @@
       document.getElementById('search-input').value = state.search;
       document.getElementById('results-info').textContent = 'Loading...';
       let { total, results } = await fetchSequences();
+      
       // update query string
-      window.history.pushState(null,'','/programs?q='+encodeURIComponent(state.search)+'&kw='+state.keywords.join('+'));
+      let state_params=new URLSearchParams();
+      state_params.set('q',state.search);
+      state_params.set('kw',state.keywords.join(' '));
+      window.history.pushState(null,'','/programs?'+state_params.toString());
+      
       state.count = total;
       if (results.length === 0) {
         document.getElementById('results-info').textContent = 'No results.';
