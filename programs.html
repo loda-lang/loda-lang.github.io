@@ -119,8 +119,8 @@
     let state_params = new URLSearchParams(window.location.search);
     let hasQuery = (state_params.get('q') !== null) || (state_params.get('kw') !== null);
     let state = {
-      search: hasQuery && state_params.get('q') !== null ? state_params.get('q') : '',
-      keywords: hasQuery && state_params.get('kw') !== null ? state_params.get('kw').split(' ') : ['loda','-dumb'], // default keywords
+      search: state_params.get('q') !== null ? state_params.get('q') : '',
+      keywords: hasQuery ? (state_params.get('kw') !== null ? state_params.get('kw').split(' ') : []) : ['loda','-dumb'], // default keywords
       start: 0,
       limit: 100,
       count: 0
