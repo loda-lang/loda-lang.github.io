@@ -127,8 +127,8 @@
     // --- Load state from query string ---
 
     let state_params = new URLSearchParams(window.location.search);
-    if (params.get('q') !== null) state.search = params.get('q');
-    if (params.get('kw') !== null) state.keywords = params.get('kw').split(' ');
+    if (state_params.get('q') !== null) state.search = state_params.get('q');
+    if (state_params.get('kw') !== null) state.keywords = state_params.get('kw').split(' ');
     
     // --- Helpers for keyword selection ---
     function toggleKeyword(k) {
