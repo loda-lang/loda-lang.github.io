@@ -127,8 +127,12 @@
     // --- Load state from query string ---
 
     let state_params = new URLSearchParams(window.location.search);
-    if (state_params.get('q') !== null) state.search = state_params.get('q');
-    if (state_params.get('kw') !== null) state.keywords = state_params.get('kw').split(' ');
+    if (state_params.get('q') !== null) {
+      state.search = state_params.get('q');
+    }
+    if (state_params.get('kw') !== null) {
+      state.keywords = state_params.get('kw').split(' ');
+    }
     
     // --- Helpers for keyword selection ---
     function toggleKeyword(k) {
@@ -256,9 +260,16 @@
       
       // update query string
       let state_params = new URLSearchParams();
-      state_params.set('q', state.search);
-      state_params.set('kw', state.keywords.join(' '));
-      window.history.pushState(null, '', '/programs?' + state_params.toString());
+      if (state.search && state.search.trim() !== '') {
+        state_params.set('q', state.search);
+      }
+      const kwString = state.keywords.join(' ').trim();
+      if (kwString !== '') {
+        state_params.set('kw', kwString);
+      }
+      const paramString = state_params.toString();
+      const url = paramString ? ('/programs?' + paramString) : '/programs';
+      window.history.pushState(null, '', url);
       
       state.count = total;
       if (results.length === 0) {
