@@ -126,9 +126,9 @@
 
     // --- Load state from query string ---
 
-    let state_params=new URLSearchParams(window.location.search);
-    if(params.get('q')!==null)state.search=params.get('q');
-    if(params.get('kw')!==null)state.keywords=params.get('kw').split(' ');
+    let state_params = new URLSearchParams(window.location.search);
+    if (params.get('q') !== null) state.search = params.get('q');
+    if (params.get('kw') !== null) state.keywords = params.get('kw').split(' ');
     
     // --- Helpers for keyword selection ---
     function toggleKeyword(k) {
@@ -255,10 +255,10 @@
       let { total, results } = await fetchSequences();
       
       // update query string
-      let state_params=new URLSearchParams();
-      state_params.set('q',state.search);
-      state_params.set('kw',state.keywords.join(' '));
-      window.history.pushState(null,'','/programs?'+state_params.toString());
+      let state_params = new URLSearchParams();
+      state_params.set('q', state.search);
+      state_params.set('kw', state.keywords.join(' '));
+      window.history.pushState(null, '', '/programs?' + state_params.toString());
       
       state.count = total;
       if (results.length === 0) {
@@ -267,7 +267,7 @@
         let end = state.start + results.length;
         document.getElementById('results-info').textContent = `Showing ${state.start+1}-${end} of ${total} results:`;
       }
-  renderSequenceList(results);
+      renderSequenceList(results);
       renderPagination();
     }
 
