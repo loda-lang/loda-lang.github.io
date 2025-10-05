@@ -116,23 +116,15 @@
     }
 
     // --- State ---
+    let state_params = new URLSearchParams(window.location.search);
+    let hasQuery = (state_params.get('q') !== null) || (state_params.get('kw') !== null);
     let state = {
-      search: '',
-      keywords: ['loda','-dumb'], // default keywords
+      search: hasQuery && state_params.get('q') !== null ? state_params.get('q') : '',
+      keywords: hasQuery && state_params.get('kw') !== null ? state_params.get('kw').split(' ') : ['loda','-dumb'], // default keywords
       start: 0,
       limit: 100,
       count: 0
     };
-
-    // --- Load state from query string ---
-
-    let state_params = new URLSearchParams(window.location.search);
-    if (state_params.get('q') !== null) {
-      state.search = state_params.get('q');
-    }
-    if (state_params.get('kw') !== null) {
-      state.keywords = state_params.get('kw').split(' ');
-    }
     
     // --- Helpers for keyword selection ---
     function toggleKeyword(k) {
