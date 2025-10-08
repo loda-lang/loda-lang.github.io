@@ -1,3 +1,6 @@
+---
+layout: none
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,12 +64,7 @@
           </span>
         </label>
         <div class="trigger">
-          <a class="page-link is-active" href="https://loda-lang.org/programs">Programs</a>
-          <a class="page-link" href="/spec">Specification</a>
-          <a class="page-link" href="/install">Install</a>
-          <a class="page-link" href="/contribute">Contribute</a>
-          <a class="page-link" href="/mcp">MCP</a>
-          <a class="page-link" href="https://api.loda-lang.org/v2/openapi">API</a>
+          {% include navigation.html active_url="https://loda-lang.org/programs" %}
         </div>
       </nav>
     </div>

@@ -1,0 +1,7 @@
+{% comment %}
+  Renders the navigation links from the centralized navigation data.
+  Can optionally mark a specific page as active.
+{% endcomment %}
+{% for item in site.data.navigation.items %}
+  <a class="page-link {% if item.url == include.active_url %}is-active{% elsif item.url == page.url %}is-active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+{% endfor %}

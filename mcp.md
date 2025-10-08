@@ -1,9 +1,7 @@
 ---
 layout: page
 title: MCP Server
-short_title: MCP
 permalink: /mcp/
-nav_order: 4
 ---
 
 The LODA Model Context Protocol (MCP) server enables AI agent systems to access the [LODA API](https://api.loda-lang.org/v2/). The server endpoint is:
