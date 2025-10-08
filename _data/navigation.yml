@@ -3,8 +3,7 @@
 
 items:
   - title: "Programs"
-    url: "https://loda-lang.org/programs"
-    external: true
+    url: "/programs"
   - title: "Specification"
     url: "/spec"
   - title: "Install"
