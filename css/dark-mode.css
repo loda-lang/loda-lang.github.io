@@ -4,8 +4,8 @@
   /* Light mode colors (default) */
   --bg-color: #ffffff;
   --text-color: #111111;
-  --header-bg: #424242;
-  --header-text: #fdfdfd;
+  --header-bg: #f5f5f5;
+  --header-text: #2a2a2a;
   --link-color: #2a7ae2;
   --link-visited: #1756a9;
   --border-color: #e8e8e8;
@@ -155,24 +155,4 @@ code {
 
 .theme-toggle:hover {
   opacity: 0.7;
-}
-
-/* Position toggle in the navigation */
-.site-nav {
-  position: relative;
-}
-
-.site-nav .theme-toggle {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-@media screen and (min-width: 600px) {
-  .site-nav .theme-toggle {
-    position: static;
-    transform: none;
-    margin-left: 15px;
-  }
 }

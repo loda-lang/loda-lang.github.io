@@ -100,17 +100,23 @@
       let button = header.querySelector('.theme-toggle');
       if (!button) {
         button = document.createElement('button');
-        button.className = 'theme-toggle';
+        button.className = 'theme-toggle page-link';
         button.onclick = cycleTheme;
         
-        // Try to add to nav, or directly to header wrapper
-        const nav = header.querySelector('.site-nav');
-        if (nav) {
-          nav.appendChild(button);
+        // Add to the trigger div to be part of navigation flow
+        const trigger = header.querySelector('.trigger');
+        if (trigger) {
+          trigger.appendChild(button);
         } else {
-          const wrapper = header.querySelector('.wrapper');
-          if (wrapper) {
-            wrapper.appendChild(button);
+          // Fallback: add to nav or wrapper
+          const nav = header.querySelector('.site-nav');
+          if (nav) {
+            nav.appendChild(button);
+          } else {
+            const wrapper = header.querySelector('.wrapper');
+            if (wrapper) {
+              wrapper.appendChild(button);
+            }
           }
         }
       }
