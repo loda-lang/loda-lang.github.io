@@ -1,7 +1,6 @@
 <header class="site-header">
 
   <div class="wrapper">
-    {%- assign my_pages = site.pages | sort: "nav_order" -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
       <picture>
   <source srcset="/images/loda-top-icon.png 1x, /images/loda-top-icon@2x.png 2x, /images/loda-top-icon@3x.png 3x">
@@ -21,17 +20,7 @@
         </label>
 
         <div class="trigger">
-          <a class="page-link" href="https://loda-lang.org/programs">Programs</a>
-          {% for my_page in my_pages %}
-            {% if my_page.nav_order >= 0 %}
-              {% if my_page.short_title %}
-                <a class="page-link {% if my_page.url == page.url %}is-active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.short_title | escape }}</a>
-              {% else if my_page.title %}
-                <a class="page-link {% if my_page.url == page.url %}is-active{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | escape }}</a>
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-          <a class="page-link" href="https://api.loda-lang.org/v2/openapi">API</a>
+          {% include navigation.html %}
         </div>
       </nav>
 

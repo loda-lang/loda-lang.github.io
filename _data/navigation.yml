@@ -1,0 +1,17 @@
+# Central navigation configuration for LODA website
+# This file defines all navigation links in order
+
+items:
+  - title: "Programs"
+    url: "/programs"
+  - title: "Specification"
+    url: "/spec"
+  - title: "Install"
+    url: "/install"
+  - title: "Contribute"
+    url: "/contribute"
+  - title: "MCP"
+    url: "/mcp"
+  - title: "API"
+    url: "https://api.loda-lang.org/v2/openapi"
+    external: true
