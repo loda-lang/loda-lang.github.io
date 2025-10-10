@@ -8,5 +8,5 @@ items:
     url: "/programs/"
   - title: "Connect"
     url: "/connect/"
-  - title: "Specification"
-    url: "/spec/"
+  - title: "Reference"
+    url: "/reference/"

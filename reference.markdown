@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Specification
-permalink: /spec/
+title: Language Reference
+permalink: /reference/
 ---
 
 <a name="overview"/>
