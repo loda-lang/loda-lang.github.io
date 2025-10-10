@@ -45,6 +45,66 @@ layout: none
     .pagination { margin: 1em 0; }
     .pagination a { margin: 0 0.5em; }
     .prefooter { margin-top: 2em; font-size: small; text-align: center; }
+    .loda-program-container {
+      margin-top: 0.5em;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #f8f9fa;
+    }
+    .loda-program-header {
+      padding: 0.5em;
+      background: #e9ecef;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .loda-program-code {
+      padding: 1em;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9em;
+      line-height: 1.4;
+      overflow-x: auto;
+    }
+    .loda-button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 0.3em 0.8em;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 0.85em;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .loda-button:hover {
+      background: #0056b3;
+      color: white;
+    }
+    .loda-button.secondary {
+      background: #6c757d;
+    }
+    .loda-button.secondary:hover {
+      background: #545b62;
+    }
+    .loading-text {
+      color: #666;
+      font-style: italic;
+    }
+    /* Dark mode styles */
+    body.dark-mode .loda-program-container {
+      border-color: #444;
+      background: #2d2d2d;
+    }
+    body.dark-mode .loda-program-header {
+      background: #3a3a3a;
+      border-bottom-color: #444;
+      color: #e0e0e0;
+    }
+    body.dark-mode .loda-program-code {
+      background: #2d2d2d;
+      color: #e0e0e0;
+    }
   </style>
 </head>
 <body>
@@ -186,11 +246,25 @@ layout: none
       return { total: data.total || 0, results: data.results || [] };
     }
 
+    // --- Fetch LODA program code ---
+    async function fetchLodaProgram(sequenceId) {
+      try {
+        const url = `https://api.loda-lang.org/v2/programs/${sequenceId}`;
+        const resp = await fetch(url);
+        if (!resp.ok) return null;
+        const data = await resp.json();
+        return data.code;
+      } catch (error) {
+        console.error('Error fetching LODA program:', error);
+        return null;
+      }
+    }
+
     // --- Render sequence list ---
     function renderSequenceList(results) {
       const list = document.getElementById('sequence-list');
       list.innerHTML = '';
-      results.forEach(entry => {
+      results.forEach((entry, index) => {
         const row0 = document.createElement('div');
         row0.className = 'col0';
         const oeisLink = document.createElement('a');
@@ -198,26 +272,97 @@ layout: none
         oeisLink.href = `https://oeis.org/${entry.id}`;
         oeisLink.textContent = entry.id;
         row0.appendChild(oeisLink);
+        
         const row1 = document.createElement('div');
         row1.className = 'col1';
         const linkbox = document.createElement('div');
         linkbox.className = 'linkbox';
-        // Show LODA program link only if 'loda' keyword is present
+        
+        // Show LODA program button only if 'loda' keyword is present
         if (entry.keywords && Array.isArray(entry.keywords) && entry.keywords.includes('loda')) {
-          const lodaLink = document.createElement('a');
-          lodaLink.target = '_blank';
-          lodaLink.href = `https://loda-lang.org/edit/?oeis=${entry.id.slice(1)}`;
-          lodaLink.textContent = 'LODA';
-          linkbox.appendChild(lodaLink);
+          const lodaButton = document.createElement('button');
+          lodaButton.className = 'loda-button';
+          lodaButton.textContent = 'Show LODA';
+          lodaButton.onclick = () => toggleLodaProgram(entry.id, lodaButton, row1);
+          linkbox.appendChild(lodaButton);
         }
+        
         row1.appendChild(linkbox);
         const desc = document.createElement('div');
         desc.className = 'sequence-description';
         desc.textContent = entry.name;
         row1.appendChild(desc);
+        
         list.appendChild(row0);
         list.appendChild(row1);
       });
+    }
+
+    // --- Toggle LODA program display ---
+    async function toggleLodaProgram(sequenceId, button, container) {
+      const programId = `loda-program-${sequenceId}`;
+      let programContainer = document.getElementById(programId);
+      
+      if (programContainer) {
+        // If program is already shown, hide it
+        programContainer.remove();
+        button.textContent = 'Show LODA';
+        return;
+      }
+      
+      // Show loading state
+      button.textContent = 'Loading...';
+      button.disabled = true;
+      
+      // Fetch the program code
+      const code = await fetchLodaProgram(sequenceId);
+      
+      if (code) {
+        // Create program container
+        programContainer = document.createElement('div');
+        programContainer.id = programId;
+        programContainer.className = 'loda-program-container';
+        
+        // Create header with edit button
+        const header = document.createElement('div');
+        header.className = 'loda-program-header';
+        
+        const title = document.createElement('span');
+        title.textContent = `LODA Program for ${sequenceId}`;
+        
+        const editButton = document.createElement('a');
+        editButton.className = 'loda-button secondary';
+        editButton.href = `https://loda-lang.org/edit/?oeis=${sequenceId.slice(1)}`;
+        editButton.target = '_blank';
+        editButton.textContent = 'Open in Editor';
+        
+        header.appendChild(title);
+        header.appendChild(editButton);
+        
+        // Create code container
+        const codeContainer = document.createElement('pre');
+        codeContainer.className = 'loda-program-code';
+        const codeElement = document.createElement('code');
+        codeElement.className = 'language-asm';
+        codeElement.textContent = code;
+        codeContainer.appendChild(codeElement);
+        
+        programContainer.appendChild(header);
+        programContainer.appendChild(codeContainer);
+        container.appendChild(programContainer);
+        
+        // Apply syntax highlighting
+        hljs.highlightElement(codeElement);
+        
+        button.textContent = 'Hide LODA';
+      } else {
+        button.textContent = 'Error loading';
+        setTimeout(() => {
+          button.textContent = 'Show LODA';
+        }, 2000);
+      }
+      
+      button.disabled = false;
     }
 
     // --- Render pagination ---
