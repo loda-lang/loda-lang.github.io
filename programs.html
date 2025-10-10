@@ -158,12 +158,39 @@ layout: none
   </div>
   <script>
 
+    // --- Constants ---
+    const API_BASE_URL = 'https://api.loda-lang.org/v2';
+    const EDITOR_BASE_URL = 'https://loda-lang.org/edit/';
+    const OEIS_BASE_URL = 'https://oeis.org/';
+    
+    const BUTTON_STATES = {
+      COLLAPSED: 'LODA ▼',
+      EXPANDED: 'LODA ▲',
+      LOADING: 'Loading...',
+      ERROR: 'Error loading'
+    };
+    
+    const CSS_CLASSES = {
+      LODA_BUTTON: 'loda-button',
+      LODA_BUTTON_SECONDARY: 'loda-button secondary',
+      PROGRAM_CONTAINER: 'loda-program-container',
+      PROGRAM_HEADER: 'loda-program-header',
+      PROGRAM_CODE: 'loda-program-code',
+      LANGUAGE_ASM: 'language-asm'
+    };
+    
+    const DEFAULT_CONFIG = {
+      SEARCH_LIMIT: 100,
+      DEFAULT_KEYWORDS: ['loda', '-dumb'],
+      ERROR_DISPLAY_DURATION: 2000
+    };
+
     // --- Keyword definitions (dynamic from API) ---
     let KEYWORD_DESCRIPTIONS = {};
     let ALL_KEYWORDS = [];
 
     async function fetchKeywords() {
-      const resp = await fetch('https://api.loda-lang.org/v2/stats/keywords');
+      const resp = await fetch(`${API_BASE_URL}/stats/keywords`);
       if (!resp.ok) return;
       const data = await resp.json();
       // data is an array of { name, description }
@@ -181,9 +208,9 @@ layout: none
     let hasQuery = (state_params.get('q') !== null) || (state_params.get('kw') !== null);
     let state = {
       search: state_params.get('q') !== null ? state_params.get('q') : '',
-      keywords: hasQuery ? (state_params.get('kw') !== null ? state_params.get('kw').split(' ') : []) : ['loda','-dumb'], // default keywords
+      keywords: hasQuery ? (state_params.get('kw') !== null ? state_params.get('kw').split(' ') : []) : DEFAULT_CONFIG.DEFAULT_KEYWORDS,
       start: 0,
-      limit: 100,
+      limit: DEFAULT_CONFIG.SEARCH_LIMIT,
       count: 0
     };
     
@@ -238,7 +265,7 @@ layout: none
       let keywords = state.keywords.filter(k => !k.startsWith('-')).join(' ');
       let exclude = state.keywords.filter(k => k.startsWith('-')).map(k => '-'+k.slice(1)).join(' ');
       let query = [keywords, exclude, q].filter(Boolean).join(' ');
-      let url = `https://api.loda-lang.org/v2/sequences/search?q=${encodeURIComponent(query)}&limit=${state.limit}&skip=${state.start}`;
+      let url = `${API_BASE_URL}/sequences/search?q=${encodeURIComponent(query)}&limit=${state.limit}&skip=${state.start}`;
       let resp = await fetch(url);
       if (!resp.ok) return { total: 0, results: [] };
       let data = await resp.json();
@@ -249,7 +276,7 @@ layout: none
     // --- Fetch LODA program code ---
     async function fetchLodaProgram(sequenceId) {
       try {
-        const url = `https://api.loda-lang.org/v2/programs/${sequenceId}`;
+        const url = `${API_BASE_URL}/programs/${sequenceId}`;
         const resp = await fetch(url);
         if (!resp.ok) return null;
         const data = await resp.json();
@@ -269,7 +296,7 @@ layout: none
         row0.className = 'col0';
         const oeisLink = document.createElement('a');
         oeisLink.target = '_blank';
-        oeisLink.href = `https://oeis.org/${entry.id}`;
+        oeisLink.href = `${OEIS_BASE_URL}${entry.id}`;
         oeisLink.textContent = entry.id;
         row0.appendChild(oeisLink);
         
@@ -281,8 +308,8 @@ layout: none
         // Show LODA program button only if 'loda' keyword is present
         if (entry.keywords && Array.isArray(entry.keywords) && entry.keywords.includes('loda')) {
           const lodaButton = document.createElement('button');
-          lodaButton.className = 'loda-button';
-          lodaButton.textContent = 'Show LODA';
+          lodaButton.className = CSS_CLASSES.LODA_BUTTON;
+          lodaButton.textContent = BUTTON_STATES.COLLAPSED;
           lodaButton.onclick = () => toggleLodaProgram(entry.id, lodaButton, row1);
           linkbox.appendChild(lodaButton);
         }
@@ -306,12 +333,12 @@ layout: none
       if (programContainer) {
         // If program is already shown, hide it
         programContainer.remove();
-        button.textContent = 'Show LODA';
+        button.textContent = BUTTON_STATES.COLLAPSED;
         return;
       }
       
       // Show loading state
-      button.textContent = 'Loading...';
+      button.textContent = BUTTON_STATES.LOADING;
       button.disabled = true;
       
       // Fetch the program code
@@ -321,18 +348,18 @@ layout: none
         // Create program container
         programContainer = document.createElement('div');
         programContainer.id = programId;
-        programContainer.className = 'loda-program-container';
+        programContainer.className = CSS_CLASSES.PROGRAM_CONTAINER;
         
         // Create header with edit button
         const header = document.createElement('div');
-        header.className = 'loda-program-header';
+        header.className = CSS_CLASSES.PROGRAM_HEADER;
         
         const title = document.createElement('span');
         title.textContent = `LODA Program for ${sequenceId}`;
         
         const editButton = document.createElement('a');
-        editButton.className = 'loda-button secondary';
-        editButton.href = `https://loda-lang.org/edit/?oeis=${sequenceId.slice(1)}`;
+        editButton.className = CSS_CLASSES.LODA_BUTTON_SECONDARY;
+        editButton.href = `${EDITOR_BASE_URL}?oeis=${sequenceId.slice(1)}`;
         editButton.target = '_blank';
         editButton.textContent = 'Open in Editor';
         
@@ -341,9 +368,9 @@ layout: none
         
         // Create code container
         const codeContainer = document.createElement('pre');
-        codeContainer.className = 'loda-program-code';
+        codeContainer.className = CSS_CLASSES.PROGRAM_CODE;
         const codeElement = document.createElement('code');
-        codeElement.className = 'language-asm';
+        codeElement.className = CSS_CLASSES.LANGUAGE_ASM;
         codeElement.textContent = code;
         codeContainer.appendChild(codeElement);
         
@@ -354,12 +381,12 @@ layout: none
         // Apply syntax highlighting
         hljs.highlightElement(codeElement);
         
-        button.textContent = 'Hide LODA';
+        button.textContent = BUTTON_STATES.EXPANDED;
       } else {
-        button.textContent = 'Error loading';
+        button.textContent = BUTTON_STATES.ERROR;
         setTimeout(() => {
-          button.textContent = 'Show LODA';
-        }, 2000);
+          button.textContent = BUTTON_STATES.COLLAPSED;
+        }, DEFAULT_CONFIG.ERROR_DISPLAY_DURATION);
       }
       
       button.disabled = false;
