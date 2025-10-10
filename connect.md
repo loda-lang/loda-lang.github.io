@@ -79,23 +79,23 @@ https://api.loda-lang.org/v2/mcp/
 
 Once connected, you can ask your AI assistant to perform complex LODA operations:
 
-```text
+```txt
 Show me the current LODA database statistics and find the top 5 contributors.
 ```
 
-```text
+```txt
 Search for sequences related to prime numbers and show me the LODA program for the first result.
 ```
 
-```text
+```txt
 Find the LODA program for A000045 (Fibonacci), then modify it to compute only even Fibonacci numbers and test the result.
 ```
 
-```text
+```txt
 What are the most commonly used LODA programs (highest usage stats) and what sequences do they compute?
 ```
 
-```text
+```txt
 Search for sequences with the keyword 'core' but exclude those marked as 'hard', then analyze the first program's dependencies.
 ```
 

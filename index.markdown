@@ -11,7 +11,8 @@ LODA is a language and an open-source project focused on the systematic discover
 The project centers around a assembly language designed for:
 * enabling automated and distributed program mining,
 * supporting efficient execution and optimization,
-* allowing exports as formulas and feeding them back into computer algebra systems and theorem provers.
+* allowing conversion to formulas,
+* feeding them back into computer algebra systems and theorem provers.
 
 LODA uses distributed computing to search for new programs automatically. Volunteers contribute computing power through BOINC to help discover shorter, more efficient programs for sequences that don't yet have known algorithms. This process has generated thousands of programs for OEIS sequences.
 
