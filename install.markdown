@@ -4,9 +4,9 @@ title: Installation
 permalink: /install/
 ---
 
-The LODA command-line tool lets you explore, evaluate, and mine programs for integer sequences. It’s available for Linux, macOS, and Windows. Follow the instructions below to get started on your platform.
+The LODA command-line tool lets you explore, evaluate, and mine programs for integer sequences. It's available for Linux, macOS, and Windows. Follow the instructions below to get started on your platform.
 
-If you only want to contribute compute power for program mining, you can join the [LODA project on BOINC](https://boinc.loda-lang.org/loda/) and skip manual installation.
+If you only want to contribute compute power for program mining, you can join the [LODA project on BOINC](/connect#boinc-distributed-computing) and skip manual installation.
 
 ## Linux & macOS
 

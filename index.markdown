@@ -6,17 +6,22 @@ title: Overview
 layout: home
 ---
 
-LODA is an open-source project focused on the systematic discovery and analysis of programs and formulas for integer sequences, with a particular emphasis on those catalogued in the [On-Line Encyclopedia of Integer Sequences® (OEIS®)](https://oeis.org/).
+LODA is a language and an open-source project focused on the systematic discovery and analysis of programs and formulas for integer sequences.
 
-The project integrates a minimalist assembly language and a distributed mining infrastructure. Its overarching objective is to reverse engineer efficient algorithms and closed-form expressions for a broad spectrum of non-trivial integer sequences. The core components of LODA are:
+The project centers around a assembly language designed for:
+* enabling automated and distributed program mining,
+* supporting efficient execution and optimization,
+* allowing exports as formulas and feeding them back into computer algebra systems and theorem provers.
 
-- **Domain-Specific Language:** A minimalist assembly language and computational model designed for number-theoretic and combinatorial algorithms for integer sequences.
-- **Distributed Mining Infrastructure:** LODA uses distributed computing, advanced search methods and machine learning to autonomously find new programs and closed-form representations for integer sequences.
+LODA uses distributed computing to search for new programs automatically. Volunteers contribute computing power through BOINC to help discover shorter, more efficient programs for sequences that don't yet have known algorithms. This process has generated thousands of programs for OEIS sequences.
+
+This enables a neat workflow. Starting from the OEIS sequence database, LODA programs are automatically discovered via mining. These programs can then be automatically converted into formulas, and finally exported to computer algebra systems like PARI/GP for further mathematical analysis.
+
+LODA includes AI integration through the Model Context Protocol, REST APIs for programmatic access, and libraries for multiple programming languages, creating bridges between mathematical research and software development.
 
 ## Getting Started
 
-- Browse the [LODA program database](https://loda-lang.org/programs) to access a wide range of programs corresponding to OEIS sequences.
-- Install the [LODA command-line tool](https://loda-lang.org/install) to execute programs on your local machine.
-- Contribute computational resources by running a miner to assist in the automated search for new programs. For details, see [how to contribute](/contributing).
+- Install the [LODA command-line tool](/install) to execute programs on your local machine.
+- Browse the [LODA program database](/programs) to access a wide range of programs corresponding to OEIS sequences.
+- Explore [connections and integrations](/connect) including BOINC distributed computing, API access, and community platforms.
 - Read the [LODA specification](/spec) for a comprehensive guide to the language's syntax and operational semantics.
-- Contact us and join discussions on our [Discord server](https://loda-lang.org/discord).
