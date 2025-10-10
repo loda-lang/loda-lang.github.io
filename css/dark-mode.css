@@ -87,6 +87,79 @@ body {
   color: var(--link-color);
 }
 
+/* Ensure navigation links are properly colored in dark mode */
+[data-theme="dark"] .site-nav .page-link,
+[data-theme="dark"] .site-nav .page-link:visited {
+  color: var(--header-text) !important;
+}
+
+[data-theme="dark"] .site-nav .page-link:hover {
+  color: var(--link-color) !important;
+}
+
+/* System preference dark mode navigation text */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .site-nav .page-link,
+  :root:not([data-theme="light"]) .site-nav .page-link:visited {
+    color: var(--header-text) !important;
+  }
+  
+  :root:not([data-theme="light"]) .site-nav .page-link:hover {
+    color: var(--link-color) !important;
+  }
+}
+
+/* Mobile navigation menu background fix for dark mode */
+.site-nav .trigger {
+  background-color: var(--header-bg);
+}
+
+/* Ensure mobile menu icon is visible in dark mode */
+.site-nav .menu-icon > svg {
+  fill: var(--header-text);
+}
+
+/* Mobile navigation specific dark mode styles */
+@media screen and (max-width: 600px) {
+  .site-nav .trigger {
+    background-color: var(--header-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+  }
+  
+  .site-nav .page-link {
+    display: block;
+    padding: 5px 10px;
+    margin-left: 20px;
+    color: var(--header-text);
+  }
+  
+  .site-nav .page-link:hover {
+    color: var(--link-color);
+    background-color: var(--highlight-bg);
+  }
+  
+  /* Ensure mobile navigation text is properly colored in dark mode */
+  [data-theme="dark"] .site-nav .page-link,
+  [data-theme="dark"] .site-nav .page-link:visited {
+    color: var(--header-text) !important;
+  }
+  
+  [data-theme="dark"] .site-nav .page-link:hover {
+    color: var(--link-color) !important;
+  }
+  
+  /* System preference dark mode for mobile */
+  :root:not([data-theme="light"]) .site-nav .page-link,
+  :root:not([data-theme="light"]) .site-nav .page-link:visited {
+    color: var(--header-text) !important;
+  }
+  
+  :root:not([data-theme="light"]) .site-nav .page-link:hover {
+    color: var(--link-color) !important;
+  }
+}
+
 a {
   color: var(--link-color);
 }
