@@ -178,9 +178,23 @@ a:visited {
   color: var(--link-color) !important;
 }
 
+/* High specificity override for webkit browsers */
+[data-theme="dark"] a.page-link:hover,
+[data-theme="dark"] a:link:hover,
+[data-theme="dark"] a:visited:hover {
+  color: var(--link-color) !important;
+}
+
 /* System preference dark mode for all links */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) a:hover,
+  :root:not([data-theme="light"]) a:visited:hover {
+    color: var(--link-color) !important;
+  }
+  
+  /* High specificity override for webkit browsers in system dark mode */
+  :root:not([data-theme="light"]) a.page-link:hover,
+  :root:not([data-theme="light"]) a:link:hover,
   :root:not([data-theme="light"]) a:visited:hover {
     color: var(--link-color) !important;
   }
