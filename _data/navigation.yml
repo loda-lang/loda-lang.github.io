@@ -4,9 +4,9 @@
 items:
   - title: "Install"
     url: "/install/"
-  - title: "Connect"
-    url: "/connect/"
   - title: "Programs"
     url: "/programs/"
+  - title: "Connect"
+    url: "/connect/"
   - title: "Specification"
     url: "/spec/"
