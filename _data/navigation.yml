@@ -3,10 +3,10 @@
 
 items:
   - title: "Install"
-    url: "/install"
+    url: "/install/"
   - title: "Connect"
-    url: "/connect"
+    url: "/connect/"
   - title: "Programs"
-    url: "/programs"
+    url: "/programs/"
   - title: "Specification"
-    url: "/spec"
+    url: "/spec/"
