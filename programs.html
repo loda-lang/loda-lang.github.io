@@ -48,17 +48,18 @@ permalink: /programs/
     .prefooter { margin-top: 2em; font-size: small; text-align: center; }
     .loda-program-container {
       margin-top: 0.5em;
-      border: 1px solid #ddd;
+      border: 1px solid var(--border-color, #ddd);
       border-radius: 4px;
-      background: #f8f9fa;
+      background: var(--code-bg, #f8f9fa);
     }
     .loda-program-header {
       padding: 0.5em;
-      background: #e9ecef;
-      border-bottom: 1px solid #ddd;
+      background: var(--header-bg, #e9ecef);
+      border-bottom: 1px solid var(--border-color, #ddd);
       display: flex;
       justify-content: space-between;
       align-items: center;
+      color: var(--text-color, #000);
     }
     .loda-program-code {
       padding: 1em;
@@ -66,6 +67,8 @@ permalink: /programs/
       font-size: 0.9em;
       line-height: 1.4;
       overflow-x: auto;
+      background: var(--code-bg, #f8f9fa);
+      color: var(--text-color, #000);
     }
     .loda-button {
       background: #007bff;
@@ -91,24 +94,6 @@ permalink: /programs/
     .loading-text {
       color: #666;
       font-style: italic;
-    }
-    /* Dark mode styles */
-    body.dark-mode .loda-program-container {
-      border-color: #444 !important;
-      background: #2d2d2d !important;
-    }
-    body.dark-mode .loda-program-header {
-      background: #3a3a3a !important;
-      border-bottom-color: #444 !important;
-      color: #e0e0e0;
-    }
-    body.dark-mode .loda-program-code {
-      background: #2d2d2d !important;
-      color: #e0e0e0;
-    }
-    body.dark-mode .loda-program-code pre {
-      background: #2d2d2d !important;
-      color: #e0e0e0;
     }
   </style>
 </head>
