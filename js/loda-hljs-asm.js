@@ -4,7 +4,7 @@ hljs.registerLanguage('asm', function(hljs) {
     name: 'Assembly',
     case_insensitive: true,
     keywords: {
-      keyword: 'mov add sub mul div mod pow gcd lpb lpe trn max min seq log nrt dgs dgr equ neq leq geq ban bor bxo clr dir dif bin fac',
+      keyword: 'mov add sub mul div mod pow gcd lpb lpe trn max min seq log nrt dgs dgr equ neq leq geq ban bor bxo clr fil rol ror dir dif bin fac',
     },
     contains: [
       hljs.COMMENT(';', '$'),
@@ -27,7 +27,7 @@ hljs.registerLanguage('asm', function(hljs) {
       },
       {
         className: 'keyword',
-        begin: /\b(mov|add|sub|mul|div|mod|pow|gcd|lpb|lpe|trn|max|min|seq|log|nrt|dgs|dgr|equ|neq|leq|geq|ban|bor|bxo|clr|dir|dif|bin|fac)\b/
+        begin: /\b(mov|add|sub|mul|div|mod|pow|gcd|lpb|lpe|trn|max|min|seq|log|nrt|dgs|dgr|equ|neq|leq|geq|ban|bor|bxo|clr|fil|rol|ror|dir|dif|bin|fac)\b/
       }
     ]
   };
