@@ -104,8 +104,41 @@ permalink: /programs/
       color: #666;
       font-style: italic;
     }
+    #search-form {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      margin-bottom: 1em;
+    }
+    #search-form label {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: var(--text-color, #000);
+    }
+    #search-input {
+      flex: 1;
+      padding: 0.3em 0.8em;
+      border: 1px solid var(--border-color, #ddd);
+      border-radius: 3px;
+      font-size: inherit;
+      height: 2.2em;
+      box-sizing: border-box;
+    }
+    #search-submit {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 0.3em 0.8em;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: inherit;
+      height: 2.2em;
+      min-width: 80px;
+    }
+    #search-submit:hover {
+      background: #0056b3;
+    }
     #shuffle-button {
-      margin-left: 0.5em;
       background: #28a745;
       color: white;
       border: none;
@@ -113,6 +146,8 @@ permalink: /programs/
       border-radius: 3px;
       cursor: pointer;
       font-size: inherit;
+      height: 2.2em;
+      min-width: 80px;
     }
     #shuffle-button:hover {
       background: #218838;
@@ -152,8 +187,9 @@ permalink: /programs/
         </header>
         <div class="post-content">
           <form id="search-form">
-            Search: <input type="text" id="search-input" name="search" autocomplete="off">
-            <input type="submit" value="Search">
+            <label for="search-input">Search:</label>
+            <input type="text" id="search-input" name="search" autocomplete="off">
+            <input type="submit" id="search-submit" value="Search">
             <button type="button" id="shuffle-button">Shuffle</button>
           </form>
           <div class="keyword-bar" id="keyword-bar"></div>
