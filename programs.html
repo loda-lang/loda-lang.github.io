@@ -429,10 +429,10 @@ permalink: /programs/
         editButton.className = CSS_CLASSES.LODA_BUTTON_SECONDARY;
         editButton.href = `${EDITOR_BASE_URL}?oeis=${sequenceId.slice(1)}`;
         editButton.target = '_blank';
-        editButton.textContent = 'Open in Editor';
+        editButton.textContent = 'Try it out';
         
         const pariButton = document.createElement('button');
-        pariButton.className = CSS_CLASSES.LODA_BUTTON_SECONDARY;
+        pariButton.className = CSS_CLASSES.LODA_BUTTON;
         pariButton.textContent = BUTTON_STATES.PARI_COLLAPSED;
         pariButton.onclick = () => togglePariExport(sequenceId, pariButton, programContainer, code);
         
