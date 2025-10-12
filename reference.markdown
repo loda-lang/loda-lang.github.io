@@ -746,7 +746,7 @@ fil $2,4    ; $2,$3,$4,$5 := 7,7,7,7
 mov $6,3    ; $6 := 3
 fil $6,1    ; $6 := 3 (no change, single element)
 mov $7,9    ; $7 := 9
-fil $7,-2   ; $5,$6,$7 := 9,9,9 (fill to the left)
+fil $7,-3   ; $5,$6,$7 := 9,9,9 (fill to the left)
 ```
 
 <a name="rol"/>
