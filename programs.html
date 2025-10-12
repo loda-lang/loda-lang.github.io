@@ -373,7 +373,7 @@ permalink: /programs/
           const lodaButton = document.createElement('button');
           lodaButton.className = CSS_CLASSES.LODA_BUTTON;
           lodaButton.textContent = BUTTON_STATES.COLLAPSED;
-          lodaButton.onclick = () => toggleLodaProgram(entry.id, lodaButton, row1);
+          lodaButton.onclick = () => toggleLodaProgram(entry.id, lodaButton, row1, entry.keywords);
           linkbox.appendChild(lodaButton);
         }
         
@@ -389,7 +389,7 @@ permalink: /programs/
     }
 
     // --- Toggle LODA program display ---
-    async function toggleLodaProgram(sequenceId, button, container) {
+    async function toggleLodaProgram(sequenceId, button, container, keywords) {
       const programId = `loda-program-${sequenceId}`;
       let programContainer = document.getElementById(programId);
       
@@ -431,13 +431,16 @@ permalink: /programs/
         editButton.target = '_blank';
         editButton.textContent = 'Try it out';
         
-        const pariButton = document.createElement('button');
-        pariButton.className = CSS_CLASSES.LODA_BUTTON;
-        pariButton.textContent = BUTTON_STATES.PARI_COLLAPSED;
-        pariButton.onclick = () => togglePariExport(sequenceId, pariButton, programContainer, code);
-        
         buttonsContainer.appendChild(editButton);
-        buttonsContainer.appendChild(pariButton);
+        
+        // Show PARI button only if 'loda-formula' keyword is present
+        if (keywords && Array.isArray(keywords) && keywords.includes('loda-formula')) {
+          const pariButton = document.createElement('button');
+          pariButton.className = CSS_CLASSES.LODA_BUTTON;
+          pariButton.textContent = BUTTON_STATES.PARI_COLLAPSED;
+          pariButton.onclick = () => togglePariExport(sequenceId, pariButton, programContainer, code);
+          buttonsContainer.appendChild(pariButton);
+        }
         
         programContainer.appendChild(codeContainer);
         programContainer.appendChild(buttonsContainer);
