@@ -104,6 +104,19 @@ permalink: /programs/
       color: #666;
       font-style: italic;
     }
+    #shuffle-button {
+      margin-left: 0.5em;
+      background: #28a745;
+      color: white;
+      border: none;
+      padding: 0.3em 0.8em;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: inherit;
+    }
+    #shuffle-button:hover {
+      background: #218838;
+    }
   </style>
 </head>
 <body>
@@ -141,6 +154,7 @@ permalink: /programs/
           <form id="search-form">
             Search: <input type="text" id="search-input" name="search" autocomplete="off">
             <input type="submit" value="Search">
+            <button type="button" id="shuffle-button">Shuffle</button>
           </form>
           <div class="keyword-bar" id="keyword-bar"></div>
           <div id="results-info"></div>
@@ -264,12 +278,15 @@ permalink: /programs/
     }
 
     // --- Fetch and render sequence list ---
-    async function fetchSequences() {
+    async function fetchSequences(shuffle = false) {
       let q = state.search.trim();
       let keywords = state.keywords.filter(k => !k.startsWith('-')).join(' ');
       let exclude = state.keywords.filter(k => k.startsWith('-')).map(k => '-'+k.slice(1)).join(' ');
       let query = [keywords, exclude, q].filter(Boolean).join(' ');
       let url = `${API_BASE_URL}/sequences/search?q=${encodeURIComponent(query)}&limit=${state.limit}&skip=${state.start}`;
+      if (shuffle) {
+        url += '&shuffle=true';
+      }
       let resp = await fetch(url);
       if (!resp.ok) return { total: 0, results: [] };
       let data = await resp.json();
@@ -482,14 +499,14 @@ permalink: /programs/
     }
 
     // --- Main update function ---
-    async function update() {
+    async function update(shuffle = false) {
       if (ALL_KEYWORDS.length === 0) {
         await fetchKeywords();
       }
       renderKeywordBar();
       document.getElementById('search-input').value = state.search;
       document.getElementById('results-info').textContent = 'Loading...';
-      let { total, results } = await fetchSequences();
+      let { total, results } = await fetchSequences(shuffle);
       
       // update query string
       let state_params = new URLSearchParams();
@@ -521,6 +538,14 @@ permalink: /programs/
       state.search = document.getElementById('search-input').value.trim();
       state.start = 0;
       update();
+    };
+
+    // --- Shuffle button handler ---
+    document.getElementById('shuffle-button').onclick = function(e) {
+      e.preventDefault();
+      state.search = document.getElementById('search-input').value.trim();
+      state.start = 0;
+      update(true); // Pass shuffle=true
     };
 
     // --- Initial load ---
