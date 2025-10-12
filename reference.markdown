@@ -53,10 +53,14 @@ This document is organized as follows:
     - [`ban` (Bitwise And)](#ban)
     - [`bor` (Bitwise Or)](#bor)
     - [`bxo` (Bitwise Xor)](#bxo)
+  - [Memory Operations](#memory-operations)
+    - [`clr` (Clear)](#clr)
+    - [`fil` (Fill)](#fil)
+    - [`rol` (Rotate Left)](#rol)
+    - [`ror` (Rotate Right)](#ror)
   - [Control Flow and Special Operations](#control-flow-special)
     - [`lpb..lpe` (Loop / Conditional)](#lpb)
     - [`seq` (Sequence)](#seq)
-    - [`clr` (Clear)](#clr)
 - [Termination](#termination)
 
 <a name="language-overview"/>
@@ -133,7 +137,7 @@ mov $0,7    ; Store 7 in $0
 div $4,$2   ; Integer divide $4 by $2 (i.e., $4 := floor($4 / $2))
 ```
 
-Some operations (such as `lpb`/`lpe` for loops, or `clr` for clearing memory regions) have special syntax or semantics. For a complete list of available operations, their syntax, and detailed behavior, see the [Operations Reference](#operations-ref) section.
+Some operations (such as `lpb`/`lpe` for loops) have special syntax or semantics. Memory operations (such as `clr` for clearing memory regions) manipulate contiguous regions of memory cells. For a complete list of available operations, their syntax, and detailed behavior, see the [Operations Reference](#operations-ref) section.
 
 <a name="integer-sequences"/>
 
@@ -704,6 +708,87 @@ mov $2,-5  ; $2 := -5 (binary ...1011)
 bxo $2,3   ; $2 := -5 ^ 3 = -8 (binary ...1000)
 ```
 
+<a name="memory-operations"/>
+
+### Memory Operations
+
+<a name="clr"/>
+
+#### **clr** (Clear)
+
+Resets a memory region to zero. The target operand marks the start of the region, and the source operand specifies the length. If the length is negative, the region is reset to the left of the target operand. If a negative length would result in a negative memory index, a runtime error is thrown.
+
+Examples:
+
+```asm
+mov $2,2    ; $2 := 2
+mov $3,3    ; $3 := 3
+mov $4,4    ; $4 := 4
+clr $2,3    ; $2,$3,$4 := 0,0,0
+mov $5,5    ; $5 := 5
+clr $5,1    ; $5 := 0
+mov $6,6    ; $6 := 6
+mov $7,7    ; $7 := 7
+clr $7,-2   ; $6,$7 := 0,0 (reset to the left)
+```
+
+<a name="fil"/>
+
+#### **fil** (Fill)
+
+Fills a memory region with a given value. The target operand marks the start of the region, and the source operand specifies the length. The first element in the region is used as the fill value for the entire region. If the length is negative, the region extends to the left of the target operand. If a negative length would result in a negative memory index, a runtime error is thrown.
+
+Examples:
+
+```asm
+mov $2,7    ; $2 := 7
+fil $2,4    ; $2,$3,$4,$5 := 7,7,7,7
+mov $6,3    ; $6 := 3
+fil $6,1    ; $6 := 3 (no change, single element)
+mov $7,9    ; $7 := 9
+fil $7,-3   ; $5,$6,$7 := 9,9,9 (fill to the left)
+```
+
+<a name="rol"/>
+
+#### **rol** (Rotate Left)
+
+Rotates the elements in a memory region to the left. The target operand marks the start of the region, and the source operand specifies the length. Each element shifts one position to the left, with the leftmost element wrapping to the rightmost position. If the length is negative, the region extends to the left of the target operand. If a negative length would result in a negative memory index, a runtime error is thrown.
+
+Examples:
+
+```asm
+mov $2,2    ; $2 := 2
+mov $3,3    ; $3 := 3
+mov $4,4    ; $4 := 4
+mov $5,5    ; $5 := 5
+rol $2,4    ; $2,$3,$4,$5 := 3,4,5,2 (rotate left)
+mov $6,6    ; $6 := 6
+mov $7,7    ; $7 := 7
+mov $8,8    ; $8 := 8
+rol $8,-3   ; $6,$7,$8 := 7,8,6 (rotate left, extend to the left)
+```
+
+<a name="ror"/>
+
+#### **ror** (Rotate Right)
+
+Rotates the elements in a memory region to the right. The target operand marks the start of the region, and the source operand specifies the length. Each element shifts one position to the right, with the rightmost element wrapping to the leftmost position. If the length is negative, the region extends to the left of the target operand. If a negative length would result in a negative memory index, a runtime error is thrown.
+
+Examples:
+
+```asm
+mov $2,2    ; $2 := 2
+mov $3,3    ; $3 := 3
+mov $4,4    ; $4 := 4
+mov $5,5    ; $5 := 5
+ror $2,4    ; $2,$3,$4,$5 := 5,2,3,4 (rotate right)
+mov $6,6    ; $6 := 6
+mov $7,7    ; $7 := 7
+mov $8,8    ; $8 := 8
+ror $8,-3   ; $6,$7,$8 := 8,6,7 (rotate right, extend to the left)
+```
+
 <a name="control-flow-special"/>
 
 ### Control Flow and Special Operations
@@ -748,25 +833,6 @@ mov $2,7      ; $2 := 7
 seq $2,45     ; $2 := a(7) of OEIS A000045 (Fibonacci)
 mov $3,10     ; $3 := 10
 seq $3,40     ; $3 := a(10) of OEIS A000040 (primes)
-```
-
-<a name="clr"/>
-
-#### **clr** (Clear)
-
-Resets a memory region to zero. The target operand marks the start of the region, and the source operand specifies the length. If the length is negative, the region is reset to the left of the target operand.
-
-Examples:
-
-```asm
-mov $2,5    ; $2 := 5
-mov $3,6    ; $3 := 6
-mov $4,7    ; $4 := 7
-clr $2,3    ; $2,$3,$4 := 0,0,0
-mov $5,9    ; $5 := 9
-clr $5,1    ; $5 := 0
-mov $6,8    ; $6 := 8
-clr $6,-2   ; $4,$5,$6 := 0,0,0 (reset to the left)
 ```
 
 <a name="termination"/>
