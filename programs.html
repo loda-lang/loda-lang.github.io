@@ -52,15 +52,6 @@ permalink: /programs/
       border-radius: 4px;
       background: var(--code-bg, #f8f9fa);
     }
-    .loda-program-header {
-      padding: 0.5em;
-      background: var(--header-bg, #e9ecef);
-      border-bottom: 1px solid var(--border-color, #ddd);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      color: var(--text-color, #000);
-    }
     .loda-program-code {
       padding: 1em;
       font-family: 'Courier New', monospace;
@@ -68,6 +59,24 @@ permalink: /programs/
       line-height: 1.4;
       overflow-x: auto;
       background: var(--code-bg, #f8f9fa);
+      color: var(--text-color, #000);
+    }
+    .loda-program-buttons {
+      padding: 0.5em;
+      background: var(--header-bg, #e9ecef);
+      border-top: 1px solid var(--border-color, #ddd);
+      display: flex;
+      gap: 0.5em;
+      align-items: center;
+    }
+    .loda-pari-container {
+      padding: 1em;
+      background: var(--code-bg, #f8f9fa);
+      border-top: 1px solid var(--border-color, #ddd);
+      font-family: 'Courier New', monospace;
+      font-size: 0.9em;
+      line-height: 1.4;
+      white-space: pre-wrap;
       color: var(--text-color, #000);
     }
     .loda-button {
@@ -157,15 +166,20 @@ permalink: /programs/
       COLLAPSED: 'LODA ▼',
       EXPANDED: 'LODA ▲',
       LOADING: 'Loading...',
-      ERROR: 'Error loading'
+      ERROR: 'Error loading',
+      PARI_COLLAPSED: 'PARI ▼',
+      PARI_EXPANDED: 'PARI ▲',
+      PARI_LOADING: 'Loading PARI...',
+      PARI_ERROR: 'PARI Error'
     };
     
     const CSS_CLASSES = {
       LODA_BUTTON: 'loda-button',
       LODA_BUTTON_SECONDARY: 'loda-button secondary',
       PROGRAM_CONTAINER: 'loda-program-container',
-      PROGRAM_HEADER: 'loda-program-header',
       PROGRAM_CODE: 'loda-program-code',
+      PROGRAM_BUTTONS: 'loda-program-buttons',
+      PARI_CONTAINER: 'loda-pari-container',
       LANGUAGE_ASM: 'language-asm'
     };
     
@@ -277,6 +291,65 @@ permalink: /programs/
       }
     }
 
+    // --- Fetch PARI export ---
+    async function fetchPariExport(sequenceId, programCode) {
+      try {
+        const url = `${API_BASE_URL}/programs/export?format=pari`;
+        const resp = await fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'text/plain'
+          },
+          body: programCode
+        });
+        if (!resp.ok) return null;
+        const data = await resp.json();
+        return data.status === 'success' ? data.output : null;
+      } catch (error) {
+        console.error('Error fetching PARI export:', error);
+        return null;
+      }
+    }
+
+    // --- Toggle PARI export display ---
+    async function togglePariExport(sequenceId, button, programContainer, programCode) {
+      const pariId = `loda-pari-${sequenceId}`;
+      let pariContainer = document.getElementById(pariId);
+      
+      if (pariContainer) {
+        // If PARI is already shown, hide it
+        pariContainer.remove();
+        button.textContent = BUTTON_STATES.PARI_COLLAPSED;
+        return;
+      }
+      
+      // Show loading state
+      button.textContent = BUTTON_STATES.PARI_LOADING;
+      button.disabled = true;
+      
+      // Fetch the PARI export
+      const pariCode = await fetchPariExport(sequenceId, programCode);
+      
+      if (pariCode) {
+        // Create PARI container
+        pariContainer = document.createElement('div');
+        pariContainer.id = pariId;
+        pariContainer.className = CSS_CLASSES.PARI_CONTAINER;
+        pariContainer.textContent = pariCode;
+        
+        programContainer.appendChild(pariContainer);
+        
+        button.textContent = BUTTON_STATES.PARI_EXPANDED;
+      } else {
+        button.textContent = BUTTON_STATES.PARI_ERROR;
+        setTimeout(() => {
+          button.textContent = BUTTON_STATES.PARI_COLLAPSED;
+        }, DEFAULT_CONFIG.ERROR_DISPLAY_DURATION);
+      }
+      
+      button.disabled = false;
+    }
+
     // --- Render sequence list ---
     function renderSequenceList(results) {
       const list = document.getElementById('sequence-list');
@@ -340,22 +413,6 @@ permalink: /programs/
         programContainer.id = programId;
         programContainer.className = CSS_CLASSES.PROGRAM_CONTAINER;
         
-        // Create header with edit button
-        const header = document.createElement('div');
-        header.className = CSS_CLASSES.PROGRAM_HEADER;
-        
-        const title = document.createElement('span');
-        title.textContent = `LODA Program for ${sequenceId}`;
-        
-        const editButton = document.createElement('a');
-        editButton.className = CSS_CLASSES.LODA_BUTTON_SECONDARY;
-        editButton.href = `${EDITOR_BASE_URL}?oeis=${sequenceId.slice(1)}`;
-        editButton.target = '_blank';
-        editButton.textContent = 'Open in Editor';
-        
-        header.appendChild(title);
-        header.appendChild(editButton);
-        
         // Create code container
         const codeContainer = document.createElement('pre');
         codeContainer.className = CSS_CLASSES.PROGRAM_CODE;
@@ -364,8 +421,26 @@ permalink: /programs/
         codeElement.textContent = code;
         codeContainer.appendChild(codeElement);
         
-        programContainer.appendChild(header);
+        // Create buttons container (moved below code)
+        const buttonsContainer = document.createElement('div');
+        buttonsContainer.className = CSS_CLASSES.PROGRAM_BUTTONS;
+        
+        const editButton = document.createElement('a');
+        editButton.className = CSS_CLASSES.LODA_BUTTON_SECONDARY;
+        editButton.href = `${EDITOR_BASE_URL}?oeis=${sequenceId.slice(1)}`;
+        editButton.target = '_blank';
+        editButton.textContent = 'Open in Editor';
+        
+        const pariButton = document.createElement('button');
+        pariButton.className = CSS_CLASSES.LODA_BUTTON_SECONDARY;
+        pariButton.textContent = BUTTON_STATES.PARI_COLLAPSED;
+        pariButton.onclick = () => togglePariExport(sequenceId, pariButton, programContainer, code);
+        
+        buttonsContainer.appendChild(editButton);
+        buttonsContainer.appendChild(pariButton);
+        
         programContainer.appendChild(codeContainer);
+        programContainer.appendChild(buttonsContainer);
         container.appendChild(programContainer);
         
         // Apply syntax highlighting
