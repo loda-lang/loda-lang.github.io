@@ -33,8 +33,17 @@ permalink: /programs/
   <!-- End Favicon -->
   <!-- Remove or minimize custom inline styles to avoid overriding site look -->
   <style>
-    .keyword-bar {
+    .keyword-container {
       margin-bottom: 1em;
+    }
+    .keyword-container label {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: var(--text-color, #000);
+      display: block;
+      margin-bottom: 0.5em;
+    }
+    .keyword-bar {
       display: flex;
       flex-wrap: wrap;
       gap: 0.3em;
@@ -192,7 +201,10 @@ permalink: /programs/
             <input type="submit" id="search-submit" value="Search">
             <button type="button" id="shuffle-button">Shuffle</button>
           </form>
-          <div class="keyword-bar" id="keyword-bar"></div>
+          <div class="keyword-container">
+            <label>Keywords:</label>
+            <div class="keyword-bar" id="keyword-bar"></div>
+          </div>
           <div id="results-info"></div>
           <div id="sequence-list" class="sequence-list"></div>
           <div class="pagination" id="pagination"></div>
