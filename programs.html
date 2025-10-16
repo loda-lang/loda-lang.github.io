@@ -364,15 +364,23 @@ permalink: /programs/
     }
 
     // --- Toggle PARI export display ---
-    async function togglePariExport(sequenceId, button, programContainer, programCode) {
+    async function togglePariExport(sequenceId, button, otherButton, programContainer, programCode) {
       const pariId = `loda-pari-${sequenceId}`;
+      const leanId = `loda-lean-${sequenceId}`;
       let pariContainer = document.getElementById(pariId);
+      let leanContainer = document.getElementById(leanId);
       
       if (pariContainer) {
         // If PARI is already shown, hide it
         pariContainer.remove();
         button.textContent = BUTTON_STATES.PARI_COLLAPSED;
         return;
+      }
+      
+      // Close LEAN export if it's open
+      if (leanContainer) {
+        leanContainer.remove();
+        otherButton.textContent = BUTTON_STATES.LEAN_COLLAPSED;
       }
       
       // Show loading state
@@ -403,15 +411,23 @@ permalink: /programs/
     }
 
     // --- Toggle LEAN export display ---
-    async function toggleLeanExport(sequenceId, button, programContainer, programCode) {
+    async function toggleLeanExport(sequenceId, button, otherButton, programContainer, programCode) {
       const leanId = `loda-lean-${sequenceId}`;
+      const pariId = `loda-pari-${sequenceId}`;
       let leanContainer = document.getElementById(leanId);
+      let pariContainer = document.getElementById(pariId);
       
       if (leanContainer) {
         // If LEAN is already shown, hide it
         leanContainer.remove();
         button.textContent = BUTTON_STATES.LEAN_COLLAPSED;
         return;
+      }
+      
+      // Close PARI export if it's open
+      if (pariContainer) {
+        pariContainer.remove();
+        otherButton.textContent = BUTTON_STATES.PARI_COLLAPSED;
       }
       
       // Show loading state
@@ -529,14 +545,16 @@ permalink: /programs/
           const pariButton = document.createElement('button');
           pariButton.className = CSS_CLASSES.LODA_BUTTON;
           pariButton.textContent = BUTTON_STATES.PARI_COLLAPSED;
-          pariButton.onclick = () => togglePariExport(sequenceId, pariButton, programContainer, code);
           buttonsContainer.appendChild(pariButton);
           
           const leanButton = document.createElement('button');
           leanButton.className = CSS_CLASSES.LODA_BUTTON;
           leanButton.textContent = BUTTON_STATES.LEAN_COLLAPSED;
-          leanButton.onclick = () => toggleLeanExport(sequenceId, leanButton, programContainer, code);
           buttonsContainer.appendChild(leanButton);
+          
+          // Set up onclick handlers with cross-references
+          pariButton.onclick = () => togglePariExport(sequenceId, pariButton, leanButton, programContainer, code);
+          leanButton.onclick = () => toggleLeanExport(sequenceId, leanButton, pariButton, programContainer, code);
         }
         
         programContainer.appendChild(codeContainer);
