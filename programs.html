@@ -214,7 +214,11 @@ permalink: /programs/
       PARI_COLLAPSED: 'PARI ▼',
       PARI_EXPANDED: 'PARI ▲',
       PARI_LOADING: 'Loading PARI...',
-      PARI_ERROR: 'PARI Error'
+      PARI_ERROR: 'PARI Error',
+      LEAN_COLLAPSED: 'LEAN ▼',
+      LEAN_EXPANDED: 'LEAN ▲',
+      LEAN_LOADING: 'Loading LEAN...',
+      LEAN_ERROR: 'LEAN Error'
     };
     
     const CSS_CLASSES = {
@@ -224,6 +228,7 @@ permalink: /programs/
       PROGRAM_CODE: 'loda-program-code',
       PROGRAM_BUTTONS: 'loda-program-buttons',
       PARI_CONTAINER: 'loda-pari-container',
+      LEAN_CONTAINER: 'loda-pari-container',
       LANGUAGE_ASM: 'language-asm'
     };
     
@@ -338,10 +343,10 @@ permalink: /programs/
       }
     }
 
-    // --- Fetch PARI export ---
-    async function fetchPariExport(sequenceId, programCode) {
+    // --- Fetch export in specified format ---
+    async function fetchExport(sequenceId, programCode, format) {
       try {
-        const url = `${API_BASE_URL}/programs/export?format=pari`;
+        const url = `${API_BASE_URL}/programs/export?format=${format}`;
         const resp = await fetch(url, {
           method: 'POST',
           headers: {
@@ -353,7 +358,7 @@ permalink: /programs/
         const data = await resp.json();
         return data.status === 'success' ? data.output : null;
       } catch (error) {
-        console.error('Error fetching PARI export:', error);
+        console.error(`Error fetching ${format.toUpperCase()} export:`, error);
         return null;
       }
     }
@@ -375,7 +380,7 @@ permalink: /programs/
       button.disabled = true;
       
       // Fetch the PARI export
-      const pariCode = await fetchPariExport(sequenceId, programCode);
+      const pariCode = await fetchExport(sequenceId, programCode, 'pari');
       
       if (pariCode) {
         // Create PARI container
@@ -391,6 +396,45 @@ permalink: /programs/
         button.textContent = BUTTON_STATES.PARI_ERROR;
         setTimeout(() => {
           button.textContent = BUTTON_STATES.PARI_COLLAPSED;
+        }, DEFAULT_CONFIG.ERROR_DISPLAY_DURATION);
+      }
+      
+      button.disabled = false;
+    }
+
+    // --- Toggle LEAN export display ---
+    async function toggleLeanExport(sequenceId, button, programContainer, programCode) {
+      const leanId = `loda-lean-${sequenceId}`;
+      let leanContainer = document.getElementById(leanId);
+      
+      if (leanContainer) {
+        // If LEAN is already shown, hide it
+        leanContainer.remove();
+        button.textContent = BUTTON_STATES.LEAN_COLLAPSED;
+        return;
+      }
+      
+      // Show loading state
+      button.textContent = BUTTON_STATES.LEAN_LOADING;
+      button.disabled = true;
+      
+      // Fetch the LEAN export
+      const leanCode = await fetchExport(sequenceId, programCode, 'lean');
+      
+      if (leanCode) {
+        // Create LEAN container
+        leanContainer = document.createElement('div');
+        leanContainer.id = leanId;
+        leanContainer.className = CSS_CLASSES.LEAN_CONTAINER;
+        leanContainer.textContent = leanCode;
+        
+        programContainer.appendChild(leanContainer);
+        
+        button.textContent = BUTTON_STATES.LEAN_EXPANDED;
+      } else {
+        button.textContent = BUTTON_STATES.LEAN_ERROR;
+        setTimeout(() => {
+          button.textContent = BUTTON_STATES.LEAN_COLLAPSED;
         }, DEFAULT_CONFIG.ERROR_DISPLAY_DURATION);
       }
       
@@ -487,6 +531,12 @@ permalink: /programs/
           pariButton.textContent = BUTTON_STATES.PARI_COLLAPSED;
           pariButton.onclick = () => togglePariExport(sequenceId, pariButton, programContainer, code);
           buttonsContainer.appendChild(pariButton);
+          
+          const leanButton = document.createElement('button');
+          leanButton.className = CSS_CLASSES.LODA_BUTTON;
+          leanButton.textContent = BUTTON_STATES.LEAN_COLLAPSED;
+          leanButton.onclick = () => toggleLeanExport(sequenceId, leanButton, programContainer, code);
+          buttonsContainer.appendChild(leanButton);
         }
         
         programContainer.appendChild(codeContainer);
