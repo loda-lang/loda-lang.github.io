@@ -16,7 +16,7 @@ The project centers around a assembly language designed for:
 
 LODA uses distributed computing to search for new programs automatically. Volunteers contribute computing power through BOINC to help discover shorter, more efficient programs for sequences that don't yet have known algorithms. This process has generated thousands of programs for OEIS sequences.
 
-This enables a neat workflow. Starting from the OEIS sequence database, LODA programs are automatically discovered via mining. These programs can then be automatically converted into formulas, and finally exported to computer algebra systems like PARI/GP for further mathematical analysis.
+This enables a neat workflow. Starting from the OEIS sequence database, LODA programs are automatically discovered via mining. These programs can then be automatically converted into formulas, and finally exported to computer algebra systems like PARI/GP for further mathematical analysis, or to theorem provers like Lean for formal verification.
 
 LODA includes AI integration through the Model Context Protocol, REST APIs for programmatic access, and libraries for multiple programming languages, creating bridges between mathematical research and software development.
 

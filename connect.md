@@ -12,6 +12,7 @@ LODA integrates with various platforms and technologies to provide comprehensive
 - [BOINC Distributed Computing](#boinc-distributed-computing)
 - [Formula Generation](#formula-generation)
 - [PARI/GP Computer Algebra](#parigp-computer-algebra)
+- [Lean Theorem Prover](#lean-theorem-prover)
 - [Model Context Protocol (MCP)](#model-context-protocol-mcp)
 - [REST API](#rest-api)
 - [Libraries](#libraries)
@@ -43,13 +44,19 @@ You can track your contributions on the [LODA BOINC leaderboard](https://boinc.l
 
 LODA programs are iterative and assembly-like, making them well-suited for program synthesis and mining, efficient execution, and automatic optimization. However, they can be difficult for humans to understand and don't directly reveal mathematical insights. To bridge the gap between computational discovery and mathematical understanding, LODA supports generating formulas from program code.
 
-This formula generation capability transforms iterative algorithms into mathematical expressions that can range from closed-form formulas to complex recurrence relations. This transformation serves multiple purposes: it makes programs more accessible to mathematicians, enables seamless integration with computer algebra systems like PARI/GP, and helps identify whether a program implements a previously unknown mathematical formula that may not yet be documented in the OEIS.
+This formula generation capability transforms iterative algorithms into mathematical expressions that can range from closed-form formulas to complex recurrence relations. This transformation serves multiple purposes: it makes programs more accessible to mathematicians, enables seamless integration with computer algebra systems like PARI/GP and theorem provers like Lean, and helps identify whether a program implements a previously unknown mathematical formula that may not yet be documented in the OEIS.
 
 ## PARI/GP Computer Algebra
 
 [PARI/GP](https://pari.math.u-bordeaux.fr/) is a powerful computer algebra system designed for fast computations in number theory, algebraic geometry, and related fields. It provides extensive mathematical functions, symbolic computation capabilities, and tools for rigorous mathematical analysis - making it an ideal partner for LODA's computational discoveries.
 
 The integration between LODA and PARI/GP creates a complete mathematical discovery pipeline: researchers can use LODA's program mining to discover unknown and efficient algorithms for OEIS sequences, generate human-readable formulas to understand the mathematical structure, and then export to PARI/GP for formal analysis and verification.
+
+## Lean Theorem Prover
+
+[Lean](https://lean-lang.org/) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code. It combines a powerful type system with automated proof tactics, making it particularly suitable for formal verification of number-theoretic results.
+
+LODA programs can be exported to Lean code, enabling formal verification of integer sequence algorithms. This integration extends LODA's mathematical discovery pipeline: after mining programs and generating formulas, researchers can export to Lean to formally prove correctness.
 
 ## Model Context Protocol (MCP)
 

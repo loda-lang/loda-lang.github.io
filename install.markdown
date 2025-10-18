@@ -25,7 +25,7 @@ Make sure you have [git](https://git-scm.com/) installed. Then run this command 
 ```powershell
 md "%USERPROFILE%\loda\bin"
 cd "%USERPROFILE%\loda\bin"
-curl -fsSLo loda.exe https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-windows.exe
+curl -fsSLo loda.exe https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-windows-x86.exe
 loda setup
 ```
 
@@ -79,7 +79,7 @@ Targets:
 Options:
   -t <number>          Number of sequence terms (default: 8)
   -b                   Print result in the OEIS b-file format
-  -o <string>          Export format (formula,loda,pari,range)
+  -o <string>          Export format (formula,loda,pari,lean,range)
   -d                   Export with dependencies to other programs
   -s                   Evaluate program and return number of execution steps
   -c <number>          Maximum number of execution steps (no limit: -1)
