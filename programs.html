@@ -540,20 +540,29 @@ permalink: /programs/
         
         buttonsContainer.appendChild(editButton);
         
-        // Show PARI button only if 'loda-formula' keyword is present
-        if (keywords && Array.isArray(keywords) && keywords.includes('loda-formula')) {
-          const pariButton = document.createElement('button');
+        // Show PARI button only if 'loda-pari' keyword is present
+        let pariButton = null;
+        let leanButton = null;
+        if (keywords && Array.isArray(keywords) && keywords.includes('loda-pari')) {
+          pariButton = document.createElement('button');
           pariButton.className = CSS_CLASSES.LODA_BUTTON;
           pariButton.textContent = BUTTON_STATES.PARI_COLLAPSED;
           buttonsContainer.appendChild(pariButton);
-          
-          const leanButton = document.createElement('button');
+        }
+
+        // Show LEAN button only if 'loda-lean' keyword is present
+        if (keywords && Array.isArray(keywords) && keywords.includes('loda-lean')) {
+          leanButton = document.createElement('button');
           leanButton.className = CSS_CLASSES.LODA_BUTTON;
           leanButton.textContent = BUTTON_STATES.LEAN_COLLAPSED;
           buttonsContainer.appendChild(leanButton);
-          
-          // Set up onclick handlers with cross-references
+        }
+
+        // Set up onclick handlers with cross-references, guarding missing buttons
+        if (pariButton) {
           pariButton.onclick = () => togglePariExport(sequenceId, pariButton, leanButton, programContainer, code);
+        }
+        if (leanButton) {
           leanButton.onclick = () => toggleLeanExport(sequenceId, leanButton, pariButton, programContainer, code);
         }
         
