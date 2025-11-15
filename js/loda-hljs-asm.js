@@ -24,10 +24,6 @@ hljs.registerLanguage('asm', function(hljs) {
         // Match $1, $$2, $123, etc.
         begin: /\${1,2}\d+/, 
         relevance: 0
-      },
-      {
-        className: 'keyword',
-        begin: /\b(mov|add|sub|mul|div|mod|pow|gcd|lpb|lpe|trn|max|min|seq|log|nrt|dgs|dgr|equ|neq|leq|geq|ban|bor|bxo|clr|fil|rol|ror|dir|dif|bin|fac)\b/
       }
     ]
   };
