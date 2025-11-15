@@ -12,3 +12,17 @@ a.page-link.is-active {
 .site-title picture img {
     vertical-align: text-top;
 }
+
+/* Syntax highlighting customization */
+.hljs-symbol {
+    color: #6f42c1; /* Purple for variables */
+}
+.hljs-string {
+    color: #22863a; /* Green for directives */
+}
+[data-theme="dark"] .hljs-symbol {
+    color: #b392f0; /* Lighter purple for dark mode */
+}
+[data-theme="dark"] .hljs-string {
+    color: #85e89d; /* Lighter green for dark mode */
+}
