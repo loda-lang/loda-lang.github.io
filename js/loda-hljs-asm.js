@@ -15,14 +15,14 @@ hljs.registerLanguage('asm', function(hljs) {
         relevance: 10
       },
       {
-        className: 'number',
-        begin: /-?\b\d+\b/,
+        className: 'symbol',
+        // Match $1, $$2, $123, etc.
+        begin: /\${1,2}\d+/, 
         relevance: 0
       },
       {
-        className: 'title function',
-        // Match $1, $$2, $123, etc.
-        begin: /\${1,2}\d+/, 
+        className: 'number',
+        begin: /-?\b\d+\b/,
         relevance: 0
       }
     ]
