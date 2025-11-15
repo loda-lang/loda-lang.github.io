@@ -396,13 +396,20 @@ permalink: /programs/
     // --- Toggle PARI export display ---
     async function togglePariExport(sequenceId, button, otherButton, programContainer, programCode) {
       const pariId = `loda-pari-${sequenceId}`;
+      const pariButtonsId = `loda-pari-buttons-${sequenceId}`;
       const leanId = `loda-lean-${sequenceId}`;
+      const leanButtonsId = `loda-lean-buttons-${sequenceId}`;
       let pariContainer = document.getElementById(pariId);
+      let pariButtonsContainer = document.getElementById(pariButtonsId);
       let leanContainer = document.getElementById(leanId);
+      let leanButtonsContainer = document.getElementById(leanButtonsId);
       
       if (pariContainer) {
         // If PARI is already shown, hide it
         pariContainer.remove();
+        if (pariButtonsContainer) {
+          pariButtonsContainer.remove();
+        }
         button.textContent = BUTTON_STATES.PARI_COLLAPSED;
         return;
       }
@@ -410,6 +417,9 @@ permalink: /programs/
       // Close LEAN export if it's open
       if (leanContainer) {
         leanContainer.remove();
+        if (leanButtonsContainer) {
+          leanButtonsContainer.remove();
+        }
         otherButton.textContent = BUTTON_STATES.LEAN_COLLAPSED;
       }
       
@@ -429,6 +439,7 @@ permalink: /programs/
         
         // Create buttons container for PARI
         const pariButtonsContainer = document.createElement('div');
+        pariButtonsContainer.id = pariButtonsId;
         pariButtonsContainer.className = CSS_CLASSES.PROGRAM_BUTTONS;
         
         const pariCopyButton = document.createElement('button');
@@ -454,13 +465,20 @@ permalink: /programs/
     // --- Toggle LEAN export display ---
     async function toggleLeanExport(sequenceId, button, otherButton, programContainer, programCode) {
       const leanId = `loda-lean-${sequenceId}`;
+      const leanButtonsId = `loda-lean-buttons-${sequenceId}`;
       const pariId = `loda-pari-${sequenceId}`;
+      const pariButtonsId = `loda-pari-buttons-${sequenceId}`;
       let leanContainer = document.getElementById(leanId);
+      let leanButtonsContainer = document.getElementById(leanButtonsId);
       let pariContainer = document.getElementById(pariId);
+      let pariButtonsContainer = document.getElementById(pariButtonsId);
       
       if (leanContainer) {
         // If LEAN is already shown, hide it
         leanContainer.remove();
+        if (leanButtonsContainer) {
+          leanButtonsContainer.remove();
+        }
         button.textContent = BUTTON_STATES.LEAN_COLLAPSED;
         return;
       }
@@ -468,6 +486,9 @@ permalink: /programs/
       // Close PARI export if it's open
       if (pariContainer) {
         pariContainer.remove();
+        if (pariButtonsContainer) {
+          pariButtonsContainer.remove();
+        }
         otherButton.textContent = BUTTON_STATES.PARI_COLLAPSED;
       }
       
@@ -487,6 +508,7 @@ permalink: /programs/
         
         // Create buttons container for LEAN
         const leanButtonsContainer = document.createElement('div');
+        leanButtonsContainer.id = leanButtonsId;
         leanButtonsContainer.className = CSS_CLASSES.PROGRAM_BUTTONS;
         
         const leanCopyButton = document.createElement('button');
