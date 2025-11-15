@@ -9,7 +9,7 @@ hljs.registerLanguage('asm', function(hljs) {
     contains: [
       hljs.COMMENT(';', '$'),
       {
-        className: 'meta',
+        className: 'string',
         // Highlight directives like #offset, #foo, etc.
         begin: /#[a-zA-Z_][\w-]*/,
         relevance: 10
@@ -20,7 +20,7 @@ hljs.registerLanguage('asm', function(hljs) {
         relevance: 0
       },
       {
-        className: 'variable',
+        className: 'title function',
         // Match $1, $$2, $123, etc.
         begin: /\${1,2}\d+/, 
         relevance: 0
