@@ -19,16 +19,16 @@ Make sure you have [git](https://git-scm.com/) installed. Then run this command 
 ## Windows
 
 1. Install [Git for Windows](https://git-scm.com/download/win).
-2. Open the **Git CMD** app from your Start menu.
+2. Open **PowerShell** from your Start menu.
 3. Run these commands:
 
 ```powershell
-md "%USERPROFILE%\loda\bin"
-cd "%USERPROFILE%\loda\bin"
+md "$env:USERPROFILE\loda\bin"
+cd "$env:USERPROFILE\loda\bin"
 curl -fsSLo loda.zip https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-windows-x86.zip
-tar -xf loda.zip
+Expand-Archive -Path loda.zip -DestinationPath .
 del loda.zip
-loda setup
+.\loda setup
 ```
 
 ## Getting Started
