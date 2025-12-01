@@ -25,7 +25,7 @@ Make sure you have [git](https://git-scm.com/) installed. Then run this command 
 ```powershell
 md "$env:USERPROFILE\loda\bin"
 cd "$env:USERPROFILE\loda\bin"
-curl -fsSLo loda.zip https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-windows-x86.zip
+Invoke-WebRequest -Uri https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-windows-x86.zip -OutFile loda.zip
 Expand-Archive -Path loda.zip -DestinationPath .
 del loda.zip
 .\loda setup
