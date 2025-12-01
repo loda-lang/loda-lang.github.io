@@ -27,6 +27,7 @@ md "%USERPROFILE%\loda\bin"
 cd "%USERPROFILE%\loda\bin"
 curl -fsSLo loda.zip https://github.com/loda-lang/loda-cpp/releases/latest/download/loda-windows-x86.zip
 tar -xf loda.zip
+del loda.zip
 loda setup
 ```
 
