@@ -519,6 +519,14 @@ permalink: /programs/
         leanButtonsContainer.id = leanButtonsId;
         leanButtonsContainer.className = CSS_CLASSES.PROGRAM_BUTTONS;
         
+        // Add "Try it out" button for LEAN playground
+        const leanTryButton = document.createElement('a');
+        leanTryButton.className = CSS_CLASSES.LODA_BUTTON_SECONDARY;
+        leanTryButton.href = `https://live.lean-lang.org/#code=${encodeURIComponent(leanCode)}`;
+        leanTryButton.target = '_blank';
+        leanTryButton.textContent = 'Try it out';
+        leanButtonsContainer.appendChild(leanTryButton);
+        
         const leanCopyButton = document.createElement('button');
         leanCopyButton.className = CSS_CLASSES.LODA_BUTTON + ' copy';
         leanCopyButton.textContent = 'Copy';
