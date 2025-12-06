@@ -222,6 +222,7 @@ permalink: /programs/
     const API_BASE_URL = 'https://api.loda-lang.org/v2';
     const EDITOR_BASE_URL = 'https://loda-lang.org/edit/';
     const OEIS_BASE_URL = 'https://oeis.org/';
+    const LEAN_PLAYGROUND_URL = 'https://live.lean-lang.org/';
     
     const BUTTON_STATES = {
       COLLAPSED: 'LODA ▼',
@@ -522,7 +523,7 @@ permalink: /programs/
         // Add "Try it out" button for LEAN playground
         const leanTryButton = document.createElement('a');
         leanTryButton.className = CSS_CLASSES.LODA_BUTTON_SECONDARY;
-        leanTryButton.href = `https://live.lean-lang.org/#code=${encodeURIComponent(leanCode)}`;
+        leanTryButton.href = `${LEAN_PLAYGROUND_URL}#code=${encodeURIComponent(leanCode)}`;
         leanTryButton.target = '_blank';
         leanTryButton.textContent = 'Try it out';
         leanButtonsContainer.appendChild(leanTryButton);
