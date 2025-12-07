@@ -456,6 +456,14 @@ permalink: /programs/
         pariTryButton.href = 'https://pari.math.u-bordeaux.fr/gp.html';
         pariTryButton.target = '_blank';
         pariTryButton.textContent = 'Try it out';
+        pariTryButton.onclick = async (e) => {
+          // Copy code to clipboard before opening PARI page
+          try {
+            await navigator.clipboard.writeText(pariCode);
+          } catch (error) {
+            console.error('Failed to copy PARI code:', error);
+          }
+        };
         pariButtonsContainer.appendChild(pariTryButton);
         
         const pariCopyButton = document.createElement('button');
