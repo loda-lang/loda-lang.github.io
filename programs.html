@@ -451,6 +451,22 @@ permalink: /programs/
         pariButtonsContainer.id = pariButtonsId;
         pariButtonsContainer.className = CSS_CLASSES.PROGRAM_BUTTONS;
         
+        // Add "Try it out" button for PARI
+        const pariTryButton = document.createElement('a');
+        pariTryButton.className = CSS_CLASSES.LODA_BUTTON_SECONDARY;
+        pariTryButton.href = 'https://pari.math.u-bordeaux.fr/gp.html';
+        pariTryButton.target = '_blank';
+        pariTryButton.textContent = 'Try it out';
+        pariTryButton.onclick = async () => {
+          // Copy code to clipboard before opening PARI page
+          try {
+            await navigator.clipboard.writeText(pariCode);
+          } catch (error) {
+            console.error('Failed to copy PARI code:', error);
+          }
+        };
+        pariButtonsContainer.appendChild(pariTryButton);
+        
         const pariCopyButton = document.createElement('button');
         pariCopyButton.className = CSS_CLASSES.LODA_BUTTON + ' copy';
         pariCopyButton.textContent = 'Copy';
